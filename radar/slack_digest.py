@@ -15,7 +15,7 @@ import requests
 from . import config
 from .pipeline import load_state
 
-SITE_URL = os.environ.get("RADAR_SITE_URL", "https://radar.vceliste.cz")
+SITE_URL = os.environ.get("RADAR_SITE_URL", "https://novinky.vceliste.cz")
 
 
 def main() -> int:

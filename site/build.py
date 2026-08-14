@@ -127,7 +127,7 @@ def build() -> None:
                 _x((e.get("what") or "") + " " + (e.get("takeaway") or ""))))
     (out / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-        "<title>Marketing Radar</title><link>https://radar.vceliste.cz</link>"
+        "<title>Marketing Radar</title><link>https://novinky.vceliste.cz</link>"
         "<description>Novinky z online marketingu bez šumu</description>"
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 

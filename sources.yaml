@@ -73,6 +73,21 @@ sources:
     feed: https://www.collabim.cz/blog/feed/
     category: cesky-marketing
     lang: cs
+  - name: Týinternety
+    url: https://tyinternety.cz
+    feed: https://tyinternety.cz/feed/
+    category: cesky-marketing
+    lang: cs
+  - name: M-journal
+    url: https://www.m-journal.cz
+    feed: null
+    category: cesky-marketing
+    lang: cs
+  - name: Markething
+    url: https://www.markething.cz
+    feed: https://www.markething.cz/feed/
+    category: cesky-marketing
+    lang: cs
 
   # ── SEO ────────────────────────────────────────────────────────
   - name: Search Engine Land
@@ -139,6 +154,11 @@ sources:
     feed: https://www.linki.cz/feed/
     category: seo
     lang: cs
+  - name: Moz Blog
+    url: https://moz.com/blog
+    feed: https://moz.com/blog/feed
+    category: seo
+    lang: en
 
   # ── PPC ────────────────────────────────────────────────────────
   - name: PPC Newsfeed
@@ -228,12 +248,11 @@ sources:
     feed: https://sitevmalicku.cz/feed/
     category: socialni-site
     lang: cs
-  - name: Instagram blog
-    url: https://about.instagram.com/blog
-    feed: null
+  - name: Social Media Examiner
+    url: https://www.socialmediaexaminer.com
+    feed: https://www.socialmediaexaminer.com/feed/
     category: socialni-site
     lang: en
-    weight: 1.4
   - name: Meta Newsroom
     url: https://about.fb.com/news/
     feed: https://about.fb.com/news/feed/
@@ -297,6 +316,11 @@ sources:
     category: obsah
     lang: en
     weight: 1.2
+  - name: Think with Google
+    url: https://www.thinkwithgoogle.com
+    feed: null
+    category: obsah
+    lang: en
 
   # ── AI v marketingu ────────────────────────────────────────────
   - name: Marketing AI Institute

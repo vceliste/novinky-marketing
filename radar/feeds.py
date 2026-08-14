@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import calendar
+import gzip
 import logging
 import re
+import zlib
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
@@ -55,6 +57,22 @@ def _entry_datetime(entry) -> datetime | None:
     return None
 
 
+def _decode_body(resp: requests.Response) -> bytes:
+    """Vrátí tělo odpovědi; ošetří obsah komprimovaný bez správné hlavičky."""
+    data = resp.content
+    if data[:2] == b"\x1f\x8b":          # gzip magic bytes
+        try:
+            return gzip.decompress(data)
+        except OSError:
+            pass
+    if data[:1] not in (b"<", b"\xef") and b"<rss" not in data[:200] and b"<feed" not in data[:200]:
+        try:                              # zkusit raw deflate
+            return zlib.decompress(data, -zlib.MAX_WBITS)
+        except zlib.error:
+            pass
+    return data
+
+
 def discover_feed(site_url: str, session: requests.Session) -> str | None:
     """Zkusí najít feed přes <link rel="alternate"> a běžné cesty."""
     try:
@@ -102,18 +120,24 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
         status = "ok"
         entries = []
 
+        # zdroj bez známého feedu: zkusíme ho najít (výsledek se uloží do overrides)
+        if not feed_url:
+            feed_url = discover_feed(src["url"], session)
+
         for attempt in (1, 2):
             if not feed_url:
                 break
             try:
                 resp = session.get(feed_url, timeout=15)
-                parsed = feedparser.parse(resp.content)
+                parsed = feedparser.parse(_decode_body(resp))
                 if parsed.entries:
                     entries = parsed.entries
                     if feed_url != src.get("feed"):
                         overrides[src["name"]] = feed_url
                     break
-                raise ValueError("empty feed")
+                # diagnostika: HTTP kód + typ obsahu pomůže odhalit blokaci vs. špatnou URL
+                ctype = resp.headers.get("content-type", "?").split(";")[0]
+                raise ValueError(f"empty feed (HTTP {resp.status_code}, {ctype})")
             except Exception as e:  # noqa: BLE001
                 if attempt == 1:
                     discovered = discover_feed(src["url"], session)
@@ -123,8 +147,8 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
                         continue
                 status = f"chyba: {e}"
                 break
-        if not src.get("feed") and not feed_url:
-            status = "bez feedu"
+        if not feed_url:
+            status = "feed nenalezen"
 
         fresh = 0
         for entry in entries[:50]:
