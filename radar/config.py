@@ -11,7 +11,9 @@ SOURCES_FILE = ROOT / "sources.yaml"
 SITE_DIR = ROOT / "site"
 OUTPUT_DIR = ROOT / "_site"
 
-USER_AGENT = "VcelisteMarketingRadar/1.0 (+https://radar.vceliste.cz)"
+# Prohlížečová identifikace – řada webů (Cloudflare apod.) blokuje neznámé roboty
+USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
 # Modely – lze přepsat env proměnnými
 FAST_MODEL = os.environ.get("RADAR_FAST_MODEL", "claude-haiku-4-5")

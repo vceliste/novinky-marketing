@@ -58,7 +58,7 @@ def _entry_datetime(entry) -> datetime | None:
 def discover_feed(site_url: str, session: requests.Session) -> str | None:
     """Zkusí najít feed přes <link rel="alternate"> a běžné cesty."""
     try:
-        resp = session.get(site_url, timeout=15)
+        resp = session.get(site_url, timeout=8)
         m = re.search(
             r'<link[^>]+type=["\']application/(?:rss|atom)\+xml["\'][^>]*href=["\']([^"\']+)["\']',
             resp.text, re.I,
@@ -73,7 +73,7 @@ def discover_feed(site_url: str, session: requests.Session) -> str | None:
     for path in COMMON_FEED_PATHS:
         candidate = urljoin(site_url.rstrip("/") + "/", path)
         try:
-            r = session.get(candidate, timeout=10)
+            r = session.get(candidate, timeout=6)
             if r.ok and ("<rss" in r.text[:2000] or "<feed" in r.text[:2000]):
                 return candidate
         except requests.RequestException:
@@ -81,8 +81,14 @@ def discover_feed(site_url: str, session: requests.Session) -> str | None:
     return None
 
 
-def fetch_all(seen: dict[str, str]) -> tuple[list[Article], list[dict]]:
-    """Stáhne všechny feedy, vrátí (nové články, report o zdrojích)."""
+def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
+    """Stáhne všechny feedy, vrátí (nové články, report o zdrojích).
+
+    Funkční adresy feedů nalezené auto-detekcí se ukládají do
+    state["feed_overrides"], aby se detekce neopakovala při každém běhu.
+    """
+    seen = state.get("seen", {})
+    overrides = state.setdefault("feed_overrides", {})
     cfg = load_sources()
     session = requests.Session()
     session.headers["User-Agent"] = config.USER_AGENT
@@ -92,7 +98,7 @@ def fetch_all(seen: dict[str, str]) -> tuple[list[Article], list[dict]]:
     report: list[dict] = []
 
     for src in cfg["sources"]:
-        feed_url = src.get("feed")
+        feed_url = overrides.get(src["name"]) or src.get("feed")
         status = "ok"
         entries = []
 
@@ -100,10 +106,12 @@ def fetch_all(seen: dict[str, str]) -> tuple[list[Article], list[dict]]:
             if not feed_url:
                 break
             try:
-                resp = session.get(feed_url, timeout=20)
+                resp = session.get(feed_url, timeout=15)
                 parsed = feedparser.parse(resp.content)
                 if parsed.entries:
                     entries = parsed.entries
+                    if feed_url != src.get("feed"):
+                        overrides[src["name"]] = feed_url
                     break
                 raise ValueError("empty feed")
             except Exception as e:  # noqa: BLE001
@@ -115,7 +123,7 @@ def fetch_all(seen: dict[str, str]) -> tuple[list[Article], list[dict]]:
                         continue
                 status = f"chyba: {e}"
                 break
-        if not src.get("feed") and not entries:
+        if not src.get("feed") and not feed_url:
             status = "bez feedu"
 
         fresh = 0
