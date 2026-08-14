@@ -222,8 +222,10 @@ def run() -> int:
     ok = sum(1 for r in report if r["status"].startswith("ok"))
     log.info("Zdroje: %d/%d OK, nových článků: %d", ok, len(report), len(articles))
     for r in report:
-        if r["status"] != "ok":
+        if not r["status"].startswith("ok"):
             log.warning("Zdroj %s: %s", r["name"], r["status"])
+        elif r["status"] != "ok":
+            log.info("Zdroj %s: %s", r["name"], r["status"])
 
     kept = score_articles(articles)
     log.info("Po filtraci šumu: %d článků", len(kept))
