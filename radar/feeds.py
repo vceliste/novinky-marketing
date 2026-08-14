@@ -73,6 +73,19 @@ def _decode_body(resp: requests.Response) -> bytes:
     return data
 
 
+def _google_news_url(domain: str, lang: str) -> str:
+    """Záložní feed přes Google News pro weby, které blokují roboty nebo nemají RSS."""
+    loc = "hl=cs&gl=CZ&ceid=CZ:cs" if lang == "cs" else "hl=en-US&gl=US&ceid=US:en"
+    return (f"https://news.google.com/rss/search?"
+            f"q=site:{domain}+when:{config.MAX_ARTICLE_AGE_DAYS}d&{loc}")
+
+
+def _clean_gn_title(title: str) -> str:
+    """Google News přidává na konec titulku ' - Vydavatel'."""
+    head, sep, tail = title.rpartition(" - ")
+    return head if sep and head and len(tail) <= 40 else title
+
+
 def discover_feed(site_url: str, session: requests.Session) -> str | None:
     """Zkusí najít feed přes <link rel="alternate"> a běžné cesty."""
     try:
@@ -150,6 +163,20 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
         if not feed_url:
             status = "feed nenalezen"
 
+        # Záložní cesta: Google News RSS (weby blokující roboty / bez RSS)
+        gn_used = False
+        if not entries:
+            domain = urlparse(src["url"]).netloc.removeprefix("www.")
+            try:
+                resp = session.get(_google_news_url(domain, src.get("lang", "en")), timeout=15)
+                parsed = feedparser.parse(_decode_body(resp))
+                if parsed.entries:
+                    entries = parsed.entries
+                    gn_used = True
+                    status = f"ok (Google News; přímý feed: {status})"
+            except requests.RequestException:
+                pass
+
         fresh = 0
         for entry in entries[:50]:
             link = entry.get("link")
@@ -165,9 +192,12 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
             published = published or datetime.now(timezone.utc)
             summary = re.sub(r"<[^>]+>", " ", entry.get("summary", "") or "")
             summary = re.sub(r"\s+", " ", summary).strip()[:600]
+            title = (entry.get("title") or "").strip()[:300]
+            if gn_used:
+                title = _clean_gn_title(title)
             articles.append(Article(
                 url=url,
-                title=(entry.get("title") or "").strip()[:300],
+                title=title,
                 summary=summary,
                 source=src["name"],
                 source_weight=float(src.get("weight", 1.0)),

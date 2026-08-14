@@ -219,7 +219,7 @@ def run() -> int:
     events_by_id = {e["id"]: e for e in state["events"]}
 
     articles, report = feeds.fetch_all(state)
-    ok = sum(1 for r in report if r["status"] == "ok")
+    ok = sum(1 for r in report if r["status"].startswith("ok"))
     log.info("Zdroje: %d/%d OK, nových článků: %d", ok, len(report), len(articles))
     for r in report:
         if r["status"] != "ok":
