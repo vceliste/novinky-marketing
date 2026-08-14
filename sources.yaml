@@ -88,6 +88,28 @@ sources:
     feed: https://www.markething.cz/feed/
     category: cesky-marketing
     lang: cs
+  - name: Marketing & Media
+    url: https://mam.cz
+    feed: null
+    category: cesky-marketing
+    lang: cs
+    weight: 1.2
+  - name: Seznam blog
+    url: https://blog.seznam.cz
+    feed: https://blog.seznam.cz/feed/
+    category: cesky-marketing
+    lang: cs
+    weight: 1.4
+  - name: Heureka blog
+    url: https://heureka.group/cz-cs/blog
+    feed: null
+    category: cesky-marketing
+    lang: cs
+  - name: APEK
+    url: https://www.apek.cz
+    feed: null
+    category: cesky-marketing
+    lang: cs
 
   # ── SEO ────────────────────────────────────────────────────────
   - name: Search Engine Land
@@ -159,6 +181,18 @@ sources:
     feed: https://moz.com/blog/feed
     category: seo
     lang: en
+  - name: Google Search Status Dashboard
+    url: https://status.search.google.com/summary
+    feed: https://status.search.google.com/en/feed.atom
+    category: seo
+    lang: en
+    weight: 1.5
+    gn_site: false
+  - name: Sistrix blog
+    url: https://www.sistrix.com/blog/
+    feed: https://www.sistrix.com/blog/feed/
+    category: seo
+    lang: en
 
   # ── PPC ────────────────────────────────────────────────────────
   - name: PPC Newsfeed
@@ -183,6 +217,17 @@ sources:
     category: ppc
     lang: en
     weight: 1.5
+  - name: Microsoft Advertising blog
+    url: https://about.ads.microsoft.com/en/blog
+    feed: null
+    category: ppc
+    lang: en
+    weight: 1.4
+  - name: PPC Hero
+    url: https://www.ppchero.com
+    feed: https://www.ppchero.com/feed/
+    category: ppc
+    lang: en
 
   # ── E-mailing ──────────────────────────────────────────────────
   - name: Ecomail blog
@@ -270,6 +315,19 @@ sources:
     feed: https://www.jonloomer.com/feed/
     category: socialni-site
     lang: en
+  - name: LinkedIn Marketing blog
+    url: https://www.linkedin.com/business/marketing/blog
+    feed: null
+    category: socialni-site
+    lang: en
+    weight: 1.3
+    gn_site: linkedin.com/business/marketing
+  - name: YouTube Official Blog
+    url: https://blog.youtube
+    feed: https://blog.youtube/rss/
+    category: socialni-site
+    lang: en
+    weight: 1.3
 
   # ── Webová analytika ───────────────────────────────────────────
   - name: Simo Ahava
@@ -293,6 +351,13 @@ sources:
     feed: https://www.measurelab.co.uk/feed/
     category: analytika
     lang: en
+  - name: Google Marketing Platform blog
+    url: https://blog.google/products/marketingplatform/
+    feed: https://blog.google/products/marketingplatform/rss/
+    category: analytika
+    lang: en
+    weight: 1.4
+    gn_site: blog.google/products/marketingplatform
 
   # ── Obsahový marketing ─────────────────────────────────────────
   - name: Content Marketing Institute
@@ -321,6 +386,13 @@ sources:
     feed: null
     category: obsah
     lang: en
+  - name: Marketing Brew
+    url: https://www.morningbrew.com/marketing
+    feed: null
+    category: obsah
+    lang: en
+    weight: 1.2
+    gn_site: morningbrew.com
 
   # ── AI v marketingu ────────────────────────────────────────────
   - name: Marketing AI Institute

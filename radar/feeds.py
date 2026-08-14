@@ -164,11 +164,13 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
             status = "feed nenalezen"
 
         # Záložní cesta: Google News RSS (weby blokující roboty / bez RSS)
+        # gn_site v sources.yaml zúží dotaz (např. "linkedin.com/business/marketing"),
+        # gn_site: false zálohu vypne.
         gn_used = False
-        if not entries:
-            domain = urlparse(src["url"]).netloc.removeprefix("www.")
+        gn_site = src.get("gn_site", urlparse(src["url"]).netloc.removeprefix("www."))
+        if not entries and gn_site:
             try:
-                resp = session.get(_google_news_url(domain, src.get("lang", "en")), timeout=15)
+                resp = session.get(_google_news_url(gn_site, src.get("lang", "en")), timeout=15)
                 parsed = feedparser.parse(_decode_body(resp))
                 if parsed.entries:
                     entries = parsed.entries
