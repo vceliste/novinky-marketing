@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "_event_card.html" import event_card %}
+{% set active = 'archiv' %}
+{% block title %}Archiv{% endblock %}
+{% block content %}
+<h1 class="page-title">Archiv</h1>
+<p class="page-sub">Události posledních týdnů. Filtruj podle oblasti:</p>
+
+<div class="filters" id="filters">
+  <button class="chip chip-filter active" data-cat="all">Vše</button>
+  {% for c in categories %}
+  <button class="chip chip-filter" data-cat="{{ c.key }}">{{ c.icon }} {{ c.name }}</button>
+  {% endfor %}
+</div>
+
+{% for day in archive_days %}
+<section class="day-group" >
+  <h2 class="day-label">{{ day.label }}</h2>
+  {% for e in day.events %}
+  <div class="filterable" data-cat="{{ e.category }}">{{ event_card(e) }}</div>
+  {% endfor %}
+</section>
+{% else %}
+<p class="empty">Archiv je zatím prázdný.</p>
+{% endfor %}
+
+<script>
+document.getElementById('filters').addEventListener('click', function (ev) {
+  const btn = ev.target.closest('button[data-cat]');
+  if (!btn) return;
+  document.querySelectorAll('.chip-filter').forEach(b => b.classList.toggle('active', b === btn));
+  const cat = btn.dataset.cat;
+  document.querySelectorAll('.filterable').forEach(el => {
+    el.style.display = (cat === 'all' || el.dataset.cat === cat) ? '' : 'none';
+  });
+  document.querySelectorAll('.day-group').forEach(g => {
+    const visible = [...g.querySelectorAll('.filterable')].some(el => el.style.display !== 'none');
+    g.style.display = visible ? '' : 'none';
+  });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %} · novinky z online marketingu bez šumu</title>
+<meta name="description" content="Kurátorovaný přehled novinek z online marketingu pro české marketéry. Události místo článků – co se stalo, proč je to důležité a co z toho plyne.">
+<link rel="stylesheet" href="static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Marketing Radar" href="feed.xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">📡 <strong>Marketing&nbsp;Radar</strong></a>
+    <nav class="nav">
+      <a href="index.html" {% if active == 'index' %}class="active"{% endif %}>Dnešní přehled</a>
+      <a href="archiv.html" {% if active == 'archiv' %}class="active"{% endif %}>Archiv</a>
+      <a href="o-projektu.html" {% if active == 'o-projektu' %}class="active"{% endif %}>O projektu</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Marketing Radar · automatický přehled novinek z online marketingu · poslední aktualizace {{ last_run }}</p>
+    <p>Souhrny generuje AI výhradně z obsahu kurátorovaných zdrojů. U každé události najdete odkazy na originály.
+       <a href="feed.xml">RSS</a> · © {{ year }} <a href="https://vceliste.cz">Včeliště</a></p>
+  </div>
+</footer>
+</body>
+</html>

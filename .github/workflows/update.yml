@@ -1,0 +1,60 @@
+name: Aktualizace radaru
+
+on:
+  schedule:
+    # každé 2 hodiny mezi ~6:00 a 22:00 pražského času (UTC+2 v létě)
+    - cron: "23 4-20/2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Spustit pipeline (sběr + AI zpracování)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m radar.pipeline
+
+      - name: Uložit nová data do repozitáře
+        run: |
+          git config user.name "marketing-radar-bot"
+          git config user.email "bot@vceliste.cz"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: aktualizace $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin ${GITHUB_REF_NAME} || true
+          git push
+
+      - name: Vygenerovat web
+        run: python site/build.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

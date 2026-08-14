@@ -1,0 +1,23 @@
+{% macro event_card(e) %}
+<article class="card importance-{{ e.importance_label | replace(' ', '-') }}">
+  <div class="card-meta">
+    <span class="chip chip-cat">{{ cat(e.category).icon }} {{ cat(e.category).name }}</span>
+    <span class="chip chip-imp imp-{{ e.importance_label | replace(' ', '-') }}">{{ e.importance_label }}</span>
+    {% if e.multi_source %}
+      <span class="chip chip-verified" title="Událost potvrzuje více nezávislých zdrojů">✓ více zdrojů</span>
+    {% else %}
+      <span class="chip chip-single" title="Zatím jednozdrojová zpráva">○ jeden zdroj</span>
+    {% endif %}
+  </div>
+  <h3 class="card-title">{{ e.title }}</h3>
+  <p class="card-what">{{ e.what }}</p>
+  {% if e.why %}<p class="card-why"><strong>Proč je to důležité:</strong> {{ e.why }}</p>{% endif %}
+  {% if e.takeaway %}<p class="card-takeaway"><strong>Co z toho plyne:</strong> {{ e.takeaway }}</p>{% endif %}
+  <div class="card-sources">
+    Zdroje:
+    {% for name, url in e.sources_list %}
+      <a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </div>
+</article>
+{% endmacro %}

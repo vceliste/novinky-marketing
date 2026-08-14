@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% set active = 'o-projektu' %}
+{% block title %}O projektu{% endblock %}
+{% block content %}
+<h1 class="page-title">O projektu</h1>
+
+<section class="prose">
+<p><strong>Marketing Radar</strong> je automatický přehled novinek z online marketingu pro české marketéry.
+Nezobrazuje články, ale <strong>události</strong>: když o stejné novince napíše víc webů, vznikne z toho jedna
+karta – co se stalo, proč je to důležité, co z toho plyne – s odkazy na všechny originály.</p>
+
+<h2>Jak to funguje</h2>
+<ol>
+<li>Systém průběžně sleduje <strong>{{ n_sources }} kurátorovaných zdrojů</strong> – oficiální blogy platforem, oborová média česká i zahraniční, specialisty a výzkum.</li>
+<li>Rychlý AI model každý článek ohodnotí a vyřadí šum: návody, evergreen obsah, PR a marketing nástrojů.</li>
+<li>Články o stejné věci se spojí do jedné události – sporné případy se automaticky neslučují.</li>
+<li>Silnější AI model porovná, co jednotlivé zdroje píší, a napíše český souhrn s praktickým dopadem pro marketéry.</li>
+<li>AI nesmí doplňovat fakta z vlastní paměti – pracuje jen s tím, co je ve zdrojích. Každá karta otevřeně ukazuje, kolika zdroji je doložená.</li>
+</ol>
+
+<h2>Hodnocení důležitosti</h2>
+<p>Důležitost neurčuje popularita, ale dopad na praxi: <span class="chip chip-imp imp-zásadní">zásadní</span>
+<span class="chip chip-imp imp-důležité">důležité</span>
+<span class="chip chip-imp imp-stojí-za-pozornost">stojí za pozornost</span>
+<span class="chip chip-imp imp-kontext">kontext</span></p>
+
+<h2>Sledované zdroje</h2>
+{% for c in categories %}
+<h3>{{ c.icon }} {{ c.name }}</h3>
+<p class="sources-line">
+{% for s in sources if s.category == c.key %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+</p>
+{% endfor %}
+
+<p>Projekt provozuje <a href="https://vceliste.cz">Včeliště</a>. Chybí vám tu zdroj, který stojí za sledování? Napište nám.</p>
+</section>
+{% endblock %}

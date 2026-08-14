@@ -1,0 +1,307 @@
+# Kurátorované zdroje Marketing Radaru
+# feed: URL RSS/Atom feedu. Pokud feed nefunguje/chybí, pipeline zkusí
+#       automatickou detekci (/feed/, /rss, <link rel="alternate">, …).
+# weight: 1.0 = běžný zdroj, vyšší = důvěryhodnější/prioritnější při výběru.
+
+categories:
+  - key: cesky-marketing
+    name: "Český marketing"
+    icon: "🇨🇿"
+  - key: seo
+    name: "SEO"
+    icon: "🔍"
+  - key: ppc
+    name: "PPC"
+    icon: "💰"
+  - key: emailing
+    name: "E-mailing"
+    icon: "📧"
+  - key: socialni-site
+    name: "Sociální sítě"
+    icon: "📱"
+  - key: analytika
+    name: "Webová analytika"
+    icon: "📊"
+  - key: obsah
+    name: "Obsahový marketing"
+    icon: "✍️"
+  - key: ai
+    name: "AI v marketingu"
+    icon: "🤖"
+
+sources:
+  # ── Český marketing ────────────────────────────────────────────
+  - name: MediaGuru
+    url: https://www.mediaguru.cz
+    feed: https://www.mediaguru.cz/rss/
+    category: cesky-marketing
+    lang: cs
+    weight: 1.2
+  - name: Médiář
+    url: https://www.mediar.cz
+    feed: https://www.mediar.cz/feed/
+    category: cesky-marketing
+    lang: cs
+    weight: 1.2
+  - name: Digichef
+    url: https://digichef.cz
+    feed: https://digichef.cz/feed/
+    category: cesky-marketing
+    lang: cs
+  - name: eVisions blog
+    url: https://www.evisions.cz/blog/
+    feed: https://www.evisions.cz/feed/
+    category: cesky-marketing
+    lang: cs
+  - name: Shoptet blog
+    url: https://blog.shoptet.cz
+    feed: https://blog.shoptet.cz/feed/
+    category: cesky-marketing
+    lang: cs
+  - name: CzechCrunch
+    url: https://cc.cz
+    feed: https://cc.cz/feed/
+    category: cesky-marketing
+    lang: cs
+  - name: Lupa.cz
+    url: https://www.lupa.cz
+    feed: https://www.lupa.cz/rss/clanky/
+    category: cesky-marketing
+    lang: cs
+  - name: Collabim blog
+    url: https://www.collabim.cz/blog
+    feed: https://www.collabim.cz/blog/feed/
+    category: cesky-marketing
+    lang: cs
+
+  # ── SEO ────────────────────────────────────────────────────────
+  - name: Search Engine Land
+    url: https://searchengineland.com
+    feed: https://searchengineland.com/feed
+    category: seo
+    lang: en
+    weight: 1.3
+  - name: Search Engine Journal
+    url: https://www.searchenginejournal.com
+    feed: https://www.searchenginejournal.com/feed/
+    category: seo
+    lang: en
+    weight: 1.2
+  - name: Search Engine Roundtable
+    url: https://www.seroundtable.com
+    feed: https://feeds.feedburner.com/SearchEngineRoundtable1
+    category: seo
+    lang: en
+    weight: 1.3
+  - name: Google Search Central Blog
+    url: https://developers.google.com/search/blog
+    feed: https://feeds.feedburner.com/blogspot/amDG
+    category: seo
+    lang: en
+    weight: 1.5
+  - name: Ahrefs blog
+    url: https://ahrefs.com/blog
+    feed: https://ahrefs.com/blog/feed/
+    category: seo
+    lang: en
+  - name: Semrush blog
+    url: https://www.semrush.com/blog
+    feed: https://www.semrush.com/blog/feed/
+    category: seo
+    lang: en
+  - name: Backlinko
+    url: https://backlinko.com
+    feed: https://backlinko.com/feed
+    category: seo
+    lang: en
+  - name: Yoast
+    url: https://yoast.com/seo-blog/
+    feed: https://yoast.com/feed/
+    category: seo
+    lang: en
+  - name: Pavel Ungr
+    url: https://www.pavelungr.cz
+    feed: https://www.pavelungr.cz/feed/
+    category: seo
+    lang: cs
+  - name: Lumar
+    url: https://www.lumar.io/blog/
+    feed: https://www.lumar.io/feed/
+    category: seo
+    lang: en
+  - name: Rank Math
+    url: https://rankmath.com/blog/
+    feed: https://rankmath.com/feed/
+    category: seo
+    lang: en
+  - name: Linki.cz
+    url: https://www.linki.cz
+    feed: https://www.linki.cz/feed/
+    category: seo
+    lang: cs
+
+  # ── PPC ────────────────────────────────────────────────────────
+  - name: PPC Newsfeed
+    url: https://www.ppcnewsfeed.com
+    feed: https://www.ppcnewsfeed.com/feed/
+    category: ppc
+    lang: en
+    weight: 1.2
+  - name: Hana Kobzová
+    url: https://www.hanakobzova.cz
+    feed: https://www.hanakobzova.cz/feed/
+    category: ppc
+    lang: cs
+  - name: Jirkont
+    url: https://www.jirkont.cz
+    feed: https://www.jirkont.cz/feed/
+    category: ppc
+    lang: cs
+  - name: Google Ads & Commerce Blog
+    url: https://blog.google/products/ads-commerce/
+    feed: https://blog.google/products/ads-commerce/rss/
+    category: ppc
+    lang: en
+    weight: 1.5
+
+  # ── E-mailing ──────────────────────────────────────────────────
+  - name: Ecomail blog
+    url: https://blog.ecomail.cz
+    feed: https://blog.ecomail.cz/feed/
+    category: emailing
+    lang: cs
+  - name: SmartEmailing blog
+    url: https://www.smartemailing.cz/blog/
+    feed: https://www.smartemailing.cz/feed/
+    category: emailing
+    lang: cs
+  - name: Mailujeme
+    url: https://mailujeme.cz
+    feed: https://mailujeme.cz/feed/
+    category: emailing
+    lang: cs
+  - name: Litmus
+    url: https://www.litmus.com/blog
+    feed: https://www.litmus.com/blog/feed
+    category: emailing
+    lang: en
+  - name: Email on Acid
+    url: https://www.emailonacid.com/blog/
+    feed: https://www.emailonacid.com/feed/
+    category: emailing
+    lang: en
+  - name: emailmonday
+    url: https://www.emailmonday.com
+    feed: https://www.emailmonday.com/feed/
+    category: emailing
+    lang: en
+  - name: GetResponse blog
+    url: https://www.getresponse.com/blog
+    feed: https://www.getresponse.com/blog/feed
+    category: emailing
+    lang: en
+  - name: ActiveCampaign blog
+    url: https://www.activecampaign.com/blog
+    feed: https://www.activecampaign.com/blog/feed
+    category: emailing
+    lang: en
+
+  # ── Sociální sítě ──────────────────────────────────────────────
+  - name: Social Media Today
+    url: https://www.socialmediatoday.com
+    feed: https://www.socialmediatoday.com/feeds/news/
+    category: socialni-site
+    lang: en
+    weight: 1.2
+  - name: Sprout Social
+    url: https://sproutsocial.com/insights/
+    feed: https://sproutsocial.com/insights/feed/
+    category: socialni-site
+    lang: en
+  - name: Hootsuite blog
+    url: https://blog.hootsuite.com
+    feed: https://blog.hootsuite.com/feed/
+    category: socialni-site
+    lang: en
+  - name: Síť v malíčku
+    url: https://sitevmalicku.cz
+    feed: https://sitevmalicku.cz/feed/
+    category: socialni-site
+    lang: cs
+  - name: Instagram blog
+    url: https://about.instagram.com/blog
+    feed: null
+    category: socialni-site
+    lang: en
+    weight: 1.4
+  - name: Meta Newsroom
+    url: https://about.fb.com/news/
+    feed: https://about.fb.com/news/feed/
+    category: socialni-site
+    lang: en
+    weight: 1.4
+  - name: TikTok Newsroom
+    url: https://newsroom.tiktok.com
+    feed: https://newsroom.tiktok.com/en-us/rss
+    category: socialni-site
+    lang: en
+    weight: 1.4
+  - name: Jon Loomer
+    url: https://www.jonloomer.com
+    feed: https://www.jonloomer.com/feed/
+    category: socialni-site
+    lang: en
+
+  # ── Webová analytika ───────────────────────────────────────────
+  - name: Simo Ahava
+    url: https://www.simoahava.com
+    feed: https://www.simoahava.com/index.xml
+    category: analytika
+    lang: en
+    weight: 1.2
+  - name: Analytics Mania
+    url: https://www.analyticsmania.com
+    feed: https://www.analyticsmania.com/feed/
+    category: analytika
+    lang: en
+  - name: MeasureSchool
+    url: https://measureschool.com
+    feed: https://measureschool.com/feed/
+    category: analytika
+    lang: en
+  - name: Measurelab
+    url: https://www.measurelab.co.uk
+    feed: https://www.measurelab.co.uk/feed/
+    category: analytika
+    lang: en
+
+  # ── Obsahový marketing ─────────────────────────────────────────
+  - name: Content Marketing Institute
+    url: https://contentmarketinginstitute.com
+    feed: https://contentmarketinginstitute.com/feed
+    category: obsah
+    lang: en
+  - name: Copyblogger
+    url: https://copyblogger.com
+    feed: https://copyblogger.com/feed/
+    category: obsah
+    lang: en
+  - name: HubSpot Marketing Blog
+    url: https://blog.hubspot.com/marketing
+    feed: https://blog.hubspot.com/marketing/rss.xml
+    category: obsah
+    lang: en
+  - name: MarTech
+    url: https://martech.org
+    feed: https://martech.org/feed/
+    category: obsah
+    lang: en
+    weight: 1.2
+
+  # ── AI v marketingu ────────────────────────────────────────────
+  - name: Marketing AI Institute
+    url: https://www.marketingaiinstitute.com/blog
+    feed: https://www.marketingaiinstitute.com/blog/rss.xml
+    category: ai
+    lang: en
+    weight: 1.2

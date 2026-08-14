@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_event_card.html" import event_card %}
+{% set active = 'index' %}
+{% block title %}Dnešní přehled{% endblock %}
+{% block content %}
+<h1 class="page-title">{% if is_today %}Dnešní přehled{% else %}Poslední přehled{% endif %}</h1>
+<p class="page-sub">{{ front_label }}{% if not is_today %} · dnes zatím nic nového neprošlo filtrem{% endif %}</p>
+
+{% if highlights %}
+<section class="highlights">
+  <h2>⭐ Nestíháš? Přečti aspoň tohle</h2>
+  <ul>
+  {% for e in highlights %}
+    <li><strong>{{ e.title }}</strong> — {{ e.why or e.what }}</li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if events %}
+  {% for e in events %}{{ event_card(e) }}{% endfor %}
+{% else %}
+  <p class="empty">Zatím žádné události. Radar sbírá data – první přehled se objeví po několika bězích.</p>
+{% endif %}
+{% endblock %}
