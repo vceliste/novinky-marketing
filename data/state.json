@@ -274,7 +274,8 @@
   "https://www.mediaguru.cz/navstevnost-slovenskych-webu-je-nad-tremi-miliony": "2026-08-15T07:09:13.546531+00:00",
   "https://www.mediaguru.cz/prispevek-na-stravu-vitezi-mezi-zamestnaneckymi-benefity-tvrdi-vyzkum": "2026-08-15T07:09:13.546531+00:00",
   "https://cc.cz/nejmin-sto-investoru-jim-reklo-ne-ted-ma-jejich-nakupni-aplikace-hodnotu-420-miliard-korun": "2026-08-15T07:09:13.546531+00:00",
-  "https://www.mediaguru.cz/vsechnoparty-znovu-patril-prazdninovy-patecni-vecer": "2026-08-15T08:51:57.561899+00:00"
+  "https://www.mediaguru.cz/vsechnoparty-znovu-patril-prazdninovy-patecni-vecer": "2026-08-15T08:51:57.561899+00:00",
+  "https://cc.cz/poslete-zpravu-z-prahy-do-brna-a-na-telefon-dorazi-az-po-hodine-nova-aplikace-funguje-jako-postovni-holub": "2026-08-15T10:50:29.611161+00:00"
  },
  "events": [
   {
@@ -2609,13 +2610,13 @@
    "multi_source": false
   }
  ],
- "last_run": "2026-08-15T08:51:57.561899+00:00",
+ "last_run": "2026-08-15T10:50:29.611161+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -2645,7 +2646,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -2662,7 +2663,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f52e5dfd6d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f6e9ec72150>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -2752,7 +2753,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -2806,7 +2807,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f6e9ea5ae40>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -2836,7 +2837,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
