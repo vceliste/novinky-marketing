@@ -322,7 +322,9 @@
   "https://cc.cz/miliardovy-byznys-s-rele-luxusni-byty-u-vltavy-a-neutajitelne-ai-texty-tohle-jsou-top-clanky-tydne": "2026-08-16T16:54:30.323444+00:00",
   "https://news.google.com/rss/articles/CBMiP0FVX3lxTE4yQWMyVndwLU9ZcGoyVWtCVk83VTduSmZKQ3F2cjdUMEttV1ZlcG90NHJqVGE0YnBnZXIybXptMA?oc=5": "2026-08-16T16:54:30.323444+00:00",
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5": "2026-08-16T16:54:30.323444+00:00",
-  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHemtCNnZoZG1WVDdNRWdkbWllSURWQzlZX1p4NFQ2RzFIRG5ZSkZjUWhuT1VBZWU0MFgzT0pOYU9EVlR1OS1aTDloZzFlRWQ2bEow?oc=5": "2026-08-16T16:54:30.323444+00:00"
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHemtCNnZoZG1WVDdNRWdkbWllSURWQzlZX1p4NFQ2RzFIRG5ZSkZjUWhuT1VBZWU0MFgzT0pOYU9EVlR1OS1aTDloZzFlRWQ2bEow?oc=5": "2026-08-16T16:54:30.323444+00:00",
+  "https://www.lupa.cz/clanky/schrodingerova-krabice-v-olomouci-rekord-ve-fourierove-transformaci-kvantove-atomove-hodiny-v-radarech": "2026-08-16T18:57:19.641042+00:00",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tcnJfaktxRnloN2I4SEdMQUxrem9hY1dWMHYxNjhQdUdJNmJBVHRGY0M3dm1nTnViTnVwRDVUbkZHTjhreDRWc3FwQ3FpSmpjRTNMYnlpM09FRW9mQl9LRWFVdnBqUmduNko5eTZqWjdlS0lGSU5iQ2c3SjQ?oc=5": "2026-08-16T18:57:19.641042+00:00"
  },
  "events": [
   {
@@ -2918,7 +2920,7 @@
    "multi_source": false
   }
  ],
- "last_run": "2026-08-16T16:54:30.323444+00:00",
+ "last_run": "2026-08-16T18:57:19.641042+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -2954,13 +2956,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -2971,7 +2973,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f1d064ed4f0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc85b14dee0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -3008,7 +3010,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -3115,7 +3117,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f1d064d6390>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fc85b36b7d0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -3133,8 +3135,8 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Ecomail blog",
@@ -3229,7 +3231,7 @@
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -3295,7 +3297,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
    "new": 0
   },
   {
