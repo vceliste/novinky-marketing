@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Vyhledávání{% endblock %}
+{% block content %}
+<h1 class="page-title">Vyhledávání</h1>
+<p class="page-sub">Hledá v titulcích, souhrnech i názvech zdrojů všech událostí v archivu.</p>
+
+<form class="search-form" onsubmit="return false">
+  <input type="search" id="q" placeholder="Např. Performance Max, GA4, Sklik…" autofocus autocomplete="off">
+</form>
+<div id="results"></div>
+
+<script>
+let INDEX = null;
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const resEl = document.getElementById('results');
+const qEl = document.getElementById('q');
+
+fetch('/search-index.json').then(r => r.json()).then(d => {
+  INDEX = d.map(e => ({...e, _t: norm(e.t), _x: norm(e.x)}));
+  if (qEl.value) render(qEl.value);
+});
+
+function render(query) {
+  if (!INDEX) return;
+  const q = norm(query.trim());
+  if (q.length < 2) { resEl.innerHTML = ''; return; }
+  const words = q.split(/\s+/);
+  const hits = INDEX.filter(e => words.every(w => e._t.includes(w) || e._x.includes(w)));
+  hits.sort((a, b) => {
+    const at = words.some(w => a._t.includes(w)), bt = words.some(w => b._t.includes(w));
+    if (at !== bt) return at ? -1 : 1;
+    return b.d.localeCompare(a.d);
+  });
+  resEl.innerHTML = hits.length
+    ? hits.slice(0, 50).map(e => `
+      <a class="search-hit" href="/udalost/${e.id}.html">
+        <span class="hit-title">${esc(e.t)}</span>
+        <span class="hit-meta">${e.d.split('-').reverse().join('. ')} · ${esc(e.i)}</span>
+        <span class="hit-snippet">${esc(e.x.slice(0, 180))}…</span>
+      </a>`).join('')
+    : '<p class="empty">Nic nenalezeno. Zkuste jiný výraz.</p>';
+}
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+qEl.addEventListener('input', () => render(qEl.value));
+</script>
+{% endblock %}

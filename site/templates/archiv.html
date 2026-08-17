@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 {% from "_event_card.html" import event_card %}
-{% set active = 'archiv' %}
 {% block title %}Archiv{% endblock %}
 {% block content %}
 <h1 class="page-title">Archiv</h1>
-<p class="page-sub">Události posledních týdnů. Filtruj podle oblasti:</p>
+<p class="page-sub">Všechny události posledních týdnů. Filtruj podle oblasti:</p>
 
 <div class="filters" id="filters">
   <button class="chip chip-filter active" data-cat="all">Vše</button>
@@ -14,7 +13,7 @@
 </div>
 
 {% for day in archive_days %}
-<section class="day-group" >
+<section class="day-group">
   <h2 class="day-label">{{ day.label }}</h2>
   {% for e in day.events %}
   <div class="filterable" data-cat="{{ e.category }}">{{ event_card(e) }}</div>

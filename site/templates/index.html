@@ -1,25 +1,24 @@
 {% extends "base.html" %}
-{% from "_event_card.html" import event_card %}
-{% set active = 'index' %}
-{% block title %}Dnešní přehled{% endblock %}
+{% from "_event_card.html" import hero_card, event_row %}
+{% block title %}Nejdůležitější z marketingu{% endblock %}
 {% block content %}
-<h1 class="page-title">{% if is_today %}Dnešní přehled{% else %}Poslední přehled{% endif %}</h1>
-<p class="page-sub">{{ front_label }}{% if not is_today %} · dnes zatím nic nového neprošlo filtrem{% endif %}</p>
+<h1 class="page-title">Nejdůležitější z marketingového světa</h1>
+<p class="page-sub">To podstatné z posledního týdne podle oblastí — bez šumu, s odkazy na originály.</p>
 
-{% if highlights %}
-<section class="highlights">
-  <h2>⭐ Nestíháš? Přečti aspoň tohle</h2>
-  <ul>
-  {% for e in highlights %}
-    <li><strong>{{ e.title }}</strong> — {{ e.why or e.what }}</li>
-  {% endfor %}
-  </ul>
+{% for s in home_sections %}
+<section class="home-section">
+  <div class="section-head">
+    <h2><a href="/kategorie/{{ s.cat.key }}.html">{{ s.cat.icon }} {{ s.cat.name }}</a></h2>
+    <a class="more-link" href="/kategorie/{{ s.cat.key }}.html">Více z kategorie →</a>
+  </div>
+  {{ hero_card(s.hero) }}
+  {% if s.rest %}
+  <div class="event-rows">
+    {% for e in s.rest %}{{ event_row(e) }}{% endfor %}
+  </div>
+  {% endif %}
 </section>
-{% endif %}
-
-{% if events %}
-  {% for e in events %}{{ event_card(e) }}{% endfor %}
 {% else %}
-  <p class="empty">Zatím žádné události. Radar sbírá data – první přehled se objeví po několika bězích.</p>
-{% endif %}
+<p class="empty">Zatím žádné události. Radar sbírá data – přehled se objeví po několika bězích.</p>
+{% endfor %}
 {% endblock %}

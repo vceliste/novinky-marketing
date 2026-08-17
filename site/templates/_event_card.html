@@ -1,23 +1,59 @@
-{% macro event_card(e) %}
-<article class="card importance-{{ e.importance_label | replace(' ', '-') }}">
+{% macro meta_chips(e) %}
   <div class="card-meta">
-    <span class="chip chip-cat">{{ cat(e.category).icon }} {{ cat(e.category).name }}</span>
+    <a class="chip chip-cat" href="/kategorie/{{ e.category }}.html">{{ cat(e.category).icon }} {{ cat(e.category).name }}</a>
     <span class="chip chip-imp imp-{{ e.importance_label | replace(' ', '-') }}">{{ e.importance_label }}</span>
     {% if e.multi_source %}
       <span class="chip chip-verified" title="Událost potvrzuje více nezávislých zdrojů">✓ více zdrojů</span>
     {% else %}
       <span class="chip chip-single" title="Zatím jednozdrojová zpráva">○ jeden zdroj</span>
     {% endif %}
+    <span class="chip chip-date">{{ e.day_label }}</span>
   </div>
-  <h3 class="card-title">{{ e.title }}</h3>
-  <p class="card-what">{{ e.what }}</p>
-  {% if e.why %}<p class="card-why"><strong>Proč je to důležité:</strong> {{ e.why }}</p>{% endif %}
-  {% if e.takeaway %}<p class="card-takeaway"><strong>Co z toho plyne:</strong> {{ e.takeaway }}</p>{% endif %}
+{% endmacro %}
+
+{% macro sources_line(e) %}
   <div class="card-sources">
     Zdroje:
     {% for name, url in e.sources_list %}
       <a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>{% if not loop.last %} · {% endif %}
     {% endfor %}
   </div>
+{% endmacro %}
+
+{% macro event_card(e) %}
+<article class="card">
+  {{ meta_chips(e) }}
+  <h3 class="card-title"><a href="/udalost/{{ e.id }}.html">{{ e.title }}</a></h3>
+  <p class="card-what">{{ e.what }}</p>
+  {% if e.why %}<p class="card-why"><strong>Proč je to důležité:</strong> {{ e.why }}</p>{% endif %}
+  {% if e.takeaway %}<p class="card-takeaway"><strong>Co z toho plyne:</strong> {{ e.takeaway }}</p>{% endif %}
+  {{ sources_line(e) }}
 </article>
+{% endmacro %}
+
+{% macro hero_card(e) %}
+<article class="card hero-card">
+  <div class="hero-media">
+    {% if e.image_url %}
+      <img src="{{ e.image_url }}" alt="" loading="lazy">
+    {% else %}
+      <div class="hero-placeholder cat-bg-{{ e.category }}"><span>{{ cat(e.category).icon }}</span></div>
+    {% endif %}
+  </div>
+  <div class="hero-body">
+    {{ meta_chips(e) }}
+    <h3 class="card-title hero-title"><a href="/udalost/{{ e.id }}.html">{{ e.title }}</a></h3>
+    <p class="card-what">{{ e.what }}</p>
+    {% if e.takeaway %}<p class="card-takeaway"><strong>Co z toho plyne:</strong> {{ e.takeaway }}</p>{% endif %}
+    {{ sources_line(e) }}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro event_row(e) %}
+<a class="event-row" href="/udalost/{{ e.id }}.html">
+  <span class="row-imp imp-{{ e.importance_label | replace(' ', '-') }}"></span>
+  <span class="row-title">{{ e.title }}</span>
+  <span class="row-date">{{ e.day[8:] }}. {{ e.day[5:7] | int }}.</span>
+</a>
 {% endmacro %}

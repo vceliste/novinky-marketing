@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% from "_event_card.html" import meta_chips %}
+{% set active_cat = e.category %}
+{% block title %}{{ e.title }}{% endblock %}
+{% block description %}{{ e.what | truncate(150) }}{% endblock %}
+{% block content %}
+<article class="event-detail">
+  {{ meta_chips(e) }}
+  <h1 class="page-title event-title">{{ e.title }}</h1>
+
+  {% if e.image_url %}
+  <figure class="event-image">
+    <img src="{{ e.image_url }}" alt="">
+    {% if e.image_from %}<figcaption>Náhledový obrázek: {{ e.image_from }}</figcaption>{% endif %}
+  </figure>
+  {% else %}
+  <div class="event-image hero-placeholder cat-bg-{{ e.category }}"><span>{{ cat(e.category).icon }}</span></div>
+  {% endif %}
+
+  <section class="detail-block">
+    <h2>Co se stalo</h2>
+    <p>{{ e.what }}</p>
+  </section>
+  {% if e.why %}
+  <section class="detail-block">
+    <h2>Proč je to důležité</h2>
+    <p>{{ e.why }}</p>
+  </section>
+  {% endif %}
+  {% if e.takeaway %}
+  <section class="detail-block detail-takeaway">
+    <h2>Co z toho plyne</h2>
+    <p>{{ e.takeaway }}</p>
+  </section>
+  {% endif %}
+
+  <section class="detail-block">
+    <h2>Původní zdroje ({{ e.articles | length }})</h2>
+    <ul class="source-list">
+      {% for a in e.articles %}
+      <li>
+        <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title or a.url }}</a>
+        <span class="source-meta">{{ a.source }} · {{ a.published[:10] }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <p class="back-links">
+    <a href="/kategorie/{{ e.category }}.html">← Další události z kategorie {{ cat(e.category).name }}</a> ·
+    <a href="/">Přehled</a>
+  </p>
+</article>
+{% endblock %}

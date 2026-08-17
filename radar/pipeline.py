@@ -24,16 +24,32 @@ log = logging.getLogger("radar.pipeline")
 CATEGORY_KEYS = ["cesky-marketing", "seo", "ppc", "emailing",
                  "socialni-site", "analytika", "obsah", "ai"]
 
-SCORE_SYSTEM = """Jsi editor českého webu Marketing Radar – přehledu novinek z online marketingu \
-pro české marketéry (SEO, PPC, e-mailing, sociální sítě, analytika, obsah, AI v marketingu, český trh).
+PERSONA_RUBRIC = """CÍLOVÉ PUBLIKUM (důležitost hodnoť VÝHRADNĚ jeho očima):
+1. PRIMÁRNÍ: marketingový manažer české firmy. Řídí rozpočet a kanály (Google Ads, Sklik, Meta, \
+e-mail, SEO, web, sociální sítě). Zajímá ho jen: Co mám změnit? Co mě bude stát/ušetří peníze? \
+Jaká nová příležitost nebo riziko se objevuje?
+2. SEKUNDÁRNÍ: český freelance specialista na jednu oblast (SEO / PPC / e-mailing / soc. sítě / \
+analytika) – ocení i hlubší novinky ve své specializaci.
 
-Ohodnoť každý článek podle INFORMAČNÍ HODNOTY ZPRÁVY (0–100):
-- 80–100: zásadní novinka měnící praxi (nová funkce/ceník/pravidla platforem, algoritmus, regulace)
-- 60–79: důležitá novinka, kterou by měl marketér zaznamenat
-- 40–59: stojí za pozornost (menší update, zajímavá data/studie)
-- 0–39: ŠUM – návody a evergreen obsah ("jak na..."), marketing nástrojů, PR, opakování starých zpráv, obecné tipy
+ŠKÁLA DŮLEŽITOSTI:
+- 80–100 (zásadní): mění praxi nebo rozpočty v ČR – změny algoritmů a pravidel platforem, ceníky, \
+nové formáty/funkce dostupné v ČR/EU, regulace a termíny (DSA, GDPR, consent), zásadní změny \
+nástrojů běžně používaných v ČR (GA4, Ecomail, Collabim, Sklik…).
+- 60–79 (důležité): významná novinka s reálným dopadem na práci cílovky, i když ne okamžitým; \
+důležitá čísla o českém trhu; velké novinky zatím jen v USA, které do ČR pravděpodobně dorazí.
+- 40–59 (stojí za pozornost): menší updaty, zajímavé studie, kontext trendů.
+- 0–39 (šum/zákulisí): OBOROVÉ ZÁKULISÍ – tendry a výběrová řízení, personální změny, dění \
+v asociacích a mediálních/reklamních agenturách (např. „SPIR hledá dodavatele AdMonitoringu" – \
+pro cílovku NEDŮLEŽITÉ), PR a fundraising firem, obecné AI zprávy bez marketingového využití, \
+návody a evergreen obsah.
 
-Zprávy relevantní pro český trh hodnoť o ~10 bodů výš.
+Bonus ~10 bodů za přímou relevanci pro český trh (Sklik, Zboží, Heureka, česká regulace, česká data)."""
+
+SCORE_SYSTEM = """Jsi editor českého webu Marketing Radar – přehledu novinek z online marketingu.
+
+""" + PERSONA_RUBRIC + """
+
+Ohodnoť každý článek skóre 0–100 podle škály výše.
 Ke každému článku urči i nejvhodnější kategorii z: {cats}.
 
 Odpověz POUZE validním JSON polem:
@@ -51,19 +67,24 @@ Odpověz POUZE validním JSON polem:
 [{"id": "...", "event": "<id existující události>" | "new", "group": <číslo skupiny pro nové, jinak null>}]"""
 
 SUMMARY_SYSTEM = """Píšeš pro český web Marketing Radar. Z dodaných článků (titulky, anotace, zdroje) \
-napiš souhrn JEDNÉ události pro české marketéry.
+napiš souhrn JEDNÉ události.
+
+""" + PERSONA_RUBRIC + """
 
 PRAVIDLA:
 - Vycházej VÝHRADNĚ z dodaných textů. Nedoplňuj fakta z vlastní paměti. Co ve zdrojích není, nepiš.
 - Piš česky, věcně, bez marketingových frází a bez superlativů.
 - Pokud se zdroje v něčem liší nebo něco není potvrzené, řekni to.
+- "takeaway" piš jako konkrétní doporučení pro primární personu (marketingový manažer české firmy): \
+co udělat, zkontrolovat, naplánovat nebo sledovat.
+- "importance" urči přísně podle škály výše – při pochybnostech dej NIŽŠÍ hodnotu.
 
 Odpověz POUZE validním JSON objektem:
 {
   "title": "úderný český titulek, max 90 znaků",
   "what": "Co se stalo – 2–3 věty.",
-  "why": "Proč je to důležité – 1–2 věty.",
-  "takeaway": "Co z toho plyne pro české marketéry – 1–2 konkrétní věty.",
+  "why": "Proč je to důležité pro cílovku – 1–2 věty.",
+  "takeaway": "Co z toho plyne – 1–2 konkrétní věty pro marketingového manažera v ČR.",
   "importance": 0-100,
   "category": "jedna z: %s"
 }""" % ", ".join(CATEGORY_KEYS)
@@ -265,6 +286,29 @@ def run() -> int:
         ev["importance_label"] = config.importance_label(ev.get("importance", 0))
         ev["multi_source"] = len({a["domain"] for a in ev["articles"]}) >= 2
     log.info("Aktualizováno událostí: %d", len(touched))
+
+    # Jednorázové přehodnocení starších událostí novým hodnocením pro cílovou personu
+    if not config.MOCK and not state.get("persona_rescore_v2"):
+        touched_ids = {ev["id"] for ev in touched}
+        candidates = [e for e in state["events"]
+                      if e["id"] not in touched_ids and e.get("title")
+                      and e.get("importance", 0) >= 40][:60]
+        log.info("Persona rescore: přehodnocuji %d starších událostí", len(candidates))
+        for ev in candidates:
+            try:
+                summarize_event(ev)
+                ev["importance_label"] = config.importance_label(ev.get("importance", 0))
+            except Exception:
+                log.exception("Rescore události %s selhal", ev["id"])
+        state["persona_rescore_v2"] = True
+
+    # Náhledové obrázky k důležitým událostem (og:image z původních článků)
+    if not config.MOCK:
+        try:
+            from . import images
+            images.ensure_images(state["events"])
+        except Exception:
+            log.exception("Stahování obrázků selhalo")
 
     # označit zpracované články jako viděné (i ty vyfiltrované)
     for a in articles:

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% from "_event_card.html" import hero_card, event_card %}
+{% set active_cat = cat.key %}
+{% block title %}{{ cat.name }}{% endblock %}
+{% block content %}
+<h1 class="page-title">{{ cat.icon }} {{ cat.name }}</h1>
+<p class="page-sub">Události z oblasti {{ cat.name }} za poslední týdny, nejdůležitější nahoře.</p>
+
+{% if hero %}
+<section class="cat-hero">
+  <h2 class="section-label">Nejdůležitější</h2>
+  {{ hero_card(hero) }}
+</section>
+{% endif %}
+
+{% for day in days %}
+<section class="day-group">
+  <h2 class="day-label">{{ day.label }}</h2>
+  {% for e in day.events %}{% if not hero or e.id != hero.id %}{{ event_card(e) }}{% endif %}{% endfor %}
+</section>
+{% else %}
+<p class="empty">V této kategorii zatím nejsou žádné události.</p>
+{% endfor %}
+{% endblock %}
