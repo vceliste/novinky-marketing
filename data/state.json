@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-17T16:58:32.190467+00:00",
+ "last_run": "2026-08-17T19:11:06.447024+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -22,7 +22,7 @@
   {
    "name": "eVisions blog",
    "feed": "https://www.evisions.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f12f0ff8f20>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f24445d4c50>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -82,7 +82,7 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -95,13 +95,13 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 8
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
@@ -179,7 +179,7 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f12f0fe8410>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f24445ca390>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -227,7 +227,7 @@
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
    "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Mailujeme",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Jon Loomer",
@@ -316,14 +316,14 @@
   {
    "name": "LinkedIn Marketing blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Simo Ahava",
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "status": "chyba: empty feed (HTTP 500, text/html)",
    "new": 0
   },
   {
@@ -347,7 +347,7 @@
    "name": "Measurelab",
    "feed": "https://www.measurelab.co.uk/feed/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Google Marketing Platform blog",
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 1
+   "status": "ok",
+   "new": 4
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -1244,9 +1244,295 @@
   "https://www.measurelab.co.uk/insights/blog/bigquery-tips-arrays-in-bigquery-what-they-are-and-how-to-get-data-out-of-them": "2026-08-17T16:58:32.190467+00:00",
   "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zcG5ZV1JOVU1rRFRIR21QSDgyQzg2Z1pxd2FkM3VCM203dHJHU09sbE9rNGFQU3dPa3FtbUQ4a2o0RWVLXy1xdTdWSHF5LVpOY3lHNC1IWFJoTndQbDV1NA?oc=5": "2026-08-17T16:58:32.190467+00:00",
   "https://www.measurelab.co.uk/insights/blog/bigquery-tips-how-to-put-a-spend-cap-on-your-bigquery-queries": "2026-08-17T16:58:32.190467+00:00",
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zc0F0NEFXZ1pQX3BoRXduOXFwTjR3akpsTm02b3l0TjF6c0NJOTYzOER2NFB2Q1NtbkFwdThsS1Z6bUVWOUVKUXFBZHRCQ0ZtdjZFZEVHVEZvblV2N0xTN2VLNkVUNW54Zm1MTzVyQ1BWazBKazBwSUtOcw?oc=5": "2026-08-17T16:58:32.190467+00:00"
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zc0F0NEFXZ1pQX3BoRXduOXFwTjR3akpsTm02b3l0TjF6c0NJOTYzOER2NFB2Q1NtbkFwdThsS1Z6bUVWOUVKUXFBZHRCQ0ZtdjZFZEVHVEZvblV2N0xTN2VLNkVUNW54Zm1MTzVyQ1BWazBKazBwSUtOcw?oc=5": "2026-08-17T16:58:32.190467+00:00",
+  "https://www.searchenginejournal.com/the-ai-conversations-leaking-into-your-search-console/585663": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.mediar.cz/moravec-oznamil-8-000-predplatitelu-za-prvni-mesic-ted-vyuzivaji-spis-aplikace": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRlZBVnY3cTUzRWc2eVJ4NFRveWNpVmdCOEQ2a0NyMUlZVTJJOWNPU1ptRUxIa1E1eXozaXFPSmh6eUM1V19GYTZnWHh3YzFwNzg1RVVUc29vTTFMY0J2dU52V01sUU1TZ0VmeWtvc0p3ZFJEd2lnN1owU1JKNmZqeHkwZmVvbmp0Qm1OdWc4c0tWZTQtaS00ODNXMk55NXdlVzVSSEN5ZUZZUQ?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.marketingbrew.com/stories/why-nuuly-is-taking-a-chance-on-microdramas": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.marketingbrew.com/stories/VML-chief-discoverability-officer-heather-physioc-q-and-a": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.mediar.cz/za-marketing-hartmann-rico-zodpovida-marie-mosova": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMnNlNUlBY2R4Ykp2N2JEUldlUWRxTnlWLWtfSTNuUkozWVZOUjhUbG9rSFliRU1DdVhoMHdVcDdWYm5BcGxXNDJGZ21fYURvMWtreXk1Um5PbWk1d3pBdHZQTHFId0NkcWVNd3AwQ21CdGxyR2hQSnhpOWY2TUk5X1pZNVEzaUtUR2c?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.mediar.cz/newlogic-rozsiruje-portfolio-klientu-posiluje-segment-hospitality": "2026-08-17T19:11:06.447024+00:00",
+  "https://www.searchenginejournal.com/google-lets-you-turn-off-visible-watermarks-in-gemini/586145": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFFUbHFyRndaWWN5cjNkbUsyNmFCSlVkdTc0LXZXRWRqemxiQXUzSzlvcHQ5OERRR2V1aDNlZll5WVJnRlozbnlfdjNyQWx5d3FpVlFHc29tX1FSRVlESFBGd21kaHJVckZFX0lEYmZrMzhYYktVMHl4TGNZSlVZXzVvTElKNGZkcldlNWF3MUxwbFVVcDc5Z2FRSjc?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mYVg4NjBTekVaOUtKbU5pOWFyWmVNSnY2NDEwT3k1dnpUQ0VRMk12T2F2dE5lS0lyaGtnVVZpZUFEWkVHTU0wN0stYnZiWlkwVDE5ZWpkSC1Ka2d4ZEE?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTByU3JCNDczd1kxQks4ME9JRXdiUGQ5SkNyc1Y1N3RabVRWQm9fRU5Yc0JPdEZONjgzbHJSdHR5VUVxUzBaZmFNVlZmcnNYV00zdGtmMjF1emJFSThnNFU2SlowaHpXT21md2x4ZFBnSzVQWHhnQkEwa0lYVTNEbHdkdDlxbXBTOVdpcXFOVWFXUkdqM25UZzJQVGl0bU0?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://martech.org/why-linkedin-doesnt-really-care-about-ai-slop": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZbTNVYkdLY0Y2VW0yVW92TUhrRGQ5R09tSnRKbnBVeHFzR2JaNmkzd0FoR094RFpDNEFwQXBMTVo4YmVqTkUtVlV4TGM0RHA3NXJXOGxZRV8wY1hRUDhFbkVWRG9ydFkwYk0wY0lNaDlCZ2I1NVp3?oc=5": "2026-08-17T19:11:06.447024+00:00",
+  "https://martech.org/why-buyers-hate-your-multi-year-software-overhaul": "2026-08-17T19:11:06.447024+00:00",
+  "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend": "2026-08-17T19:11:06.447024+00:00",
+  "https://martech.org/stop-treating-every-customer-touchpoint-the-same": "2026-08-17T19:11:06.447024+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTFLekQ2eWI1blQzWFg2TjF2SF91UlNWczk2ZExqS3dHa0lpTTJLeEhlcERsWGRoVmZlbDh6bmZ3MTlzMWxfTEtRLTNNM3ZyT1BpT0dRTEtaYlRxUlNJbXpfRENfNUE1SDNtODQ5NnhRa3VEUFRWT2NfX2NtVkN0Y3YxMA?oc=5": "2026-08-17T19:11:06.447024+00:00"
  },
  "events": [
+  {
+   "id": "46afea07e0",
+   "created": "2026-08-14T13:52:37.472906+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html",
+     "title": "Google AI Overviews With AI-Generated Images In The Wild",
+     "summary": "A month ago, we reported that Google said it would be rolling out AI-generated images within AI Overviews in Google Search. Well, it seems Google is starting to roll out those AI-generated images in AI Overviews this week.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-14T11:41:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFFUbHFyRndaWWN5cjNkbUsyNmFCSlVkdTc0LXZXRWRqemxiQXUzSzlvcHQ5OERRR2V1aDNlZll5WVJnRlozbnlfdjNyQWx5d3FpVlFHc29tX1FSRVlESFBGd21kaHJVckZFX0lEYmZrMzhYYktVMHl4TGNZSlVZXzVvTElKNGZkcldlNWF3MUxwbFVVcDc5Z2FRSjc?oc=5",
+     "title": "Google Search pauses AI-generated images within AI Overviews",
+     "summary": "Google Search pauses AI-generated images within AI Overviews &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T16:55:00+00:00",
+     "score": 78
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Google pozastavil AI obrázky v AI Overviews krátce po spuštění",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Google před měsícem oznámil zavedení AI-generovaných obrázků do AI Overviews ve vyhledávání. Tento týden funkci začal nasazovat, ale vzápětí ji pozastavil.",
+   "why": "AI Overviews postupně mění podobu výsledků vyhledávání a ovlivňují organickou návštěvnost. Jejich nestabilita a rychlé změny ztěžují SEO specialistům i marketérům predikci dopadu na návštěvnost z Googlu.",
+   "takeaway": "Sledujte, jak se AI Overviews zobrazují pro vaše klíčová klíčová slova. Zatím nelze spoléhat na stabilitu těchto funkcí – připravte se na fluktuace v organickém trafficu a testujte různé typy obsahu (texty, strukturovaná data).",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/46afea07e0.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "d82507bc2d",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
+     "title": "Google Search Ranking Volatility Spikes On August 12-13",
+     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-13T11:51:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
+     "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
+     "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI report does not show clicks) starting around August 12th and 13th. This seems like a bug because the drop seems to be super widespread.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-17T17:37:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Google: výkyvy v rankings a propad dat v Search Console od 12. srpna",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Kolem 12.–13. srpna 2024 nástroje zaznamenaly výrazný nárůst pohybů v organických výsledcích vyhledávání Google. Současně Search Console u řady webů ukazuje náhlý propad impresí a kliknutí od stejného data – jak v klasických výsledcích, tak v reportech pro AI funkce (tam pouze imprese). Podle diskuzí je takto razantní a plošný pokles dat pravděpodobně chyba v reportingu Google Search Console, nikoli skutečný propad návštěvnosti.",
+   "why": "Pokud jde o chybu v reportech, vaše reálná návštěvnost z vyhledávání pravděpodobně neklesla. Ale současný spike ve volatilitě rankingu může znamenat, že Google provádí algoritmickou změnu (i bez oficiálního oznámení), která může ovlivnit pozice konkrétních stránek nebo celého webu.",
+   "takeaway": "Porovnejte data z Google Search Console s reálnou návštěvností v Google Analytics 4 nebo jiném nástroji – pokud GA4 propad nepotvrdí, jde jen o chybu reportu a není třeba okamžitě reagovat. Sledujte, zda se pozice vašich klíčových stránek v nejbližších dnech stabilizují, nebo se naopak trvale změní; při trvalém poklesu konzultujte s SEO specialistou příčinu.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/d82507bc2d.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "1516d68875",
+   "created": "2026-08-17T19:00:05+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/the-ai-conversations-leaking-into-your-search-console/585663",
+     "title": "The AI Conversations Leaking Into Your Search Console via @sejournal, @suganthan",
+     "summary": "Search Console records what people say to AI Mode. Here's how to pull those fragments out and sort them into seven buckets. The post The AI Conversations Leaking Into Your Search Console appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T19:00:05+00:00",
+     "score": 67
+    }
+   ],
+   "category": "seo",
+   "importance": 62,
+   "title": "AI Mode konverzace prosakují do Google Search Console – jak je vytěžit",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Google Search Console nyní zaznamenává fragmenty dotazů, které uživatelé zadávají do AI Mode (konverzační AI vyhledávání Google). Podle Search Engine Journal je možné tyto fragmenty vytáhnout a roztřídit do kategorií, čímž získat nový typ dat o záměrech uživatelů.",
+   "why": "Jde o nový typ dat v běžně používaném nástroji. Pro SEO specialisty to může být signál, jaké otázky a kontext lidé reálně zadávají AI vyhledávači – což může ovlivnit budoucí optimalizaci obsahu pro AI odpovědi a konverzační vyhledávání.",
+   "takeaway": "Zkontrolujte Search Console, zda už se u vás objevují dotazy z AI Mode. Pokud ano, vytřiďte je a analyzujte – můžete odhalit nové záměry uživatelů, na které váš obsah dosud nereaguje. Sledujte, jak se tato data vyvíjejí – indikuje to rostoucí využívání AI vyhledávání.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/1516d68875.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "2d316230e7",
+   "created": "2026-08-17T18:45:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRlZBVnY3cTUzRWc2eVJ4NFRveWNpVmdCOEQ2a0NyMUlZVTJJOWNPU1ptRUxIa1E1eXozaXFPSmh6eUM1V19GYTZnWHh3YzFwNzg1RVVUc29vTTFMY0J2dU52V01sUU1TZ0VmeWtvc0p3ZFJEd2lnN1owU1JKNmZqeHkwZmVvbmp0Qm1OdWc4c0tWZTQtaS00ODNXMk55NXdlVzVSSEN5ZUZZUQ?oc=5",
+     "title": "Ginny Marvin on Smart Bidding, AI and why PPC fundamentals still matter",
+     "summary": "Ginny Marvin on Smart Bidding, AI and why PPC fundamentals still matter &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T18:45:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads: smart bidding a AI nemění důležitost PPC základů",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Ginny Marvin z Google Ads zdůrazňuje, že navzdory pokroku v automatizaci (smart bidding) a AI zůstávají fundamenty PPC – správné cíle, kvalitní data a strategie kampaní – klíčové pro úspěch.",
+   "why": "I když algoritmy dělají velkou část práce, výsledky závisí na tom, jak dobře nastavíte konverzní cíle, strukturu kampaní a jaká data jim poskytnete. Automatizace nenahrazuje strategické myšlení.",
+   "takeaway": "Investujte čas do správného nastavení konverzních cílů v GA4/Google Ads, čistých feedů a propojení dat. Smart bidding pak má z čeho vycházet a skutečně přináší výsledky. Základy se vyplácí i v éře AI.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "3e52806424",
+   "created": "2026-08-17T17:00:44+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-lets-you-turn-off-visible-watermarks-in-gemini/586145",
+     "title": "Google Lets You Turn Off Visible Watermarks In Gemini via @sejournal, @MattGSouthern",
+     "summary": "Google Gemini allows users to disable the visible watermark on AI-generated images, videos, and music, while SynthID and C2PA marks stay embedded. The post Google Lets You Turn Off Visible Watermarks In Gemini appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T17:00:44+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 25,
+   "title": "Google Gemini umožňuje vypnout viditelný vodoznak na AI obrázcích",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Google Gemini nově nabízí uživatelům možnost vypnout viditelný vodoznak u AI-generovaných obrázků, videí a hudby. Neviditelné značky SynthID a C2PA zůstávají v souborech zachovány i po vypnutí viditelného označení.",
+   "why": "Jde o technickou novinku nástroje Gemini, která zjednodušuje práci s AI obsahem, ale nemá přímý dopad na marketingovou praxi v ČR. Pro většinu českých firem je Gemini spíše doplňkový nástroj.",
+   "takeaway": "Pokud ve firmě používáte Gemini pro tvorbu vizuálů, můžete nyní vypnout viditelný vodoznak. Pro běžnou marketingovou praxi v ČR to ale zatím nemá zásadní vliv.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "94137465e7",
+   "created": "2026-08-17T15:43:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTByU3JCNDczd1kxQks4ME9JRXdiUGQ5SkNyc1Y1N3RabVRWQm9fRU5Yc0JPdEZONjgzbHJSdHR5VUVxUzBaZmFNVlZmcnNYV00zdGtmMjF1emJFSThnNFU2SlowaHpXT21md2x4ZFBnSzVQWHhnQkEwa0lYVTNEbHdkdDlxbXBTOVdpcXFOVWFXUkdqM25UZzJQVGl0bU0?oc=5",
+     "title": "Google updates Demand Gen view-through conversion optimization",
+     "summary": "Google updates Demand Gen view-through conversion optimization &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T15:43:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google upravil optimalizaci view-through konverzí v Demand Gen kampaních",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Google změnil způsob, jakým Demand Gen kampaně optimalizují view-through konverze (konverze započítané po zobrazení reklamy, bez kliknutí). Konkrétní parametry úpravy nejsou v dodaném zdroji specifikovány.",
+   "why": "Pokud používáte Demand Gen kampaně a sledujete view-through konverze, může tato změna ovlivnit reportování výkonu a optimalizaci kampaní. Demand Gen je poměrně nový formát zaměřený na vizuální reklamu v Google ekosystému.",
+   "takeaway": "Zkontrolujte nastavení konverzí ve svých Demand Gen kampaních a porovnejte data před a po změně. Sledujte, zda úprava neovlivnila výkonnost nebo alokaci rozpočtu mezi kampaněmi.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "915147f998",
+   "created": "2026-08-17T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5",
+     "title": "The AI visibility index: Which brands are vanishing from AI search?",
+     "summary": "The AI visibility index: Which brands are vanishing from AI search? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T14:00:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Studie: Některé značky mizí z AI vyhledávání",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Search Engine Land publikoval AI Visibility Index – studii sledující, jak se jednotlivé značky objevují (nebo naopak mizí) ve výsledcích AI vyhledávačů. Ukazuje, že viditelnost v AI asistentovi se liší od tradiční SEO viditelnosti.",
+   "why": "S nástupem AI vyhledávání (ChatGPT Search, Perplexity, Google AI Overview) se mění pravidla hry. Značky, které jsou v klasickém Googlu viditelné, nemusí být zmíněné AI nástroji – což může v budoucnu ovlivnit návštěvnost a brand awareness.",
+   "takeaway": "Sleduj, zda se tvoje značka a produkty objevují v odpovědích ChatGPT či dalších AI vyhledávačů. AI Visibility Index může být vodítko, jak na tom jsi oproti konkurenci. Zatím jde o trend mimo ČR, ale AI vyhledávání roste i u nás.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "51e447142b",
+   "created": "2026-08-17T13:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZbTNVYkdLY0Y2VW0yVW92TUhrRGQ5R09tSnRKbnBVeHFzR2JaNmkzd0FoR094RFpDNEFwQXBMTVo4YmVqTkUtVlV4TGM0RHA3NXJXOGxZRV8wY1hRUDhFbkVWRG9ydFkwYk0wY0lNaDlCZ2I1NVp3?oc=5",
+     "title": "The $113,000 paid search test: How much traffic did organic replace?",
+     "summary": "The $113,000 paid search test: How much traffic did organic replace? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T13:00:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Test za 2,6 mil. Kč: kolik organického SEO nahradí placenou reklamu?",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Americká agentura provedla experiment – zastavila PPC kampaně v hodnotě 113 000 USD (cca 2,6 mil. Kč) a sledovala, kolik z propadlé návštěvnosti doplnil organický provoz. Výsledky ukazují reálný vztah mezi placeným a organickým vyhledáváním.",
+   "why": "Marketingoví manažeři často řeší, zda investovat do SEO nebo PPC a jak moc se tyto kanály překrývají. Test dává reálná data o tom, co se stane, když vypnete placenou reklamu a spoléháte jen na organiku.",
+   "takeaway": "Pokud zvažujete přesun rozpočtu z PPC do SEO (nebo naopak), proveďte si podobný test na vlastních datech – dočasně vypněte PPC kampaně v segmentu, kde máte silné organické pozice, a změřte skutečný dopad na celkovou návštěvnost a konverze.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/51e447142b.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "8c2fd08e78",
+   "created": "2026-08-17T12:34:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend",
+     "title": "The next AI opportunity is deciding where to spend",
+     "summary": "AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working. The post The next AI opportunity is deciding where to spend appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-17T12:34:00+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "AI začíná řídit reklamní rozpočty – rozhodování o alokaci médií",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "Umělá inteligence proniká hlouběji do oblasti nákupu médií a alokace rozpočtů. AI nástroje pomáhají marketerům přesouvat peníze do kanálů a kampaní, které skutečně fungují.",
+   "why": "Pro marketingového manažera jde o potenciální nástroj pro efektivnější řízení rozpočtu napříč kanály. AI může automatizovat rozhodování o tom, kam investovat, což zatím vyžaduje ruční analýzu a přesuny mezi kampaněmi.",
+   "takeaway": "Sledujte vývoj AI nástrojů pro budget alokaci – mohou v budoucnu zefektivnit vaše rozhodování o distribuci rozpočtu mezi Google Ads, Meta, Sklik a další kanály. Zatím jde o nastupující trend, konkrétní řešení dostupná v ČR nejsou ve zdroji zmíněna.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "a45a356494",
+   "created": "2026-08-17T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTFLekQ2eWI1blQzWFg2TjF2SF91UlNWczk2ZExqS3dHa0lpTTJLeEhlcERsWGRoVmZlbDh6bmZ3MTlzMWxfTEtRLTNNM3ZyT1BpT0dRTEtaYlRxUlNJbXpfRENfNUE1SDNtODQ5NnhRa3VEUFRWT2NfX2NtVkN0Y3YxMA?oc=5",
+     "title": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads",
+     "summary": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T12:00:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "ChatGPT odhalil, jak funguje jeho vyhledávání a indexování obsahu",
+   "updated": "2026-08-17T19:11:06.447024+00:00",
+   "what": "OpenAI zveřejnilo technické detaily o tom, jak ChatGPT získává a zpracovává informace z webu – jaké stránky čte, jak je indexuje a cachuje.",
+   "why": "Pro SEO specialisty a tvůrce obsahu je klíčové pochopit, jak AI asistenti jako ChatGPT přistupují k webovému obsahu a jak mohou ovlivnit návštěvnost webu.",
+   "takeaway": "Sledujte, jaké typy obsahu ChatGPT preferuje a jak strukturovat web pro AI vyhledávání – může to ovlivnit, zda vás AI doporučí jako zdroj informací.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "cfc4855165",
    "created": "2026-08-17T16:06:23+00:00",
@@ -4996,32 +5282,6 @@
    "multi_source": false
   },
   {
-   "id": "46afea07e0",
-   "created": "2026-08-14T13:52:37.472906+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html",
-     "title": "Google AI Overviews With AI-Generated Images In The Wild",
-     "summary": "A month ago, we reported that Google said it would be rolling out AI-generated images within AI Overviews in Google Search. Well, it seems Google is starting to roll out those AI-generated images in AI Overviews this week.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T11:41:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Google začíná zobrazovat AI-generované obrázky v AI Overviews",
-   "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Google spustil postupné zobrazování AI-generovaných obrázků přímo v AI Overviews (AI souhrny ve vyhledávání). Jde o funkci, kterou Google avizoval před měsícem a nyní se začíná objevovat v reálném provozu.",
-   "why": "AI Overviews postupně mění způsob, jakým uživatelé konzumují výsledky vyhledávání – místo kliknutí na web čtou AI souhrn. Přidání AI-generovaných obrázků posiluje tento trend a může dále snižovat prokliky na weby. Pro SEO specialisty a majitele webů jde o pokračující posun v organickém vyhledávání, který ovlivňuje viditelnost a návštěvnost.",
-   "takeaway": "Sledujte data z Google Search Console a Google Analytics – prokliky z organického vyhledávání mohou klesat i při stabilních pozicích, pokud Google zodpoví dotazy přímo v AI Overview. Zvažte optimalizaci obsahu tak, aby Google citoval váš web jako zdroj v AI souhrnech (E-E-A-T, strukturovaná data, jasné odpovědi na otázky).",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/46afea07e0.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "e97bc89315",
    "created": "2026-08-14T13:52:37.472906+00:00",
    "articles": [
@@ -5318,7 +5578,9 @@
    "why": "Ukazuje se, že AI nástroje začínají generovat měřitelný provoz na e-shopy, ale SEO a organické vyhledávání si udržují klíčovou roli v akvizici zákazníků. Pro marketingové manažery je to signál, že AI může být nový doplňkový kanál, ale nenahrazuje tradiční strategii.",
    "takeaway": "Sledujte zdroje návštěvnosti v GA4 a identifikujte případný provoz z AI nástrojů (např. přes referrer). Prioritou zůstává investice do SEO, ale připravte se na testování optimalizace obsahu pro AI asistenty (např. strukturovaná data, jasné odpovědi na dotazy).",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/f63918cca5.jpg",
+   "image_from": "news.google.com"
   },
   {
    "id": "5e7e9ec73c",
@@ -5951,7 +6213,9 @@
    "title": "Programmatic video needs more visibility into AI-driven decisions",
    "updated": "2026-08-14T09:38:29.556736+00:00",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/4d6488f9f5.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "07ce20615e",
@@ -6100,7 +6364,9 @@
    "title": "Prompt Tracking: How to Find (and Fix) Your AI Visibility Gaps",
    "updated": "2026-08-14T09:18:56.681311+00:00",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/870093af6c.jpg",
+   "image_from": "backlinko.com"
   },
   {
    "id": "c3e14a7515",
@@ -6124,7 +6390,9 @@
    "why": "Shadowbanning je dlouhodobě kontroverzní téma – uživatelé často neví, proč jejich příspěvky mají nižší dosah. Přístup ke kódu umožňuje ověřit, zda a jak je obsah omezován.",
    "takeaway": "Čeští marketéři působící na X mohou nově lépe porozumět, proč některý jejich obsah nefunguje. Doporučuje se pravidelně kontrolovat případná omezení vlastních účtů nebo firemních profilů.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/c3e14a7515.jpg",
+   "image_from": "socialmediatoday.com"
   },
   {
    "id": "0282396de9",
@@ -6148,7 +6416,9 @@
    "why": "Jde o klíčový problém rozvíjející se kategorie nástrojů pro měření AI viditelnosti. Nedůvěra SEO odborníků k platformám blokuje růst trhu s daty, která jsou přitom pro optimalizaci v éře AI vyhledávání považována za důležitá.",
    "takeaway": "Český SEO trh čeká podobný vývoj – nástroje pro měření viditelnosti v AI budou dostupné, ale jejich adopce závisí na budování důvěry. Pro marketéry to znamená pečlivě vybírat poskytovatele a být opatrní při investicích do nových analytických platforem zaměřených na AI.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/0282396de9.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "8cfcaecd40",
@@ -6222,7 +6492,9 @@
    "why": "Růst trhu potvrzuje zvyšující se kupní sílu českých spotřebitelů a jejich preferenci online nakupování. Pro e-shopy to znamená rostoucí potenciál.",
    "takeaway": "České e-commerce pokračuje v růstu, což vytváří prostor pro zvyšování investic do online marketingu a optimalizaci prodejních kanálů. Marketéři mohou počítat s rostoucími rozpočty na performance kampaně.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/1a9761831c.jpg",
+   "image_from": "lupa.cz"
   },
   {
    "id": "69aa1ae5ad",
@@ -6277,30 +6549,6 @@
    "image_from": "searchenginejournal.com"
   },
   {
-   "id": "d82507bc2d",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
-     "title": "Google Search Ranking Volatility Spikes On August 12-13",
-     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-13T11:51:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Google výsledky zaznamenaly výrazné výkyvy 12.–13. srpna",
-   "updated": "2026-08-14T09:18:56.681311+00:00",
-   "what": "V Google vyhledávání došlo 12. a možná i 13. srpna k nadprůměrným změnám v pořadí výsledků. Nástroje pro sledování pozic zaznamenaly výrazný nárůst volatility, přestože diskuse mezi odborníky byly spíše umírněné.",
-   "why": "Kolísání pozic ve vyhledávání může znamenat algoritmus update nebo jiné změny na straně Googlu, které ovlivňují viditelnost webů.",
-   "takeaway": "České SEO specialisty by měli zkontrolovat své pozice a organický provoz za toto období. Pokud došlo k poklesům, zatím čekejte – volatilita může být dočasná a nemusí signalizovat trvalou změnu algoritmu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "24ee0af948",
    "created": "2026-08-14T09:18:56.681311+00:00",
    "articles": [
@@ -6322,7 +6570,9 @@
    "why": "Změna výrazně snižuje viditelnost zdrojů informací, ze kterých ChatGPT čerpá. Uživatelé tak budou mít obtížnější přístup k ověření původu dat a méně z nich zdroje skutečně zkontroluje.",
    "takeaway": "Pro české marketéry to znamená, že jejich obsah citovaný v ChatGPT bude ještě méně viditelný a generuje méně prokliků. Strategie spoléhající na viditelnost skrz AI odpovědi ztrácí na účinnosti.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/24ee0af948.jpg",
+   "image_from": "seroundtable.com"
   },
   {
    "id": "2d15357343",
