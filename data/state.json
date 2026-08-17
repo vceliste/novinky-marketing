@@ -1,4 +1,411 @@
 {
+ "last_run": "2026-08-17T08:28:39.081527+00:00",
+ "source_report": [
+  {
+   "name": "MediaGuru",
+   "feed": "https://www.mediaguru.cz/rss/",
+   "status": "ok",
+   "new": 1
+  },
+  {
+   "name": "Médiář",
+   "feed": "https://www.mediar.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Digichef",
+   "feed": "https://digichef.cz/feed/",
+   "status": "ok",
+   "new": 1
+  },
+  {
+   "name": "eVisions blog",
+   "feed": "https://www.evisions.cz/feed/",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
+  },
+  {
+   "name": "Shoptet blog",
+   "feed": "https://blog.shoptet.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "CzechCrunch",
+   "feed": "https://cc.cz/feed/",
+   "status": "ok",
+   "new": 1
+  },
+  {
+   "name": "Lupa.cz",
+   "feed": "https://www.lupa.cz/rss/clanky/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Collabim blog",
+   "feed": "https://www.collabim.cz/blog/feed/",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 0
+  },
+  {
+   "name": "Týinternety",
+   "feed": "https://tyinternety.cz/feed/",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd8877355e0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "new": 0
+  },
+  {
+   "name": "M-journal",
+   "feed": null,
+   "status": "feed nenalezen",
+   "new": 0
+  },
+  {
+   "name": "Markething",
+   "feed": "https://www.markething.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Marketing & Media",
+   "feed": null,
+   "status": "feed nenalezen",
+   "new": 0
+  },
+  {
+   "name": "Seznam blog",
+   "feed": "https://blog.seznam.cz/feed/",
+   "status": "ok",
+   "new": 1
+  },
+  {
+   "name": "Heureka blog",
+   "feed": null,
+   "status": "feed nenalezen",
+   "new": 0
+  },
+  {
+   "name": "APEK",
+   "feed": null,
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 0
+  },
+  {
+   "name": "Search Engine Land",
+   "feed": "https://searchengineland.com/feed",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "new": 1
+  },
+  {
+   "name": "Search Engine Journal",
+   "feed": "https://www.searchenginejournal.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Search Engine Roundtable",
+   "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Google Search Central Blog",
+   "feed": "https://feeds.feedburner.com/blogspot/amDG",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Ahrefs blog",
+   "feed": "https://ahrefs.com/blog/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Semrush blog",
+   "feed": "https://www.semrush.com/blog/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Backlinko",
+   "feed": "https://backlinko.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Yoast",
+   "feed": "https://yoast.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Pavel Ungr",
+   "feed": "https://www.pavelungr.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Lumar",
+   "feed": "https://www.lumar.io/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Rank Math",
+   "feed": "https://rankmath.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Linki.cz",
+   "feed": "https://www.linki.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Moz Blog",
+   "feed": "https://moz.com/blog/feed",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Google Search Status Dashboard",
+   "feed": "https://status.search.google.com/en/feed.atom",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Sistrix blog",
+   "feed": "https://www.sistrix.com/blog/feed/",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "new": 0
+  },
+  {
+   "name": "PPC Newsfeed",
+   "feed": "https://www.ppcnewsfeed.com/feed/",
+   "status": "ok",
+   "new": 1
+  },
+  {
+   "name": "Hana Kobzová",
+   "feed": "https://hanakobzova.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Jirkont",
+   "feed": "https://www.jirkont.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Google Ads & Commerce Blog",
+   "feed": "https://blog.google/products/ads-commerce/rss/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Microsoft Advertising blog",
+   "feed": "https://about.ads.microsoft.com/en/blog/rss/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "PPC Hero",
+   "feed": "https://www.ppchero.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Ecomail blog",
+   "feed": "https://blog.ecomail.cz/blog/rss.xml",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
+  },
+  {
+   "name": "SmartEmailing blog",
+   "feed": "https://www.smartemailing.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Mailujeme",
+   "feed": "https://mailujeme.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Litmus",
+   "feed": "https://www.litmus.com/blog/feed",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Email on Acid",
+   "feed": "https://www.emailonacid.com/blog/?feed=rss2",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
+  },
+  {
+   "name": "emailmonday",
+   "feed": "https://www.emailmonday.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "GetResponse blog",
+   "feed": "https://www.getresponse.com/blog/feed",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "ActiveCampaign blog",
+   "feed": "https://www.activecampaign.com/blog/feed",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "new": 0
+  },
+  {
+   "name": "Social Media Today",
+   "feed": "https://www.socialmediatoday.com/feeds/news/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Sprout Social",
+   "feed": "https://sproutsocial.com/insights/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Hootsuite blog",
+   "feed": "https://blog.hootsuite.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Síť v malíčku",
+   "feed": "https://sitevmalicku.cz/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Social Media Examiner",
+   "feed": "https://www.socialmediaexaminer.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Meta Newsroom",
+   "feed": "https://about.fb.com/news/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "TikTok Newsroom",
+   "feed": "https://newsroom.tiktok.com/en-us/rss",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
+  },
+  {
+   "name": "Jon Loomer",
+   "feed": "https://www.jonloomer.com/feed/",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
+  },
+  {
+   "name": "LinkedIn Marketing blog",
+   "feed": null,
+   "status": "feed nenalezen",
+   "new": 0
+  },
+  {
+   "name": "YouTube Official Blog",
+   "feed": "https://blog.youtube/rss/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Simo Ahava",
+   "feed": "https://www.simoahava.com/index.xml",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Analytics Mania",
+   "feed": "https://www.analyticsmania.com/feed/",
+   "status": "chyba: empty feed (HTTP 500, text/html)",
+   "new": 0
+  },
+  {
+   "name": "MeasureSchool",
+   "feed": "https://measureschool.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Measurelab",
+   "feed": "https://www.measurelab.co.uk/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Google Marketing Platform blog",
+   "feed": "https://blog.google/products/marketingplatform/rss/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Content Marketing Institute",
+   "feed": "https://contentmarketinginstitute.com/rss.xml",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Copyblogger",
+   "feed": "https://copyblogger.com/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "HubSpot Marketing Blog",
+   "feed": "https://blog.hubspot.com/marketing/rss.xml",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "MarTech",
+   "feed": "https://martech.org/feed/",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Think with Google",
+   "feed": "https://www.thinkwithgoogle.com/rss.xml",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Marketing Brew",
+   "feed": "https://www.morningbrew.com/marketing/feed.xml",
+   "status": "ok",
+   "new": 0
+  },
+  {
+   "name": "Marketing AI Institute",
+   "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
+   "status": "ok",
+   "new": 0
+  }
+ ],
+ "feed_overrides": {
+  "Content Marketing Institute": "https://contentmarketinginstitute.com/rss.xml",
+  "Think with Google": "https://www.thinkwithgoogle.com/rss.xml",
+  "Microsoft Advertising blog": "https://about.ads.microsoft.com/en/blog/rss/",
+  "Marketing Brew": "https://www.morningbrew.com/marketing/feed.xml",
+  "Backlinko": "https://backlinko.com/feed/",
+  "Hana Kobzová": "https://hanakobzova.cz/feed/"
+ },
  "seen": {
   "https://www.measurelab.co.uk/insights/podcast/assimilated-by-anthropic-what-we-lost-when-the-harness-died": "2026-08-14T09:18:56.681311+00:00",
   "https://www.mediaguru.cz/serial-bozi-plan-odstartuje-1-zari-studna-pujde-od-6-zari": "2026-08-14T09:18:56.681311+00:00",
@@ -351,9 +758,105 @@
   "https://www.socialmediatoday.com/news/linkedin-playbook-offers-tips-on-effective-ad-campaigns/827982": "2026-08-17T07:31:21.653291+00:00",
   "https://www.socialmediatoday.com/news/teen-social-media-bans-face-barriers-to-success/827981": "2026-08-17T07:31:21.653291+00:00",
   "https://www.socialmediatoday.com/news/google-lowers-search-profile-requirements/827980": "2026-08-17T07:31:21.653291+00:00",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6YmxrY2NkREVFV0FMUncxY0YyaXlHazF2LUxINVJnbFBWNHNOQmVKRlBYTU1obzF4SEtNVUxvS25obFB1SDRIZnc1cE9INHl4WWtYY0tFQQ?oc=5": "2026-08-17T07:31:21.653291+00:00"
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6YmxrY2NkREVFV0FMUncxY0YyaXlHazF2LUxINVJnbFBWNHNOQmVKRlBYTU1obzF4SEtNVUxvS25obFB1SDRIZnc1cE9INHl4WWtYY0tFQQ?oc=5": "2026-08-17T07:31:21.653291+00:00",
+  "https://cc.cz/koupit-supersport-neni-snadne-najit-lidi-se-kterymi-ho-chcete-ridit-je-jeste-tezsi-rikaji-dva-podnikatele": "2026-08-17T08:28:39.081527+00:00",
+  "https://www.mediaguru.cz/livesport-nasadi-ai-avatarku-ailu-vyuzije-ji-pro-videa-oznameni-i-vlastni-porady": "2026-08-17T08:28:39.081527+00:00",
+  "https://blog.seznam.cz/2026/08/startuje-druha-rtb-vyzva-roku-2026-nove-videoformaty-silnejsi-vysledky": "2026-08-17T08:28:39.081527+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/merchant-center-agencies-now-supports-1-000-accounts": "2026-08-17T08:28:39.081527+00:00",
+  "https://digichef.cz/co-stoji-za-funkcni-gamifikaci-v-digitalnim-prostredi": "2026-08-17T08:28:39.081527+00:00",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1pYS0pnMDMxMXhtLWFBUHV3UVNVcDljX2txYTNzaWh3bEdzMGppekVyNTJPNzE5cGphLUhqZEI3cENOMnJuVzkwQ1VkZ0taSFd5MzNiZTFSRE9aQWxUaU1MRzlHTm1NTVQ1REZtbGpvU19fREUzeTQyaURpM1R5MGVPSDVPSlZsSFgyZ3pSY1RWSDlEcnVB?oc=5": "2026-08-17T08:28:39.081527+00:00"
  },
  "events": [
+  {
+   "id": "caf4145081",
+   "created": "2026-08-14T13:52:37.472906+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-for-agencies-1000-accounts-41870.html",
+     "title": "Google Merchant Center For Agencies Can Link Up To 1,000 Accounts",
+     "summary": "Google updated a help document within the Google Merchant Center help area to document that Google Merchant Center for Agencies can now link to up to 1,000 Merchant Center accounts. Previously, that number was not there, and now we know - up to 1,000 accounts can be linked to a single agency account.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-14T11:31:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTd4eDBYWkhUckN5Zk03QXVaUEVvWDc4SU9rSkhUWlV6ejdld3ZDUHAxVUpadVAxN1JZcnpwcVlIWXBwUUtLaFVnM1RrN1lmaURKX3dDMTJmWjhKNUJBM3dldXlnaWRSQ0d6WlAyeGdIbFRSQmZwM2JYQ284VF9BN2dPSmJHWFVDeHJtUGNvUll4bHAtQXdUR05aWmd3SnZfMGhVdWZrdXkyZHg4b1FaNA?oc=5",
+     "title": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts",
+     "summary": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-14T14:52:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/merchant-center-agencies-now-supports-1-000-accounts",
+     "title": "Merchant Center for Agencies Now Supports 1,000 Accounts",
+     "summary": "Google has updated its Merchant Center documentation, clarifying that Merchant Center for Agencies can now link up to 1,000 client Merchant Center accounts under a single agency account. This newly documented limit provides agencies with clearer guidance on account management. Understanding the account limit is crucial for agencies managing large portfolios, as it can aid in planning account structures and onboarding processes.&nbsp; This news was discovered by Anu Adegbola . The post Merchant Center for Agencies Now Supports 1,000 Accounts appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-17T07:50:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Merchant Center pro agentury zvýšil limit na 1000 účtů",
+   "updated": "2026-08-17T08:28:39.081527+00:00",
+   "what": "Google aktualizoval dokumentaci Merchant Center a oficiálně potvrdil, že jeden agenturní účet Google Merchant Center for Agencies může nyní propojit až 1000 klientských účtů. Tento limit dříve nebyl v dokumentaci uveden.",
+   "why": "Pro agentury s rozsáhlým portfoliem klientů to přináší jasnost při plánování struktury účtů a onboardingu nových klientů. Znalost maximálního počtu propojitelných účtů pomáhá předejít omezením při škálování.",
+   "takeaway": "Pokud vaše agentura spravuje produktové kampaně pro více klientů, ověřte si aktuální počet propojených účtů a naplánujte případné rozdělení do více agenturních účtů před dosažením limitu 1000.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "c748a6b0ae",
+   "created": "2026-08-17T08:28:39.081527+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/livesport-nasadi-ai-avatarku-ailu-vyuzije-ji-pro-videa-oznameni-i-vlastni-porady",
+     "title": "Livesport nasadí AI avatarku, využije ji pro videa, oznámení i vlastní pořady",
+     "summary": "Livesport představila virtuální AI moderátorku AILU, kterou po testovacím nasazení během fotbalového mistrovství světa zařadí mezi své stálé komunikační nástroje. Digitální avatarka dokáže připravovat a moderovat lokalizovaný obsah v desítkách jazyků a má být využívána v redakčním obsahu, produktové komunikaci i obchodních partnerstvích.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-17T08:15:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 48,
+   "title": "Livesport spustil AI avatarku AILU pro videa a oznámení v desítkách jazyků",
+   "updated": "2026-08-17T08:28:39.081527+00:00",
+   "what": "Livesport po testování během fotbalového MS představil virtuální AI moderátorku AILU jako stálý komunikační nástroj. Avatarka dokáže připravovat a moderovat lokalizovaný obsah v desítkách jazyků.",
+   "why": "Ukazuje praktické nasazení AI pro tvorbu vícejazyčného video obsahu ve velkém měřítku. Pro marketingové manažery jde o inspiraci, jak škálovat tvorbu lokalizovaného obsahu bez násobení produkčních nákladů.",
+   "takeaway": "Sledujte, jak se osvědčí AI avatarky v praxi u velkých českých hráčů – může to být cesta ke snížení nákladů na vícejazyčný video obsah nebo produktovou komunikaci i pro vaši firmu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "a6d1904a46",
+   "created": "2026-08-17T08:28:39.081527+00:00",
+   "articles": [
+    {
+     "url": "https://blog.seznam.cz/2026/08/startuje-druha-rtb-vyzva-roku-2026-nove-videoformaty-silnejsi-vysledky",
+     "title": "Startuje druhá RTB výzva roku 2026: Nové videoformáty, silnější výsledky",
+     "summary": "Vyzkoušejte nové a prémiové video formáty v Seznam RTB a podpořte dokoukanost i viditelnost svých kampaní. Nejlepší práce získají ceny i prostor představit se na seznamáckém blogu a v RTB newsletteru. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-08-17T08:00:00+00:00",
+     "score": 59
+    }
+   ],
+   "category": "ppc",
+   "importance": 25,
+   "title": "Seznam RTB spouští soutěž o nejlepší kampaně s novými videoformáty",
+   "updated": "2026-08-17T08:28:39.081527+00:00",
+   "what": "Seznam vyhlásil druhou RTB výzvu roku 2026, která má podpořit využití nových a prémiových videoformátů v Seznam RTB. Soutěž je zaměřená na dokoukanost a viditelnost videokampaní.",
+   "why": "Jde o interní marketingovou aktivitu Seznamu – soutěž pro inzerenty s možností prezentace na blogu a v newsletteru. Pro běžného marketéra nepřináší změnu v dostupnosti formátů ani cenách, pouze motivaci vyzkoušet stávající nabídku.",
+   "takeaway": "Pokud plánujete videokampaně na Seznamu, můžete se přihlásit do soutěže a získat případnou publicitu. Pro denní práci to ale nic nemění – žádné nové funkce ani pravidla.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
   {
    "id": "35f19873c6",
    "created": "2026-08-17T05:11:58.684324+00:00",
@@ -387,12 +890,12 @@
     }
    ],
    "category": "cesky-marketing",
-   "importance": 45,
-   "title": "Prima Sport startuje bez TV měření, reklamu prodává podle atraktivity přenosů",
+   "importance": 52,
+   "title": "Prima Sport startuje bez TV měření, reklamu prodává pásmově podle atraktivity",
    "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Skupina Prima spustila 17. srpna nový sportovní kanál Prima Sport s programem zahrnujícím fotbal, tenis, plážový volejbal, dokumenty a zpravodajství. Kanál má sportovně-lifestylový charakter a jeho spuštění urychlila koupě Sporty TV.",
-   "why": "Prima Sport vstupuje na trh bez zařazení do standardního TV měření sledovanosti, což komplikuje běžné srovnání s konkurencí a plánování kampaní podle dosahu.",
-   "takeaway": "Inzerenti musí počítat s nestandardním nákupem – reklama se prodává pásmově podle atraktivity jednotlivých sportovních přenosů, nikolik podle měřené sledovanosti. Ceny budou záviset na typu sportu, nikoli na ověřitelných GRP metrikách.",
+   "what": "Skupina Prima spustila 17. srpna nový sportovní kanál Prima Sport s pravidelným vysíláním fotbalu, tenisu, plážového volejbalu a dokumentů. Kanál zatím nevstoupí do elektronického měření televizní sledovanosti a nebude součástí standardních TV metrik.",
+   "why": "Pro inzerenty a mediální agentury to znamená absenci ověřitelných dat o sledovanosti. Prima Sport bude prodávat reklamu pásmově podle vlastního odhadu atraktivity jednotlivých sportovních přenosů, nikolik na základě naměřených ratingů.",
+   "takeaway": "Pokud zvažujete kampaň na Prima Sport, požadujte jasné podmínky a garantované parametry dodání – bez měření nemáte standardní nástroj k ověření skutečného dosahu. Vyčkejte na vstup kanálu do oficiálního měření, než alokujete větší rozpočty.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
@@ -420,12 +923,12 @@
     }
    ],
    "category": "seo",
-   "importance": 55,
-   "title": "Google snížil požadavky na Search Profile ze 100 tisíc na 35 tisíc followerů",
+   "importance": 45,
+   "title": "Google snížil požadavky na Search Profily – stačí 35 tisíc followerů",
    "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Google snížil minimální počet odběratelů potřebných pro schválení Search Profile (dedikované profily ve vyhledávání). Původně bylo potřeba 100 000 odběratelů napříč YouTube, Instagramem, X a TikTokem. Nově stačí 35 000 odběratelů na YouTube, Instagramu a X, u TikToku zůstává limit 100 000.",
-   "why": "Změna otevírá možnost mít vlastní profil přímo ve vyhledávání Google širšímu okruhu tvůrců a značek, kteří dosud nesplňovali podmínky.",
-   "takeaway": "Čeští influenceři a menší značky se средním dosahem mohou nově získat viditelnost přímo v Google vyhledávání. Snížení bariéry znamená větší kontrolu nad tím, jak se zobrazují ve výsledcích vyhledávání.",
+   "what": "Google snížil minimální počet sledujících potřebných pro schválení Search Profilu ve vyhledávání. Dříve to bylo 100 000 odběratelů napříč YouTube, Instagram, X a TikTok. Nyní stačí 35 000 sledujících na YouTube, Instagramu nebo X (pro TikTok zůstává hranice 100 000).",
+   "why": "Změna otevírá možnost mít dedikovanou viditelnost v Google vyhledávání širšímu okruhu firem a tvůrců obsahu, kteří dosud nesplňovali původní limit. Search Profil zvyšuje viditelnost značky přímo ve výsledcích vyhledávání.",
+   "takeaway": "Pokud vaše firma nebo někdo z vašich influencer partnerů má alespoň 35 000 sledujících na Instagramu, YouTube nebo X, ověřte si možnost zřízení Search Profilu v Google – posílí vaši přítomnost ve vyhledávání bez nutnosti investovat do dalších kanálů.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
@@ -444,13 +947,13 @@
     }
    ],
    "category": "cesky-marketing",
-   "importance": 65,
-   "title": "SPIR hledá dodavatele pro novou generaci AdMonitoringu",
+   "importance": 25,
+   "title": "SPIR vypisuje tendr na novou generaci AdMonitoringu",
    "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Sdružení pro internetový rozvoj (SPIR) vypsalo výběrové řízení na novou verzi projektu AdMonitoring, který měří online reklamní trh v České republice. Současný systém má být nahrazen modernější verzí s rozšířenými funkcemi.",
-   "why": "Nový AdMonitoring má lépe zachytit programatickou reklamu a rozšířit pokrytí trhu. Modernější výstupy by měly přinést přesnější data o online reklamě pro vydavatele, agentury i zadavatele.",
-   "takeaway": "Pro české marketéry to znamená, že v budoucnu budou mít k dispozici přesnější data o online reklamním trhu, zejména v oblasti programatické reklamy. Přesnější měření pomůže lépe plánovat kampaně a porovnávat konkurenci.",
-   "importance_label": "důležité",
+   "what": "Sdružení pro internetový rozvoj (SPIR) vyhlásilo výběrové řízení na nový systém AdMonitoring, který sleduje český online reklamní trh. Nová verze má lépe zachytit programatickou reklamu, rozšířit pokrytí trhu a nabídnout modernější výstupy.",
+   "why": "AdMonitoring poskytuje data o objemu a struktuře online reklamy v ČR, ale pro běžného marketingového manažera jde o oborovou infrastrukturu bez přímého dopadu na denní práci.",
+   "takeaway": "Pro marketingového manažera nemá změna systému přímý dopad – AdMonitoring je analytický projekt sloužící spíše agenturám a vydavatelům k přehledu o trhu. Sledovat není potřeba.",
+   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -468,13 +971,13 @@
     }
    ],
    "category": "cesky-marketing",
-   "importance": 65,
-   "title": "Výzkum STEM: Čechy při nákupu oblečení řídí hlavně cena, ekologie je na okraji",
+   "importance": 55,
+   "title": "Češi při nákupu oblečení prioritizují cenu, pětina nakupuje na SHEIN a Temu",
    "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Podle nového výzkumu STEM rozhodují Češi při nákupu oblečení především o ceně, kvalitě a vzhledu. Více než pětina z nich nakupuje na platformách ultra rychlé módy jako SHEIN nebo Temu.",
-   "why": "Výzkum ukazuje rozpor mezi deklarovaným postojem k udržitelnosti a reálným nákupním chováním – ekologické a etické aspekty výroby zůstávají pro většinu spotřebitelů vedlejší.",
-   "takeaway": "Pro marketéry v segmentu módy je klíčové, že cena zůstává rozhodujícím faktorem. Komunikace udržitelnosti sama o sobě nestačí – spotřebitelé ji slovně podporují, ale v nákupech ji nepromítají. Roste význam cenově dostupných online platforem typu SHEIN.",
-   "importance_label": "důležité",
+   "what": "Podle nového výzkumu STEM rozhodují čeští spotřebitelé o nákupu oblečení především na základě ceny, kvality a vzhledu. Více než pětina Čechů nakupuje na platformách ultra rychlé módy jako SHEIN nebo Temu. Ekologické a etické aspekty výroby jsou pro většinu okrajovou záležitostí, i když lidé deklarují podporu odpovědnějšímu přístupu k módě.",
+   "why": "Data ukazují reálné nákupní chování českých spotřebitelů v segmentu módy – cenová sensitivita a rostoucí podíl asiatských platforem typu SHEIN/Temu ovlivňujíStrategie e-commerce hráčů a retailových značek na českém trhu. Rozpor mezi deklarovanými hodnotami (udržitelnost) a skutečným chováním (cena) je zásadní pro targeting a komunikaci.",
+   "takeaway": "Pokud prodáváte oblečení nebo inzerujete módní značky v ČR, počítejte s tím, že zákazníci primárně řeší cenu – komunikace ekologie a etiky funguje spíše jako image, ale neovlivňuje většinové nákupní rozhodnutí. Sledujte konkurenci z SHEIN/Temu a jejich cenovou úroveň při nastavování PPC kampaní a cenových strategií.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -493,11 +996,11 @@
    ],
    "category": "socialni-site",
    "importance": 45,
-   "title": "X přidává možnost editace videa s textem a emoji přímo v aplikaci",
+   "title": "X (Twitter) přidává textové a emoji překryvy do videí",
    "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Platforma X (dříve Twitter) představila novou funkci pro iOS uživatele, která umožňuje přidávat textové nadpisy a emoji přímo přes nahraná videa. Tímto krokem se editační možnosti platformy přibližují konkurenčním sociálním sítím.",
-   "why": "Jde o další krok v přeměně X na plnohodnotnou multimediální platformu, která má konkurovat TikToku a Instagramu v oblasti video obsahu. Uživatelé nyní nemusí využívat externí editační nástroje.",
-   "takeaway": "České značky mohou začít vytvářet video obsah přímo v aplikaci X bez nutnosti předchozí editace. Zatím je funkce dostupná pouze pro iOS, je třeba počkat na rozšíření na Android.",
+   "what": "Platforma X (dříve Twitter) zavádí pro iOS uživatele možnost přidávat text a emoji přímo do videí. Funkce přibližuje editační možnosti X k ostatním sociálním sítím.",
+   "why": "Pro správce firemních sociálních sítí to znamená možnost vytvářet atraktivnější video obsah přímo v aplikaci X, bez nutnosti předúprav v externích nástrojích. Zjednodušuje to tvorbu video contentu pro tento kanál.",
+   "takeaway": "Pokud pro firmu spravujete X a pravidelně publikujete videa, prozkoumejte novou funkci překryvů – můžete ušetřit čas s editací a zvýšit engagement videí přidáním textových akcentů nebo emoji přímo v aplikaci.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -517,11 +1020,11 @@
    ],
    "category": "ppc",
    "importance": 45,
-   "title": "Reddit jako křižovatka vyhledávání a sociálních sítí – výzva pro PPC strategie",
+   "title": "Reddit posiluje jako kombinace vyhledávání a sociální sítě pro PPC",
    "updated": "2026-08-16T16:54:30.323444+00:00",
-   "what": "PPC Hero upozorňuje na rostoucí význam Redditu jako platformy, kde se protínají funkce vyhledávání a sociálních médií. Pro inzerenty to znamená nutnost přizpůsobit své placené strategie specifickému charakteru této platformy.",
-   "why": "Reddit kombinuje autentickou komunitu s vyhledávacími funkcemi, což vytváří unikátní prostor pro oslovení uživatelů. Tradiční přístupy k PPC kampaním nemusí na této platformě fungovat a vyžadují odlišné nastavení.",
-   "takeaway": "Čeští marketéři by měli zvážit, zda jejich současné PPC strategie počítají se specifiky Redditu. Platformy, kde se mísí vyhledávání a sociální interakce, vyžadují jiný přístup než standardní kanály.",
+   "what": "Reddit se stává stále důležitější platformou, která kombinuje vlastnosti vyhledávání a sociálních sítí. Uživatelé na něm aktivně hledají informace a diskutují o produktech, což vytváří nové příležitosti pro placenou reklamu.",
+   "why": "Pro PPC specialisty je důležité sledovat, že se mění chování uživatelů – Reddit získává charakter vyhledávače, kde lidé hledají autentické názory a doporučení. To může vyžadovat úpravu reklamní strategie a alokace rozpočtu.",
+   "takeaway": "Zvažte přidání Redditu do portfolia placených kanálů, pokud vaše cílová skupina aktivně vyhledává informace a recenze. Sledujte, zda vaše produkty nebo služby jsou na Redditu diskutovány, a testujte menším rozpočtem efektivitu Reddit Ads.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -541,11 +1044,11 @@
    ],
    "category": "ppc",
    "importance": 65,
-   "title": "Google testuje výraznější zobrazení hodnocení hvězdičkami v reklamách",
+   "title": "Google testuje výraznější zobrazení hvězdičkového hodnocení v reklamách",
    "updated": "2026-08-16T14:50:26.137162+00:00",
-   "what": "Google testuje nový formát zobrazení hodnocení hvězdičkami v textových reklamách ve vyhledávání. Hodnocení se zobrazuje v samostatné sekci vedle textu reklamy a ukazuje skóre inzerenta spolu s počtem recenzí.",
-   "why": "Výraznější zobrazení hodnocení může uživatelům usnadnit rychlejší posouzení důvěryhodnosti inzerenta a potenciálně ovlivnit míru interakce s reklamami, zejména u značek se silnými recenzemi.",
-   "takeaway": "Pro české inzerenty s dobrými recenzemi může tento formát zvýšit viditelnost jejich hodnocení a CTR. Je vhodné sledovat, zda se test rozšíří i na český trh, a průběžně pečovat o kvalitu zákaznických hodnocení.",
+   "what": "Google zkoušel nový formát zobrazení hodnocení v textových reklamách ve vyhledávání. Hodnocení (počet hvězdiček a počet recenzí) se zobrazuje odděleně vedle textu reklamy, nikoliv jen jako drobný doplněk. Změnu zaznamenal Sachin Patel.",
+   "why": "Výraznější hodnocení může zvýšit důvěryhodnost reklam a ovlivnit míru prokliků (CTR), zejména u inzerentů s vysokým skóre. Uživatelé lépe rozpoznají kvalitu inzerenta už na první pohled.",
+   "takeaway": "Pokud inzerujete v Google Ads, ověřte, že máte správně nastavená rozšíření hodnocení prodejce (seller ratings extensions) a aktivně sbíráte recenze – nový formát může posílit výkonnost reklam firem s dobrými ohlasy.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -573,12 +1076,12 @@
     }
    ],
    "category": "ppc",
-   "importance": 55,
-   "title": "Bing testuje velké obrázky v textových reklamách",
+   "importance": 45,
+   "title": "Bing testuje velké obrázky v reklamách ve vyhledávání",
    "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Microsoft Bing testuje nový formát textových reklam s výraznými obrázkovými prvky. Testování zachytil a sdílel Sachin Patel.",
-   "why": "Větší vizuální prvky mají potenciál zvýšit CTR reklam a zlepšit jejich viditelnost ve výsledcích vyhledávání.",
-   "takeaway": "Pokud pracujete s Bing Ads, sledujte dostupnost tohoto formátu – větší obrazový obsah může zlepšit výkon kampaní. Zatím jde o test, není jasné, kdy a zda se funkce zpřístupní všem inzerentům.",
+   "what": "Microsoft Bing testuje velké obrázkové prvky v reklamách ve vyhledávání. Jde o nový formát, který má výrazně zlepšit viditelnost a atraktivitu reklam přímo ve výsledcích vyhledávání.",
+   "why": "Podle zdroje může tato změna významně zvýšit prokliky (CTR) reklam na Bingu. Pro inzerenty, kteří využívají Bing Ads, může jít o nový způsob, jak vyniknout ve výsledcích.",
+   "takeaway": "Pokud inzerujete na Bingu, sledujte dostupnost velkých obrázkových prvků ve vašem účtu. Až budou dostupné, připravte kvalitní vizuály a otestujte jejich vliv na CTR a konverze.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
@@ -607,13 +1110,15 @@
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google Ads vyžaduje deklaraci politických reklam v EU",
+   "title": "Google Ads vyžaduje nově označení EU politických reklam",
    "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google Ads informuje inzerenty, že musí v kampaních deklarovat, zda obsahují politickou reklamu určenou pro EU. Pokud inzerenti deklaraci nevyplní, budou jejich reklamy automaticky označeny jako politický obsah.",
-   "why": "Automatické označení jako politický obsah omezí zobrazování reklam v zemích EU. Inzerenti tak mohou ztratit dosah na evropském trhu, pokud deklaraci nezadají správně.",
-   "takeaway": "Čeští inzerenti v Google Ads musí zkontrolovat své kampaně a explicitně deklarovat, zda obsahují politický obsah pro EU. V opačném případě riskují omezení viditelnosti svých reklam v celé Evropské unii.",
+   "what": "Google Ads začal upozorňovat inzerenty, že musí u svých kampaní deklarovat, zda obsahují politický obsah v rámci EU. Pokud inzerent deklaraci nevyplní, budou jeho reklamy automaticky označeny jako politický obsah a jejich zobrazování v zemích EU bude omezeno.",
+   "why": "Automatické označení může výrazně snížit dosah kampaní v EU, i když politický obsah ve skutečnosti neobsahují. Pro české firmy, které inzerují běžné produkty nebo služby, hrozí zbytečné omezení viditelnosti v klíčovém trhu.",
+   "takeaway": "Zkontrolujte nastavení všech aktivních Google Ads kampaní a u nepolitických kampaní jasně deklarujte, že politický obsah neobsahují. Pokud máte EU kampaně, ujistěte se, že deklarace je správně vyplněná před tím, než Google použije automatické označení.",
    "importance_label": "důležité",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/4e77ade495.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "d83b8fc7ca",
@@ -742,13 +1247,15 @@
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google přejmenuje Search kampaně s broad matchem na AI Max od září 2026",
+   "title": "Google automaticky přemigruje Search kampaně do AI Max od září 2026",
    "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google od 1. září 2026 automaticky upgraduje vyhledávací kampaně používající Campaign-level Broad Match a Automatically Created Assets na nový typ kampaní AI Max. Jde o automatickou migraci, kterou Google provede bez nutnosti zásahu inzerenta.",
-   "why": "Změna ovlivní nastavení a fungování vyhledávacích kampaní využívajících široké shody klíčových slov na úrovni kampaně a automaticky vytvářená reklamní aktiva. Inzerenti budou muset počítat s přechodem na nový formát, který pravděpodobně více spoléhá na AI a automatizaci.",
-   "takeaway": "České marketéry čeká do září 2026 přechod relevantních Search kampaní na AI Max. Je vhodné sledovat oficiální dokumentaci Googlu k této migraci a připravit se na změny v řízení a reportingu těchto kampaní.",
+   "what": "Google od 1. září 2026 začne automaticky přesouvat Search kampaně využívající Campaign-level Broad Match a Automatically Created Assets do nového formátu AI Max.",
+   "why": "Jde o povinnou změnu struktury PPC kampaní v Google Ads, která ovlivní nastavení a správu kampaní využívajících broad match klíčová slova a automaticky vytvářená reklamní kreativy na úrovni kampaně.",
+   "takeaway": "Zkontrolujte, které vaše Search kampaně používají broad match na úrovni kampaně a automaticky vytvářená reklamní sdělení. Máte rok a tři měsíce na přípravu – seznamte se s fungováním AI Max a naplánujte dobrovolnou migraci před automatickým přesunem, abyste měli kontrolu nad procesem.",
    "importance_label": "důležité",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/640d2e57c4.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "78cd537230",
@@ -774,14 +1281,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 72,
-   "title": "Google rozšiřuje ověřování pro firmy z finančního sektoru v EEA",
+   "importance": 75,
+   "title": "Google rozšiřuje ověřování inzerentů finančních služeb na 13 zemí EHP",
    "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google Ads rozšiřuje požadavky na Financial Services Verification do dalších 13 zemí Evropského hospodářského prostoru. Žádosti přes G2 budou možné od 11. srpna 2026, vynucování začne 15. září 2026.",
-   "why": "Inzerenti v sektorech jako bankovnictví, půjčky, investice, obchodování a pojištění budou muset projít ověřením, aby mohli dál provozovat své reklamy. Google zjevně klade na toto téma velký důraz – předchozí rozšíření oznámil už v červnu.",
-   "takeaway": "Pokud inzerujete finanční služby v EEA, sledujte, zda se vaše země dostala do nového seznamu a připravte se na ověřovací proces včas. Při nesplnění požadavků do termínu vám Google zablokuje reklamy.",
+   "what": "Google Ads zavádí povinné ověřování (Financial Services Verification) pro inzerenty finančních služeb v dalších 13 zemích Evropského hospodářského prostoru. Přihlášky k ověření budou otevřeny 11. srpna 2026, vynucování začne 15. září 2026. Týká se sektorů jako bankovnictví, půjčky, investice, obchodování a pojištění.",
+   "why": "Inzerenti finančních služeb v dotčených zemích EHP budou muset projít ověřením, jinak nebudou moci od září 2026 zobrazovat své reklamy. Google k tomuto tématu opakovaně přistupuje – předchozí rozšíření oznámil v červnu, což naznačuje, že jde o prioritní oblast kontroly.",
+   "takeaway": "Pokud inzerujete finanční služby v EHP (včetně potenciálně ČR – konkrétní seznam zemí není ve zdroji uveden), sledujte, zda vás Google označí k ověření, a zahajte proces včas před srpnem 2026. Nezahájenému ověření hrozí zastavení kampaní od září 2026.",
    "importance_label": "důležité",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/78cd537230.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "f2094c4077",
@@ -835,13 +1344,15 @@
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google ruší manuální nastavení jazyka v Search kampaních od září 2026",
+   "title": "Google ruší manuální jazykové cílení v Search a Performance Max kampaních",
    "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google Ads od konce září 2026 odstraní možnost manuálně nastavovat cílení na jazyk na úrovni kampaní ve Vyhledávací síti a Performance Max. Místo toho bude Google automaticky rozhodovat o jazyku na základě jazyka reklamy, landing page a signálů AI.",
-   "why": "Změna zásadně mění způsob, jakým inzerenti spravují vícejazyčné kampaně. Google přesouvá kontrolu z rukou inzerentů na své automatizované systémy, což vyvolává otázky ohledně přesnosti cílení a struktury stávajících kampaní.",
-   "takeaway": "Čeští marketéři s vícejazyčnými kampaněmi (např. čeština + angličtina) musí počítat s tím, že od září 2026 ztratí přímou kontrolu nad jazykovým cílením. Klíčové bude zajistit konzistentní jazyk mezi reklamami a landing pages, protože právě podle toho Google nově rozhodne, komu reklamu ukáže.",
+   "what": "Google Ads od konce září 2026 odstraňuje možnost ručního nastavení jazyka na úrovni kampaní v Search a Performance Max. Namísto toho bude jazyk automaticky určován podle jazyka reklamy, cílové stránky a dalších signálů. Pokud uživatel rozumí více jazykům, reklamy budou způsobilé ve všech těchto jazycích.",
+   "why": "Změna přímo ovlivňuje nastavení kampaní inzerentů, kteří dosud využívali manuální jazykové cílení k přesnému řízení, na jaké jazykové skupiny reklamy směřovat. Může to komplikovat práci s vícejazyčnými kampaněmi a vyžaduje úpravu existujících struktur.",
+   "takeaway": "Zkontrolujte své Search a Performance Max kampaně – ujistěte se, že jazyk reklam a landing pages odpovídá cílové skupině. Pokud provozujete vícejazyčné kampaně, připravte se na úpravu struktury tak, aby se Google mohl správně orientovat podle obsahu, ne podle vašeho ručního nastavení.",
    "importance_label": "důležité",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/f2094c4077.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "b60ddc0efd",
@@ -993,12 +1504,12 @@
     }
    ],
    "category": "analytika",
-   "importance": 75,
-   "title": "Špatné měření brzdí investice do digitální reklamy, říká průzkum",
+   "importance": 65,
+   "title": "Špatné měření brzdí investice do ziskových digitálních kanálů",
    "updated": "2026-08-16T08:54:35.460952+00:00",
-   "what": "Podle průzkumu e-Marketer a AppsFlyer téměř 6 z 10 marketérů uvádí, že jejich organizace kvůli nedostatečným měřicím nástrojům pravděpodobně investují méně do ziskových digitálních kanálů. Nedostatečné měření výkonu tak přímo ovlivňuje alokaci reklamních budgetů.",
-   "why": "Firmy kvůli nesprávnému nebo nedostatečnému měření nemohou identifikovat nejefektivnější kanály a přicházejí tak o potenciální růst z kanálů, které by se skutečně vyplácely.",
-   "takeaway": "Zkontrolujte si vaše měřicí nástroje a metriky – špatná data znamenají špatná rozhodnutí o investicích. Investice do kvalitního měření se může vyplatit víc než navýšení samotného reklamního rozpočtu.",
+   "what": "Průzkum e-Marketer a AppsFlyer ukázal, že téměř 60 % marketérů kvůli nedostatečným měřicím nástrojům investuje méně do kanálů, které by jinak byly ziskové.",
+   "why": "Nedostatečná analytika vede k neoptimálnímu rozdělení rozpočtu – marketéři nevědí, kam peníze přinášejí nejvíc, a tak do výhodných kanálů dávají méně.",
+   "takeaway": "Zkontroluj, jestli vaše měření pokrývá všechny platné kanály a dokážete spolehlivě vyhodnotit ROI. Pokud ne, je čas investovat do lepší analytiky nebo multi-touch attribution.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1080,12 +1591,12 @@
     }
    ],
    "category": "ai",
-   "importance": 75,
-   "title": "Anthropic začíná vodoznakovat veškerý obsah z Claude, i překlady a úpravy",
+   "importance": 65,
+   "title": "Anthropic přidává do Claude vodoznaky – dopad na tvůrce obsahu i SEO",
    "updated": "2026-08-16T07:11:50.264124+00:00",
-   "what": "Společnost Anthropic zavedla u svého AI modelu Claude neviditelné vodoznaky, které označují veškerý text a soubory, které Claude vygeneruje nebo upraví. Systém funguje globálně a je reakcí na požadavky EU AI Act. Vodoznaky se přidávají i k textům, kde Claude pouze opravuje chyby nebo překládá.",
-   "why": "Jde o významný krok v označování AI-generovaného obsahu. Antropic reaguje na regulaci EU a zároveň se snaží vytvořit způsob, jak rozlišit texty vytvořené umělou inteligencí od lidských.",
-   "takeaway": "Pro české marketéry to znamená, že obsah vytvořený nebo upravený v Claude bude detekovatelný speciálními nástroji. Google však opakovaně potvrdil, že ho nezajímá původ obsahu, ale jeho kvalita a záměr. Výzkumy ukazují, že AI obsah v SEO funguje. Zároveň platí, že vodoznak lze porazit dalšími úpravami textu – jeho absence tedy nezaručuje, že text není AI-generovaný.",
+   "what": "Anthropic začala do veškerého textu generovaného nebo upravovaného AI modelem Claude přidávat neviditelné vodoznaky. Krok reaguje na požadavky EU AI Act. Vodoznak se objeví i v případě, že Claude text jen překládá nebo opravuje, a lze ho detekovat speciálním nástrojem.",
+   "why": "Pro firmy používající Claude k tvorbě nebo úpravám obsahu to znamená, že jejich texty budou označeny jako AI-generované. Vodoznak lze snadno odstranit jednoduchou úpravou textu (parafrázování, zkrácení), takže jeho absence nedokazuje, že text nevznikl s pomocí AI. Google opakovaně uvedl, že mu nezáleží na způsobu tvorby obsahu, ale na tom, zda neslouží k manipulaci s žebříčky.",
+   "takeaway": "Pokud používáš Claude na tvorbu nebo úpravu textů pro web, počítej s tím, že budou označeny vodoznakem (dokud je výrazně neupravíš). Pro SEO to podle dosavadních informací od Googlu není riziko – důležitá zůstává kvalita a užitečnost obsahu, ne způsob jeho vzniku. Sleduj, zda se přístup Googlu k AI obsahu nezmění.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1105,11 +1616,11 @@
    ],
    "category": "analytika",
    "importance": 65,
-   "title": "Google Analytics spouští srovnávání kampaní s konkurencí",
+   "title": "Google Analytics spouští porovnání s benchmarky kampaní",
    "updated": "2026-08-15T13:05:49.217480+00:00",
-   "what": "Google Analytics přidal novou funkci pro srovnávání výkonnosti kampaní s průměry v odvětví (campaign benchmarking). Zároveň se objevila nová data o vyhledávacím indexu ChatGPT a Google znovu podal žalobu proti SerpApi s upravenými podmínkami.",
-   "why": "Benchmarking v GA umožní marketérům poprvé porovnat skutečnou výkonnost svých kampaní s průměrem odvětví přímo v Analytics, což doteď nebylo k dispozici.",
-   "takeaway": "Čeští marketéři mohou nově v Google Analytics vidět, jak si jejich kampaně stojí oproti konkurenci v oboru – což může pomoct při optimalizaci rozpočtů a strategie.",
+   "what": "Google Analytics přidává novou funkci pro porovnávání výkonu kampaní s benchmarky. Zdroj dále zmiňuje nová data o indexu vyhledávání ChatGPT a Google znovu podává žalobu proti SerpApi.",
+   "why": "Možnost porovnat výkon vlastních kampaní s anonymizovanými daty jiných inzerentů v GA pomůže marketingovým manažerům lépe vyhodnotit, zda dosahují nadprůměrných výsledků nebo zaostávají za konkurencí v oboru.",
+   "takeaway": "Zkontrolujte, zda máte ve svém Google Analytics přístup k nové funkci benchmarkingu kampaní – může vám ukázat, jak si vedete oproti trhu a kde hledat rezervy v optimalizaci.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1161,12 +1672,12 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Google nasazuje Gemini 3.7 Flash do vyhledávání v AI režimu",
+   "importance": 62,
+   "title": "Google nasazuje Gemini 3.7 Flash do AI Mode ve vyhledávání",
    "updated": "2026-08-15T04:54:38.059873+00:00",
-   "what": "Google začal zavádět model Gemini 3.7 Flash do AI režimu svého vyhledávače (AI Mode in Search). Funkce je dostupná pro předplatitele Google AI Pro a Ultra, a to den po oficiálním uvedení modelu.",
-   "why": "Jde o aktualizaci AI vyhledávacího nástroje Google, která může ovlivnit podobu výsledků vyhledávání a interakci uživatelů s vyhledávačem. Pro marketéry to znamená změny v tom, jak se jejich obsah zobrazuje a zpracovává v AI režimu.",
-   "takeaway": "Sledujte, jak nový model ovlivňuje zobrazování vašeho obsahu v Google vyhledávání, zejména pokud vaši cílovou skupinu tvoří uživatelé prémiových služeb Google. Zatím není jasné, jak široko se funkce rozšíří mimo placené předplatitele.",
+   "what": "Google začal zavádět nový model Gemini 3.7 Flash do AI Mode ve vyhledávání, a to den po jeho prvním uvedení. Funkce je zatím dostupná pouze pro předplatitele Google AI Pro a Ultra.",
+   "why": "Jde o update AI funkce ve vyhledávání Google, který může ovlivnit povahu výsledků vyhledávání a interakci uživatelů s vyhledávačem. Pro SEO specialisty a PPC manažery je důležité sledovat, jak nové AI modely mění chování uživatelů a zobrazování výsledků.",
+   "takeaway": "Sledujte, jak se mění výsledky vyhledávání v AI Mode – může to ovlivnit viditelnost vašeho obsahu a chování uživatelů. Zatím jde o prémiovou funkci, ale rozšíření na širší publikum může změnit pravidla hry v organickém vyhledávání.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1185,12 +1696,12 @@
     }
    ],
    "category": "seo",
-   "importance": 75,
-   "title": "ChatGPT bot obchází robots.txt – OpenAI potvrzuje technickou mezeru",
+   "importance": 65,
+   "title": "ChatGPT ignoruje robots.txt – OpenAI potvrzuje omezení ochrany obsahu",
    "updated": "2026-08-14T19:24:58.294497+00:00",
-   "what": "Nová data ukazují, že ChatGPT bot pro načítání stránek (fetch bot) přistupuje na weby, které mu to explicitně zakázaly přes robots.txt. OpenAI ve své dokumentaci potvrzuje, že tento bot nemusí respektovat standardní pravidla robots.txt.",
-   "why": "Majitelé webů ztrácejí kontrolu nad tím, zda jejich obsah používá ChatGPT pro generování odpovědí. Standardní metoda blokování robotů (robots.txt) v tomto případě nefunguje.",
-   "takeaway": "Pokud nechcete, aby ChatGPT využíval obsah z vašeho webu, nestačí klasický robots.txt. Musíte hledat alternativní technická řešení nebo komunikovat přímo s OpenAI – standardní nástroje pro kontrolu přístupu botů zde selhávají.",
+   "what": "Bot ChatGPT (používaný pro načítání obsahu stránek při konverzaci) přistupuje na weby, které jej pomocí robots.txt zakázaly. OpenAI ve vlastní dokumentaci potvrzuje, že tento bot nemusí respektovat standardní robots.txt směrnice.",
+   "why": "Majitelé webů přicházejí o kontrolu nad tím, jak jejich obsah využívá ChatGPT v real-time odpovědích. Standardní ochrana přes robots.txt nefunguje, což komplikuje správu přístupu AI nástrojů k webu.",
+   "takeaway": "Pokud nechcete, aby ChatGPT využíval obsah z vašeho webu, nestačí robots.txt – ověřte si dokumentaci OpenAI pro alternativní způsoby blokování. Monitorujte logy serveru, zda se bot ChatGPT objevuje navzdory zákazům.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1208,14 +1719,14 @@
      "score": 52
     }
    ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "YouTube měří vliv tvůrců na brandové vyhledávání, metodika má ale mezery",
+   "category": "ppc",
+   "importance": 45,
+   "title": "YouTube prokazuje vliv creator kampaní na branded search, ale chybí metodika",
    "updated": "2026-08-14T19:24:58.294497+00:00",
-   "what": "Google vydal playbook, který dokládá, že kampaně s youtuberskými tvůrci zvyšují brandové vyhledávání. Podle Search Engine Journal ale v metodice chybí klíčové údaje – atribuční okna, baseline měření a kontrolní skupiny.",
-   "why": "Jde o první oficiální snahu YouTube kvantifikovat dopad influencer marketingu na vyhledávání. Absence metodických detailů ale znesnadňuje replikaci výsledků a ověření skutečného přínosu.",
-   "takeaway": "Pokud měříte influencer kampaně přes branded search lift, nezapomeňte si nastavit vlastní baseline, kontrolní skupinu a jasné atribuční okno. Google zatím neposkytuje kompletní metodiku.",
-   "importance_label": "důležité",
+   "what": "Google zveřejnil playbook, který dokazuje, že kampaně s tvůrci obsahu na YouTube zvyšují počet vyhledávání brandů. Dokumenty však neobsahují klíčové metodologické informace – chybí atribuční okna, baseline a kontrolní skupiny.",
+   "why": "Firmy investují do influencer marketingu a potřebují měřit dopad na vyhledávání značky. Bez transparentní metodiky je ale těžké posoudit skutečnou efektivitu a replikovatelnost výsledků v praxi.",
+   "takeaway": "Pokud plánujete creator kampaně na YouTube, počítejte s možným růstem branded search, ale při měření dopadu si nastavte vlastní baseline, kontrolní skupinu a jasná atribuční okna – Google data jsou spíš orientační než přesně použitelné.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1234,46 +1745,13 @@
    ],
    "category": "cesky-marketing",
    "importance": 45,
-   "title": "Slovenský e-commerce rostl v 1. pololetí 2026 o 2,3 %, vedou chovatelské potřeby",
+   "title": "Slovenský e-commerce rostl o 2,3 %, táhnou ho chovatelské potřeby a nářadí",
    "updated": "2026-08-14T19:24:58.294497+00:00",
-   "what": "Slovenský e-commerce trh vzrostl v prvním pololetí 2026 o 2,3 %. Růst táhly především kategorie chovatelských potřeb a sortimentu pro dílny (nářadí, kutilství).",
-   "why": "Data ze Slovenského trhu mohou indikovat trendy relevantní i pro český e-commerce, kde se tyto země historicky vyvíjejí podobně. Růst specifických kategorií ukazuje na měnící se spotřebitelské preference.",
-   "takeaway": "České e-shopy mohou očekávat pokračující zájem o kategorie chovatelských potřeb a DIY sortimentu. Mírný růst 2,3 % naznačuje spíše stabilizaci trhu než boom.",
+   "what": "Slovenský e-commerce trh vzrostl v prvním pololetí 2026 o 2,3 %. Růst táhly především kategorie chovatelských potřeb a sortimentu do dílny (nářadí, kutilství).",
+   "why": "Jde o údaj ze sousedního trhu, který má s českým e-commerce prostředím řadu společných rysů – podobné platformy (Heureka působí na obou trzích), spotřebitelské chování i strukturu kategorií. Slovenská data mohou naznačovat trendy relevantní i pro ČR.",
+   "takeaway": "Pokud prodáváte chovatelské potřeby nebo kutilský sortiment, sledujte poptávku – růst těchto kategorií na Slovensku může signalizovat podobný trend i v ČR. U ostatních kategorií počítejte spíše s mírným růstem nebo stagnací.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "caf4145081",
-   "created": "2026-08-14T13:52:37.472906+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-for-agencies-1000-accounts-41870.html",
-     "title": "Google Merchant Center For Agencies Can Link Up To 1,000 Accounts",
-     "summary": "Google updated a help document within the Google Merchant Center help area to document that Google Merchant Center for Agencies can now link to up to 1,000 Merchant Center accounts. Previously, that number was not there, and now we know - up to 1,000 accounts can be linked to a single agency account.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T11:31:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTd4eDBYWkhUckN5Zk03QXVaUEVvWDc4SU9rSkhUWlV6ejdld3ZDUHAxVUpadVAxN1JZcnpwcVlIWXBwUUtLaFVnM1RrN1lmaURKX3dDMTJmWjhKNUJBM3dldXlnaWRSQ0d6WlAyeGdIbFRSQmZwM2JYQ284VF9BN2dPSmJHWFVDeHJtUGNvUll4bHAtQXdUR05aWmd3SnZfMGhVdWZrdXkyZHg4b1FaNA?oc=5",
-     "title": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts",
-     "summary": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-14T14:52:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Google Merchant Center pro agentury zvýšil limit na 1000 účtů",
-   "updated": "2026-08-14T17:22:46.098977+00:00",
-   "what": "Google aktualizoval dokumentaci Google Merchant Center a oficiálně potvrdil, že agenturní účty mohou nyní propojit až 1000 účtů Merchant Center. Předtím tento limit nebyl v dokumentaci uveden.",
-   "why": "Změna je relevantní pro e-commerce agentury a větší PPC týmy, které spravují nakupování přes Google pro více klientů najednou. Vyšší limit usnadňuje centrální správu kampaní.",
-   "takeaway": "České agentury zaměřené na Google Shopping mohou nyní efektivněji škálovat správu klientských účtů z jednoho místa. Pro menší agentury se zatím prakticky nic nemění, limit 1000 účtů pokryje i velké hráče na trhu.",
-   "importance_label": "kontext",
-   "multi_source": true
   },
   {
    "id": "440457994a",
@@ -1290,13 +1768,13 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 65,
-   "title": "Francouzský ústavní soud zrušil zákaz sociálních sítí pro děti mladší 15 let",
+   "importance": 45,
+   "title": "Francouzský ústavní soud zrušil zákaz sociálních sítí pro děti do 15 let",
    "updated": "2026-08-14T17:22:46.098977+00:00",
-   "what": "Francouzská Ústavní rada označila klíčovou část zákona, který měl od září zakázat dětem mladším 15 let přístup na sociální sítě, za protiústavní. Soud vyhověl námitce skupiny poslanců, kteří zákon považovali za příliš obecný.",
-   "why": "Jde o významný precedent pro regulaci sociálních sítí v Evropě. Ukazuje, že příliš široce formulované zákazy nejsou ústavně průchodné, což může ovlivnit podobné legislativní snahy v dalších zemích EU včetně Česka.",
-   "takeaway": "Marketéři cílící na mladé uživatele ve Francii mohou zatím pokračovat v běžném provozu. Případ ale naznačuje, že budoucí regulace budou muset být přesněji formulované a pravděpodobně zaměřené spíše na konkrétní mechanismy platforem než na plošné zákazy.",
-   "importance_label": "důležité",
+   "what": "Francouzská Ústavní rada zamítla zákon, který měl od září zakázat dětem mladším 15 let přístup na sociální sítě. Soud vyhověl námitce části poslanců a klíčovou část zákona označil za protiústavní kvůli příliš obecné formulaci.",
+   "why": "Jde o signál, že plošné regulace sociálních sítí čelí právním překážkám i v EU. Pro marketéry to znamená, že dosah a cílení na mladší uživatele zatím v některých zemích zůstává beze změny, ale téma věkových omezení zůstává živé.",
+   "takeaway": "Sledujte vývoj podobných zákonů v EU – až budou přijaty jinak formulované předpisy, mohou omezit dosah vašich kampaní na mladší publikum. Prozatím však ve Francii platí status quo.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1315,11 +1793,11 @@
    ],
    "category": "analytika",
    "importance": 65,
-   "title": "Google Analytics zavádí vlastní okna atribuce konverzí",
+   "title": "Google Analytics umožňuje nastavit vlastní okna pro atribuci konverzí",
    "updated": "2026-08-14T17:22:46.098977+00:00",
-   "what": "Google Analytics přidává možnost nastavit vlastní okna atribuce konverzí. Uživatelé tak mohou přizpůsobit časové období, za které se konverze přiřazují k jednotlivým marketingovým kanálům.",
-   "why": "Standardní okna atribuce nemusí odpovídat reálnému nákupnímu cyklu konkrétního byznysu. Vlastní nastavení umožní přesnější měření dopadu marketingových aktivit.",
-   "takeaway": "Čeští marketéři by měli zvážit nastavení oken atribuce podle své zákaznické cesty – zejména v segmentech s delším rozhodovacím procesem (B2B, dražší produkty). Umožní to lépe vyhodnotit, které kanály skutečně fungují.",
+   "what": "Google Analytics přidal možnost nastavit vlastní časová okna pro atribuci konverzí. Dosud bylo možné používat pouze přednastavené intervaly, nyní mohou uživatelé definovat vlastní období, ve kterém se konverze přiřazují ke zdrojům návštěvnosti.",
+   "why": "Flexibilnější atribuce umožňuje lépe vyhodnocovat výkon marketingových kanálů podle specifik byznysu – například u produktů s delším nákupním cyklem nebo naopak impulsních nákupů. Marketingoví manažeři získávají přesnější data pro rozhodování o alokaci rozpočtu mezi kanály.",
+   "takeaway": "Zkontrolujte aktuální atribuční okna v GA4 a zvažte, zda lépe odpovídají vašemu nákupnímu cyklu. U produktů s dlouhou cestou k nákupu zvažte prodloužení okna, abyste neztráceli hodnotu horních částí funnelu.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1338,13 +1816,13 @@
     }
    ],
    "category": "analytika",
-   "importance": 75,
-   "title": "Cloudflare varuje: botů bude za 5 let tisíckrát víc než lidí",
+   "importance": 55,
+   "title": "Cloudflare: strojový provoz může do 5 let převýšit lidský 1000×",
    "updated": "2026-08-14T15:20:13.885678+00:00",
-   "what": "Cloudflare odhaduje, že provoz způsobený stroji (boty, AI crawlery) by mohl za pět let tisíckrát převýšit lidský provoz na webu. Společnost, která zároveň měří problém s boty a prodává řešení proti nim, tak rámcuje nadcházející výzvu.",
-   "why": "Dramatický nárůst automatizovaného provozu přinese zásadní dopady na správu webů, bezpečnost, zatížení serverů i interpretaci analytických dat. Cloudflare má v tomto dvojí roli – jako diagnostik i dodavatel řešení.",
-   "takeaway": "Weboví administrátoři a marketéři by měli začít kontrolovat vlastní logy a rozlišovat skutečný lidský provoz od botů. Číslům v analytice nelze slepě věřit – podíl nelidského provozu bude rapidně růst.",
-   "importance_label": "důležité",
+   "what": "Cloudflare předpovídá, že strojový provoz na webu může v horizontu pěti let dosáhnout tisícinásobku lidské návštěvnosti. Jde o predikci firmy, která zároveň měří botový provoz a prodává řešení na jeho filtrování.",
+   "why": "Masivní nárůst strojového provozu (crawlery AI, scraping, útoky) zkresluje analytiku, zatěžuje servery a může skrývat bezpečnostní hrozby. Pro marketingového manažera je klíčové odlišit skutečné uživatele od botů, aby data pro rozhodování byla validní a rozpočty na hosting/infrastrukturu realistické.",
+   "takeaway": "Zkontroluj vlastní logy webu a podíl strojového provozu v GA4 nebo CDN reportech. Zvaž investici do bot managementu, pokud vidíš anomálie v datech nebo zatížení serveru – zejména u e-commerce a contentových projektů s vysokou návštěvností.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1363,11 +1841,11 @@
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google Ads ruší manuální nastavení jazykového targetování",
+   "title": "Google Ads ruší ruční nastavení jazykového cílení od září 2026",
    "updated": "2026-08-14T15:20:13.885678+00:00",
-   "what": "Google Ads od příštího měsíce odebírá možnost ručně nastavovat jazykové cílení v reklamních kampaních. Změna byla oznámena 14. srpna 2026.",
-   "why": "Jde o zásadní změnu v nastavování PPC kampaní, která může ovlivnit způsob, jakým inzerenti řídí zobrazování reklam podle jazykových preferencí uživatelů.",
-   "takeaway": "Čeští inzerenti by měli připravit své kampaně na automatizaci jazykového targetování a ověřit, jak tato změna ovlivní dosah jejich reklam, zejména v případě vícejazyčných kampaní nebo specifického cílení na české uživatele.",
+   "what": "Google Ads od příštího měsíce (září 2026) odebírá možnost ručního nastavení jazykového cílení v kampaních. Jde o změnu v nastavení cílení, která ovlivní způsob, jakým inzerenti kontrolují jazykové preference své reklamy.",
+   "why": "Změna přímo zasahuje správu Google Ads kampaní a ovlivňuje kontrolu nad tím, komu se reklamy zobrazují. Pro české inzerenty může jít o problém zejména při cílení na česky mluvící uživatele nebo při mezinárodních kampaních s potřebou oddělení jazykových verzí.",
+   "takeaway": "Do konce srpna zkontrolujte jazykové nastavení všech aktivních Google Ads kampaní. Připravte se na to, že od září budete mít menší kontrolu nad jazykovým cílením – může být potřeba upravit strategie segmentace kampaní nebo klíčových slov, aby kompenzovaly ztrátu této možnosti nastavení.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1395,13 +1873,13 @@
     }
    ],
    "category": "ai",
-   "importance": 55,
-   "title": "Český Auredo chce konkurovat nástrojům pro propojení AI s firemními systémy",
+   "importance": 35,
+   "title": "Český Auredo chce propojit firemní data s AI – alternativa k MCP",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Pražská firma DesignDev spustila nástroj Auredo, který má propojit firemní systémy a data s AI modely (LLM) a nabídnout zabezpečené řídící centrum. Vstupuje tak do kategorie AI middleware, kde již působí světoví hráči.",
-   "why": "Propojení AI s firemními nástroji a daty je klíčové pro praktické využití AI v byznysu. Auredo se snaží nabídnout českou alternativu k zahraničním řešením s důrazem na bezpečnost a centralizované řízení.",
-   "takeaway": "Pro české firmy může Auredo znamenat dostupnější cestu, jak začít využívat AI s jejich stávajícími systémy. Při volbě řešení stojí za zvážení, zda preferovat lokálního dodavatele s potenciálně lepší podporou, nebo osvědčené světové hráče.",
-   "importance_label": "stojí za pozornost",
+   "what": "Pražská firma DesignDev spustila nástroj Auredo, který propojuje firemní systémy a data s AI modely (LLM) přes jedno zabezpečené řídící centrum. Jde o český projekt v kategorii AI middleware, která umožňuje AI asistentům získávat data z běžně používaných nástrojů.",
+   "why": "Pro marketingové manažery může jít o praktický způsob, jak AI asistentům zpřístupnit data z analytických nástrojů, CRM nebo reklamních platforem bez nutnosti manuálního exportu. Zatím ale není jasný reálný přínos oproti existujícím řešením ani konkrétní integrace.",
+   "takeaway": "Sledujte vývoj Auredo a podobných nástrojů (jako je Model Context Protocol), pokud chcete v budoucnu umožnit AI přístup k datům z marketingových nástrojů. Aktuálně jde o novinku bez ověřeného dopadu na praxi.",
+   "importance_label": "kontext",
    "multi_source": true
   },
   {
@@ -1435,7 +1913,9 @@
    "why": "Jde o signál, že AI vyhledávání nemusí automaticky upřednostňovat pouze velké mediální domy a placené partnery. Pro menší weby to může znamenat šanci na viditelnost v AI odpovědích.",
    "takeaway": "Provozovatelé menších webů by neměli předpokládat, že jsou z AI vyhledávání vyřazeni. Stále má smysl optimalizovat obsah pro AI nástroje a sledovat, jak se zobrazuje v ChatGPT odpovědích.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/9e5ff0e55d.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "b5660b8987",
@@ -1452,13 +1932,13 @@
     }
    ],
    "category": "ppc",
-   "importance": 45,
-   "title": "Microsoft vylepšuje AI asistenta Copilot v reklamní platformě",
+   "importance": 35,
+   "title": "Microsoft rozšiřuje AI asistenta Copilot v reklamní platformě",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Microsoft představil nové aktualizace pro Copilot v Microsoft Advertising Platform. Jde o AI asistenta určeného pro digitální reklamu.",
-   "why": "Vylepšení AI nástrojů v reklamních platformách může zjednodušit práci s kampaněmi a urychlit rozhodování o optimalizaci.",
-   "takeaway": "Čeští marketéři používající Microsoft Advertising by měli sledovat nové funkce Copilota – AI asistent může usnadnit správu kampaní a analýzu dat. Konkrétní detaily o nových funkcích ale zatím Microsoft nezveřejnil.",
-   "importance_label": "stojí za pozornost",
+   "what": "Microsoft představil nové funkce pro Copilot v Microsoft Advertising Platform. Jde o AI asistenta pro správu digitální reklamy, který nyní dostává vylepšení v oblasti monetizace.",
+   "why": "Pro inzerenty využívající Microsoft Advertising (včetně Bing Ads) může jít o zjednodušení práce s kampaněmi. Rozsah konkrétních funkcí však ze zdroje nevyplývá, takže dopad na běžnou práci není jasný.",
+   "takeaway": "Pokud používáte Microsoft Advertising, sledujte, jaké konkrétní funkce Copilot nabízí – může ušetřit čas při rutinních úkonech. Pro většinu českých firem soustředěných na Google Ads a Sklik zatím spíše okrajová novinka.",
+   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -1476,13 +1956,13 @@
     }
    ],
    "category": "ai",
-   "importance": 45,
-   "title": "Google vyhledávač šířil falešnou zprávu o smrti Sama Altmana",
+   "importance": 25,
+   "title": "Google zobrazil falešnou smrt Sama Altmana – vandalizmus Wikipedie prošel do výsledků",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Google vyhledávač zobrazoval nesprávnou informaci, že Sam Altman (CEO OpenAI) je mrtvý a byl zavražděn. V té době někdo opakovaně upravoval Altmanův životopis na Wikipedii. Google se hájí, že za chybu nenese odpovědnost.",
-   "why": "Incident ukazuje zranitelnost algoritmů Google vůči manipulaci a dezinformacím z veřejně editovatelných zdrojů jako Wikipedia. Pro důvěryhodnost vyhledávače a šíření faktů to představuje zásadní problém.",
-   "takeaway": "Marketéři se nemohou spoléhat jen na to, co Google zobrazuje jako fakt – je potřeba ověřovat informace z více zdrojů. Zároveň to upozorňuje na rizika reputace značek, pokud jsou terčem podobné manipulace.",
-   "importance_label": "stojí za pozornost",
+   "what": "Google ve svém vyhledávání nechtěně zobrazil falešnou informaci o smrti a vraždě Sama Altmana (CEO OpenAI). V době incidentu někdo opakovaně upravoval Altmanův životopis na Wikipedii, odkud Google údaje čerpal.",
+   "why": "Incident ukazuje zranitelnost automatického zobrazování informací z veřejných zdrojů (jako Wikipedie) ve vyhledávačích. Pro marketéry připomíná rizika spoléhání se na automatizované AI nástroje bez lidské kontroly.",
+   "takeaway": "Pokud ve firmě používáte AI nástroje pro automatickou tvorbu nebo agregaci obsahu, vždy je doplňte o lidskou kontrolu před publikací. Podobné chyby mohou poškodit důvěryhodnost.",
+   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -1500,13 +1980,13 @@
     }
    ],
    "category": "ppc",
-   "importance": 65,
-   "title": "Demand Gen kampaně ukazují, že PPC musí překročit hranice záměru vyhledávání",
+   "importance": 55,
+   "title": "Demand Gen ukazuje, že PPC už nemůže spoléhat jen na záměr vyhledávání",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Podle Search Engine Land Demand Gen kampaně Google dokazují, že PPC reklama se již nemůže spoléhat výhradně na okamžitý záměr uživatelů při vyhledávání. Jde o posun od čistě výkonnostního marketingu k širšímu budování poptávky.",
-   "why": "Tradiční PPC model založený na reagování na přímý záměr uživatele přestává stačit. Demand Gen kampaně ukazují potřebu pracovat s uživateli dříve v nákupním procesu a budovat povědomí ještě před tím, než začnou aktivně vyhledávat.",
-   "takeaway": "Čeští PPC specialisté by měli začít kombinovat výkonnostní kampaně s aktivitami na budování poptávky. Nestačí už jen reagovat na vyhledávání – je třeba být vidět dřív, než uživatel začne řešit potřebu.",
-   "importance_label": "důležité",
+   "what": "Článek z Search Engine Land analyzuje vývoj PPC reklamy a úlohu kampaní typu Demand Gen (Google), které cílí nejen na existující záměr, ale aktivně budují poptávku u publika, které zatím neví, že řešení potřebuje.",
+   "why": "Klasické search PPC funguje na okamžitém záměru uživatele – někdo hledá, my se zobrazíme. Demand Gen i podobné formáty ale přinášejí nutnost pracovat s širším publikem, vytvářet obsah a kampaně, které lidi vzdělávají a postupně vedou k nákupu. Pro PPC manažery to znamená posun od čistě výkonnostního myšlení k integrované strategii napříč kanály.",
+   "takeaway": "Pokud řídíš PPC v ČR, nezůstávej jen u klasického Skliku a Google Ads Search. Zvažuj zapojení Display a Demand Gen kampaní, které osloví lidi dřív, než začnou hledat – potřebuješ ale kvalitní kreativy a obsahovou strategii. Tento trend posiluje i v kontextu rostoucí konkurence o search traffic.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1524,12 +2004,12 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Google testuje AI tlačítka na hlavní stránce, Meta buduje vyhledávač",
+   "importance": 68,
+   "title": "Google testuje AI tlačítka na domovské stránce, posiluje AI v lokálních výsledcích",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Google testuje nová AI tlačítka přímo na své domovské stránce. Zároveň se objevily zprávy o tom, že Meta pracuje na vlastním vyhledávači. Google dále zaznamenal výkyvy v search rankingu 12. tohoto měsíce.",
-   "why": "Umístění AI funkcí na hlavní stránku Google signalizuje posun ve způsobu, jakým uživatelé budou vyhledávat. Vstup Meta do vyhledávání může změnit konkurenční prostředí.",
-   "takeaway": "Sledujte, jak AI funkce Google ovlivní organickou návštěvnost a CTR. Připravte se na možný vstup dalšího velkého hráče do vyhledávání, což může změnit distribuční kanály obsahu.",
+   "what": "Google testuje nová AI tlačítka přímo na své domovské stránce. Zároveň rozšiřuje AI funkce v lokálních výsledcích vyhledávání (local pack). Týden přinesl také další výkyvy v žebříčcích (12. srpna) a informace o snaze Googlu získat inzerenty od konkurence a o vývoji vyhledávače Metou.",
+   "why": "Změny v rozhraní Googlu a postupná integrace AI do všech typů výsledků (včetně lokálních) mění způsob, jakým uživatelé hledají a klikají. Pro firmy cílící na lokální zákazníky i pro PPC specialisty to může znamenat změny v CTR, cestách uživatelů a potřebě optimalizace pro AI-generované odpovědi.",
+   "takeaway": "Sledujte, zda se AI tlačítka objeví i v českém Googlu a jak ovlivní organickou návštěvnost. U lokálně orientovaných kampaní a firem kontrolujte metriky kliknutí a pozice v local packu – AI může měnit, kolik lidí se vůbec dostane na web. Připravte se na scénář, kdy odpověď získají přímo ve vyhledávači.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1548,12 +2028,12 @@
     }
    ],
    "category": "seo",
-   "importance": 72,
-   "title": "Google začíná zobrazovat AI obrázky v AI Overviews ve vyhledávání",
+   "importance": 65,
+   "title": "Google začíná zobrazovat AI-generované obrázky v AI Overviews",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Google tento týden začal postupně nasazovat AI generované obrázky přímo do AI Overviews (AI souhrnů) ve vyhledávání. Jde o realizaci ohlášení z před měsíce, kdy Google avizoval tuto novinku.",
-   "why": "AI Overviews se stávají bohatšími a vizuálně přitažlivějšími, což může ještě více snížit nutnost uživatelů proklikávat se na weby. Mění se tak forma, jak Google prezentuje informace přímo ve výsledcích.",
-   "takeaway": "Sledujte, jak AI Overviews s obrázky ovlivní míru prokliku na váš web. Připravte se na to, že Google bude ještě více odpovědí poskytovat přímo – optimalizace obsahu pro zachycení v těchto souhrnech bude důležitější.",
+   "what": "Google spustil postupné zobrazování AI-generovaných obrázků přímo v AI Overviews (AI souhrny ve vyhledávání). Jde o funkci, kterou Google avizoval před měsícem a nyní se začíná objevovat v reálném provozu.",
+   "why": "AI Overviews postupně mění způsob, jakým uživatelé konzumují výsledky vyhledávání – místo kliknutí na web čtou AI souhrn. Přidání AI-generovaných obrázků posiluje tento trend a může dále snižovat prokliky na weby. Pro SEO specialisty a majitele webů jde o pokračující posun v organickém vyhledávání, který ovlivňuje viditelnost a návštěvnost.",
+   "takeaway": "Sledujte data z Google Search Console a Google Analytics – prokliky z organického vyhledávání mohou klesat i při stabilních pozicích, pokud Google zodpoví dotazy přímo v AI Overview. Zvažte optimalizaci obsahu tak, aby Google citoval váš web jako zdroj v AI souhrnech (E-E-A-T, strukturovaná data, jasné odpovědi na otázky).",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1596,13 +2076,13 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Google umožňuje nahlašovat nevhodné odpovědi firem na recenze",
+   "importance": 45,
+   "title": "Google umožňuje nahlásit nevhodné odpovědi majitelů na recenze",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Google přidal do Business Profiles novou možnost nahlášení nevhodných odpovědí majitelů firem na recenze. Uživatelé mohou reportovat odpovědi, které jsou mimo téma, obsahují vulgarity, jsou obtěžující, diskriminační, nenávistné nebo zahrnují osobní údaje.",
-   "why": "Jde o rozšíření moderačních nástrojů Googlu, které dává zákazníkům větší kontrolu nad kvalitou komunikace firem v recenzích. Dosud bylo možné nahlašovat pouze samotné recenze, ne reakce majitelů.",
-   "takeaway": "Firmy by měly být ve svých odpovědích na recenze ještě opatrnější a profesionálnější. Nevhodná nebo emotivní reakce na negativní hodnocení může být nahlášena a potenciálně odstraněna, což může poškodit reputaci značky.",
-   "importance_label": "důležité",
+   "what": "Google přidal do Business Profiles novou možnost nahlášení odpovědí majitelů na recenze. Uživatelé mohou nahlásit odpověď, která je mimo téma, obsahuje vulgarismy, je obtěžující, diskriminační, nenávistná nebo sdílí osobní údaje.",
+   "why": "Firmy, které spravují Google profil, by měly být opatrné při formulaci odpovědí na recenze – nevhodné reakce lze nyní snáze nahlásit a Google je může odstranit. To může ovlivnit reputaci firmy i viditelnost v lokálním vyhledávání.",
+   "takeaway": "Zkontrolujte styl vašich odpovědí na recenze v Google Business Profile. Vyhýbejte se osobním útokům, vulgarismům a sdílení citlivých informací – i v případě negativních recenzí zůstaňte věcní a profesionální.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1620,12 +2100,12 @@
     }
    ],
    "category": "obsah",
-   "importance": 55,
-   "title": "YouTube přepracoval rozhraní podle 5 designových principů",
+   "importance": 45,
+   "title": "YouTube představil 5 designových principů pro nové rozhraní",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "YouTube představil aktualizaci uživatelského rozhraní postavenou na pěti designových principech. Hlavním cílem změn je snížit vizuální nepořádek a posunout videa tvůrců do středu pozornosti.",
-   "why": "Úprava rozhraní přímo ovlivňuje, jak uživatelé vnímají a konzumují obsah tvůrců. Pro marketéry může změna znamenat jiné chování diváků a potenciálně lepší viditelnost kvalitního video obsahu.",
-   "takeaway": "Sledujte, jak se změny v YouTube rozhraní projeví v metrikách vašich videí – méně rušivých elementů může zvýšit míru dokončení a engagement. Zaměřte se na kvalitu samotného obsahu, protože platforma ho staví víc do popředí.",
+   "what": "YouTube zveřejnil pět designových principů, které stojí za nejnovějšími úpravami rozhraní platformy. Cílem změn je snížit vizuální nepořádek a posunout videa tvůrců do centra pozornosti.",
+   "why": "Pro marketéry využívající YouTube jako kanál může mít úprava rozhraní vliv na to, jak uživatelé vnímají a interagují s obsahem. Změny v UX mohou ovlivnit metriky sledovanosti, engagement a celkovou efektivitu video kampaní.",
+   "takeaway": "Sledujte, jak designové změny YouTubu ovlivní metriky vašich video kampaní (CTR, watch time, engagement). Přizpůsobte případně náhledy a počáteční sekundy videí novému způsobu prezentace obsahu.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -1643,12 +2123,15 @@
      "score": 47
     }
    ],
-   "category": "cesky-marketing",
-   "importance": 47,
-   "title": "Nedělní politická diskuse ČT dostane od 30. srpna proměněnou podobu",
+   "category": "obsah",
+   "importance": 5,
+   "title": "Změna formátu nedělní politické diskuse ČT od 30. srpna",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "importance_label": "kontext",
+   "multi_source": false,
+   "what": "Česká televize upraví od 30. srpna formát své nedělní politické diskuse.",
+   "why": "Jde o mediální zákulisí veřejnoprávní televize. Pro marketingového manažera firmy nebo digitálního specialistu to nemá přímý dopad na praxi, nástroje ani rozpočty.",
+   "takeaway": "Tato změna je pro cílovou skupinu Marketing Radaru irelevantní – nejde o marketingový nástroj, platformu ani regulaci."
   },
   {
    "id": "b54d0d6e32",
@@ -1665,12 +2148,12 @@
     }
    ],
    "category": "ppc",
-   "importance": 72,
-   "title": "Automatizace PPC přinesla e-shopu SILVEGO nárůst ROAS o 24 %",
+   "importance": 68,
+   "title": "Sklik + Incomaker: automatizace PPC zvýšila ROAS e-shopu SILVEGO o 24 %",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "E-shop SILVEGO propojil svá data s reklamním systémem Sklik pomocí platformy Incomaker, čímž nahradil manuální správu PPC kampaní automatizací v reálném čase. Řešení nevyžadovalo programování.",
-   "why": "Ukazuje konkrétní dopad automatizace PPC na efektivitu kampaní – návratnost investic (ROAS) vzrostla o 24 %. Jde o praktický příklad, jak lze i bez technických znalostí zefektivnit správu reklamy.",
-   "takeaway": "Pro české e-shopy je automatizace PPC dostupná i bez programátorů – propojení produktových dat s reklamními systémy šetří čas a zlepšuje výkonnost kampaní. Stojí za to zvážit podobná řešení pro vlastní projekty.",
+   "what": "Seznam prezentuje případovou studii e-shopu SILVEGO, kde propojení Skliku s marketingovou platformou Incomaker v reálném čase zvýšilo návratnost investic do PPC reklamy o 24 %. Automatizace nahradila dřívější manuální práci s daty bez potřeby programování.",
+   "why": "Ukazuje konkrétní českou implementaci automatizace PPC kampaní ve Skliku s měřitelným dopadem na efektivitu, což je relevantní pro e-shopy řešící škálovatelnost správy kampaní.",
+   "takeaway": "Zvaž automatizované propojení e-shopových dat se Sklikem přes platformy typu Incomaker – může eliminovat manuální práci a zvýšit ROAS. Případová studie SILVEGO slouží jako benchmark (24% nárůst) pro vyhodnocení potenciálu u vlastních kampaní.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1690,11 +2173,11 @@
    ],
    "category": "socialni-site",
    "importance": 45,
-   "title": "Většina tvůrců obsahu vydělává ročně méně než 10 000 dolarů",
+   "title": "Většina tvůrců obsahu vydělává méně než 10 000 $ ročně",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "Podle nového průzkumu platformy CreatorIQ většina tvůrců obsahu (influencerů) nevydělává ze své práce více než 10 000 dolarů ročně. Pro většinu z nich tak tvorba obsahu zůstává vedlejším zaměstnáním, nikoliv hlavním zdrojem příjmů.",
-   "why": "Ukazuje to reálnou ekonomiku influencer marketingu a rozptyluje mýtus o snadno dostupných velkých příjmech z tvorby obsahu. Firmy a marketéři musí počítat s tím, že spolupracují často s lidmi, pro které není tvorba obsahu primární profesí.",
-   "takeaway": "Při výběru influencerů pro kampaně počítejte s tím, že většina z nich to nedělá na plný úvazek. To může ovlivnit jejich dostupnost, profesionalitu a vyjednávací pozici. Zaměřte se na jasné briefingy a realistická očekávání ohledně deliverables.",
+   "what": "Průzkum platformy CreatorIQ ukazuje, že pro většinu tvůrců obsahu (influencerů) zůstává tato činnost vedlejším příjmem. Více než polovina tvůrců nevydělá ročně více než 10 000 dolarů ze své tvorby.",
+   "why": "Pro marketingové manažery v ČR, kteří zvažují influencer marketing, je důležité pochopit ekonomickou realitu tohoto segmentu. Menší příjmy tvůrců mohou znamenat větší ochotu ke spolupráci i za nižší budgety, ale zároveň varovat před kvalitou a profesionalitou dodávky.",
+   "takeaway": "Při plánování influencer kampaní nezaměřujte jen na počet sledujících. Zvažte práci s micro-influencery, kteří mohou být cenově dostupnější a motivovanější ke kvalitní spolupráci.Dbejte na profesionalitu dodávky – u tvůrců s vedlejším příjmem může být spolehlivost rizikem.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -1713,13 +2196,13 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 65,
+   "importance": 55,
    "title": "LinkedIn vydal průvodce viditelností v AI vyhledávání",
    "updated": "2026-08-14T13:52:37.472906+00:00",
-   "what": "LinkedIn publikoval nový průvodce zaměřený na viditelnost v AI vyhledávání na platformě. Jde o oficiální materiál od LinkedInu samotného.",
-   "why": "S růstem AI vyhledávání na LinkedIn se mění pravidla, jak být viditelný. Firmy a marketéři potřebují adaptovat své profily a obsah pro nové algoritmy.",
-   "takeaway": "Čeští marketéři využívající LinkedIn pro B2B komunikaci by měli prostudovat oficiální doporučení platformy, aby optimalizovali své profily a firemní stránky pro AI vyhledávání a neztráceli dosah.",
-   "importance_label": "důležité",
+   "what": "LinkedIn publikoval nový oficiální průvodce, jak optimalizovat profily a obsah pro viditelnost v AI vyhledávání na platformě.",
+   "why": "LinkedIn postupně integruje AI do vyhledávání a doporučování obsahu. Pro B2B marketéry a osobní branding firem to znamená nová pravidla viditelnosti – kdo se nepřizpůsobí, ztratí organický dosah.",
+   "takeaway": "Projděte si průvodce na LinkedIn Marketing blogu a upravte firemní profily a stratégii obsahu podle doporučení pro AI vyhledávání. Zaměřte se na klíčová slova a strukturu, kterou AI lépe rozpozná.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1755,12 +2238,12 @@
     }
    ],
    "category": "ppc",
-   "importance": 60,
-   "title": "Google ruší Travel kampaně, přechází na Search campaigns for Travel",
+   "importance": 65,
+   "title": "Google ruší Travel kampaně, přejdou na Search campaigns for Travel",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Google oznámil, že stávající Travel kampaně v Google Ads budou migrovány na nový formát Search campaigns for Travel. Migrace začne ve třetím čtvrtletí 2026, přesné datum zatím není známé. Google automaticky vytvoří nové kampaně s co nejbližšími ekvivalentními nastaveními původních Travel kampaní.",
-   "why": "Jde o zásadní změnu pro inzerenty v cestovním ruchu, kteří musí počítat s technickou změnou formátu kampaní. Inzerenti mají možnost provést přechod ručně ještě před automatickou migrací.",
-   "takeaway": "Čeští inzerenti v cestovním ruchu by měli sledovat vývoj a případně využít možnost ručního přechodu před Q3 2026, aby měli nad procesem větší kontrolu. Je vhodné se připravit na testování nového formátu kampaní s dostatečným předstihem.",
+   "what": "Google v Q3 2026 automaticky migruje stávající Travel kampaně na nový formát Search campaigns for Travel v Google Ads. Nové kampaně budou vytvořeny automaticky s co nejbližšími nastaveními z původních Travel kampaní. Inzerenti mohou provést přechod i manuálně ještě před automatickou migrací.",
+   "why": "Jde o povinnou změnu typu kampaní pro všechny, kdo v Google Ads využívají Travel kampaně. I když je termín až v Q3 2026, ovlivní to nastavení, strukturu účtů a případně i výkonnost cestovních inzerentů.",
+   "takeaway": "Pokud provozujete Travel kampaně v Google Ads, připravte se na povinný přechod do Q3 2026. Sledujte komunikaci od Googlu a zvažte manuální migraci s předstihem, abyste měli kontrolu nad nastavením a mohli otestovat výkonnost nového formátu.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1791,9 +2274,9 @@
    "importance": 65,
    "title": "Meta přidává bezpečnostní kontroly pro AI Connectors v reklamách",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Meta rozšířila bezpečnostní nastavení pro AI Connectors ve svém reklamním systému. Inzerenti nyní získávají lepší možnosti, jak omezit přístup k reklamním účtům a citlivým operacím.",
-   "why": "Jde o reakci na potřebu větší kontroly nad automatizovanými nástroji využívajícími umělou inteligenci v reklamách, kde může neoprávněný přístup vést k finančním ztrátám nebo úniku dat.",
-   "takeaway": "Pokud využíváte AI nástroje napojené na Meta reklamy, měli byste si projít nová bezpečnostní nastavení a nastavit přístupová práva podle toho, kdo ve vašem týmu s reklamními účty skutečně pracuje.",
+   "what": "Meta rozšiřuje bezpečnostní nastavení pro AI Connectors v Meta Ads. Inzerenti nyní mají více možností, jak omezit přístup k reklamním účtům a citlivým akcím.",
+   "why": "Jde o reakci na rostoucí využívání AI nástrojů třetích stran pro správu Meta kampaní. Lepší kontrola přístupu snižuje riziko nechtěných změn v kampaních nebo úniku dat při propojení externích AI služeb s reklamními účty.",
+   "takeaway": "Pokud používáte AI nástroje propojené s Meta Ads účtem (nebo o tom uvažujete), zkontrolujte nová oprávnění a nastavte, které akce mohou připojené nástroje provádět. Omezte přístup pouze na nezbytné operace.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1821,12 +2304,12 @@
     }
    ],
    "category": "analytika",
-   "importance": 65,
-   "title": "Google Analytics 4 spustil validační report pro import kampaňových dat",
+   "importance": 68,
+   "title": "GA4 spustila validační report pro import kampaňových dat",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Google Analytics 4 přidal nový validační report pro import kampaňových dat. Nástroj pomáhá ověřovat kvalitu importovaných dat z non-Google kampaní, například z Microsoft Advertising, a identifikovat kampaně, kterým chybí klíčové metriky jako cena za proklik, kliknutí nebo zobrazení.",
-   "why": "Report usnadňuje kontrolu importovaných dat z různých reklamních platforem a pomáhá odhalit chyby nebo chybějící údaje ještě před jejich zpracováním v GA4.",
-   "takeaway": "Pokud importujete do GA4 data z jiných reklamních systémů než Google Ads, nový validační report vám pomůže zajistit kompletnost a správnost dat před jejich začleněním do reportů. Ušetříte tím čas při ladění datových toků a zvýšíte přesnost multi-platformních analýz.",
+   "what": "Google Analytics 4 zavádí nový validační report pro import kampaňových dat. Umožňuje ověřit kvalitu importovaných dat z non-Google kampaní (např. Microsoft Advertising) a identifikovat kampaně, kterým chybí klíčové metriky jako náklady, kliky nebo zobrazení.",
+   "why": "Pomůže marketingovým manažerům lépe kontrolovat úplnost dat z platforem mimo Google (Sklik, Microsoft Ads aj.) a zajistit přesnější reporting a vyhodnocování výkonnosti napříč kanály.",
+   "takeaway": "Zkontroluj v GA4 nový validační report, pokud importuješ data ze Skliku nebo jiných non-Google zdrojů – odhalíš chybějící metriky a zpřesníš reporting celkového výkonu kampaní.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1855,11 +2338,11 @@
    ],
    "category": "ppc",
    "importance": 65,
-   "title": "ChatGPT spouští automatické nabídky a pokročilé sledování reklam",
+   "title": "ChatGPT spustil automatické nabídky a sledování pro své reklamy",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "ChatGPT rozšířil své reklamní možnosti o automatické bidding (nabídkové strategie), kontrolu umístění reklam a nové URL parametry pro sledování ze strany třetích stran. Změny byly oznámeny na platformě Jon Loomer Digital.",
-   "why": "Jde o další krok v rozvoji ChatGPT jako reklamní platformy. Automatizace nabídek a lepší měření výkonu mohou usnadnit práci inzerentům a zvýšit konkurenceschopnost ChatGPT vůči etablovaným platformám.",
-   "takeaway": "Pro české marketéry testující AI platformy znamenají nové nástroje snazší správu kampaní a přesnější měření výkonu. Stojí za to sledovat, jak se bude reklamní ekosystém ChatGPT vyvíjet, zejména pokud jde o integraci s analytickými nástroji.",
+   "what": "OpenAI rozšířil svou reklamní platformu ChatGPT Ads o automatické nabídkové strategie, kontrolu umístění reklam a nové URL parametry pro sledování v nástrojích třetích stran.",
+   "why": "ChatGPT Ads se stává standardní reklamní platformou s funkcemi známými z Google Ads nebo Meta Ads. Pro marketéry to znamená nový placený kanál s potenciálně specifickou cílovou skupinou uživatelů AI nástrojů.",
+   "takeaway": "Sledujte dostupnost ChatGPT Ads v ČR a zvažte testování pro B2B nebo tech publikum. Pokud platforma dorazí na český trh, automatické nabídky a tracking usnadní měření ROI a srovnání s Google Ads nebo Meta.",
    "importance_label": "důležité",
    "multi_source": true
   },
@@ -1878,12 +2361,12 @@
     }
    ],
    "category": "seo",
-   "importance": 75,
-   "title": "Shopify: AI doporučení rostou o 197 %, organické vyhledávání stále vede",
+   "importance": 62,
+   "title": "Shopify: AI provoz vzrostl o 197 %, organické vyhledávání stále vede",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Podle Shopify vzrostla návštěvnost e-shopů z AI nástrojů (např. ChatGPT, Perplexity) meziročně o 197 %. Navzdory tomu zůstává organické vyhledávání hlavním zdrojem návštěvnosti pro online obchody.",
-   "why": "Ukazuje to měnící se chování spotřebitelů a rostoucí roli AI asistentů při hledání produktů. Zároveň to potvrzuje, že tradiční SEO si udržuje klíčovou pozici v e-commerce strategii.",
-   "takeaway": "Čeští e-shopaři by měli sledovat růst AI nástrojů jako nového referenčního kanálu, ale SEO optimalizace zůstává prioritou. Rozumné je začít testovat viditelnost v AI chatbotech a zároveň pokračovat v investicích do vyhledávačů.",
+   "what": "Shopify zaznamenal meziroční nárůst návštěvnosti z AI nástrojů (ChatGPT, Perplexity apod.) o 197 %. I přes tento růst zůstává organické vyhledávání dominantním zdrojem návštěvnosti e-shopů na platformě Shopify.",
+   "why": "Ukazuje se, že AI nástroje začínají generovat měřitelný provoz na e-shopy, ale SEO a organické vyhledávání si udržují klíčovou roli v akvizici zákazníků. Pro marketingové manažery je to signál, že AI může být nový doplňkový kanál, ale nenahrazuje tradiční strategii.",
+   "takeaway": "Sledujte zdroje návštěvnosti v GA4 a identifikujte případný provoz z AI nástrojů (např. přes referrer). Prioritou zůstává investice do SEO, ale připravte se na testování optimalizace obsahu pro AI asistenty (např. strukturovaná data, jasné odpovědi na dotazy).",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -1909,7 +2392,9 @@
    "why": "S nástupem AI chatbotů (ChatGPT, Bing AI, Gemini) se mění způsob, jak uživatelé hledají informace. Weby potřebují rozumět, jak jejich obsah procházejí AI nástroje a zda to vede k reálné návštěvnosti.",
    "takeaway": "České marketéry by mělo zajímat, jak AI indexuje jejich obsah a jestli z toho plynou návštěvy. Clarity nabízí data, která můžou pomoct optimalizovat web pro AI doporučování – novou formu organického dosahu.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/5e7e9ec73c.jpg",
+   "image_from": "news.google.com"
   },
   {
    "id": "62200887c6",
@@ -1926,13 +2411,13 @@
     }
    ],
    "category": "seo",
-   "importance": 72,
-   "title": "AI chatboti generují jen 1,1 % návštěv zpravodajských webů",
+   "importance": 55,
+   "title": "AI chatboty generují jen 1,1 % návštěv zpravodajských webů",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Podle nové studie pochází pouze 1,1 % návštěv zpravodajských webů přímo z AI nástrojů (ChatGPT, Perplexity a podobně). Jedná se o aktuální analýzu dopadu AI chatbotů na návštěvnost zpravodajských vydavatelů.",
-   "why": "Ukazuje to, že navzdory masivnímu rozmachu AI chatbotů zatím tyto nástroje negenerují pro vydavatele významnou návštěvnost. Přímý dopad na distribuci zpravodajského obsahu je prozatím minimální.",
-   "takeaway": "Pro české vydavatele a obsahové projekty to znamená, že AI chatboti zatím nejsou významným zdrojem trafficu. Investice do optimalizace obsahu pro AI by měla být vyvážená s ohledem na tradičnější zdroje návštěvnosti jako je vyhledávání a sociální sítě.",
-   "importance_label": "důležité",
+   "what": "Studie zjistila, že přímé návštěvy zpravodajských webů z AI chatbotů (ChatGPT, Perplexity apod.) tvoří pouze 1,1 % celkové návštěvnosti. Organické vyhledávání zůstává hlavním zdrojem návštěvnosti.",
+   "why": "Ukazuje, že přes humbuk kolem AI vyhledávání je jejich reálný vliv na návštěvnost zatím minimální. Pro publishery a SEO specialisty je důležité sledovat, zda se situace mění, ale nepanikařit předčasně.",
+   "takeaway": "Zatím neměňte SEO strategii kvůli AI chatbotům – organické vyhledávání přes klasické vyhledávače je stále dominantní. Sledujte metriky návštěvnosti z AI zdrojů ve své analytice, ale neinvestujte čas do optimalizace pro AI na úkor běžného SEO.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1950,13 +2435,13 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Americký soud projednává žalobu za SEO sabotáž pomocí toxických backlinků",
+   "importance": 45,
+   "title": "Soud v USA povolil žalobu za sabotáž SEO pomocí toxických odkazů",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Americký soudce povolil postup žaloby týkající se SEO sabotáže prostřednictvím toxických backlinků. Jde o případ, kdy někdo záměrně budoval škodlivé odkazy směřující na cizí web s cílem poškodit jeho pozice ve vyhledávání.",
-   "why": "Případ vytváří precedens pro řešení záměrného poškozování konkurence pomocí negativního SEO. Pokud soud rozhodne v neprospěch útočníka, mohlo by to odradit od podobných praktik a posílit právní ochranu provozovatelů webů.",
-   "takeaway": "České firmy by měly aktivně monitorovat backlink profil svých webů a dokumentovat podezřelou aktivitu. V případě cílené SEO sabotáže by mohla vzniknout i v ČR možnost právní obrany, pokud se americká judikatura ustálí.",
-   "importance_label": "důležité",
+   "what": "Americký soud schválil pokračování soudního případu, ve kterém žalobce obviňuje protivníka z úmyslného poškození SEO výsledků pomocí tzv. toxických backlinků (odkazů ze škodlivých nebo spamových zdrojů).",
+   "why": "Jde o precedens v tom, jak mohou být posuzovány útoky na pozice v organickém vyhledávání. Pokud se prokáže úmyslné poškození pomocí backlinků, mohlo by to vést k většímu využívání Disavow Tool a preventivním opatřením v SEO strategii.",
+   "takeaway": "Pro marketingového manažera v ČR zatím žádná přímá změna v praxi. Vyplatí se ale sledovat vývoj případu – pokud by se úmyslné SEO útoky uznaly jako právně postižitelné, mohlo by to ovlivnit i přístup k obraně proti negativnímu SEO v ČR.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -1974,13 +2459,13 @@
     }
    ],
    "category": "ppc",
-   "importance": 45,
-   "title": "Google přidává real-time reporting do Campaign Manager 360 API",
+   "importance": 15,
+   "title": "Google přidal real-time reporting do Campaign Manager 360 API",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Google rozšířil API svého Campaign Manager 360 o nový endpoint pro reporting v reálném čase. Změna byla oznámena publikací Search Engine Land.",
-   "why": "Umožňuje vývojářům a marketérům získávat data o výkonu kampaní okamžitě, bez čekání na zpracování standardních reportů.",
-   "takeaway": "České marketéry pracující s Campaign Manager 360 to může zajímat kvůli rychlejší optimalizaci kampaní. Předchozí API mělo omezení v rychlosti dat, real-time přístup usnadní automatizaci a rychlejší reakci na výkon.",
-   "importance_label": "stojí za pozornost",
+   "what": "Google rozšířil Campaign Manager 360 API o nový endpoint pro reporting v reálném čase. Jde o technickou novinku v API reklamní platformy Campaign Manager 360 (dříve DoubleClick Campaign Manager).",
+   "why": "Pro českou cílovku má tato novinka minimální přímý dopad. Campaign Manager 360 je enterprise nástroj pro správu display kampaní, který v ČR využívají především velké agentury a mezinárodní firmy. Běžný marketingový manažer české firmy s tímto nástrojem nepracuje – spravuje spíš Google Ads, Sklik nebo Meta Ads přímo.",
+   "takeaway": "Pokud nepoužíváte Campaign Manager 360 nebo s ním nepracuje vaše agentura, můžete ignorovat. Jde o enterprise B2B nástroj, nikoli o změnu v běžných reklamních platformách.",
+   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -1998,13 +2483,13 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Query templates: nový pohled na budování tematické autority",
+   "importance": 55,
+   "title": "Query templates pro rozšíření topické autority v SEO",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Search Engine Land publikoval článek o query templates (dotazových šablonách) jako nástroji pro rozšíření konceptu topical authority v SEO. Jde o přístup, který umožňuje systematičtěji pokrýt témata pomocí opakujících se vzorců vyhledávacích dotazů.",
-   "why": "Tematická autorita je klíčový faktor pro ranking v Google, ale mnohé weby ji budují nesystematicky. Query templates nabízejí strukturovanější cestu, jak identifikovat a pokrýt relevantní dotazy v rámci daného tématu.",
-   "takeaway": "České weby mohou pomocí dotazových šablon efektivněji plánovat obsahovou strategii – místo izolovaných článků vytvářet systematickou pokrývku tématu. Pro e-shopy a edukační weby to znamená lepší šanci konkurovat etablovaným hráčům skrze důslednější tematické pokrytí.",
-   "importance_label": "důležité",
+   "what": "Search Engine Land publikoval článek o konceptu query templates (dotazových šablon) jako způsobu, jak rozšířit pokrytí topické autority. Jde o přístup k SEO strategii, který systematizuje typy vyhledávacích dotazů pro kompletnější pokrytí tématu.",
+   "why": "Pro SEO specialisty a marketingové manažery může být query template framework užitečný při plánování obsahové strategie – pomáhá identifikovat mezery v pokrytí tématu a strukturovat obsah tak, aby web budoval silnější tematickou autoritu v očích vyhledávačů.",
+   "takeaway": "Pokud pracujete na SEO strategii nebo plánujete obsah, prozkumejte koncept dotazových šablon – může vám pomoci systematicky pokrýt různé typy dotazů uživatelů a posílit topickou autoritu vašeho webu v klíčových oblastech.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -2022,13 +2507,13 @@
     }
    ],
    "category": "seo",
-   "importance": 75,
-   "title": "Nová cesta vyhledávání mění pravidla SEO a PPC",
+   "importance": 45,
+   "title": "Měnící se cesta uživatele vyhledáváním vyžaduje novou spolupráci SEO a PPC",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Search Engine Land upozorňuje na změny v chování uživatelů při vyhledávání, které vyžadují nový přístup k SEO a PPC strategiím. Tradiční model vyhledávací cesty se mění.",
-   "why": "Změny v tom, jak lidé vyhledávají informace, znamenají, že dosavadní přístupy k optimalizaci a placené reklamě nemusí být nadále efektivní. Marketéři musí přizpůsobit své strategie novému chování uživatelů.",
-   "takeaway": "Čeští marketéři by měli přehodnotit své SEO a PPC strategie s ohledem na měnící se vyhledávací chování. Je třeba sledovat, jak se mění cesta uživatelů od prvního vyhledání k finálnímu rozhodnutí.",
-   "importance_label": "důležité",
+   "what": "Search Engine Land upozorňuje, že tradiční cesta uživatele vyhledáváním se mění a týmy SEO a PPC by měly přizpůsobit svou spolupráci. Konkrétní detaily o změnách a doporučeních nejsou z dostupného zdroje zřejmé.",
+   "why": "Pokud se mění způsob, jak uživatelé hledají a klikají na výsledky (např. vlivem AI přehledů, nových SERP funkcí), může to ovlivnit efektivitu současné strategie rozdělení rozpočtu mezi organické a placené výsledky.",
+   "takeaway": "Sledujte celý článek na Search Engine Land pro konkrétní doporučení. Zvažteревizi spolupráce mezi SEO a PPC týmy – může být potřeba koordinovanější strategie klíčových slov a contentu v obou kanálech.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -2045,13 +2530,13 @@
      "score": 63
     }
    ],
-   "category": "ai",
-   "importance": 75,
-   "title": "Komunitní signály jsou největším externím zdrojem dat pro AI",
+   "category": "seo",
+   "importance": 65,
+   "title": "Komunitní signály jsou hlavním externím zdrojem dat pro AI",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Podle Search Engine Land se komunitní signály staly největším externím zdrojem dat třetích stran pro umělou inteligenci. Jde o data z komunit, diskuzí a uživatelského obsahu, která AI systémy využívají pro své odpovědi.",
-   "why": "Ukazuje to rostoucí vliv uživatelsky generovaného obsahu na to, jaké informace AI poskytuje. Pro firmy to znamená, že jejich prezence v komunitních diskuzích může ovlivnit, jak je AI prezentuje.",
-   "takeaway": "České značky by měly sledovat, jak o nich lidé mluví v komunitách a diskuzích – tyto konverzace mohou přímo ovlivnit, co o nich řeknou AI asistenti typu ChatGPT nebo Gemini. Aktivní účast v relevantních komunitách získává nový význam.",
+   "what": "Podle Search Engine Land se komunitní signály (diskuse, fóra, recenze) staly největším externím zdrojem dat pro trénování AI modelů. Jde o data z platforem, kde uživatelé sdílejí zkušenosti a odpovídají na otázky.",
+   "why": "AI vyhledávače a chatboti čerpají odpovědi především z komunitního obsahu, což mění logiku tvorby obsahu. Firmy, které budují komunity a podporují diskuse zákazníků, získávají viditelnost v AI odpovědích – nový typ organického dosahu.",
+   "takeaway": "Zvažte investici do komunitních platforem (diskusní fóra, Q&A sekce na webu, recenze) jako doplněk SEO strategie. Obsah vytvářený uživateli může zvýšit viditelnost značky v AI vyhledávačích a chatbotech.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -2070,12 +2555,12 @@
     }
    ],
    "category": "ppc",
-   "importance": 65,
-   "title": "Google Target bidding: přežili jsme to jednou, přežijeme i teď",
+   "importance": 68,
+   "title": "Google tlačí na Target bidding – PPC specialisté čelí známému scénáři",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Na konferenci SMX Now zazněla přirovnání současné situace s automatickými Target bidding strategiemi v Google Ads k podobným změnám v minulosti. Experti připomínají, že podobné 'apokalypsy' v nastavení kampaní už PPC specialisté řešili.",
-   "why": "Google neustále tlačí inzerenty směrem k automatizovanému bidování, což vyvolává obavy o ztrátu kontroly nad kampaněmi. Pro marketéry je důležité vědět, že podobné změny už v minulosti proběhly a odvětví se s nimi vyrovnalo.",
-   "takeaway": "Adaptace na nové biddingové strategie je součástí práce PPC specialisty. Místo paniky je lepší věnovat se testování a hledání způsobů, jak s automatizací pracovat – stejně jako u předchozích změn v Google Ads.",
+   "what": "Google opět posunuje reklamní systém směrem k automatizovaným strategiím, konkrétně k Target bidding (cílové nabídky). Podle Search Engine Land jde o změnu, která připomína předchozí přechody ke stále větší automatizaci v Google Ads, které v minulosti vyvolaly mezi PPC specialisty obavy o kontrolu nad kampaněmi.",
+   "why": "Pro marketingové manažery i PPC specialisty v ČR jde o další krok, kdy Google omezuje možnost manuálního řízení nabídek a tlačí ke strategiím jako Target CPA nebo Target ROAS. To může ovlivnit transparentnost nákladů, kontrolu nad výkonem kampaní a způsob, jakým se optimalizují rozpočty v Google Ads.",
+   "takeaway": "Připravte se na posílení automatizovaných strategií v Google Ads – ověřte, zda vaše kampaně mají dostatek konverzních dat pro efektivní fungování Target bidding (obvykle min. 30–50 konverzí měsíčně). Sledujte změny ve výkonu po přechodu a zvažte testování automatizace na menších kampaních před plošným nasazením.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -2094,12 +2579,12 @@
     }
    ],
    "category": "seo",
-   "importance": 75,
-   "title": "300 francouzských novin podalo stížnost na Google AI Overviews",
+   "importance": 65,
+   "title": "300 francouzských novin podalo stížnost na AI Overviews od Googlu",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Tři sta francouzských novinových titulů podalo společnou stížnost proti funkci Google AI Overviews. Jde o AI-generované souhrny, které Google zobrazuje na vrcholu výsledků vyhledávání.",
-   "why": "Vydavatelé se obávají, že AI souhrny zobrazují obsah jejich článků přímo ve vyhledávání, čímž snižují návštěvnost jejich webů a ohrožují jejich byznys model založený na reklamě a předplatném.",
-   "takeaway": "Pro české vydavatele a tvůrce obsahu jde o varovný signál – AI funkce vyhledávačů mohou výrazně snížit organickou návštěvnost. Je potřeba sledovat vývoj situace a připravit se na možné změny v SEO strategiích, včetně větší závislosti na přímých kanálech k publiku.",
+   "what": "Aliance 300 francouzských novinových titulů podala společnou stížnost proti funkci AI Overviews v Google vyhledávání. Jedná se o generované AI souhrny, které se zobrazují přímo ve výsledcích vyhledávání nad organickými odkazy.",
+   "why": "Jde o významný precedens v Evropě – vydavatelé se brání tomu, že AI shrnutí snižují návštěvnost jejich webů, protože uživatelé získají odpověď přímo ve vyhledávači. Pokud by podobné kroky následovaly i v dalších zemích EU včetně ČR, mohlo by to ovlivnit budoucí podobу AI Overviews v regionu nebo vést k úpravám fungování Google vyhledávání.",
+   "takeaway": "Sledujte vývoj AI Overviews v ČR – pokud Google tuto funkci plně rozjede i u nás, může to výrazně snížit organickou návštěvnost z vyhledávání, zejména u informačních dotazů. Připravte se na potřebu optimalizovat obsah tak, aby byl pro AI citovatelný, nebo posílit jiné kanály akvizice.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -2142,13 +2627,13 @@
     }
    ],
    "category": "seo",
-   "importance": 75,
-   "title": "Search Engine Land představil 5vrstvý framework pro měření výkonu AI vyhledávání",
+   "importance": 45,
+   "title": "Search Engine Land představil framework pro měření výkonu AI vyhledávání",
    "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Search Engine Land publikoval nový pětistupňový framework určený k měření výkonnosti AI vyhledávacích nástrojů. Jde o strukturovaný přístup k evaluaci AI search.",
-   "why": "S nástupem AI do vyhledávání (ChatGPT Search, Google AI Overviews) potřebují marketéři nové metriky pro měření viditelnosti a výkonu. Tradiční SEO metriky už nestačí.",
-   "takeaway": "Framework může posloužit jako metodika pro sledování výkonu obsahu v AI vyhledávačích. Marketéři by měli začít budovat systém pro tracking AI search vedle klasického SEO.",
-   "importance_label": "důležité",
+   "what": "Search Engine Land publikoval pětivrstevný framework určený k měření výkonnosti AI vyhledávacích nástrojů. Jde o metodiku, která má pomoci strukturovaně vyhodnocovat, jak dobře fungují AI-poháněné vyhledávače.",
+   "why": "S nástupem AI do vyhledávání (ChatGPT Search, Perplexity, Google AI Overviews) potřebují marketéři nástroje k měření viditelnosti a výkonu v těchto kanálech. Framework nabízí systematický přístup k hodnocení AI search, což může být užitečné při testování a optimalizaci obsahu pro nové typy vyhledávání.",
+   "takeaway": "Pokud vaše firma experimentuje s optimalizací pro AI vyhledávače nebo zvažuje sledování výkonu nad rámec klasického SEO, prohlédněte si navržený framework – může pomoci při stanovení metrik a testování přístupů. Pro většinu českých firem zatím jde o vzdálenější téma, klasické Google a Seznam zůstávají prioritou.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -2175,13 +2660,13 @@
     }
    ],
    "category": "seo",
-   "importance": 82,
-   "title": "SEO nástroje neměří, co AI vyhledávače skutečně vidí – kandidátní výběr stránek",
+   "importance": 55,
+   "title": "SEO v éře AI: Candidate Page Selection – nová metrika, kterou nástroje neměří",
    "updated": "2026-08-14T10:59:49.548000+00:00",
-   "what": "SEO odborníci upozorňují na novou fázi v procesu vyhledávání, kterou současné nástroje vůbec neměří: tzv. candidate page selection – výběr stránek, které AI vyhledávače vůbec zvažují pro zobrazení. Jde o krok, který předchází samotnému zobrazení výsledků a určuje, zda vůbec má obsah šanci být zahrnut do AI odpovědí.",
-   "why": "S nástupem AI vyhledávání (Perplexity, ChatGPT Search, Google AI Overviews) se mění zásadně pravidla hry. AI systémy vyhodnocují a odpovídají na dotazy ještě před tím, než uživatel klikne na jakýkoliv výsledek. Tradiční SEO metriky měří až následné kliky, ale ne to, zda vůbec byl obsah považován za relevantní v této předvýběrové fázi.",
-   "takeaway": "České SEO týmy by měly začít sledovat, jak dobře jejich obsah odpovídá rozhodovacím faktorům uživatelů, ne jen finální kliky. Pokud váš obsah není vybrán jako kandidát pro AI odpovědi, o klasické metriky jako pozice nebo CTR už vlastně nejde – prostě ve hře nejste.",
-   "importance_label": "zásadní",
+   "what": "Lumar a Search Engine Journal upozorňují na novou fázi SEO, kterou současné nástroje neměří: candidate page selection – proces, při němž AI vyhledávače rozhodují, které stránky vůbec zvažovat pro zobrazení v AI odpovědích. Jde o stadium před samotným retrieval, které určuje, zda se váš obsah dostane do hry v AI vyhledávání (GEO – Generative Engine Optimization).",
+   "why": "Pokud AI vyhledávače začnou dominovat běžnému vyhledávání (zatím hlavně v USA, ale trend se šíří), může se stát, že váš obsah nebude vůbec v úvahu brán – bez ohledu na tradiční SEO metriky. Podle Search Engine Journal je v době AI odpovědí důležitější měřit, zda obsah odpovídá na rozhodovací faktory uživatelů, než kolik kliků generuje.",
+   "takeaway": "Zatím jde o koncept relevantní především pro anglicky mluvící trhy, kde AI odpovědi ve vyhledávání (Google SGE, Perplexity, ChatGPT) hrají větší roli. Sledujte vývoj AI vyhledávání i v ČR a připravte se na možnou potřebu optimalizovat obsah nejen pro ranking, ale i pro výběr AI systémy – zaměřte se na přímé odpovědi na uživatelské otázky a rozhodovací faktory.",
+   "importance_label": "stojí za pozornost",
    "multi_source": true
   },
   {
@@ -2199,12 +2684,12 @@
     }
    ],
    "category": "ppc",
-   "importance": 75,
+   "importance": 68,
    "title": "Google Ads obchází agentury a kontaktuje klienty přímo",
    "updated": "2026-08-14T10:59:49.548000+00:00",
-   "what": "Google Ads začal posílat emaily přímo klientům agentur s nabídkou technického přehledu účtu a optimalizace výkonu. V jednom případě systém Googlu klientovi napsal, že detekoval pokles efektivity a nabídl revizi bez nutnosti navýšit rozpočet.",
-   "why": "Přímá komunikace Googlu s klienty obchází agentury a narušuje jejich pozici jako strategických partnerů zodpovědných za správu kampaní a rozhodování o nabídkách.",
-   "takeaway": "Agentury by měly klienty preventivně informovat o možnosti takových emailů od Googlu a jasně komunikovat svou roli při optimalizaci účtů, aby zabránily zmatení a podkopání důvěry.",
+   "what": "Google Ads začal posílat e-maily přímo klientům s tím, že jeho diagnostický systém identifikoval pokles efektivity kampaní a nabízí technickou revizi, která údajně trvá pět minut a nevyžaduje navýšení rozpočtu. Jde o komunikaci bez vědomí nebo souhlasu agentury spravující účet.",
+   "why": "Google se tímto krokem staví do role přímého poradce klienta, což komplikuje vztah mezi agenturou a klientem. Agentury ztrácejí kontrolu nad strategickou komunikací a mohou být vnímány jako méně kompetentní, pokud klient dostane od Googlu doporučení, o kterých agentura neví.",
+   "takeaway": "Pokud spravujete Google Ads interně nebo přes agenturu, vyžadujte transparentní komunikaci – všechny návrhy změn od Googlu by měly procházet přes agenturu nebo marketingový tým. Upozorněte klienty nebo kolegy na možnost těchto e-mailů a domluvte se, že žádné změny nebudou prováděny bez předchozí konzultace.",
    "importance_label": "důležité",
    "multi_source": false
   },
@@ -2247,13 +2732,13 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 65,
-   "title": "YouTube mění od roku 2027 pravidla pro výplaty z YouTube Shorts",
+   "importance": 45,
+   "title": "YouTube mění podmínky Partner Programu: nová pravidla pro výdělky ze Shorts od 2027",
    "updated": "2026-08-14T10:59:49.548000+00:00",
-   "what": "YouTube oznámil změny v podmínkách Partnerského programu, které vstoupí v platnost v roce 2027. Týkají se hlavně nových pravidel pro výdělky z krátkých videí Shorts, kontrol aktivity tvůrců a termínu pro přijetí nových podmínek.",
-   "why": "Změna ovlivní tvůrce obsahu na YouTube, kteří využívají formát Shorts k monetizaci. Nová pravidla mohou změnit způsob, jakým budou tvůrci z těchto videí vydělávat.",
-   "takeaway": "Tvůrci YouTube obsahu, kteří produkují Shorts, by měli sledovat detaily nových podmínek a připravit se na změny v monetizaci od roku 2027. Doporučujeme včas akceptovat nové podmínky Partnerského programu a případně upravit obsahovou strategii.",
-   "importance_label": "důležité",
+   "what": "YouTube oznámil změny v Partner Programu, které vstoupí v platnost v roce 2027. Týkají se zejména nových pravidel pro výdělky ze Shorts (krátkých videí), kontrol aktivity tvůrců a termínu pro akceptaci nových podmínek.",
+   "why": "Pro firmy využívající YouTube jako marketingový kanál (organic i placený obsah) může jít o důležitou změnu, pokud pracují s influencery nebo vlastním obsahem ve formátu Shorts. Změny v monetizaci mohou ovlivnit ceny a dostupnost tvůrců, s nimiž spolupracují.",
+   "takeaway": "Pokud vaše firma spolupracuje s YouTube tvůrci nebo zvažuje influencer marketing přes Shorts, sledujte detaily změn v Partner Programu (jakmile budou zveřejněny) – mohou ovlivnit ceny spolupráce a dostupnost relevantních tvůrců od roku 2027.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -2280,13 +2765,13 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta zablokovala 750 tisíc účtů mladistvých v Austrálii díky AI",
+   "importance": 55,
+   "title": "Meta odstranila v Austrálii přes 750 000 účtů dětí mladších 16 let",
    "updated": "2026-08-14T09:38:29.556736+00:00",
-   "what": "Meta odstranila více než 750 000 účtů teenagerů v Austrálii v souvislosti s dodržováním tamního zákazu sociálních sítí pro mladší 16 let. Společnost podle vlastního vyjádření využila k detekci a vymáhání této regulaceAnalýzu založenou na umělé inteligenci.",
-   "why": "Jde o první měřitelné výsledky prosazování australského zákazu sociálních médií pro nezletilé. Ukazuje to schopnost AI technologií identifikovat mladistvé uživatele ve velkém měřítku a zároveň nastavuje precedens pro další země zvažující podobnou regulaci.",
-   "takeaway": "České firmy působící na sociálních sítích by měly sledovat vývoj regulací věkových omezení a investice do AI nástrojů pro compliance. Meta ukazuje, že automatizovaná detekce věku uživatelů je technicky proveditelná v masovém měřítku.",
-   "importance_label": "důležité",
+   "what": "Meta zveřejnila, že v Austrálii zablokovala více než 750 000 účtů teenagerů v souvislosti s dodržováním australského zákazu sociálních médií pro uživatele mladší 16 let. Společnost uvádí, že ke zlepšení míry vymáhání jí pomohla analýza založená na umělé inteligenci.",
+   "why": "Jde o první rozsáhlé praktické číslo z implementace věkového zákazu na sociálních sítích v rozvinuté zemi. Pro české firmy a marketéry může být relevant jako předzvěst možného vývoje regulace v EU – podobné věkové restrikce se diskutují i v dalších zemích včetně části Evropy.",
+   "takeaway": "Sledujte, jak bude Austrálie jako pilotní trh ovlivňovat vývoj evropské regulace sociálních sítí. Pokud cílíte na teenagery na Instagramu/Facebooku, připravte se na možné zpřísnění ověřování věku i v ČR a plánujte alternativní komunikační kanály pro mladší cílové skupiny.",
+   "importance_label": "stojí za pozornost",
    "multi_source": true
   },
   {
@@ -2304,13 +2789,13 @@
     }
    ],
    "category": "cesky-marketing",
-   "importance": 65,
-   "title": "České podcasty chtějí jednotnou metriku pro měření poslechovosti",
+   "importance": 45,
+   "title": "České podcasty chtějí jednotnou metriku pro audio i video",
    "updated": "2026-08-14T09:38:29.556736+00:00",
-   "what": "Platforma České podcasty zahájila diskusi o zavedení společné metriky pro měření podcastů v Česku, která by sjednotila data z audio i video platforem. Inspirací je mezinárodní standard AMP Accords.",
-   "why": "Český podcastový trh podle iniciátorů dospěl do fáze, kdy různé způsoby měření napříč platformami znemožňují srovnatelnost a komplikují práci inzerentům i tvůrcům.",
-   "takeaway": "Pro marketéry inzerujících v podcastech by jednotná metrika znamenala možnost lépe srovnávat dosah a efektivitu kampaní napříč různými platformami a objektivněji alokovat rozpočty.",
-   "importance_label": "důležité",
+   "what": "Platforma České podcasty otevírá debatu o zavedení společné metriky pro měření podcastů napříč audio i video platformami. Inspirací má být mezinárodní standard AMP Accords.",
+   "why": "Jednotné měření by umožnilo lepší srovnatelnost dat a zjednodušilo by plánování a vyhodnocování podcastových kampaní pro inzerenty a marketéry.",
+   "takeaway": "Pokud investujete do podcastové inzerence, sledujte vývoj – standardizace metrik může v budoucnu zjednodušit reporting a srovnávání výkonnosti napříč platformami.",
+   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -2335,7 +2820,9 @@
    "why": "AI asistenti se rychle stávají měřitelným prodejním kanálem, který už není možné ignorovat. Růst za šest měsíců ukazuje, že uživatelé aktivně využívají AI pro nákupní rozhodování.",
    "takeaway": "Čeští e-shopoví marketéři by měli začít sledovat traffic a konverze z AI asistentů a optimalizovat obsah tak, aby ho AI mohly snadno najít a doporučit. U top e-shopů jde už o každou dvacátou objednávku.",
    "importance_label": "zásadní",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/c5e62a4a95.jpg",
+   "image_from": "mediaguru.cz"
   },
   {
    "id": "a6b8b0caf2",
@@ -2500,7 +2987,9 @@
    "why": "AI vyhledávače jako Google AI Overviews mění pravidla hry pro citlivá témata. Obsah, který dříve mohl projít, teď nestačí – algoritmy upřednostňují jiné zdroje a povrchní články prostě nezobrazují.",
    "takeaway": "Pokud vytváříte obsah v oblasti zdraví, financí nebo jiných YMYL témat, musíte investovat do skutečné expertnosti a hloubky. Tenký, obecný obsah už nestačí ani pro klasické SEO, natož pro citace v AI odpovědích.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/2f149ef1fa.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "d82168a91c",
@@ -2572,7 +3061,9 @@
    "why": "Jde o posun směrem k monetizaci obsahu v éře AI – majitelé webů mohou vyžadovat platbu nejen od vyhledávačů, ale od jakéhokoli AI systému, který chce využít jejich data.",
    "takeaway": "České weby budou moci lépe kontrolovat a monetizovat přístup AI agentů ke svému obsahu. Otevírá se nový model, jak zpeněžit data mimo klasickou reklamu nebo paywall.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/64d26f95a5.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "20618846e5",
@@ -2662,7 +3153,9 @@
    "why": "Jde o zásadní změnu chování automatického nabízení, která může ovlivnit výkon a náklady kampaní používających tyto strategie. Bez úpravy nastavení mohou inzerenti zaznamenat odlišné výsledky od dosavadních.",
    "takeaway": "Marketéři by měli do 17. srpna projít všechny kampaně s Target CPA a Target ROAS a zkontrolovat, zda jsou cílové hodnoty stále aktuální a odpovídají jejich záměrům. Po vypnutí overperformance bude systém striktněji dodržovat nastavené cíle, což může vyžadovat úpravu strategie.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/28fba60787.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "a6452674f3",
@@ -2971,7 +3464,9 @@
    "why": "AI Overviews od Googlu zobrazují odpovědi přímo ve výsledcích vyhledávání, což může výrazně snížit počet kliků na weby, i když se jejich pozice ve výsledcích nemění. Pro weby závislé na organické návštěvnosti to znamená ztrátu trafficu bez viditelné změny v žebříčku.",
    "takeaway": "Sledujte vztah mezi pozicemi, impressions a CTR v Google Search Console. Pokud CTR klesá při stabilních pozicích a zobrazení, pravděpodobně vás ovlivňují AI Overviews. Článek nabízí doporučení, jak rozhodnout, která ztracená návštěvnost stojí za pokus o nápravu.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/e0ca9969f5.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "d82507bc2d",
@@ -3043,7 +3538,9 @@
    "why": "Jde o zásadní změnu v chování B2B zákazníků, která mění priority pro marketingové týmy. Tradiční SEO a pozice v Googlu už nemusí stačit – firmy potřebují sledovat, jak je jejich značka zmiňována a doporučována v AI asistenticích a answer enginech.",
    "takeaway": "České B2B marketéry čeká nutnost rozšířit měření výkonnosti mimo klasické vyhledávače. Kromě SEO bude třeba sledovat, jak AI nástroje jejich značku prezentují a zda vůbec figurují v odpovědích generovaných umělou inteligencí.",
    "importance_label": "zásadní",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/2d15357343.jpg",
+   "image_from": "blog.hubspot.com"
   },
   {
    "id": "a9c8b5f74e",
@@ -3070,411 +3567,5 @@
    "multi_source": false
   }
  ],
- "last_run": "2026-08-17T07:31:21.653291+00:00",
- "source_report": [
-  {
-   "name": "MediaGuru",
-   "feed": "https://www.mediaguru.cz/rss/",
-   "status": "ok",
-   "new": 6
-  },
-  {
-   "name": "Médiář",
-   "feed": "https://www.mediar.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Digichef",
-   "feed": "https://digichef.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "eVisions blog",
-   "feed": "https://www.evisions.cz/feed/",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
-  },
-  {
-   "name": "Shoptet blog",
-   "feed": "https://blog.shoptet.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "CzechCrunch",
-   "feed": "https://cc.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Lupa.cz",
-   "feed": "https://www.lupa.cz/rss/clanky/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Collabim blog",
-   "feed": "https://www.collabim.cz/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
-  },
-  {
-   "name": "Týinternety",
-   "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f60ed7d5010>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
-   "new": 0
-  },
-  {
-   "name": "M-journal",
-   "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
-  },
-  {
-   "name": "Markething",
-   "feed": "https://www.markething.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Marketing & Media",
-   "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
-  },
-  {
-   "name": "Seznam blog",
-   "feed": "https://blog.seznam.cz/feed/",
-   "status": "ok",
-   "new": 1
-  },
-  {
-   "name": "Heureka blog",
-   "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
-  },
-  {
-   "name": "APEK",
-   "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
-  },
-  {
-   "name": "Search Engine Land",
-   "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
-  },
-  {
-   "name": "Search Engine Journal",
-   "feed": "https://www.searchenginejournal.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Search Engine Roundtable",
-   "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Google Search Central Blog",
-   "feed": "https://feeds.feedburner.com/blogspot/amDG",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Ahrefs blog",
-   "feed": "https://ahrefs.com/blog/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Semrush blog",
-   "feed": "https://www.semrush.com/blog/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Backlinko",
-   "feed": "https://backlinko.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Yoast",
-   "feed": "https://yoast.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Pavel Ungr",
-   "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Lumar",
-   "feed": "https://www.lumar.io/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Rank Math",
-   "feed": "https://rankmath.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Linki.cz",
-   "feed": "https://www.linki.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Moz Blog",
-   "feed": "https://moz.com/blog/feed",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Google Search Status Dashboard",
-   "feed": "https://status.search.google.com/en/feed.atom",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Sistrix blog",
-   "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
-  },
-  {
-   "name": "PPC Newsfeed",
-   "feed": "https://www.ppcnewsfeed.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Hana Kobzová",
-   "feed": "https://hanakobzova.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Jirkont",
-   "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Google Ads & Commerce Blog",
-   "feed": "https://blog.google/products/ads-commerce/rss/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Microsoft Advertising blog",
-   "feed": "https://about.ads.microsoft.com/en/blog/rss/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "PPC Hero",
-   "feed": "https://www.ppchero.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Ecomail blog",
-   "feed": "https://blog.ecomail.cz/blog/rss.xml",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
-  },
-  {
-   "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Mailujeme",
-   "feed": "https://mailujeme.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Litmus",
-   "feed": "https://www.litmus.com/blog/feed",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Email on Acid",
-   "feed": "https://www.emailonacid.com/blog/?feed=rss2",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
-  },
-  {
-   "name": "emailmonday",
-   "feed": "https://www.emailmonday.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "GetResponse blog",
-   "feed": "https://www.getresponse.com/blog/feed",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "ActiveCampaign blog",
-   "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
-  },
-  {
-   "name": "Social Media Today",
-   "feed": "https://www.socialmediatoday.com/feeds/news/",
-   "status": "ok",
-   "new": 5
-  },
-  {
-   "name": "Sprout Social",
-   "feed": "https://sproutsocial.com/insights/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Hootsuite blog",
-   "feed": "https://blog.hootsuite.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Síť v malíčku",
-   "feed": "https://sitevmalicku.cz/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Social Media Examiner",
-   "feed": "https://www.socialmediaexaminer.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Meta Newsroom",
-   "feed": "https://about.fb.com/news/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "TikTok Newsroom",
-   "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
-  },
-  {
-   "name": "Jon Loomer",
-   "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "LinkedIn Marketing blog",
-   "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
-  },
-  {
-   "name": "YouTube Official Blog",
-   "feed": "https://blog.youtube/rss/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Simo Ahava",
-   "feed": "https://www.simoahava.com/index.xml",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Analytics Mania",
-   "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
-   "new": 0
-  },
-  {
-   "name": "MeasureSchool",
-   "feed": "https://measureschool.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Measurelab",
-   "feed": "https://www.measurelab.co.uk/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Google Marketing Platform blog",
-   "feed": "https://blog.google/products/marketingplatform/rss/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Content Marketing Institute",
-   "feed": "https://contentmarketinginstitute.com/rss.xml",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Copyblogger",
-   "feed": "https://copyblogger.com/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "HubSpot Marketing Blog",
-   "feed": "https://blog.hubspot.com/marketing/rss.xml",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "MarTech",
-   "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Think with Google",
-   "feed": "https://www.thinkwithgoogle.com/rss.xml",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Marketing Brew",
-   "feed": "https://www.morningbrew.com/marketing/feed.xml",
-   "status": "ok",
-   "new": 0
-  },
-  {
-   "name": "Marketing AI Institute",
-   "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
-   "status": "ok",
-   "new": 0
-  }
- ],
- "feed_overrides": {
-  "Content Marketing Institute": "https://contentmarketinginstitute.com/rss.xml",
-  "Think with Google": "https://www.thinkwithgoogle.com/rss.xml",
-  "Microsoft Advertising blog": "https://about.ads.microsoft.com/en/blog/rss/",
-  "Marketing Brew": "https://www.morningbrew.com/marketing/feed.xml",
-  "Backlinko": "https://backlinko.com/feed/",
-  "Hana Kobzová": "https://hanakobzova.cz/feed/"
- }
+ "persona_rescore_v2": true
 }
