@@ -116,6 +116,19 @@ def build() -> None:
         {"generated": now.isoformat(), "events": events[:100]},
         ensure_ascii=False, indent=1), encoding="utf-8")
 
+    # status.json: zdraví zdrojů pro vzdálenou kontrolu bez logů
+    report = state.get("source_report", [])
+    (out / "status.json").write_text(json.dumps({
+        "generated": now.isoformat(),
+        "last_run": state.get("last_run"),
+        "events_total": len(events),
+        "sources_total": len(report),
+        "sources_ok": sum(1 for r in report if str(r.get("status", "")).startswith("ok")),
+        "sources_failing": [r for r in report if not str(r.get("status", "")).startswith("ok")],
+        "sources_via_google_news": [r["name"] for r in report
+                                    if str(r.get("status", "")).startswith("ok (")],
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
+
     items = []
     for e in events[:40]:
         link = e["sources_list"][0][1] if e["sources_list"] else ""

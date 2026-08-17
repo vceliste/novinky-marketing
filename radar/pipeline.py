@@ -82,8 +82,11 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     config.DATA_DIR.mkdir(exist_ok=True)
+    # malé/přehledové klíče první, velké (seen, events) na konec souboru
+    ordered = {k: state[k] for k in ("last_run", "source_report", "feed_overrides") if k in state}
+    ordered.update({k: v for k, v in state.items() if k not in ordered})
     with open(config.STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=1)
+        json.dump(ordered, f, ensure_ascii=False, indent=1)
 
 
 def event_id(text: str) -> str:
