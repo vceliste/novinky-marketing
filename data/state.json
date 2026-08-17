@@ -1,23 +1,23 @@
 {
- "last_run": "2026-08-17T13:19:56.133140+00:00",
+ "last_run": "2026-08-17T14:54:17.723492+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "eVisions blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc5548247a0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc6cce47bf0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 10
+   "new": 5
   },
   {
    "name": "Seznam blog",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 6
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -119,13 +119,13 @@
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -137,31 +137,31 @@
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Lumar",
    "feed": "https://www.lumar.io/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Rank Math",
    "feed": "https://rankmath.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Linki.cz",
    "feed": "https://www.linki.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Moz Blog",
@@ -179,7 +179,7 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 2
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fc55480a9f0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,8 +226,8 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
-   "new": 2
+   "status": "ok",
+   "new": 1
   },
   {
    "name": "Mailujeme",
@@ -239,7 +239,7 @@
    "name": "Litmus",
    "feed": "https://www.litmus.com/blog/feed",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Email on Acid",
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 24
+   "new": 10
   },
   {
    "name": "Social Media Today",
@@ -293,7 +293,7 @@
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Meta Newsroom",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 6
+   "new": 3
   },
   {
    "name": "Jon Loomer",
@@ -317,13 +317,13 @@
    "name": "LinkedIn Marketing blog",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Simo Ahava",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 40
+   "new": 39
   },
   {
    "name": "Copyblogger",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 7
+   "new": 5
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 46
+   "new": 2
   },
   {
    "name": "Think with Google",
@@ -389,13 +389,13 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 11
+   "new": 5
   },
   {
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   }
  ],
  "feed_overrides": {
@@ -1124,9 +1124,446 @@
   "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLVViNTMxekJyT1JMak51SFhzbmRJemQzUDAtVDhSTjlRQXpMYkF0bGlYUF81Q2l5TThNVFlvZU9OYXFXT0tTbzNMMUwtSWRWMkFzTWR1eEgtV19GMzRKMFlsb1o1TlZhLTNHQ2gyOFlDTGdYSHJwYnVya01McVRVT1M5TlY4WmcwNjA3VHhyRm9udw?oc=5": "2026-08-17T13:19:56.133140+00:00",
   "https://news.google.com/rss/articles/CBMisgFBVV95cUxORm94RVpmYmh6bWMyc0tya240WVVLR0oxWDlfMEtISDZvN0xzVWtmSTRNeS1GVVBGaGd6bHVrbGxmOFFvUGZSNDBWdE9qdGVRMzdZZFpkWjN1OHh2VS1RQ1JlRGUtbHNzWk45QjZ6R1JtR2ZHMXRqN2pNWVVNeDlkbjhxLWlGQ3lKdTNkV3IyVUhMbUo3UC1RY3IzVW9QZ1RsRXc5TWNzdkFCQk10ekFOWEh3?oc=5": "2026-08-17T13:19:56.133140+00:00",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUk1QaUFlcTJuWGJ0OFhBU3FaTXJVeW9MZm9CN3JJT0EzYXRWODVvRGpZcG9rYnFEbno2d2tINGt4TWZ1NXZ0QUV0aUtuRHZtT1BqQ3pnZHl5WTZzVHZsdnFRQlZmLXVXUl9NcUtyTlRhM25sZF9WS1I5UDhfQ0hSWnlNNlJhTUN0X01KZTlzQUhwNm9FVmNmc1AyUnRUWTZENFVpeHVDYnYyUXZP?oc=5": "2026-08-17T13:19:56.133140+00:00",
-  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KUEdSS1NQdmRKaDd4QVRQVFZqWjdKdzE5TDBMZmpSVjJvN3VXVzhIV0hKbmhKZmtMS2JaUXROc1hJUGswM2R6VQ?oc=5": "2026-08-17T13:19:56.133140+00:00"
+  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KUEdSS1NQdmRKaDd4QVRQVFZqWjdKdzE5TDBMZmpSVjJvN3VXVzhIV0hKbmhKZmtMS2JaUXROc1hJUGswM2R6VQ?oc=5": "2026-08-17T13:19:56.133140+00:00",
+  "https://cc.cz/slibuje-mladsi-plet-hustsi-vlasy-i-pomoc-pri-alzheimerovi-co-vsechno-ale-cervene-svetlo-opravdu-umi": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.searchenginejournal.com/the-paid-search-email-placement-right-place-right-time/583613": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.mediaguru.cz/zemrel-spoluzakladatel-pivovaru-bernard-josef-vavra": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.jonloomer.com/qvt/predicted-lifetime-value-pltv": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingaiinstitute.com/blog/the-roi-of-agentic-marketing-maicon-2026": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.lupa.cz/aktuality/ceska-aplikace-zdarma-prida-ai-funkce-do-windows-a-macos-a-nikam-neposila-vase-data": "2026-08-17T14:54:17.723492+00:00",
+  "https://cc.cz/mluvi-mnoha-jazyky-rozumi-cislum-i-fotbalu-a-nikdy-se-neunavi-livesport-nasazuje-virtualni-moderatorku": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV0huX0ctLW9LcllyYjU4VXFvRFlndmNOLVFGYllNcDJCdXI3dVRLbmIzR1ladGRvMTBqNmxJOUJEVEQ4bThuZHZCdXl1ZEZWYXphaGJPS0FCSTd0a0psc0oyMENDb2lobXJiOWViNm81ZDE1dDNEQ2NjZ3h6bjRxSkV5bzZ6VmFncWZvVDhYaEdia2FBWm1EbjU3SEJZX00wczBOZ1Yza1JRRDJRTEg5eThRYVdCSlZkWTFRWjk5NGdPRGx6Yk9LTVNzOHlsTW5LdHBV?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS1k5dEp4VkxkWWFuc2EtLWJtSk1xQWpnQWhOZ1hncXpES0NaVXNmQzNqVkVueGNGVEM0Z215czFJWHVZU0JjenluNXdCRzNyTHlhMEhUQVllWHhRYUtDSmlvZjFON1piSXBvNkFtQzVfSFJVQ0VlbWVWaVdINGZoNzFPVFVMQk5fVU1sYzdLMmQ4T2d4LTJ3S25HRWJrX1N6R015NVN4Sm9RQkFuTHhLMTQ3SUNsY21WMWhiOW1IVl82b2Z0WUpDZjNZYkZfdlAyZ0RSNXBQTk15Z2s3d0lzNkFlOXhsTDg?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.shoptet.cz/pribeh-lokni": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14TXJLVTktN3g2djA0NDZ1LUhyOWxwUlJaUFNBT1lhQ3pjUE42Nmx4eUtBaXJhd3VnTUhHbmZabXhGLXpxajdHUGE0TVg4MlVBZlE?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.smartemailing.cz/marketingova-technologie-roku-2026": "2026-08-17T14:54:17.723492+00:00",
+  "https://mailujeme.cz/navody/12-moznych-duvodu-proc-e-maily-konci-ve-spamu-nedelate-je-take": "2026-08-17T14:54:17.723492+00:00",
+  "https://business.google.com/us/think/search-and-video/javvy-coffee-youtube-creator-growth-strategy": "2026-08-17T14:54:17.723492+00:00",
+  "https://business.google.com/us/think/future-of-marketing/consumer-behavior-ai-customer-experience": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/supercharged-ireland": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-heart-of-assetmark-i-found-the-best-in-people": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/seeing-realsense-rescued-from-ai-oblivion": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/glucose-gap-hidden-story-health-data": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/staying-power": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/well-northwell-health-revmade": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/singapore-dreamin-video-series": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/ai-maturity-model-assessment-whitepaper": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/deep-science-sparks-deep-curiosity": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/pioneer-people-series": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/job-insights-project-data-driven-impact": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/founder-intelligence": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/we-got-a-guy-for-that-campaign": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/rapid-response-fundraising-readiness-kit": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-physiologist-magazine": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/lexipol-multi-year-strategy-public-safety": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/from-0-inbound-leads-to-a-7-figure-pipeline": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/how-developers-stay-ahead-in-the-age-of-ai": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/energy-shift-report-top-lead": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/meet-me-at-the-flower-fields": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/holland-herald": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/alpha-camera-academy-inspiration-into-creation": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/womens-health-without-awkwardness": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/herpoint-building-a-community-for-women-wealth": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/dulux-avista-ugc-program-content-empire": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/taming-the-hydra": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/aaa-traveler-worldwise-taste-of-hospitality": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/research-or-regress-making-research-personal": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-health-column": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/healthy-horizons-newsletter": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/boehringer-ingelheim-annual-report-2025": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/ottercares-foundation-two-part-interview": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-edit-jellis-craig-content-empire": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/sg60-past-present-future": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-well-by-northwell-health-with-revmade": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/the-action-plan-making-retirement-active-lincoln-financial": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/front-desk-by-jane": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/built-for-kids-why-the-pediatric-workforce-matters": "2026-08-17T14:54:17.723492+00:00",
+  "https://contentmarketinginstitute.com/awards/quest-to-see-australia": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.hubspot.com/marketing/ai-seo-tools-for-small-business": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.hubspot.com/marketing/backlinks-and-aeo": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingbrew.com/stories/10-000-items-5-000-square-feet-160-years-of-history-inside-general-millss-brand-archive": "2026-08-17T14:54:17.723492+00:00",
+  "https://ppchero.com/why-your-google-shopping-ctr-is-terrible": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdTFsNWdHbEtDOWt4MmZOWUdFYTVHaWJxcW1zbmpBdHFmbUZ2Ml9pMzE5a2NfeG96VUMwYmo2a2hfcG12NUFjNzUzYzJmT1RsYkJqTGdsemFlLWNZODRwVWhXcldoZy1fRnpaWE4xcG1RTE5Ca2dhVUVQdElDRjdBcTlNd1ROaU1YeWhsRlVPbXpXVld4NWRlYkdLRHRVbkNmZ2NiTlZqMVJFNXFDekF6LVdOWU53SnpZYlNwZm0xeW9ORTBNOTJ4SERueDhlSVAzY1BzTlJ3?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHBydGIyQWtsdUplZEVfUnp5N01yR2RzbG9hX0Y4VU5OWmFjOW85ZnByZlAwZWlKTzVTQV9VRC10bE5NbHVpLXN4akt2cXVYUTg4clNrWGJVRWRrR015ejBhN3pUMFhoTERCTlZEUjB1UndwUlZCTm5OSk9jRzJlLW1yNllTU3BWeTFNZkRUaU5TaVE?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNXhoa2w2NHlyUGlkR2hlZGhwWVBpZ09TdkdnZXhWdng0eG1FQkJkekc4Qm8zeEQ0U1pxQS1udnB2Z2Q0RW5LQU1WZFNSTG05UUNPcUdqbTNYbWgyMnJuY2RmaVZDeDI1N1I0cVRYaEFmNFNvZ0JZak90R1EwYlRXN0dkcXYtem84dzE3SVdWS3I1VTVIWTc0bWRUeUctYy1HYjV3MkRRbWFzd2VHc0xiek93?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakJQZ2NUWmRwUnoydlVXSlVDQUNKZWNEQVZyakxaLVhNc1A0Z2twcWNMX0thRUtJc2k1TDZ4azVqODBxMVc1T1piUFlPUEdTQ2RBcVBIRHBFQ0oxTE9kVUpBNHhfeGFraWZJUXhIRF9xX3RDOHhkejl2OEREb3d2aThHSkg3bWRJNVFNY3FUYUtOcFdVVnMzQy1Lek9MTDUzUTRId3d0U09QZw?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUc1S056WnVjeEJWcmFSR1RqcmZWYTBqOVdFNXFoYUs0NjR0SjZPQmRucVFONHZwVUhIVWZFblRVMU1LUGxLQUl2dnFLNmozNzduLUlJR3Z6UVpyVHdYOXRQTVZrVURDX1p5SWFIOEJ0WVdoTG93N1p6dU12bjVpT1NSZE0xanRnekhLdHcxelc1ZFBTOUZleXdSSnFtaGw0b1E?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxObFRoaVFnTGFzRmdwNjFEbGhmNV8yTzJQZFRmOWxsbmtVeERpS1VnMV9SclA4UEIzWVNjUFpjb05veHVjUVExYnhIOWx5VzQzVEhMX1I4X0lxR2tycW9sV1R1WFF2WHAtVkhXTnJOMUktU29zVHhDLUdNQllGcHZTbkwwS0Z1S2xrTVVNMGR6UQ?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbUt4aFkzZUk4bDVUNmMyaDIyWjAyS0JRSjZEdm5iZUtPT3h1aGlaUTVsb0xocm0xUW1iZlJzeGl0alVlbDk2MWt5bF9kNGZIVXIxbklGNlliTUN0NTJ0SGNaU3dzc1VyOFdfRkZCNC12R201d1BDMm1YUjZnQ29ZWV9KWTFReU5VWkVObXdWWVNxZWlENTdTQXZtSUFSS09UX0dWUmktTTNPRE1qVkJXakpLYw?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3NjY1UGZ4RDRmWmVEanFGMEIzVFd5LU94bjNsS3ZHZ0VGZ21jbWJybDJmNm1zczY5MHZGT3lsTTVfNFpPemlRWDRNd190N3JsQ0w0ZHZpSHBOM0dlSl9qM0EyZVJGT0NGVy01OHlhc3dzWTk3emdWd0dUN09Vdw?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MQVBqSjJOTFlHSXNIekRqZVVjeVVRUG1DQWg0RjVoNDF4RjdTSEUyMHczU1hZbjlDQk1NVU01TjI1RThNZkY0MllEOEZfWmNMSkFaYzVuMFQ2TUhSWWw0WGZxdTFzQ19qOC1Wd2hlVlg?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.youtube/culture-and-trends/youtube-fifa-world-cup-2026-viewership-stats": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingbrew.com/stories/hilary-duff-cash-cab-and-branded-newspapers-how-ladder-is-communicating-stronger-not-smaller-to-women": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.litmus.com/blog/happy-birthday-now-buy-yourself-a-present-the-potential-of-birthday-emails": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingbrew.com/stories/mlb-theme-games-fourth-wing-heated-rivalry": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.youtube/creator-and-artist-stories/youtube-dr-becky-good-inside-parenting-series": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.jonloomer.com/meta-ads-lead-generation": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.hubspot.com/marketing/saas-seo-tools": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.socialmediaexaminer.com/how-to-turn-what-you-know-into-ai-tools-people-will-pay-for": "2026-08-17T14:54:17.723492+00:00",
+  "https://yoast.com/yoast-seo-july-21-2026": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmppRlF3TWQyekpOSm9JbVp6dC0ya2x3a0tETmIzRjVPSFZDdDFraVh0X19OQllhVmIwbEExdnh0NkVlYmlWNWJ6V3h4NFZOdzJuMTNpT0xlN1AyNWxaLU02bzZiS3BOdHZpTW1TVHd5b0RRQ0FzOUVmekxtR0dLZjh6bDJ1SVFPbl9XY2JEMzBGQkRZOVRaeFVzRHRrdHV4SUkwdHdNZlota0pqWVl0cDRuZkxrVEZQWGlsSHN3?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE9zMHZYWV9IRlpZUzkySmtrT3NQRXJxUGxpT20xYVhZSjBlZUhFU196bmtFVGtfN19aZl9YRWdXY3dON3I4U2N1Y1RoY0dfVTlwTFpUeG4yM3hlaG4wZmU0STQ5VWVtZHpEWjZxbThaYjRNUQ?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.seznam.cz/2026/07/index-sreality-cz-ceny-starsich-bytu-dal-rostou-mezirocni-tempo-vsak-zpomalilo-na-133": "2026-08-17T14:54:17.723492+00:00",
+  "https://business.google.com/us/think/future-of-marketing/leandro-barreto-ai-transformation-unilever-marketing": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXVkNDhZZmg0Z0N5cVRVWGF0TzNxc1ZwOF9Wd0Mtc181TlFnTFhTMGJaMW1DWkJnQjdmRk9kN1JNWDlKS25xYkNMZTdnZkNmUllOaTdKeVF3R1paZFpLV2FWMTVfeml0RFNfU2hCbVp2dm0xTG52TlkxcTNDd09uWDRCWnVhQW1wSTFuLTViNTdET2dNdFNDVmVRM0FmYlJnTjh6MjBBY3hCS1pPd3pNclZ6bUM4Rkk?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingbrew.com/stories/bobbie-blair-pfander-q-and-a": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.litmus.com/blog/email-deliverability-facts": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.jonloomer.com/qvt/roas-goal-maximize-number-conversions": "2026-08-17T14:54:17.723492+00:00",
+  "https://backlinko.com/digital-pr-strategies": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.getresponse.com/blog/ecommerce-growth-strategies": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.shoptet.cz/shoptet-podcast-shopaholic-nicol": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.hubspot.com/marketing/hubspot-vs-se-ranking": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.hubspot.com/marketing/content-structuring-themes-ai-search": "2026-08-17T14:54:17.723492+00:00",
+  "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai": "2026-08-17T14:54:17.723492+00:00",
+  "https://www.marketingbrew.com/stories/a-t-and-t-wnba-all-star-weekend": "2026-08-17T14:54:17.723492+00:00",
+  "https://yoast.com/hosting-guide-how-to-pick-the-right-host-for-your-site": "2026-08-17T14:54:17.723492+00:00",
+  "https://blog.seznam.cz/2026/07/sklik-agentura-roku-polocas-souteze-je-tady-kdo-zatim-miri-za-vitezstvim": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkxEek1JUXhORHFfakl5ckF6VHE2VGd0QjJ4NldZYlExbm9HNlM5aWdFXzRoYUNINnJJMlI1MExvQVQ4eFJHcWNXLTI0TklnNmlRSFNqeThSXzVXNkJXdGVLNHctRm5XRmVDcTFwRl9hRENvbFZETEIxME5rY0ZqbzNDdlpGdkh0VVFFN2tpeDROZDZyYUpndzN1ZU1OQUxEZTdjTWI4ak9GUQ?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPelpLZ3BBWXEzX0EwMDU1LTE3VmpfZzJHemJUcllzR05rOTRpT2VEZmw5akt0UzVkRnRpWEk5MmtrUHdvT2M2UVJOcklwMktHVGkwRm05eGhuUnhkZFFfTFdWQ2d3WjRFcVdrT0lEMkNzUGlraW54WWZUbENycExBajFKMXU2anNya1hmZWtrc2JLU3M?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEdTSnlrQXpXalFPX1VBM21icVp4ejBpaVNHNGVMRlU4Y1lvaG1pNWFCUGM5VWVkeGktajlrOEdPd0xKVUdDbEF6RlM0Y2I1Q292RHI2amdBS01GTHV3TGRrWDZwenpHWjE1dWJPWUc0aDBNS0V0RkMzQlEzWEFEaUNqTl9FZTY1MzJ1cG1QeW81dm9seGU5S2ZENk1yOTZ4?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU1JQcnRTOVRBZ0RZeGVCNUxYTVNEYUpuYXl6UFN4QXhMMGNQcG5uLTQ0WjNtVi1nRjJ2Ykd0ZzZCUEI0UG1EOS1ISzZZdURCQTE2Q3RYb2hkemRramc2Q1lKTEtiSnlPS3doS2M5UENjRkJJTG5tWms4bWIzdXhHa3JwQ0ZibURZc1ZfaHB1MlBpcDZaQVQxYXByZGthbnVrWUI0WjFrRldxOTEzNWNsWQ?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FMl9sd01lS1ptVW1ZSDExNk91bGs1TkJ5a3AzSFlFcWJnQzJQTmFLOGx6S1NIb1pBN2s0LTdMeVNCNW81RHlJWnIzcXJ4NlRW?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOG0wTnBNUTRwNDRrU1djZXh5akFST3JEYTMwTFFxa3FGRnU0YkMyZGRJTjhxUy1ETGhPSkZCa0Y5UnRzZ2ZqV3NKaWdjNnZlR1ZzUGRWMWJjVFV4dnFMWGlycFNibmpVMjV3V3pHR2liblk5dkpEQ2dWTGdpSFNWYw?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmZlQ2pnN2t3ZGo4N0hBTmtULVFDVFVLVE1ySlU3RzBhNGFVWjA4T2puYVVUSXpfUWlQdC1fdFMwdlhZQU9HdjY1X21VYlFkWE5xMVBOZko2UEphZXIyZEM5cEpMQ0RWOXczNEloRXZwX2JGbzRIbWpQa1lfV1p3RlJrQTkwVVNyZG5ueXpyU1dMYU1oOENlU1pRNXdJcWoyUXJKQmE5VWhDWXJ4THc?oc=5": "2026-08-17T14:54:17.723492+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWkN4R1lKRzlXSXk1ODRBTi1SUEpHdWp2VWlhaU1UNzAwNnMzM1laNTdyR1pQNHFXc3oxT0dlc2l4U0stRG5KYi1SVzkwbVJhNmg2OG5UQ2s5d0NlZjdHRjF1OWFoemYzS25wZ1h2MFNmZmg4cW84WS1xak5uSmN0OHlKOE1hRFZlOGE4djBBTEJwaWZKRHlMaklDMkxrSHM2WVp1eTVld2hydDZla3hrTw?oc=5": "2026-08-17T14:54:17.723492+00:00"
  },
  "events": [
+  {
+   "id": "cea096338c",
+   "created": "2026-08-10T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnVjU1ZYZFBCckZvRTd4Y1NtM0hPLUFoQ1pRMEk4d01CLVNNMTlvcGtxc3JoREw4MGltMFJKM1JfU3pZQ2hOenF3Njl2UkRpSThPZEZCZHNNVHZuLXZJeFM3eHg5b0xrVklEQnNtU3BaeFp6bEVQNUUyYUM1UTdrMjRScWpoamVGRDRHOUpObHhscHlDd3BLWQ?oc=5",
+     "title": "Why the traditional link building model no longer works for AI search",
+     "summary": "Why the traditional link building model no longer works for AI search &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T14:00:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://blog.hubspot.com/marketing/backlinks-and-aeo",
+     "title": "Do backlinks matter for AEO (answer engine optimization)?",
+     "summary": "Roughly 58% of consumers now use AI answer engines in their product research each week — and that number is rising fast. As AI-powered answer engines like ChatGPT, Perplexity, and Google AI Overviews become primary discovery surfaces, content and SEO teams are asking the right question: is there a relationship between backlinks and AEO , or is it time to rethink the entire authority playbook?",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-07-22T11:00:03+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Backlinky ztrácejí na významu s nástupem AI vyhledávání a AEO",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Tradiční model budování odkazů čelí zásadní změně kvůli AI vyhledávačům (ChatGPT, Perplexity, Google AI Overviews). Podle HubSpotu již 58 % spotřebitelů týdně používá AI nástroje při výzkumu produktů a toto číslo rychle roste. Objevuje se nová disciplína AEO (Answer Engine Optimization) – optimalizace pro AI odpovědní enginy.",
+   "why": "AI vyhledávače fungují jinak než klasické – nezobrazují seznam odkazů podle autoritních signálů (backlinků), ale přímo syntetizují odpovědi z různých zdrojů. To znamená, že dosavadní investice do link buildingu nemusí mít stejný vliv na viditelnost obsahu v AI výsledcích, což mění pravidla hry pro SEO a content marketing.",
+   "takeaway": "Sledujte vývoj AEO a zvažte diverzifikaci SEO strategie – backlinky zůstávají důležité pro klasické vyhledávače (Google organik), ale pro viditelnost v AI nástrojích budou pravděpodobně důležitější faktory jako kvalita, struktura a přímá relevance obsahu k dotazům. Testujte, zda a jak se váš obsah objevuje v AI odpovědích.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/cea096338c.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "febf4852d8",
+   "created": "2026-08-05T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EY1lOMFB2UVpjZnhUaXByMjJzaVlpSzNkOHI3b1FJTHVyT2FXNUJCYllYbEtfUEJBYnQ0Tkh2TmNieWlCSWtoQlFwVmFjX3ZRUTRSNGNIbkdlWDVka3J3U0NnazJETXA0ejlNSWcteTJabXRsbEE?oc=5",
+     "title": "Why paid search could be your AI search advantage",
+     "summary": "Why paid search could be your AI search advantage &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-05T07:00:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/the-paid-search-email-placement-right-place-right-time/583613",
+     "title": "The Paid ‘Search’ Email Placement: Right Place, Right Time via @sejournal, @jonkagan",
+     "summary": "Email placements work, but not as a replacement for email marketing. What Demand Gen and Audience Ads actually deliver, and how to set them up. The post The Paid &#8216;Search&#8217; Email Placement: Right Place, Right Time appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T14:30:29+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Placementy v e-mailech přes Google Ads: co skutečně přinášejí",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Search Engine Journal publikoval návod na využití placementů v e-mailech přes Google Ads – konkrétně formátů Demand Gen a Audience Ads. Jde o placenou formu reklamy v e-mailových prostředích (např. Gmail), nikoliv o náhradu klasického e-mail marketingu.",
+   "why": "Pro marketingové manažery jde o možnost oslovit uživatele přímo v e-mailových schránkách pomocí cílených PPC kampaní Google Ads. Může doplnit běžný e-mailing o další placený kanál s vlastním nastavením a měřením.",
+   "takeaway": "Pokud už používáte Google Ads a chcete rozšířit dosah mimo vyhledávání a display, otestujte Demand Gen nebo Audience Ads s placementem do e-mailů. Počítejte s nimi jako s doplňkem PPC strategie, ne náhradou za CRM e-mailing.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "a6d1904a46",
+   "created": "2026-08-17T08:28:39.081527+00:00",
+   "articles": [
+    {
+     "url": "https://blog.seznam.cz/2026/08/startuje-druha-rtb-vyzva-roku-2026-nove-videoformaty-silnejsi-vysledky",
+     "title": "Startuje druhá RTB výzva roku 2026: Nové videoformáty, silnější výsledky",
+     "summary": "Vyzkoušejte nové a prémiové video formáty v Seznam RTB a podpořte dokoukanost i viditelnost svých kampaní. Nejlepší práce získají ceny i prostor představit se na seznamáckém blogu a v RTB newsletteru. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-08-17T08:00:00+00:00",
+     "score": 59
+    },
+    {
+     "url": "https://blog.seznam.cz/2026/07/sklik-agentura-roku-polocas-souteze-je-tady-kdo-zatim-miri-za-vitezstvim",
+     "title": "Sklik agentura roku: Poločas soutěže je tady. Kdo zatím míří za vítězstvím?",
+     "summary": "Druhé čtvrtletí je za námi a soutěž Sklik agentura roku se dostává do své druhé poloviny. Za uplynulé tři měsíce agentury opět sbíraly body za každodenní práci v účtech i za plnění speciálních kvartálních úkolů. Známe také vítěze další Sklik výzvy a průběžné pořadí, které ukazuje, kdo má po prvním poločase nejlépe nakročeno k letošnímu titulu. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-07-20T07:54:38+00:00",
+     "score": 49
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Seznam spouští druhou RTB výzvu 2026: soutěž zaměřená na video formáty",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Seznam vyhlásil druhou RTB výzvu roku 2026, která se zaměřuje na testování nových a prémiových video formátů v Seznam RTB. Nejlepší kampaně získají ceny a prostor na seznamáckém blogu a v newsletteru.",
+   "why": "Pro agentury a inhouse týmy jde o příležitost vyzkoušet nové video formáty a získat zkušenosti s měřením dokoukanosti a viditelnosti. Vítězové dostanou profesní露出 a případně ocenění.",
+   "takeaway": "Pokud řídíte PPC a zvažujete video reklamu na Seznamu, využijte výzvu k otestování prémiových formátů s možností zpětné vazby a srovnání s konkurencí. Hodí se hlavně pro kampaně zaměřené na brand awareness.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "4fb114bfe4",
+   "created": "2026-08-17T13:30:48+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/qvt/predicted-lifetime-value-pltv",
+     "title": "What is Predicted Lifetime Value (pLTV)?",
+     "summary": "Predicted Lifetime Value (or pLTV) value optimization helps you acquire high-value customers using your own long-term value predictions. Here is what I&#8217;ve learned from Meta&#8217;s developer documentation on the feature&#8230; How it Works Predicted Lifetime Value (pLTV) is built around a single conversion event that helps predict value. So maybe you can predict that the... Read more &#187; The post What is Predicted Lifetime Value (pLTV)? appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-17T13:30:48+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Meta zavádí optimalizaci kampaní podle predikované životní hodnoty zákazníka",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Meta představila funkci Predicted Lifetime Value (pLTV), která umožňuje optimalizovat reklamní kampaně na získávání zákazníků s vysokou dlouhodobou hodnotou. Systém funguje na základě jedné konverzní události, ze které Meta predikuje budoucí hodnotu zákazníka.",
+   "why": "Pro marketingové manažery to znamená možnost cílit reklamy nejen na okamžité konverze, ale na zákazníky, kteří firmě přinesou nejvíc peněz v dlouhodobém horizontu. To je zásadní zejména pro e-shopy a předplatitelské služby, kde se hodnota zákazníka projevuje až v čase.",
+   "takeaway": "Pokud vaše firma má data o dlouhodobé hodnotě zákazníků (opakované nákupy, předplatné), prozkoumejte pLTV optimalizaci v Meta Ads. Vyžaduje nastavení specifické konverzní události a historická data – připravte se na technickou implementaci ve spolupráci s vývojáři nebo analytiky.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "ab95a2c44d",
+   "created": "2026-08-16T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS1k5dEp4VkxkWWFuc2EtLWJtSk1xQWpnQWhOZ1hncXpES0NaVXNmQzNqVkVueGNGVEM0Z215czFJWHVZU0JjenluNXdCRzNyTHlhMEhUQVllWHhRYUtDSmlvZjFON1piSXBvNkFtQzVfSFJVQ0VlbWVWaVdINGZoNzFPVFVMQk5fVU1sYzdLMmQ4T2d4LTJ3S25HRWJrX1N6R015NVN4Sm9RQkFuTHhLMTQ3SUNsY21WMWhiOW1IVl82b2Z0WUpDZjNZYkZfdlAyZ0RSNXBQTk15Z2s3d0lzNkFlOXhsTDg?oc=5",
+     "title": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
+     "summary": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-16T07:00:00+00:00",
+     "score": 49
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "TikTok uzavřel dohodu s filmovým průmyslem o ochraně autorských práv v AI",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "MPA (Motion Picture Association) a ByteDance (vlastník TikToku) oznámily globální dohodu o ochraně duševního vlastnictví při trénování AI modelů pro generování videí a obrázků. Jde o první takovou dohodu mezi zástupci filmového průmyslu a velkými technologickými firmami.",
+   "why": "Ukazuje, jak se řeší právní rámec AI nástrojů – ByteDance se zavazuje respektovat autorská práva při vývoji generativních AI, což může být precedens pro další platformy a nástroje používané marketéry.",
+   "takeaway": "Pokud používáte nebo plánujete používat AI nástroje na tvorbu video obsahu nebo obrázků (včetně těch od ByteDance/TikTok), sledujte vývoj těchto dohod – mohou ovlivnit dostupnost funkcí a licenční podmínky nástrojů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "160d207a3a",
+   "created": "2026-07-31T13:30:21+00:00",
+   "articles": [
+    {
+     "url": "https://blog.shoptet.cz/pribeh-lokni",
+     "title": "Jak Lokni přestalo po sjednocení webu ztrácet zákazníky",
+     "summary": "Web na WordPressu, e-shop na Shoptetu, každý na jiné doméně. V Lokni se letos rozhodli pro redesign a vše postavili na jedné platformě – Shoptetu. Příspěvek Jak Lokni přestalo po sjednocení webu ztrácet zákazníky pochází z Shoptet Blog",
+     "source": "Shoptet blog",
+     "domain": "blog.shoptet.cz",
+     "published": "2026-07-31T13:30:21+00:00",
+     "score": 50
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 35,
+   "title": "Lokni sjednotilo web a e-shop na Shoptetu – příběh redesignu",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "E-shop Lokni měl web na WordPressu a obchod na Shoptetu, každý na jiné doméně. Letos provedl redesign a sjednotil obojí na jedné platformě – Shoptetu.",
+   "why": "Jde o případovou studii konkrétního českého e-shopu, která může posloužit jako inspirace pro marketingové manažery řešící podobnou situaci s rozdělenou infrastrukturou.",
+   "takeaway": "Pokud řešíte oddělenou prezentaci webu a e-shopu, případová studie Lokni může ukázat praktické zkušenosti se sjednocením na Shoptet. Sledujte, zda Shoptet zveřejní konkrétní dopady na konverze a provoz.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "fc43240066",
+   "created": "2026-07-22T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5",
+     "title": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé",
+     "summary": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-07-22T07:00:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "Mladí Češi používají AI víc než jejich firmy, ukazuje průzkum",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Podle průzkumu mladí Češi aktivně využívají umělou inteligenci, často častěji a pokročileji než jejich zaměstnavatelé. AI se pro ně stává běžným pracovním nástrojem.",
+   "why": "Ukazuje to rostoucí propast mezi digitálními dovednostmi mladých zaměstnanců a technologickou připraveností firem. Pokud firmy AI systematicky nezavádějí, riskují odliv talentů a ztrátu konkurenceschopnosti.",
+   "takeaway": "Zjistěte, jak vaši mladší kolegové AI skutečně používají, a vytvořte oficiální politiku a nástroje pro její využití – jinak se strategie AI rozvine ad-hoc mimo vaši kontrolu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d78ac419ae",
+   "created": "2026-07-22T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MQVBqSjJOTFlHSXNIekRqZVVjeVVRUG1DQWg0RjVoNDF4RjdTSEUyMHczU1hZbjlDQk1NVU01TjI1RThNZkY0MllEOEZfWmNMSkFaYzVuMFQ2TUhSWWw0WGZxdTFzQ19qOC1Wd2hlVlg?oc=5",
+     "title": "Your newest competitors aren’t other brands",
+     "summary": "Your newest competitors aren’t other brands &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-07-22T07:00:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Nová konkurence nejsou značky, ale AI asistenti a vyhledávací agregátory",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Článek upozorňuje, že hlavními konkurenty značek se stávají AI asistenti (ChatGPT, Perplexity, Gemini) a agregátory (Google Shopping, Amazon), které mezi značkou a zákazníkem vytvářejí novou vrstvu. Uživatelé čím dál častěji neklikají na weby, ale spoléhají na AI odpovědi nebo srovnávače.",
+   "why": "Mění se způsob, jakým lidé hledají informace a produkty. Pokud značka není viditelná v AI odpovědích nebo na agregátorech, ztrácí přímý kontakt se zákazníky a kontrolu nad svojí prezentací. Tradiční SEO a PPC kampaně mohou postupně ztrácet účinnost.",
+   "takeaway": "Marketingový manažer by měl sledovat, jak se jeho značka objevuje v AI asistentských odpovědích a na agregátorech typu Google Shopping. Je vhodné začít experimentovat s optimalizací pro AI (strukturovaná data, jasné odpovědi na časté otázky) a zajistit kvalitní product feedy pro srovnávače.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "c7acf5fb24",
+   "created": "2026-07-21T07:30:46+00:00",
+   "articles": [
+    {
+     "url": "https://yoast.com/yoast-seo-july-21-2026",
+     "title": "New in the Yoast SEO Bulk Editor: filters, focus keyphrases, and AI drafts",
+     "summary": "The Yoast SEO Bulk Editor already gave you one place to update titles and meta descriptions across your whole site. Now it does much more. This release adds focus keyphrases to the editor, new search and status filters, a dedicated view for every content type, and AI-drafted metadata with Yoast SEO Premium. In short: you [&#8230;] The post New in the Yoast SEO Bulk Editor: filters, focus keyphrases, and AI drafts appeared first on Yoast .",
+     "source": "Yoast",
+     "domain": "yoast.com",
+     "published": "2026-07-21T07:30:46+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Yoast SEO rozšířil Bulk Editor o AI generování metadat a nové filtry",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Plugin Yoast SEO přidal do svého hromadného editoru nové funkce: možnost upravovat focus keyphrases, pokročilé filtry pro vyhledávání a stav stránek, samostatné zobrazení pro každý typ obsahu a v Premium verzi AI generování titulků a meta descriptions.",
+   "why": "Pro správce větších webů to zjednodušuje práci s SEO metadaty – místo úprav po jednotlivých stránkách lze nyní rychleji filtrovat obsah podle stavu a klíčových slov a upravovat metadata hromadně. AI asistent v Premium verzi může urychlit tvorbu popisků.",
+   "takeaway": "Pokud používáte Yoast SEO na webu s desítkami až stovkami stránek, vyplatí se nový Bulk Editor vyzkoušet – ušetří čas při SEO auditu a aktualizaci metadat. Premium verze s AI drafty může být užitečná pro rychlejší tvorbu popisků u produktových katalogů nebo větších obsahových sekcí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "81b57dce1e",
+   "created": "2026-07-20T13:30:24+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/qvt/roas-goal-maximize-number-conversions",
+     "title": "ROAS Goal for Maximize Number of Conversions",
+     "summary": "This is an interesting change&#8230; The ROAS (Return On Ad Spend) Goal bid strategy is now available for the performance goal that &#8220;maximizes the number of conversions.&#8221; Let&#8217;s take a closer look&#8230; ROAS Goal History When running ads for purchases, most advertisers use the performance goal to &#8220;maximize the number of conversions.&#8221; When selected, Meta... Read more &#187; The post ROAS Goal for Maximize Number of Conversions appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-07-20T13:30:24+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "ROAS Goal for Maximize Number of Conversions",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "50446ce0de",
+   "created": "2026-07-20T11:00:03+00:00",
+   "articles": [
+    {
+     "url": "https://blog.hubspot.com/marketing/hubspot-vs-se-ranking",
+     "title": "HubSpot AEO vs SE Ranking: Features, pricing, and fit",
+     "summary": "You’ve probably noticed it yourself: buyers aren’t just Googling anymore. They’re asking ChatGPT, Gemini, and Perplexity questions and trusting whatever answers they get. If your brand isn’t named in those answers, well, you may not even be a consideration.",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-07-20T11:00:03+00:00",
+     "score": 60
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "HubSpot vs SE Ranking: Srovnání nástrojů pro optimalizaci odpovědí AI",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "HubSpot Marketing Blog publikoval srovnání nástrojů HubSpot AEO a SE Ranking. Zaměřuje se na přístup k optimalizaci pro AI odpovědi (AEO – Answer Engine Optimization), protože uživatelé stále častěji hledají informace přes ChatGPT, Gemini a Perplexity místo klasického Googlu.",
+   "why": "Pokud značka není zmíněna v odpovědích AI asistentů, může se stát neviditelnou pro potenciální zákazníky. Roste potřeba nových nástrojů a přístupů k optimalizaci obsahu pro AI systémy.",
+   "takeaway": "Sledujte, jak se mění vyhledávací chování vašich zákazníků. Zvažte doplnění SEO strategie o AEO – optimalizaci pro AI asistenty. Prozkoumejte, zda vaše značka figuruje v odpovědích ChatGPT a podobných nástrojů na klíčové dotazy z vašeho oboru.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "fd29f7ae0e",
+   "created": "2026-07-20T11:00:03+00:00",
+   "articles": [
+    {
+     "url": "https://blog.hubspot.com/marketing/content-structuring-themes-ai-search",
+     "title": "The top content formats & types that earn AI search citations",
+     "summary": "There’s no denying it: Search behaviors have changed . As more queries are answered directly by AI Overviews, ChatGPT, and Perplexity, the shifts reshaping search are forcing marketers to rethink ranking and, just as crucially, learn how to write for AI search rather than just for a list of blue links.",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-07-20T11:00:03+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "The top content formats & types that earn AI search citations",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "7949f1f96b",
+   "created": "2026-07-20T10:11:37+00:00",
+   "articles": [
+    {
+     "url": "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai",
+     "title": "AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI?",
+     "summary": "Svět vyhledávání se definitivně změnil. Klasické internetové vyhledávače doplnily AI nástroje, které stále častěji odpovídají na otázky uživatelů přímo, bez potřeby prokliknout na web. To zásadně mění způsob, jakým firmy vyhodnocují svou viditelnost ve vyhledávání. My v Taste měříme AI viditelnost pomocí vlastního nástroje AIVA. Proč se viditelnost v AI stala novou součástí SEO Dosavadní,... The post AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI? appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-07-20T10:11:37+00:00",
+     "score": 70
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Český nástroj AIVA měří viditelnost značek v odpovědích AI asistentů",
+   "updated": "2026-08-17T14:54:17.723492+00:00",
+   "what": "Agentura Taste (Digichef) spustila vlastní nástroj AIVA pro měření viditelnosti značek a webů v odpovědích AI nástrojů (ChatGPT, Perplexity apod.). Jde o reakci na změnu ve vyhledávání – AI asistenti stále častěji odpovídají přímo, bez kliknutí na web.",
+   "why": "Klasické SEO metriky (pozice v Google, CTR) nezachycují, jak často AI nástroje zmíní vaši značku nebo web v generovaných odpovědích. AIVA nabízí nový pohled na viditelnost tam, kde tradiční vyhledávače už nemusí být primárním zdrojem návštěvnosti.",
+   "takeaway": "Pokud investujete do SEO, sledujte, zda se vaše značka/obsah objevuje v odpovědích AI asistentů – může to ovlivnit budoucí návštěvnost a potřebu adjustovat contentu strategii. Zvažte testování nástrojů typu AIVA pro monitoring AI visibility.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "cb5914db07",
    "created": "2026-08-10T13:00:00+00:00",
@@ -1393,7 +1830,9 @@
    "why": "Dotkne se to dodavatelů elektroniky, softwaru a online služeb v EU, tedy i firem a nástrojů, které české firmy používají. Podle zdroje může regulace vést ke zdražení digitálních produktů a služeb.",
    "takeaway": "Sleduj, zda dodavatelé nástrojů, které používáš (e-commerce platformy, analytika, marketing automation), chystají změny v cenících nebo funkcích kvůli CRA. Nová regulace může ovlivnit náklady na SW a online služby od podzimu 2025.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/f6e3b0d6fd.jpg",
+   "image_from": "lupa.cz"
   },
   {
    "id": "c9570302d6",
@@ -1488,7 +1927,9 @@
    "why": "Ukazuje reálný posun od nákupu specialized nástrojů k AI řešením, což má přímý dopad na rozhodování o technologickém stacku a alokaci rozpočtu na nástroje.",
    "takeaway": "Sledujte, kterých kategorií nástrojů se to týká, abyste mohli vyhodnotit, zda podobný přechod dává smysl i ve vašem stacku – může to znamenat úsporu nákladů nebo naopak potřebu investice do AI alternativ.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/b73a5c7438.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "c5f5623f61",
@@ -1608,7 +2049,9 @@
    "why": "Pokud se tento formát ujme, mění to fundamentálně cestu uživatele po kliknutí na reklamu. Marketingoví manažeři budou muset přemýšlet jinak o konverzích – místo optimalizace landing pages půjde o optimalizaci AI interakcí. Může to ovlivnit alokaci rozpočtů mezi klasické PPC kampaně a nové AI-native formáty.",
    "takeaway": "Sledujte vývoj OpenAI reklam a připravte se na scénář, kdy část search provozu zůstane v AI rozhraní místo přechodu na web. Zatím jde o experiment primárně v USA, ale může předznamenat budoucnost placené reklamy i v ČR.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/e9dd8f2379.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "28546a2b0e",
@@ -1704,7 +2147,9 @@
    "why": "Pro marketingové manažery roste riziko právních problémů a ztráty části publika. V EU platí přísnější pravidla přístupnosti (European Accessibility Act), firmy mohou čelit sankcím. Zároveň zhoršená přístupnost znamená horší UX pro všechny uživatele a negativní dopad na SEO.",
    "takeaway": "Pokud používáte AI nástroje na tvorbu obsahu nebo personalizaci webu, zajistěte audit přístupnosti (WCAG standardy). Kontrolujte alt texty obrázků, kontrasty, strukturu nadpisů a navigaci klávesnicí. Zvažte konzultaci se specialistou na accessibility.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/d39ef84200.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "1e82010482",
@@ -1728,7 +2173,9 @@
    "why": "Pro marketingové manažery to znamená nutnost přehodnotit, jak měří úspěšnost kampaní a jak alokují rozpočty. Pokud zákazníci objevují produkty přes AI asistenty místo Google nebo Meta, klasické metriky (návštěvnost, SEO pozice, CTR) mohou podhodnocovat skutečný dopad marketingu.",
    "takeaway": "Sledujte, zda vaše cílová skupina začíná používat AI nástroje pro rozhodování o nákupu. Připravte se testovat nové způsoby měření (např. zmínky v AI odpovědích) a zvažte pilotní experimenty s optimalizací obsahu pro AI discovery vedle tradičního SEO.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/1e82010482.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "2c73c6699d",
@@ -3256,30 +3703,6 @@
    "multi_source": false
   },
   {
-   "id": "cea096338c",
-   "created": "2026-08-10T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnVjU1ZYZFBCckZvRTd4Y1NtM0hPLUFoQ1pRMEk4d01CLVNNMTlvcGtxc3JoREw4MGltMFJKM1JfU3pZQ2hOenF3Njl2UkRpSThPZEZCZHNNVHZuLXZJeFM3eHg5b0xrVklEQnNtU3BaeFp6bEVQNUUyYUM1UTdrMjRScWpoamVGRDRHOUpObHhscHlDd3BLWQ?oc=5",
-     "title": "Why the traditional link building model no longer works for AI search",
-     "summary": "Why the traditional link building model no longer works for AI search &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T14:00:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Tradiční link building přestává fungovat v AI vyhledávání",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Podle Search Engine Land tradiční model budování odkazů (link buildingu) přestává fungovat v prostředí AI-asistovaného vyhledávání. Autor konstatuje, že s nástupem AI generovaných odpovědí se mění způsob, jakým vyhledávače vyhodnocují a prezentují obsah.",
-   "why": "Pro specialisty na SEO to znamená nutnost přehodnotit strategii získávání autority. Pokud AI nástroje (ChatGPT, Perplexity, Google AI Overviews) odpovídají přímo bez kliknutí na zdroje, tradiční backlinky ztrácejí na významu jako ranking faktor i jako zdroj návštěvnosti.",
-   "takeaway": "Sledujte, jak se vyvíjí metriky relevance v AI vyhledávání (např. citace v AI odpovědích místo klasických odkazů). Zatím jde o koncepční úvahu bez konkrétního nástroje nebo čísel, takže okamžitá změna strategie není nutná – ale začněte testovat viditelnost vašeho obsahu v AI nástrojích.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "de710764aa",
    "created": "2026-08-10T09:52:43+00:00",
    "articles": [
@@ -3556,30 +3979,6 @@
    "image_from": "heureka.group"
   },
   {
-   "id": "febf4852d8",
-   "created": "2026-08-05T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EY1lOMFB2UVpjZnhUaXByMjJzaVlpSzNkOHI3b1FJTHVyT2FXNUJCYllYbEtfUEJBYnQ0Tkh2TmNieWlCSWtoQlFwVmFjX3ZRUTRSNGNIbkdlWDVka3J3U0NnazJETXA0ejlNSWcteTJabXRsbEE?oc=5",
-     "title": "Why paid search could be your AI search advantage",
-     "summary": "Why paid search could be your AI search advantage &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-05T07:00:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Placené vyhledávání jako cesta k výhodě v AI vyhledávání",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Search Engine Land publikoval článek o tom, jak může placené vyhledávání (PPC) poskytnout firmám výhodu v kontextu AI-založeného vyhledávání. Konkrétní detaily o tom, jaké strategie nebo změny článek doporučuje, nejsou z dodaného zdroje dostupné.",
-   "why": "S nástupem AI do vyhledávání (ChatGPT Search, Google SGE) se mění způsob, jak uživatelé hledají informace. Firmy, které zvládnou propojit PPC strategie s novými AI formáty, mohou získat výhodu před konkurencí, která se přizpůsobuje pomaleji.",
-   "takeaway": "Sledujte, jak se vyvíjejí možnosti placeného zobrazování v AI vyhledávačích a jak lze PPC data využít pro optimalizaci viditelnosti v AI odpovědích. Bez přístupu k plnému článku nelze dát konkrétnější doporučení.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "24d5386393",
    "created": "2026-08-04T09:40:01+00:00",
    "articles": [
@@ -3693,30 +4092,6 @@
    "why": "Ukazuje praktické nasazení AI pro tvorbu vícejazyčného video obsahu ve velkém měřítku. Pro marketingové manažery jde o inspiraci, jak škálovat tvorbu lokalizovaného obsahu bez násobení produkčních nákladů.",
    "takeaway": "Sledujte, jak se osvědčí AI avatarky v praxi u velkých českých hráčů – může to být cesta ke snížení nákladů na vícejazyčný video obsah nebo produktovou komunikaci i pro vaši firmu.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "a6d1904a46",
-   "created": "2026-08-17T08:28:39.081527+00:00",
-   "articles": [
-    {
-     "url": "https://blog.seznam.cz/2026/08/startuje-druha-rtb-vyzva-roku-2026-nove-videoformaty-silnejsi-vysledky",
-     "title": "Startuje druhá RTB výzva roku 2026: Nové videoformáty, silnější výsledky",
-     "summary": "Vyzkoušejte nové a prémiové video formáty v Seznam RTB a podpořte dokoukanost i viditelnost svých kampaní. Nejlepší práce získají ceny i prostor představit se na seznamáckém blogu a v RTB newsletteru. Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-08-17T08:00:00+00:00",
-     "score": 59
-    }
-   ],
-   "category": "ppc",
-   "importance": 25,
-   "title": "Seznam RTB spouští soutěž o nejlepší kampaně s novými videoformáty",
-   "updated": "2026-08-17T08:28:39.081527+00:00",
-   "what": "Seznam vyhlásil druhou RTB výzvu roku 2026, která má podpořit využití nových a prémiových videoformátů v Seznam RTB. Soutěž je zaměřená na dokoukanost a viditelnost videokampaní.",
-   "why": "Jde o interní marketingovou aktivitu Seznamu – soutěž pro inzerenty s možností prezentace na blogu a v newsletteru. Pro běžného marketéra nepřináší změnu v dostupnosti formátů ani cenách, pouze motivaci vyzkoušet stávající nabídku.",
-   "takeaway": "Pokud plánujete videokampaně na Seznamu, můžete se přihlásit do soutěže a získat případnou publicitu. Pro denní práci to ale nic nemění – žádné nové funkce ani pravidla.",
-   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -4206,7 +4581,9 @@
    "why": "Nedostatečná analytika vede k neoptimálnímu rozdělení rozpočtu – marketéři nevědí, kam peníze přinášejí nejvíc, a tak do výhodných kanálů dávají méně.",
    "takeaway": "Zkontroluj, jestli vaše měření pokrývá všechny platné kanály a dokážete spolehlivě vyhodnotit ROI. Pokud ne, je čas investovat do lepší analytiky nebo multi-touch attribution.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/c123efc1db.jpg",
+   "image_from": "mediaguru.cz"
   },
   {
    "id": "7ff058f41d",
@@ -4230,7 +4607,9 @@
    "why": "Možnost porovnat výkon vlastních kampaní s anonymizovanými daty jiných inzerentů v GA pomůže marketingovým manažerům lépe vyhodnotit, zda dosahují nadprůměrných výsledků nebo zaostávají za konkurencí v oboru.",
    "takeaway": "Zkontrolujte, zda máte ve svém Google Analytics přístup k nové funkci benchmarkingu kampaní – může vám ukázat, jak si vedete oproti trhu a kde hledat rezervy v optimalizaci.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/7ff058f41d.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "852918a019",
@@ -4278,7 +4657,9 @@
    "why": "Majitelé webů přicházejí o kontrolu nad tím, jak jejich obsah využívá ChatGPT v real-time odpovědích. Standardní ochrana přes robots.txt nefunguje, což komplikuje správu přístupu AI nástrojů k webu.",
    "takeaway": "Pokud nechcete, aby ChatGPT využíval obsah z vašeho webu, nestačí robots.txt – ověřte si dokumentaci OpenAI pro alternativní způsoby blokování. Monitorujte logy serveru, zda se bot ChatGPT objevuje navzdory zákazům.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/70c38dd54e.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "5f81cfbc37",
@@ -4562,7 +4943,9 @@
    "why": "AI Overviews postupně mění způsob, jakým uživatelé konzumují výsledky vyhledávání – místo kliknutí na web čtou AI souhrn. Přidání AI-generovaných obrázků posiluje tento trend a může dále snižovat prokliky na weby. Pro SEO specialisty a majitele webů jde o pokračující posun v organickém vyhledávání, který ovlivňuje viditelnost a návštěvnost.",
    "takeaway": "Sledujte data z Google Search Console a Google Analytics – prokliky z organického vyhledávání mohou klesat i při stabilních pozicích, pokud Google zodpoví dotazy přímo v AI Overview. Zvažte optimalizaci obsahu tak, aby Google citoval váš web jako zdroj v AI souhrnech (E-E-A-T, strukturovaná data, jasné odpovědi na otázky).",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/46afea07e0.jpg",
+   "image_from": "seroundtable.com"
   },
   {
    "id": "e97bc89315",
@@ -4774,7 +5157,9 @@
    "why": "Jde o povinnou změnu typu kampaní pro všechny, kdo v Google Ads využívají Travel kampaně. I když je termín až v Q3 2026, ovlivní to nastavení, strukturu účtů a případně i výkonnost cestovních inzerentů.",
    "takeaway": "Pokud provozujete Travel kampaně v Google Ads, připravte se na povinný přechod do Q3 2026. Sledujte komunikaci od Googlu a zvažte manuální migraci s předstihem, abyste měli kontrolu nad nastavením a mohli otestovat výkonnost nového formátu.",
    "importance_label": "důležité",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/503309f90f.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "fa789d8504",
@@ -4798,7 +5183,9 @@
    "why": "Jde o reakci na rostoucí využívání AI nástrojů třetích stran pro správu Meta kampaní. Lepší kontrola přístupu snižuje riziko nechtěných změn v kampaních nebo úniku dat při propojení externích AI služeb s reklamními účty.",
    "takeaway": "Pokud používáte AI nástroje propojené s Meta Ads účtem (nebo o tom uvažujete), zkontrolujte nová oprávnění a nastavte, které akce mohou připojené nástroje provádět. Omezte přístup pouze na nezbytné operace.",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "image": "img/fa789d8504.jpg",
+   "image_from": "jonloomer.com"
   },
   {
    "id": "81835676dc",
