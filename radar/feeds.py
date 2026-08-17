@@ -197,7 +197,7 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
             title = (entry.get("title") or "").strip()[:300]
             if gn_used:
                 title = _clean_gn_title(title)
-            articles.append(Article(
+            art = Article(
                 url=url,
                 title=title,
                 summary=summary,
@@ -206,7 +206,11 @@ def fetch_all(state: dict) -> tuple[list[Article], list[dict]]:
                 category=src["category"],
                 lang=src.get("lang", "en"),
                 published=published.isoformat(),
-            ))
+            )
+            if gn_used:
+                # článek z Google News patří webu zdroje, ne googlu
+                art.domain = urlparse(src["url"]).netloc.removeprefix("www.")
+            articles.append(art)
             fresh += 1
 
         report.append({"name": src["name"], "feed": feed_url, "status": status, "new": fresh})

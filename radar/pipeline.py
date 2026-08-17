@@ -12,6 +12,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 
@@ -112,6 +113,31 @@ def save_state(state: dict) -> None:
 
 def event_id(text: str) -> str:
     return hashlib.sha1(text.encode()).hexdigest()[:10]
+
+
+def _norm_title(t: str) -> str:
+    return re.sub(r"\W+", " ", (t or "").lower()).strip()
+
+
+def _add_article(ev: dict, a, score: int) -> None:
+    """Přidá článek do události; duplicity (stejný zdroj + titulek) slučuje.
+
+    Když máme stejný článek přes Google News i napřímo, drží se přímý odkaz.
+    """
+    for x in ev["articles"]:
+        if x["url"] == a.url or (x["source"] == a.source
+                                 and _norm_title(x["title"]) == _norm_title(a.title)):
+            if "news.google.com" in x["url"] and "news.google.com" not in a.url:
+                x.update({"url": a.url, "title": a.title, "published": a.published})
+            return
+    ev["articles"].append({
+        "url": a.url, "title": a.title, "summary": a.summary,
+        "source": a.source, "domain": a.domain,
+        "published": a.published, "score": score,
+    })
+
+
+BACKFILL_FLAG = config.DATA_DIR / "backfill.flag"
 
 
 # ── Krok 1: skórování ────────────────────────────────────────────
@@ -242,7 +268,23 @@ def run() -> int:
     state = load_state()
     events_by_id = {e["id"]: e for e in state["events"]}
 
+    # Jednorázový backfill: soubor data/backfill.flag s počtem dní (např. "30")
+    backfill = None
+    if BACKFILL_FLAG.exists():
+        try:
+            backfill = int(BACKFILL_FLAG.read_text().strip() or "30")
+        except ValueError:
+            backfill = 30
+        config.MAX_ARTICLE_AGE_DAYS = backfill
+        config.MAX_NEW_PER_RUN = 120
+        log.info("BACKFILL: sahám %d dní zpět, až 120 článků v tomto běhu", backfill)
+
     articles, report = feeds.fetch_all(state)
+
+    if backfill and len(articles) < 20:
+        BACKFILL_FLAG.unlink(missing_ok=True)
+        log.info("BACKFILL dokončen (nových článků už jen %d), vracím se k běžnému režimu",
+                 len(articles))
     ok = sum(1 for r in report if r["status"].startswith("ok"))
     log.info("Zdroje: %d/%d OK, nových článků: %d", ok, len(report), len(articles))
     for r in report:
@@ -260,19 +302,15 @@ def run() -> int:
     for eid, items in assignments.items():
         ev = events_by_id.get(eid)
         if ev is None:
-            ev = {"id": eid, "created": now_iso, "articles": [],
+            # datum události = publikace nejstaršího článku (důležité pro archiv/backfill)
+            created = min(item["article"].published for item in items)
+            ev = {"id": eid, "created": created, "articles": [],
                   "category": items[0]["category"], "importance": 0,
                   "title": items[0]["article"].title}
             events_by_id[eid] = ev
             state["events"].append(ev)
         for item in items:
-            a = item["article"]
-            if all(x["url"] != a.url for x in ev["articles"]):
-                ev["articles"].append({
-                    "url": a.url, "title": a.title, "summary": a.summary,
-                    "source": a.source, "domain": a.domain,
-                    "published": a.published, "score": item["score"],
-                })
+            _add_article(ev, item["article"], item["score"])
         ev["updated"] = now_iso
         ev["importance"] = max(ev.get("importance", 0),
                                max(item["score"] for item in items))
@@ -284,8 +322,26 @@ def run() -> int:
         except Exception:
             log.exception("Souhrn události %s selhal", ev["id"])
         ev["importance_label"] = config.importance_label(ev.get("importance", 0))
-        ev["multi_source"] = len({a["domain"] for a in ev["articles"]}) >= 2
+        ev["multi_source"] = len({a["source"] for a in ev["articles"]}) >= 2
     log.info("Aktualizováno událostí: %d", len(touched))
+
+    # Jednorázový úklid duplicitních článků ve starších událostech
+    if not state.get("article_dedup_v1"):
+        for e in state["events"]:
+            kept: dict[str, dict] = {}
+            for x in e.get("articles", []):
+                key = _norm_title(x.get("title", "")) or x["url"]
+                if key in kept:
+                    k = kept[key]
+                    if "news.google.com" in k["url"] and "news.google.com" not in x["url"]:
+                        k.update({"url": x["url"], "title": x["title"],
+                                  "published": x["published"], "domain": x["domain"]})
+                    continue
+                kept[key] = x
+            e["articles"] = list(kept.values())
+            e["multi_source"] = len({x["source"] for x in e["articles"]}) >= 2
+        state["article_dedup_v1"] = True
+        log.info("Úklid duplicitních článků dokončen")
 
     # Jednorázové přehodnocení starších událostí novým hodnocením pro cílovou personu
     if not config.MOCK and not state.get("persona_rescore_v2"):

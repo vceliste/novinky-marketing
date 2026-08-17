@@ -118,14 +118,6 @@ def build() -> None:
                 for d in sorted(by_day, reverse=True)]
         category_pages.append({"cat": c, "hero": hero, "days": days})
 
-    # ── Archiv ───────────────────────────────────────────────────
-    by_day_all = defaultdict(list)
-    for e in events:
-        by_day_all[e["day"]].append(e)
-    archive_days = [{"day": d, "label": cz_date(datetime.fromisoformat(d)),
-                     "events": by_importance(by_day_all[d])}
-                    for d in sorted(by_day_all, reverse=True)]
-
     # ── Render ───────────────────────────────────────────────────
     env = Environment(
         loader=FileSystemLoader(Path(__file__).parent / "templates"),
@@ -134,7 +126,7 @@ def build() -> None:
     env.globals.update(
         categories=categories,
         cat=lambda key: cat_by_key.get(key, {"name": key, "icon": "📰", "key": key}),
-        site_name="Marketing Radar",
+        site_name="Novinky z marketingu od Včeliště",
         last_run=local(state["last_run"]).strftime("%d. %m. %Y %H:%M") if state.get("last_run") else "—",
         year=now.year,
     )
@@ -156,8 +148,6 @@ def build() -> None:
         (out / "udalost" / f"{e['id']}.html").write_text(
             env.get_template("event.html").render(e=e), encoding="utf-8")
 
-    (out / "archiv.html").write_text(env.get_template("archiv.html").render(
-        archive_days=archive_days), encoding="utf-8")
     (out / "hledani.html").write_text(env.get_template("hledani.html").render(),
                                       encoding="utf-8")
     (out / "o-projektu.html").write_text(env.get_template("o-projektu.html").render(
@@ -204,7 +194,7 @@ def build() -> None:
                 _x((e.get("what") or "") + " " + (e.get("takeaway") or ""))))
     (out / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-        "<title>Marketing Radar</title><link>https://novinky.vceliste.cz</link>"
+        "<title>Novinky z marketingu od Včeliště</title><link>https://novinky.vceliste.cz</link>"
         "<description>Novinky z online marketingu bez šumu</description>"
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 

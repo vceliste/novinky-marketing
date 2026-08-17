@@ -22,6 +22,7 @@ a { color: var(--link); }
 .site-header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
 .header-top { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding-top: 10px; padding-bottom: 8px; }
 .brand { text-decoration: none; color: var(--text); font-size: 18px; }
+.brand-sub { font-size: 13px; color: var(--muted); font-weight: 500; }
 .header-links { display: flex; gap: 14px; font-size: 13.5px; }
 .header-links a { text-decoration: none; color: var(--muted); font-weight: 500; }
 .header-links a:hover { color: var(--accent-dark); }
@@ -103,11 +104,11 @@ a { color: var(--link); }
 .chip-single { background: #f8fafc; color: #94a3b8; }
 
 /* ── Detail události ───────────────────────────────────────── */
-.event-detail { max-width: 720px; margin: 0 auto; }
-.event-title { margin-top: 10px; }
-.event-image { margin: 18px 0; border-radius: 12px; overflow: hidden; }
-.event-image img { width: 100%; display: block; }
-.event-image.hero-placeholder { height: 200px; }
+.event-detail { max-width: 720px; margin: 0 auto; padding-top: 26px; }
+.event-title { margin-top: 10px; margin-bottom: 0; font-size: 24px; }
+.event-image { margin: 16px 0; border-radius: 12px; overflow: hidden; }
+.event-image img { width: 100%; max-height: 280px; object-fit: cover; display: block; }
+.event-image.hero-placeholder { height: 160px; }
 .event-image figcaption { font-size: 12px; color: var(--muted); padding: 6px 2px; }
 .detail-block { margin-bottom: 20px; }
 .detail-block h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 6px; }
