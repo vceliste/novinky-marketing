@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-18T19:05:07.286964+00:00",
+ "last_run": "2026-08-18T20:46:54.015225+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7feb99983830>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f9fc14d6db0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -322,8 +322,8 @@
   {
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+   "new": 8
   },
   {
    "name": "Simo Ahava",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -1356,7 +1356,15 @@
   "https://www.seroundtable.com/google-august-2026-spam-update-41895.html": "2026-08-18T19:05:07.286964+00:00",
   "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5": "2026-08-18T19:05:07.286964+00:00",
   "https://www.mediar.cz/galerie-reklamy/spojujeme-nejvic-rodin-v-cesku-o2-predstavuje-novy-detsky-tarif": "2026-08-18T19:05:07.286964+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeG9sQlZJWkZCdkVIOUNKUzhabS1veEVTY3pJQ3dwUHRwUEdyN0p2cWxIM1FMR1JqUjlCVkFxeFZpaUEzaS1sbmcyR3lPU1RiMkE4UWh3NXRya3gzMXJmMy1XTU9GSFVsdFNnRzZMdW9uLV9EeTBBeEVBV0ZwSnpxV2s5UzFpdlc5aTN6eXdsNkdxRm1WRmFuOFd4QzlpcWtOcHY1N2stakEzbFFvSHBJYVpidjFBSWxLMkxqY0N5UWo?oc=5": "2026-08-18T19:05:07.286964+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeG9sQlZJWkZCdkVIOUNKUzhabS1veEVTY3pJQ3dwUHRwUEdyN0p2cWxIM1FMR1JqUjlCVkFxeFZpaUEzaS1sbmcyR3lPU1RiMkE4UWh3NXRya3gzMXJmMy1XTU9GSFVsdFNnRzZMdW9uLV9EeTBBeEVBV0ZwSnpxV2s5UzFpdlc5aTN6eXdsNkdxRm1WRmFuOFd4QzlpcWtOcHY1N2stakEzbFFvSHBJYVpidjFBSWxLMkxqY0N5UWo?oc=5": "2026-08-18T19:05:07.286964+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Lcm5zRHQ4dk41ZUhjVTlGOHRtblpxWjh1SWtqSHNZc2ZNUnpEZTItT0hFcWdnT0VobFBKS0ZHMHR1OHVac1JsVVIxWFhqMWd1OF9LSEhkX2QwMnFUZHFCU0t0dXIydG5mT0pRcERod3dHNWtpbXhF?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdVExeUFTSGI2dElFMXpaQnBqbDNMdk8xQkxEV3R2XzIzeW1uY3VZQWlJSy12WUk4TjBxeDV4Njc1ZERKX3pVd2JzWFQxU29RbFp0OUpCemxFc0VLNGRPSWZZYV9zamFjcnRaclRha180cVlPSUEzbHh5X09ENlpJdkVqamxwWlQ3MGRB?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcEtYT3J3VG40akpQT2VfQkVYcm96UWhqU255bENYTEo2aDhJRDExUXBWNzZ5eGRUbDdsT3VUdG1lWnp4clpDRmRfeHdsX3NrUllxNVJmTEtaUXdfY1l1YVp2V0tSTjg1eU5PeHNtRFZtREhPM1Fxa0tpV0Itb2FicTNSWl9rV2VZOWRncldDZWJyckU?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNbHpBaGUzUXJwdzZEU3dCTG5qdjlXUUUzT0dTT3pJQlQyY25jajVPdWRZN1NmaFdFbXhYdUl0X1lBd01ReVNRSEhYdHlXT1RJTkVnNWEya3Fhdjg?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13bTg2bnpTeE5fbEUyZG5lUS1CYnB1aWZfR3dJM0libENTekg5NFhValNHWGxESzhsYWxkWDdoZWpZOHVTblcyMHVrZ3lvbGF5RllZYzVYMXlpd0pNZFJQdUZJcXRndw?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTVTBoY25fU0JlanhEZ0xaTlA0T3d4ekZHamE2TFMyM3ZmZDhfVm4yakRvdE9iSlQ4ankydENwaEpLRDd4dVhfY3JoNFRac2tLQUQyQ3dEcjFmOE1nZnYxQg?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVnpfQi1ON210V3BBTDZiMWpZRFU3QmhJcXdvUlpUMlB2Y0xVZmJNNkpZZUNGNktiY0NMakY1VFFDdWUtVVU5YlpKTnNVU1lTMDNwb2FFeDlTQ24yLXVMdlRzRi1EV0RNcFN4LVVHZzNxNUxwdFRmbE52ZzB3V05rdkhzSHBGUQ?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHOFNHYlJWcUl2RkM0dlVxM2x3ZTRReWp4d1h5MlJWOExwamFjT0RXQVZLYlB4azNVUHVtMVpxZVVGTGQzQ0hfUzY4Q1I4UlR4SVhGTzhRWkcxMFhUQ1JlRHhVdw?oc=5": "2026-08-18T20:46:54.015225+00:00"
  },
  "events": [
   {
@@ -4347,12 +4355,15 @@
      "score": 55
     }
    ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Autenticita jako strategie: Proč značky záměrně tvoří „nedokonalý“ obsah?",
+   "category": "obsah",
+   "importance": 45,
+   "title": "Trend nedokonalosti v obsahu: Autenticita jako reakce na AI a přeprodukci",
    "updated": "2026-08-17T10:59:36.879807+00:00",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "multi_source": false,
+   "what": "Podle Digichef.cz se objevuje trend, kdy značky záměrně vytvářejí méně dokonalý obsah jako reakci na přesycení ultra-estetickými vizuály a AI generovanými příspěvky. Cílem je vypadat autentičtěji a odlišit se od perfektních, ale neosobních contentu.",
+   "why": "Pro marketingového manažera jde o signál měnícího se vnímání obsahu – dokonalost může působit nepřirozeně a snižovat důvěru. V době, kdy AI umožňuje hromadnou produkci bezchybného obsahu, může naopak \"lidskost\" a nedokonalost zvyšovat engagement.",
+   "takeaway": "Zvažte, zda perfektně vyleštěný obsah stále funguje pro vaše publikum, nebo testujte autentičtější formáty (zákulisí, neupravená videa, reálné zákaznické situace). Sledujte metriky engagement u různých typů obsahu."
   },
   {
    "id": "b498c69bad",
