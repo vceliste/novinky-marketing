@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-18T17:00:10.130739+00:00",
+ "last_run": "2026-08-18T19:05:07.286964+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f563c8ea810>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7feb99983830>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -101,13 +101,13 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -173,19 +173,19 @@
    "name": "Google Search Status Dashboard",
    "feed": "https://status.search.google.com/en/feed.atom",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f563c92bb00>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -1346,9 +1346,163 @@
   "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6UkxTNURISThoM2FubW45RTZSbEcyQ2lYRVdueENvSmF6dE1OaVd2WTBVNGF6eURmTzdrM0t2VmpmdjVFTTVfNnNGbjYybGpVRmh3VWptd0NmZm9CMTFZWDlkbVRsQ2ZwaDIwZVFWVlZ6LTEwTkJpdEFPMHZOQQ?oc=5": "2026-08-18T17:00:10.130739+00:00",
   "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQjlpS2hBSkZBV3lscEUzSjZ3WWhTU005d09FT0lqem9ibVlEQnd5Z3ZnZVZPeVJQM0JjWEh3LVZmNVlLZmo0c0ctMGl6VWljTjAwS1hZR2pRd3Q0Mk42OFVBR0J5bFNWc09wdWpaMUNFTzVTV0NOMWQ4SHF0V1dudGdUM0hXdDFmYjlKdERkSVRQcF9sQVpiR0ZJWWx1R0lOSnNEZS1KUXQ2bGxXMTlIYm1PYXBfS3RvYWxsSkc2aXlHVGd6QVV4bUdn?oc=5": "2026-08-18T17:00:10.130739+00:00",
   "https://news.google.com/rss/articles/CBMibkFVX3lxTFBycG5kUnF0dk9vV0gzZlI0Q1llOHlxa3ZQYW5mbHM1OEFjbC1XMUVsZmx5SE4zQWNSeGJlblN5RmpkQ0VuZm5WUjRNYWJ5OExZWUMzRXdTWThoVEVLYjJQMzJCUXJPRTh3RTI5anZ3?oc=5": "2026-08-18T17:00:10.130739+00:00",
-  "https://www.mediar.cz/galerie-reklamy/za-lepsi-komunikaci-brnenske-komunikace-startuji-kampan-proti-agresi": "2026-08-18T17:00:10.130739+00:00"
+  "https://www.mediar.cz/galerie-reklamy/za-lepsi-komunikaci-brnenske-komunikace-startuji-kampan-proti-agresi": "2026-08-18T17:00:10.130739+00:00",
+  "https://www.searchenginejournal.com/how-google-aios-use-facebook-instagram-tiktok-from-300-million-us-searches/585244": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.marketingbrew.com/stories/iab-ai-use-transparency-disclosure-framework": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.marketingbrew.com/stories/ai-brands-are-hiring-to-reshape-narratives-around-safety": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.searchenginejournal.com/everyone-is-negotiating-with-google-while-meta-reads-the-web-for-free/584465": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.lupa.cz/aktuality/ceska-obchodni-inspekce-udelila-e-shopum-dalsi-milionove-pokuty": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.seroundtable.com/google-august-2026-spam-update-41895.html": "2026-08-18T19:05:07.286964+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5": "2026-08-18T19:05:07.286964+00:00",
+  "https://www.mediar.cz/galerie-reklamy/spojujeme-nejvic-rodin-v-cesku-o2-predstavuje-novy-detsky-tarif": "2026-08-18T19:05:07.286964+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeG9sQlZJWkZCdkVIOUNKUzhabS1veEVTY3pJQ3dwUHRwUEdyN0p2cWxIM1FMR1JqUjlCVkFxeFZpaUEzaS1sbmcyR3lPU1RiMkE4UWh3NXRya3gzMXJmMy1XTU9GSFVsdFNnRzZMdW9uLV9EeTBBeEVBV0ZwSnpxV2s5UzFpdlc5aTN6eXdsNkdxRm1WRmFuOFd4QzlpcWtOcHY1N2stakEzbFFvSHBJYVpidjFBSWxLMkxqY0N5UWo?oc=5": "2026-08-18T19:05:07.286964+00:00"
  },
  "events": [
+  {
+   "id": "25921c9b48",
+   "created": "2026-08-18T19:00:48+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/how-google-aios-use-facebook-instagram-tiktok-from-300-million-us-searches/585244",
+     "title": "How Google AIOs Use Facebook, Instagram & TikTok From 300 Million US Searches",
+     "summary": "Facebook, Instagram, and TikTok earn AI citations for different queries, rewarding precise answers over large audiences. The post How Google AIOs Use Facebook, Instagram &#038; TikTok From 300 Million US Searches appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T19:00:48+00:00",
+     "score": 67
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google AIO cituje Facebook, Instagram a TikTok – studie 300 milionů vyhledávání",
+   "updated": "2026-08-18T19:05:07.286964+00:00",
+   "what": "Analýza 300 milionů amerických vyhledávání ukázala, jak Google AI Overviews (AIO) citují obsahy ze sociálních sítí Facebook, Instagram a TikTok. Každá platforma získává citace za jiné typy dotazů, přičemž rozhodující je přesnost odpovědi, nikoliv velikost publika.",
+   "why": "Ukazuje, jak AI přehledy v Google mění pravidla viditelnosti – sociální sítě mohou být zdrojem pro AI odpovědi bez ohledu na velikost followingu. Pro firmy to znamená nový kanál objevitelnosti přes organický obsah na sociálních sítích.",
+   "takeaway": "Pokud vytváříte obsah na sociálních sítích, zaměřte se na přesné odpovědi na konkrétní dotazy spíše než na dosah. Sledujte, zda se AI Overviews již zobrazují ve vašem oboru – může to změnit logiku investic do sociálních sítí i SEO.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/25921c9b48.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "0f9ca71d8c",
+   "created": "2026-08-18T18:10:11+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/iab-ai-use-transparency-disclosure-framework",
+     "title": "IAB updates AI disclosure recommendations as legislation evolves",
+     "summary": "The advertising trade group is recommending targeted disclosure for uses including AI-generated images and videos, as opposed to universal labeling, Caroline Giegerich, VP of AI at the IAB, told us.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-08-18T18:10:11+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "IAB doporučuje cílené označování AI obsahu místo plošných štítků",
+   "updated": "2026-08-18T19:05:07.286964+00:00",
+   "what": "Americká reklamní asociace IAB aktualizovala doporučení pro označování AI obsahu v reklamě. Místo univerzálního značení všeho AI obsahu doporučuje cílené disclosure jen u konkrétních použití, jako jsou AI-generované obrázky a videa.",
+   "why": "Jde o reakci na vyvíjející se legislativu – firmy budут muset řešit transparentnost AI v reklamě. IAB poskytuje praktický rámec, jak to dělat bez zbytečného přetížení všech materiálů štítky.",
+   "takeaway": "Sledujte vývoj evropské a české regulace AI v reklamě – pokud používáte AI generovaný obsah (obrázky, videa), připravte se na nutnost ho označovat. Zatím jde o doporučení z USA, ale princip cíleného označování je praktičtější než plošné štítkování.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "211153fee3",
+   "created": "2026-08-18T17:30:31+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/everyone-is-negotiating-with-google-while-meta-reads-the-web-for-free/584465",
+     "title": "Everyone Is Negotiating With Google While Meta Reads The Web For Free via @sejournal, @slobodanmanic",
+     "summary": "The machine-access fight is aimed at Google. Meta reads more, returns almost nothing, and no one is asking it to stop. The post Everyone Is Negotiating With Google While Meta Reads The Web For Free appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T17:30:31+00:00",
+     "score": 57
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Meta crawluje web bez náhrady, zatímco Google uzavírá dohody",
+   "updated": "2026-08-18T19:05:07.286964+00:00",
+   "what": "Zatímco vydavatelé a mediální domy vyjednávají s Googlem o platbách za využívání jejich obsahu, Meta crawluje web ve velkém měřítku, aniž by za to cokoliv vracela nebo byla k tomu vyzývána.",
+   "why": "Ukazuje asymetrii v přístupu k AI crawlingu – Google čelí tlaku a platí, Meta ne. Pro majitele webů jde o otázku, zda a jak blokovat AI boty a co tím získají nebo ztratí.",
+   "takeaway": "Zkontrolujte si nastavení robots.txt a přístup AI botů (GPTBot, Meta-ExternalAgent aj.) na svém webu. Zvažte, zda je pro vás výhodnější obsah blokovat, nebo nechat indexovat s ohledem na budoucí vyjednávací pozici nebo viditelnost v AI nástrojích.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "ea2a0b392f",
+   "created": "2026-08-18T16:37:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301",
+     "title": "Google Begins Rolling Out The August 2026 Spam Update via @sejournal, @MattGSouthern",
+     "summary": "Google has begun rolling out the August 2026 spam update, applying globally and to all languages, its third one this year. The post Google Begins Rolling Out The August 2026 Spam Update appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T17:10:40+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
+     "title": "Google August 2026 Spam Update Has Been Unleashed",
+     "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all languages. This only impacts sites that spam, but with any update, there may be collateral damage.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-18T16:45:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5",
+     "title": "Google releases August 2026 spam update",
+     "summary": "Google releases August 2026 spam update &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T16:37:00+00:00",
+     "score": 78
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google spustil August 2026 Spam Update – třetí letos",
+   "updated": "2026-08-18T19:05:07.286964+00:00",
+   "what": "Google začal 5. srpna 2026 zavádět další spam update. Jde o třetí letošní aktualizaci zaměřenou na spam, která se týká všech jazyků a zemí včetně ČR. Kompletní nasazení by mělo trvat jen několik dní.",
+   "why": "Update cílí primárně na spamové weby, ale jako u každé velké aktualizace algoritmu může dojít i k nechtěnému dopadu na kvalitní stránky. Pro českého SEO specialistu i marketingového manažera to znamená potenciální výkyvy ve viditelnosti a organickém trafficu.",
+   "takeaway": "Sledujte pozice a organický provoz v následujících dnech, zejména pokud jste nedávno měnili obsah nebo link building strategii. Pokud zaznamenáte pokles, zkontrolujte kvalitu obsahu a backlink profil – spam signály mohou postihnout i neúmyslně.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/ea2a0b392f.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "5f36a5e81c",
+   "created": "2026-08-18T16:57:59+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/ceska-obchodni-inspekce-udelila-e-shopum-dalsi-milionove-pokuty",
+     "title": "Česká obchodní inspekce udělila e-shopům další milionové pokuty",
+     "summary": "Česká obchodní inspekce (ČOI) pokračovala v kontrolách internetových obchodů, u nichž existuje podezření na neplnění právních povinností.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-18T16:57:59+00:00",
+     "score": 62
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 65,
+   "title": "ČOI udělila e-shopům další milionové pokuty za porušení povinností",
+   "updated": "2026-08-18T19:05:07.286964+00:00",
+   "what": "Česká obchodní inspekce pokračuje v kontrolách internetových obchodů a udělila další milionové pokuty za neplnění právních povinností. Konkrétní zjištění ani jména postižených e-shopů však zdroj neuvádí.",
+   "why": "Pro marketingové manažery provozující nebo propagující e-shopy jde o signál pokračující kontrolní aktivity ČOI. Porušení povinností (např. u cen, reklamací, informování spotřebitelů) může vést k vysokým pokutám.",
+   "takeaway": "Zkontrolujte, zda váš e-shop nebo e-shopy klientů splňují všechny zákonné povinnosti – zejména správné zobrazování cen, informování o reklamacích a smluvní podmínky. Sledujte aktuální sankce ČOI pro identifikaci častých chyb.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/5f36a5e81c.jpg",
+   "image_from": "lupa.cz"
+  },
   {
    "id": "0b8fc44116",
    "created": "2026-08-18T16:28:47+00:00",
@@ -2506,13 +2660,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 65,
-   "title": "ROAS Goal for Maximize Number of Conversions",
+   "importance": 72,
+   "title": "Meta Ads: ROAS Goal nově dostupný pro maximalizaci počtu konverzí",
    "updated": "2026-08-17T14:54:17.723492+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/81b57dce1e.jpg",
-   "image_from": "jonloomer.com"
+   "image_from": "jonloomer.com",
+   "what": "Meta přidala možnost nastavit ROAS Goal (cílový poměr výnosů k reklamním výdajům) u kampaní s cílem maximalizovat počet konverzí. Dříve byla tato kombinace nedostupná.",
+   "why": "Pro e-shopy a firmy měřící hodnotu konverzí to znamená větší kontrolu nad ziskovostí kampaní – mohou nastavit požadovanou návratnost investice a zároveň nechat algoritmus Meta maximalizovat objem prodejů.",
+   "takeaway": "Pokud používáte v Meta Ads cíl 'maximalizovat počet konverzí' u produktových kampaní, otestujte nové nastavení ROAS Goal – můžete tím lépe řídit ziskovost bez nutnosti přepínat na jiný typ kampaně."
   },
   {
    "id": "50446ce0de",
@@ -6978,13 +7135,16 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Prompt Tracking: How to Find (and Fix) Your AI Visibility Gaps",
+   "importance": 55,
+   "title": "Prompt tracking: jak zjistit, zda vás AI asistenti vůbec zobrazují",
    "updated": "2026-08-14T09:18:56.681311+00:00",
-   "importance_label": "důležité",
+   "importance_label": "stojí za pozornost",
    "multi_source": false,
    "image": "img/870093af6c.jpg",
-   "image_from": "backlinko.com"
+   "image_from": "backlinko.com",
+   "what": "Backlinko představuje koncept \"prompt tracking\" – sledování viditelnosti značky v odpovědích velkých jazykových modelů (LLM). Firma může být na Googlu první, ale v odpovědích ChatGPT, Gemini nebo Claude zcela chybět, nebo se tam objevovat s neaktuálními informacemi.",
+   "why": "Rostoucí část uživatelů hledá informace přes AI asistenty místo vyhledávačů. Pokud vaše značka v těchto odpovědích chybí nebo je zobrazena chybně, ztrácíte potenciální zákazníky a prodeje – a bez aktivního sledování o tom nevíte.",
+   "takeaway": "Začněte testovat, jak AI asistenti odpovídají na dotazy relevantní pro vaše produkty nebo služby. Zjistěte, zda se vaše firma vůbec objevuje, v jakém kontextu a s jakými informacemi. To vám ukáže, kde máte mezery v AI viditelnosti a kde je potřeba optimalizovat obsah."
   },
   {
    "id": "c3e14a7515",
