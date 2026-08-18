@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-18T15:00:29.857925+00:00",
+ "last_run": "2026-08-18T17:00:10.130739+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f757c0b9d30>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f563c8ea810>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -173,19 +173,19 @@
    "name": "Google Search Status Dashboard",
    "feed": "https://status.search.google.com/en/feed.atom",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f563c92bb00>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -215,7 +215,7 @@
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Ecomail blog",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -1338,9 +1338,91 @@
   "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads": "2026-08-18T15:00:29.857925+00:00",
   "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wd2ZpeVYwcGpERTNsRnoweldjZ2ZENDJTWUpaRXhpNnE4cEhVRGdLcDg3YVJiNW9RWl9BZ3lkalQyWmE0bU0zYzAzZnZkcUVQXzZlY3BSdFg3eGdhR0RRdkRKUFpFMTllaWJ4OTU5eV9Dak55RjNnS1ZNVEdLOGs?oc=5": "2026-08-18T15:00:29.857925+00:00",
   "https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption": "2026-08-18T15:00:29.857925+00:00",
-  "https://martech.org/how-to-stop-overpaying-for-ai-complexity": "2026-08-18T15:00:29.857925+00:00"
+  "https://martech.org/how-to-stop-overpaying-for-ai-complexity": "2026-08-18T15:00:29.857925+00:00",
+  "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE": "2026-08-18T17:00:10.130739+00:00",
+  "https://www.lupa.cz/aktuality/jan-barta-a-spol-zadaji-dalsi-velke-penize-majitele-aukra-ci-grouponu-vydavaji-dluhopisy-za-750-milionu": "2026-08-18T17:00:10.130739+00:00",
+  "https://www.lupa.cz/aktuality/v-brne-vyvinuli-antenu-pro-presne-rizeni-dronu-bez-dohledu-pilota-chysta-se-do-vyroby": "2026-08-18T17:00:10.130739+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-lowers-demand-gen-budget-10x": "2026-08-18T17:00:10.130739+00:00",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6UkxTNURISThoM2FubW45RTZSbEcyQ2lYRVdueENvSmF6dE1OaVd2WTBVNGF6eURmTzdrM0t2VmpmdjVFTTVfNnNGbjYybGpVRmh3VWptd0NmZm9CMTFZWDlkbVRsQ2ZwaDIwZVFWVlZ6LTEwTkJpdEFPMHZOQQ?oc=5": "2026-08-18T17:00:10.130739+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQjlpS2hBSkZBV3lscEUzSjZ3WWhTU005d09FT0lqem9ibVlEQnd5Z3ZnZVZPeVJQM0JjWEh3LVZmNVlLZmo0c0ctMGl6VWljTjAwS1hZR2pRd3Q0Mk42OFVBR0J5bFNWc09wdWpaMUNFTzVTV0NOMWQ4SHF0V1dudGdUM0hXdDFmYjlKdERkSVRQcF9sQVpiR0ZJWWx1R0lOSnNEZS1KUXQ2bGxXMTlIYm1PYXBfS3RvYWxsSkc2aXlHVGd6QVV4bUdn?oc=5": "2026-08-18T17:00:10.130739+00:00",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTFBycG5kUnF0dk9vV0gzZlI0Q1llOHlxa3ZQYW5mbHM1OEFjbC1XMUVsZmx5SE4zQWNSeGJlblN5RmpkQ0VuZm5WUjRNYWJ5OExZWUMzRXdTWThoVEVLYjJQMzJCUXJPRTh3RTI5anZ3?oc=5": "2026-08-18T17:00:10.130739+00:00",
+  "https://www.mediar.cz/galerie-reklamy/za-lepsi-komunikaci-brnenske-komunikace-startuji-kampan-proti-agresi": "2026-08-18T17:00:10.130739+00:00"
  },
  "events": [
+  {
+   "id": "0b8fc44116",
+   "created": "2026-08-18T16:28:47+00:00",
+   "articles": [
+    {
+     "url": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+     "title": "UPDATE: August 2026 spam update",
+     "summary": "Incident began at 2026-08-18 09:27 (all times are US/Pacific ). Released the August 2026 spam update , which applies globally and to all languages. The rollout may take a few days to complete. Affected products: Ranking",
+     "source": "Google Search Status Dashboard",
+     "domain": "status.search.google.com",
+     "published": "2026-08-18T16:28:47+00:00",
+     "score": 80
+    }
+   ],
+   "category": "seo",
+   "importance": 75,
+   "title": "Google spustil globální spam update pro srpen 2026",
+   "updated": "2026-08-18T17:00:10.130739+00:00",
+   "what": "Google 18. srpna 2026 vydal celosvětový spam update, který se týká všech jazyků. Dokončení update může trvat několik dní. Ovlivňuje pořadí ve vyhledávání.",
+   "why": "Spam updaty od Googlu mohou zásadně změnit pozice webu v organickém vyhledávání. Weby, které update vyhodnotí jako spam, mohou ztratit návštěvnost a konverze; čisté weby naopak často posílí.",
+   "takeaway": "Sledujte v následujících dnech pozice webu v Google Search Console a v návštěvnosti GA4. Pokud zaznamenáte pokles, zkontrolujte kvalitu obsahu a zda web nespadá pod Googlovu definici spamu (automatický obsah, keyword stuffing, skrytý text, irelevantní backlinky).",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "cc861e9f1d",
+   "created": "2026-08-18T15:33:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-lowers-demand-gen-budget-10x",
+     "title": "Google Lowers Demand Gen Budget Recommendation to 10x",
+     "summary": "Google has updated its Demand Gen bidding documentation , lowering the recommended daily budget for campaigns using Target CPA bidding.&nbsp; The new guideline suggests a budget of at least 10 times the target CPA, down from the previous recommendation of 15 times . This change makes it easier for advertisers to engage with Demand Gen campaigns that utilize tCPA bidding strategies, potentially encouraging more brands to test their efficacy. This update could assist advertisers who previously hesitated to start due to higher financial commitments under the old 15x rule.&nbsp; This update was sp",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-18T15:33:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google snížil doporučený rozpočet pro Demand Gen kampaně na 10× target CPA",
+   "updated": "2026-08-18T17:00:10.130739+00:00",
+   "what": "Google aktualizoval doporučení pro rozpočty u Demand Gen kampaní s Target CPA nabídkovou strategií. Nově stačí denní rozpočet alespoň 10× vyšší než cílová CPA, dříve to bylo 15×.",
+   "why": "Snížení vstupní finanční bariéry usnadňuje testování Demand Gen kampaní menším inzerentům nebo firmám, které dosud váhaly kvůli vyšším počátečním nákladům.",
+   "takeaway": "Pokud jste zvažovali testování Demand Gen kampaní v Google Ads, ale 15násobek target CPA byl příliš vysoký, nyní můžete začít s nižším rozpočtem. Zkontrolujte nastavení svých stávajících kampaní a zvažte pilotní test.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "3fe0fd54ff",
+   "created": "2026-08-18T15:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6UkxTNURISThoM2FubW45RTZSbEcyQ2lYRVdueENvSmF6dE1OaVd2WTBVNGF6eURmTzdrM0t2VmpmdjVFTTVfNnNGbjYybGpVRmh3VWptd0NmZm9CMTFZWDlkbVRsQ2ZwaDIwZVFWVlZ6LTEwTkJpdEFPMHZOQQ?oc=5",
+     "title": "What 9 months of AI Overview data and 51,000+ tracked events reveal",
+     "summary": "What 9 months of AI Overview data and 51,000+ tracked events reveal &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T15:00:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Studie: 51 000 AI Overview výsledků odhaluje dopady na klikatelnost",
+   "updated": "2026-08-18T17:00:10.130739+00:00",
+   "what": "Search Engine Land publikoval analýzu 9 měsíců dat z AI Overviews (Google AI Snapshots) založenou na 51 000+ sledovaných událostí. Studie mapuje chování AI přehledů ve výsledcích vyhledávání.",
+   "why": "AI Overviews postupně mění způsob, jakým uživatelé konzumují výsledky vyhledávání. Pro SEO specialisty a PPC manažery je klíčové pochopit, jak tyto AI přehledy ovlivňují klikatelnost na organické i placené výsledky a jaké typy obsahu Google do nich zahrnuje.",
+   "takeaway": "Sledujte, zda se vaše klíčová témata objevují v AI Overviews a jak to ovlivňuje CTR. Pokud AI přehledy konzumují váš obsah bez kliknutí, zvažte optimalizaci pro nižší části sales funnelu nebo uzavřenější obsah. Do České republiky AI Overviews v plném rozsahu zatím nedorazily, ale příprava na změnu uživatelského chování se vyplatí.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/3fe0fd54ff.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "44fa41ec6e",
    "created": "2026-07-29T00:00:00+00:00",
@@ -1637,13 +1719,16 @@
     }
    ],
    "category": "seo",
-   "importance": 68,
-   "title": "Local 5.0: The next evolution of local SEO is here",
+   "importance": 45,
+   "title": "Local 5.0: nová éra lokálního SEO podle Search Engine Land",
    "updated": "2026-08-18T13:16:10.959722+00:00",
-   "importance_label": "důležité",
+   "importance_label": "stojí za pozornost",
    "multi_source": false,
    "image": "img/baa41eecdd.jpg",
-   "image_from": "searchengineland.com"
+   "image_from": "searchengineland.com",
+   "what": "Search Engine Land představil koncept \"Local 5.0\" jako další evoluční stupeň lokálního SEO. Jde o teoretický rámec popisující vývoj lokálního vyhledávání od prvních adresářů po současné AI-poháněné odpovědi.",
+   "why": "Pro firmy s pobočkami nebo místní působností může jít o změnu v tom, jak optimalizovat prezenci pro lokální vyhledávání. Článek pravděpodobně popisuje nové faktory a signály, které ovlivňují viditelnost v lokálních výsledcích.",
+   "takeaway": "Bez přístupu k plnému obsahu článku nelze poskytnout konkrétní doporučení. Pokud spravujete lokální pobočky nebo se zaměřujete na místní zákazníky, sledujte vývoj Local SEO – může to ovlivnit váš Google Business Profile, lokální citace a strategii obsahu."
   },
   {
    "id": "e481e743a9",
@@ -3744,11 +3829,14 @@
     }
    ],
    "category": "seo",
-   "importance": 58,
-   "title": "What is query fan-out? How to find & optimize for subqueries",
+   "importance": 55,
+   "title": "SEMrush představuje 'query fan-out' – AI prompt research pro viditelnost v ChatGPT",
    "updated": "2026-08-17T10:59:36.879807+00:00",
    "importance_label": "stojí za pozornost",
-   "multi_source": true
+   "multi_source": true,
+   "what": "SEMrush publikoval sérii článků o novém konceptu 'query fan-out' a prompt research. Jde o metodu, jak analyzovat, jak AI nástroje (ChatGPT, Gemini apod.) rozdělují jeden dotaz uživatele na desítky dílčích dotazů (subqueries) a z jakých zdrojů čerpají odpovědi. Cílem je zjistit, jestli se vaše značka/web objevuje ve výsledcích AI asistentů.",
+   "why": "S růstem používání AI chatbotů (ChatGPT Search, Gemini) se část uživatelů přesouvá z klasického vyhledávání na konverzační AI. Pokud vaše obsahová strategie cílí jen na klasické keywords, můžete ztrácet viditelnost v AI odpovědích. Prompt research ukazuje, na jaké podotázky AI reagují a které zdroje preferují – je to rozšíření klasického SEO výzkumu.",
+   "takeaway": "Pokud máte obsah cílící na komplexnější témata nebo poradenství, doplňte keyword research o průzkum AI promptů: otestujte v ChatGPT/Gemini, jak reagují na dotazy vašich zákazníků, sledujte, které zdroje citují, a upravte obsah tak, aby pokrýval i dílčí podotázky (fan-out). Zatím jde o experimentální směr, ale u brandů závislých na organickém dosahu může být relevantní už nyní."
   },
   {
    "id": "569f2a4320",
