@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-18T09:04:31.776902+00:00",
+ "last_run": "2026-08-18T10:58:04.522882+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f5950011fd0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd37ec771d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f5950019880>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd37ec87470>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -293,7 +293,7 @@
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Meta Newsroom",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Copyblogger",
@@ -376,7 +376,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -1291,7 +1291,11 @@
   "https://www.mediar.cz/ct-koupila-prava-na-ms-ve-vodnim-slalomu-a-v-rychlostni-kanoistice-do-roku-2028": "2026-08-18T07:12:57.641127+00:00",
   "https://www.mediaguru.cz/lidl-zavede-ve-svych-prodejnach-platebni-reseni-cvak": "2026-08-18T09:04:31.776902+00:00",
   "https://www.mediaguru.cz/serial-misto-zlocinu-ostrava-se-dostal-v-pondeli-na-celo": "2026-08-18T09:04:31.776902+00:00",
-  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94eDI0WnpfWXhUNHhReWxhVlNXaXg1ZVA2R24xQVhseUxWZTlLMXpDV3RzaTBNNFcwTDBWcFMtc2E3dUZmVVB6d2FnT0ZaQ3V2SGc?oc=5": "2026-08-18T09:04:31.776902+00:00"
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94eDI0WnpfWXhUNHhReWxhVlNXaXg1ZVA2R24xQVhseUxWZTlLMXpDV3RzaTBNNFcwTDBWcFMtc2E3dUZmVVB6d2FnT0ZaQ3V2SGc?oc=5": "2026-08-18T09:04:31.776902+00:00",
+  "https://www.mediaguru.cz/cesi-filmovym-pokracovanim-prilis-neveri-mladsi-divaci-jsou-vstricnejsi": "2026-08-18T10:58:04.522882+00:00",
+  "https://cc.cz/dcera-dalibora-dedka-buduje-stresni-salatove-farmy-a-ochlazuje-haly-ted-hleda-kdo-stafetu-prevezme": "2026-08-18T10:58:04.522882+00:00",
+  "https://www.socialmediaexaminer.com/building-an-ai-creative-director-from-ideas-to-finished-content-with-claude": "2026-08-18T10:58:04.522882+00:00",
+  "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction": "2026-08-18T10:58:04.522882+00:00"
  },
  "events": [
   {
@@ -2093,13 +2097,16 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "The top content formats & types that earn AI search citations",
+   "importance": 55,
+   "title": "Studie: Jaké formáty obsahu nejčastěji cituje AI vyhledávání",
    "updated": "2026-08-17T14:54:17.723492+00:00",
-   "importance_label": "důležité",
+   "importance_label": "stojí za pozornost",
    "multi_source": false,
    "image": "img/fd29f7ae0e.jpg",
-   "image_from": "blog.hubspot.com"
+   "image_from": "blog.hubspot.com",
+   "what": "HubSpot publikoval analýzu zaměřenou na typy a formáty obsahu, které AI nástroje (ChatGPT, Perplexity, Google AI Overviews) nejčastěji citují při odpovídání na dotazy uživatelů. Zdůrazňuje, že se mění uživatelské chování – část dotazů je zodpovídána přímo AI, nikoli klasickými organickými výsledky.",
+   "why": "Pro marketéry to znamená, že nestačí optimalizovat obsah jen pro tradiční SERP. Je potřeba zvážit, jak strukturovat a připravovat obsah tak, aby ho AI nástroje mohly snadno citovat a využít jako zdroj odpovědí, což může ovlivnit viditelnost webu i při nezměněné pozici v klasických výsledcích.",
+   "takeaway": "Sledujte, jak AI nástroje pracují s obsahem ve vašem oboru. Pokud část vašeho publika používá ChatGPT nebo AI Overviews, zvažte úpravu struktury článků, FAQ sekcí a faktografického obsahu tak, aby byl lépe citovatelný AI. Jedná se zatím o trend, nikoli urgentní změnu praxe."
   },
   {
    "id": "7949f1f96b",
@@ -2800,12 +2807,15 @@
      "score": 52
     }
    ],
-   "category": "analytika",
-   "importance": 52,
-   "title": "How to determine AI visibility ROI and revenue impact",
+   "category": "seo",
+   "importance": 55,
+   "title": "Semrush: Jak měřit ROI viditelnosti v AI nástrojích",
    "updated": "2026-08-17T13:19:56.133140+00:00",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "multi_source": false,
+   "what": "Semrush publikoval metodiku měření návratnosti investic do AI viditelnosti – tedy toho, jak často se značka nebo obsah firmy objevuje v odpovědích ChatGPT, Perplexity a podobných nástrojů. Návod propojuje AI zmínky, citace a návštěvníky z AI nástrojů přímo s leady a tržbami.",
+   "why": "S rostoucím používáním AI chatbotů pro vyhledávání informací začíná být viditelnost v nich novým kanálem. Pro marketingové manažery je klíčové umět vyhodnotit, jestli investice do obsahu optimalizovaného pro AI nástroje přináší byznysové výsledky – stejně jako u SEO nebo PPC.",
+   "takeaway": "Pokud vaše firma tvoří odborný obsah, zvažte sledování, zda se objevujete v odpovědích AI nástrojů a kolik návštěvníků odtud přichází. Semrush nabízí rámec pro vyhodnocení, zda má smysl do AI viditelnosti investovat oproti klasickému SEO."
   },
   {
    "id": "efc35dd446",
@@ -4230,14 +4240,17 @@
      "score": 79
     }
    ],
-   "category": "analytika",
-   "importance": 79,
-   "title": "Evolve your marketing with new AI tools",
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google spouští AI Advisor pro Ads a Analytics",
    "updated": "2026-08-17T09:18:22.514189+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/6f027f7885.jpg",
-   "image_from": "blog.google"
+   "image_from": "blog.google",
+   "what": "Google zavádí nové AI nástroje do svých reklamních a analytických platforem. V Google Ads a Google Analytics se objevuje Advisor UI – conversational AI rozhraní, které má marketérům pomáhat s optimalizací kampaní a analýzou dat prostřednictvím přirozeného dialogu.",
+   "why": "Pro marketingové manažery jde o nový způsob práce s Google nástroji – místo manuálního prohledávání reportů a nastavení lze klást AI otázky a dostávat doporučení. Může to urychlit rozhodování a odhalit příležitosti, které by jinak zůstaly skryté v datech.",
+   "takeaway": "Sledujte, kdy se AI Advisor zpřístupní ve vašem Google Ads a GA4 účtu (Google obvykle rolloutuje postupně). Otestujte ho na konkrétních otázkách k vašim kampaním – může ušetřit čas při hledání optimalizací, ale ověřujte doporučení před implementací."
   },
   {
    "id": "fd53b08253",
@@ -6410,13 +6423,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 60,
-   "title": "Programmatic video needs more visibility into AI-driven decisions",
+   "importance": 45,
+   "title": "Programmatic video volá po větší transparentnosti AI rozhodování",
    "updated": "2026-08-14T09:38:29.556736+00:00",
-   "importance_label": "důležité",
+   "importance_label": "stojí za pozornost",
    "multi_source": false,
    "image": "img/4d6488f9f5.jpg",
-   "image_from": "martech.org"
+   "image_from": "martech.org",
+   "what": "V programatické video reklamě narůstá tlak na platformy, aby více vysvětlovaly rozhodnutí algoritmů řízených umělou inteligencí. AI činí procesy v adtechu méně průhlednými, což komplikuje hodnocení výkonu a efektivity kampaní.",
+   "why": "Pro marketingové manažery je stále obtížnější pochopit, jak přesně platformy utrácejí rozpočet a proč dosahují konkrétních výsledků. Nedostatek transparentnosti ztěžuje optimalizaci kampaní a hodnocení hodnoty použitých nástrojů.",
+   "takeaway": "Pokud používáte programmatic video, vyžadujte od dodavatelů jasnější reporty o tom, jak AI optimalizuje vaše kampaně a na základě jakých kritérií rozhoduje o umístění a cenách. Sledujte, zda vám platforma dokáže obhájit svá doporučení a ROI."
   },
   {
    "id": "07ce20615e",
