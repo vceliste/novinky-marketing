@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-18T05:02:51.666377+00:00",
+ "last_run": "2026-08-18T07:12:57.641127+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f58aa72b380>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f270583d3d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Heureka blog",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f58aa711220>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 5
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -1279,9 +1279,42 @@
   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0dnTFhyTThjYVk3TFJES1hZYTFNdDV6Rkd0d3pRTHlLeUxzVmRMU01rbWk0aFFXZG5tQWJGVU05SlVCaDVNNXQ3blFiTmU1dlQ3MUVaZktHbHU1Z2h6MWdWMVNXZDlpU1dIN1RXZEdvelI2eU9UZVV6YjlBU1RraWtVNV90UWtpeklBaUUwVnBoMGVOemQtSDlNeF9HSGt5elJPWldCMDQ?oc=5": "2026-08-18T05:02:51.666377+00:00",
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTEV2LXdTNmZVTEFLUzdibUhPLWNnR196UXJRWERsSlN1UW53YXllSjhXbUhUZ2tVcDZabklQekcyUmZnTERTOWRDZ1RHSkxLUkxUUzl1VVdJQjBBUExXMWRQQXRzenJnMnpmRHZ6a3FPajc3b0xXNzQyclJRTjViS2RlaGZBbS11XzAxWVVrMEY4UnpwTDJ1Tko0UEoyemZlRDNsaEVfX0hrVnpxNHc?oc=5": "2026-08-18T05:02:51.666377+00:00",
   "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093": "2026-08-18T05:02:51.666377+00:00",
-  "https://www.socialmediatoday.com/news/tiktok-owner-bytedance-signs-motion-picture-association-deal/828088": "2026-08-18T05:02:51.666377+00:00"
+  "https://www.socialmediatoday.com/news/tiktok-owner-bytedance-signs-motion-picture-association-deal/828088": "2026-08-18T05:02:51.666377+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-merchant-center-removes-support-14-countries": "2026-08-18T07:12:57.641127+00:00",
+  "https://cc.cz/sluchatka-s-kamerou-uvnitr-apple-nechtene-odhalil-airpody-ktere-umi-videt-svet-kolem-vas": "2026-08-18T07:12:57.641127+00:00",
+  "https://blog.seznam.cz/2026/08/nove-trasy-i-presnejsi-znaceni-v-rakousku": "2026-08-18T07:12:57.641127+00:00",
+  "https://blog.seznam.cz/2026/08/mapy-com-prekreslily-rakouske-turisticke-trasy-od-zakladu-nove-nabizeji-az-o-desitky-tisic-kilometru-znacenych-tras-vic": "2026-08-18T07:12:57.641127+00:00",
+  "https://www.mediaguru.cz/moravec-cz-nabral-pres-osm-tisic-predplatitelu-za-prvni-mesic": "2026-08-18T07:12:57.641127+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQbk9rRDlZN3dDeEloYzFEaUUwbF9NMWllczJkYWVfRTdTZ2tpaGtWRFBTTnBfVnNWNWlTMnl1TUNHNXBLLWRlU2ZEaC1wOEdFemRfNTZWRQ?oc=5": "2026-08-18T07:12:57.641127+00:00",
+  "https://www.mediaguru.cz/barrandov-setri-a-novou-tvorbu-nechysta-zmeny-zasahly-i-distribuci": "2026-08-18T07:12:57.641127+00:00",
+  "https://cc.cz/za-miliardy-prodali-rouvy-restartuji-groupon-a-ted-si-barta-a-spol-jdou-pujcit-od-ceskych-stradalu": "2026-08-18T07:12:57.641127+00:00",
+  "https://www.mediar.cz/ct-koupila-prava-na-ms-ve-vodnim-slalomu-a-v-rychlostni-kanoistice-do-roku-2028": "2026-08-18T07:12:57.641127+00:00"
  },
  "events": [
+  {
+   "id": "0ae7f79450",
+   "created": "2026-08-18T06:50:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-merchant-center-removes-support-14-countries",
+     "title": "Google Takes Back Shopping Ads Expansion to 14 Markets",
+     "summary": "Google has removed its July 14 announcement that Shopping ads and free listings were being prepared for expansion to 14 additional markets .&nbsp; The same countries, including Bulgaria, Croatia, Cyprus, Estonia, Latvia, Lithuania, Luxembourg, Malta and Serbia, have also disappeared from the supported countries table. Google has not provided an explanation for the change.&nbsp; The removal could signal a delay or change in rollout plans, but at least we know it's on the way. Check the official page that the countries are missing: Supported languages and currencies - Google Merchant Center Help",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-18T06:50:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google zrušil plánované rozšíření Shopping ads do 14 zemí",
+   "updated": "2026-08-18T07:12:57.641127+00:00",
+   "what": "Google odstranil své červencové oznámení o připravovaném rozšíření Shopping ads a bezplatných výpisů do 14 dalších trhů (včetně Bulharska, Chorvatska, Estonska, Lotyšska, Litvy a Srbska). Tyto země zmizely i z tabulky podporovaných zemí. Google neposkytl žádné vysvětlení.",
+   "why": "Ukázka toho, že plány Googlu se mohou měnit i po oficiálním oznámení. Pro české firmy působící v regionu CEE to může znamenat odklad expanzních možností přes Google Shopping.",
+   "takeaway": "Pokud jste plánovali rozšíření kampaní do některé z těchto zemí, sledujte oficiální stránku podporovaných zemí. Rozšíření pravděpodobně přijde později, ale zatím není jasné kdy.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "d84d771e1d",
    "created": "2026-08-18T02:57:00+00:00",
