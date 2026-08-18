@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-18T10:58:04.522882+00:00",
+ "last_run": "2026-08-18T13:16:10.959722+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -17,7 +17,7 @@
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "eVisions blog",
@@ -41,18 +41,18 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd37ec771d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fb43fd3c110>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -82,8 +82,8 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 2
   },
   {
    "name": "APEK",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd37ec87470>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -293,13 +293,13 @@
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
@@ -311,7 +311,7 @@
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -334,8 +334,8 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "new": 1
   },
   {
    "name": "MeasureSchool",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "new": 3
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -1295,9 +1295,128 @@
   "https://www.mediaguru.cz/cesi-filmovym-pokracovanim-prilis-neveri-mladsi-divaci-jsou-vstricnejsi": "2026-08-18T10:58:04.522882+00:00",
   "https://cc.cz/dcera-dalibora-dedka-buduje-stresni-salatove-farmy-a-ochlazuje-haly-ted-hleda-kdo-stafetu-prevezme": "2026-08-18T10:58:04.522882+00:00",
   "https://www.socialmediaexaminer.com/building-an-ai-creative-director-from-ideas-to-finished-content-with-claude": "2026-08-18T10:58:04.522882+00:00",
-  "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction": "2026-08-18T10:58:04.522882+00:00"
+  "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction": "2026-08-18T10:58:04.522882+00:00",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wTFJiWnUzVkFhd19NUFlFb1FkQWFlRnptSFloTHd0WDQ3MjEwZDRpU0lVRWZKbmt1dmM5dHVEbldHV0tmb0prQUJWR25fWERPQlJEN0t0Mkl6OGsxdmxzZW9vdXVJRXVWZElpTlBWbmJ3NTVo?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.searchenginejournal.com/what-we-can-learn-from-evolving-chatgpt-fan-out-queries/586254": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwenhkUUp5ak9DNlotNmFEN18zUWlJRjNXcGUzMWNBcUN0WVZwVnJxUmpzMmN2MkNmODJiNmM3MEJQRXdiS0ZIcTVqZ1UwVEQyTDNHc3ZXcW1ud0tBOVdWTElGQUJTblRSYzV4Y0RvWGZ3ZU9q?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://about.fb.com/news/2026/08/americas-workforce-academy-meta-skilled-trade-training-program": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xZFVtLVp0WU5kRDEzZG5UTi1JVnJZVmwzWFNlRl84d25ycFVvRkViNDRJVXJXbEJLYjFVWTVwMV9aR3JGSjUxaExicWJ3RC0tdFlvbkNwd24tY3FwQW5KN1VNYzhPLVhCMUlOVURR?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://cc.cz/jedna-z-nejlepe-hodnocenych-prazskych-pekaren-otevrela-novou-pobocku-stesti-zkousi-i-v-centru": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.searchenginejournal.com/get-your-business-found-chosen-in-ai-search-free-sej-live-event/584710": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wcnpwdl9DY09jcmVDZkZoYmdaOURFdFVHQmp2UGJUNldJU3RRNlgwem1nSElnNEVXNWtzUTQ2ZGRVei1fZ2ZwTTlFRjYwWnRzZG1YaldvaUVJMERyZDJvWENTZW40bGVm?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.seroundtable.com/google-search-profiles-edit-your-handle-41886.html": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.lupa.cz/aktuality/test-edokladu-mel-dve-vlny-pomale-nacitani-podle-dia-zpusobila-aplikacni-brana": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3gwREJOWl9DT0RIY0xGMTY4UTh1YlRKRVNndUpObEVxUTFaM2E4Q21CUlVvUWptalJsSlBVOWx3YnVSN2tfR0VRdXk3NEsxYnpNY0t1YURaNjRNMjhmNHlRQ0VEQjZUemEwSm05UWF4N296WEtSTkdJcFRYMG1jTHd6OVhzTndrSHdhQXdJbVNRaXhpcHVrckoyVjRKQ29WbFEtOHhWOHdxZw?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.mediaguru.cz/treti-rada-reality-zradci-odstartuje-na-prima-16-zari": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.seroundtable.com/google-related-search-for-underline-41846.html": "2026-08-18T13:16:10.959722+00:00",
+  "https://digichef.cz/copy-cvik-9-sjednot": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.seroundtable.com/chatgpt-ads-switching-advertisers-41883.html": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.jonloomer.com/15-years-of-jonloomer-com": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.seroundtable.com/google-adsense-drops-euro-denominated-check-payments-41817.html": "2026-08-18T13:16:10.959722+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-tests-blue-hyperlinks-ad-descriptions": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTkQ0NEhicGxKbHkza3o5dkp0Q3FlTEUwbDVhQm1SakhNWlFVY011eWVNd01KTkdaODBfRjVUV0o1anNaR0tsS0xnUkI4bXVqUDBxNEZhZnNYVDRsd0dHUVQ4SFVtbjZwMzVBWVdXR1FKTjltaFZ5MUgzYkJXNnM2QQ?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.seroundtable.com/google-support-http-query-method-41882.html": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xU3V5aVljbTA1bVVvaVNQVVcwNVJjUTZXMkdjVnlQcU9KMGNZX3ZldEZ6WTlodF83ZEhvZGFDQXBQeXhLNGVmNmVnTzBmSGttR01HVVZGNjM0OExUUXBrZ0NVNjl2ckU?oc=5": "2026-08-18T13:16:10.959722+00:00",
+  "https://blog.hubspot.com/marketing/running-tiktok-campaigns-with-impact": "2026-08-18T13:16:10.959722+00:00",
+  "https://www.marketingbrew.com/stories/betterhelp-comments-section-social-strategy-repeatable-scalable": "2026-08-18T13:16:10.959722+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcnJBV3ZuamZxNWt1RnpjVjl1SXVOZTJqd3VEZlJVQWROZ190NXRRTllUNGxQRy1qd2NYVElDQmMwd21yQjA0Y1kxQUZ4NGN2c3JlalROckw4Q3haMkhpMElWZElzb3ZOMW51emxVQUUtamJFUktlcVhvLXhKT25mak5vUUd5SFh0Q3hBSXBOcnJIZkpVNzAxeGpYZjRfWG8xbGw1eGw2SFdwNlBKckJKNElUMA?oc=5": "2026-08-18T13:16:10.959722+00:00"
  },
  "events": [
+  {
+   "id": "af4ee84af1",
+   "created": "2026-08-18T13:06:07+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wTFJiWnUzVkFhd19NUFlFb1FkQWFlRnptSFloTHd0WDQ3MjEwZDRpU0lVRWZKbmt1dmM5dHVEbldHV0tmb0prQUJWR25fWERPQlJEN0t0Mkl6OGsxdmxzZW9vdXVJRXVWZElpTlBWbmJ3NTVo?oc=5",
+     "title": "IAB updates standard for disclosing AI in ads",
+     "summary": "IAB updates standard for disclosing AI in ads &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-18T13:06:07+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "IAB aktualizoval standard pro označování AI v reklamách",
+   "updated": "2026-08-18T13:16:10.959722+00:00",
+   "what": "Mezinárodní asociace IAB (Interactive Advertising Bureau) vydala aktualizaci svého standardu pro označování reklamního obsahu vytvořeného nebo upraveného pomocí umělé inteligence.",
+   "why": "Standard definuje, jak mají inzerenti transparentně informovat uživatele o použití AI v reklamách, což je důležité pro důvěryhodnost a může se v budoucnu stát regulatorním požadavkem i v EU.",
+   "takeaway": "Sledujte vývoj standardu a připravte se na možné budoucí povinnosti označovat AI-generovaný obsah v reklamách. Prozatím jde o doporučení, ne závaznou normu v ČR.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "8b44187d6d",
+   "created": "2026-08-18T13:01:30+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/what-we-can-learn-from-evolving-chatgpt-fan-out-queries/586254",
+     "title": "What We Can Learn From Evolving ChatGPT Fan-Out Queries via @sejournal, @lilyraynyc",
+     "summary": "ChatGPT's search behavior is starting to look like E-E-A-T. Here's the data behind that theory, and what to do about it. The post What We Can Learn From Evolving ChatGPT Fan-Out Queries appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T13:01:30+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "ChatGPT začíná vyhledávat podobně jako Google s E-E-A-T",
+   "updated": "2026-08-18T13:16:10.959722+00:00",
+   "what": "Analýza chování vyhledávání ChatGPT ukazuje, že začíná při odpovědích preferovat zdroje podobným způsobem, jako Google hodnotí E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Jde o evoluci tzv. fan-out dotazů – jak ChatGPT rozhoduje, které zdroje použije.",
+   "why": "Pro SEO specialisty a obsahové stratégy to znamená, že optimalizace obsahu pro AI vyhledávače může začít kopírovat osvědčené principy z Google SEO. Pokud se potvrdí podobnost s E-E-A-T, existující práce na autoritě a důvěryhodnosti webu může mít hodnotu i pro viditelnost v AI odpovědích.",
+   "takeaway": "Sledujte, zda vaše obsahová strategie zahrnuje prokazatelnou expertizu, autoritu a důvěryhodnost – nejen pro Google, ale potenciálně i pro AI nástroje. Konkrétní data a doporučení jsou ve zdrojovém článku.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "baa41eecdd",
+   "created": "2026-08-18T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wcnpwdl9DY09jcmVDZkZoYmdaOURFdFVHQmp2UGJUNldJU3RRNlgwem1nSElnNEVXNWtzUTQ2ZGRVei1fZ2ZwTTlFRjYwWnRzZG1YaldvaUVJMERyZDJvWENTZW40bGVm?oc=5",
+     "title": "Local 5.0: The next evolution of local SEO is here",
+     "summary": "Local 5.0: The next evolution of local SEO is here &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T12:00:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Local 5.0: The next evolution of local SEO is here",
+   "updated": "2026-08-18T13:16:10.959722+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/baa41eecdd.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "e481e743a9",
+   "created": "2026-08-18T11:17:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-tests-blue-hyperlinks-ad-descriptions",
+     "title": "Blue Hyperlinks Spotted in Google Search Ad Descriptions",
+     "summary": "Google is testing blue hyperlinks in the ad descriptions within the sponsored results.&nbsp; The appearance of these links suggests that more keyword-rich links may be incorporated in the Google Search sponsored results descriptions in the future.&nbsp; This update was uncovered by Sachin Patel and&nbsp; Barry Schwartz . The post Blue Hyperlinks Spotted in Google Search Ad Descriptions appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-18T11:17:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google testuje modré odkazy v popisech textových reklam",
+   "updated": "2026-08-18T13:16:10.959722+00:00",
+   "what": "Google experimentuje s modrými hypertextovými odkazy přímo v popisech textových reklam ve vyhledávání. Zatím jde o test, který odhalili Sachin Patel a Barry Schwartz.",
+   "why": "Pokud Google tuto funkci zavede natrvalo, inzerenti budou moci do popisů reklam vkládat další proklikávatelné odkazy. To může zvýšit CTR a umožnit lepší směrování uživatelů na konkrétní podstránky přímo z reklamy.",
+   "takeaway": "Sledujte, zda se funkce objeví i ve vašich kampaních v Google Ads. Pokud ano, zvažte testování dalších odkazů v popisech pro zvýšení relevance a proklikovosti reklam.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "0ae7f79450",
    "created": "2026-08-18T06:50:00+00:00",
@@ -2467,11 +2586,14 @@
     }
    ],
    "category": "seo",
-   "importance": 57,
-   "title": "Google: Subject/Object Entity Order Affects AI Answers via @sejournal, @martinibuster",
+   "importance": 35,
+   "title": "Google: pořadí entit v dotazu ovlivňuje přesnost AI odpovědí",
    "updated": "2026-08-17T13:19:56.133140+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "importance_label": "kontext",
+   "multi_source": false,
+   "what": "Výzkum Google ukázal, že velké jazykové modely (LLM) mají problém správně vybavit fakta, když je v dotazu obrácené obvyklé pořadí subjektu a objektu. Jinými slovy, AI lépe odpovídá na otázku formulovanou přirozeným způsobem než na stejnou otázku s obráceným pořadím entit.",
+   "why": "Jde o poznatek relevantní pro ty, kdo pracují s AI Overviews v Google vyhledávání nebo s chatboty. Ukazuje limity současných LLM a může ovlivnit, jak uživatelé formulují dotazy a jaké odpovědi od AI dostanou.",
+   "takeaway": "Pokud optimalizujete obsah pro AI Overviews nebo vyvíjíte chatbota, počítejte s tím, že AI modely lépe fungují při přirozeném pořadí entit v dotazech. Pro běžnou práci marketingového manažera v ČR to zatím nemá přímý dopad – jde spíše o obecný vhled do fungování AI."
   },
   {
    "id": "b73a5c7438",
