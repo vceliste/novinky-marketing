@@ -17,7 +17,8 @@ def _get_client():
     global _client
     if _client is None:
         import anthropic
-        _client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        _client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"],
+                                      max_retries=4)
     return _client
 
 

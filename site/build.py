@@ -51,7 +51,8 @@ def local(dt_iso: str) -> datetime:
 def prepare(events: list[dict]) -> list[dict]:
     out = []
     for e in events:
-        if not e.get("title"):
+        # bez hotového souhrnu se událost nepublikuje (doplní se v dalším běhu)
+        if not e.get("title") or not e.get("what"):
             continue
         e = dict(e)
         e["day"] = local(e["created"]).date().isoformat()

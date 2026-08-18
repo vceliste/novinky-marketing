@@ -325,6 +325,22 @@ def run() -> int:
         ev["multi_source"] = len({a["source"] for a in ev["articles"]}) >= 2
     log.info("Aktualizováno událostí: %d", len(touched))
 
+    # Doplnění souhrnů, které v minulých bězích selhaly (událost se bez nich nepublikuje)
+    if not config.MOCK:
+        attempted = {ev["id"] for ev in touched}
+        missing = [e for e in state["events"]
+                   if not e.get("what") and e.get("articles")
+                   and e["id"] not in attempted][:20]
+        if missing:
+            log.info("Doplňuji %d chybějících souhrnů z minulých běhů", len(missing))
+        for ev in missing:
+            try:
+                summarize_event(ev)
+                ev["importance_label"] = config.importance_label(ev.get("importance", 0))
+                ev["multi_source"] = len({a["source"] for a in ev["articles"]}) >= 2
+            except Exception:
+                log.exception("Doplnění souhrnu %s selhalo", ev["id"])
+
     # Jednorázový úklid duplicitních článků ve starších událostech
     if not state.get("article_dedup_v1"):
         for e in state["events"]:
