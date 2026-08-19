@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-18T20:46:54.015225+00:00",
+ "last_run": "2026-08-19T04:58:57.604647+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f9fc14d6db0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f192aca38c0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Search Engine Journal",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
@@ -322,8 +322,8 @@
   {
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
-   "status": "ok (Google News; přímý feed: chyba: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
-   "new": 8
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Simo Ahava",
@@ -1364,9 +1364,96 @@
   "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13bTg2bnpTeE5fbEUyZG5lUS1CYnB1aWZfR3dJM0libENTekg5NFhValNHWGxESzhsYWxkWDdoZWpZOHVTblcyMHVrZ3lvbGF5RllZYzVYMXlpd0pNZFJQdUZJcXRndw?oc=5": "2026-08-18T20:46:54.015225+00:00",
   "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTVTBoY25fU0JlanhEZ0xaTlA0T3d4ekZHamE2TFMyM3ZmZDhfVm4yakRvdE9iSlQ4ankydENwaEpLRDd4dVhfY3JoNFRac2tLQUQyQ3dEcjFmOE1nZnYxQg?oc=5": "2026-08-18T20:46:54.015225+00:00",
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVnpfQi1ON210V3BBTDZiMWpZRFU3QmhJcXdvUlpUMlB2Y0xVZmJNNkpZZUNGNktiY0NMakY1VFFDdWUtVVU5YlpKTnNVU1lTMDNwb2FFeDlTQ24yLXVMdlRzRi1EV0RNcFN4LVVHZzNxNUxwdFRmbE52ZzB3V05rdkhzSHBGUQ?oc=5": "2026-08-18T20:46:54.015225+00:00",
-  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHOFNHYlJWcUl2RkM0dlVxM2x3ZTRReWp4d1h5MlJWOExwamFjT0RXQVZLYlB4azNVUHVtMVpxZVVGTGQzQ0hfUzY4Q1I4UlR4SVhGTzhRWkcxMFhUQ1JlRHhVdw?oc=5": "2026-08-18T20:46:54.015225+00:00"
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHOFNHYlJWcUl2RkM0dlVxM2x3ZTRReWp4d1h5MlJWOExwamFjT0RXQVZLYlB4azNVUHVtMVpxZVVGTGQzQ0hfUzY4Q1I4UlR4SVhGTzhRWkcxMFhUQ1JlRHhVdw?oc=5": "2026-08-18T20:46:54.015225+00:00",
+  "https://www.lupa.cz/clanky/kdyz-vmware-prestane-byt-jistotou-jak-cloud-provider-vybira-novou-iaas-platformu": "2026-08-19T04:58:57.604647+00:00",
+  "https://cc.cz/jedna-filozofka-druha-od-pocitacu-rozdilne-sestry-se-poznaly-az-diky-vlastni-kavarne-v-nuslich": "2026-08-19T04:58:57.604647+00:00",
+  "https://cc.cz/odjel-na-tchaj-wan-a-otevrel-tam-ceskou-hospodu-laka-na-gulas-ferdinanda-ale-i-becherovku-s-mlekem": "2026-08-19T04:58:57.604647+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/enhanced-matching-customer-match": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.mediar.cz/galerie-reklamy/je-dobre-mit-svuj-limit-sazkovka-allwyn-apeluje-na-zodpovedne-hrani": "2026-08-19T04:58:57.604647+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE41WU5EX0N1X2lKWlhXdDc3VU9IS1JDVUozcndtNDdPd25Jc2JrVkJuQXFYbDZYYlJqQnRiTGhwM1o2dEUxVTlXT2QtTHZ3N3BmY3BqdTRZS3l6Q2Y5WEtSRnRqeWpwM3dGZlJla3NjdmtwRHl2X0t3dg?oc=5": "2026-08-19T04:58:57.604647+00:00",
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGQ05CSk5SYUs4Z2oxSG9POVdLTmdFMnN5U0pGeW5OaUw1dUtBUnhOTmhEZzhBeVVObXBpMGdkdHNURE14NS1aVXlIUHE0YmFLQVU0LXhn?oc=5": "2026-08-19T04:58:57.604647+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54M0NsVV9ERVhzSkNVUEFDMFJNWUh4OUlTLXZNaHB1cld3YjhYWGhXRjRHT0NEeWwtQ0IzbUJkY0drWVBBX2Q0enJYWWxvb1dJX2pnSWQ5SllXUQ?oc=5": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.socialmediatoday.com/news/x-offers-175k-for-grok-generated-versions-of-the-odyssey/828219": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.socialmediatoday.com/news/reddit-tests-ai-powered-conversations/828217": "2026-08-19T04:58:57.604647+00:00",
+  "https://www.socialmediatoday.com/news/meta-faces-unprecedented-legal-battle/828215": "2026-08-19T04:58:57.604647+00:00"
  },
  "events": [
+  {
+   "id": "da24c5fdc0",
+   "created": "2026-08-19T04:10:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/enhanced-matching-customer-match",
+     "title": "Enhanced Matching for Customer Match",
+     "summary": "Google Ads appears to be rolling out a new Enhanced matching option for Customer Match under Account settings. When enabled, the setting can expand audience reach using connected user lists . According to the description in the interface, Google will match consented users with consented users from publishers where available. The option sits alongside existing Customer Match settings for Smart Bidding, Optimised Targeting, and conversion based customer lists. This update was noticed by Joey Bidner . The post Enhanced Matching for Customer Match appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T04:10:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads testuje Enhanced Matching pro Customer Match seznamy",
+   "updated": "2026-08-19T04:58:57.604647+00:00",
+   "what": "V nastavení účtů Google Ads se začíná objevovat nová volba Enhanced Matching pro Customer Match. Pokud je zapnutá, může rozšířit dosah publika propojením seznamů uživatelů, kteří udělili souhlas, s odpovídajícími uživateli na straně vydavatelů (publishers).",
+   "why": "Jde o potenciální rozšíření možností cílení přes zákaznická data (e-maily, telefony) – dosah kampaní s Customer Match listy by mohl být větší bez nutnosti měnit vstupní data. Pro české inzerenty, kteří pracují s CRM daty a řeší consent podle GDPR, může jít o další nástroj k využití first-party dat.",
+   "takeaway": "Sledujte nastavení účtu Google Ads – pokud se Enhanced Matching objeví i u vás, otestujte dopad na dosah a výkon kampaní s Customer Match. Ujistěte se, že máte v pořádku souhlasy uživatelů (GDPR) pro využití dat v reklamě.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/da24c5fdc0.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "e8ea54edd1",
+   "created": "2026-08-18T23:05:41+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218",
+     "title": "YouTube rolls out improvements for Connected TV",
+     "summary": "The company added multiple new features, including the ability to turn creator playlists into shows so viewers can stream videos episodically.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-18T23:05:41+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 48,
+   "title": "YouTube vylepšuje zážitek pro sledování na TV – playlisty jako seriály",
+   "updated": "2026-08-19T04:58:57.604647+00:00",
+   "what": "YouTube představil nové funkce pro Connected TV (chytré televize), včetně možnosti převést playlisty tvůrců na formát seriálů, které mohou diváci sledovat epizodně.",
+   "why": "Sledování YouTube na televizích roste a tato změna mění způsob, jakým uživatelé konzumují obsah. Pro marketéry to znamená nové možnosti formátování a organizace video obsahu na YouTube.",
+   "takeaway": "Pokud vaše firma tvoří video obsah na YouTube, zvažte organizaci videí do tematických playlistů – uživatelé je nyní mohou sledovat jako TV seriály, což může zvýšit dobu sledování a počet zhlédnutí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "6bb82f42b0",
+   "created": "2026-08-18T20:06:07+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-faces-unprecedented-legal-battle/828215",
+     "title": "Meta faces unprecedented legal battle",
+     "summary": "The company is looking at more than $1 trillion in penalties if the coalition of 29 state attorneys general win their latest case.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-18T20:06:07+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Meta čelí žalobě amerických států, hrozí pokuta přes bilion dolarů",
+   "updated": "2026-08-19T04:58:57.604647+00:00",
+   "what": "Koalice 29 generálních prokurátorů amerických států žaluje Meta za údajné škodlivé praktiky vůči mladistvým uživatelům. V případě prohry by firmě hrozily pokuty přesahující 1 bilion dolarů.",
+   "why": "Jde o bezprecedentní právní spor, který může zásadně ovlivnit budoucí fungování Mety a její produkty (Facebook, Instagram). Případné změny v politikách platformy nebo omezení cílení na mladé uživatele by mohly dopadnout i na inzerenty v ČR používající Meta Ads.",
+   "takeaway": "Sledujte vývoj případu – radikální změny v pravidlech Meta platformy by mohly ovlivnit cílení kampaní a dostupnost některých formátů. Prozatím není třeba měnit nastavení, ale připravte se na možné budoucí úpravy reklamních politik.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "25921c9b48",
    "created": "2026-08-18T19:00:48+00:00",
