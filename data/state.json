@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-19T10:59:01.648632+00:00",
+ "last_run": "2026-08-19T11:38:24.818271+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7ff5b01a41d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fa98515fb30>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
@@ -82,26 +82,26 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "APEK",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -178,8 +178,8 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7ff5b01b2840>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -299,12 +299,12 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
    "new": 0
   },
   {
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
    "new": 0
   },
   {
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -1406,9 +1406,73 @@
   "https://cc.cz/neuverite-ze-to-neni-mlady-sylvester-stallone-pustte-si-trailer-filmu-o-vzniku-kultovniho-rockyho": "2026-08-19T10:59:01.648632+00:00",
   "https://www.mediaguru.cz/radiozurnal-zustava-na-cele-v-dennim-poslechu-roste-frekvence-1-i-digitalni-stanice": "2026-08-19T10:59:01.648632+00:00",
   "https://www.semrush.com/blog/content-marketing-strategy-guide": "2026-08-19T10:59:01.648632+00:00",
-  "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral": "2026-08-19T10:59:01.648632+00:00"
+  "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.mediaguru.cz/canal-sport-predstavil-novinky-anglickou-premier-league-nabidne-v-originale": "2026-08-19T11:38:24.818271+00:00",
+  "https://www.lupa.cz/aktuality/datove-schranky-pristi-tyden-zmeni-webovou-adresu-dejte-si-pozor-na-hesla": "2026-08-19T11:38:24.818271+00:00",
+  "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups": "2026-08-19T11:38:24.818271+00:00",
+  "https://www.mediaguru.cz/openai-zacne-zobrazovat-reklamu-v-chatgpt-take-v-kontinentalni-evrope": "2026-08-19T11:38:24.818271+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15S2VUQ2h4R2pYSWhKeUQ4TWdZMXJJZzFUM3B2R0NoVHhvRkFsaDVwV3lyem84WWxySXFMSVJOaXRSM2dDRzRxUXBXQWZoLWQtRFhDMGUzVE8zdw?oc=5": "2026-08-19T11:38:24.818271+00:00"
  },
  "events": [
+  {
+   "id": "3d661a9174",
+   "created": "2026-08-10T22:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1puSm1laUFYbUNNUlFoX25HVTNwRWFHWFo5dXpmWjdLcE5vUjIxVHFqbk80eEY3TTlLOWQwZEhMQnFwMWVKd3VGZUIxZDQ2V0FhbG4teWVSeDJDVkxjQlFjMHVoWWNGdUVBSzkxUkdVWlkzcDZUQXlQaVYxdngxNHJ3dzZvTURMVmZoMUVWVDc1UQ?oc=5",
+     "title": "Study: ChatGPT ads appear on 26% of commercial prompts",
+     "summary": "Study: ChatGPT ads appear on 26% of commercial prompts &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T22:21:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.mediaguru.cz/openai-zacne-zobrazovat-reklamu-v-chatgpt-take-v-kontinentalni-evrope",
+     "title": "OpenAI začne zobrazovat reklamu v ChatGPT také v kontinentální Evropě",
+     "summary": "OpenAI začne příští týden ve svém chatovacím systému ChatGPT zobrazovat reklamu rovněž v kontinentální Evropě. Zavedení reklamy by se mělo týkat i českého trhu.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-19T11:00:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "ChatGPT spouští reklamy v Evropě včetně ČR, zobrazují se u čtvrtiny dotazů",
+   "updated": "2026-08-19T11:38:24.818271+00:00",
+   "what": "OpenAI od příštího týdne začne zobrazovat reklamy v ChatGPT také v kontinentální Evropě včetně České republiky. Podle studie se reklamy objevují u přibližně 26 % komerčních dotazů.",
+   "why": "ChatGPT se stává placeným reklamním kanálem dostupným i pro české zadavatele. Jde o novou příležitost oslovit uživatele v momentě, kdy aktivně hledají produkty nebo služby – mimo tradiční vyhledávače jako Google či Seznam.",
+   "takeaway": "Sledujte, jak OpenAI otevře možnost zadávat reklamy v ČR a za jakých podmínek (formáty, cílení, ceník). Pokud vaše cílová skupina používá ChatGPT k hledání informací, připravte se na testování nového kanálu. U 26 % komerčních dotazů půjdete do přímé konkurence s reklamou.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/3d661a9174.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "d465ede499",
+   "created": "2026-08-19T11:00:22+00:00",
+   "articles": [
+    {
+     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
+     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
+     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-19T11:00:22+00:00",
+     "score": 49
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 25,
+   "title": "Meta spouští akcelerátor Meta Startup School pro značky využívající platformu",
+   "updated": "2026-08-19T11:38:24.818271+00:00",
+   "what": "Meta spustila Meta Startup School – tříměsíční program pro early-stage spotřebitelské značky. První kohorta zahrnuje 200 startupů, které získají přístup k podpoře venture capital firem a odborníků z oboru.",
+   "why": "Jde o oborové zákulisí – iniciativu zaměřenou na edukaci a rozvoj startupů, nikoliv o změnu produktu, funkcí nebo pravidel Meta platforem, která by měla přímý dopad na práci marketingových manažerů.",
+   "takeaway": "Pro běžnou práci marketingového manažera v ČR nemá přímý dopad. Pokud řídíte marketing early-stage značky s potenciálem růstu a zájem o akcelerační program, můžete sledovat podmínky účasti v dalších kohortách.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
   {
    "id": "5e7e9ec73c",
    "created": "2026-08-14T11:26:06.848601+00:00",
@@ -5000,30 +5064,6 @@
    "multi_source": false,
    "image": "img/82930098ab.jpg",
    "image_from": "socialmediatoday.com"
-  },
-  {
-   "id": "3d661a9174",
-   "created": "2026-08-10T22:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1puSm1laUFYbUNNUlFoX25HVTNwRWFHWFo5dXpmWjdLcE5vUjIxVHFqbk80eEY3TTlLOWQwZEhMQnFwMWVKd3VGZUIxZDQ2V0FhbG4teWVSeDJDVkxjQlFjMHVoWWNGdUVBSzkxUkdVWlkzcDZUQXlQaVYxdngxNHJ3dzZvTURMVmZoMUVWVDc1UQ?oc=5",
-     "title": "Study: ChatGPT ads appear on 26% of commercial prompts",
-     "summary": "Study: ChatGPT ads appear on 26% of commercial prompts &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T22:21:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "ChatGPT zobrazuje reklamy u čtvrtiny komerčních dotazů",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Podle studie se reklamy v ChatGPT zobrazují u 26 % komerčních promptů. Jde o první měření míry zobrazování reklam v AI chatbotech.",
-   "why": "ChatGPT se stává novým reklamním kanálem. Pro marketéry to znamená potenciální novou platformu pro oslovení uživatelů, ale také konkurenci tradičním vyhledávačům v komerčních dotazech.",
-   "takeaway": "Sledujte vývoj reklamních možností v ChatGPT a dalších AI nástrojích – může jít o příležitost k testování nového kanálu. Zatím jde o zahraniční data bez přímého dopadu na ČR.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "3e8ee373ba",
