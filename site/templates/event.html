@@ -14,7 +14,7 @@
     {% if e.image_from %}<figcaption>Náhledový obrázek: {{ e.image_from }}</figcaption>{% endif %}
   </figure>
   {% else %}
-  <div class="event-image hero-placeholder cat-bg-{{ e.category }}"><span>{{ cat(e.category).icon }}</span></div>
+  <div class="event-image hero-placeholder cat-bg-{{ e.category }}"><span class="msym" aria-hidden="true">{{ cat(e.category).msym }}</span></div>
   {% endif %}
 
   <section class="detail-block">

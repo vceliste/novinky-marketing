@@ -26,7 +26,7 @@ karta – co se stalo, proč je to důležité, co z toho plyne – s odkazy na 
 
 <h2>Sledované zdroje</h2>
 {% for c in categories %}
-<h3>{{ c.icon }} {{ c.name }}</h3>
+<h3><span class="msym" aria-hidden="true">{{ c.msym }}</span> {{ c.name }}</h3>
 <p class="sources-line">
 {% for s in sources if s.category == c.key %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
 </p>

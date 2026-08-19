@@ -1,6 +1,6 @@
 {% macro meta_chips(e) %}
   <div class="card-meta">
-    <a class="chip chip-cat" href="/kategorie/{{ e.category }}.html">{{ cat(e.category).icon }} {{ cat(e.category).name }}</a>
+    <a class="chip chip-cat" href="/kategorie/{{ e.category }}.html"><span class="msym" aria-hidden="true">{{ cat(e.category).msym }}</span> {{ cat(e.category).name }}</a>
     <span class="chip chip-imp imp-{{ e.importance_label | replace(' ', '-') }}">{{ e.importance_label }}</span>
     {% if e.multi_source %}
       <span class="chip chip-verified" title="Událost potvrzuje více nezávislých zdrojů">✓ více zdrojů</span>
@@ -37,7 +37,7 @@
     {% if e.image_url %}
       <img src="{{ e.image_url }}" alt="" loading="lazy">
     {% else %}
-      <div class="hero-placeholder cat-bg-{{ e.category }}"><span>{{ cat(e.category).icon }}</span></div>
+      <div class="hero-placeholder cat-bg-{{ e.category }}"><span class="msym" aria-hidden="true">{{ cat(e.category).msym }}</span></div>
     {% endif %}
   </div>
   <div class="hero-body">
@@ -51,7 +51,7 @@
 {% endmacro %}
 
 {% macro event_row(e) %}
-<a class="event-row" href="/udalost/{{ e.id }}.html">
+<a class="event-row" href="/udalost/{{ e.id }}.html" title="{{ e.importance_label }}">
   <span class="row-imp imp-{{ e.importance_label | replace(' ', '-') }}"></span>
   <span class="row-title">{{ e.title }}</span>
   <span class="row-date">{{ e.day[8:] }}. {{ e.day[5:7] | int }}.</span>

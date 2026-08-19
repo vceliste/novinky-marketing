@@ -126,7 +126,8 @@ def build() -> None:
     )
     env.globals.update(
         categories=categories,
-        cat=lambda key: cat_by_key.get(key, {"name": key, "icon": "📰", "key": key}),
+        cat=lambda key: cat_by_key.get(key, {"name": key, "icon": "📰",
+                                             "msym": "article", "key": key}),
         site_name="Novinky z marketingu od Včeliště",
         last_run=local(state["last_run"]).strftime("%d. %m. %Y %H:%M") if state.get("last_run") else "—",
         year=now.year,

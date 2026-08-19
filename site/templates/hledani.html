@@ -18,7 +18,7 @@ const qEl = document.getElementById('q');
 fetch('/search-index.json').then(r => r.json()).then(d => {
   INDEX = d.map(e => ({...e, _t: norm(e.t), _x: norm(e.x)}));
   if (qEl.value) render(qEl.value);
-});
+}).catch(() => {});
 
 function render(query) {
   if (!INDEX) return;

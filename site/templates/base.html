@@ -5,22 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}Přehled{% endblock %} · {{ site_name }}</title>
 <meta name="description" content="{% block description %}Kurátorovaný přehled novinek z online marketingu pro české marketéry. Události místo článků – co se stalo, proč je to důležité a co z toho plyne.{% endblock %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0" rel="stylesheet">
 <link rel="stylesheet" href="/static/style.css">
-<link rel="alternate" type="application/rss+xml" title="Marketing Radar" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/feed.xml">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap header-top">
-    <a class="brand" href="/">🐝 <strong>Novinky&nbsp;z&nbsp;marketingu</strong> <span class="brand-sub">od Včeliště</span></a>
+    <a class="brand" href="/">
+      <img class="brand-logo" src="/static/logo-vceliste.png" alt="Včeliště">
+      <span class="brand-text"><strong>Novinky&nbsp;z&nbsp;marketingu</strong> <span class="brand-sub">od Včeliště</span></span>
+    </a>
     <div class="header-links">
-      <a href="/hledani.html" class="search-link" title="Vyhledávání">🔍 Hledat</a>
+      <a href="/hledani.html" class="search-link" title="Vyhledávání"><span class="msym" aria-hidden="true">search</span> Hledat</a>
       <a href="/o-projektu.html">O projektu</a>
     </div>
   </div>
   <nav class="cat-nav">
     <div class="wrap cat-nav-inner">
       {% for c in categories %}
-      <a href="/kategorie/{{ c.key }}.html" {% if active_cat == c.key %}class="active"{% endif %}>{{ c.icon }} {{ c.name }}</a>
+      <a href="/kategorie/{{ c.key }}.html" {% if active_cat == c.key %}class="active"{% endif %}><span class="msym" aria-hidden="true">{{ c.msym }}</span> {{ c.name }}</a>
       {% endfor %}
     </div>
   </nav>
