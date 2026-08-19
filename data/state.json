@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-19T08:21:05.884905+00:00",
+ "last_run": "2026-08-19T09:06:20.275332+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f0180ec9a30>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fabe88e0290>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -183,7 +183,7 @@
   },
   {
    "name": "PPC Newsfeed",
-   "feed": "https://www.ppcnewsfeed.com/rss",
+   "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
    "new": 0
   },
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fabe88e23c0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -405,7 +405,7 @@
   "Marketing Brew": "https://www.morningbrew.com/marketing/feed.xml",
   "Backlinko": "https://backlinko.com/feed/",
   "Hana Kobzová": "https://hanakobzova.cz/feed/",
-  "PPC Newsfeed": "https://www.ppcnewsfeed.com/rss"
+  "PPC Newsfeed": "https://ppcnewsfeed.com/feed/"
  },
  "seen": {
   "https://www.measurelab.co.uk/insights/podcast/assimilated-by-anthropic-what-we-lost-when-the-harness-died": "2026-08-14T09:18:56.681311+00:00",
@@ -1390,7 +1390,11 @@
   "https://www.mediaguru.cz/pripady-mimoradne-marty-potvrzuji-v-uternim-veceru-vedeni": "2026-08-19T08:21:05.884905+00:00",
   "https://blog.seznam.cz/2026/08/asr-beyond-wer-proc-samotna-chybovost-slov-nestaci-a-jak-ji-prekonat": "2026-08-19T08:21:05.884905+00:00",
   "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vOXhva3NURFFlWWNuVDBld0xLZWtVWEQwRUNfZGZyc2lNajIxbXkycHZzbWZEdlpOQjk0OFU5dnBLR3dHcldZa2V5anAzT3FoRWZSZGlkZWlUTnZleDg3c3dMRTF4cllKWVZZVWNNcHhfdkQ3Nkx4Vg?oc=5": "2026-08-19T08:21:05.884905+00:00",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5acUxOSmFVMUV6UkJac196X0I4WFJzZkdvZ2RrZm0tdDdQUFVUaGhvQkR0YVloMUVNMkVZM0lfWHYxZEQ0eVRMUzlwa3czUkluVF90bGUzUEtrV0RrcmxaNEgyLWN5aGlseGYyNmszLXpBUlVGaW9lcg?oc=5": "2026-08-19T08:21:05.884905+00:00"
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5acUxOSmFVMUV6UkJac196X0I4WFJzZkdvZ2RrZm0tdDdQUFVUaGhvQkR0YVloMUVNMkVZM0lfWHYxZEQ0eVRMUzlwa3czUkluVF90bGUzUEtrV0RrcmxaNEgyLWN5aGlseGYyNmszLXpBUlVGaW9lcg?oc=5": "2026-08-19T08:21:05.884905+00:00",
+  "https://www.lupa.cz/aktuality/cesi-nakupovali-v-nemecku-budou-tam-stavet-optiku-a-modernizovat-internet-vliv-cr-na-zapade-roste": "2026-08-19T09:06:20.275332+00:00",
+  "https://www.mediar.cz/nejposlouchanejsi-zustava-radiozurnal-evropa-2-se-drzi-pred-impulsem": "2026-08-19T09:06:20.275332+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kZmZJb1NrUllZSlJyZU96Vkt6SWs3dGs3MzR6Q0FxazRMR2ViZmd3bWZKSlRLcW14MTlPODVGdnptOFVBVjdkSHM4dWVVU2F5dGk0Ym5UZGZOeTh6aGhIc1ZvSXlnM1NvN2Q0TXNiWEJJdW1nSGpTcQ?oc=5": "2026-08-19T09:06:20.275332+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DU05sTlNnQzZDU0ZqT0xjWjlvelFXMDk0Z25UT2lRekFiSnRVRzFaTDhHVTBkaW5JcGUwRTNlZlh1UG1VYUxvYzNvLWZwbTM5elYzMlplajVNZ1Z5dFkyeElEMklRVGVVODZMY25mcUFRZFJiby02VQ?oc=5": "2026-08-19T09:06:20.275332+00:00"
  },
  "events": [
   {
