@@ -1,23 +1,23 @@
 {
- "last_run": "2026-08-19T07:13:38.352274+00:00",
+ "last_run": "2026-08-19T08:21:05.884905+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc3859f3c50>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f0180ec9a30>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Heureka blog",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -1385,7 +1385,12 @@
   "https://www.mediaguru.cz/oneplay-umistila-prima-sport-na-atraktivnejsi-pozici-pad-kanal1-sport": "2026-08-19T07:13:38.352274+00:00",
   "https://www.mediaguru.cz/skolni-pomucky-letos-rodice-vyjdou-draz-s-nakupem-zacali-driv-nez-loni": "2026-08-19T07:13:38.352274+00:00",
   "https://www.mediar.cz/kristyna-ryska-a-krystof-hadek-jako-kriminaliste-prima-nataci-serial-stvury": "2026-08-19T07:13:38.352274+00:00",
-  "https://www.socialmediatoday.com/news/x-offers-up-to-200k-for-grok-generated-version-of-the-odyssey/828219": "2026-08-19T07:13:38.352274+00:00"
+  "https://www.socialmediatoday.com/news/x-offers-up-to-200k-for-grok-generated-version-of-the-odyssey/828219": "2026-08-19T07:13:38.352274+00:00",
+  "https://blog.seznam.cz/2026/08/jedno-prihlaseni-vice-moznosti-propojte-prihlaseni-pres-seznam-se-seznam-diskuzemi": "2026-08-19T08:21:05.884905+00:00",
+  "https://www.mediaguru.cz/pripady-mimoradne-marty-potvrzuji-v-uternim-veceru-vedeni": "2026-08-19T08:21:05.884905+00:00",
+  "https://blog.seznam.cz/2026/08/asr-beyond-wer-proc-samotna-chybovost-slov-nestaci-a-jak-ji-prekonat": "2026-08-19T08:21:05.884905+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vOXhva3NURFFlWWNuVDBld0xLZWtVWEQwRUNfZGZyc2lNajIxbXkycHZzbWZEdlpOQjk0OFU5dnBLR3dHcldZa2V5anAzT3FoRWZSZGlkZWlUTnZleDg3c3dMRTF4cllKWVZZVWNNcHhfdkQ3Nkx4Vg?oc=5": "2026-08-19T08:21:05.884905+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5acUxOSmFVMUV6UkJac196X0I4WFJzZkdvZ2RrZm0tdDdQUFVUaGhvQkR0YVloMUVNMkVZM0lfWHYxZEQ0eVRMUzlwa3czUkluVF90bGUzUEtrV0RrcmxaNEgyLWN5aGlseGYyNmszLXpBUlVGaW9lcg?oc=5": "2026-08-19T08:21:05.884905+00:00"
  },
  "events": [
   {
@@ -7115,12 +7120,17 @@
      "score": 57
     }
    ],
-   "category": "ai",
-   "importance": 57,
-   "title": "LinkedIn Is Policing AI Slop, So Time to Reset",
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "LinkedIn zavádí hlášení AI \"slop\" obsahu",
    "updated": "2026-08-14T09:38:29.556736+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "importance_label": "důležité",
+   "multi_source": false,
+   "what": "LinkedIn přidal novou možnost pro uživatele – tlačítko \"Seems like AI slop\", kterým mohou označit nekvalitní obsah generovaný umělou inteligencí.",
+   "why": "Platforma aktivně bojuje proti záplavě generického AI obsahu, což ovlivní viditelnost příspěvků vytvořených pomocí AI. Firmy publikující nekvalitní AI obsah mohou očekávat nižší dosah na LinkedInu.",
+   "takeaway": "Pokud vaše firma používá AI pro tvorbu LinkedIn obsahu, zkontrolujte kvalitu a autenticitu příspěvků. Čistě generický AI obsah bude pravděpodobně penalizován algoritmem, investujte do lidské editace a personalizace.",
+   "image": "img/20618846e5.jpg",
+   "image_from": "marketingaiinstitute.com"
   },
   {
    "id": "4d6488f9f5",
