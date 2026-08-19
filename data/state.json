@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-19T16:58:27.680763+00:00",
+ "last_run": "2026-08-19T19:00:39.648159+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,24 +35,24 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f96d62c9df0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f0935564170>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -179,7 +179,7 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f96d62b3fb0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -215,7 +215,7 @@
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Ecomail blog",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
@@ -1461,9 +1461,37 @@
   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JRXlYZDBkdUtYS1dBNGRTMFd4YXQ5TGxiZVd4YXZLdXFtcnQ4eUV2NTFZVVRDaEJ6Q0tFMHlua2g1T3c0c0o2TTl6NlZwcVlDXzg0VThZb0plZw?oc=5": "2026-08-19T16:58:27.680763+00:00",
   "https://www.searchenginejournal.com/inmotion-hosting-launches-tiered-agency-partner-program-spn/586195": "2026-08-19T16:58:27.680763+00:00",
   "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZLXZzc19DQ2I2eFZMX2VSS0NJTmtESkV6ajdQbzRwTTdpekYwVXB1ODUyQTE1ZlpUaGJhc1B2UmRrU3NZMFF1ZkppUUlRenBXVmc?oc=5": "2026-08-19T16:58:27.680763+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmR3bVg1OUtvWnFwYzAyRWNBU0diSE1vaHRmVnVtYUVVZHBCTU81WnBRMV9FSDJGeGk5MF9UcTB0alRhb3NSTmNiMGQxelN1eGhjRlRxOVh4d3lYZjEyYWN6ZXVGZTJRSnZUVXJTeEVvZG9GTlB0VjlORUR2NFJsSlFmU0JLcTZ1Q1NpZ3FoTEtVYmkwNk9qSjhB?oc=5": "2026-08-19T16:58:27.680763+00:00"
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmR3bVg1OUtvWnFwYzAyRWNBU0diSE1vaHRmVnVtYUVVZHBCTU81WnBRMV9FSDJGeGk5MF9UcTB0alRhb3NSTmNiMGQxelN1eGhjRlRxOVh4d3lYZjEyYWN6ZXVGZTJRSnZUVXJTeEVvZG9GTlB0VjlORUR2NFJsSlFmU0JLcTZ1Q1NpZ3FoTEtVYmkwNk9qSjhB?oc=5": "2026-08-19T16:58:27.680763+00:00",
+  "https://www.mediaguru.cz/ceske-radiokomunikace-zadaji-o-licence-vsech-kanalu-televizni-skupiny-barrandov": "2026-08-19T19:00:39.648159+00:00",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4ZHFURUJBUG95Z1FjbjVCVEQ5NXh2dkpaSWRVMFhvS0FmRDRIUUFWYlR3MnJfc0RXMUNrZE9IZ0g0X0ZXU0NDRXJ1T2ZMNW5INVg4?oc=5": "2026-08-19T19:00:39.648159+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUdvMjZld3NmLUFYejVjT1VOenY5WUJ6cS1vbjRiNXdYT3ZjRUdLQzBGSDNjV3dEVFVFeVhwTVJ5aTVFU0UtV0dMMExyMXV6TnVQWEdvTkMyQTRzeFRNNHVxU2ZITmhxbVlmSlVRZDRNakdkZ3RhU1VtZlBsTHFfd1o1MVEwSXNqN0VrOUJMdU1sWm1EdXhrUkFDbnJpSHNwdTM3eDV3MnNjaGZsQXN0azRZSGYtZw?oc=5": "2026-08-19T19:00:39.648159+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTDYxc2tHeDlqRmdfNDRweEQydUZET3lqZ21YWVJGbTJyVjlXVW5vOWIzVlZTODZGV3BrMFVNVGRkQVpuNVdYSFVENG5nQWJLbFhlODlZclJoZUszRzNEZ1NwdDNYVVRtaWNqTWpoRnA0QUktVVhKa1VvZTB4MlpKMFozMVBtVGRtTTg5enRXNTlocVBScGowWVJVRF9fUUtJLVVBNXhKaFlMR3NFT2Zoa2drTjRUQl9HNUpwTHhwXzE?oc=5": "2026-08-19T19:00:39.648159+00:00"
  },
  "events": [
+  {
+   "id": "aac0d695f4",
+   "created": "2026-08-19T12:00:48+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUdvMjZld3NmLUFYejVjT1VOenY5WUJ6cS1vbjRiNXdYT3ZjRUdLQzBGSDNjV3dEVFVFeVhwTVJ5aTVFU0UtV0dMMExyMXV6TnVQWEdvTkMyQTRzeFRNNHVxU2ZITmhxbVlmSlVRZDRNakdkZ3RhU1VtZlBsTHFfd1o1MVEwSXNqN0VrOUJMdU1sWm1EdXhrUkFDbnJpSHNwdTM3eDV3MnNjaGZsQXN0azRZSGYtZw?oc=5",
+     "title": "Cloudflare mění pravidla pro AI boty: Co se stane od 15. září 2026",
+     "summary": "Cloudflare mění pravidla pro AI boty: Co se stane od 15. září 2026 &nbsp;&nbsp; Collabim",
+     "source": "Collabim blog",
+     "domain": "collabim.cz",
+     "published": "2026-08-19T12:00:48+00:00",
+     "score": 45
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Cloudflare mění pravidla pro AI boty od 15. září 2026",
+   "updated": "2026-08-19T19:00:39.648159+00:00",
+   "what": "Cloudflare ohlásil změnu pravidel pro AI boty s účinností od 15. září 2026. Konkrétní detaily změny nejsou ve zdroji specifikovány.",
+   "why": "Cloudflare je široce používaná CDN a bezpečnostní platforma, která ovlivňuje dostupnost obsahu pro crawlery. Změna pravidel může ovlivnit, jak AI boty budou přistupovat k webům chráněným Cloudflare, což může mít dopad na indexaci a zpracování obsahu.",
+   "takeaway": "Sledujte komunikaci Cloudflare o detailech této změny. Pokud vaše weby využívají Cloudflare, připravte se na případné úpravy nastavení týkající se AI botů, aby byl obsah správně dostupný nebo naopak chráněný podle vaší strategie.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "4501914db5",
    "created": "2026-08-19T15:02:30+00:00",
