@@ -128,7 +128,7 @@ def build() -> None:
         categories=categories,
         cat=lambda key: cat_by_key.get(key, {"name": key, "icon": "📰",
                                              "msym": "article", "key": key}),
-        site_name="Novinky z marketingu od Včeliště",
+        site_name="Marketingové novinky od Včeliště",
         last_run=local(state["last_run"]).strftime("%d. %m. %Y %H:%M") if state.get("last_run") else "—",
         year=now.year,
     )
@@ -196,7 +196,7 @@ def build() -> None:
                 _x((e.get("what") or "") + " " + (e.get("takeaway") or ""))))
     (out / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-        "<title>Novinky z marketingu od Včeliště</title><link>https://novinky.vceliste.cz</link>"
+        "<title>Marketingové novinky od Včeliště</title><link>https://novinky.vceliste.cz</link>"
         "<description>Novinky z online marketingu bez šumu</description>"
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 
