@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-19T15:00:16.974952+00:00",
+ "last_run": "2026-08-19T16:58:27.680763+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f87b5c960f0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f96d62c9df0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 5
+   "new": 3
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -179,13 +179,13 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,14 +196,14 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f96d62b3fb0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Microsoft Advertising blog",
@@ -215,7 +215,7 @@
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Ecomail blog",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -262,8 +262,8 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "chyba: empty feed (HTTP 404, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Síť v malíčku",
@@ -377,13 +377,13 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing Brew",
@@ -1447,9 +1447,110 @@
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzZJQWxOVGpNc0ZvRFNhYXBuUWlPb3NpUUVLaWxvdXRPaHVWcGNKX192UkdldnFMS3U1ZkpFUXpwTFFBOWQxMXRNcEV2MWRjRUFyYWpZSXRFRTJPbThpNnlPT200dWs2TXRRRVB4LVYtSGZEYVBIZHJ6TlJzNFY3OXkyV1pRZw?oc=5": "2026-08-19T15:00:16.974952+00:00",
   "https://www.seroundtable.com/chatgpt-ads-europe-41902.html": "2026-08-19T15:00:16.974952+00:00",
   "https://business.google.com/us/think/search-and-video/decode-search-intent-ai-search": "2026-08-19T15:00:16.974952+00:00",
-  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Yb05HWWFRTWxoT3RHR1VGRi1KS3o4b2VVUE5GM3J0bVNmOFZFSWhFc2lVUDd3YUtuWU1XRFg3TEctckJIMXNpWkZWa21OUTdvNWxDZG1sTnBlYUQ4Q2tr?oc=5": "2026-08-19T15:00:16.974952+00:00"
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Yb05HWWFRTWxoT3RHR1VGRi1KS3o4b2VVUE5GM3J0bVNmOFZFSWhFc2lVUDd3YUtuWU1XRFg3TEctckJIMXNpWkZWa21OUTdvNWxDZG1sTnBlYUQ4Q2tr?oc=5": "2026-08-19T15:00:16.974952+00:00",
+  "https://blog.hootsuite.com/social-media-sentiment-analysis-tools": "2026-08-19T16:58:27.680763+00:00",
+  "https://www.mediaguru.cz/ceske-radiokomunikace-chteji-prevzit-licenci-kanalu-kino-barrandov": "2026-08-19T16:58:27.680763+00:00",
+  "https://blog.hootsuite.com/enterprise-social-media": "2026-08-19T16:58:27.680763+00:00",
+  "https://cc.cz/jestli-chcete-novy-androidi-telefon-poridte-si-tenhle-ale-spoustu-lidi-spickovy-google-pixel-nepotesi": "2026-08-19T16:58:27.680763+00:00",
+  "https://www.lupa.cz/aktuality/radiozurnal-zustal-denni-jednickou-nejvetsi-tydenni-dosah-ma-impuls": "2026-08-19T16:58:27.680763+00:00",
+  "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai": "2026-08-19T16:58:27.680763+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS25weVNubmsxUk5vUkJyTGw4S290U2I3LXlfdE1xZ1hKckpNWnltSHZGU3VoMDMtdzd6VVRLczlTdnM3NkNQWmxIYnpSOW9HamRsN3BaZHpzaWNMNzJPNUxqb2lxb1ktVlZNZVdaamY4Rm5sSVJZbFBxZmFmZG1oSTU4VUN6dWxuYi1zbDFEN2VIUFU?oc=5": "2026-08-19T16:58:27.680763+00:00",
+  "https://ppchero.com/everything-you-need-to-know-about-hero-conf-us-2026": "2026-08-19T16:58:27.680763+00:00",
+  "https://ppchero.com/we-tested-ads-in-chatgpt": "2026-08-19T16:58:27.680763+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmVmZWxOV0pJU0s4Q3RvdVdwc0hGRGRvNkFjVGFZVnZVYzAxZ3lFWkJIdTZyWVQtdUx2RWdWTXp5enI3UU52bnZkaUdNZXlUblNPN0ZwWEhyckZKaDEzQk53dDl2SXBNM1JRV3pIb2NOLWJxR0pwUFFwT00xQkd3RERaWC0?oc=5": "2026-08-19T16:58:27.680763+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JRXlYZDBkdUtYS1dBNGRTMFd4YXQ5TGxiZVd4YXZLdXFtcnQ4eUV2NTFZVVRDaEJ6Q0tFMHlua2g1T3c0c0o2TTl6NlZwcVlDXzg0VThZb0plZw?oc=5": "2026-08-19T16:58:27.680763+00:00",
+  "https://www.searchenginejournal.com/inmotion-hosting-launches-tiered-agency-partner-program-spn/586195": "2026-08-19T16:58:27.680763+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZLXZzc19DQ2I2eFZMX2VSS0NJTmtESkV6ajdQbzRwTTdpekYwVXB1ODUyQTE1ZlpUaGJhc1B2UmRrU3NZMFF1ZkppUUlRenBXVmc?oc=5": "2026-08-19T16:58:27.680763+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmR3bVg1OUtvWnFwYzAyRWNBU0diSE1vaHRmVnVtYUVVZHBCTU81WnBRMV9FSDJGeGk5MF9UcTB0alRhb3NSTmNiMGQxelN1eGhjRlRxOVh4d3lYZjEyYWN6ZXVGZTJRSnZUVXJTeEVvZG9GTlB0VjlORUR2NFJsSlFmU0JLcTZ1Q1NpZ3FoTEtVYmkwNk9qSjhB?oc=5": "2026-08-19T16:58:27.680763+00:00"
  },
  "events": [
+  {
+   "id": "4501914db5",
+   "created": "2026-08-19T15:02:30+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai",
+     "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
+     "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Roz&#353;íření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít pří&#353;tí týden.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-19T15:21:16+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ppchero.com/we-tested-ads-in-chatgpt",
+     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
+     "summary": "ChatGPT advertising is live: blunt targeting, opaque pricing, thin measurement. Here's what our testing found about formats and cost before you spend a dollar. &lt;p&gt;The post We Tested Ads in ChatGPT: Here&#8217;s What the Channel Actually Does first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-19T15:02:30+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Reklamy v ChatGPT se příští týden spustí v Evropě včetně ČR",
+   "updated": "2026-08-19T16:58:27.680763+00:00",
+   "what": "OpenAI příští týden rozšíří zobrazování reklam v ChatGPT do 31 evropských zemí, tedy i do ČR. Reklamy běží v USA už půl roku. Podle prvních testů ze strany inzerentů jde o hrubé targetování, nejasné ceny a slabé možnosti měření výkonu.",
+   "why": "Pro marketingové manažery v ČR to znamená nový reklamní kanál s potenciálním dosahem mezi uživateli ChatGPT, ale s nejistými parametry návratnosti a měření. Zatím nejsou známy ani detaily ceníku, ani možnosti reportingu.",
+   "takeaway": "Počkejte si na první zkušenosti z trhu, než začnete testovat rozpočet. Sledujte, zda OpenAI zveřejní podmínky a ceny pro EU/ČR a jaké případové studie se objeví – teprve pak zvažte pilotní kampaň.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/4501914db5.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "cf8a15aad7",
+   "created": "2026-08-19T15:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS25weVNubmsxUk5vUkJyTGw4S290U2I3LXlfdE1xZ1hKckpNWnltSHZGU3VoMDMtdzd6VVRLczlTdnM3NkNQWmxIYnpSOW9HamRsN3BaZHpzaWNMNzJPNUxqb2lxb1ktVlZNZVdaamY4Rm5sSVJZbFBxZmFmZG1oSTU4VUN6dWxuYi1zbDFEN2VIUFU?oc=5",
+     "title": "Google Ads tests Enhanced Matching for Customer Match",
+     "summary": "Google Ads tests Enhanced Matching for Customer Match &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T15:21:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads testuje Enhanced Matching pro Customer Match",
+   "updated": "2026-08-19T16:58:27.680763+00:00",
+   "what": "Google Ads testuje novou funkci Enhanced Matching pro Customer Match, která má zlepšit párování zákaznických dat s uživateli v reklamní síti.",
+   "why": "Customer Match je důležitý nástroj pro targetování zákazníků na základě vlastních databází (e-maily, telefony). Vylepšené párování by mohlo zvýšit dosah kampaní a efektivitu remarketing kampaní.",
+   "takeaway": "Pokud používáte Customer Match audiencí v Google Ads, sledujte, zda se vám funkce zpřístupní a jak ovlivní dosah vašich kampaní. Připravte se na možné úpravy strategie při větším pokrytí.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/cf8a15aad7.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "73f63ff615",
+   "created": "2026-08-19T15:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmVmZWxOV0pJU0s4Q3RvdVdwc0hGRGRvNkFjVGFZVnZVYzAxZ3lFWkJIdTZyWVQtdUx2RWdWTXp5enI3UU52bnZkaUdNZXlUblNPN0ZwWEhyckZKaDEzQk53dDl2SXBNM1JRV3pIb2NOLWJxR0pwUFFwT00xQkd3RERaWC0?oc=5",
+     "title": "JavaScript links can make your pages invisible to AI search",
+     "summary": "JavaScript links can make your pages invisible to AI search &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T15:00:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "JavaScript linky mohou skrýt stránky před AI vyhledávači",
+   "updated": "2026-08-19T16:58:27.680763+00:00",
+   "what": "Podle Search Engine Land mohou odkazy implementované čistě v JavaScriptu způsobit, že AI vyhledávače (jako ChatGPT Search, Perplexity nebo Gemini) nenajdou a nezaindexují části webu. Na rozdíl od tradičních vyhledávačů, které JavaScript umí zpracovat, některé AI crawlery mají s dynamickými odkazy problém.",
+   "why": "Pokud web spoléhá na JavaScript navigaci, může být v AI vyhledávání neviditelný – což znamená ztrátu návštěvnosti z rychle rostoucího kanálu AI-asistovaného vyhledávání. Pro české firmy je to důležité hlavně u webů postavených na moderních JS frameworcích (React, Vue, Next.js).",
+   "takeaway": "Zkontrolujte, zda hlavní navigace a důležité interní odkazy na webu fungují i bez JavaScriptu (nebo jsou implementovány jako klasické HTML <a> tagy). Testujte dostupnost klíčových stránek pomocí nástrojů pro crawlery nebo vypnutím JS v prohlížeči. Zvažte server-side rendering nebo hybridní přístup, pokud chcete být viditelní v AI vyhledávání.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/73f63ff615.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "abba01bc98",
    "created": "2026-08-07T16:16:00+00:00",
@@ -1765,13 +1866,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads Bidding Option For Customer Retention Loyalty Program Members",
+   "importance": 55,
+   "title": "Google Ads umožňuje navyšovat nabídky pro členy věrnostních programů",
    "updated": "2026-08-19T13:21:47.410412+00:00",
-   "importance_label": "důležité",
+   "importance_label": "stojí za pozornost",
    "multi_source": false,
    "image": "img/5719e99b2e.jpg",
-   "image_from": "seroundtable.com"
+   "image_from": "seroundtable.com",
+   "what": "Google Ads spustil novou možnost targetování \"Loyalty program members\" v rámci customer retention. Umožňuje (a) navýšit nabídky pro členy věrnostních programů a (b) zobrazit jim speciální výhody v podporovaných zemích.",
+   "why": "Pokud máte věrnostní program, můžete teď přes PPC kampaně cílit specificky na stávající členy s odlišnou strategií a nabídkami než na nové zákazníky. To umožňuje efektivnější alokaci rozpočtu mezi retenci a akvizici.",
+   "takeaway": "Pokud provozujete věrnostní program, ověřte v Google Ads, zda je tato funkce dostupná pro ČR a otestujte segmentaci kampaní s odlišnými nabídkami pro členy programu. Může to zlepšit ROI z retention marketingu."
   },
   {
    "id": "d9cfc91be3",
