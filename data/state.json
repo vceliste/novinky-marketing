@@ -1,23 +1,23 @@
 {
- "last_run": "2026-08-19T07:13:38.352274+00:00",
+ "last_run": "2026-08-19T10:59:01.648632+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 3
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc3859f3c50>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7ff5b01a41d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -82,26 +82,26 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
    "name": "APEK",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "chyba: empty feed (HTTP 403, text/html)",
    "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
    "new": 0
   },
   {
    "name": "PPC Newsfeed",
-   "feed": "https://www.ppcnewsfeed.com/rss",
+   "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7ff5b01b2840>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "status": "chyba: empty feed (HTTP 500, text/html)",
    "new": 0
   },
   {
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Copyblogger",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -405,7 +405,7 @@
   "Marketing Brew": "https://www.morningbrew.com/marketing/feed.xml",
   "Backlinko": "https://backlinko.com/feed/",
   "Hana Kobzová": "https://hanakobzova.cz/feed/",
-  "PPC Newsfeed": "https://www.ppcnewsfeed.com/rss"
+  "PPC Newsfeed": "https://ppcnewsfeed.com/feed/"
  },
  "seen": {
   "https://www.measurelab.co.uk/insights/podcast/assimilated-by-anthropic-what-we-lost-when-the-harness-died": "2026-08-14T09:18:56.681311+00:00",
@@ -1385,9 +1385,146 @@
   "https://www.mediaguru.cz/oneplay-umistila-prima-sport-na-atraktivnejsi-pozici-pad-kanal1-sport": "2026-08-19T07:13:38.352274+00:00",
   "https://www.mediaguru.cz/skolni-pomucky-letos-rodice-vyjdou-draz-s-nakupem-zacali-driv-nez-loni": "2026-08-19T07:13:38.352274+00:00",
   "https://www.mediar.cz/kristyna-ryska-a-krystof-hadek-jako-kriminaliste-prima-nataci-serial-stvury": "2026-08-19T07:13:38.352274+00:00",
-  "https://www.socialmediatoday.com/news/x-offers-up-to-200k-for-grok-generated-version-of-the-odyssey/828219": "2026-08-19T07:13:38.352274+00:00"
+  "https://www.socialmediatoday.com/news/x-offers-up-to-200k-for-grok-generated-version-of-the-odyssey/828219": "2026-08-19T07:13:38.352274+00:00",
+  "https://blog.seznam.cz/2026/08/jedno-prihlaseni-vice-moznosti-propojte-prihlaseni-pres-seznam-se-seznam-diskuzemi": "2026-08-19T08:21:05.884905+00:00",
+  "https://www.mediaguru.cz/pripady-mimoradne-marty-potvrzuji-v-uternim-veceru-vedeni": "2026-08-19T08:21:05.884905+00:00",
+  "https://blog.seznam.cz/2026/08/asr-beyond-wer-proc-samotna-chybovost-slov-nestaci-a-jak-ji-prekonat": "2026-08-19T08:21:05.884905+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vOXhva3NURFFlWWNuVDBld0xLZWtVWEQwRUNfZGZyc2lNajIxbXkycHZzbWZEdlpOQjk0OFU5dnBLR3dHcldZa2V5anAzT3FoRWZSZGlkZWlUTnZleDg3c3dMRTF4cllKWVZZVWNNcHhfdkQ3Nkx4Vg?oc=5": "2026-08-19T08:21:05.884905+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5acUxOSmFVMUV6UkJac196X0I4WFJzZkdvZ2RrZm0tdDdQUFVUaGhvQkR0YVloMUVNMkVZM0lfWHYxZEQ0eVRMUzlwa3czUkluVF90bGUzUEtrV0RrcmxaNEgyLWN5aGlseGYyNmszLXpBUlVGaW9lcg?oc=5": "2026-08-19T08:21:05.884905+00:00",
+  "https://www.lupa.cz/aktuality/cesi-nakupovali-v-nemecku-budou-tam-stavet-optiku-a-modernizovat-internet-vliv-cr-na-zapade-roste": "2026-08-19T09:06:20.275332+00:00",
+  "https://www.mediar.cz/nejposlouchanejsi-zustava-radiozurnal-evropa-2-se-drzi-pred-impulsem": "2026-08-19T09:06:20.275332+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kZmZJb1NrUllZSlJyZU96Vkt6SWs3dGs3MzR6Q0FxazRMR2ViZmd3bWZKSlRLcW14MTlPODVGdnptOFVBVjdkSHM4dWVVU2F5dGk0Ym5UZGZOeTh6aGhIc1ZvSXlnM1NvN2Q0TXNiWEJJdW1nSGpTcQ?oc=5": "2026-08-19T09:06:20.275332+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DU05sTlNnQzZDU0ZqT0xjWjlvelFXMDk0Z25UT2lRekFiSnRVRzFaTDhHVTBkaW5JcGUwRTNlZlh1UG1VYUxvYzNvLWZwbTM5elYzMlplajVNZ1Z5dFkyeElEMklRVGVVODZMY25mcUFRZFJiby02VQ?oc=5": "2026-08-19T09:06:20.275332+00:00",
+  "https://www.searchenginejournal.com/google-answers-why-spam-updates-need-to-happen/586382": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.mediaguru.cz/tesco-spusti-sluzbu-tesco-hned-nakupy-doruci-v-praze-do-40-minut": "2026-08-19T10:59:01.648632+00:00",
+  "https://cc.cz/ze-stredni-skoly-odesel-po-dvou-dnech-ted-je-nejmladsim-self-made-miliardarem-evropy-aniz-by-cokoli-prodal": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.mediaguru.cz/znacka-pasquale-bruni-si-pro-cesky-trh-vybrala-danielu-pestovou": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.searchenginejournal.com/google-answers-why-search-updates-arent-announced-right-away/586370": "2026-08-19T10:59:01.648632+00:00",
+  "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.marketingbrew.com/stories/poppi-founder-social-media-recruiting-strategy": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.marketingbrew.com/stories/openai-chatgpt-ads-31-new-international-markets-expansion": "2026-08-19T10:59:01.648632+00:00",
+  "https://cc.cz/neuverite-ze-to-neni-mlady-sylvester-stallone-pustte-si-trailer-filmu-o-vzniku-kultovniho-rockyho": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.mediaguru.cz/radiozurnal-zustava-na-cele-v-dennim-poslechu-roste-frekvence-1-i-digitalni-stanice": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.semrush.com/blog/content-marketing-strategy-guide": "2026-08-19T10:59:01.648632+00:00",
+  "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral": "2026-08-19T10:59:01.648632+00:00"
  },
  "events": [
+  {
+   "id": "5e7e9ec73c",
+   "created": "2026-08-14T11:26:06.848601+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnZJYndldGl2c0V1c3RuRUkwNTU4WlJpY1BoeVRjZ01LamVxUVhhbWFQUWZtYXpicy1UWGRIdzc4QjlvZDE2UVJDbW44SUFiaTk0ZVZjb2xJNVFHSG9tRS0xVlBwaGt2X2FrdEJrQUFzcVdSUTZlaFJDY0tlZmdWTkJhZHI3QzVsRHk3Y29nelBzUTV4Z3c?oc=5",
+     "title": "Microsoft Clarity AI Scrape-to-Referral insights report",
+     "summary": "Microsoft Clarity AI Scrape-to-Referral insights report &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-13T17:42:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral",
+     "title": "Microsoft Clarity adds an AI Scrape-to-Referral Ratio",
+     "summary": "Microsoft Clarity‘s AI Scrape-to-Referral Ratio compares what AI crawlers take from your site with what they send back.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-19T08:22:00+00:00",
+     "score": 60
+    }
+   ],
+   "category": "analytika",
+   "importance": 65,
+   "title": "Microsoft Clarity spustil měření AI Scrape-to-Referral poměru",
+   "updated": "2026-08-19T10:59:01.648632+00:00",
+   "what": "Microsoft Clarity představil novou funkci AI Scrape-to-Referral Ratio, která porovnává, kolik obsahu AI crawlery z webu odeberou oproti tomu, kolik návštěvnosti z AI nástrojů web získá zpět. Jde o metriku srovnávající aktivitu AI botů s referral návštěvností z AIplatforem.",
+   "why": "Pro marketingové manažery jde o první nástroj, který kvantifikuje vztah mezi poskytováním obsahu AI systémům a skutečným návratovým provozem. Umožňuje zhodnotit, zda web z AI crawlování skutečně profituje nebo jen poskytuje data bez návratnosti.",
+   "takeaway": "Pokud používáte Microsoft Clarity (je zdarma), zkontrolujte novou sekci AI insights a zjistěte, jaký je poměr mezi AI scrapingem a AI referral návštěvností vašeho webu. Na základě výsledků můžete zvážit úpravu robots.txt pro AI boty, pokud bilance vychází výrazně negativně.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/5e7e9ec73c.jpg",
+   "image_from": "news.google.com"
+  },
+  {
+   "id": "f679adc5fd",
+   "created": "2026-08-19T10:19:30+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-why-spam-updates-need-to-happen/586382",
+     "title": "Google Answers Why Spam Updates Need To Happen via @sejournal, @martinibuster",
+     "summary": "Why does Google have spam updates every once in a while? Google’s John Mueller answers that question and explains the reason why Google doesn’t just get rid of spam on a regular basis with existing algorithms. Spam Algorithms And Updates There are many kinds of search spam, and Google’s systems handle them with different algorithms. They have something called SpamBrain that’s an AI for figuring out what pages are spam. There are quality factors that weed out spammy sites, and there are link algorithms that can identify inauthentic link activities. Why Does Google Have Spam Updates? So why does",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T10:42:13+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-why-search-updates-arent-announced-right-away/586370",
+     "title": "Google Answers Why Search Updates Aren’t Announced Right Away via @sejournal, @martinibuster",
+     "summary": "Google's John Mueller explains why updates aren't announced earlier when rankings are already bouncing around. The post Google Answers Why Search Updates Aren&#8217;t Announced Right Away appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T10:19:30+00:00",
+     "score": 52
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Google vysvětluje, proč spam updaty neprobíhají průběžně",
+   "updated": "2026-08-19T10:59:01.648632+00:00",
+   "what": "John Mueller z Googlu vysvětlil, proč Google vydává spam updaty periodicky namísto průběžného potlačování spamu běžnými algoritmy. Google používá různé systémy proti spamu – AI nástroj SpamBrain, kvalitativní faktory a linkové algoritmy. Mueller také objasnil, proč Google neoznamuje updaty předem, když už rankings kolísají.",
+   "why": "Pro SEO specialisty a majitele webů je důležité chápat, že spam updaty jsou specifickým typem zásahu, který nelze řešit jen běžnými algoritmy. Vysvětlení pomáhá pochopit, proč dochází k periodickým výkyvům v pozicích a proč Google neinformuje dopředu.",
+   "takeaway": "Při sledování pozic webu počítejte s tím, že spam updaty budou přicházet periodicky a mohou způsobit výkyvy i u legitimních webů. Pokud zaznamenáte kolísání rankings, nemusí to znamenat okamžitou akci – Google často oficiálně potvrdí update až zpětně. Zaměřte se na dlouhodobou kvalitu a přirozené linky namísto reaktivních změn.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "2123473da4",
+   "created": "2026-08-19T10:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+     "title": "What's Next for Your Brand Website?",
+     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
+     "source": "Content Marketing Institute",
+     "domain": "contentmarketinginstitute.com",
+     "published": "2026-08-19T10:00:00+00:00",
+     "score": 55
+    }
+   ],
+   "category": "obsah",
+   "importance": 55,
+   "title": "Weby mají víc AI návštěvníků než lidí – jste na to připravení?",
+   "updated": "2026-08-19T10:59:01.648632+00:00",
+   "what": "Podle Content Marketing Institute mají weby firem nyní více návštěv od AI agentů (vyhledávací boty, AI asistenti) než od lidských uživatelů. Marketingoví lídři proto začínají přestavovat obsah, metriky i týmy tak, aby oslovovali obě skupiny.",
+   "why": "AI nástroje (ChatGPT, Perplexity, vyhledávače s AI) stále častěji zprostředkovávají obsah z webů místo toho, aby na ně uživatele posílaly. Pro marketéra to znamená nové požadavky na strukturu obsahu a nutnost přehodnotit, co vlastně měříme jako úspěch webu.",
+   "takeaway": "Zkontrolujte, jak je váš web strukturovaný pro strojové čtení (schema.org, FAQ, jasná struktura) a zda vaše analytika rozlišuje lidské a AI návštěvy. Připravte se na změnu metrik – tradiční pageviews a session duration mohou klesat, i když máte reálný dopad.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "018d9d4edd",
+   "created": "2026-08-19T09:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/radiozurnal-zustava-na-cele-v-dennim-poslechu-roste-frekvence-1-i-digitalni-stanice",
+     "title": "Radiožurnál zůstává na čele v denním poslechu, roste Frekvence 1 i digitální stanice",
+     "summary": "Radiožurnál je nadále nadále nejposlouchanější stanicí v denním poslechu. Nově se dostal na čelo i v podílu na poslechovosti. Nejvyšší týdenní poslechovost má Rádio Impuls. Ve skupině nadregionálních rádií drží prvenství Kiss a ve skupině regionálních stanic se do vedení dostalo Radio Čas Rock.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-19T09:05:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Radiožurnál vede denní poslechovost, Impuls týdenní",
+   "updated": "2026-08-19T10:59:01.648632+00:00",
+   "what": "Radiožurnál je nejposlouchanější stanicí v denním poslechu a nově vede i v podílu na poslechovosti. Nejvyšší týdenní poslechovost má Rádio Impuls. V nadregionálních rádiích dominuje Kiss, v regionálních Radio Čas Rock.",
+   "why": "Data o poslechovosti rádií pomáhají marketingovým manažerům lépe alokovat rozpočet na radiovou reklamu a vybrat relevantní stanice podle cílové skupiny a regionu.",
+   "takeaway": "Při plánování rozhlasových kampaní v ČR zohledněte aktuální poslechová data – Radiožurnál pro denní dosah, Impuls pro týdenní, Kiss pro nadregionální mladší publikum a Radio Čas Rock pro regionální targeting.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "2d39a3dcc3",
    "created": "2026-08-19T07:05:00+00:00",
@@ -6511,32 +6648,6 @@
    "image_from": "news.google.com"
   },
   {
-   "id": "5e7e9ec73c",
-   "created": "2026-08-14T11:26:06.848601+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnZJYndldGl2c0V1c3RuRUkwNTU4WlJpY1BoeVRjZ01LamVxUVhhbWFQUWZtYXpicy1UWGRIdzc4QjlvZDE2UVJDbW44SUFiaTk0ZVZjb2xJNVFHSG9tRS0xVlBwaGt2X2FrdEJrQUFzcVdSUTZlaFJDY0tlZmdWTkJhZHI3QzVsRHk3Y29nelBzUTV4Z3c?oc=5",
-     "title": "Microsoft Clarity AI Scrape-to-Referral insights report",
-     "summary": "Microsoft Clarity AI Scrape-to-Referral insights report &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-13T17:42:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "analytika",
-   "importance": 72,
-   "title": "Microsoft Clarity spustil AI report o vlivu AI scrapingu na návštěvnost",
-   "updated": "2026-08-14T11:26:06.848601+00:00",
-   "what": "Microsoft Clarity představil nový AI report nazvaný Scrape-to-Referral insights. Nástroj sleduje, jak AI crawlery a scrapery ovlivňují návštěvnost webů a jejich následné doporučování v AI chatbotech.",
-   "why": "S nástupem AI chatbotů (ChatGPT, Bing AI, Gemini) se mění způsob, jak uživatelé hledají informace. Weby potřebují rozumět, jak jejich obsah procházejí AI nástroje a zda to vede k reálné návštěvnosti.",
-   "takeaway": "České marketéry by mělo zajímat, jak AI indexuje jejich obsah a jestli z toho plynou návštěvy. Clarity nabízí data, která můžou pomoct optimalizovat web pro AI doporučování – novou formu organického dosahu.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/5e7e9ec73c.jpg",
-   "image_from": "news.google.com"
-  },
-  {
    "id": "62200887c6",
    "created": "2026-08-14T11:26:06.848601+00:00",
    "articles": [
@@ -7115,12 +7226,17 @@
      "score": 57
     }
    ],
-   "category": "ai",
-   "importance": 57,
-   "title": "LinkedIn Is Policing AI Slop, So Time to Reset",
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "LinkedIn zavádí hlášení AI \"slop\" obsahu",
    "updated": "2026-08-14T09:38:29.556736+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "importance_label": "důležité",
+   "multi_source": false,
+   "what": "LinkedIn přidal novou možnost pro uživatele – tlačítko \"Seems like AI slop\", kterým mohou označit nekvalitní obsah generovaný umělou inteligencí.",
+   "why": "Platforma aktivně bojuje proti záplavě generického AI obsahu, což ovlivní viditelnost příspěvků vytvořených pomocí AI. Firmy publikující nekvalitní AI obsah mohou očekávat nižší dosah na LinkedInu.",
+   "takeaway": "Pokud vaše firma používá AI pro tvorbu LinkedIn obsahu, zkontrolujte kvalitu a autenticitu příspěvků. Čistě generický AI obsah bude pravděpodobně penalizován algoritmem, investujte do lidské editace a personalizace.",
+   "image": "img/20618846e5.jpg",
+   "image_from": "marketingaiinstitute.com"
   },
   {
    "id": "4d6488f9f5",
