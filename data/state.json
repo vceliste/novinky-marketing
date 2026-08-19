@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-19T13:21:47.410412+00:00",
+ "last_run": "2026-08-19T15:00:16.974952+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -17,7 +17,7 @@
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f0985cba2d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f87b5c960f0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 5
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 6
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
@@ -131,7 +131,7 @@
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Yoast",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -196,14 +196,14 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f0985c33f50>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Microsoft Advertising blog",
@@ -226,14 +226,14 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Mailujeme",
    "feed": "https://mailujeme.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Litmus",
@@ -377,13 +377,13 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing Brew",
@@ -395,7 +395,7 @@
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   }
  ],
  "feed_overrides": {
@@ -1430,9 +1430,172 @@
   "https://www.seroundtable.com/google-business-profiles-revamped-qa-41896.html": "2026-08-19T13:21:47.410412+00:00",
   "https://backlinko.com/brand-mentions": "2026-08-19T13:21:47.410412+00:00",
   "https://www.seroundtable.com/google-trends-explore-maps-and-regional-breakdown-41899.html": "2026-08-19T13:21:47.410412+00:00",
-  "https://www.seroundtable.com/google-analytics-real-time-outage-41898.html": "2026-08-19T13:21:47.410412+00:00"
+  "https://www.seroundtable.com/google-analytics-real-time-outage-41898.html": "2026-08-19T13:21:47.410412+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-view-through-conversion-optimization-demand-gen": "2026-08-19T15:00:16.974952+00:00",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.lupa.cz/aktuality/pred-70-lety-vyjel-do-terenu-prvni-ostravsky-prenosovy-vuz": "2026-08-19T15:00:16.974952+00:00",
+  "https://cc.cz/cesti-investori-rozsiruji-svuj-telekomunikacni-byznys-za-stamiliony-kupuji-inzenyrskou-firmu-v-nemecku": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.searchenginejournal.com/clicks-are-down-42-linkedin-reach-down-47-but-youre-raging-at-the-wrong-target/585862": "2026-08-19T15:00:16.974952+00:00",
+  "https://martech.org/google-gives-political-email-a-lane-around-spam-filters": "2026-08-19T15:00:16.974952+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5": "2026-08-19T15:00:16.974952+00:00",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2ZWODhPa0VXTUtPMllOeWd3b3doM3VZT1JfLUN2bGpKWTluU0xZRS12YTNlR19OdF9XOEtkdGwxc1RzYTg4ZGZPRzVGcWZhV3pYQzRodzdMTXdpOTVJTVRDWDRCRXY2NXBSNmdMNTZtOUZGeHNVX2dRUVJqSkhMSVpB?oc=5": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.seroundtable.com/recap-08-19-2026-41900.html": "2026-08-19T15:00:16.974952+00:00",
+  "https://blog.google/products/ads-commerce/the-small-brief": "2026-08-19T15:00:16.974952+00:00",
+  "https://cc.cz/teenagerum-konci-snadna-cesta-k-hotovym-ukolum-novinka-od-chatgpt-pozna-podvadeni-a-posle-je-se-ucit": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.lupa.cz/aktuality/pavel-tykac-vyhral-letity-spor-kvuli-akciim-ceskeho-telecomu-telefonica-mu-zaplati-2-5-miliardy": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.lupa.cz/aktuality/cesky-t-mobile-diky-dotacim-dostal-mobilni-signal-5g-do-techto-zanedbanych-lokalit": "2026-08-19T15:00:16.974952+00:00",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzZJQWxOVGpNc0ZvRFNhYXBuUWlPb3NpUUVLaWxvdXRPaHVWcGNKX192UkdldnFMS3U1ZkpFUXpwTFFBOWQxMXRNcEV2MWRjRUFyYWpZSXRFRTJPbThpNnlPT200dWs2TXRRRVB4LVYtSGZEYVBIZHJ6TlJzNFY3OXkyV1pRZw?oc=5": "2026-08-19T15:00:16.974952+00:00",
+  "https://www.seroundtable.com/chatgpt-ads-europe-41902.html": "2026-08-19T15:00:16.974952+00:00",
+  "https://business.google.com/us/think/search-and-video/decode-search-intent-ai-search": "2026-08-19T15:00:16.974952+00:00",
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Yb05HWWFRTWxoT3RHR1VGRi1KS3o4b2VVUE5GM3J0bVNmOFZFSWhFc2lVUDd3YUtuWU1XRFg3TEctckJIMXNpWkZWa21OUTdvNWxDZG1sTnBlYUQ4Q2tr?oc=5": "2026-08-19T15:00:16.974952+00:00"
  },
  "events": [
+  {
+   "id": "abba01bc98",
+   "created": "2026-08-07T16:16:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUhGaTZ5MjlBQVJ5cjJXc0kzMkNITThwYy1sZGVXVXRmZzRnZENDTXdIUkR1bUl4LXBDZjNkOGdwSVVqSGR1VU9WaWRwZ3dmd0ROVXhvZWJzb2FEQWthOGhESG5Pa0VoZXBUSW1Yend5Ti05YTAxdHNFczRCaGhKdDMzTXZMeEMxQnFZck1nRy13WXhJU2w1VHhuX3JBNHRzdGc?oc=5",
+     "title": "Google Ads adds dedicated reporting for new customer acquisition",
+     "summary": "Google Ads adds dedicated reporting for new customer acquisition &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-07T16:16:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzZJQWxOVGpNc0ZvRFNhYXBuUWlPb3NpUUVLaWxvdXRPaHVWcGNKX192UkdldnFMS3U1ZkpFUXpwTFFBOWQxMXRNcEV2MWRjRUFyYWpZSXRFRTJPbThpNnlPT200dWs2TXRRRVB4LVYtSGZEYVBIZHJ6TlJzNFY3OXkyV1pRZw?oc=5",
+     "title": "Google Ads is finally building a stronger foundation for B2B lead gen",
+     "summary": "Google Ads is finally building a stronger foundation for B2B lead gen &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T13:00:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads spouští dedikované reporty pro získávání nových zákazníků",
+   "updated": "2026-08-19T15:00:16.974952+00:00",
+   "what": "Google Ads zavádí nové reportovací nástroje zaměřené specificky na měření akvizice nových zákazníků. Podle Search Engine Land jde o rozšíření možností reportování, které má posílit pozici platformy zejména v B2B segmentu a při měření leadů.",
+   "why": "Dosud bylo v Google Ads obtížnější sledovat a optimalizovat kampaně přímo na nové zákazníky versus stávající. Nové reporty umožní marketingovým manažerům lépe měřit efektivitu akvizičních kampaní a jejich ROI, což je klíčové pro rozhodování o alokaci rozpočtu mezi akvizici a retention.",
+   "takeaway": "Zkontrolujte, zda máte v Google Ads správně nastavené konverze rozlišující nové a vracející se zákazníky. Po zpřístupnění nových reportů v účtu vyhodnoťte, jakou část rozpočtu skutečně investujete do získávání nových zákazníků versus opakovaných prodejů, a zvažte případnou optimalizaci kampaní.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/abba01bc98.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "916debd5aa",
+   "created": "2026-08-19T14:57:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-view-through-conversion-optimization-demand-gen",
+     "title": "Google Expands View-Through Conversion Optimization for Demand Gen",
+     "summary": "Google is expanding View-Through Conversion (VTC) Optimization for Demand Gen campaigns , building on the feature first introduced in beta in 2025. Several changes are being introduced: VTC optimization will apply only to video assets. View-through conversions from image assets will still be reported as secondary conversions, but they won't be used for bidding or included in the main Conversions column. New Demand Gen campaigns will have VTC Optimization enabled by default. Advertisers who don't want to optimize toward view-through conversions will need to manually disable the setting. Support",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T14:57:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google rozšiřuje optimalizaci view-through konverzí v Demand Gen kampaních",
+   "updated": "2026-08-19T15:00:16.974952+00:00",
+   "what": "Google rozšiřuje optimalizaci view-through konverzí (VTC) pro Demand Gen kampaně. VTC optimalizace bude nově platit pouze pro video formáty, zatímco view-through konverze z obrázků zůstanou ve statistikách jako sekundární konverze, ale nebudou se používat pro bidding ani se nezobrazí v hlavním sloupci Konverze. Nové Demand Gen kampaně budou mít VTC optimalizaci zapnutou automaticky.",
+   "why": "Změna ovlivní nastavení a výkonnost Demand Gen kampaní v Google Ads. Inzerenti, kteří nechtějí optimalizovat podle view-through konverzí, budou muset nové nastavení manuálně vypnout. Změna může ovlivnit reportované konverze a strategii bidování.",
+   "takeaway": "Zkontrolujte nastavení stávajících i nových Demand Gen kampaní. Pokud nechcete optimalizovat podle view-through konverzí (konverzí po shlédnutí videa bez kliknutí), vypněte VTC optimalizaci ručně. Sledujte rozdíly mezi hlavními a sekundárními konverzemi v reportech.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/916debd5aa.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "ca7fa3de1d",
+   "created": "2026-08-19T14:47:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
+     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
+     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:47:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Citace Redditu v ChatGPT Search spadly během čtyř dnů o 86 %",
+   "updated": "2026-08-19T15:00:16.974952+00:00",
+   "what": "Počet citací obsahu z Redditu v odpovědích ChatGPT Search klesl během čtyř dnů o 86 %. Jde o zásadní pokles viditelnosti platformy Reddit ve výsledcích vyhledávání pomocí ChatGPT.",
+   "why": "Ukazuje na nestabilitu AI vyhledávání jako zdroje organické návštěvnosti. Pro firmy využívající Reddit jako marketingový kanál nebo zdroj zpětných odkazů to znamená riziko náhlého poklesu dosahu a viditelnosti bez varování.",
+   "takeaway": "Nespoléhejte se zatím na AI vyhledávače jako na stabilní zdroj návštěvnosti. Sledujte, jak se vyvíjí citace vašeho obsahu v ChatGPT a dalších AI nástrojích, ale hlavní investice směřujte do tradičních SEO kanálů a přímého oslovení zákazníků.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "5275ca38e2",
+   "created": "2026-08-19T14:30:55+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/clicks-are-down-42-linkedin-reach-down-47-but-youre-raging-at-the-wrong-target/585862",
+     "title": "Clicks Are Down 42%, LinkedIn Reach Down 47% But You’re Raging At The Wrong Target via @sejournal, @gregjarboe",
+     "summary": "LinkedIn reach and Google clicks are collapsing, but Tony Uphoff argues SEO pros are diagnosing structural disruption as decline, and prescribing the wrong fix. The post Clicks Are Down 42%, LinkedIn Reach Down 47% But You&#8217;re Raging At The Wrong Target appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T14:30:55+00:00",
+     "score": 52
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Pokles kliků z Google o 42 % a dosahu na LinkedIn o 47 % není jen dočasný propad",
+   "updated": "2026-08-19T15:00:16.974952+00:00",
+   "what": "Analytik Tony Uphoff upozorňuje, že SEO profesionálové zaznamenávají dramatický pokles – kliky z Google klesly o 42 %, dosah na LinkedIn o 47 %. Podle něj jde ale o strukturální změnu digitálního marketingu, ne o dočasný pokles.",
+   "why": "Marketingoví manažeři musí pochopit, že tradiční metriky (organické kliky, reach) se možná už nikdy nevrátí na původní hodnoty – jde o systémovou změnu způsobu, jak uživatelé hledají a konzumují obsah.",
+   "takeaway": "Nepočítejte s návratem starých výsledků. Přehodnoťte KPI a strategii – zaměřte se na přímou hodnotu obsahu místo pouhých kliků a dosahu. Zároveň sledujte, jak se mění chování vaší cílové skupiny při hledání informací.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/5275ca38e2.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "413654ed88",
+   "created": "2026-08-19T11:51:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5",
+     "title": "ChatGPT Ads are expanding to 31 European countries",
+     "summary": "ChatGPT Ads are expanding to 31 European countries &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:22:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
+     "title": "ChatGPT Ads Expanding To 31 European Countries",
+     "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-19T11:51:00+00:00",
+     "score": 63
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "ChatGPT Ads expandují do 31 evropských zemí včetně ČR",
+   "updated": "2026-08-19T15:00:16.974952+00:00",
+   "what": "OpenAI rozšiřuje své reklamní služby ChatGPT Ads do 31 evropských zemí. Mezi podporované trhy patří Německo, Francie, Španělsko, Itálie, Švédsko, Norsko, Dánsko, Nizozemsko a Rakousko.",
+   "why": "Pro české firmy a marketéry se otevírá nový reklamní kanál s potenciálním dosahem na uživatele ChatGPT v Evropě. Jde o alternativu k tradičním vyhledávacím a sociálním platformám, která může ovlivnit rozložení PPC rozpočtů.",
+   "takeaway": "Sledujte dostupnost ChatGPT Ads pro ČR a vyhodnoťte, zda vaše cílová skupina používá ChatGPT natolik, aby investice do testování dávala smysl. Připravte se na možné rozšíření reklamních kanálů v roce 2025.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/413654ed88.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "d8bbce0bc7",
    "created": "2026-08-07T13:29:27+00:00",
@@ -5510,32 +5673,6 @@
    "takeaway": "Pokud v Meta Ads potřebujete systematicky vylučovat určité skupiny (např. stávající zákazníky, neaktivní uživatele), ověřte si v Business Manageru, zda máte k dispozici tuto funkci a zda vám může zjednodušit strukturu cílení.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "abba01bc98",
-   "created": "2026-08-07T16:16:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUhGaTZ5MjlBQVJ5cjJXc0kzMkNITThwYy1sZGVXVXRmZzRnZENDTXdIUkR1bUl4LXBDZjNkOGdwSVVqSGR1VU9WaWRwZ3dmd0ROVXhvZWJzb2FEQWthOGhESG5Pa0VoZXBUSW1Yend5Ti05YTAxdHNFczRCaGhKdDMzTXZMeEMxQnFZck1nRy13WXhJU2w1VHhuX3JBNHRzdGc?oc=5",
-     "title": "Google Ads adds dedicated reporting for new customer acquisition",
-     "summary": "Google Ads adds dedicated reporting for new customer acquisition &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-07T16:16:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads spustil dedikované reporty pro získávání nových zákazníků",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Google Ads přidal novou samostatnou sekci reportování zaměřenou na získávání nových zákazníků. Jde o vyčleněné reporty, které mají inzerentům usnadnit sledování výkonnosti kampaní specificky pro nové vs. vracející se zákazníky.",
-   "why": "Dosud museli inzerenti data o nových zákaznících složitěji sestavovat nebo kombinovat s dalšími metrikami. Dedikované reporty umožní přímější vyhodnocení ROI z akvizičních kampaní a lepší optimalizaci rozpočtu na nové vs. retention strategie.",
-   "takeaway": "Zkontrolujte, zda máte v Google Ads správně nastavené sledování konverzí s rozlišením nových a vracejících se zákazníků (customer match, enhanced conversions). Nové reporty pak využijte k přesnějšímu vyhodnocení efektivity akvizičních kampaní a k alokaci rozpočtu mezi nové a stávající zákazníky.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/abba01bc98.jpg",
-   "image_from": "searchengineland.com"
   },
   {
    "id": "7c83077b04",
