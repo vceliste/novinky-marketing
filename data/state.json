@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-20T19:12:48.623299+00:00",
+ "last_run": "2026-08-20T20:57:50.079010+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fe4fbc96690>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fba96cfcfe0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -190,13 +190,13 @@
   {
    "name": "Hana Kobzová",
    "feed": "https://hanakobzova.cz/feed/",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fe4fbcbbbf0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fba96cab5c0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -257,7 +257,7 @@
    "name": "GetResponse blog",
    "feed": "https://www.getresponse.com/blog/feed",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "ActiveCampaign blog",
@@ -371,7 +371,7 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "MarTech",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -1619,7 +1619,10 @@
   "https://www.getresponse.com/blog/small-business-marketing-automation-software": "2026-08-20T19:12:48.623299+00:00",
   "https://www.searchenginejournal.com/ask-an-seo-how-do-i-identify-cannibalization-problems-consolidate-without-loss-of-visibility/553881": "2026-08-20T19:12:48.623299+00:00",
   "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Hbnd4SGp4VXhGSDdObjJaT1pHZm0yNHh0Nzh0c3dzNTZPQ0VIOUYxbWZzWDVTclBpT3FSSXpqMnRtMnBvQnpsWFE1NVp5U1FQY3pJRDE3ZVhWekJfLWx4Mm1WV3lGS1VYbXI0OXdCYXE?oc=5": "2026-08-20T19:12:48.623299+00:00",
-  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RYTNVRktwcGxoaHhHU21jZ0dMRXZXdTIwSnpBeHRVZXpJWTFDX05OMGpoSDVwZWZtUWJCenpDanFYUDg0QTFZbU50Ykw0cHlwdkZtU1lpNXBVUzNKdUxMcUluSVV5bHNvTGtIb2Q5TQ?oc=5": "2026-08-20T19:12:48.623299+00:00"
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RYTNVRktwcGxoaHhHU21jZ0dMRXZXdTIwSnpBeHRVZXpJWTFDX05OMGpoSDVwZWZtUWJCenpDanFYUDg0QTFZbU50Ykw0cHlwdkZtU1lpNXBVUzNKdUxMcUluSVV5bHNvTGtIb2Q5TQ?oc=5": "2026-08-20T19:12:48.623299+00:00",
+  "https://blog.hubspot.com/marketing/aeo-audit-tools": "2026-08-20T20:57:50.079010+00:00",
+  "https://blog.hubspot.com/marketing/crm-rfp": "2026-08-20T20:57:50.079010+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUxnSm9vU2pMRmRMUnlXLUxMX1N4d2NfLUY4ckhPVVdLSXUydVFlUGRjM1VfRTBZZ2NEaW52dVExMFhka1p6MVBQMll4NmVjY2dYUXlCeWpKRVA1SGF1czU0Nmo5SmxZcEVRUWMxcDNYWktPejVzQUhUeGNsM0t2WUN5dmE4VGh1SS0wbnpUOGw2U0IzTE1LcmNOMUhRZUl6ZUtmdDlXclFUZ3dDQVlkRC15cTFNYVhwc2VvYUM3Z1E?oc=5": "2026-08-20T20:57:50.079010+00:00"
  },
  "events": [
   {
