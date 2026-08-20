@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-19T20:56:17.146554+00:00",
+ "last_run": "2026-08-20T05:00:40.906515+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f70ac9bebd0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f3aca0106b0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 7
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -131,7 +131,7 @@
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Yoast",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f70ac9d7ad0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Sprout Social",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -388,8 +388,8 @@
   {
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
-   "status": "ok",
-   "new": 1
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "new": 46
   },
   {
    "name": "Marketing AI Institute",
@@ -1474,9 +1474,245 @@
   "https://contentmarketinginstitute.com/awards/pace-communications-agency-of-the-year": "2026-08-19T20:56:17.146554+00:00",
   "https://contentmarketinginstitute.com/awards/action-plan-making-retirement-active-poy": "2026-08-19T20:56:17.146554+00:00",
   "https://contentmarketinginstitute.com/awards/zari-venhaus-2026-content-marketer-of-the-year": "2026-08-19T20:56:17.146554+00:00",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yQjJwS2JkQlNDSGZhUWpzeC1pbUVrZ1lhQ1luaGtXelFMQkZJSURQaWw1aUNYdHE4eTZwNXRUcXhSeGxzLVhzTGVZcFZLd2FyOTBRSGFFZEZVRllvSWlCSkJQZUpDdjJfQVFZSWZxRDdXZ2JaeFpZSg?oc=5": "2026-08-19T20:56:17.146554+00:00"
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yQjJwS2JkQlNDSGZhUWpzeC1pbUVrZ1lhQ1luaGtXelFMQkZJSURQaWw1aUNYdHE4eTZwNXRUcXhSeGxzLVhzTGVZcFZLd2FyOTBRSGFFZEZVRllvSWlCSkJQZUpDdjJfQVFZSWZxRDdXZ2JaeFpZSg?oc=5": "2026-08-19T20:56:17.146554+00:00",
+  "https://cc.cz/muze-existovat-vakcina-proti-rakovine-nejspis-ano-a-trhy-uz-poslaly-jednu-akcii-o-160-nahoru": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.lupa.cz/clanky/na-americke-smirovaci-zakony-a-cenove-agresivni-vmware-reaguje-i-o2-v-cesku-spousti-novy-cloud": "2026-08-20T05:00:40.906515+00:00",
+  "https://cc.cz/kvuli-aplikaci-na-neznama-cisla-vstaval-v-pet-rano-pak-dal-v-praci-vypoved-a-stavi-z-ni-velky-byznys": "2026-08-20T05:00:40.906515+00:00",
+  "https://cc.cz/za-deset-let-utrzili-miliardu-ceske-povleceni-ted-miri-do-evropy-nejhorsi-trend-slevy-jako-strategie-hlasi": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.lupa.cz/clanky/canal-sport-prida-k-premier-league-anglicky-komentar-a-chce-zkusit-virtualni-kouzlo": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UUmlGTmlTVGxScUFPU2lDMGFBdkt3ZGlPQlVId2pMR2pIeVZjTWR3Qy1maHE3Znk4THFvY2t0aFVxOFUxajBqVFRfaVlaODhqTHVVTzRfNkMxTnlUNnZMc1VEY0xsdlUtSEgwNk1EcGJQYnpuRkJHOQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/native-commerce-attribute-help-page-released": "2026-08-20T05:00:40.906515+00:00",
+  "https://backlinko.com/website-marketing": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/how-social-platforms-measure-video-views/828349": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/meta-highlights-rising-brand-opportunities-in-womens-sports/828348": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/meta-ai-launches-for-mac/828347": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZc0loSWNsOTFRRUxYNURsc1dRN1ZIOTd6OUxmc2oxcWRQeDlGZ29YME4wak5fMkVKUkJvME96WG5lcFdrX3BsazhiSGlKUlo2bnpjTmRPZlFQN1JzblN3NmNUWS1MWjR1TTA4UF9FU0pJYW9veFc1Qw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VbVVmX3A0NkJnUnRUc2JtVEVXUFd5WmVvM0QwU3hRU2JMcXlxRUxJRzZPbGg2eU5hU1VwUHBPRmFLYVNMZVFBUVRxMDhVeHRMMTVBczFTVTVLR2ZxRlZCeVdJa1RtLU5hYnZIdFpjelNaZklxTk5vVg?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZk5UMUxoSlVVVXpYSUF5a29DSWRUUE1YVDM4TmR5OE5EWFNqb1hRVF9BTWsxRGhkb1BWRHZHYlhPNmx4eU41ZERsemdvMmJCX2MzczdLTDNtcDhKRy13QUZOdVhuOENRekRrczZvcw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/meta-adds-ai-powered-assistant-for-smb-owners/828344": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUxvbDlSanRXUTBnTU03VUZnMXNlcklmOE1SZ3VBeENJdjlKSDVnaV84UDVmWHA4anpMTGJ3dWJOdWtJd2lUVUMtZFp0VHBEWmVrVVRDMjlaMDRPR3FWa3pUbGJPaWVUVnU3OG05ZEhaTDJpUlYxeVVMZ2hpdHBreUEzRWRiYUlXdUN0ZHJEZHdiT1U?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-adds-ai-powered-event-highlights/828343": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jdWdpUWpNY1RkaU9OMW5XQUFJSXBlOE1DaGZHNlp1eC1NWUJYcDIzUGMtUW9NN2MxTklJaGZjMlVLNWtqUk1Qcl9MQTJDM3hwMEw2TzJGakQzRjlYaEE?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FRlB5Nk1aSVozSmhhNUNwUkdYdVZJVENXTjFsRWRWTzhJR2Jwdl9lZ0E5QTJxTDVCUGtuRklyLWFYaEtuUVRHMXNIeTRkdE1tQlJNX3BRbkE2Qzc0MzJ4VzBwT1lFbjVZSWV1T1phZEx6REU?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE14T0tOR2VvcjhhOUI1ajJEYkpUN0FaSS12UHFZYXo5bUdONE53MFo4T0tCcTVKd0NQZ3VodURYWWVqdGlvSUphTVhPdVpCOFdtckNWd3djLWM2RWpDR2JMeHV1RkhkTjFiVnVKOUxUUkRDaTA?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMDZPSGVfa2gyRjNQdFBhRXlSZURNV25Tb2xhcFBPSW1WdGhqZHBfM05sbFkzeFRPYURXaGY2WE54a2FBRmhQZnNwcUdIR0FYc0lpWkttUEgtRzM4RlpUVkR2ekhudUtCUjg5anFpOWFja2RyYnNUZHpNM0xrZmVhOGFzTkp0XzdmWktxSw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS0xSUEQ2RVBlb1pGeC1mVVVMMVB6WTdhdWdTb3RaRWNjVDVfaEtXSjNITER0cWVLTFdwRUk1ZmpTOWQ1N2VUOXFLYl9xNm5GQldWV1dib0UxWDhGSF8tZ2xWaHNrY3d6ZF94SGFMMURqLXJFQTNvTTh6bWZRWlUwU1dpQWZGSXBHUE5pN3JKNGg0TnZyeUVCQ0N1bHhPM0NOVDlrWFBaLVd3Y3c2WU9hV3N0eWVZVHFVTDRaTlBRYW91MnFxb0RCZEUwYkw4UkVWX25PYlZqTzU?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxONVdCVG5XWjVqYnhtSldDbUdqQ0RMVnNkZGNVMHMzR1F4QWMtVGZ4VnhiYUhmb3RBNFBmcmprTS1LVXNUVXJvUGtqZUZPZE5XWlY0TUdRRGkzSWJWX1JMOFdXak5VckJXd3VsZk1KLWRtWDlMeEFOWkFqeE9TeXJOT1JlYlJJRkJJQjRibQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOak95UHhlbGQtb19IMFozM1JnOExRSFRpRVdtZ0U2bmgzTWxnUF81bkFKalNJdjVMNEd2UnFyRUp6N1VNZnhHVUFBV2dkWFRrRGdVNXZtWWhKQzE4dmprcTd2NGh1NWhQbEZzYWt6TklvVDhUT2EtakFIYXlUaTlxdTY1NFdNYWVmQ3hpaw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNS3dDOTlwRHA3OFNvSWVweDl1LXBQMENlMnRPWDV2Z3pzVmhVQTR0SHlVLXhqaEw5ZVBpWndnV2piV1FFYUE4aEE5aGxxWFFTU3laSnQ3SUFZcTk3Y3dFREI2cGdXOFFqa2lNd3BpOXJNc2M?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmc2tTeVYzQ1o1TzNjRUZCYzNUdi04U21uMWpldWVWa0NfajdmakhuVEdVc0hzTjI0aE9kZTlPUzV3MS1tWWlxaUxnQmV5XzlfbGcydFRycW9fLUFYZ1owTHVRY0VBNnFzVndSVzc1SXk0cEE?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NdjNiQjlmQkpPMldfU2xteXFMZjVYQ0tvaTBxR2dPa0ZvaHAzVjk3RnhNTjhPWS1sMWRSV2VrZzN3ajJpSjVsU2lZNUx6NG5IeHAtVUVUMGtLSF9Ub0ZMV2hWWVpUNE1jbUdoX3ZxX3VRYk0?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMzZlN2hhSW9uYmtMZDAwWEE5Tnl1NjdPRmlQek9oMHNDRkVCWUZyMTdlVXpQVTVvajFoVlBxQXpjMnctOWtwY2hOV08xMDVLdHJMOEswV1B6MHF5UFNUT2p3YVM0Q0VXOFRkWDhqaVNCVmduWnRDREVKWDIzODBlYzBvYjhhSEFZWlNXbUtUT21PSDJ3WlFBdlJhbnNTS3I1b0xYdWFIUmt5UDYtYnZ4NDhhbmQ3T1BQaDBic0JBcw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE41eExlZVlKOVd0SFdFVkxlWGFPdXhlVEhTb2FlWlRleUQ2Z2ppbXhWeVZTMEZRLUg0Vl9rTVFSNVhnZ3pXQnhZMWEtdnVlbzA1Qll6S0ZtdU5DMENZcUl5NXdTTEpxTWRBcVlvYmhxc3A2Z3c?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSWmVNUHN3T0ZpZ3VWR1FHWk1CSWVMWkQ3R2xwRWFkQkVpdXNJS3ZhRkhMQjBNV0ZkUW5BQ3BzUkJYYUJRaDFmSkhzZ1FFLXBTb2R6c1dPc3gxTHRqNG9DUXFlV2kxTmxobFFGNkpFM1VpZkE?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rU0gtRmVfbTBnaVVJQkVNdzZPcV9pR29lWW5FQ01ZNkhGWVdIMGJvckd0RnAzMzNnNTZ4Slp5djBndDdUX2JaWm91XzFkenJWUF9BTHhiTlRMUUROcXZsN2JidjdpMmh6VUx2SUkyeFc4S3M?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOHNhdmhqbGRfZTE5Uk1lTnFKQVFuRkpqUWpRbzkyVk1SM1EzZWp3Wm5RaWZtQXkxb3V0LUM4TS1qQU5EWjFFRzRLdExDSkoxWWtQbXhnbGNPS1BrSGoza2RQTkZTenNsNVNSZ1JfVGFZT01sTlozZ01SSXRjel9ZSGJONEh6TFdZMm9tMQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzExd280OXBvTDRXR2hxZ2lleGFkVHNBdDdkaFk0QkVLRVZQc19nalVMb0drN0NZNHhqM1FnZmRXem5GYTF3TDB3M3ROWlRuSU5xYnRxZi1tc1Jpc3RQdzF2NDQ3Zk9Eek5MQ09BZHg3N0FMZjJQdmVYWjJaZ0FZdzBpNWgxUTA2N2pxUQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkI3UGt2OVI1cXdBMUZhN0RqMng0bXNjNGtsVEthUEt6TURNbjdzZ2JqdVFYMG9KVlgtMzhLVUhSMHZ5QnpnM1VMVGd0TWlwYkYyZzR4dU01NTg1VXNPNGtacW9XVDdwbjdJaWV1U25tUnB4elFKaHloRXhMT0N2MHc2NWVsR2Zvek9zM0h6eUg1aW44bngxLXRHWkk?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUd2dy04RFU1eG1teEtfTnpzc09iMG9DSjdsM3JyY19LemZCMXYtTkY4TzdFSWpZQ2NGRTJ4bm9zcEQ0dFpBb09xLXJBVTljOEFIZWUyV0FlR1pVWDVhbjlYckRhTWFsbXpFTnhOYTNqbjNHeFJCNTlidnlaQ29HdllIVEl6dVpaZmcycVlZV3g2TWtBemYyR21OQ1gzXzl0WURzZDE5dmRMYnF2TWdxaHNR?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSk04WE8taVdYbVRSX1BHQ3NMcXB0eDRlaHl3NkE5T1VfOGJnRWJWaGI1enY2Y3B0dEpDREd5YUxZUWN2Y2Z2UkFfWkNtMHZwXzgwLUtfbDcyOUxpOVN2dUk3ajhVQ3ZsYmpWMHgydWVLd3NWa1RITm54bk9XbmlOQ19QNnU5YjNWSExSUA?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uRGJXM2U1YUgzcmNkMHRBcGNzdTJlOXFtYzdvTWRTMEZrODlUdWN5NzhRcjlGdmtSd09iaHNpWklwdmVJbnpZMk92Z2FkbnZLYk1UUWd5Ul9HcGM0dVM2SllPOHR5M2pTUG0yZ0JSZ2diaDA?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOWotVHJwbVNoMHJTVGRFN3J1NzgxNURneExaQ2dBRWx0a0I2eXJTN1Ywa2tiVk1UWkJUUVhsa2RxbDJlaDVNY0RRZzdYZXAzNzU1dUFlYmRkdGJ5R3R1SjdVTjZjMmFXZ1F4ZlVsbFl6VGJJc2hwOEp2bkxzazYzR2pKYjdMOXYwcHNFVA?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWndmWnNaQzM2bkVDQU1aRGotNHFaWmRJdDFKaklqc0lHOWhZblEyRi1PVnZVRXlibm9oTzNYZWpHUmtuQUh2UFBPQ2YzUFNRZXhINUd3NUdXcFRXTmJCcGVTWTZELW1mSnloRTZ2cW1iRldub1pYWWdtMDg1aHhCRUtiOFFhN2tqMVVEQQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHS0ZQLW91RUVGdDJRaG5PTFNCZ1ptOU5Qc2kyeWFuNzQ3alF5SlZsVVZTWlYxdmNMTnBaT2NOUU1kSWdmMU94WExZcVRtUE5FU2daVndTNXdabHdkRzZXMHljSzZFeGFCU296bDc1WDdhXzQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWMGhKNmQ2Y3Z0ckV0WnBXLUFzYUxtbDd3WGZKNkhBdUZWcGx5ZHgya1Fzeno5dm1tZzAzMm94NVhDdFYwTV8zNEJGT21XLVJETkRITVlyb3pKRGdjdWVTSVVReWJMQ3h0OExVQjlodEgtUHc?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE40Nk9yWnE3b0xzLTR6X3JFRWZud0pjVDhocndwWC1VQ3g3aXJWQWRFQTJra3pYdjBMTlBOYmdGYVhNNDVabmJnVDQ0Mm9QTkxEUXJsR05ORzZ0UThHTmg4bGtiUGgxcUtjWFh6X0h3N1gtVVE?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNjN3cTlWUlUwY0JrdnlHMXo4U0FLNENpZVlQTHZQcHNfRTRhYXd4U3JUSWNDRktuRHZUSE5vRXFrM1dBSnNacVdJdlRUOXQtcElFbGR0em1CNjJRZEpBcmRxUDdXUkEwUkhCRWNQdTNNRTF6a0dTaUlXVXpfQmJpMGJ3bmVVYkhtU3c4SzdEa0xGbDNPZ3l5eENGd1NOUE1hUExFa1JRTWc2WVUxWmQtRHBkSGotX2o0VjVxSGt3?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOWZ0WGZhSGZoeUJscmJZODdzUkZGR2hZNm1PTDlEZjByYTNXX2kxUFU5OTBfYk5fUGNLNTlkX0RuMnk0LXNxZlh6Z09XWVlyMDY3MmYwUTdsWU9ZalE1ODF3VE11WkQ2cnBNVFZKZDhJaVVTeHRNU2Myalcwd0s1eUVfbm9WS3pZYnBHZQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE1wd2dLallvRGx2SUVKZldYMkdLbEllNzBhanlhRDhBQjlUbDYwc1V6eUgteGM2SmxPQkFpbXpHOGhET2ctbndrSm5hOW9LUjdFRFVtS3U3dmI5cFZkVTVVVm16SDlXdkh4SlNtODkwcGJVUQ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2dnB2dEpiY3d3djdYUVZ5bngycFp1VGVSV3lQRmtfcHhuUXJrd282cXRxQ3ZhQ0JPZ29jbWxEblBnV1pqSnhHRFJjeC1Mb0FieVVVbTFCNjBXbGwwMW5NX3JRVzFLdkZuaG5ROUluU3pzc3c?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE96T1Y0ZkV6c182ZXVCOTQ5dnBaS0x3a2NhdXJVaDJKQ2NyV19KVVE2VkhDbWFuQVJYc0tTb1ZzMU5DQ21aS1lQSnN0cUZRMU8tc1lDUVhXQ1VXNkVJZThiMEZDbk1XZUtXMmE1Y0xBTHNsZFU?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwWldGbFlTUFpzby1KV2NDaDBvRkJEem9mZVJlanZGVVVJSkFzajZmUWxiUWstVnhlTkEyY0E3NjA5clZ4X1Z0eFBOVDQ3QThRVm9wRjdQR0xrQklwX2hqZlVfUThlU1BSanp6alVTUVVlZnM?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pMDdaX181UXZoalNqQkZQTVB3LVUxb01XQWhLWUQ5ejdMVnhSWGhlTUIzMlB1bUIzQWtpb2s4QXNXQVVTY0RkSllWcGVSMVNkemd1ZjdNMnNHeEZiY04tb09zRWJvSEVoQ0RWVTB0d0ZQMVU?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1anJzdlJkUFJzclJ6OG13TDVDbWtiWTRDSndDalNRVVhvTEthZjJLRmdZc3h0YVZ4THBnc1hfNE9wU3VEWG5CYjJ6OGdiUTFfR084Wk16S3R0RjQyQkkzRw?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeV9relIyeDFseXZkZDhFMlNPMU9tYW53dDZGeFhpUkVubHdJMjlBcVBIVlFXM21WYlBiSURRa2hhbm1pY29PS281djV1bXV2Wjk5aUxTSV84XzdEWjN4d2VDRkVQMktFY0c3cU8xQWFoVDhHWG9nVS1Sc20yYVRQMUpubW5CbFJvZlNZ?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUtmNXRZczRJRV8zTUhEc1ZrZFFWZHRmTFcySDNKcEhUUk9TT1ZwVHJLMHBKRE1zelZIa3Mzcmw5azJ3Y1FlV3BnRXFZZTVtSWlyM2VhZXhLUlVwM1NOb1RtSXhvbHpNTE90c2FFRXRKaGxKa3Vva01oSUVDME4yajhxU3hoWEhOTWJIZDdJMy01WFFzZjlzMUtLVGw1aTRBSE5sSmQzYVpEMTItbUlRX0VMcFBweWctdGRCYU9uM3o?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vYm41b1c2Nkl0V0pzbl9LdlBKaDRRa1NnUXloc2dPYWVuSkFhajNxejVSWVF1WEkyM3UzTThYbllfZjBqNVIwS1ppNmVLRC02cGFzTmdjV291OUprYXhEbDN0T2N4dXBvQU9MSld1NUhtUlk?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VQm5STGx5a0RjdnVyV2EzRE1MR2Y3WGNxREROYUFKUTB3UlJmU0YtY1hNVXg3TnNqb19zRk1jWlVuWmpmS1Rxdmw3ek84M1R6OVlYOHZDMTYxY0J4VVhYRFBfWmNmUEJTc3FraDVZcG9rWVk?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DUFBZc1FOYmg4SWhVb2RiNUV4ci1PR24yWXFwTFdEYW1XZHpDSklZa2l5ZWNmbFVZSnJuR2NuS3JHMWNEWmhndWEwVDFNWER5RlA2d3hEZWxycGV3UDNJRXFrX1d0NmtTQWdCVDJ2dVJCYkE?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaYWZUOHRJUm9tS0FpR19XR2dzdGxzbk5XZldPVjRQdVBnZ2RfS3ZtQlBBMjRybjdFc2lxbUtJMWc3TFM4dUp6UTdkX2gzVmxLdlRjRTNwdEotMWpOR1cxdzM4bHR0VUVjMEFVazJQWmZVR0U?oc=5": "2026-08-20T05:00:40.906515+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GQWl5b08xMzJwMnRYNW16NDJtcnZraDhVQTRweEp3LWdIZFBtdE9uSDJFNkVfc1FWMlRNalZlZFpTOFNGMkh0N0UzRXQ3cXIyR2s5WV94SzlVWlBaeWp4dVU5NkNQdEJDNTBTVlhvUnVPVnc?oc=5": "2026-08-20T05:00:40.906515+00:00"
  },
  "events": [
+  {
+   "id": "a9bb64f7b1",
+   "created": "2026-08-16T16:54:30.323444+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
+     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
+     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "news.google.com",
+     "published": "2026-08-14T13:14:12+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
+     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
+     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T22:03:26+00:00",
+     "score": 50
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Reddit zaznamenal propad citací v ChatGPT Search, příčina není jasná",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "Data z Promptwatch ukazují výrazný pokles citací Redditu v ChatGPT Search během března 2025. Zároveň se Reddit stává důležitějším průsečíkem klasického vyhledávání a sociálních médií, což ovlivňuje placenou reklamu.",
+   "why": "Reddit roste jako zdroj pro vyhledávání – uživatelé tam hledají autentické názory. Pokles citací v ChatGPT může signalizovat změny v tom, jak AI nástroje zpracovávají obsah ze sociálních sítí. Pro marketéry je Reddit důležitý kanál pro discovery i performance kampaně.",
+   "takeaway": "Sledujte, jak se vyvíjí pozice Redditu v AI vyhledávání a klasickém Google Search. Pokud cílíte na uživatele hledající autentické recenze nebo diskuze, zvažte testování Reddit Ads jako doplněk ke Google a Meta kampaním.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "c1eae1bf60",
+   "created": "2026-08-20T01:13:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/native-commerce-attribute-help-page-released",
+     "title": "Native Commerce Attribute Help Page Released",
+     "summary": "A new attribute called native commerce &nbsp; [native_commerce] has been introduced in Google Merchant Center , enabling eligible product listings to participate in the \"Buy Now\" flow&nbsp; within Google interfaces like Gemini and AI Mode in Search , without visiting an external website. It was previously mentioned in various occasions, but now Google published its own help page. Key features include Enhanced Transactability for high-intent surfaces and Seamless Integration via supplemental feeds that do not disrupt primary data.&nbsp; The checkout eligibility sub-attribute dictates if the \"Bu",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T01:13:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 70,
+   "title": "Native Commerce Attribute Help Page Released",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/c1eae1bf60.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "b4e08fed3a",
+   "created": "2026-08-19T23:19:31+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350",
+     "title": "TikTok explores expanding in-stream payment options",
+     "summary": "The app&rsquo;s China-based version highlights Douyin Pay as a key transaction option, and Bloomberg reports that a similar feature may be coming to the U.S.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-19T23:19:31+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "TikTok testuje vlastní platební systém inspirovaný čínským Douyin Pay",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "TikTok zvažuje rozšíření platebních možností přímo v aplikaci, podobně jako jeho čínská verze Douyin, která nabízí Douyin Pay jako klíčový transakční nástroj. Podle Bloomberg může podobná funkce zamířit do USA.",
+   "why": "Pokud TikTok spustí vlastní platební systém, může to změnit dynamiku e-commerce na platformě – uživatelé by mohli nakupovat bez opuštění aplikace, což by zvýšilo konverze z TikTok Shopping kampaní. Pro marketéry by to znamenalo nový prodejní kanál s potenciálně nižšími bariérami nákupu.",
+   "takeaway": "Zatím jde o spekulaci ohledně USA, do ČR by novinka dorazila s časovým zpožděním (pokud vůbec). Pokud vaše firma prodává přes TikTok Shop nebo zvažuje TikTok Shopping reklamy, sledujte vývoj – nativní platby mohou v budoucnu zjednodušit nákupní cestu zákazníků.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "2703d6259a",
+   "created": "2026-08-19T21:34:46+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-adds-ai-powered-assistant-for-smb-owners/828344",
+     "title": "Meta adds AI-powered assistant for SMB owners",
+     "summary": "A new tool allows small businesses to integrate analytics from multiple sources in order to optimize platform strategies.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-19T21:34:46+00:00",
+     "score": 54
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Meta spouští AI asistenta pro majitele malých firem",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "Meta uvedla nový AI nástroj určený pro majitele malých firem. Umožňuje integrovat analytická data z různých zdrojů a na jejich základě optimalizovat strategie na platformách Meta.",
+   "why": "Pro marketingové manažery a malé firmy v ČR to může znamenat jednodušší práci s daty z Facebooku a Instagramu a lepší návody na optimalizaci kampaní a obsahu – pokud bude nástroj dostupný i v Evropě.",
+   "takeaway": "Sledujte, zda a kdy se AI asistent zpřístupní v ČR/EU. Pokud ano, může ušetřit čas při vyhodnocování kampaní a organického dosahu na Meta platformách, zejména pro firmy bez vlastního analytika.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "ba9602bb31",
+   "created": "2026-08-19T21:06:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUxvbDlSanRXUTBnTU03VUZnMXNlcklmOE1SZ3VBeENJdjlKSDVnaV84UDVmWHA4anpMTGJ3dWJOdWtJd2lUVUMtZFp0VHBEWmVrVVRDMjlaMDRPR3FWa3pUbGJPaWVUVnU3OG05ZEhaTDJpUlYxeVVMZ2hpdHBreUEzRWRiYUlXdUN0ZHJEZHdiT1U?oc=5",
+     "title": "Google Ads API v25.1 expands measurement and insights",
+     "summary": "Google Ads API v25.1 expands measurement and insights &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T21:06:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads API v25.1 přináší nové možnosti měření a reportingu",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "Google vydal novou verzi API pro Google Ads – v25.1, která rozšiřuje možnosti měření a získávání přehledů z kampaní. Konkrétní nové funkce a metriky nejsou v dostupném zdroji specifikovány.",
+   "why": "API update se primárně týká vývojářů nástrojů a pokročilých uživatelů, kteří přes API pracují s reportingem nebo automatizací kampaní. Pro běžné uživatele Google Ads rozhraní to přímý dopad nemá.",
+   "takeaway": "Pokud využíváte vlastní nebo externí nástroje napojené na Google Ads API (reportingové dashboardy, automatizační skripty), sledujte, zda je dodavatel aktualizuje na v25.1. Změny v API mohou v budoucnu přinést nové metriky nebo reportovací možnosti i do hlavního rozhraní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "8bb053dd26",
+   "created": "2026-08-19T20:46:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5",
+     "title": "Microsoft Advertising rolls out AI Max globally for Search campaigns",
+     "summary": "Microsoft Advertising rolls out AI Max globally for Search campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T20:46:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Advertising spouští AI Max pro vyhledávací kampaně globálně",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "Microsoft Advertising globálně zavádí funkci AI Max pro Search kampaně. Jde o AI-řešení pro automatizaci a optimalizaci vyhledávacích reklamních kampaní na platformě Microsoft Advertising.",
+   "why": "Pro inzerenty využívající Microsoft Advertising (včetně českých firem) to znamená dostupnost nového AI nástroje pro zlepšení výkonu Search kampaní. Může to ovlivnit správu kampaní a potenciálně i jejich efektivitu.",
+   "takeaway": "Pokud běžíte Search kampaně na Microsoft Advertising, sledujte dostupnost AI Max ve vašem účtu a zvažte pilotní test. Připravte se na možnou změnu přístupu k optimalizaci kampaní směrem k větší automatizaci.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "12331002cb",
+   "created": "2026-08-19T20:22:16+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-adds-ai-powered-event-highlights/828343",
+     "title": "LinkedIn adds AI-powered event highlights",
+     "summary": "Marketers can use the new feature to automatically create clips from live recordings and turn them into short-form chapters.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-19T20:22:16+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 48,
+   "title": "LinkedIn spouští AI nástroj pro automatické sestříhání eventů",
+   "updated": "2026-08-20T05:00:40.906515+00:00",
+   "what": "LinkedIn představil novou AI funkci, která automaticky vytváří krátké klipy z živých nahrávek eventů a dělí je do kapitol. Marketéři tak mohou ze záznamů snadno vytvářet short-form obsah.",
+   "why": "Funkce zjednodušuje recyklaci obsahu z firemních eventů a webinářů pro organický dosah. Ušetří čas při editaci a umožní rychleji publikovat highlights na LinkedIn, kde se short-form video stává důležitějším formátem.",
+   "takeaway": "Pokud pořádáte nebo streamujete eventy na LinkedIn, nový nástroj vám ušetří práci s postprodukcí a pomůže vytěžit více obsahu z jedné akce. Sledujte dostupnost funkce ve vašem účtu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "4eb0ecd150",
    "created": "2026-07-30T07:00:00+00:00",
@@ -6289,30 +6525,6 @@
    "what": "Platforma X (dříve Twitter) zavádí pro iOS uživatele možnost přidávat text a emoji přímo do videí. Funkce přibližuje editační možnosti X k ostatním sociálním sítím.",
    "why": "Pro správce firemních sociálních sítí to znamená možnost vytvářet atraktivnější video obsah přímo v aplikaci X, bez nutnosti předúprav v externích nástrojích. Zjednodušuje to tvorbu video contentu pro tento kanál.",
    "takeaway": "Pokud pro firmu spravujete X a pravidelně publikujete videa, prozkoumejte novou funkci překryvů – můžete ušetřit čas s editací a zvýšit engagement videí přidáním textových akcentů nebo emoji přímo v aplikaci.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "a9bb64f7b1",
-   "created": "2026-08-16T16:54:30.323444+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
-     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
-     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
-     "source": "PPC Hero",
-     "domain": "news.google.com",
-     "published": "2026-08-14T13:14:12+00:00",
-     "score": 45
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Reddit posiluje jako kombinace vyhledávání a sociální sítě pro PPC",
-   "updated": "2026-08-16T16:54:30.323444+00:00",
-   "what": "Reddit se stává stále důležitější platformou, která kombinuje vlastnosti vyhledávání a sociálních sítí. Uživatelé na něm aktivně hledají informace a diskutují o produktech, což vytváří nové příležitosti pro placenou reklamu.",
-   "why": "Pro PPC specialisty je důležité sledovat, že se mění chování uživatelů – Reddit získává charakter vyhledávače, kde lidé hledají autentické názory a doporučení. To může vyžadovat úpravu reklamní strategie a alokace rozpočtu.",
-   "takeaway": "Zvažte přidání Redditu do portfolia placených kanálů, pokud vaše cílová skupina aktivně vyhledává informace a recenze. Sledujte, zda vaše produkty nebo služby jsou na Redditu diskutovány, a testujte menším rozpočtem efektivitu Reddit Ads.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
