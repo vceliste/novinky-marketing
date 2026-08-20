@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-20T15:01:59.406231+00:00",
+ "last_run": "2026-08-20T16:59:43.449987+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -17,7 +17,7 @@
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fbd92d4e2d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f1208748b00>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 5
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -119,13 +119,13 @@
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -281,11 +281,11 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Síť v malíčku",
-   "feed": "https://sitevmalicku.cz/feed/",
+   "feed": "https://sitevmalicku.cz/rss/",
    "status": "ok",
    "new": 0
   },
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Copyblogger",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -405,7 +405,8 @@
   "Marketing Brew": "https://www.morningbrew.com/marketing/feed.xml",
   "Backlinko": "https://backlinko.com/feed/",
   "Hana Kobzová": "https://hanakobzova.cz/feed/",
-  "PPC Newsfeed": "https://ppcnewsfeed.com/feed/"
+  "PPC Newsfeed": "https://ppcnewsfeed.com/feed/",
+  "Síť v malíčku": "https://sitevmalicku.cz/rss/"
  },
  "seen": {
   "https://www.measurelab.co.uk/insights/podcast/assimilated-by-anthropic-what-we-lost-when-the-harness-died": "2026-08-14T09:18:56.681311+00:00",
@@ -1599,9 +1600,163 @@
   "https://martech.org/business-websites-dominate-geminis-local-ai-citations": "2026-08-20T15:01:59.406231+00:00",
   "https://cc.cz/sekli-s-harvardem-kvuli-ai-cipum-ted-za-mesic-zdvojnasobili-hodnotu-sve-firmy-na-440-miliard": "2026-08-20T15:01:59.406231+00:00",
   "https://www.mediaguru.cz/darkside-se-vraci-jako-vlajkova-agentura-dfmg": "2026-08-20T15:01:59.406231+00:00",
-  "https://www.semrush.com/blog/google-search-console": "2026-08-20T15:01:59.406231+00:00"
+  "https://www.semrush.com/blog/google-search-console": "2026-08-20T15:01:59.406231+00:00",
+  "https://contentmarketinginstitute.com/strategy-planning/insight-to-impact-marketing-forum-consumer-insights": "2026-08-20T16:59:43.449987+00:00",
+  "https://www.searchenginejournal.com/google-expands-personalization-across-search-discover-news/586528": "2026-08-20T16:59:43.449987+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDlybzVrUzk5RkdVU2RNQkRTYjlJeUpmMm1kcC02bWJOOWg4dERDSldIT2V6dnNJaEd4OFVzQVZBQm1SLW1VLWpJcmgtRkZRWGtaNVNRQTdXb1JmemRiVmplajc0U3VrUjdxRXY1SFpRdDBtSlpjdmstREpPQjRjbktpRmVpRlg4aU1SQ25iTUVBOXNuSmJOT200ai10Q0UtOXV1NWRFZHNxaDkwdUt1NA?oc=5": "2026-08-20T16:59:43.449987+00:00",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNendaZHRuQXlUUUl4WXFrdjg2X2FoMGMzWE81RmtmQWNjUVZFN1dRbXItV1l4dmx6TGIwcHVUQktsaGhnSEVmTjlSYkF5WGtiRkExdkJQWXNhRlFKbThobzF3X01rWTZpdUowbEhOTVdoeTVMMTdFeTNZQXJuYU5WX0Q5UjVmTUZXbW1CLWtjaTZZbTNjdXhkMHMxWTE1WU0tQ3pSX3IyOG9ramRw?oc=5": "2026-08-20T16:59:43.449987+00:00",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYnJvR18wTjFaRGRnUjF4d1owM2VGdVItdDJHUW1BV1hhelo2bkFUZklueHBQQVd0OU5Ka3BISHlVWWxVLXQ3eFc3Y1R3UDV0N25Pc3VfVUJ1Y2FQYkpTMlNmbEROM0NLcEJiUWwxWHp1SVpweDJTcnJueU1sMmtrNTkxeTBMYVhnNzFVUGdhOGF5eTh5?oc=5": "2026-08-20T16:59:43.449987+00:00",
+  "https://www.marketingbrew.com/stories/world-cup-the-athletic-audience-sponsorship": "2026-08-20T16:59:43.449987+00:00",
+  "https://blog.hootsuite.com/social-listening-strategy": "2026-08-20T16:59:43.449987+00:00",
+  "https://ahrefs.com/blog/information-gain": "2026-08-20T16:59:43.449987+00:00",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1R3SjF5b1p4dzJvOEZ1WTRyeWR1ckFuWTZEUHhBSml6YTFYUWh3ZGtnMk1PY2M3bDlQUHVISmVMdVM5cFluOWhaZDRyb0Z0M3J0NW1zMzU2bzZBQmlOdmQ3dU5IRTVHQjBjb1lTTGhSUUVNbGwyUnpoTjVJWXN5YjBFMUI1Y1FnQmFzVG9hcGJGTTVpLWc?oc=5": "2026-08-20T16:59:43.449987+00:00",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE94aThBeTRHaElJUC1EWE5Xb2hRd2ItUU1SLUNWNm9pMzRDWW9aVmlDLURFb2lQMFRYZUlVOWRVUUEyWE9kMnBycG92WmIwS1A5Mk9tcDBacXZ4UHQxY2FacFJ1bFBNOGJZaGpLUWhxZVFUaW9KTFE?oc=5": "2026-08-20T16:59:43.449987+00:00"
  },
  "events": [
+  {
+   "id": "70472ed1f5",
+   "created": "2026-08-07T21:50:10+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/meta-tests-sequenced-events-preferred-lead-answers",
+     "title": "Meta Tests Sequenced Events and Preferred Lead Answers for Lead Quality",
+     "summary": "Meta is testing Sequenced Events and Preferred Lead Answers to help advertisers improve lead quality from instant forms. The post Meta Tests Sequenced Events and Preferred Lead Answers for Lead Quality appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-07T21:50:10+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94aThBeTRHaElJUC1EWE5Xb2hRd2ItUU1SLUNWNm9pMzRDWW9aVmlDLURFb2lQMFRYZUlVOWRVUUEyWE9kMnBycG92WmIwS1A5Mk9tcDBacXZ4UHQxY2FacFJ1bFBNOGJZaGpLUWhxZVFUaW9KTFE?oc=5",
+     "title": "How to improve Google Ads lead quality with CRM data",
+     "summary": "How to improve Google Ads lead quality with CRM data &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T15:00:00+00:00",
+     "score": 63
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Meta testuje nové funkce pro zlepšení kvality leadů z instant formulářů",
+   "updated": "2026-08-20T16:59:43.449987+00:00",
+   "what": "Meta testuje dvě nové funkce pro inzerenty: Sequenced Events (postupné události) a Preferred Lead Answers (preferované odpovědi leadů). Obě mají pomoci zlepšit kvalitu leadů získaných přes instant formuláře na Facebooku a Instagramu.",
+   "why": "Instant formuláře generují velké množství leadů, ale často s nízkou kvalitou. Nové funkce umožní lépe filtrovat zájemce už v průběhu vyplňování formuláře a poskytnou algoritmům Meta lepší signál o tom, jaké leady inzerent považuje za hodnotné. To může snížit náklady na kvalitní lead a zefektivnit práci obchodního oddělení.",
+   "takeaway": "Sledujte dostupnost těchto funkcí ve vašem reklamním účtu Meta. Po spuštění je otestujte – nastavte preferované odpovědi odpovídající vašim ideálním zákazníkům a vyhodnoťte, zda se zvýší konverzní poměr leadů na prodeje. Zároveň propojte CRM data s Meta (i Google Ads) pro lepší optimalizaci kampaní na skutečnou kvalitu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/70472ed1f5.jpg",
+   "image_from": "jonloomer.com"
+  },
+  {
+   "id": "b891463364",
+   "created": "2026-08-20T16:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-expands-personalization-across-search-discover-news/586528",
+     "title": "Google Expands Personalization Across Search, Discover & News via @sejournal, @MattGSouthern",
+     "summary": "Google is rolling out a new embeddable Preferred Sources button, natural language Discover controls, and customizable audio briefings in the Google News app. The post Google Expands Personalization Across Search, Discover &#038; News appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-20T16:02:52+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNendaZHRuQXlUUUl4WXFrdjg2X2FoMGMzWE81RmtmQWNjUVZFN1dRbXItV1l4dmx6TGIwcHVUQktsaGhnSEVmTjlSYkF5WGtiRkExdkJQWXNhRlFKbThobzF3X01rWTZpdUowbEhOTVdoeTVMMTdFeTNZQXJuYU5WX0Q5UjVmTUZXbW1CLWtjaTZZbTNjdXhkMHMxWTE1WU0tQ3pSX3IyOG9ramRw?oc=5",
+     "title": "Google Discover lets you customize your feed using conversational search",
+     "summary": "Google Discover lets you customize your feed using conversational search &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T16:00:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "seo",
+   "importance": 62,
+   "title": "Google rozšiřuje personalizaci Discover a Search pomocí přirozeného jazyka",
+   "updated": "2026-08-20T16:59:43.449987+00:00",
+   "what": "Google spouští nové nástroje personalizace: tlačítko pro přidání preferovaných zdrojů přímo ve výsledcích vyhledávání, možnost přizpůsobit Google Discover pomocí konverzačních dotazů v přirozeném jazyce a upravitelné audio briefingy v aplikaci Google News.",
+   "why": "Uživatelé budou více kontrolovat, co vidí v organických výsledcích i v Discover feedu. Pro SEO to znamená větší důraz na budování přímé návštěvnosti a důvěryhodných značkových signálů – algoritmus bude ještě více zohledňovat uživatelské preference a aktivní výběr zdrojů.",
+   "takeaway": "Sledujte, zda změny v personalizaci ovlivní pozice vašeho webu v Google Discover a organických výsledcích. Pokud je vaše značka již nyní vnímána jako důvěryhodný zdroj, můžete profitovat – pokud ne, rozhodují stále více preference uživatelů, ne jen relevance dotazu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/b891463364.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "ae76d8e99a",
+   "created": "2026-08-20T16:01:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDlybzVrUzk5RkdVU2RNQkRTYjlJeUpmMm1kcC02bWJOOWg4dERDSldIT2V6dnNJaEd4OFVzQVZBQm1SLW1VLWpJcmgtRkZRWGtaNVNRQTdXb1JmemRiVmplajc0U3VrUjdxRXY1SFpRdDBtSlpjdmstREpPQjRjbktpRmVpRlg4aU1SQ25iTUVBOXNuSmJOT200ai10Q0UtOXV1NWRFZHNxaDkwdUt1NA?oc=5",
+     "title": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns",
+     "summary": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T16:01:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Advertising ruší možnost Max CPC u nových kampaní",
+   "updated": "2026-08-20T16:59:43.449987+00:00",
+   "what": "Microsoft Advertising odstraňuje strategii nabídek Max CPC (maximální cena za proklik) u nově vytvářených kampaní. Změna se týká pouze nových standalone bidding kampaní, stávající kampaně s Max CPC nastavením zůstávají beze změny.",
+   "why": "Pro PPC specialisty pracující s Microsoft Advertising (dostupným i v ČR) to znamená nutnost přizpůsobit způsob nastavování nabídek u nových kampaní. Microsoft tak nutí inzerenty používat sofistikovanější automatizované strategie místo jednoduchého manuálního limitu.",
+   "takeaway": "Pokud spouštíte nové kampaně v Microsoft Advertising, budete muset volit jinou strategii nabídek než Max CPC – zvažte Enhanced CPC nebo jiné dostupné možnosti. Stávající kampaně s Max CPC můžete ponechat beze změny.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "12c8dcf448",
+   "created": "2026-08-20T16:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYnJvR18wTjFaRGRnUjF4d1owM2VGdVItdDJHUW1BV1hhelo2bkFUZklueHBQQVd0OU5Ka3BISHlVWWxVLXQ3eFc3Y1R3UDV0N25Pc3VfVUJ1Y2FQYkpTMlNmbEROM0NLcEJiUWwxWHp1SVpweDJTcnJueU1sMmtrNTkxeTBMYVhnNzFVUGdhOGF5eTh5?oc=5",
+     "title": "Google makes the Preferred Source button more seamless",
+     "summary": "Google makes the Preferred Source button more seamless &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T16:00:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Google vylepšil tlačítko Preferred Source v Discaveru",
+   "updated": "2026-08-20T16:59:43.449987+00:00",
+   "what": "Google upravil zobrazení tlačítka Preferred Source v Google Discover tak, aby bylo méně výrazné a lépe splývalo s okolním obsahem. Jde o funkci, která uživatelům umožňuje sledovat preferované zdroje obsahu.",
+   "why": "Změna designu může ovlivnit CTR (míru prokliků) na obsah z preferovaných zdrojů, což má dopad na návštěvnost webů, které se spoléhají na traffic z Google Discover.",
+   "takeaway": "Pokud máte obsah v Google Discover a sledujete traffic odtud, sledujte v Google Analytics případné změny v chování uživatelů a proklikovosti z tohoto kanálu v následujících týdnech.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e5543811ca",
+   "created": "2026-08-20T15:25:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1R3SjF5b1p4dzJvOEZ1WTRyeWR1ckFuWTZEUHhBSml6YTFYUWh3ZGtnMk1PY2M3bDlQUHVISmVMdVM5cFluOWhaZDRyb0Z0M3J0NW1zMzU2bzZBQmlOdmQ3dU5IRTVHQjBjb1lTTGhSUUVNbGwyUnpoTjVJWXN5YjBFMUI1Y1FnQmFzVG9hcGJGTTVpLWc?oc=5",
+     "title": "Meta AI can now analyze and optimize Meta Ads campaigns",
+     "summary": "Meta AI can now analyze and optimize Meta Ads campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T15:25:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Meta AI umí analyzovat a optimalizovat reklamní kampaně přímo v chatbotu",
+   "updated": "2026-08-20T16:59:43.449987+00:00",
+   "what": "Meta AI (chatbot dostupný v Meta Ads Manageru) nyní dokáže analyzovat běžící kampaně a navrhovat optimalizace. Uživatelé moho AI asistenta zeptat například na výkon kampaní nebo požádat o doporučení pro zlepšení výsledků.",
+   "why": "Jde o rozšíření funkcionality Meta AI z běžného asistenta na nástroj pro přímou práci s kampaněmi. Pro inzerenty to může znamenat rychlejší diagnostiku problémů a návrhy úprav bez nutnosti procházet složitá reportovací rozhraní ručně.",
+   "takeaway": "Pokud používáte Meta Ads Manager, vyzkoušejte novou funkci Meta AI – může urychlit analýzu výkonu kampaní a poskytnout konkrétní tipy na optimalizaci. Zatím se jedná o asistenta, finální rozhodnutí a implementaci změn zůstávají na vás.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/e5543811ca.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "7b985549f3",
    "created": "2026-08-20T14:31:40+00:00",
@@ -1641,13 +1796,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 74,
-   "title": "The Conversion Setup Errors That Break Smart Bidding",
+   "importance": 72,
+   "title": "Sedm chyb v měření konverzí, které kazí Smart Bidding",
    "updated": "2026-08-20T15:01:59.406231+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/2ce4a6d6ce.jpg",
-   "image_from": "searchenginejournal.com"
+   "image_from": "searchenginejournal.com",
+   "what": "Search Engine Journal publikoval analýzu sedmi typických chyb v nastavení sledování konverzí, které způsobují selhání Smart Bidding strategií v Google Ads. Problém obvykle není v samotné nabídkové strategii, ale v nekvalitních datech, která do ní vstupují z chybně nastaveného trackingu.",
+   "why": "Smart Bidding v Google Ads (i Skliku) funguje pouze s kvalitními daty o konverzích. Pokud je tracking rozbitý, automatické strategie učí špatná rozhodnutí, plýtvají rozpočtem a neoptimalizují na správné cíle. Pro manažery platících kampaní jde o kritický základ – bez validních konverzí jakákolve nabídková strategie selhává.",
+   "takeaway": "Než začnete řešit výkon Smart Bidding, zkontrolujte nastavení konverzního trackingu – ověřte správnost tagů, deduplikaci, přiřazení hodnot a konzistenci dat mezi platformami. Častěji než strategie je třeba opravit měření."
   },
   {
    "id": "6c2e830dd0",
@@ -6698,30 +6856,6 @@
    "multi_source": false,
    "image": "img/094abad828.jpg",
    "image_from": "semrush.com"
-  },
-  {
-   "id": "70472ed1f5",
-   "created": "2026-08-07T21:50:10+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/meta-tests-sequenced-events-preferred-lead-answers",
-     "title": "Meta Tests Sequenced Events and Preferred Lead Answers for Lead Quality",
-     "summary": "Meta is testing Sequenced Events and Preferred Lead Answers to help advertisers improve lead quality from instant forms. The post Meta Tests Sequenced Events and Preferred Lead Answers for Lead Quality appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-07T21:50:10+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Meta testuje nástroje pro zlepšení kvality leadů z instant formulářů",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Meta testuje dvě nové funkce pro inzerentní formuláře: Sequenced Events (sekvencované události) a Preferred Lead Answers (preferované odpovědi leadů). Obě mají pomoci zlepšit kvalitu kontaktů získaných přes instant forms na Facebooku a Instagramu.",
-   "why": "Instant formuláře jsou oblíbený nástroj pro sběr leadů, ale často trpí nízkou kvalitou kontaktů. Nové funkce by mohly inzerentům umožnit lépe filtrovat a kvalifikovat zájemce už během vyplňování formuláře, což může zvýšit konverzní poměr a snížit náklady na kvalitní lead.",
-   "takeaway": "Sledujte, zda se tyto funkce objeví ve vašem Meta Ads Manageru. Pokud ano, otestujte je na kampaních se sběrem leadů – mohou pomoct snížit množství nekvalitních kontaktů a zlepšit ROI leadových kampaní.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "3ba95ef7d5",
