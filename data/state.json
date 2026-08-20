@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-20T07:18:13.620810+00:00",
+ "last_run": "2026-08-20T09:03:09.652767+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -29,19 +29,19 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fb3ab5cc9e0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fdb3b1e2ba0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 521, ?))",
-   "new": 10
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fb3ab5cc890>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -1553,7 +1553,14 @@
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWTdVSEVSYldTM3VQTW4ta0xsUTU3d1llZVZEZGZKZzlfOFpiMnppcUFBQ1JzTWllT0dEbS1XMmRLUXgwNTZ3YkxKV3A5LUdWUE5icGxQSW9CYzR4REw0N1NlREVYQUJmYl8yRWdFajdqWWFGMTJKb2N5YkM1MkdyMmdfN3lmOU55YUUxMWtnNmh6dF9pUHpENA?oc=5": "2026-08-20T07:18:13.620810+00:00",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1d2bnRYRmtIdmFjLWRoVDQ1RF94ZzExLUZPcEEybllWMmViTnlxZlM1blZDeVU1d0ZocURtOGxVN05jZkVQcThZOGZHcTIzU3V1Tjd5QnRRdVJzSWlQalFxN3REcFZPUHlIc29nekQ4cWRaWUhvdG5Jc05aWm0xTS0wNG5JSThfclhHOUkzWGpzMjRVT2c?oc=5": "2026-08-20T07:18:13.620810+00:00",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1FhWUxBd2RuTnhheWxYaHhENVZORmpVNjB3bzEyYXROMzVuQjVLY0cyclpIWWFpQkloU2dxSHZ5LUtOWkpkbkdVVnN6bElXNDJpY0JmZV9ZS1dKV2RJZDlTX3NQY1ZZcHpfaFdFQ09PdGcxTlBGOHY1ei1BWGR5ZXBmbGlmRWo0dWItak0wUG5nUjZXU1E?oc=5": "2026-08-20T07:18:13.620810+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSjRja2VhQjlyWm9LdkdtNUIwal8ySHlrTGxBWEJHV3JPcUVOLVNkc0lxQ3ZIRFNSQnpLMmpJTW9pZ1drblZEWlg5OHRJaFB2MTN3MTBoOVJBUzNtSGVVMzN0VEhHTm9pTUxpdkstYTgzMXlibnJIazhsZ29RWDhKRmxFT25xN2VmME90RFVaclJlZHJ2ZTFCWmNR?oc=5": "2026-08-20T07:18:13.620810+00:00"
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSjRja2VhQjlyWm9LdkdtNUIwal8ySHlrTGxBWEJHV3JPcUVOLVNkc0lxQ3ZIRFNSQnpLMmpJTW9pZ1drblZEWlg5OHRJaFB2MTN3MTBoOVJBUzNtSGVVMzN0VEhHTm9pTUxpdkstYTgzMXlibnJIazhsZ29RWDhKRmxFT25xN2VmME90RFVaclJlZHJ2ZTFCWmNR?oc=5": "2026-08-20T07:18:13.620810+00:00",
+  "https://cc.cz/svycari-ho-pred-lety-zavolali-na-pomoc-ted-vytahovy-gigant-v-cele-s-ceskym-ceo-prodal-svuj-startup": "2026-08-20T09:03:09.652767+00:00",
+  "https://www.lupa.cz/aktuality/lepsi-tv-pridala-prihlaseni-pomoci-qr-kodu": "2026-08-20T09:03:09.652767+00:00",
+  "https://www.lupa.cz/aktuality/predvolebni-vysilani-cnn-prima-news-zacne-2-zari": "2026-08-20T09:03:09.652767+00:00",
+  "https://www.mediaguru.cz/serialy-vypravej-a-doktor-martin-mely-ve-stredu-stejne-divaku": "2026-08-20T09:03:09.652767+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wYllocnRXWVd1cTdOdS1raHEwVzdTQkh0QnRJUU14QkdWOTlrNkthcFpwNjNZSkVHY2VrTnFsM2x4RTJPTGJFREpFMUZHZTl0X3NIemw1NkNvYkJaMVZMcHRmRlRqZHJ2TTgwanVKd3NkczNBd2pYQg?oc=5": "2026-08-20T09:03:09.652767+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdUdyX1NNcUo1NDBaY1JTXzlmR1Q5MVhrejRDVTlCLUUxM2UzLTRyRTBvMVpyZzJyLWthNTR6U2szcGpKcU1SbmNkS2I4RTRiS2p4OFFzQ3BwZlA3UXFlR2l3Z1ZlUEdNb1NPdzFQelQtZzhabDdseEx4UG9nUWxWM2JJcUN2cmRJY2hoUFV2NTlOTkk?oc=5": "2026-08-20T09:03:09.652767+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZm1iQkNldWZ1dWpVVHkxWFVfbDRPaXJ3UFU5VFpMcnZ3S2U2UWtkNVh0SllDWk1ZSHZhQkZBbkFuNkVVUGF3Wkh6LWFBM0NPeGxQVFRhOS1wZGs?oc=5": "2026-08-20T09:03:09.652767+00:00"
  },
  "events": [
   {
