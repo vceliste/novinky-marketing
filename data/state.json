@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-20T13:20:15.779883+00:00",
+ "last_run": "2026-08-20T15:01:59.406231+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,13 +11,13 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "eVisions blog",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fbd0f297ef0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fbd92d4e2d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Backlinko",
@@ -203,7 +203,7 @@
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Microsoft Advertising blog",
@@ -304,14 +304,14 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Think with Google",
@@ -1589,9 +1589,101 @@
   "https://www.seroundtable.com/google-search-favicons-breaking-41904.html": "2026-08-20T13:20:15.779883+00:00",
   "https://www.seroundtable.com/google-ads-api-version-25-1-41908.html": "2026-08-20T13:20:15.779883+00:00",
   "https://www.mediaguru.cz/vodafone-vratil-do-kabelove-tv-kanaly-novy-primy-a-seznam-v-sd-rozliseni": "2026-08-20T13:20:15.779883+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQV8tS2JWMUplbWU4RWtaeXNUWklpeUYwR05iZTVhX2x0ZzBJcFdsZ1JTOE5XOGN4cG9TamRxTjlzbEdfMFpobjBGd3daeGI3cC0wY1Q3d05UZ0N6VXhkMkZTeWpQMjRMeHd4VkJ6c0hTM0F1Y2xQbmFvcDEza1ZRbEs1aGpiNUtCMHh4N2R2U28yRllHX3NNRVpicWprZDZKSVV6WFNNaFJDOXllMW5NallYelZFU3ZMNEp4Skh4N2Q?oc=5": "2026-08-20T13:20:15.779883+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQV8tS2JWMUplbWU4RWtaeXNUWklpeUYwR05iZTVhX2x0ZzBJcFdsZ1JTOE5XOGN4cG9TamRxTjlzbEdfMFpobjBGd3daeGI3cC0wY1Q3d05UZ0N6VXhkMkZTeWpQMjRMeHd4VkJ6c0hTM0F1Y2xQbmFvcDEza1ZRbEs1aGpiNUtCMHh4N2R2U28yRllHX3NNRVpicWprZDZKSVV6WFNNaFJDOXllMW5NallYelZFU3ZMNEp4Skh4N2Q?oc=5": "2026-08-20T13:20:15.779883+00:00",
+  "https://www.mediaguru.cz/vetsinovy-podil-v-provozovateli-tv-prima-se-presunul-v-ramci-skupiny-ges": "2026-08-20T15:01:59.406231+00:00",
+  "https://cc.cz/tohle-se-hbo-povedlo-novy-serial-micha-mrazivost-temneho-pripadu-s-mimozemskou-konspiraci": "2026-08-20T15:01:59.406231+00:00",
+  "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic": "2026-08-20T15:01:59.406231+00:00",
+  "https://www.searchenginejournal.com/the-conversion-setup-errors-that-break-smart-bidding/584671": "2026-08-20T15:01:59.406231+00:00",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaWFCTkdEcVFVNVhvUE8ySzE5YXhOd1FRTXp4UmFrVkROWTJjY3E1Nk1sU2E5ZERweWFnWXZiR3JCYTY0ZENrMWN6V19vNGdDU0xZd0h2ZDM1MVhCZTJPMkR2TE1uZzhoTm1VVGRzQXhXMThPU0VQTWFvQXBrUE12TDVn?oc=5": "2026-08-20T15:01:59.406231+00:00",
+  "https://www.seroundtable.com/recap-08-20-2026-41914.html": "2026-08-20T15:01:59.406231+00:00",
+  "https://martech.org/business-websites-dominate-geminis-local-ai-citations": "2026-08-20T15:01:59.406231+00:00",
+  "https://cc.cz/sekli-s-harvardem-kvuli-ai-cipum-ted-za-mesic-zdvojnasobili-hodnotu-sve-firmy-na-440-miliard": "2026-08-20T15:01:59.406231+00:00",
+  "https://www.mediaguru.cz/darkside-se-vraci-jako-vlajkova-agentura-dfmg": "2026-08-20T15:01:59.406231+00:00",
+  "https://www.semrush.com/blog/google-search-console": "2026-08-20T15:01:59.406231+00:00"
  },
  "events": [
+  {
+   "id": "7b985549f3",
+   "created": "2026-08-20T14:31:40+00:00",
+   "articles": [
+    {
+     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
+     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
+     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-08-20T14:31:40+00:00",
+     "score": 65
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "Instagram Collab vs. Paid Partnership: jak správně označit spolupráci",
+   "updated": "2026-08-20T15:01:59.406231+00:00",
+   "what": "Článek vysvětluje rozdíl mezi dvěma nástroji Instagramu – Collab a Paid Partnership – které social media manažeři často zaměňují. Oba slouží k označení spolupráce značek s tvůrci, ale každý má jiný účel.",
+   "why": "Pro marketingové manažery je důležité správně používat tyto nástroje při influencer kampáních, aby splnili transparentnost a maximalizovali dosah obsahu. Nesprávné použití může vést k nižší efektivitě kampaní nebo problémům s transparentností placené spolupráce.",
+   "takeaway": "Pokud vaše firma spolupracuje s influencery na Instagramu, ujistěte se, že váš tým nebo agentura správně rozlišuje mezi Collab (sdílení obsahu na dva profily) a Paid Partnership (označení placené spolupráce). Případně si prostudujte návod, abyste nevyhazovali peníze za neefektivní nastavení kampaní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "2ce4a6d6ce",
+   "created": "2026-08-20T14:30:03+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/the-conversion-setup-errors-that-break-smart-bidding/584671",
+     "title": "The Conversion Setup Errors That Break Smart Bidding",
+     "summary": "Smart Bidding problems often trace back to broken conversion tracking, not bidding strategy. Seven silent setup errors that corrupt the data feeding your campaigns. The post The Conversion Setup Errors That Break Smart Bidding appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-20T14:30:03+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 74,
+   "title": "The Conversion Setup Errors That Break Smart Bidding",
+   "updated": "2026-08-20T15:01:59.406231+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/2ce4a6d6ce.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "6c2e830dd0",
+   "created": "2026-08-20T13:52:54+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaWFCTkdEcVFVNVhvUE8ySzE5YXhOd1FRTXp4UmFrVkROWTJjY3E1Nk1sU2E5ZERweWFnWXZiR3JCYTY0ZENrMWN6V19vNGdDU0xZd0h2ZDM1MVhCZTJPMkR2TE1uZzhoTm1VVGRzQXhXMThPU0VQTWFvQXBrUE12TDVn?oc=5",
+     "title": "3 phases to build authority and earn AI citations",
+     "summary": "3 phases to build authority and earn AI citations &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T14:00:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://martech.org/business-websites-dominate-geminis-local-ai-citations",
+     "title": "Business websites dominate Gemini’s local AI citations",
+     "summary": "Nearly 60% of Gemini’s local citations point to business websites, but recommendations can change dramatically when using identical searches. The post Business websites dominate Gemini’s local AI citations appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-20T13:52:54+00:00",
+     "score": 64
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Gemini cituje lokální firmy v 60 % případů, ale výsledky kolísají",
+   "updated": "2026-08-20T15:01:59.406231+00:00",
+   "what": "Analýza ukázala, že téměř 60 % lokálních citací v Google Gemini směřuje na webové stránky firem. Studie však zároveň zjistila, že i při identických dotazech se doporučení dramaticky mění – výsledky nejsou konzistentní.",
+   "why": "Jde o jeden z prvních důkazů, jak AI vyhledávání Google (Gemini) prioritizuje firemní weby před agregátory. Pro firmy je to příležitost, ale nepředvídatelnost výsledků znamená, že nelze spoléhat na stabilní viditelnost jako u klasického SEO.",
+   "takeaway": "Sledujte, zda a jak vás Gemini cituje při relevantních dotazech – zatím není jasné, co konkrétně citace ovlivňuje. Investice do autority webu (kvalitní obsah, strukturovaná data, zmínky) může zvýšit šanci na citaci, ale očekávejte velkou volatilitu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/6c2e830dd0.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "640d2e57c4",
    "created": "2026-08-14T09:18:56.681311+00:00",
@@ -1693,13 +1785,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 71,
-   "title": "Google Ads Enhanced Matching In Customer Match",
+   "importance": 65,
+   "title": "Google Ads testuje Enhanced Matching pro Customer Match",
    "updated": "2026-08-20T13:20:15.779883+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/f01daf1740.jpg",
-   "image_from": "seroundtable.com"
+   "image_from": "seroundtable.com",
+   "what": "Google Ads nasazuje novou funkci \"Enhanced Matching\" v rámci Customer Match. Umožňuje rozšířit dosah publika na základě seznamů uživatelů se souhlasem tím, že Google páruje uživatele zadavatele s uživateli vydavatelů (kde mají oba souhlas).",
+   "why": "Jde o potenciální možnost, jak zvýšit dosah remarketingových kampaní v době zpřísněných pravidel pro cookies a consent. Pro české firmy využívající Customer Match seznamy může přinést širší publikum bez nutnosti sbírat nová data.",
+   "takeaway": "Sledujte, zda se funkce objeví ve vašem Google Ads účtu. Pokud ano, otestujte ji na existujících Customer Match seznamech – může zvýšit dosah při zachování compliance se souhlasy."
   },
   {
    "id": "c36d88f6db",
