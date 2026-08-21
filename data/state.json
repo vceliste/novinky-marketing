@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-21T07:20:43.945110+00:00",
+ "last_run": "2026-08-21T09:09:36.561336+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 4
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f9e69f88050>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f0d29744590>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -101,7 +101,7 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
-   "new": 0
+   "status": "ok",
+   "new": 4
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f9e6a1b69c0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f0d296031a0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -1642,9 +1642,140 @@
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSUNiZ3Z6Qm5xdGhKWVZydXFEbjB0MHZfSEpINkVhZGNTR0psVE1wYmFmMHl2MlQ2WGR3NklJTGlHUFFnTG01QXN1eHVEWUczZDdTOUJIV0NFQ3hlbWNQTnhmdFhMcUw5WDJ1dUk4dzREcWNKMm5CSm93eTlEcWx1MmxKU09MOEpycTFYRXdFNFZxRDFuTWpfb0IwM1dQdjVMY1RmYTlfaw?oc=5": "2026-08-21T05:01:46.139405+00:00",
   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zZW9ERVdjNEpyR19sWmJBQllQdzk5c2xveWQ3WUVJTExmbFNETmRkUzFtck9Bd19yN1VtTHlBYlk4SElWY3pFV3JsNThKQnVscFFkTlF5Y19PRGM0Q0ZaVDU1MWxlMUU?oc=5": "2026-08-21T05:01:46.139405+00:00",
   "https://www.mediaguru.cz/ct-zarazuje-pelisky-i-kryci-jmeno-holec-s-premierou-prichazi-hbo-max": "2026-08-21T07:20:43.945110+00:00",
-  "https://www.mediar.cz/pelisky-holec-kryl-kubisova-ct-pripomene-srpnovou-okupaci-roku-1968": "2026-08-21T07:20:43.945110+00:00"
+  "https://www.mediar.cz/pelisky-holec-kryl-kubisova-ct-pripomene-srpnovou-okupaci-roku-1968": "2026-08-21T07:20:43.945110+00:00",
+  "https://www.mediaguru.cz/normal-otevre-treti-pobocku-a-to-v-letnanech-prvni-dve-provazel-znacny-zajem": "2026-08-21T09:09:36.561336+00:00",
+  "https://www.mediaguru.cz/youtube-premium-zdrazuje-v-cesku-mesicni-predplatne": "2026-08-21T09:09:36.561336+00:00",
+  "https://cc.cz/mlada-obchodacka-si-musela-dat-pul-roku-pauzu-a-otevrela-salon-ktery-si-oblibily-i-celebrity": "2026-08-21T09:09:36.561336+00:00",
+  "https://www.searchenginejournal.com/what-ai-bot-data-from-hundreds-of-sites-reveals-about-ai-search-webinar/586556": "2026-08-21T09:09:36.561336+00:00",
+  "https://www.mediaguru.cz/cnn-prima-news-zacne-s-predvolebnim-vysilanim-od-zacatku-zari": "2026-08-21T09:09:36.561336+00:00",
+  "https://www.mediaguru.cz/pripady-mimoradne-marty-jsou-stale-ve-ctvrtek-na-cele": "2026-08-21T09:09:36.561336+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rolls-out-ai-max-globally": "2026-08-21T09:09:36.561336+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-ads-removes-max-cpc-conversion-based-strategies": "2026-08-21T09:09:36.561336+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-introduces-automatic-sitelink-suggestions": "2026-08-21T09:09:36.561336+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-api-v25-1-released": "2026-08-21T09:09:36.561336+00:00"
  },
  "events": [
+  {
+   "id": "0aaf382ab1",
+   "created": "2026-08-21T07:45:38+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/what-ai-bot-data-from-hundreds-of-sites-reveals-about-ai-search-webinar/586556",
+     "title": "What AI Bot Data From Hundreds Of Sites Reveals About AI Search [Webinar] via @sejournal, @lorenbaker",
+     "summary": "Optimize your marketing strategy by learning the limitations of AI search metrics and how to utilize your data effectively. The post What AI Bot Data From Hundreds Of Sites Reveals About AI Search [Webinar] appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-21T07:45:38+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Webinář o datech AI botů a jejich limitech pro search marketing",
+   "updated": "2026-08-21T09:09:36.561336+00:00",
+   "what": "Search Engine Journal pořádá webinář zaměřený na analýzu dat AI botů ze stovek webů a jejich využití pro optimalizaci marketingové strategie. Webinář se soustředí na pochopení limitů metrik AI vyhledávání.",
+   "why": "S nástupem AI vyhledávačů (ChatGPT Search, Perplexity, Google AI Overviews) je pro marketéry důležité pochopit, jak AI boti indexují obsah a jaká data lze z jejich aktivity získat. Znalost limitů těchto metrik pomůže realistic nastavit očekávání a strategie pro AI search.",
+   "takeaway": "Pokud zvažujete optimalizaci pro AI vyhledávače, sledujte tento webinář pro pochopení, jaká data jsou skutečně měřitelná a co lze z aktivity AI botů vyčíst. Pomože to nastavit realistická KPI a vyhnout se investicím do neověřených metrik.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "2d20804ffa",
+   "created": "2026-08-21T07:09:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rolls-out-ai-max-globally",
+     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
+     "summary": "Microsoft Advertising has started rolling out AI Max globally to all accounts as an optional suite for Search campaigns . AI Max combines search term matching, text customization, and final URL expansion to expand reach beyond existing keywords, generate relevant messaging, and route users to landing pages based on intent.&nbsp; Advertisers can activate features individually , use brand controls and URL rules , and test AI Max through optimization experiments . Existing autogenerated text assets and Predictive matching settings will move into AI Max automatically. When importing Search campaig",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T07:09:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Microsoft Advertising spouští AI Max globálně – rozšíření dosahu i nad rámec klíčových slov",
+   "updated": "2026-08-21T09:09:36.561336+00:00",
+   "what": "Microsoft Advertising zahájil globální zavádění AI Max do všech účtů jako volitelné sady funkcí pro Search kampaně. AI Max kombinuje rozšířené párování vyhledávacích dotazů, automatickou úpravu textů a rozšíření cílových URL s cílem zvýšit dosah i mimo stávající klíčová slova, generovat relevantní sdělení a směrovat uživatele na landing pages podle záměru.",
+   "why": "Jde o významný posun v automatizaci PPC na Microsoftu (Bing), který může výrazně ovlivnit řízení kampaní a rozpočtů. Funkce aktivně rozšiřují dosah i mimo manuálně nastavená klíčová slova a mění cílové URL, což může zvýšit konverze, ale i ztížit kontrolu nad tím, kde se reklamy zobrazují a kam vedou.",
+   "takeaway": "Zkontrolujte nastavení Search kampaní v Microsoft Advertising – AI Max je volitelný, ale stávající funkce jako Predictive matching a autogenerované texty se do něj přesunou automaticky. Otestujte jednotlivé funkce postupně (např. přes optimization experiments), nastavte brand controls a URL pravidla, abyste udrželi kontrolu nad značkou a cílovými stránkami.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/2d20804ffa.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "d1f7109bb3",
+   "created": "2026-08-21T04:32:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-ads-removes-max-cpc-conversion-based-strategies",
+     "title": "Microsoft Ads Removes Max CPC for Conversion-Based Strategies",
+     "summary": "Microsoft Advertising is investing heavily in enhancing its bidding and measurement capabilities . Advertisers using conversion-based bidding strategies like TCPA and TROAS are finding it easier to meet their goals compared to those relying on legacy controls such as Max CPC, which can disrupt spend pacing due to overriding stated objectives. Starting October 1, 2026 , Microsoft Advertising will eliminate the ability to set a Max CPC for new campaigns using the standalone Max Conversion, Max Conversion Value, and Max Click bidding strategies .&nbsp; Source: Anthony Higman Existing campaigns wi",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T04:32:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Ads ruší Max CPC u konverzních strategií od října 2026",
+   "updated": "2026-08-21T09:09:36.561336+00:00",
+   "what": "Microsoft Advertising od 1. října 2026 zruší možnost nastavit Max CPC pro nové kampaně používající konverzní automatické strategie (Max Conversion, Max Conversion Value, Max Click). Stávající kampaně změna neovlivní.",
+   "why": "Max CPC podle Microsoftu narušuje tempo utrácení a znemožňuje automatickým strategiím (TCPA, TROAS) plnit stanovené cíle. Inzerentům, kteří dosud používali Max CPC jako pojistku, zůstane jen možnost plně důvěřovat automatice nebo upravit nastavení kampaní.",
+   "takeaway": "Pokud využíváte Microsoft Ads a plánujete nové konverzní kampaně, počítejte s tím, že od října 2026 ztratíte kontrolu přes Max CPC – ověřte, zda vám stávající automatické strategie dávají dostatečně předvídatelné výsledky, nebo upravte cílové hodnoty (TCPA/TROAS).",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "4410777aff",
+   "created": "2026-08-21T01:49:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-introduces-automatic-sitelink-suggestions",
+     "title": "Google Ads Introduces Automatic Sitelink Suggestions",
+     "summary": "Google Ads can now help advertisers find sitelinks for their ad extensions. A new feature within the Google Ads UI suggests sitelinks that can be added to ads, which link directly to specific pages on advertisers' websites. The interface displays a notification stating, \"I found some sitelinks for you,\" allowing users to click \"Review sitelinks\" to view suggestions based on their final URL. The interface showcases a \"Suggested\" tab alongside recommended sitelinks, enhancing usability for advertisers in optimizing their ads. This update was discovered by Arpan Banerjee and&nbsp; Barry Schwartz ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T01:49:00+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Google Ads Introduces Automatic Sitelink Suggestions",
+   "updated": "2026-08-21T09:09:36.561336+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/4410777aff.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "d8a091673b",
+   "created": "2026-08-20T21:57:25+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-api-v25-1-released",
+     "title": "Google Ads API v25.1 Released",
+     "summary": "Google has announced the release of v25.1 of the Google Ads API .&nbsp; New features in v25.1 include: Conversion lift and brand lift measurement: Comprehensive support for lift studies, including new metrics and resources. BenchmarksService category scoping: Enables benchmark analysis against specific Product &amp; Service Categories. Brand Sentiment Insights: New support for retrieving sentiment distributions and summaries for brands. Loyalty Program Segmentation: Allows reporting by loyalty tier and introducing conversion value rules. Original Conversion Value Metric: Surfaces unadjusted co",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T21:57:25+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads API v25.1: nové metriky pro brand lift a loyalitu zákazníků",
+   "updated": "2026-08-21T09:09:36.561336+00:00",
+   "what": "Google vydal verzi 25.1 svého Ads API. Přináší podporu pro měření conversion lift a brand lift, včetně nových metrik a zdrojů. Dále umožňuje srovnávací analýzy podle kategorií produktů/služeb (BenchmarksService), získávání brand sentiment dat, segmentaci podle zákaznických věrnostních programů a reporting původní konverzní hodnoty.",
+   "why": "Pro pokročilé inzerenty a agentury, které programově řídí Google Ads kampaně nebo vyvíjejí vlastní reporting, přináší nové možnosti měření dopadu kampaní na brand a detailnější segmentaci zákazníků podle věrnostních programů. Pro běžné uživatele rozhraní Google Ads zatím bez přímého dopadu.",
+   "takeaway": "Pokud používáte vlastní skripty nebo nástroje napojené na Google Ads API, sledujte dokumentaci k v25.1 a zvažte implementaci nových metrik pro hlubší analýzu kampaní. Pro běžnou práci v rozhraní Google Ads není potřeba nic měnit.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "1d02021f0e",
    "created": "2026-08-20T23:42:47+00:00",
