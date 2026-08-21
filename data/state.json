@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-21T19:11:40.500686+00:00",
+ "last_run": "2026-08-21T20:51:26.861180+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f3b53203c80>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd9e0a890d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,13 +95,13 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -179,24 +179,24 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Hana Kobzová",
-   "feed": "https://www.hanakobzova.cz/feed/",
-   "status": "ok",
+   "feed": "https://hanakobzova.cz/feed/",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f3b531f19d0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd9e1286780>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "ok",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -1708,7 +1708,8 @@
   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLXlpaXozUVdvMThBelR5MElONVNPMDdnb19kZk1SUFJST2pRX2UyZmEtRWlEeEVyZjBPeDFVMGJhNXFmOGs0QjFpbXZoY3NicG5xWkIyMDhUY2UxaVVWVnhKVUc5UEV3RENxMTltT3JHM2EzVDNfWlBTZDYweW9oY3BzMnB2VnNIZU9YYnV4cjJLN0hEQkpPYi14cVFiVXhMWkNYVEllZEIxYzlIU09yZS1xaXRIbEdoZXhkMndBa21FWlU?oc=5": "2026-08-21T17:00:33.961388+00:00",
   "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb3FnZHJmN250Y1hQc2RRSTZfYjhjbjVBSlhaa2ZnRnh2Ykh4ODZqX19WMlNmXzUxN1pYMW1oLU4yaXltaWVyaTF5VTNlN2ZxdGdmWWZFNFhaUzRRRDBpWjE3X3pkYnpia3dvMzdsdFBCUG0wQzdGdnZ2ZDBDVTcxeExya3RsSGxCYjBmTnhmdktQbjUzR1ZaRG9ocThhNnNwVnB4RUlUY1IxWUVyc2xRc0RNZGZPSXgycHFfQWtHRVRmX2xkZE9CYi1nNTYtb0pVREpJNGRjRGFQR254Y1d5MVNVbUNiX2YzcFkyUUg2RC0?oc=5": "2026-08-21T17:00:33.961388+00:00",
   "https://www.searchenginejournal.com/ai-mode-queries-are-3x-longer-the-case-for-leading-with-the-answer/585990": "2026-08-21T19:11:40.500686+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcVcwY1pwcWxlVUJscFVWRHlSQWJZdDBuRFNfREJLdDk4d0xqVVF0bHVuZ2J3QUdkQVgyZDBzcmVMdWNPTDJwSkRNMVItTXQxZHJYR3cwb3JCNUo4TWlpYmt3M01oamZlNVZ2QUJpaUwxRVdHWlp0V3hzOEJLUGpHTzRnMjdEZUJfekhCNWxaUlBKeWx0YjBmd0VR?oc=5": "2026-08-21T19:11:40.500686+00:00"
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcVcwY1pwcWxlVUJscFVWRHlSQWJZdDBuRFNfREJLdDk4d0xqVVF0bHVuZ2J3QUdkQVgyZDBzcmVMdWNPTDJwSkRNMVItTXQxZHJYR3cwb3JCNUo4TWlpYmt3M01oamZlNVZ2QUJpaUwxRVdHWlp0V3hzOEJLUGpHTzRnMjdEZUJfekhCNWxaUlBKeWx0YjBmd0VR?oc=5": "2026-08-21T19:11:40.500686+00:00",
+  "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GcC1nLWdFYmU4X3lpRmgxNnFDRWxhdVJ3UGJsR3d6eWV6ZTZBT2c4eDZ1SVRvTDIweGVITTBodjFiNmpL?oc=5": "2026-08-21T20:51:26.861180+00:00"
  },
  "events": [
   {
