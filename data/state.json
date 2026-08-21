@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-20T20:57:50.079010+00:00",
+ "last_run": "2026-08-21T05:01:46.139405+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fba96cfcfe0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f592e4375c0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -159,7 +159,7 @@
   },
   {
    "name": "Linki.cz",
-   "feed": "https://www.linki.cz/feed/",
+   "feed": "https://linki.cz/feed/",
    "status": "ok",
    "new": 0
   },
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 521, ?))",
+   "new": 4
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fba96cab5c0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Sprout Social",
@@ -371,7 +371,7 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "MarTech",
@@ -406,7 +406,8 @@
   "Backlinko": "https://backlinko.com/feed/",
   "Hana Kobzová": "https://hanakobzova.cz/feed/",
   "PPC Newsfeed": "https://ppcnewsfeed.com/feed/",
-  "Síť v malíčku": "https://sitevmalicku.cz/rss/"
+  "Síť v malíčku": "https://sitevmalicku.cz/rss/",
+  "Linki.cz": "https://linki.cz/feed/"
  },
  "seen": {
   "https://www.measurelab.co.uk/insights/podcast/assimilated-by-anthropic-what-we-lost-when-the-harness-died": "2026-08-14T09:18:56.681311+00:00",
@@ -1622,9 +1623,200 @@
   "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RYTNVRktwcGxoaHhHU21jZ0dMRXZXdTIwSnpBeHRVZXpJWTFDX05OMGpoSDVwZWZtUWJCenpDanFYUDg0QTFZbU50Ykw0cHlwdkZtU1lpNXBVUzNKdUxMcUluSVV5bHNvTGtIb2Q5TQ?oc=5": "2026-08-20T19:12:48.623299+00:00",
   "https://blog.hubspot.com/marketing/aeo-audit-tools": "2026-08-20T20:57:50.079010+00:00",
   "https://blog.hubspot.com/marketing/crm-rfp": "2026-08-20T20:57:50.079010+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUxnSm9vU2pMRmRMUnlXLUxMX1N4d2NfLUY4ckhPVVdLSXUydVFlUGRjM1VfRTBZZ2NEaW52dVExMFhka1p6MVBQMll4NmVjY2dYUXlCeWpKRVA1SGF1czU0Nmo5SmxZcEVRUWMxcDNYWktPejVzQUhUeGNsM0t2WUN5dmE4VGh1SS0wbnpUOGw2U0IzTE1LcmNOMUhRZUl6ZUtmdDlXclFUZ3dDQVlkRC15cTFNYVhwc2VvYUM3Z1E?oc=5": "2026-08-20T20:57:50.079010+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUxnSm9vU2pMRmRMUnlXLUxMX1N4d2NfLUY4ckhPVVdLSXUydVFlUGRjM1VfRTBZZ2NEaW52dVExMFhka1p6MVBQMll4NmVjY2dYUXlCeWpKRVA1SGF1czU0Nmo5SmxZcEVRUWMxcDNYWktPejVzQUhUeGNsM0t2WUN5dmE4VGh1SS0wbnpUOGw2U0IzTE1LcmNOMUhRZUl6ZUtmdDlXclFUZ3dDQVlkRC15cTFNYVhwc2VvYUM3Z1E?oc=5": "2026-08-20T20:57:50.079010+00:00",
+  "https://www.mediaguru.cz/trh-s-druhotnym-softwarem-je-prilezitost-kterou-mnozi-prehlizeji": "2026-08-21T05:01:46.139405+00:00",
+  "https://cc.cz/chtel-si-jenom-vydelat-na-skolu-pro-piloty-je-z-toho-ctvrt-miliardy-korun-rocne-diky-ceske-hravosti": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.lupa.cz/clanky/cesi-maji-medaile-z-olympiady-v-it-mladici-z-cr-se-sesli-s-sefem-openai-dalsi-cipovy-vzestup-ciny": "2026-08-21T05:01:46.139405+00:00",
+  "https://cc.cz/spalil-se-a-na-netflixu-prodelal-osm-miliard-ted-se-slavny-investor-vraci-a-zkousi-to-znovu": "2026-08-21T05:01:46.139405+00:00",
+  "https://cc.cz/misto-pokleknuti-zadal-zenu-o-ruku-pomoci-hry-pro-game-boy-cech-dava-starym-gadgetum-novy-udel": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sYVFYbkxuVkVNam15dHJDMjNza2hvZUhZLVBKRDctc1F6azU1MmtnTVNKc1VKUG93NjJaSEVYSy1kckVBV0xVdkx0elUtU3VKQzJiYjVBMF95YXNSdzY0YUFmNlk3aXl2NUx3ckxLaXhYZ1U1a2FBdnNsMA?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-says-1m-people-have-reported-ai-slop/828465": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/edits-gets-improved-project-management-and-ai-features/828464": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/meta-expands-vibe-coding-pocket-app-to-us-users/828463": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmTXZjZjAtMDE1dmotc2RMNFFKWFBfR3Nrd0loX09seXRnbzNXQmNRMkpmcnIwb01nYW5XcXBJWVdoby1aVk9nS1dkaU9QUUtfNmphNWltR21hZjBvSjBhbWRJMGlJUzl0cnoxejZvcVR1Qll6aUNuSHZiNA?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/meta-removes-option-to-exclude-ad-placements/828461": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.socialmediatoday.com/news/google-adds-simplified-ab-testing-for-search-ads/828458": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRk5ndW9mWFJRZHNNSUNYQklsd2hzT0lESDRoUU0tSGZYLUxybEs4ZWhFSENId1hqd21PaWd2TW11Y1J2amhjNTd3WmpZNjVtZVhVVjlLVEdaVDJ3OHRGeWxta1N2ZVpYeExlemJHa1hKRTJQUXdydGJGd2JwVkYzb3JjVFlrcUxhdUw1SkpfSVU?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFBY2dXSlM2a3NzNDNUVUNGMzFpYi1LMy1idy1KZTBOSkhKUF9HWFdzaWtPdUlNU3E2ZjFmb1pyS2lTRlRxTlRZNkVGYTYyaWdaNTEtOW5zM1drUHVqUzl2anh1R2FnM3F0UTVoZ3lGMFg1Z3JPLWp2dmU0aFBjY1NTQUpFQmhhUFN0QXo1UQ?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSUNiZ3Z6Qm5xdGhKWVZydXFEbjB0MHZfSEpINkVhZGNTR0psVE1wYmFmMHl2MlQ2WGR3NklJTGlHUFFnTG01QXN1eHVEWUczZDdTOUJIV0NFQ3hlbWNQTnhmdFhMcUw5WDJ1dUk4dzREcWNKMm5CSm93eTlEcWx1MmxKU09MOEpycTFYRXdFNFZxRDFuTWpfb0IwM1dQdjVMY1RmYTlfaw?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zZW9ERVdjNEpyR19sWmJBQllQdzk5c2xveWQ3WUVJTExmbFNETmRkUzFtck9Bd19yN1VtTHlBYlk4SElWY3pFV3JsNThKQnVscFFkTlF5Y19PRGM0Q0ZaVDU1MWxlMUU?oc=5": "2026-08-21T05:01:46.139405+00:00"
  },
  "events": [
+  {
+   "id": "1d02021f0e",
+   "created": "2026-08-20T23:42:47+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sYVFYbkxuVkVNam15dHJDMjNza2hvZUhZLVBKRDctc1F6azU1MmtnTVNKc1VKUG93NjJaSEVYSy1kckVBV0xVdkx0elUtU3VKQzJiYjVBMF95YXNSdzY0YUFmNlk3aXl2NUx3ckxLaXhYZ1U1a2FBdnNsMA?oc=5",
+     "title": "Google Ads API v25.1 Released",
+     "summary": "Google Ads API v25.1 Released &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T23:42:47+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads API v25.1 je venku",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "Google vydal novou verzi svého Google Ads API – v25.1. Jde o update programátorského rozhraní, přes které nástroje a agentury spravují kampaně.",
+   "why": "Nové verze API mohou přinést nové funkce pro automatizaci nebo vyžadovat aktualizaci nástrojů, které vaše firma nebo agentura používá pro správu Google Ads kampaní.",
+   "takeaway": "Pokud používáte nástroje třetích stran nebo vlastní skripty pro správu Google Ads, ověřte u dodavatele nebo vývojáře, zda jsou kompatibilní s v25.1. Google obvykle postupně vyřazuje starší verze API.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "b8e3f90b6a",
+   "created": "2026-08-20T23:18:27+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
+     "title": "YouTube simplifies its AI claims process",
+     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T23:18:27+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "YouTube zjednodušil proces pro nahlášení AI manipulace s obsahem",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "YouTube aktualizoval systém pro nahlašování AI manipulace s obsahem tvůrců. Platforma nyní aktivně upozorňuje tvůrce, když někdo potenciálně zneužil jejich podobu nebo hlas pomocí AI, a umožňuje jim spor snáze vyřídit.",
+   "why": "Pro firmy a tvůrce využívající YouTube je to ochrana před deepfake zneužitím jejich identity a brandové reputace. Zjednodušený proces snižuje riziko, že falešný obsah s jejich podobou zůstane nenahlášený a poškodí důvěryhodnost.",
+   "takeaway": "Pokud vaše firma má YouTube kanál s tvářemi zaměstnanců nebo ambasadorů, ověřte, že máte správně nastavené notifikace a znáte nový proces nahlášení. V případě podezření na zneužití můžete rychleji reagovat a chránit reputaci.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "3ae7341faf",
+   "created": "2026-08-20T21:53:57+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-removes-option-to-exclude-ad-placements/828461",
+     "title": "Meta removes option to exclude ad placements",
+     "summary": "The company will use an automated system to target display options, and brands will no longer be able to decide which apps receive promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T21:53:57+00:00",
+     "score": 67
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 72,
+   "title": "Meta ruší manuální výběr umístění reklam, nasazuje plnou automatizaci",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "Meta odstranila možnost vyloučit konkrétní aplikace a umístění pro zobrazení reklam. Místo toho bude systém automaticky rozhodovat, kde se reklamy zobrazí. Inzerenti už nebudou moci určit, ve kterých aplikacích se jejich propagace objeví.",
+   "why": "Změna zasahuje do kontroly nad brandovou bezpečností a cílením. Firmy ztrácejí možnost vyhnout se nevhodným aplikacím nebo obsahu, což může ovlivnit vnímání značky. Zároveň Meta argumentuje lepší optimalizací výkonu skrze automatizaci.",
+   "takeaway": "Zkontrolujte nastavení kampaní na Facebooku a Instagramu – pokud jste dříve vylučovali konkrétní umístění, tato volba zmizela. Připravte se na menší kontrolu nad tím, kde se vaše reklamy zobrazí. Sledujte metriky brand safety a případně upravte kreativy tak, aby fungovaly v širším spektru kontextů.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/3ae7341faf.jpg",
+   "image_from": "socialmediatoday.com"
+  },
+  {
+   "id": "22083fc83e",
+   "created": "2026-08-20T20:13:48+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/google-adds-simplified-ab-testing-for-search-ads/828458",
+     "title": "Google adds simplified A/B testing for search ads",
+     "summary": "The new creation flow will make it easier for brands to experiment with promotional campaigns and determine how changes affect performance.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T20:13:48+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google zjednodušil A/B testování textových reklam",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "Google spustil nový zjednodušený proces pro tvorbu A/B testů u textových reklam ve vyhledávání. Nová funkce má usnadnit testování např. propagačních kampaní a vyhodnocování vlivu změn na výkon.",
+   "why": "Zjednodušení A/B testování umožňuje i méně zkušeným PPC specialistům efektivněji testovat různé varianty reklam a na základě dat optimalizovat výkon kampaní.",
+   "takeaway": "Zkontrolujte, zda je nový nástroj už dostupný ve vašem Google Ads účtu a zvažte jeho využití pro testování variant reklam v aktuálních kampaních – například při přípravě sezónních nebo promo kampaní.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/22083fc83e.jpg",
+   "image_from": "socialmediatoday.com"
+  },
+  {
+   "id": "60e52e3441",
+   "created": "2026-08-20T10:04:11+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRk5ndW9mWFJRZHNNSUNYQklsd2hzT0lESDRoUU0tSGZYLUxybEs4ZWhFSENId1hqd21PaWd2TW11Y1J2amhjNTd3WmpZNjVtZVhVVjlLVEdaVDJ3OHRGeWxta1N2ZVpYeExlemJHa1hKRTJQUXdydGJGd2JwVkYzb3JjVFlrcUxhdUw1SkpfSVU?oc=5",
+     "title": "YouTube Officially Introduces Watch-While Ads",
+     "summary": "YouTube Officially Introduces Watch-While Ads &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T10:04:11+00:00",
+     "score": 77
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "YouTube spouští nový reklamní formát Watch-While Ads",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "YouTube oficiálně představil nový formát reklam nazvaný Watch-While Ads. Detaily o fungování formátu nejsou v dostupném zdroji uvedeny.",
+   "why": "Nový reklamní formát na YouTube může ovlivnit strategie video marketingu a rozpočty na tuto platformu, pokud bude zaveden i v ČR.",
+   "takeaway": "Sledujte oficiální oznámení YouTube a dostupnost formátu v České republice. Až bude více informací, vyhodnoťte, zda formát zapadá do vaší video strategie a jak může ovlivnit výkon stávajících kampaní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "537964041a",
+   "created": "2026-08-20T02:58:47+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFBY2dXSlM2a3NzNDNUVUNGMzFpYi1LMy1idy1KZTBOSkhKUF9HWFdzaWtPdUlNU3E2ZjFmb1pyS2lTRlRxTlRZNkVGYTYyaWdaNTEtOW5zM1drUHVqUzl2anh1R2FnM3F0UTVoZ3lGMFg1Z3JPLWp2dmU0aFBjY1NTQUpFQmhhUFN0QXo1UQ?oc=5",
+     "title": "Native Commerce Attribute Help Page Released",
+     "summary": "Native Commerce Attribute Help Page Released &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T02:58:47+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads spustil nápovědu k atributům Native Commerce",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "Google Ads publikoval novou help page věnovanou atributům Native Commerce. Jde o dokumentaci k funkcionalitě, která umožňuje propojit produktové katalogy s reklamními kampaněmi.",
+   "why": "Pro e-shopy a PPC specialisty je důležité sledovat dokumentaci nových funkcí Google Ads – Native Commerce atributy mohou ovlivnit nastavení produktových kampaní a feed management.",
+   "takeaway": "Pokud provozujete produktové kampaně v Google Ads, zkontrolujte novou dokumentaci k Native Commerce atributům a zjistěte, zda vás se týká a jak ji využít pro lepší propojení katalogu s kampaněmi.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "6f46d703cf",
+   "created": "2026-08-19T15:46:38+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSUNiZ3Z6Qm5xdGhKWVZydXFEbjB0MHZfSEpINkVhZGNTR0psVE1wYmFmMHl2MlQ2WGR3NklJTGlHUFFnTG01QXN1eHVEWUczZDdTOUJIV0NFQ3hlbWNQTnhmdFhMcUw5WDJ1dUk4dzREcWNKMm5CSm93eTlEcWx1MmxKU09MOEpycTFYRXdFNFZxRDFuTWpfb0IwM1dQdjVMY1RmYTlfaw?oc=5",
+     "title": "Google Expands View-Through Conversion Optimization for Demand Gen",
+     "summary": "Google Expands View-Through Conversion Optimization for Demand Gen &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T15:46:38+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google rozšiřuje optimalizaci View-Through Conversions v Demand Gen kampaních",
+   "updated": "2026-08-21T05:01:46.139405+00:00",
+   "what": "Google rozšířil možnosti optimalizace kampaní Demand Gen o view-through konverze. Jde o konverze, kdy uživatel viděl reklamu, ale neklikl na ni – až později (v rámci conversion window) provedl konverzi.",
+   "why": "Demand Gen kampně v Google Ads nyní mohou optimalizovat nejen na přímé kliky, ale i na konverze po pouhém zhlédnutí reklamy. Pro zadavatele to znamená potenciálně širší záběr a lepší využití rozpočtu v top-of-funnel kampaních zaměřených na povědomí.",
+   "takeaway": "Pokud v Google Ads využíváte Demand Gen, zkontrolujte nastavení konverzních akcí a conversion window. Zvažte zapnutí view-through optimalizace, zvlášť pokud cílíte na širší publika a budujete povědomí – může to zlepšit efektivitu kampaně.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/6f46d703cf.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
   {
    "id": "1922d57b82",
    "created": "2026-08-20T18:13:03+00:00",
