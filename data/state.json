@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-21T05:01:46.139405+00:00",
+ "last_run": "2026-08-21T07:20:43.945110+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f592e4375c0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f9e69f88050>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 521, ?))",
-   "new": 4
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f9e6a1b69c0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 6
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -1640,7 +1640,9 @@
   "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRk5ndW9mWFJRZHNNSUNYQklsd2hzT0lESDRoUU0tSGZYLUxybEs4ZWhFSENId1hqd21PaWd2TW11Y1J2amhjNTd3WmpZNjVtZVhVVjlLVEdaVDJ3OHRGeWxta1N2ZVpYeExlemJHa1hKRTJQUXdydGJGd2JwVkYzb3JjVFlrcUxhdUw1SkpfSVU?oc=5": "2026-08-21T05:01:46.139405+00:00",
   "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFBY2dXSlM2a3NzNDNUVUNGMzFpYi1LMy1idy1KZTBOSkhKUF9HWFdzaWtPdUlNU3E2ZjFmb1pyS2lTRlRxTlRZNkVGYTYyaWdaNTEtOW5zM1drUHVqUzl2anh1R2FnM3F0UTVoZ3lGMFg1Z3JPLWp2dmU0aFBjY1NTQUpFQmhhUFN0QXo1UQ?oc=5": "2026-08-21T05:01:46.139405+00:00",
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSUNiZ3Z6Qm5xdGhKWVZydXFEbjB0MHZfSEpINkVhZGNTR0psVE1wYmFmMHl2MlQ2WGR3NklJTGlHUFFnTG01QXN1eHVEWUczZDdTOUJIV0NFQ3hlbWNQTnhmdFhMcUw5WDJ1dUk4dzREcWNKMm5CSm93eTlEcWx1MmxKU09MOEpycTFYRXdFNFZxRDFuTWpfb0IwM1dQdjVMY1RmYTlfaw?oc=5": "2026-08-21T05:01:46.139405+00:00",
-  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zZW9ERVdjNEpyR19sWmJBQllQdzk5c2xveWQ3WUVJTExmbFNETmRkUzFtck9Bd19yN1VtTHlBYlk4SElWY3pFV3JsNThKQnVscFFkTlF5Y19PRGM0Q0ZaVDU1MWxlMUU?oc=5": "2026-08-21T05:01:46.139405+00:00"
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zZW9ERVdjNEpyR19sWmJBQllQdzk5c2xveWQ3WUVJTExmbFNETmRkUzFtck9Bd19yN1VtTHlBYlk4SElWY3pFV3JsNThKQnVscFFkTlF5Y19PRGM0Q0ZaVDU1MWxlMUU?oc=5": "2026-08-21T05:01:46.139405+00:00",
+  "https://www.mediaguru.cz/ct-zarazuje-pelisky-i-kryci-jmeno-holec-s-premierou-prichazi-hbo-max": "2026-08-21T07:20:43.945110+00:00",
+  "https://www.mediar.cz/pelisky-holec-kryl-kubisova-ct-pripomene-srpnovou-okupaci-roku-1968": "2026-08-21T07:20:43.945110+00:00"
  },
  "events": [
   {
@@ -2624,13 +2626,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 70,
-   "title": "Native Commerce Attribute Help Page Released",
+   "importance": 72,
+   "title": "Google Merchant Center: nový atribut pro nákup přímo v AI režimu",
    "updated": "2026-08-20T05:00:40.906515+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/c1eae1bf60.jpg",
-   "image_from": "ppcnewsfeed.com"
+   "image_from": "ppcnewsfeed.com",
+   "what": "Google Merchant Center představil nový atribut native_commerce, který umožňuje prodej produktů přímo v rozhraní Googlu (Gemini, AI Mode v Search) bez nutnosti přechodu na web. Atribut se přidává přes doplňkové feedy a řídí zobrazení tlačítka \"Buy Now\".",
+   "why": "Pro e-shopy s Google Ads a Merchant Center to otevírá nový prodejní kanál – zákazníci mohou nakoupit přímo v AI výsledcích, což zkracuje cestu ke konverzi. Zároveň to znamená méně návštěv na webu, což ovlivní měření a retargeting.",
+   "takeaway": "Ověřte, zda vaše produkty splňují podmínky pro native_commerce (kontrola v Merchant Center). Zvažte pilotní test doplňkového feedu, sledujte dopad na konverze a web analytics – část prodejů se přesune mimo váš web."
   },
   {
    "id": "b4e08fed3a",
