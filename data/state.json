@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-21T10:55:51.154209+00:00",
+ "last_run": "2026-08-21T13:19:07.542566+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f64445eb3b0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f7e77fdf7d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -82,32 +82,32 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 8
   },
   {
    "name": "Google Search Central Blog",
@@ -149,7 +149,7 @@
    "name": "Lumar",
    "feed": "https://www.lumar.io/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Rank Math",
@@ -185,12 +185,12 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
    "feed": "https://hanakobzova.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='hanakobzova.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -209,13 +209,13 @@
    "name": "Microsoft Advertising blog",
    "feed": "https://about.ads.microsoft.com/en/blog/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Ecomail blog",
@@ -285,7 +285,7 @@
   },
   {
    "name": "Síť v malíčku",
-   "feed": "https://sitevmalicku.cz/feed/",
+   "feed": "https://sitevmalicku.cz/rss/",
    "status": "ok",
    "new": 0
   },
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "status": "chyba: empty feed (HTTP 500, text/html)",
    "new": 0
   },
   {
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -1659,9 +1659,353 @@
   "https://www.marketingbrew.com/stories/k18-tumblehair-hairball-activation-ooh-strategy": "2026-08-21T10:55:51.154209+00:00",
   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZVlqR2Vwakk3X2tsNVZnREg0VXJpbC13OXpHc2VQemRjeEpQS0J6U2lnUUZRUWJEN0NNUnRySmZyUW11WEVSc3NLV0psUlM0WmNrYWZrWGNiY1FuWXZfQ3RoSzhFejJUMm91ZVBJbnowbFBWQy1vSVVPdXhIRmdaVm4yNnpxMVlIRlpz?oc=5": "2026-08-21T10:55:51.154209+00:00",
   "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html": "2026-08-21T10:55:51.154209+00:00",
-  "https://cc.cz/prazske-studio-tvori-ai-serii-ve-stylu-netflixovskeho-hitu-misto-let-jim-stacily-2-tydny-a-zlomek-rozpoctu": "2026-08-21T10:55:51.154209+00:00"
+  "https://cc.cz/prazske-studio-tvori-ai-serii-ve-stylu-netflixovskeho-hitu-misto-let-jim-stacily-2-tydny-a-zlomek-rozpoctu": "2026-08-21T10:55:51.154209+00:00",
+  "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping": "2026-08-21T13:19:07.542566+00:00",
+  "https://cc.cz/mladi-manzele-rozjeli-vysnenou-kavarnu-vypada-jako-obyvak-a-na-jejich-krupicovou-kasi-se-stoji-fronty": "2026-08-21T13:19:07.542566+00:00",
+  "https://martech.org/marketers-dont-trust-the-data-used-to-shape-budgets": "2026-08-21T13:19:07.542566+00:00",
+  "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently": "2026-08-21T13:19:07.542566+00:00",
+  "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored": "2026-08-21T13:19:07.542566+00:00",
+  "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/video-08-21-2026-41915.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://martech.org/why-long-sales-cycles-make-b2b-marketing-so-hard-to-measure": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.searchenginejournal.com/googles-generated-interfaces-could-compete-with-tool-pages/586589": "2026-08-21T13:19:07.542566+00:00",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdUF5aXRDRVFMQXo1bjljS1NwRHJUMmw5N1J5TGtZTlBKMlB4UXItY1JHSlQ2WjZmU2R4TElQTXVSaVhuUUxOTGRxaGY4YlNiaTh5NDdVbU5rc3VfV01oRHlKQzFHeWJFeC1lS0phdVR4NDFXTXI1c2NxOFNkalY0aTRxVjE5T0JyY3NNR3NuMDdoYUtORVpJ?oc=5": "2026-08-21T13:19:07.542566+00:00",
+  "https://cc.cz/znate-ji-z-televizni-reklamy-ted-z-ceske-hry-bude-animovany-film-v-hlavni-roli-skodovka-a-martin-dejdar": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/google-preferred-source-button-update-41912.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.mediaguru.cz/netradicni-aktivace-jizerske-50-privezla-snih-na-karluv-most": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://ppchero.com/performance-max-brand-leak-audit": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/google-ads-ai-max-experimentation-planning-41910.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/google-lsa-prebadge-new-verticals-41920.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/json-ld-extraction-googlebot-41921.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/google-discover-tailored-feed-by-words-41911.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.lupa.cz/aktuality/cesi-odstranuji-limity-soucasne-ai-vytvorili-dlouhodobou-pamet-pro-chatgpt-claude-a-dalsi": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.seroundtable.com/google-tag-and-google-tag-manager-updated-41918.html": "2026-08-21T13:19:07.542566+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-updates-minimum-product-image-size-product-feeds": "2026-08-21T13:19:07.542566+00:00",
+  "https://www.lumar.io/blog/best-practice/semantic-relevance-ai-search-visibility": "2026-08-21T13:19:07.542566+00:00",
+  "https://blog.hubspot.com/marketing/peec-ai-alternatives": "2026-08-21T13:19:07.542566+00:00",
+  "https://blog.hubspot.com/marketing/tech-stack-consolidation": "2026-08-21T13:19:07.542566+00:00",
+  "https://cc.cz/chtel-vzdat-poctu-otci-i-nepravem-opomijenemu-maliri-vaclav-cernoch-otevrel-v-centru-prahy-novou-galerii": "2026-08-21T13:19:07.542566+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMExYSHB0djN1cjRiR2lkeWl1QmNiMXcydGwxZXdybzNYNGliV2ROTmg0alE5VVZZYVVJbmVjZ1BDYklFTmFpU3QzM04xRktralRWbF94M2xyaEkxVy1fTXFVSk8wczR1NXk2Z3RlNmZ6bXJaRGlwd1BVRVVhdEgzc1gxOUpGQy1pbHQ0cjhSaWFPNXotb2FCdllCV2x5Mk5xQXlxUXd0enB1T180X3R4bXRIRTNuTzJzT3JLQVJaUDc?oc=5": "2026-08-21T13:19:07.542566+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3E0Z1BvNUFROWJ1MFVLNE9jdkZXcFNUY0lLR0JNbmhWSXhVUVFoNE5qSWhVNTR5bjlmLUZrXzFuZURoVzJ4bTFHb2h5MTZMSUctSThHOGx6LW5hTUQ1UzFiZDQxTW52TnZHX1JFLWNPRjA1cHVpYXR1T0JkNndlNEQ0RUxxcEVLTTRtMUhSLVUzc1BXeFQ5Mw?oc=5": "2026-08-21T13:19:07.542566+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS21JX2c1Vm04dTM5dkNwV2xTTmJ5TnJPSlVILUo1X2psNHQ3UWR5UjJpQzM0WVZWcGdfa2Z1WTZsbzI5aXpGWW1IRHozMExMNC1fQUxUMHlTbm1RYVA3dVFadWpJeGEya09aVnhyZndSbl9TREVVcC15YUVWTU1STkJaa05QNjlZUmdOZGFCZGFQbU1IcEVXenhMcEk4Y0pBbFE2ZUk5QzZxcmF3SkRLc2FkSE1HZw?oc=5": "2026-08-21T13:19:07.542566+00:00"
  },
  "events": [
+  {
+   "id": "b1d8047325",
+   "created": "2026-08-10T14:43:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNm43eGdpeTRmd2RIcVJhbHowWG5XYnFuY3o5WnhpSlBORzhZTjc5ZlpEZS1aUEZzSl9kaHF1bzlkeEpyYktldUdsZC1xOGN1TDF0QTZIWnVMTU5VR2x4ekxCR0dXXzZhQTBWd1dmVVhBWmNvN0ZnbEJOZVpaWEQ0azdhQ05EaWRWNWJMTVVLVzJzSkp4RjAzd2lQNGM?oc=5",
+     "title": "Google brings new AI agent capabilities to Ads and Analytics",
+     "summary": "Google brings new AI agent capabilities to Ads and Analytics &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T14:43:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-ai-max-experimentation-planning-41910.html",
+     "title": "Google Ads & AI Max New Experimentation & Planning Features",
+     "summary": "Google announced it is rolling out new experimentation and planning capabilities in Google Ads and AI Max. There are new A/B test capabilities, brand and location parameters options and new Performance Planner predictions.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:23:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads dostává nové AI funkce pro experimentování a plánování",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google rozšiřuje AI schopnosti v Google Ads a Performance Max. Přidává nové možnosti A/B testování, parametry pro značku a lokaci a vylepšené predikce v Performance Planneru. Jde o postupné rozšiřování experimentálních nástrojů a plánovacích funkcí.",
+   "why": "Pro marketingové manažery v ČR to znamená lepší možnosti testování kampaní a přesnější plánování rozpočtů. Nové parametry pro lokaci mohou pomoci při cílení na český trh a A/B testy umožní ověřovat efektivitu různých přístupů před plným nasazením.",
+   "takeaway": "Sledujte dostupnost nových funkcí ve vašem Google Ads účtu. Až budou aktivní, využijte A/B testy pro ověření změn před jejich nasazením na celý rozpočet a zkontrolujte, zda nové lokační parametry lépe pokrývají české regiony.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/b1d8047325.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "3ac42f60e1",
+   "created": "2026-08-21T13:18:04.498824+00:00",
+   "articles": [
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping",
+     "title": "How businesses win when AI does the shopping",
+     "summary": "AI is already the fastest-growing retail channel. Our playbook helps you prepare for the age of AI shopping and agentic commerce.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-08-21T13:18:04.498824+00:00",
+     "score": 69
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft radí, jak se připravit na nákupy řízené AI",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Microsoft Advertising publikoval playbook o přípravě na éru AI nákupů a agentic commerce. Podle Microsoftu je AI již nejrychleji rostoucím retailovým kanálem.",
+   "why": "Jde o strategický materiál od provozovatele Microsoft Ads, který naznačuje směr vývoje e-commerce a PPC. Pokud AI skutečně přebírá roli nákupního agenta zákazníků, změní se způsob, jakým značky optimalizují kampaně a product feedy.",
+   "takeaway": "Sledujte doporučení Microsoftu – může to ovlivnit budoucí nastavení kampaní v Microsoft Ads i strukturu produktových dat. Zatím jde o přípravu na trend, který v ČR ještě není masový, ale u globálních platforem může přijít rychle.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "1ac2a6fb71",
+   "created": "2026-08-21T12:01:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/marketers-dont-trust-the-data-used-to-shape-budgets",
+     "title": "B2B marketers don’t trust the data used to shape budgets",
+     "summary": "Marketing data influences budgets, but only 49% fully trust its accuracy and completeness. Disconnected reporting is behind the confidence gap. The post B2B marketers don’t trust the data used to shape budgets appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:47:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://martech.org/why-long-sales-cycles-make-b2b-marketing-so-hard-to-measure",
+     "title": "Why long sales cycles make B2B marketing hard to measure",
+     "summary": "Long B2B sales cycles make most marketing measurement unreliable. Learn why clicks, leads, and conversions don’t tell the full story. The post Why long sales cycles make B2B marketing hard to measure appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:01:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "analytika",
+   "importance": 62,
+   "title": "Polovina B2B marketerů nedůvěřuje datům, na kterých staví rozpočty",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Podle aktuálního průzkumu pouze 49 % B2B marketerů plně důvěřuje přesnosti a úplnosti dat, která používají pro plánování marketingových rozpočtů. Hlavním problémem je roztříštěná reportovací infrastruktura. Dlouhé prodejní cykly v B2B navíc znemožňují spolehlivé měření, protože standardní metriky jako kliky, leady nebo konverze neposkytují úplný obraz.",
+   "why": "Pro marketingového manažera v ČR je to zásadní problém – pokud nejsou data důvěryhodná, těžko obhájí rozpočet nebo prokáže návratnost investic. V B2B prostředí, kde mezi prvním kontaktem a uzavřením obchodu mohou být týdny až měsíce, klasické atribuční modely selhávají a neumožňují správně vyhodnotit, které kanály skutečně fungují.",
+   "takeaway": "Zkontrolujte, zda máte propojené všechny zdroje dat (web analytika, CRM, PPC platformy, e-mailing) a umíte sledovat celou zákaznickou cestu, ne jen poslední klik. U B2B kampaní počítejte s delším vyhodnocovacím oknem a sledujte i mezikroky (opakované návštěvy, engaged sessions, interakce s obsahem), ne pouze přímé konverze.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "fae3846397",
+   "created": "2026-08-21T12:46:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently",
+     "title": "What the teams getting the most from AI do differently",
+     "summary": "Teams built around autonomy, experimentation, and cross-functional work can turn AI’s speed into faster campaigns without adding headcount. The post What the teams getting the most from AI do differently appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:46:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "Jak nejúspěšnější marketingové týmy využívají AI",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Podle analýzy MarTech dosahují nejlepších výsledků s AI týmy, které jsou založené na autonomii, experimentování a mezifunkční spolupráci. Tyto týmy dokážou využít rychlost AI k tvorbě rychlejších kampaní bez nutnosti navyšovat počet zaměstnanců.",
+   "why": "Ukazuje strukturální předpoklady pro efektivní využití AI v marketingu – nejde jen o nástroje, ale o způsob organizace práce týmu.",
+   "takeaway": "Pokud chcete z AI vytěžit maximum, zaměřte se na reorganizaci týmu směrem k větší autonomii a mezioborové spolupráci, ne jen na nákup nástrojů. Umožněte týmu experimentovat s AI bez zbytečné byrokracie.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e49e2ef52b",
+   "created": "2026-08-21T12:01:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/video-08-21-2026-41915.html",
+     "title": "Search News Buzz Video Recap: Google Unleashed The August 2026 Spam Update, Gemini 3.7 Powers AI Mode, Google and Microsoft Ads News & More",
+     "summary": "Google has released its third spam update of the 2026 year, the August 2026 spam update this week and finished rolling out Friday morning at 4:50am. Google Search's AI Mode is now being powered sometimes by...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T12:01:00+00:00",
+     "score": 78
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google spustil třetí spam update roku 2026, dokončen v pátek ráno",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google vypustil August 2026 spam update, třetí spam aktualizaci algoritmu v letošním roce. Rollout byl dokončen v pátek ráno ve 4:50. Zároveň Google Search AI Mode nyní někdy využívá Gemini 3.7.",
+   "why": "Spam updaty mohou ovlivnit pozice webu ve vyhledávání, zejména pokud používá nízkohodnotný nebo umělý obsah. Pro SEO specialisty a manažery platí, že třetí spam update za rok signalizuje zvýšený důraz Googlu na kvalitu.",
+   "takeaway": "Zkontrolujte návštěvnost a pozice svého webu v Google Search Console během příštích dnů. Pokud zaznamenáte pokles, analyzujte obsah stránek, které klesly – může jít o problém s kvalitou, AI generovaným obsahem nebo spamovými technikami.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "82ce064abf",
+   "created": "2026-08-21T12:00:32+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/googles-generated-interfaces-could-compete-with-tool-pages/586589",
+     "title": "Google’s Generated Interfaces Could Compete With Tool Pages via @sejournal, @MattGSouthern",
+     "summary": "AI Overviews can now build interactive tools inside Search. Google’s testing shows generated interfaces often beat top results in head-to-head comparisons. The post Google’s Generated Interfaces Could Compete With Tool Pages appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-21T12:00:32+00:00",
+     "score": 72
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google testuje interaktivní nástroje přímo ve vyhledávání – ohrožení pro weby",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google rozšiřuje AI Overviews o generované interaktivní rozhraní, která vytváří funkční nástroje přímo ve výsledcích vyhledávání. Interní testy Googlu ukazují, že tyto AI-generované nástroje v přímém srovnání často překonávají top výsledky organického vyhledávání.",
+   "why": "Jde o zásadní posun: uživatelé mohou vyřešit svůj úkol přímo ve vyhledávači, aniž by navštívili jakýkoliv web. To ohrožuje zejména weby nabízející jednoduché utility a kalkulačky, které dosud přitahovaly návštěvnost a generovaly konverze. Pro weby provozující nástroje to může znamenat pokles organické návštěvnosti a potřebu přehodnotit strategii přitahování uživatelů.",
+   "takeaway": "Zkontrolujte, zda váš web nabízí nástroje či kalkulačky, které lze snadno replikovat AI. Připravte se na možný pokles návštěvnosti z těchto sekcí a zvažte prohloubení hodnoty těchto stránek (personalizace, uložení dat, pokročilé funkce), kterou AI zatím nedokáže nahradit. Sledujte vývoj AI Overviews – funkce zatím není potvrzena globálně, ale trend je jasný.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/82ce064abf.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "01243c9322",
+   "created": "2026-08-21T11:41:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html",
+     "title": "Microsoft Advertising Max CPC Won't Be Available For New Campaigns On Oct 1",
+     "summary": "Microsoft Advertising sent out emails yesterday announcing changes coming to Max CPC bidding. Microsoft wrote, \"Max CPC will no longer be available when creating new non-portfolio campaigns\" after October 1, 2026.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:41:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Ads ruší Max CPC pro nové kampaně od října 2026",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Microsoft Advertising oznámil, že od 1. října 2026 nebude možné vytvářet nové kampaně (mimo portfolia) s nabídkovou strategií Max CPC. Stávající kampaně s Max CPC budou fungovat i nadále.",
+   "why": "Změna ovlivní všechny inzerenty na Microsoft Ads, kteří dosud používali nebo plánovali používat manuální nabídkovou strategii Max CPC pro kontrolu maximální ceny za proklik. Budou muset přejít na jiné nabídkové strategie (např. Manual CPC nebo automatické nabídky).",
+   "takeaway": "Pokud používáte Microsoft Ads a spoléháte na Max CPC, připravte se na přechod na jinou nabídkovou strategii do října 2026. Stávající kampaně můžete ponechat, ale nové již s Max CPC nevytvoříte. Otestujte alternativy včas.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "aee11c1fd0",
+   "created": "2026-08-21T11:23:35+00:00",
+   "articles": [
+    {
+     "url": "https://ppchero.com/performance-max-brand-leak-audit",
+     "title": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
+     "summary": "Performance Max often reports your best return because it is quietly buying your own brand. Here is the audit that sizes the leak, and the levers that plug it. &lt;p&gt;The post The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-21T11:23:35+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/aee11c1fd0.jpg",
+   "image_from": "ppchero.com"
+  },
+  {
+   "id": "ebcab1f2aa",
+   "created": "2026-08-21T11:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-lsa-prebadge-new-verticals-41920.html",
+     "title": "Google Local Service Ads Pre-Badge Ads & Expansion Of Verticals",
+     "summary": "Google has made some big updates to Local Service Ads. Even though LSAs are transitioning to Google Ads, Google is clearly still investing in the LSA product. Google added something called pre-badge ads, massively expanded the verticals and the verified ads badge updated its exclusions.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:21:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 15,
+   "title": "Google rozšiřuje Local Service Ads o nové obory a předbedžové inzerce",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google aktualizoval Local Service Ads (LSA). Přidal tzv. pre-badge ads (reklamy před získáním ověřovacího odznaku), výrazně rozšířil nabídku oborů a upravil pravidla pro ověřovací odznaky. Toto se děje i přesto, že LSA přechází pod Google Ads.",
+   "why": "Local Service Ads jsou zatím primárně americký produkt, v ČR nejsou (dosud) dostupné. Pro české marketéry jde o novinku mimo dosah, relevantní pouze pokud sledují globální trendy nebo řídí kampaně v USA.",
+   "takeaway": "Pokud neřídíte kampaně v USA nebo v oborech, kde LSA fungují, tato novinka vás bezprostředně neovlivní. Sledujte, zda Google plánuje rozšíření LSA do Evropy.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "1e4893e6b9",
+   "created": "2026-08-21T11:15:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/json-ld-extraction-googlebot-41921.html",
+     "title": "JSON-LD Extraction For Googlebot Now Does One Pass Of HTML Unescaping",
+     "summary": "Google's crawler now strictly enforces standard JSON formatting when reading your site's structured data, schema markup, instead of auto-correcting double-escaped HTML text. \"To bring our parser up to JSON and other standards, we changed our JSON-LD extraction and are now only applying a single pass of HTML unescaping,\" Google posted on LinkedIn.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:15:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Google přísnější na JSON-LD: už neopravuje dvojité escapování HTML",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google změnil způsob, jakým Googlebot parsuje JSON-LD strukturovaná data. Místo automatické opravy chyb v escapování HTML znaků nyní provádí pouze jeden průchod HTML unescapingu a striktně vyžaduje standardní JSON formát.",
+   "why": "Weby s nesprávně escapovanými strukturovanými daty (dvojité escapování HTML entit v JSON-LD) nemusí být Googlem správně přečteny, což může ohrozit zobrazení rich snippets ve vyhledávání.",
+   "takeaway": "Zkontrolujte implementaci JSON-LD na webu – pokud používáte escapované HTML entity ve structured data, ověřte, že jsou escapovány pouze jednou. Otestujte kód pomocí Rich Results Test od Googlu.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/1e4893e6b9.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "3a29a5fdc1",
+   "created": "2026-08-21T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-tag-and-google-tag-manager-updated-41918.html",
+     "title": "Google Tag & Google Tag Manager Updated",
+     "summary": "Google updated the Google Tag and Google Tag Manager. Google said, \"these changes are designed to streamline your measurement setup, improve performance and management, and provide a more unified experience across Google's tagging products.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:05:00+00:00",
+     "score": 78
+    }
+   ],
+   "category": "analytika",
+   "importance": 65,
+   "title": "Google Tag a Tag Manager: nové aktualizace pro sjednocení měření",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google vydal aktualizace pro Google Tag a Google Tag Manager. Změny mají zjednodušit nastavení měření, zlepšit výkon a správu tagů a sjednotit zkušenost napříč produkty Google.",
+   "why": "Google Tag Manager je základní nástroj pro správu měřicích kódů v české praxi – používá ho většina firem pro implementaci GA4, Google Ads a dalších nástrojů. Změny v nastavení nebo rozhraní mohou ovlivnit každodenní práci stagováním.",
+   "takeaway": "Zkontrolujte dokumentaci aktualizací GTM a Google Tagu, abyste zjistili, zda nové funkce vyžadují úpravu vašeho současného nastavení nebo nabízejí příležitost ke zjednodušení existujících kontejnerů.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/3a29a5fdc1.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "739117aad7",
+   "created": "2026-08-21T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-updates-minimum-product-image-size-product-feeds",
+     "title": "Google Updates Minimum Product Image Size for Product Feeds",
+     "summary": "Google is sending out email announcing that effective January 31, 2027 , all product images in Merchant Center under 500 x 500 pixels will be disapproved and will not serve. This includes images in the image_link attribute and potentially secondary image attributes as well. The recommended image size is 1500 x 1500 pixels or larger for optimal performance in AI Mode and AI Overviews Ads, signaling Google's commitment to improving the quality of visuals in its advertising system. This resolution was already recommended for products to be used within YouTube Shopping ads. This email was spotted ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T11:05:00+00:00",
+     "score": 84
+    }
+   ],
+   "category": "ppc",
+   "importance": 85,
+   "title": "Google zvyšuje minimální rozlišení obrázků produktů na 500×500 px",
+   "updated": "2026-08-21T13:19:07.542566+00:00",
+   "what": "Google od 31. ledna 2027 přestane zobrazovat produktové reklamy s obrázky menšími než 500×500 pixelů v Merchant Center. Doporučené rozlišení pro optimální výkon v AI režimu a AI Overviews reklamách je 1500×1500 px a více.",
+   "why": "Týká se všech e-shopů využívających Google Merchant Center a produktové reklamy. Produkty s nevyhovujícími obrázky budą schváleny a přestanou se zobrazovat, což může vést ke ztrátě tržeb z PPC kampaní.",
+   "takeaway": "Do ledna 2027 zkontrolujte rozlišení všech produktových obrázků ve vašem feedu pro Google Merchant Center a zajistěte, aby splňovaly minimálně 500×500 px (ideálně 1500×1500 px). Naplánujte případnou úpravu fotografií nebo exportu z e-shopu.",
+   "importance_label": "zásadní",
+   "multi_source": false,
+   "image": "img/739117aad7.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
   {
    "id": "437dd04477",
    "created": "2026-08-21T09:20:00+00:00",
@@ -7139,32 +7483,6 @@
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/3e8ee373ba.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "b1d8047325",
-   "created": "2026-08-10T14:43:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNm43eGdpeTRmd2RIcVJhbHowWG5XYnFuY3o5WnhpSlBORzhZTjc5ZlpEZS1aUEZzSl9kaHF1bzlkeEpyYktldUdsZC1xOGN1TDF0QTZIWnVMTU5VR2x4ekxCR0dXXzZhQTBWd1dmVVhBWmNvN0ZnbEJOZVpaWEQ0azdhQ05EaWRWNWJMTVVLVzJzSkp4RjAzd2lQNGM?oc=5",
-     "title": "Google brings new AI agent capabilities to Ads and Analytics",
-     "summary": "Google brings new AI agent capabilities to Ads and Analytics &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T14:43:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google přidává AI agenty do Google Ads a Analytics",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Google oznámil nové funkce založené na AI agentech pro platformy Google Ads a Google Analytics. Jde o rozšíření možností automatizace a asistence umělé inteligence v těchto nástrojích.",
-   "why": "Google Ads a Analytics jsou klíčové nástroje pro většinu českých marketérů pracujících s online reklamou a měřením. Nové AI funkce mohou změnit způsob, jakým se spravují kampaně a vyhodnocují data.",
-   "takeaway": "Sledujte oficiální oznámení Googlu a testujte nové AI funkce, jakmile budou dostupné v ČR. Může to ovlivnit způsob správy kampaní, nastavení automatizace i reporting.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/b1d8047325.jpg",
    "image_from": "searchengineland.com"
   },
   {
