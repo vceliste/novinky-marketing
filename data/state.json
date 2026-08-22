@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-22T07:09:49.012401+00:00",
+ "last_run": "2026-08-22T08:55:39.683917+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -46,13 +46,13 @@
   {
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
    "new": 0
   },
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f4ae89734a0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fbfb5f80830>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
@@ -88,13 +88,13 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -214,8 +214,8 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "new": 4
   },
   {
    "name": "Ecomail blog",
@@ -262,7 +262,7 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "chyba: empty feed (HTTP 404, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
    "new": 0
   },
   {
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
    "new": 0
   },
   {
@@ -1712,9 +1712,107 @@
   "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GcC1nLWdFYmU4X3lpRmgxNnFDRWxhdVJ3UGJsR3d6eWV6ZTZBT2c4eDZ1SVRvTDIweGVITTBodjFiNmpL?oc=5": "2026-08-21T20:51:26.861180+00:00",
   "https://www.mediaguru.cz/ceskomoravska-nemovitostni-meni-po-deseti-letech-vizualni-identitu": "2026-08-22T07:09:49.012401+00:00",
   "https://cc.cz/kdysi-navrhla-olympijskou-kolekci-ted-promenuje-ceske-remeslo-v-luxus-inspiraci-bere-v-japonsku": "2026-08-22T07:09:49.012401+00:00",
-  "https://cc.cz/unika-jedno-video-za-druhym-vyvojari-ocekavaneho-gta-vi-zatim-marne-hledaji-hackera-co-jim-kazi-plany": "2026-08-22T07:09:49.012401+00:00"
+  "https://cc.cz/unika-jedno-video-za-druhym-vyvojari-ocekavaneho-gta-vi-zatim-marne-hledaji-hackera-co-jim-kazi-plany": "2026-08-22T07:09:49.012401+00:00",
+  "https://cc.cz/bude-mu-90-let-a-dokola-hejti-matcha-latte-mladi-ho-za-to-miluji-sleduji-jej-stovky-tisic-lidi": "2026-08-22T08:55:39.683917+00:00",
+  "https://www.mediar.cz/radni-proberou-komercni-spoluprace-moderatoru-ceskeho-rozhlasu": "2026-08-22T08:55:39.683917+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate": "2026-08-22T08:55:39.683917+00:00",
+  "https://www.mediaguru.cz/poradem-pripominkoveho-patecniho-vecera-byly-pelisky": "2026-08-22T08:55:39.683917+00:00",
+  "https://www.mediaguru.cz/cnn-slavi-prekvapivy-uspech-se-svym-kanalem-fast": "2026-08-22T08:55:39.683917+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2eGtiUFNnanU0M0pGN2l6T1c2TjU0eFlUWFEzX2dEaDZycVotdFQ2R1N3UkJNaC0xeTdyS3BOMGtjS0ROU1Q1SExFcXJhMlNDUTZRNjJZQQ?oc=5": "2026-08-22T08:55:39.683917+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3NE9rWVJMelh5Sjl2OTVlR3VuNUFFbHZFcG1kQVhrVmp2MTFreXRQdWJyTGQyWFRFaXUyZmtKeFpDV0lUUHFaTTlyZTVwR1VzRFdyNnF3NC1lZnRuOUNzcUhybw?oc=5": "2026-08-22T08:55:39.683917+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scHQ4SG4tQ3NHdUR2VTV1eHJndHJMQWxudVN6aEN4SnNtMG9JeFo5TS1kcXVsOWJTN3VZOXhnV0lEUmxiaXNlaUxhRW01WW1zekJQVkRzb0k?oc=5": "2026-08-22T08:55:39.683917+00:00",
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6TGNPSjBITktBSXUxWWxjUWdiVHBYeWFadElvMkphcTR2VlozMVM2Yk1xekJFa2lRRERmalpsNWxtWDZ4UGFHeHc1bmltUQ?oc=5": "2026-08-22T08:55:39.683917+00:00"
  },
  "events": [
+  {
+   "id": "cb5914db07",
+   "created": "2026-08-10T13:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aUGxiRFRsV21QZ20zQ0JuNTRGeHprTHA3ejcya090bWh1eXM4MUlmWWo2bHRnUWVkTlJlaS1PV2l3c1EtWjBjblNseWlGSE15TVNnV09KRk04WmN1QkZnYg?oc=5",
+     "title": "How to run ChatGPT ads: A step-by-step guide from early campaigns",
+     "summary": "How to run ChatGPT ads: A step-by-step guide from early campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T13:00:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqWkhuVUFuM0NKWVg0SDZna085MExvelgxZUlzS0I4N282VHpnVFloZkRnclpDYjlCS28xYmkxRks2a2x1dWNuczVTdnQtLUZiWDZvUmt1MVlaUS05cThmUzNVU1dHRHZyVVdIN09n?oc=5",
+     "title": "A 7-step guide to running ads on ChatGPT",
+     "summary": "A 7-step guide to running ads on ChatGPT &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-11T13:59:27+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scHQ4SG4tQ3NHdUR2VTV1eHJndHJMQWxudVN6aEN4SnNtMG9JeFo5TS1kcXVsOWJTN3VZOXhnV0lEUmxiaXNlaUxhRW01WW1zekJQVkRzb0k?oc=5",
+     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
+     "summary": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-19T15:07:36+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "ChatGPT spustil reklamy – první zkušenosti a návody, jak je nastavit",
+   "updated": "2026-08-22T08:55:39.683917+00:00",
+   "what": "OpenAI spustil v ChatGPT možnost platit za reklamy (ChatGPT Ads). Několik zdrojů publikovalo návody na nastavení kampaní a sdílí první praktické zkušenosti z testování tohoto nového reklamního kanálu.",
+   "why": "Jde o zcela nový reklamní formát – konverzační AI s miliony uživatelů. Pro marketingové manažery to znamená potenciálně nový kanál k přímému oslovení uživatelů v okamžiku, kdy aktivně hledají informace nebo radu. Zatím není jasné, zda a kdy bude dostupný pro inzerenty v ČR/EU, ani jaké budou náklady a skutečná efektivita oproti zaběhnutým kanálům.",
+   "takeaway": "Sleduj vývoj ChatGPT Ads a počkej na první ověřené case study – zatím jde o velmi ranou fázi s nejasným ROI. Pokud inzerujete globálně, můžeš testovat s malým rozpočtem, ale neplánuj zatím přesun peněz z funkčních kanálů. V ČR zatím není k dispozici.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "e78bd72be8",
+   "created": "2026-08-22T07:22:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
+     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
+     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T07:22:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads: offline konverze starší 7 dní ignoruje atribuční model",
+   "updated": "2026-08-22T08:55:39.683917+00:00",
+   "what": "Google upřesnil v nápovědě, že data-driven attribution v Google Ads zpracovává pouze offline konverze nahrané do 7 dnů od události. Konverze nahrané později se sice objeví ve standardních reportech, ale atribuční model je nebere v úvahu.",
+   "why": "Pro firmy pracující s lead generation a delším prodejním cyklem to vysvětluje dlouhodobé nesrovnalosti v atribučních datech a může ovlivnit strategii měření a optimalizaci kampaní.",
+   "takeaway": "Zkontroluj, jak rychle nahráváš offline konverze do Google Ads. Pokud trvá déle než týden, atribuční data nejsou přesná a měl bys urychlit nebo automatizovat nahrávání, případně upravit nastavení měření konverzí.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/e78bd72be8.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "d94f68c923",
+   "created": "2026-08-21T11:55:17+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3NE9rWVJMelh5Sjl2OTVlR3VuNUFFbHZFcG1kQVhrVmp2MTFreXRQdWJyTGQyWFRFaXUyZmtKeFpDV0lUUHFaTTlyZTVwR1VzRFdyNnF3NC1lZnRuOUNzcUhybw?oc=5",
+     "title": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
+     "summary": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-21T11:55:17+00:00",
+     "score": 58
+    }
+   ],
+   "category": "ppc",
+   "importance": 58,
+   "title": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
+   "updated": "2026-08-22T08:55:39.683917+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "fc263db369",
    "created": "2026-08-21T19:00:14+00:00",
@@ -5741,39 +5839,6 @@
    "takeaway": "Pokud investujete do SEO, sledujte, zda se vaše značka/obsah objevuje v odpovědích AI asistentů – může to ovlivnit budoucí návštěvnost a potřebu adjustovat contentu strategii. Zvažte testování nástrojů typu AIVA pro monitoring AI visibility.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "cb5914db07",
-   "created": "2026-08-10T13:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aUGxiRFRsV21QZ20zQ0JuNTRGeHprTHA3ejcya090bWh1eXM4MUlmWWo2bHRnUWVkTlJlaS1PV2l3c1EtWjBjblNseWlGSE15TVNnV09KRk04WmN1QkZnYg?oc=5",
-     "title": "How to run ChatGPT ads: A step-by-step guide from early campaigns",
-     "summary": "How to run ChatGPT ads: A step-by-step guide from early campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T13:00:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqWkhuVUFuM0NKWVg0SDZna085MExvelgxZUlzS0I4N282VHpnVFloZkRnclpDYjlCS28xYmkxRks2a2x1dWNuczVTdnQtLUZiWDZvUmt1MVlaUS05cThmUzNVU1dHRHZyVVdIN09n?oc=5",
-     "title": "A 7-step guide to running ads on ChatGPT",
-     "summary": "A 7-step guide to running ads on ChatGPT &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-11T13:59:27+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "ChatGPT spustil reklamy – návod na nastavení kampaní v novém prostředí",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "Objevily se první praktické návody na spuštění reklamních kampaní přímo v ChatGPT. Průvodce popisují sedmikrokový proces nastavení včetně targetingu, formátů a měření výkonu v tomto novém reklamním prostředí.",
-   "why": "ChatGPT má obrovskou uživatelskou základnu a stává se potenciálně novým reklamním kanálem. Pro marketéry to znamená novou možnost oslovení publika mimo klasické vyhledávače a sociální sítě, ale zatím jde o velmi ranou fázi bez jasných informací o dostupnosti, cenách a cílení.",
-   "takeaway": "Sledujte vývoj – reklamy v ChatGPT mohou být zajímavou alternativou ke Google nebo Meta, ale prozatím jde spíše o testování early adopterů. V ČR zatím není potvrzena dostupnost ani oficiální ceník. Nepřesouvejte rozpočet, dokud nebude platforma plně spuštěna a nebudou známé podmínky.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "dab562682a",
