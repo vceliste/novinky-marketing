@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-22T19:00:16.904799+00:00",
+ "last_run": "2026-08-22T20:51:10.833064+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f29c17b2ae0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f6f4288fad0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -130,8 +130,8 @@
   {
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='backlinko.com', port=443): Read timed out. (read timeout=15))",
-   "new": 1
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Yoast",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f29c17c95e0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f6f4288faa0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
@@ -305,13 +305,13 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -1732,9 +1732,37 @@
   "https://cc.cz/na-zivobyti-si-nevydelam-ale-zajem-lidi-me-zaskocil-cesky-biolog-tvori-hru-inspirovanou-vedou": "2026-08-22T16:48:01.206203+00:00",
   "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwcnFsSXhac0phUktpSXI5emlZZ1gyOC1CRXRwT3lpSVFndW81bXRGcWtESEpHdXJ2Rm5yWTRsNWtJcVgzVGtpR29iWnV1bWE5TXg0U3ZPYUtJLVJRQUZiRnpQLVJuQQ?oc=5": "2026-08-22T16:48:01.206203+00:00",
   "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQTlVZRWVNUmpka1pIa3dFeDZGcmdGbG0zUXFRelVDaFNYMzR4bFY5TE5DVHBQMzFGX01lU1J4Ynh4RmpYMWRSSzVRZ3RLZTZk?oc=5": "2026-08-22T19:00:16.904799+00:00",
-  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52eTZYR3JDM295a3lrV2VKMmM4d1BvazRtelpNMVRfb2Q2aUluMkJ0MHpUT3JhVkI5djRaY1dERmllYkUzQ25kRlJscV9TdGRl?oc=5": "2026-08-22T19:00:16.904799+00:00"
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52eTZYR3JDM295a3lrV2VKMmM4d1BvazRtelpNMVRfb2Q2aUluMkJ0MHpUT3JhVkI5djRaY1dERmllYkUzQ25kRlJscV9TdGRl?oc=5": "2026-08-22T19:00:16.904799+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajFERDlzNHc4RG1XN1ltVVpTLVdZMjlEbmQtbk1QMnJKcEFreG9KZWlsYlFJTjJnRFgyenV1ZWg4SmktdTE1T2RvWU9TM3EtejlfbDNnREEyekdjVHluUEVvaDdpcXBnbkR0dXl6dG5Jenltc1lPaXBLVkNOLWtwSkR4TnBzNG0zcEtlUVc1RFRzcXE0Y1BDNmpSSWIzNGEtdW4tMkxuMmhQUGhwamdKaW16RG9odkRDMTF2S2YzQUQ?oc=5": "2026-08-22T20:51:10.833064+00:00",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EMjdXWmRMLU5UXzNpT2tqRDBWbEY1U2M5RWFOT3ZMZ0ZHZHN5LU0zQUlCdmtuOURLNWxtTld3NzdCTE1Jc2dXWlE3YTVKaHJMY3ViUElYZDBOZWluc2Z4Qk4xbzJ0ZFRFcm12Rm5VdmhKNjExaVHSAXtBVV95cUxOWWxWZ2pmdGp6YVluRVdIVnJEc2VPWjlxMmhtb0xwMndTMFN1RTNqSUxzWjZFbm5lZG5VcnFjOWtaejFvWG5vLXlwd0RnLTNHZnMtOGVsaWlKOXE1ZG0td0o5ZXVrWmlEWk1MdkgxVUw5LXNMS0RtVjlhME0?oc=5": "2026-08-22T20:51:10.833064+00:00"
  },
  "events": [
+  {
+   "id": "d41228fe3a",
+   "created": "2026-08-20T12:07:59+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EMjdXWmRMLU5UXzNpT2tqRDBWbEY1U2M5RWFOT3ZMZ0ZHZHN5LU0zQUlCdmtuOURLNWxtTld3NzdCTE1Jc2dXWlE3YTVKaHJMY3ViUElYZDBOZWluc2Z4Qk4xbzJ0ZFRFcm12Rm5VdmhKNjExaVHSAXtBVV95cUxOWWxWZ2pmdGp6YVluRVdIVnJEc2VPWjlxMmhtb0xwMndTMFN1RTNqSUxzWjZFbm5lZG5VcnFjOWtaejFvWG5vLXlwd0RnLTNHZnMtOGVsaWlKOXE1ZG0td0o5ZXVrWmlEWk1MdkgxVUw5LXNMS0RtVjlhME0?oc=5",
+     "title": "Meta Is Removing Placement Controls From Ad Sets",
+     "summary": "Meta Is Removing Placement Controls From Ad Sets &nbsp;&nbsp; Jon Loomer Digital",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-20T12:07:59+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Meta odebírá možnost vybírat umístění reklam na úrovni ad setů",
+   "updated": "2026-08-22T20:51:10.833064+00:00",
+   "what": "Meta ruší možnost měnit nastavení umístění reklam (placement controls) přímo v jednotlivých ad setech. Tato kontrola zůstává dostupná pouze na úrovni kampaně.",
+   "why": "Jde o významné omezení granularity nastavení Meta reklam. Dosud mohli inzerenti řídit umístění (Facebook feed, Instagram Stories, Audience Network atd.) samostatně pro každý ad set, což umožňovalo testování a optimalizaci pro různé cílové skupiny. Po této změně budou všechny ad sety v kampani sdílet stejné nastavení umístění.",
+   "takeaway": "Zkontrolujte nastavení umístění ve stávajících kampaních – pokud různé ad sety cílí na odlišné segmenty a potřebujete pro ně různá umístění, budete muset vytvořit oddělené kampaně. To může zvýšit složitost správy a potenciálně i náklady na testování.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/d41228fe3a.jpg",
+   "image_from": "jonloomer.com"
+  },
   {
    "id": "79121e8539",
    "created": "2026-08-22T14:10:00+00:00",
