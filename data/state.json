@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-23T16:49:26.477781+00:00",
+ "last_run": "2026-08-23T18:55:40.448032+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7efef510ba10>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fab42e9dac0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -1755,9 +1755,36 @@
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazg0bTc1ajRCWkxMd1lqRTRoT0NwU2FRZTE5cW9GelM4ZFpGT0NTVkY4eDBseHBnNzNkWDNBLXM0UE4zZGVEdkx1SjV5RU1OS2ExX0dFY1RIN0daT1g0cDBUTTIwaVhRYzlhUDBvV2J6RUlSLWJOUHBtTi1DanRmVXpqZ2cyZw?oc=5": "2026-08-23T13:13:47.652671+00:00",
   "https://cc.cz/mafianske-praktiky-milovane-mafie-pokracovani-kultovni-ceske-hry-vyvolava-v-hracich-horkost": "2026-08-23T14:47:42.066927+00:00",
   "https://cc.cz/zdedil-vilu-po-rukavickari-a-pustil-se-do-jeji-promeny-pomohl-mu-cerstvy-absolvent-architektury": "2026-08-23T14:47:42.066927+00:00",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGpvNWgtQ1FycGtFNUt2WDdYSEVWNmpkWlJUdkdRQ2dKRFhhSE9QeDVkSXB1ZmlFTXF5ZWNBdWJva0l5NDJFVHpEZWc1SWF5V1ZLWUxTa2hSbldzUWE3U19mcHhJOExocFVqLURSbzBDZUZSM1F4cG9yd2NQTWpob0cydV9hdjNaMzU0TkIwcw?oc=5": "2026-08-23T14:47:42.066927+00:00"
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGpvNWgtQ1FycGtFNUt2WDdYSEVWNmpkWlJUdkdRQ2dKRFhhSE9QeDVkSXB1ZmlFTXF5ZWNBdWJva0l5NDJFVHpEZWc1SWF5V1ZLWUxTa2hSbldzUWE3U19mcHhJOExocFVqLURSbzBDZUZSM1F4cG9yd2NQTWpob0cydV9hdjNaMzU0TkIwcw?oc=5": "2026-08-23T14:47:42.066927+00:00",
+  "https://cc.cz/stamilionova-vila-v-pruhonicich-uvadajici-influencersky-drink-a-miliardove-povleceni-proti-slevam": "2026-08-23T18:55:40.448032+00:00",
+  "https://www.lupa.cz/clanky/prvni-supravodivy-tepelny-stroj-modularni-kryogenni-bunky-realistictejsi-hodnoceni-kvantove-vyhody": "2026-08-23T18:55:40.448032+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-redesigns-asset-optimization-panel": "2026-08-23T18:55:40.448032+00:00"
  },
  "events": [
+  {
+   "id": "1a63f5cbef",
+   "created": "2026-08-23T16:55:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-redesigns-asset-optimization-panel",
+     "title": "Google Redesigns Asset Optimization Panel",
+     "summary": "Google Ads has introduced a redesigned Asset Optimization panel aimed at enhancing user experience. The updated interface showcases three asset categories: Text, Image, and Video , with each containing specific optimization settings. The new design provides toggles for various features, such as Text customization , Image enhancement , and Video enhancement . This update follows the earlier enhancement of the Asset Optimization layout for Demand Gen campaigns , making it easier for advertisers to manage their asset settings. Previously, only Image and Video sections were available here. This up",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T16:55:00+00:00",
+     "score": 64
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads přestavěl panel optimalizace assetů",
+   "updated": "2026-08-23T18:55:40.448032+00:00",
+   "what": "Google Ads představil redesignovaný panel Asset Optimization s novou strukturou rozdělující assety do tří kategorií: Text, Obrázek a Video. Každá kategorie obsahuje vlastní přepínače pro optimalizační funkce (textové úpravy, vylepšení obrázků, vylepšení videa). Dříve panel obsahoval pouze sekce pro obrázky a videa.",
+   "why": "Změna rozhraní usnadňuje správu nastavení assetů v kampaních a rozšiřuje možnosti optimalizace o textové prvky. Navazuje na předchozí vylepšení pro Demand Gen kampaně.",
+   "takeaway": "Zkontrolujte nový panel Asset Optimization ve svých kampaních a projděte nastavení všech tří kategorií – můžete objevit nové možnosti automatické optimalizace, které dříve nebyly dostupné nebo viditelné.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "99b70e205e",
    "created": "2026-08-23T11:25:27+00:00",
