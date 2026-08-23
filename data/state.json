@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-22T20:51:10.833064+00:00",
+ "last_run": "2026-08-23T04:59:16.520058+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f6f4288fad0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc6c3982b40>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f6f4288faa0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -310,8 +310,8 @@
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -1734,9 +1734,102 @@
   "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQTlVZRWVNUmpka1pIa3dFeDZGcmdGbG0zUXFRelVDaFNYMzR4bFY5TE5DVHBQMzFGX01lU1J4Ynh4RmpYMWRSSzVRZ3RLZTZk?oc=5": "2026-08-22T19:00:16.904799+00:00",
   "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52eTZYR3JDM295a3lrV2VKMmM4d1BvazRtelpNMVRfb2Q2aUluMkJ0MHpUT3JhVkI5djRaY1dERmllYkUzQ25kRlJscV9TdGRl?oc=5": "2026-08-22T19:00:16.904799+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajFERDlzNHc4RG1XN1ltVVpTLVdZMjlEbmQtbk1QMnJKcEFreG9KZWlsYlFJTjJnRFgyenV1ZWg4SmktdTE1T2RvWU9TM3EtejlfbDNnREEyekdjVHluUEVvaDdpcXBnbkR0dXl6dG5Jenltc1lPaXBLVkNOLWtwSkR4TnBzNG0zcEtlUVc1RFRzcXE0Y1BDNmpSSWIzNGEtdW4tMkxuMmhQUGhwamdKaW16RG9odkRDMTF2S2YzQUQ?oc=5": "2026-08-22T20:51:10.833064+00:00",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EMjdXWmRMLU5UXzNpT2tqRDBWbEY1U2M5RWFOT3ZMZ0ZHZHN5LU0zQUlCdmtuOURLNWxtTld3NzdCTE1Jc2dXWlE3YTVKaHJMY3ViUElYZDBOZWluc2Z4Qk4xbzJ0ZFRFcm12Rm5VdmhKNjExaVHSAXtBVV95cUxOWWxWZ2pmdGp6YVluRVdIVnJEc2VPWjlxMmhtb0xwMndTMFN1RTNqSUxzWjZFbm5lZG5VcnFjOWtaejFvWG5vLXlwd0RnLTNHZnMtOGVsaWlKOXE1ZG0td0o5ZXVrWmlEWk1MdkgxVUw5LXNMS0RtVjlhME0?oc=5": "2026-08-22T20:51:10.833064+00:00"
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EMjdXWmRMLU5UXzNpT2tqRDBWbEY1U2M5RWFOT3ZMZ0ZHZHN5LU0zQUlCdmtuOURLNWxtTld3NzdCTE1Jc2dXWlE3YTVKaHJMY3ViUElYZDBOZWluc2Z4Qk4xbzJ0ZFRFcm12Rm5VdmhKNjExaVHSAXtBVV95cUxOWWxWZ2pmdGp6YVluRVdIVnJEc2VPWjlxMmhtb0xwMndTMFN1RTNqSUxzWjZFbm5lZG5VcnFjOWtaejFvWG5vLXlwd0RnLTNHZnMtOGVsaWlKOXE1ZG0td0o5ZXVrWmlEWk1MdkgxVUw5LXNMS0RtVjlhME0?oc=5": "2026-08-22T20:51:10.833064+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/performance-planner-adds-campaign-change-testing": "2026-08-23T04:59:16.520058+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/budget-bidding-target-experiments-introduced-search-campaigns": "2026-08-23T04:59:16.520058+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2pHR0xoY3ZjM29FY21SZWJSMkpvLTY5TTNvTTlNanJlVlFsb09XOHlVanNHQm9wRDY0V1AyVm1YS2QxZWMyUFBQQlNnVzRqTVdOeHlWd2xwN254WWExWE5Ha2h6WGFfeXB6ZDhFRGFHRjZIUUh0clZqem5uQjFnXzF6NVZvMFdUSjhpdS01ZkVxWnpvVS16azIwYjNlTDNyblNjcUItekI5WFpqcGJDMkxVYzBpWjNfZUJGZXVpRi0?oc=5": "2026-08-23T04:59:16.520058+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/business-logos-shopping-added-google-ads": "2026-08-23T04:59:16.520058+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZmRpdW8wT3lKYTQxdnRWOGtBcklORmRVWTFubjJGbk5oS2JlRkFoQk9RUUVEZEVXeDlyWUpjczdrd0xiSHQ5Qk5xMmNKdVJxSFJZcVh4MHFFcUk2NGtMY3B4OTJqZnJpdHczZ1YtbWN3bnBmY1pjTTVJeTdwRzF5dXEyWGNmdDFqN0RCNWZobkxaMVlCMnlOYQ?oc=5": "2026-08-23T04:59:16.520058+00:00"
  },
  "events": [
+  {
+   "id": "7777222cb5",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-tests-advertiser-list-favicons",
+     "title": "Google Tests Advertiser List with Favicons",
+     "summary": "Google is currently testing a new format for sponsored search results that adds more information to the sponsored section. The test displays a list of advertisers alongside their favicons . For related developments, see the earlier article about Google Ads testing grouped favicons next to sponsored labels published last month. This update was surfaced by Sachin Patel . The post Google Tests Advertiser List with Favicons appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-14T00:01:50+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-sponsored-results-ad-summary-header-41851.html",
+     "title": "Google Ads Sponsored Results Tests Advertiser Name & Favicon Summary",
+     "summary": "Google is testing placing the list of advertisers in the group of sponsored results at the top of the ad block in the mobile search results. So if the sponsored results group has two advertisers in it, Google will show the favicon and domain name of the ads that will be shown below, all the way at the top, directly under the \"Sponsored results\" header and directly above the actual ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-11T11:51:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3J5dnhyX3h2NTkyRGZnQkd5NzFFTEQ4Q0JSdjVQdVd5MnVPajNOa3lrSUpSbWZjU1cwR0wtUHJ3UVA5MFBqbE52YnpxVl81NFRPd0Utelo0Nmw4NElEYmQ1SXFkaXVDdnoyTHQ1MVVjd3pwT05KVWlFNkl1Zmd6YXllOGlncllzWV81QnpMd0dYQQ?oc=5",
+     "title": "Google tests advertiser list above mobile Search ads",
+     "summary": "Google tests advertiser list above mobile Search ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-11T16:17:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/business-logos-shopping-added-google-ads",
+     "title": "Business Logos for Shopping Added in Google Ads",
+     "summary": "Advertisers setting up Performance Max and Shopping campaigns can now add their business logo directly in Google Ads. If they do not add a logo, the system will revert to the logo from the Google Merchant Center as previously conducted. This update was flagged by Arpan Banerjee . The post Business Logos for Shopping Added in Google Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T23:20:34+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google testuje seznam inzerentů s favicony nad placenou reklamou",
+   "updated": "2026-08-23T04:59:16.520058+00:00",
+   "what": "Google testuje nový formát zobrazení sponzorovaných výsledků v mobilním vyhledávání. Nad samotné reklamy se zobrazuje seznam inzerentů včetně jejich favicon a doménových jmen, přímo pod hlavičkou \"Sponzorované výsledky\". Pokud skupina obsahuje například dva inzerenty, jejich loga a domény se ukáží nahoře ještě před tím, než uživatel uvidí konkrétní reklamní texty.",
+   "why": "Jde o výraznější vizuální změnu v uspořádání placených výsledků, která může ovlivnit, jak uživatelé vnímají a klikají na reklamy. Google tím přidává další vrstvu informací do již tak nabitého prostoru reklamních bloků.",
+   "takeaway": "Pro PPC specialisty to znamená další faktor, který může ovlivnit CTR jejich kampaní – silná značka s rozpoznatelnou favicon může mít výhodu, slabší brand naopak utrpí. Sledujte výkonnostní data, pokud se změna rozšíří i do ČR – vliv na metriky může být znatelný.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7777222cb5.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "6b7bc95d57",
+   "created": "2026-08-23T02:04:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-planner-adds-campaign-change-testing",
+     "title": "Performance Planner Adds Campaign Change Testing",
+     "summary": "Google is updating Performance Planner with new tools to help advertisers evaluate campaign changes before applying them.&nbsp; Advertisers can now examine how adjustments to bidding or budget targets may affect the performance of their existing campaigns. If the suggested changes align with their goals, they can apply them directly with a single click. This update gives advertisers another way to assess potential performance outcomes and turn planning recommendations into campaign changes more quickly.&nbsp; Check the official announcement: Make AI Max work for your business with new testing ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T04:12:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/budget-bidding-target-experiments-introduced-search-campaigns",
+     "title": "Budget or Bidding Target Experiments Introduced for Search Campaigns",
+     "summary": "Google is expanding its Search campaign&nbsp; experiments with new ways to test budgets and ROI targets across multiple campaigns in a single A/B test. Building on the one click experiments introduced for&nbsp; AI Max in August 2025 , the new capability called \"Budget or bidding target experiments for Search Campaigns\" will roll out in September . Advertisers will be able to test how scaling budgets or changing ROI targets impacts performance across several Search campaigns at once. Visit the official announcement here: Make AI Max work for your business with new testing and planning tools . T",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T02:04:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads: testování změn rozpočtů a cílů přímo v Performance Planneru",
+   "updated": "2026-08-23T04:59:16.520058+00:00",
+   "what": "Google přidává do Performance Planneru nové nástroje pro testování dopadů změn v kampaních ještě před jejich aplikací. Inzerenti mohou vyhodnotit, jak se změny bidů nebo rozpočtů projeví na výkonnosti stávajících kampaní, a pokud jsou výsledky v souladu s jejich cíli, aplikovat je jedním kliknutím. V září 2026 navíc Google rozšíří možnosti experimentů ve vyhledávacích kampaních – nově půjde testovat rozpočty a ROI cíle napříč více kampaněmi najednou formou A/B testu.",
+   "why": "Pomáhá marketingovým manažerům rychleji a s menším rizikem rozhodovat o změnách rozpočtů a bidovacích strategií v Google Ads. Místo slepého nasazení změn získávají předběžný odhad dopadu na výkon a možnost ověřit hypotézy (např. navýšení rozpočtu nebo změnu Target ROAS) pomocí řízeného A/B experimentu napříč portfoliem kampaní.",
+   "takeaway": "Pokud řídíte více vyhledávacích kampaní v Google Ads, sledujte v září dostupnost nových experimentů s rozpočty a ROI cíli – využijte je před velkými změnami, abyste ověřili dopad na skutečná data. Už nyní můžete v Performance Planneru testovat navrhované změny a aplikovat je jedním kliknutím, pokud vám sedí.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/6b7bc95d57.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
   {
    "id": "d41228fe3a",
    "created": "2026-08-20T12:07:59+00:00",
@@ -1922,11 +2015,16 @@
     }
    ],
    "category": "ppc",
-   "importance": 58,
-   "title": "The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
+   "importance": 72,
+   "title": "Performance Max kampaně utrácejí rozpočet za brandové výrazy, které byste získali i bez nich",
    "updated": "2026-08-22T08:55:39.683917+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "importance_label": "důležité",
+   "multi_source": false,
+   "what": "Článek upozorňuje na problém Performance Max kampaní v Google Ads, které často utrácejí rozpočet za brandové výrazy (hledání názvu značky), které by firma získala i organicky nebo přes levnější brandovou kampaň. Jde o tzv. \"brand leak\" – úniku rozpočtu na Search queries, které by stejně přinesly konverzi.",
+   "why": "Pro marketingové manažery jde o skrytou neefektivitu PMax kampaní. Když PMax utrácí za brandové výrazy, zvyšuje celkové náklady na akvizici, aniž by přinášel skutečně nové zákazníky. Google tyto dotazy v reportingu PMax špatně viditelné, takže problém může zůstat dlouho skrytý.",
+   "takeaway": "Proveďte audit svých PMax kampaní – porovnejte výdaje a konverze s tím, co byste získali z organického vyhledávání nebo dedikované brandové kampaně. Pokud PMax spotřebovává významnou část rozpočtu na brand, zvažte jeho omezení nebo vyloučení brandových dotazů pomocí separátní, lépe kontrolovatelné kampaně.",
+   "image": "img/d94f68c923.jpg",
+   "image_from": "ppchero.com"
   },
   {
    "id": "fc263db369",
@@ -8564,50 +8662,6 @@
    "takeaway": "Pokud v Google Ads řešíte technický problém, nyní můžete rovnou označit konkrétní kampaň, což by mělo vést k rychlejší a relevantnější odpovědi od podpory.",
    "importance_label": "kontext",
    "multi_source": false
-  },
-  {
-   "id": "7777222cb5",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-tests-advertiser-list-favicons",
-     "title": "Google Tests Advertiser List with Favicons",
-     "summary": "Google is currently testing a new format for sponsored search results that adds more information to the sponsored section. The test displays a list of advertisers alongside their favicons . For related developments, see the earlier article about Google Ads testing grouped favicons next to sponsored labels published last month. This update was surfaced by Sachin Patel . The post Google Tests Advertiser List with Favicons appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-14T00:01:50+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-sponsored-results-ad-summary-header-41851.html",
-     "title": "Google Ads Sponsored Results Tests Advertiser Name & Favicon Summary",
-     "summary": "Google is testing placing the list of advertisers in the group of sponsored results at the top of the ad block in the mobile search results. So if the sponsored results group has two advertisers in it, Google will show the favicon and domain name of the ads that will be shown below, all the way at the top, directly under the \"Sponsored results\" header and directly above the actual ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-11T11:51:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3J5dnhyX3h2NTkyRGZnQkd5NzFFTEQ4Q0JSdjVQdVd5MnVPajNOa3lrSUpSbWZjU1cwR0wtUHJ3UVA5MFBqbE52YnpxVl81NFRPd0Utelo0Nmw4NElEYmQ1SXFkaXVDdnoyTHQ1MVVjd3pwT05KVWlFNkl1Zmd6YXllOGlncllzWV81QnpMd0dYQQ?oc=5",
-     "title": "Google tests advertiser list above mobile Search ads",
-     "summary": "Google tests advertiser list above mobile Search ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-11T16:17:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google testuje seznam inzerentů s favicony nad placenou reklamou",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google testuje nový formát zobrazení sponzorovaných výsledků v mobilním vyhledávání. Nad samotné reklamy se zobrazuje seznam inzerentů včetně jejich favicon a doménových jmen, přímo pod hlavičkou \"Sponzorované výsledky\". Pokud skupina obsahuje například dva inzerenty, jejich loga a domény se ukáží nahoře ještě před tím, než uživatel uvidí konkrétní reklamní texty.",
-   "why": "Jde o výraznější vizuální změnu v uspořádání placených výsledků, která může ovlivnit, jak uživatelé vnímají a klikají na reklamy. Google tím přidává další vrstvu informací do již tak nabitého prostoru reklamních bloků.",
-   "takeaway": "Pro PPC specialisty to znamená další faktor, který může ovlivnit CTR jejich kampaní – silná značka s rozpoznatelnou favicon může mít výhodu, slabší brand naopak utrpí. Sledujte výkonnostní data, pokud se změna rozšíří i do ČR – vliv na metriky může být znatelný.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7777222cb5.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "45db69b257",
