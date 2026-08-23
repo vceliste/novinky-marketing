@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-23T13:13:47.652671+00:00",
+ "last_run": "2026-08-23T14:47:42.066927+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f2e7b343b30>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fbe0d4700b0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f2e7b3371a0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -1752,7 +1752,10 @@
   "https://cc.cz/platit-si-vic-streamovacich-sluzeb-naklady-muzou-jit-do-desitek-tisic-korun-nove-zdrazil-youtube": "2026-08-23T13:13:47.652671+00:00",
   "https://ppcnewsfeed.com/blog/disable-auto-generated-videos-demand-gen": "2026-08-23T13:13:47.652671+00:00",
   "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMVpsaGlsU3dDYk9ZeldIMEd4ODNhaUJaeVQ3N3BBM1Iwa0t0MHRlbTVpYmpCcHpwNXZvMnp3WVhfVXo0TjY4WWlEOWx6MG42NXhreG1pSEY5akJFMDh1eEQ4Q1p6b05zTFNXQnE1TFBMZjNWMk1UVmVaLVZoX1pxekt6NkVWWTlwejlySTRMc0hsMDF1d2NON1NwY1pjZG1yd1J3U2E3bWE4VlRyYTNrZjRyUnFfWFVobkY3ZDYtdw?oc=5": "2026-08-23T13:13:47.652671+00:00",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazg0bTc1ajRCWkxMd1lqRTRoT0NwU2FRZTE5cW9GelM4ZFpGT0NTVkY4eDBseHBnNzNkWDNBLXM0UE4zZGVEdkx1SjV5RU1OS2ExX0dFY1RIN0daT1g0cDBUTTIwaVhRYzlhUDBvV2J6RUlSLWJOUHBtTi1DanRmVXpqZ2cyZw?oc=5": "2026-08-23T13:13:47.652671+00:00"
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazg0bTc1ajRCWkxMd1lqRTRoT0NwU2FRZTE5cW9GelM4ZFpGT0NTVkY4eDBseHBnNzNkWDNBLXM0UE4zZGVEdkx1SjV5RU1OS2ExX0dFY1RIN0daT1g0cDBUTTIwaVhRYzlhUDBvV2J6RUlSLWJOUHBtTi1DanRmVXpqZ2cyZw?oc=5": "2026-08-23T13:13:47.652671+00:00",
+  "https://cc.cz/mafianske-praktiky-milovane-mafie-pokracovani-kultovni-ceske-hry-vyvolava-v-hracich-horkost": "2026-08-23T14:47:42.066927+00:00",
+  "https://cc.cz/zdedil-vilu-po-rukavickari-a-pustil-se-do-jeji-promeny-pomohl-mu-cerstvy-absolvent-architektury": "2026-08-23T14:47:42.066927+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGpvNWgtQ1FycGtFNUt2WDdYSEVWNmpkWlJUdkdRQ2dKRFhhSE9QeDVkSXB1ZmlFTXF5ZWNBdWJva0l5NDJFVHpEZWc1SWF5V1ZLWUxTa2hSbldzUWE3U19mcHhJOExocFVqLURSbzBDZUZSM1F4cG9yd2NQTWpob0cydV9hdjNaMzU0TkIwcw?oc=5": "2026-08-23T14:47:42.066927+00:00"
  },
  "events": [
   {
