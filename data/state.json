@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-23T04:59:16.520058+00:00",
+ "last_run": "2026-08-23T07:13:28.976620+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fc6c3982b40>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f66cfe46a20>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -179,13 +179,13 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f66cfcc2420>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -1739,7 +1739,12 @@
   "https://ppcnewsfeed.com/ppc-news/2026-08/budget-bidding-target-experiments-introduced-search-campaigns": "2026-08-23T04:59:16.520058+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2pHR0xoY3ZjM29FY21SZWJSMkpvLTY5TTNvTTlNanJlVlFsb09XOHlVanNHQm9wRDY0V1AyVm1YS2QxZWMyUFBQQlNnVzRqTVdOeHlWd2xwN254WWExWE5Ha2h6WGFfeXB6ZDhFRGFHRjZIUUh0clZqem5uQjFnXzF6NVZvMFdUSjhpdS01ZkVxWnpvVS16azIwYjNlTDNyblNjcUItekI5WFpqcGJDMkxVYzBpWjNfZUJGZXVpRi0?oc=5": "2026-08-23T04:59:16.520058+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-08/business-logos-shopping-added-google-ads": "2026-08-23T04:59:16.520058+00:00",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZmRpdW8wT3lKYTQxdnRWOGtBcklORmRVWTFubjJGbk5oS2JlRkFoQk9RUUVEZEVXeDlyWUpjczdrd0xiSHQ5Qk5xMmNKdVJxSFJZcVh4MHFFcUk2NGtMY3B4OTJqZnJpdHczZ1YtbWN3bnBmY1pjTTVJeTdwRzF5dXEyWGNmdDFqN0RCNWZobkxaMVlCMnlOYQ?oc=5": "2026-08-23T04:59:16.520058+00:00"
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZmRpdW8wT3lKYTQxdnRWOGtBcklORmRVWTFubjJGbk5oS2JlRkFoQk9RUUVEZEVXeDlyWUpjczdrd0xiSHQ5Qk5xMmNKdVJxSFJZcVh4MHFFcUk2NGtMY3B4OTJqZnJpdHczZ1YtbWN3bnBmY1pjTTVJeTdwRzF5dXEyWGNmdDFqN0RCNWZobkxaMVlCMnlOYQ?oc=5": "2026-08-23T04:59:16.520058+00:00",
+  "https://cc.cz/meta-sidli-v-irsku-kvuli-nizkym-danim-mark-zuckerberg-si-tam-ted-koupil-200-let-stary-zamek": "2026-08-23T07:13:28.976620+00:00",
+  "https://cc.cz/koupil-niceboy-a-vkrocil-do-prvni-byznysove-ligy-ptali-se-jestli-jsme-se-nezblaznili-rika-exministr": "2026-08-23T07:13:28.976620+00:00",
+  "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tRnlOMTA2SWJ1NF9CWkdOZU1lNUpmX3M3akhIQWJ6N0lpbUZhSkMxRFNHcFZ4d29mblZ3dDRhb2lIcEYxWm03eFhxWQ?oc=5": "2026-08-23T07:13:28.976620+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlMTVVcmlWbURBWG9tck1HN2g2T0MzazM3X1BPN2lRQTBnaGZoRzZHaVRMTktOVkdDQ1l0S3J6bVlZbHhGZnNQelFqTk1wNXJ0bHYwaUdrZjZNaUhGamgwSHREcTdCOXd2Vm1LOExtclZYWE5xQVpLZkZR?oc=5": "2026-08-23T07:13:28.976620+00:00",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMGJseEF3dWhCQ0YwMEYyYWN1X2s0ZHFQamVra3gtMWZjanlhM0hLcHoxLTBmTFdyVXhSSEdtNlE0b1VHSDFZLVE1VVkzcFJDdnBUektsUmV4bFAyYnNmSTNxRTljWk1Va2NnNHg0bDNWY2l1N3Nlc0Zkc1Z6a19nN1M2bDBYWDRHdTdOTnBFU1RnVmZ2WFJiOEVyRDc3V3hVTUJqZ0dxOFl5bjNvRmctWm9kNG5Xc2My?oc=5": "2026-08-23T07:13:28.976620+00:00"
  },
  "events": [
   {
