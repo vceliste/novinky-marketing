@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-23T09:00:14.038252+00:00",
+ "last_run": "2026-08-23T10:48:20.780701+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fe39bd590d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7ffaff1d4fe0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fe39c6ba180>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -285,7 +285,7 @@
   },
   {
    "name": "Síť v malíčku",
-   "feed": "https://sitevmalicku.cz/rss",
+   "feed": "https://sitevmalicku.cz/feed/",
    "status": "ok",
    "new": 0
   },
@@ -1747,7 +1747,8 @@
   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMGJseEF3dWhCQ0YwMEYyYWN1X2s0ZHFQamVra3gtMWZjanlhM0hLcHoxLTBmTFdyVXhSSEdtNlE0b1VHSDFZLVE1VVkzcFJDdnBUektsUmV4bFAyYnNmSTNxRTljWk1Va2NnNHg0bDNWY2l1N3Nlc0Zkc1Z6a19nN1M2bDBYWDRHdTdOTnBFU1RnVmZ2WFJiOEVyRDc3V3hVTUJqZ0dxOFl5bjNvRmctWm9kNG5Xc2My?oc=5": "2026-08-23T07:13:28.976620+00:00",
   "https://www.mediaguru.cz/youtube-tvurcum-zprisnuje-vstup-do-partnerskeho-programu": "2026-08-23T09:00:14.038252+00:00",
   "https://www.mediaguru.cz/chalupari-zustavaji-na-cele-sobotniho-vecera": "2026-08-23T09:00:14.038252+00:00",
-  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11ZnNFMUd2RDFUc2M5WHI2aFQyUU1nMzJRRUpGLWEyQXZwMm1iaFFIZFdPaVpBWlI4Zl96Ym5kTC13SmdYYXI4WXVXVUhBMlZN?oc=5": "2026-08-23T09:00:14.038252+00:00"
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11ZnNFMUd2RDFUc2M5WHI2aFQyUU1nMzJRRUpGLWEyQXZwMm1iaFFIZFdPaVpBWlI4Zl96Ym5kTC13SmdYYXI4WXVXVUhBMlZN?oc=5": "2026-08-23T09:00:14.038252+00:00",
+  "https://cc.cz/mate-vetsi-svaly-sirsi-kostru-a-jednoduse-se-budite-rano-muzou-za-to-vasi-predci-neandrtalci": "2026-08-23T10:48:20.780701+00:00"
  },
  "events": [
   {
