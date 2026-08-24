@@ -139,22 +139,35 @@ def build() -> None:
     (out / "kategorie").mkdir(parents=True)
     (out / "udalost").mkdir()
 
-    (out / "index.html").write_text(env.get_template("index.html").render(
+    def render(tpl: str, **kw) -> str:
+        """Render šablony + prefix BASE_URL na všechny kořenové odkazy."""
+        html = env.get_template(tpl).render(**kw)
+        if config.BASE_URL:
+            html = (html.replace('href="/', f'href="{config.BASE_URL}/')
+                        .replace('src="/', f'src="{config.BASE_URL}/')
+                        .replace("fetch('/", f"fetch('{config.BASE_URL}/"))
+        return html
+
+    (out / "index.html").write_text(render("index.html",
         home_sections=home_sections), encoding="utf-8")
 
     for page in category_pages:
         (out / "kategorie" / f"{page['cat']['key']}.html").write_text(
-            env.get_template("category.html").render(**page), encoding="utf-8")
+            render("category.html", **page), encoding="utf-8")
 
     for e in events:
         (out / "udalost" / f"{e['id']}.html").write_text(
-            env.get_template("event.html").render(e=e), encoding="utf-8")
+            render("event.html", e=e), encoding="utf-8")
 
-    (out / "hledani.html").write_text(env.get_template("hledani.html").render(),
-                                      encoding="utf-8")
-    (out / "o-projektu.html").write_text(env.get_template("o-projektu.html").render(
+    (out / "hledani.html").write_text(render("hledani.html"), encoding="utf-8")
+    (out / "o-projektu.html").write_text(render("o-projektu.html",
         sources=sources_cfg["sources"], n_sources=len(sources_cfg["sources"])),
         encoding="utf-8")
+
+    # členská sekce: soubory nesmí být dostupné napřímo, servíruje je WP brána
+    (out / ".htaccess").write_text(
+        "<IfModule mod_authz_core.c>\nRequire all denied\n</IfModule>\n"
+        "<IfModule !mod_authz_core.c>\nDeny from all\n</IfModule>\n", encoding="utf-8")
 
     shutil.copytree(Path(__file__).parent / "static", out / "static")
     img_dir = config.DATA_DIR / "img"
@@ -189,14 +202,14 @@ def build() -> None:
     items = []
     for e in sorted(events, key=lambda x: x["updated"], reverse=True)[:40]:
         items.append(
-            "<item><title>{}</title><link>https://novinky.vceliste.cz/udalost/{}.html</link>"
+            "<item><title>{}</title><link>{}/udalost/{}.html</link>"
             "<guid>{}</guid><pubDate>{}</pubDate><description>{}</description></item>".format(
-                _x(e["title"]), e["id"], e["id"],
+                _x(e["title"]), config.SITE_URL, e["id"], e["id"],
                 datetime.fromisoformat(e["updated"]).strftime("%a, %d %b %Y %H:%M:%S +0000"),
                 _x((e.get("what") or "") + " " + (e.get("takeaway") or ""))))
     (out / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-        "<title>Marketingové novinky od Včeliště</title><link>https://novinky.vceliste.cz</link>"
+        f"<title>Marketingové novinky od Včeliště</title><link>{config.SITE_URL}</link>"
         "<description>Novinky z online marketingu bez šumu</description>"
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 

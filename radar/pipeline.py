@@ -61,6 +61,8 @@ CLUSTER_SYSTEM = """Jsi editor zpravodajského webu. Dostaneš seznam EXISTUJÍC
 (id + titulek) a seznam NOVÝCH ČLÁNKŮ. Ke každému článku urči, zda popisuje STEJNOU KONKRÉTNÍ \
 UDÁLOST jako některá existující (stejné oznámení/funkce/rozhodnutí), nebo je to nová událost.
 
+Pozor: stejná událost bývá formulovaná různě – „srpnový spam update" = „třetí letošní spam update", \
+pokud jde o tentýž update. Rozhoduje věcná totožnost, ne slova.
 Slučuj jen jasné případy – při pochybnostech označ jako novou událost ("new").
 Články o stejné nové věci mezi sebou slučuj přes "group" (stejné číslo skupiny).
 
@@ -138,6 +140,64 @@ def _add_article(ev: dict, a, score: int) -> None:
 
 
 BACKFILL_FLAG = config.DATA_DIR / "backfill.flag"
+
+MERGE_SYSTEM = """Jsi editor zpravodajského webu. Dostaneš seznam publikovaných UDÁLOSTÍ \
+(id, titulek, kategorie, datum). Najdi skupiny událostí, které popisují TU SAMOU konkrétní věc \
+(stejné oznámení, tentýž update platformy – i když jsou titulky formulované různě, \
+např. „srpnový spam update" = „třetí letošní spam update").
+
+Buď konzervativní: slučuj jen jasné případy. Různé updaty, různé funkce nebo jen podobná témata NEslučuj.
+Odpověz POUZE validním JSON polem skupin id: [["id1","id2"], ...]. Když není co sloučit, vrať []."""
+
+
+def merge_duplicate_events(state: dict, events_by_id: dict) -> None:
+    """Douklízecí krok: sloučí duplicitní události z posledních dní."""
+    window = (_now() - timedelta(days=10)).isoformat()
+    recent = [e for e in state["events"] if e["updated"] >= window and e.get("title")]
+    if len(recent) < 2:
+        return
+    payload = [{"id": e["id"], "title": e["title"], "category": e["category"],
+                "day": e["created"][:10]} for e in recent[:150]]
+    try:
+        groups = llm.call_json(config.FAST_MODEL, MERGE_SYSTEM,
+                               json.dumps(payload, ensure_ascii=False))
+    except Exception:
+        log.exception("Hledání duplicitních událostí selhalo")
+        return
+    if not isinstance(groups, list):
+        return
+    valid = {e["id"] for e in recent}
+    merged = 0
+    for group in groups:
+        ids = [i for i in group if isinstance(i, str) and i in valid and i in events_by_id]
+        if len(ids) < 2:
+            continue
+        evs = sorted((events_by_id[i] for i in ids), key=lambda e: e["created"])
+        keep, rest = evs[0], evs[1:]
+        for r in rest:
+            for x in r.get("articles", []):
+                dup = next((y for y in keep["articles"]
+                            if y["url"] == x["url"]
+                            or (y["source"] == x["source"]
+                                and _norm_title(y["title"]) == _norm_title(x["title"]))), None)
+                if dup is None:
+                    keep["articles"].append(x)
+            keep["importance"] = max(keep.get("importance", 0), r.get("importance", 0))
+            if r.get("image") and not keep.get("image"):
+                keep["image"], keep["image_from"] = r["image"], r.get("image_from")
+            state["events"].remove(r)
+            events_by_id.pop(r["id"], None)
+            valid.discard(r["id"])
+        keep["updated"] = _now().isoformat()
+        try:
+            summarize_event(keep)
+        except Exception:
+            log.exception("Přegenerování souhrnu po sloučení %s selhalo", keep["id"])
+        keep["importance_label"] = config.importance_label(keep.get("importance", 0))
+        keep["multi_source"] = len({a["source"] for a in keep["articles"]}) >= 2
+        merged += len(rest)
+    if merged:
+        log.info("Sloučeno %d duplicitních událostí", merged)
 
 
 # ── Krok 1: skórování ────────────────────────────────────────────
@@ -373,6 +433,10 @@ def run() -> int:
             except Exception:
                 log.exception("Rescore události %s selhal", ev["id"])
         state["persona_rescore_v2"] = True
+
+    # Douklízení: sloučení duplicitních událostí (stejná věc, různé titulky)
+    if not config.MOCK:
+        merge_duplicate_events(state, events_by_id)
 
     # Náhledové obrázky k důležitým událostem (og:image z původních článků)
     if not config.MOCK:

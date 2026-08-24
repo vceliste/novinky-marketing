@@ -32,6 +32,10 @@ SEEN_RETENTION_DAYS = 60      # jak dlouho si pamatujeme viděné URL
 
 TZ = "Europe/Prague"
 
+# Umístění webu (členská sekce na akademii)
+BASE_URL = os.environ.get("RADAR_BASE_URL", "")          # např. "/novinky"
+SITE_URL = os.environ.get("RADAR_SITE_URL", "https://akademie.vceliste.cz/novinky")
+
 IMPORTANCE_LABELS = [
     (80, "zásadní"),
     (60, "důležité"),
