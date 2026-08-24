@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-24T09:12:10.976102+00:00",
+ "last_run": "2026-08-24T11:00:27.311204+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f5e60707cb0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f55bffc93a0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -101,7 +101,7 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -155,7 +155,7 @@
    "name": "Rank Math",
    "feed": "https://rankmath.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Linki.cz",
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
-   "new": 8
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -1794,21 +1794,801 @@
   "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXBCM1RxcGNVWnFrMjlFWnMzaXFSS3NhZTdKQUVRQTA4ZlN1OWx4ZlNCdjZvVjJxRHNPdEtWSDU1MDBQT05rNVVhUzR4VWtsNVlrNmRuNXgwN2czY1J2cVpSNXh4TmVfTHYwY3pWR2NNRjh1NmhUbGtnOGhCd0RyQTg3b0pqTHZhNFJ3RzlneXoyX3NicnRoYjJJNnhCNlJDNmZBUTd3?oc=5": "2026-08-24T09:12:10.976102+00:00",
   "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZi1vT1RfOGRVTXhNakxsRllSWlpCbWFlN0gtZUM2b0M1dUNtQy02dE45aXQ4WVNHZnlHcjNvNmtDMkM1bHp4OF81dWRiaTdrbXVSRm9Ld3lhRkdENzRUWF80V3VLa05uUWJQclJVWkFfX0hUcW1jdVZKQkFUXzBRc1doSFAxZTRRaWc?oc=5": "2026-08-24T09:12:10.976102+00:00",
   "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeTdQSl8zeHB4TkJUc0RkVnVSQThvSVBpQkwzczV5YnpUX2lELVVNLVUyYWpFZ3pCRmRXbmxJSjdINWRrN0IySGNSSkt4NEVreFMwalQyRWFfMFYxZW9UYzY1bVpRRkZvQTBtWktkdFhvT0hWY2VVVVRXMWp3SEdVWGpn?oc=5": "2026-08-24T09:12:10.976102+00:00",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPck1aOEx5dEp4WVE5djNmclkwSDZOMnRRbEJEemFWQk1DbmdTSnR5OFdJaFM3eFNPMUE0MFdLMWI4dHdaVF9LLXNNRzhBdElFbkgwZUlYQy1CUERFZk5xdDQwUXgyU2o2RE0wOWNka0M0QVhRVUJQMkhIc2V6ZU5faEZqenFWeG5JWFMtSWdXMA?oc=5": "2026-08-24T09:12:10.976102+00:00"
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPck1aOEx5dEp4WVE5djNmclkwSDZOMnRRbEJEemFWQk1DbmdTSnR5OFdJaFM3eFNPMUE0MFdLMWI4dHdaVF9LLXNNRzhBdElFbkgwZUlYQy1CUERFZk5xdDQwUXgyU2o2RE0wOWNka0M0QVhRVUJQMkhIc2V6ZU5faEZqenFWeG5JWFMtSWdXMA?oc=5": "2026-08-24T09:12:10.976102+00:00",
+  "https://cc.cz/na-starem-meste-otevrelo-prijemne-neturisticke-moderni-bistro-jsou-za-nim-majitele-laskave-a-gronu": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.searchenginejournal.com/google-answers-if-some-sites-can-ignore-geo-and-just-focus-on-seo/586737": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.lupa.cz/aktuality/cesky-stat-loni-zaznamenal-dva-velmi-vyznamne-kyberutoky-s-moznym-dopadem-na-fungovani": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.mediar.cz/znacce-cebia-s-rustem-ve-trech-zemich-pomaha-advisio": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.marketingbrew.com/stories/jack-in-the-box-collectibles-brand-strategy": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.mediaguru.cz/story-tlrs-ziskala-jaegermeister-postara-se-o-socialni-site": "2026-08-24T11:00:27.311204+00:00",
+  "https://www.mediaguru.cz/nova-i-na-podzim-zaradi-kulinarsky-porad-lednicko-vypravej": "2026-08-24T11:00:27.311204+00:00",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMm5CREZzbHJGUWdJWHJpX0Q5MGhxb1RKc0dfZHEtbXNkQzZFNWR2NFhLZ0hLUDI4OGlNdzc4Z25DcmhDUGRUVklrWUhrNURiTXJxM214T0tISTNnRlFVVFZjQVBLNXNaQUM1SVYtTFVRQkpzaTdXanM1T1U4bXlNTy15RWhCS1Q2SENkS3hIbnktNWYwOE5nNU9Id1Zhd0tQQmlHdXlESDQ5RFVkVkdQR3lwMVFMYlhGbk1naGhWUXlIV1FvVFlPLUlrbC13ZzhOWVV3Wi1OeXg?oc=5": "2026-08-24T11:00:27.311204+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUjNUVzBlMHdTbURGQUN1Qm5jVkowaWRmcUlWamh4bDhkZkxfcUt5Zlo5Q05HZDJ1azl6ckNrbGdVWkRpd0pWamVWYzB3WXNGOHNrMC1qOUdPVTB5TWJDbG56SWtFXy1SSTZfSkVWN1daajQtWldRbmlYbmdHV0thX0Zxbm9jS0hvcTkyWlZ2UEhhUEpnX2ZSVG4tQzdjblk?oc=5": "2026-08-24T11:00:27.311204+00:00"
  },
  "events": [
   {
-   "id": "02a80430fb",
-   "created": "2026-08-18T01:04:33+00:00",
+   "id": "537964041a",
+   "created": "2026-08-20T02:58:47+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1FhWUxBd2RuTnhheWxYaHhENVZORmpVNjB3bzEyYXROMzVuQjVLY0cyclpIWWFpQkloU2dxSHZ5LUtOWkpkbkdVVnN6bElXNDJpY0JmZV9ZS1dKV2RJZDlTX3NQY1ZZcHpfaFdFQ09PdGcxTlBGOHY1ei1BWGR5ZXBmbGlmRWo0dWItak0wUG5nUjZXU1E?oc=5",
-     "title": "Microsoft Publishes Conversions API Documentation",
-     "summary": "Microsoft Publishes Conversions API Documentation &nbsp;&nbsp; PPC News Feed",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFBY2dXSlM2a3NzNDNUVUNGMzFpYi1LMy1idy1KZTBOSkhKUF9HWFdzaWtPdUlNU3E2ZjFmb1pyS2lTRlRxTlRZNkVGYTYyaWdaNTEtOW5zM1drUHVqUzl2anh1R2FnM3F0UTVoZ3lGMFg1Z3JPLWp2dmU0aFBjY1NTQUpFQmhhUFN0QXo1UQ?oc=5",
+     "title": "Native Commerce Attribute Help Page Released",
+     "summary": "Native Commerce Attribute Help Page Released &nbsp;&nbsp; PPC News Feed",
      "source": "PPC Newsfeed",
      "domain": "ppcnewsfeed.com",
-     "published": "2026-08-18T01:04:33+00:00",
+     "published": "2026-08-20T02:58:47+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-find-sitelinks-for-you-41907.html",
+     "title": "Google Ads Can Find Sitelinks For You",
+     "summary": "Google Ads can now help you find sitelinks for your ad extensions. A new feature within the Google Ads advertiser console will now suggest new sitelinks to add to your ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-20T11:41:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-introduces-automatic-sitelink-suggestions",
+     "title": "Google Ads Introduces Automatic Sitelink Suggestions",
+     "summary": "Google Ads can now help advertisers find sitelinks for their ad extensions. A new feature within the Google Ads UI suggests sitelinks that can be added to ads, which link directly to specific pages on advertisers' websites. The interface displays a notification stating, \"I found some sitelinks for you,\" allowing users to click \"Review sitelinks\" to view suggestions based on their final URL. The interface showcases a \"Suggested\" tab alongside recommended sitelinks, enhancing usability for advertisers in optimizing their ads. This update was discovered by Arpan Banerjee and&nbsp; Barry Schwartz ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T01:49:00+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Google Ads spustil nápovědu k atributům Native Commerce",
+   "updated": "2026-08-24T11:03:46.235335+00:00",
+   "what": "Google Ads publikoval novou help page věnovanou atributům Native Commerce. Jde o dokumentaci k funkcionalitě, která umožňuje propojit produktové katalogy s reklamními kampaněmi.",
+   "why": "Pro e-shopy a PPC specialisty je důležité sledovat dokumentaci nových funkcí Google Ads – Native Commerce atributy mohou ovlivnit nastavení produktových kampaní a feed management.",
+   "takeaway": "Pokud provozujete produktové kampaně v Google Ads, zkontrolujte novou dokumentaci k Native Commerce atributům a zjistěte, zda vás se týká a jak ji využít pro lepší propojení katalogu s kampaněmi.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/4410777aff.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "a10f53a646",
+   "created": "2026-08-17T20:10:31+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166",
+     "title": "YouTube Changes How It Counts Views On Long-Form & Live via @sejournal, @MattGSouthern",
+     "summary": "YouTube is changing how it counts views on long-form videos and live streams. The post YouTube Changes How It Counts Views On Long-Form &#038; Live appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T20:10:31+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093",
+     "title": "YouTube is changing how it counts views",
+     "summary": "The platform said that all formats will soon align with Shorts methodology and measure views the moment a video starts playing.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T21:14:08+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "YouTube mění metodiku počítání zhlédnutí u dlouhých videí a streamů",
+   "updated": "2026-08-24T11:03:37.874685+00:00",
+   "what": "YouTube sjednocuje způsob počítání zhlédnutí napříč všemi formáty. Dlouhá videa a živé streamy se budou počítat stejně jako Shorts – zhlédnutí se započítá okamžikem spuštění přehrávání, nikoliv až po určité době sledování.",
+   "why": "Změna metody ovlivní vykazované metriky u YouTube obsahu. Počty zhlédnutí porostou rychleji, ale nemusí odrážet skutečnou míru sledovanosti. Pro marketingové manažery to znamená nutnost přehodnotit KPI a reporty výkonu YouTube kampaní a organického obsahu.",
+   "takeaway": "Revidujte benchmarky a cíle pro YouTube kampaně – počty zhlédnutí půjdou nahoru, ale sledujte důležitější metriky jako průměrná doba sledování a míra досledu. Informujte vedení a klienty o změně metodiky, aby správně interpretovali růst čísel.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/2006a67fab.jpg",
+   "image_from": "socialmediatoday.com"
+  },
+  {
+   "id": "d84d771e1d",
+   "created": "2026-08-18T02:57:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/branded-searches-conversion-type-added-google-ads",
+     "title": "Branded Searches Conversion Type Added to Google Ads",
+     "summary": "Google Ads has documented branded searches as a new conversion type that records search queries made for a brand on Google and YouTube after viewing associated ads.&nbsp; This feature is available for YouTube and Demand Gen campaigns , classified under the Consideration goal . Unlike previous methods, such as Search Lift experiments, there is no additional setup required. Branded searches allow advertisers to track brand interest over a 7-day period , using last click and view-through conversion attribution. These insights help determine marketing budget allocations, inform campaign effectiven",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-18T02:57:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdUUyVnhBSFJSMXRrNnpZQTVqdUdqczRfXzh2ak1kX3NUczkxY3BNVXVrNldqdjdpOE5RT3U2V3VvcVk1ZlVJcTdmVnB1TlRpYm5FemxMMVlCOU5EOEN2ZllaNjJiWEU3ZzdDNHlJR1QzQXQyVnAxMERrQnlVRGJzcDZVMlVjQTdmZmU1TjlLM1NuNWMx?oc=5",
+     "title": "Google updates Branded Searches conversion measurement",
+     "summary": "Google updates Branded Searches conversion measurement &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T14:15:00+00:00",
+     "score": 78
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google Ads nově měří branded vyhledávání jako typ konverze",
+   "updated": "2026-08-24T11:03:28.319334+00:00",
+   "what": "Google Ads přidal nový typ konverze \"branded searches\", který zaznamenává vyhledávání značky na Googlu a YouTube po zobrazení reklamy. Funkce je dostupná pro YouTube a Demand Gen kampaně pod cílem Consideration, bez nutnosti dodatečného nastavení.",
+   "why": "Umožňuje měřit zájem o značku v 7denním okně pomocí last click a view-through atribuce, což dříve vyžadovalo složitější Search Lift experimenty. Poskytuje přímá data pro hodnocení efektivity kampaní zaměřených na budování povědomí.",
+   "takeaway": "Zkontrolujte konverze v YouTube a Demand Gen kampaních – nová metrika vám ukáže, kolik lidí po shlédnutí reklamy aktivně vyhledávalo vaši značku. Využijte tato data při rozhodování o rozpočtu na brand awareness kampaně.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/d84d771e1d.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "4ea9abb0c8",
+   "created": "2026-08-18T13:02:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads",
+     "title": "IAB updates standard for disclosing AI in ads",
+     "summary": "IAB’s updated framework draws the AI disclosure line around what changes consumer perceptions of authenticity, identity, and what’s real. The post IAB updates standard for disclosing AI in ads appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-18T13:02:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 50,
+   "title": "IAB aktualizuje standard pro označování AI v reklamě",
+   "updated": "2026-08-24T11:03:19.800402+00:00",
+   "what": "IAB (Interactive Advertising Bureau) vydal aktualizovaný framework pro označování použití AI v reklamách. Nový standard se zaměřuje na situace, kdy AI mění vnímání autenticity, identity nebo toho, co je skutečné.",
+   "why": "Jde o průmyslový standard, který může ovlivnit způsob, jakým by měly být reklamy s AI obsahem značeny, což se postupně může promítnout i do evropské a české praxe, zejména v kontextu regulací typu DSA.",
+   "takeaway": "Sledujte, jak se tento standard bude implementovat v platformách, které používáte (Meta, Google). V budoucnu může být potřeba označovat AI-generovaný obsah v kampaních, zvlášť pokud mění identitu osob nebo vytváří falešný dojem reality.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "7777222cb5",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-tests-advertiser-list-favicons",
+     "title": "Google Tests Advertiser List with Favicons",
+     "summary": "Google is currently testing a new format for sponsored search results that adds more information to the sponsored section. The test displays a list of advertisers alongside their favicons . For related developments, see the earlier article about Google Ads testing grouped favicons next to sponsored labels published last month. This update was surfaced by Sachin Patel . The post Google Tests Advertiser List with Favicons appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-14T00:01:50+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-sponsored-results-ad-summary-header-41851.html",
+     "title": "Google Ads Sponsored Results Tests Advertiser Name & Favicon Summary",
+     "summary": "Google is testing placing the list of advertisers in the group of sponsored results at the top of the ad block in the mobile search results. So if the sponsored results group has two advertisers in it, Google will show the favicon and domain name of the ads that will be shown below, all the way at the top, directly under the \"Sponsored results\" header and directly above the actual ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-11T11:51:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3J5dnhyX3h2NTkyRGZnQkd5NzFFTEQ4Q0JSdjVQdVd5MnVPajNOa3lrSUpSbWZjU1cwR0wtUHJ3UVA5MFBqbE52YnpxVl81NFRPd0Utelo0Nmw4NElEYmQ1SXFkaXVDdnoyTHQ1MVVjd3pwT05KVWlFNkl1Zmd6YXllOGlncllzWV81QnpMd0dYQQ?oc=5",
+     "title": "Google tests advertiser list above mobile Search ads",
+     "summary": "Google tests advertiser list above mobile Search ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-11T16:17:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/business-logos-shopping-added-google-ads",
+     "title": "Business Logos for Shopping Added in Google Ads",
+     "summary": "Advertisers setting up Performance Max and Shopping campaigns can now add their business logo directly in Google Ads. If they do not add a logo, the system will revert to the logo from the Google Merchant Center as previously conducted. This update was flagged by Arpan Banerjee . The post Business Logos for Shopping Added in Google Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T23:20:34+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-tests-blue-hyperlinks-ad-descriptions",
+     "title": "Blue Hyperlinks Spotted in Google Search Ad Descriptions",
+     "summary": "Google is testing blue hyperlinks in the ad descriptions within the sponsored results.&nbsp; The appearance of these links suggests that more keyword-rich links may be incorporated in the Google Search sponsored results descriptions in the future.&nbsp; This update was uncovered by Sachin Patel and&nbsp; Barry Schwartz . The post Blue Hyperlinks Spotted in Google Search Ad Descriptions appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-18T11:17:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google testuje seznam inzerentů s favicony nad placenou reklamou",
+   "updated": "2026-08-24T11:03:06.917709+00:00",
+   "what": "Google testuje nový formát zobrazení sponzorovaných výsledků v mobilním vyhledávání. Nad samotné reklamy se zobrazuje seznam inzerentů včetně jejich favicon a doménových jmen, přímo pod hlavičkou \"Sponzorované výsledky\". Pokud skupina obsahuje například dva inzerenty, jejich loga a domény se ukáží nahoře ještě před tím, než uživatel uvidí konkrétní reklamní texty.",
+   "why": "Jde o výraznější vizuální změnu v uspořádání placených výsledků, která může ovlivnit, jak uživatelé vnímají a klikají na reklamy. Google tím přidává další vrstvu informací do již tak nabitého prostoru reklamních bloků.",
+   "takeaway": "Pro PPC specialisty to znamená další faktor, který může ovlivnit CTR jejich kampaní – silná značka s rozpoznatelnou favicon může mít výhodu, slabší brand naopak utrpí. Sledujte výkonnostní data, pokud se změna rozšíří i do ČR – vliv na metriky může být znatelný.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7777222cb5.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "413654ed88",
+   "created": "2026-08-19T11:51:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5",
+     "title": "ChatGPT Ads are expanding to 31 European countries",
+     "summary": "ChatGPT Ads are expanding to 31 European countries &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:22:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
+     "title": "ChatGPT Ads Expanding To 31 European Countries",
+     "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-19T11:51:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai",
+     "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
+     "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Roz&#353;íření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít pří&#353;tí týden.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-19T15:21:16+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ppchero.com/we-tested-ads-in-chatgpt",
+     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
+     "summary": "ChatGPT advertising is live: blunt targeting, opaque pricing, thin measurement. Here's what our testing found about formats and cost before you spend a dollar. &lt;p&gt;The post We Tested Ads in ChatGPT: Here&#8217;s What the Channel Actually Does first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-19T15:02:30+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552",
+     "title": "X launches MCP server",
+     "summary": "The system allows advertisers to connect their campaigns to the artificial intelligence tool of their choice and use it to guide their promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-23T21:44:23+00:00",
+     "score": 60
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "ChatGPT Ads dorazí do Evropy včetně ČR – nový reklamní kanál s nejasnými pravidly",
+   "updated": "2026-08-24T11:02:55.354995+00:00",
+   "what": "OpenAI oznámila rozšíření reklam v ChatGPT do 31 evropských zemí včetně Česka, k aktivaci má dojít příští týden. Reklamy testovala OpenAI půl roku v USA, nyní je zpřístupní pro evropské inzerenty. Podle testů z USA jde o formát s omezeným cílením, netransparentními cenami a slabými možnostmi měření výkonu.",
+   "why": "Otevírá se zcela nový reklamní kanál pro český trh – ChatGPT má miliony uživatelů a může oslovit jiné publikum než klasické vyhledávače nebo sociální sítě. Zároveň jde o formát, který zatím nemá osvědčené postupy, jasné metriky ani známou efektivitu nákladů, což představuje riziko při testování rozpočtu.",
+   "takeaway": "Sledujte oficiální spuštění příští týden a podmínky pro české inzerenty (ceny, cílení, reporting). Pokud plánujete testovat ChatGPT Ads, alokujte menší testovací rozpočet a předem si definujte metriky úspěchu – možnosti měření jsou zatím omezené a ceny nejsou transparentní.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/413654ed88.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "1d02021f0e",
+   "created": "2026-08-20T23:42:47+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sYVFYbkxuVkVNam15dHJDMjNza2hvZUhZLVBKRDctc1F6azU1MmtnTVNKc1VKUG93NjJaSEVYSy1kckVBV0xVdkx0elUtU3VKQzJiYjVBMF95YXNSdzY0YUFmNlk3aXl2NUx3ckxLaXhYZ1U1a2FBdnNsMA?oc=5",
+     "title": "Google Ads API v25.1 Released",
+     "summary": "Google Ads API v25.1 Released &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T23:42:47+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/how-this-ad-was-made-added-my-ad",
+     "title": "“How This Ad Was Made” Added to My Ad Center",
+     "summary": "Google Ads has improved ad&nbsp; transparency to provide&nbsp;users with detailed information about ads generated with artificial intelligence.&nbsp; The panel features a section titled \"How this ad was made,\" which discloses when an ad was created or edited with AI , allowing users to understand the origin and nature of the content they see. The feature is available through My Ad Center using the three-dot menu on ads across Search, YouTube, and Discover.&nbsp; Google emphasizes that ads built using its own tools will automatically include AI disclosures, while advertisers creating assets ext",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T22:57:16+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads API v25.1 je venku",
+   "updated": "2026-08-24T11:02:45.239649+00:00",
+   "what": "Google vydal novou verzi svého Google Ads API – v25.1. Jde o update programátorského rozhraní, přes které nástroje a agentury spravují kampaně.",
+   "why": "Nové verze API mohou přinést nové funkce pro automatizaci nebo vyžadovat aktualizaci nástrojů, které vaše firma nebo agentura používá pro správu Google Ads kampaní.",
+   "takeaway": "Pokud používáte nástroje třetích stran nebo vlastní skripty pro správu Google Ads, ověřte u dodavatele nebo vývojáře, zda jsou kompatibilní s v25.1. Google obvykle postupně vyřazuje starší verze API.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "3ac42f60e1",
+   "created": "2026-08-21T13:18:04.498824+00:00",
+   "articles": [
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping",
+     "title": "How businesses win when AI does the shopping",
+     "summary": "AI is already the fastest-growing retail channel. Our playbook helps you prepare for the age of AI shopping and agentic commerce.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-08-21T13:18:04.498824+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook",
+     "title": "Microsoft Releases Agentic Commerce Playbook",
+     "summary": "Microsoft has released a new guide for agentic commerce called Prepare for the Age of AI Shopping , designed to help advertisers prepare for agentic commerce and AI driven shopping experiences . The playbook focuses on three areas.&nbsp; Get discovered with AI ready product feeds in Microsoft Merchant Center.&nbsp; Get chosen through AI native ads across Bing and Copilot, Copilot Checkout, and Brand Agents.&nbsp; Understand what is working with AI Visibility insights in Microsoft Clarity, including AI citations, grounding queries, competitor comparisons, and AI referred traffic. It also includ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T23:31:23+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Microsoft vydal playbook pro AI shopping a agentní obchodování",
+   "updated": "2026-08-24T11:02:33.992741+00:00",
+   "what": "Microsoft Advertising publikoval průvodce 'Prepare for the Age of AI Shopping', který má pomoci inzerentům připravit se na nákupy řízené AI a agentní obchodování. Playbook se zaměřuje na tři oblasti: optimalizaci produktových feedů pro AI v Microsoft Merchant Center, získání viditelnosti prostřednictvím AI nativních reklam v Bingu, Copilotu a Brand Agents, a měření výkonu přes AI Visibility insights v Microsoft Clarity (včetně AI citací, zdrojových dotazů, srovnání s konkurencí a AI referovaného provozu).",
+   "why": "Podle Microsoftu je AI již nejrychleji rostoucím maloobchodním kanálem. Pro české e-shopy používající Microsoft Ads (byť menší platformu než Google) jde o vodítko, jak se připravit na budoucnost, kdy AI agenti budou aktivně nakupovat za uživatele – což změní pravidla visibility a konverze.",
+   "takeaway": "Pokud inzerujete na Microsoftu/Bingu, projděte si playbook a připravte produktové feedy pro AI formáty. Sledujte, jak podobné přístupy začne komunikovat Google – principy budou pravděpodobně podobné a dopad na český trh větší.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/3ac42f60e1.jpg",
+   "image_from": "about.ads.microsoft.com"
+  },
+  {
+   "id": "35e0793763",
+   "created": "2026-08-19T19:41:53+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459",
+     "title": "Microsoft Advertising Rolls Out AI Max Globally via @sejournal, @brookeosmundson",
+     "summary": "Microsoft Advertising is rolling out AI Max globally, bringing expanded Search matching, text customization, URL expansion and new advertiser controls to Search campaigns. The post Microsoft Advertising Rolls Out AI Max Globally appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T19:41:53+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5",
+     "title": "Microsoft Advertising rolls out AI Max globally for Search campaigns",
+     "summary": "Microsoft Advertising rolls out AI Max globally for Search campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T20:46:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-41909.html",
+     "title": "Microsoft Advertising Rolling Out AI Max Globally",
+     "summary": "Microsoft Advertising is rolling out AI Max globally and to all advertisers. If you log in to your Microsoft Advertising account, you should be able to toggle on the AI Max setting for your search campaigns.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-20T11:21:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFpsYTAyLTdVTFE2UU5pTXVmUHJ0SnU1N2d0UjZMdFFtZDRsYVktam5oWmJaVjVnNkZDM2xzNlBOeDI5ZG5PdjgzODFTcnV6TFljR0thOUR4blFvMTljMzZ2UUJrX3NqWUdVNjM4aG5OYVh2VkZlSjBsaXppSVB3VFlkSmFxb3BsVFJhYkpNOFJWYmc?oc=5",
+     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
+     "summary": "AI Max Rolls Out Globally in Microsoft Advertising &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T08:17:11+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Microsoft Advertising spouští AI Max globálně – i pro české inzerenty",
+   "updated": "2026-08-24T11:02:21.216404+00:00",
+   "what": "Microsoft Advertising zpřístupnil funkci AI Max všem inzerentům po celém světě včetně ČR. Jde o rozšíření AI funkcí pro vyhledávací kampaně, které zahrnuje rozšířené párování vyhledávání, automatické přizpůsobování textů reklam, rozšíření URL a nové kontrolní nástroje pro inzerenty. Funkci lze aktivovat přepnutím v nastavení vyhledávacích kampaní v účtu Microsoft Advertising.",
+   "why": "Pro české inzerenty využívající Microsoft Advertising (Bing) to znamená přístup k AI nástrojům, které mohou automaticky optimalizovat kampaně – upravovat texty reklam a rozšiřovat cílení bez manuálních zásahů. To může zvýšit efektivitu kampaní, ale zároveň vyžaduje posouzení, zda automatizace odpovídá vaší strategii a zda nové kontrolní nástroje poskytují dostatečný dohled.",
+   "takeaway": "Pokud využíváte Microsoft Advertising, zkontrolujte nastavení svých vyhledávacích kampaní – AI Max je nyní k dispozici jako volitelná funkce. Před aktivací si prostudujte nové kontrolní nástroje a zvažte, zda automatické úpravy textů a rozšířené párování neovlivní vaši kontrolu nad sdělením a cílením. Otestujte na menší části rozpočtu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/35e0793763.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "31645f85c1",
+   "created": "2026-08-22T11:51:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/update-misleading-ad-design-policy",
+     "title": "Update to Misleading Ad Design Policy",
+     "summary": "Google has updated the Misleading ad design policy article to provide additional examples and clearer information to advertisers. This update does not change enforcement of the policy. Find the official announcement here: Update to Misleading ad design policy article . The post Update to Misleading Ad Design Policy appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T11:51:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google upřesnil pravidla pro zavádějící design reklam",
+   "updated": "2026-08-24T11:02:13.035279+00:00",
+   "what": "Google aktualizoval dokumentaci k politice zavádějícího designu reklam. Přidal další příklady a zpřehlednil informace pro inzerenty. Samotné vynucování pravidel se nemění.",
+   "why": "Jasnější dokumentace pomůže inzerentům lépe pochopit, co Google považuje za zakázané praktiky, a snížit riziko zamítnutí reklam nebo pozastavení účtu kvůli nedorozumění.",
+   "takeaway": "Zkontrolujte si aktualizovanou dokumentaci, abyste se ujistili, že vaše reklamní kreativy (zejména displeje a responsive ads) neporušují pravidla týkající se zavádějícího designu – například napodobování systémových hlášek nebo tlačítek.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/8ff8ea268a.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "c1eae1bf60",
+   "created": "2026-08-20T01:13:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/native-commerce-attribute-help-page-released",
+     "title": "Native Commerce Attribute Help Page Released",
+     "summary": "A new attribute called native commerce &nbsp; [native_commerce] has been introduced in Google Merchant Center , enabling eligible product listings to participate in the \"Buy Now\" flow&nbsp; within Google interfaces like Gemini and AI Mode in Search , without visiting an external website. It was previously mentioned in various occasions, but now Google published its own help page. Key features include Enhanced Transactability for high-intent surfaces and Seamless Integration via supplemental feeds that do not disrupt primary data.&nbsp; The checkout eligibility sub-attribute dictates if the \"Bu",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-20T01:13:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/event-section-added-promotions-merchant-center",
+     "title": "Event Section Added to Promotions in Merchant Center",
+     "summary": "A new Event section has been introduced in the Promotions section of Google Merchant Center . This functionality allows advertisers to create promotions for sales events such as discounts or special occasions. Advertisers can also add images related to the event. During setup, users can: Add a dedicated event URL . Upload up to three promotional images . Assign promotions to specific product categories . These events can be displayed in Google search results and product listings without being tied to a specific product, while product categories can be added to ensure the event appears for rele",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T06:28:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Merchant Center: nové atributy pro nákup přímo v Googlu a event akce",
+   "updated": "2026-08-24T11:02:01.782738+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/c1eae1bf60.jpg",
+   "image_from": "ppcnewsfeed.com",
+   "what": "Google Merchant Center přidal dva nové nástroje: atribut 'native_commerce' umožňující nákup přímo v rozhraních Googlu (Gemini, AI Mode v Search) bez přechodu na web e-shopu, a novou sekci 'Event' v Promotions pro vytváření akcí a slev s možností nahrát až tři obrázky a přiřadit je kategoriím produktů.",
+   "why": "Pro e-shopy s produkovými daty v Merchant Center jde o nové možnosti zviditelnění nabídky – 'native_commerce' zkracuje cestu k nákupu a může zvýšit konverzi na high-intent plochách Googlu, zatímco Event promotions umožní propagovat slevy a akce přímo ve vyhledávání bez nutnosti vázat je na konkrétní produkt.",
+   "takeaway": "Pokud máte GMC feed, sledujte dostupnost 'native_commerce' (zatím jen pro vybrané obchody) a otestujte novou sekci Event v Promotions – obojí může zlepšit viditelnost a konverzi, ale vyžaduje doplnění feedu o nové atributy a přípravu vizuálů pro event akce."
+  },
+  {
+   "id": "0b8fc44116",
+   "created": "2026-08-18T16:28:47+00:00",
+   "articles": [
+    {
+     "url": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+     "title": "UPDATE: August 2026 spam update",
+     "summary": "Incident began at 2026-08-18 09:27 (all times are US/Pacific ). Released the August 2026 spam update , which applies globally and to all languages. The rollout may take a few days to complete. Affected products: Ranking",
+     "source": "Google Search Status Dashboard",
+     "domain": "status.search.google.com",
+     "published": "2026-08-18T16:28:47+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301",
+     "title": "Google Begins Rolling Out The August 2026 Spam Update via @sejournal, @MattGSouthern",
+     "summary": "Google has begun rolling out the August 2026 spam update, applying globally and to all languages, its third one this year. The post Google Begins Rolling Out The August 2026 Spam Update appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T17:10:40+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
+     "title": "Google August 2026 Spam Update Has Been Unleashed",
+     "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all languages. This only impacts sites that spam, but with any update, there may be collateral damage.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-18T16:45:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5",
+     "title": "Google releases August 2026 spam update",
+     "summary": "Google releases August 2026 spam update &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T16:37:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZVlqR2Vwakk3X2tsNVZnREg0VXJpbC13OXpHc2VQemRjeEpQS0J6U2lnUUZRUWJEN0NNUnRySmZyUW11WEVSc3NLV0psUlM0WmNrYWZrWGNiY1FuWXZfQ3RoSzhFejJUMm91ZVBJbnowbFBWQy1vSVVPdXhIRmdaVm4yNnpxMVlIRlpz?oc=5",
+     "title": "Google August 2026 spam update done rolling out",
+     "summary": "Google August 2026 spam update done rolling out &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-21T09:25:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html",
+     "title": "Google August 2026 Spam Update Has Finished Rolling Out",
+     "summary": "The Google August 2026 spam update is now done rolling out. It started on Tuesday, August 18, 2026 at around 12:30 pm ET and completed on August 21, 2026 at around 4:50 am. Despite some people feeling the update started soon, Google's John Mueller said it did not.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T09:20:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/video-08-21-2026-41915.html",
+     "title": "Search News Buzz Video Recap: Google Unleashed The August 2026 Spam Update, Gemini 3.7 Powers AI Mode, Google and Microsoft Ads News & More",
+     "summary": "Google has released its third spam update of the 2026 year, the August 2026 spam update this week and finished rolling out Friday morning at 4:50am. Google Search's AI Mode is now being powered sometimes by...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T12:01:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597",
+     "title": "Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls. The post Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-22T12:30:28+00:00",
+     "score": 74
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google dokončil August 2026 spam update – dopad na spam za 3 dny",
+   "updated": "2026-08-24T11:01:51.504904+00:00",
+   "what": "Google spustil 18. srpna 2026 globální spam update platný pro všechny jazyky. Aktualizace se zaměřila na spam weby a dokončila se 21. srpna, tedy za necelé tři dny. Jde o třetí spam update Googlu v roce 2026.",
+   "why": "Update cílil primárně na spamové praktiky, ale jako u každé aktualizace algoritmu mohlo dojít k vedlejším dopadům i na legitimní weby. Pro SEO specialisty a marketingové manažery je podstatné sledovat, zda jejich weby nezaznamenaly pokles v organickém vyhledávání.",
+   "takeaway": "Zkontrolujte organickou návštěvnost a pozice ve dnech 18.–21. srpna v Google Analytics a Search Console. Pokud jste zaznamenali pokles, vyhodnoťte, zda váš obsah nemohl být algoritmem nesprávně identifikován jako spam. U budoucích úprav webu se vyhněte praktikám spojeným se spamem (automaticky generovaný obsah, keyword stuffing, cloaking).",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/ea2a0b392f.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "6b7bc95d57",
+   "created": "2026-08-23T02:04:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-planner-adds-campaign-change-testing",
+     "title": "Performance Planner Adds Campaign Change Testing",
+     "summary": "Google is updating Performance Planner with new tools to help advertisers evaluate campaign changes before applying them.&nbsp; Advertisers can now examine how adjustments to bidding or budget targets may affect the performance of their existing campaigns. If the suggested changes align with their goals, they can apply them directly with a single click. This update gives advertisers another way to assess potential performance outcomes and turn planning recommendations into campaign changes more quickly.&nbsp; Check the official announcement: Make AI Max work for your business with new testing ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T04:12:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/budget-bidding-target-experiments-introduced-search-campaigns",
+     "title": "Budget or Bidding Target Experiments Introduced for Search Campaigns",
+     "summary": "Google is expanding its Search campaign&nbsp; experiments with new ways to test budgets and ROI targets across multiple campaigns in a single A/B test. Building on the one click experiments introduced for&nbsp; AI Max in August 2025 , the new capability called \"Budget or bidding target experiments for Search Campaigns\" will roll out in September . Advertisers will be able to test how scaling budgets or changing ROI targets impacts performance across several Search campaigns at once. Visit the official announcement here: Make AI Max work for your business with new testing and planning tools . T",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T02:04:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google přidává do Performance Planneru testování změn kampaní",
+   "updated": "2026-08-24T11:01:42.050581+00:00",
+   "what": "Google aktualizuje nástroj Performance Planner o možnost testovat dopady změn v bidování nebo rozpočtu ještě před jejich aplikací. Zároveň přidává do vyhledávacích kampaní A/B testy rozpočtu a ROI cílů napříč více kampaněmi najednou – funkce se spouští v září 2026.",
+   "why": "Umožňuje předem vyhodnotit, jak se změní výkon kampaní při zvýšení rozpočtu nebo úpravě ROI cílů, a snižuje riziko neúspěšných změn. Doporučení lze aplikovat jedním kliknutím.",
+   "takeaway": "Pokud používáš Google Ads, zkontroluj Performance Planner – nově v něm můžeš otestovat dopad plánovaných změn rozpočtu nebo bidů dřív, než je nasadíš naživo. V září začnou A/B testy pro vyhledávací kampaně, kde půjde testovat škálování rozpočtu nebo změny ROI cílů na více kampaních současně.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/6b7bc95d57.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "c36d88f6db",
+   "created": "2026-08-20T11:30:36+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/meta-removing-placement-controls-ad-sets",
+     "title": "Meta Is Removing Placement Controls From Ad Sets",
+     "summary": "Meta is removing placement controls from ad sets, including exclusions by placement, platform, device, and operating system. The post Meta Is Removing Placement Controls From Ad Sets appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-20T11:30:36+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-removes-option-to-exclude-ad-placements/828461",
+     "title": "Meta removes option to exclude ad placements",
+     "summary": "The company will use an automated system to target display options, and brands will no longer be able to decide which apps receive promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T21:53:57+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZERzdGl0ZFZYVGdSdnl0MUlYYjI1b200cVp2TndlbW5DR0R5TlZnVEdPU01RYkxrdHpENnRGTWJBM1BNWmZKU0JrVEpERFB1VTVEemRXVzZSZnc1N3dFM2RUeGdWTzk4ckhhc1p4ak8zOVFRS3N4Zi11bUZWbDFiUnlSdG5xTGIyMUpSaW1nRy1UaFN2?oc=5",
+     "title": "Performance Planner Adds Campaign Change Testing",
+     "summary": "Performance Planner Adds Campaign Change Testing &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T07:36:57+00:00",
      "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 75,
+   "title": "Meta ruší manuální výběr umístění reklam",
+   "updated": "2026-08-24T11:01:31.984812+00:00",
+   "what": "Meta odstraňuje z nastavení kampaní možnost ručně kontrolovat umístění reklam – nebude možné vyloučit konkrétní platformy (Facebook, Instagram), umístění (feed, stories, reklamy ve hrách), zařízení ani operační systémy. Všechna umístění budą řízena automaticky systémem Meta.",
+   "why": "Tato změna omezuje kontrolu nad tím, kde se reklamy zobrazují, což může ovlivnit výkonnost kampaní a kvalitu zobrazení. Marketéři už nebudou moci vyloučit např. umístění s nízkou konverzí nebo brandově nevhodná prostředí (např. určité hry nebo aplikace).",
+   "takeaway": "Zkontroluj aktuální nastavení kampaní na Meta platformách a sleduj výkonnost po zavedení změny. Připrav se na potřebu pracovat více s kreativami a cílením publika, protože přímá kontrola nad umístěními zmizí. Pravděpodobně budeš muset testovat, jak automatizace ovlivní ROAS a CPM.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/c36d88f6db.jpg",
+   "image_from": "jonloomer.com"
+  },
+  {
+   "id": "da24c5fdc0",
+   "created": "2026-08-19T04:10:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/enhanced-matching-customer-match",
+     "title": "Enhanced Matching for Customer Match",
+     "summary": "Google Ads appears to be rolling out a new Enhanced matching option for Customer Match under Account settings. When enabled, the setting can expand audience reach using connected user lists . According to the description in the interface, Google will match consented users with consented users from publishers where available. The option sits alongside existing Customer Match settings for Smart Bidding, Optimised Targeting, and conversion based customer lists. This update was noticed by Joey Bidner . The post Enhanced Matching for Customer Match appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T04:10:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS25weVNubmsxUk5vUkJyTGw4S290U2I3LXlfdE1xZ1hKckpNWnltSHZGU3VoMDMtdzd6VVRLczlTdnM3NkNQWmxIYnpSOW9HamRsN3BaZHpzaWNMNzJPNUxqb2lxb1ktVlZNZVdaamY4Rm5sSVJZbFBxZmFmZG1oSTU4VUN6dWxuYi1zbDFEN2VIUFU?oc=5",
+     "title": "Google Ads tests Enhanced Matching for Customer Match",
+     "summary": "Google Ads tests Enhanced Matching for Customer Match &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T15:21:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-enhanced-matching-41905.html",
+     "title": "Google Ads Enhanced Matching In Customer Match",
+     "summary": "Google Ads seems to be rolling out a new customer match option named \"enhanced matching.\" Google writes this allows you to \"Expand your audience reach with your consented user lists.\" Google will then \"match your consented users with publishers' consented users where available.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-20T11:31:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUxvbDlSanRXUTBnTU03VUZnMXNlcklmOE1SZ3VBeENJdjlKSDVnaV84UDVmWHA4anpMTGJ3dWJOdWtJd2lUVUMtZFp0VHBEWmVrVVRDMjlaMDRPR3FWa3pUbGJPaWVUVnU3OG05ZEhaTDJpUlYxeVVMZ2hpdHBreUEzRWRiYUlXdUN0ZHJEZHdiT1U?oc=5",
+     "title": "Google Ads API v25.1 expands measurement and insights",
+     "summary": "Google Ads API v25.1 expands measurement and insights &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T21:06:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-api-version-25-1-41908.html",
+     "title": "Google Ads API Version 25.1 Now Available",
+     "summary": "Google has released version 25.1 of the Google Ads API, this is a minor release with several of updates. This update includes text disclaimer assets, AI Max tracking, Brand and Conversion Lift measurements, brand sentiment insights, and several more features and changes.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-20T11:05:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://martech.org/marketers-dont-trust-the-data-used-to-shape-budgets",
+     "title": "B2B marketers don’t trust the data used to shape budgets",
+     "summary": "Marketing data influences budgets, but only 49% fully trust its accuracy and completeness. Disconnected reporting is behind the confidence gap. The post B2B marketers don’t trust the data used to shape budgets appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:47:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://martech.org/why-long-sales-cycles-make-b2b-marketing-so-hard-to-measure",
+     "title": "Why long sales cycles make B2B marketing hard to measure",
+     "summary": "Long B2B sales cycles make most marketing measurement unreliable. Learn why clicks, leads, and conversions don’t tell the full story. The post Why long sales cycles make B2B marketing hard to measure appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:01:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads testuje Enhanced Matching pro Customer Match",
+   "updated": "2026-08-24T11:01:22.055684+00:00",
+   "what": "Google Ads zavádí novou funkci Enhanced Matching pro Customer Match v nastavení účtu. Když je zapnutá, má rozšířit dosah publika pomocí nahraných seznamů zákazníků s jejich souhlasem. Google bude párovat uživatele se souhlasem s dalšími uživateli se souhlasem u vydavatelů, kde je to možné.",
+   "why": "Jde o nový způsob, jak zvětšit publika z vlastních dat (CRM) bez nutnosti přidávat další zdroje. Funkce doplňuje stávající nastavení Customer Match pro Smart Bidding a Optimised Targeting. Pro firmy pracující s Customer Match v ČR to může znamenat širší dosah remarketingových kampaní.",
+   "takeaway": "Zkontrolujte nastavení účtu v sekci Customer Match – pokud se u vás Enhanced Matching objeví, zvažte zapnutí, ale jen pokud máte platné souhlasy uživatelů dle GDPR. Sledujte, zda se změní velikost publika a výkonnost kampaní využívajících Customer Match.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/da24c5fdc0.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "94137465e7",
+   "created": "2026-08-17T15:43:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTByU3JCNDczd1kxQks4ME9JRXdiUGQ5SkNyc1Y1N3RabVRWQm9fRU5Yc0JPdEZONjgzbHJSdHR5VUVxUzBaZmFNVlZmcnNYV00zdGtmMjF1emJFSThnNFU2SlowaHpXT21md2x4ZFBnSzVQWHhnQkEwa0lYVTNEbHdkdDlxbXBTOVdpcXFOVWFXUkdqM25UZzJQVGl0bU0?oc=5",
+     "title": "Google updates Demand Gen view-through conversion optimization",
+     "summary": "Google updates Demand Gen view-through conversion optimization &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T15:43:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-view-through-conversion-optimization-demand-gen",
+     "title": "Google Expands View-Through Conversion Optimization for Demand Gen",
+     "summary": "Google is expanding View-Through Conversion (VTC) Optimization for Demand Gen campaigns , building on the feature first introduced in beta in 2025. Several changes are being introduced: VTC optimization will apply only to video assets. View-through conversions from image assets will still be reported as secondary conversions, but they won't be used for bidding or included in the main Conversions column. New Demand Gen campaigns will have VTC Optimization enabled by default. Advertisers who don't want to optimize toward view-through conversions will need to manually disable the setting. Support",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T14:57:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google rozšiřuje optimalizaci view-through konverzí v Demand Gen kampaních",
+   "updated": "2026-08-24T11:01:07.824325+00:00",
+   "what": "Google rozšiřuje optimalizaci View-Through Conversion (VTC) pro Demand Gen kampaně, která byla dříve v betě. Od nynějška bude VTC optimalizace fungovat pouze pro video obsah – konverze z obrázků se budou stále reportovat jako sekundární, ale nebudou se používat pro nabídky ani se nezobrazí v hlavním sloupci konverzí. U nových Demand Gen kampaní bude VTC optimalizace zapnutá automaticky.",
+   "why": "Pro marketéry řídící Demand Gen kampaně v Google Ads to znamená změnu v tom, jak systém optimalizuje nabídky a vyhodnocuje úspěšnost kampaní. Video obsah získává větší váhu v automatickém bidování, zatímco efekt obrazových reklam bude méně viditelný v hlavních metrikách.",
+   "takeaway": "Pokud provozujete Demand Gen kampaně: zkontrolujte nastavení VTC optimalizace u stávajících i nových kampaní. Pokud nechcete optimalizovat směrem k view-through konverzím (např. preferujete pouze přímé interakce), musíte tuto funkci ručně vypnout. Zároveň zvažte posílení video obsahu v kreativách, protože ten nyní přímo ovlivňuje bidding.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/916debd5aa.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "ad78f2ff1d",
+   "created": "2026-08-17T22:45:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0dnTFhyTThjYVk3TFJES1hZYTFNdDV6Rkd0d3pRTHlLeUxzVmRMU01rbWk0aFFXZG5tQWJGVU05SlVCaDVNNXQ3blFiTmU1dlQ3MUVaZktHbHU1Z2h6MWdWMVNXZDlpU1dIN1RXZEdvelI2eU9UZVV6YjlBU1RraWtVNV90UWtpeklBaUUwVnBoMGVOemQtSDlNeF9HSGt5elJPWldCMDQ?oc=5",
+     "title": "Google Ads will use generative AI to resize Performance Max video ads",
+     "summary": "Google Ads will use generative AI to resize Performance Max video ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T22:45:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-max-adds-ai-generated-video-aspect-ratios",
+     "title": "Performance Max Adds AI Generated Video Aspect Ratios",
+     "summary": "Google Ads is upgrading Performance Max video ads with a new asset optimisation feature leveraging generative AI to generate missing video aspect ratios .&nbsp; This enhancement aims to improve ad reach and viewing experience by ensuring ads can be resized for different placements, such as already existing feature that converts horizontal videos into vertical and square formats. Advertisers who wish to opt out of this generative-AI video optimisation must contact their account team or submit the opt-out form by September 4, 2026 . Subsequently, they can also manage video optimisation settings ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-19T07:05:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppcnewsfeed.com/blog/disable-auto-generated-videos-demand-gen",
+     "title": "How to Disable Automatically Created Videos in Demand Gen Campaigns [Screenshots incl.]",
+     "summary": "Have you opened a Demand Gen campaign and found a video ad you never uploaded? Or your clients contacted you asking what is this video they never approved? Google AI creates auto-generated videos from your existing images and text, and serves them alongside your own creatives. If you do not like the result, pausing the video ad is not enough . Google creates it again. The fix is to turn the feature off at the ad level . In this guide you will learn what the feature does, why pausing fails, and how to disable it in the Google Ads UI and in Google Ads Editor . What are auto-generated videos in D",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T11:25:27+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads rozšiřuje AI úpravy videí – Performance Max i Demand Gen",
+   "updated": "2026-08-24T11:00:57.196657+00:00",
+   "what": "Google Ads zavádí do Performance Max novou funkci, která využívá generativní AI k automatickému vytváření chybějících formátů videa (např. z horizontálního na vertikální a čtvercový) pro různá umístění. Současně už AI v Demand Gen kampaních automaticky generuje videoreklamy ze statických obrázků a textu.",
+   "why": "Performance Max AI optimalizace má zvýšit dosah kampaní tím, že zajistí správný formát videa pro každé umístění. V Demand Gen ale AI vytváří zcela nová videa bez vědomí zadavatele – pouhé pozastavení nestačí, Google je vytvoří znovu. To může vést k problémům s klientem nebo nesouladům se schváleným obsahem.",
+   "takeaway": "Zkontrolujte svoje Demand Gen kampaně, zda Google nevytvořil neschválená videa. Pokud ano, vypněte funkci na úrovni reklamy (ne jen pozastavením). U Performance Max můžete do 4. září 2026 odhlásit AI úpravu videa přes formulář nebo svého account managera.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/ad78f2ff1d.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "a684b1982f",
+   "created": "2026-08-17T23:30:34+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-publishes-conversions-api-documentation",
+     "title": "Microsoft Publishes Conversions API Documentation",
+     "summary": "Microsoft Advertising has published a new documentation for the Conversions API (CAPI).&nbsp; This server-side solution, currently in beta, allows advertisers to send conversion and customer interaction data directly from their systems to Microsoft Advertising, supporting various measurement scenarios with a single connection. Key features of CAPI include the ability to improve conversion measurement accuracy, send online and offline events, increase attribution coverage, and reduce reliance on browser-only tracking methods.&nbsp; The recommended implementation approach involves using CAPI alo",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-17T23:30:34+00:00",
+     "score": 64
     },
     {
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWN5aHRDQi1VM3Nqc2lRR0hVZ0NVSTBJRWFRczA1bVpjbkRWamt2WGNsei1EX0tleVhjZjdDNm1jVVVic2JNWS1SRnZBOXNsU2ExazhHSEJUQzRheHFWZ0dQUlVCYjBCUFZOMHg1Y2RVZGNOV21PU3ZsQTRUVXVzdjh2eC1hM1p4bmpvTFFMcFpPZ2R2YWNhNko0RGxMdw?oc=5",
@@ -1822,15 +2602,41 @@
    ],
    "category": "ppc",
    "importance": 65,
-   "title": "Microsoft Advertising zveřejnil dokumentaci k Conversions API",
-   "updated": "2026-08-24T09:15:15.048205+00:00",
-   "what": "Microsoft Advertising publikoval oficiální dokumentaci ke své Conversions API. Jde o nástroj pro server-side tracking konverzí, který umožňuje posílat data o konverzích přímo ze serveru inzerenta do systému Microsoft Ads.",
-   "why": "Conversions API představuje alternativu k běžnému pixelovému trackingu, která může být odolnější vůči blokování reklam a omezením cookies. Pro inzerenty na Bingu/Microsoft Ads jde o možnost zlepšit kvalitu měřených dat a optimalizaci kampaní, zvlášť v kontextu rostoucích omezení third-party cookies.",
-   "takeaway": "Pokud inzerujete na Microsoft Ads a řešíte kvalitu dat kvůli blokování cookies nebo ad blockerům, prohlédněte si novou dokumentaci – implementace Conversions API může zlepšit přesnost měření konverzí a následnout automatické nabídkování.",
+   "title": "Microsoft Advertising spustil dokumentaci pro Conversions API (beta)",
+   "updated": "2026-08-24T11:00:50.383470+00:00",
+   "what": "Microsoft Advertising zveřejnil dokumentaci k novému Conversions API (CAPI), které je aktuálně v beta verzi. Jde o server-side řešení, které umožňuje inzerentům posílat konverzní data a data o interakcích zákazníků přímo ze svých systémů do Microsoft Advertising.",
+   "why": "CAPI zlepšuje přesnost měření konverzí, rozšiřuje atribuci a snižuje závislost na sledování pouze přes prohlížeč. Podporuje online i offline události. Doporučuje se používat CAPI v kombinaci s browsery, nikoli samostatně.",
+   "takeaway": "Pokud běžíte kampaně na Microsoft Ads a chcete spolehlivější měření (zejména v kontextu omezení cookies a consent módu), sledujte beta verzi CAPI a zvažte implementaci server-side trackingu. Dokumentace je nyní dostupná.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/02a80430fb.jpg",
    "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "f30ff51c22",
+   "created": "2026-08-24T10:52:48+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-if-some-sites-can-ignore-geo-and-just-focus-on-seo/586737",
+     "title": "Google Answers If Some Sites Can Ignore GEO And Just Focus On SEO via @sejournal, @martinibuster",
+     "summary": "Google explains whether some industries can get away with focusing on search and ignore GEO altogether. The post Google Answers If Some Sites Can Ignore GEO And Just Focus On SEO appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-24T10:52:48+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google: Ne všechny weby musí investovat do GEO, stačí SEO",
+   "updated": "2026-08-24T11:00:27.311204+00:00",
+   "what": "Google potvrdil, že některé typy webů mohou ignorovat Generative Engine Optimization (GEO) a zaměřit se pouze na klasické SEO. Podle Google není GEO nutné pro všechna odvětví – záleží na typu obsahu a cílové skupině.",
+   "why": "Marketingoví manažeři řeší, zda investovat do optimalizace pro AI přehledy Google (GEO). Google nyní přímo potvrzuje, že ne všechny weby to potřebují, což šetří rozpočet a čas firmám v odvětvích, kde GEO nepřináší hodnotu.",
+   "takeaway": "Zhodnoťte, jestli vaše odvětví a typ obsahu vyžadují optimalizaci pro AI přehledy Google. Pokud ne, můžete pokračovat s klasickým SEO a nemusíte investovat do GEO strategií.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/f30ff51c22.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "aee11c1fd0",
@@ -1857,41 +2663,6 @@
    "what": "Performance Max kampaně v Google Ads často vykazují nejlepší výsledky tím, že tichým způsobem nakupují zobrazení na vyhledávání vlastní značky inzerenta – tedy návštěvníky, kteří by pravděpodobně přišli i bez placené reklamy. Článek nabízí audit, který toto 'vytékání' rozpočtu měří a navrhuje způsoby, jak ho omezit.",
    "why": "Pokud Performance Max utrácí rozpočet za kliky na vlastní brand, platíte za návštěvníky, které byste získali organicky. To zkresluje reportované ROI kampaně a zbytečně zvyšuje náklady, aniž by to přinášelo skutečný přírůstek trafiku nebo konverzí.",
    "takeaway": "Proveďte audit svých Performance Max kampaní – zkontrolujte, kolik utrácejí za brand dotazy (např. přes vyhledávací termy nebo Brand lift reports). Zvažte vyloučení brandových dotazů negativními klíčovými slovy nebo oddělení brand kampaní od Performance Max, abyste skutečně měřili přínos a neplýtvali rozpočtem."
-  },
-  {
-   "id": "2d39a3dcc3",
-   "created": "2026-08-19T07:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-max-adds-ai-generated-video-aspect-ratios",
-     "title": "Performance Max Adds AI Generated Video Aspect Ratios",
-     "summary": "Google Ads is upgrading Performance Max video ads with a new asset optimisation feature leveraging generative AI to generate missing video aspect ratios .&nbsp; This enhancement aims to improve ad reach and viewing experience by ensuring ads can be resized for different placements, such as already existing feature that converts horizontal videos into vertical and square formats. Advertisers who wish to opt out of this generative-AI video optimisation must contact their account team or submit the opt-out form by September 4, 2026 . Subsequently, they can also manage video optimisation settings ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-19T07:05:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://ppcnewsfeed.com/blog/disable-auto-generated-videos-demand-gen",
-     "title": "How to Disable Automatically Created Videos in Demand Gen Campaigns [Screenshots incl.]",
-     "summary": "Have you opened a Demand Gen campaign and found a video ad you never uploaded? Or your clients contacted you asking what is this video they never approved? Google AI creates auto-generated videos from your existing images and text, and serves them alongside your own creatives. If you do not like the result, pausing the video ad is not enough . Google creates it again. The fix is to turn the feature off at the ad level . In this guide you will learn what the feature does, why pausing fails, and how to disable it in the Google Ads UI and in Google Ads Editor . What are auto-generated videos in D",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T11:25:27+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads automaticky generuje videa pomocí AI – lze vypnout",
-   "updated": "2026-08-24T09:14:53.355983+00:00",
-   "what": "Google rozšiřuje AI generování videí v Performance Max (od září 2026 defaultně zapnuto) a už nyní automaticky vytváří videa v Demand Gen kampaních z nahraných obrázků a textů. Videa se generují pro různé formáty zobrazení. Pouhé pozastavení vygenerovaného videa nefunguje – Google ho vytvoří znovu.",
-   "why": "Automaticky generovaná videa se zobrazují vedle vlastních kreativ bez explicitního schválení zadavatelem. Může to vést k situacím, kdy se v kampani objeví videa, která firma neschválila nebo která neodpovídají její představě. Pro kontrolu nad obsahem kampaní je nutné funkci aktivně vypnout na úrovni reklamy v nastavení.",
-   "takeaway": "Zkontrolujte své Demand Gen kampaně, zda neobsahují neschválená AI videa. Pokud nechcete, aby Google automaticky generoval videa, vypněte funkci v nastavení reklamy (ne jen pozastavení). U Performance Max si rezervujte termín do 4. 9. 2026 pro opt-out přes formulář nebo account tým, pokud chcete zůstat u manuální kontroly kreativ.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/2d39a3dcc3.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "a9bb64f7b1",
@@ -1973,111 +2744,6 @@
    "image_from": "searchenginejournal.com"
   },
   {
-   "id": "916debd5aa",
-   "created": "2026-08-19T14:57:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-view-through-conversion-optimization-demand-gen",
-     "title": "Google Expands View-Through Conversion Optimization for Demand Gen",
-     "summary": "Google is expanding View-Through Conversion (VTC) Optimization for Demand Gen campaigns , building on the feature first introduced in beta in 2025. Several changes are being introduced: VTC optimization will apply only to video assets. View-through conversions from image assets will still be reported as secondary conversions, but they won't be used for bidding or included in the main Conversions column. New Demand Gen campaigns will have VTC Optimization enabled by default. Advertisers who don't want to optimize toward view-through conversions will need to manually disable the setting. Support",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-19T14:57:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google rozšiřuje optimalizaci view-through konverzí v Demand Gen kampaních",
-   "updated": "2026-08-24T09:14:23.214141+00:00",
-   "what": "Google rozšiřuje funkci View-Through Conversion (VTC) Optimization pro Demand Gen kampaně, která byla původně spuštěna v beta verzi v roce 2025. Optimalizace bude nově aplikována pouze na video assety, zatímco view-through konverze z obrázků budou stále reportovány jako sekundární konverze, ale nebudou používány pro bidding ani zahrnuty v hlavním sloupci Konverze. Nové Demand Gen kampaně budou mít VTC optimalizaci zapnutou automaticky.",
-   "why": "Změna ovlivňuje nastavení a reporting Demand Gen kampaní v Google Ads. Pokud marketéři nechtějí optimalizovat podle view-through konverzí z videí, musí tuto funkci ručně vypnout – jinak bude automaticky aktivní u všech nových kampaní.",
-   "takeaway": "Zkontrolujte nastavení všech Demand Gen kampaní – u nových bude VTC optimalizace zapnutá defaultně. Pokud nechcete, aby Google optimalizoval podle zhlédnutí videí (bez prokliků), vypněte ji ručně. Pamatujte, že konverze z obrázků už nebudou ovlivňovat bidding.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/916debd5aa.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "9c05706d00",
-   "created": "2026-08-20T11:41:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-find-sitelinks-for-you-41907.html",
-     "title": "Google Ads Can Find Sitelinks For You",
-     "summary": "Google Ads can now help you find sitelinks for your ad extensions. A new feature within the Google Ads advertiser console will now suggest new sitelinks to add to your ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-20T11:41:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-introduces-automatic-sitelink-suggestions",
-     "title": "Google Ads Introduces Automatic Sitelink Suggestions",
-     "summary": "Google Ads can now help advertisers find sitelinks for their ad extensions. A new feature within the Google Ads UI suggests sitelinks that can be added to ads, which link directly to specific pages on advertisers' websites. The interface displays a notification stating, \"I found some sitelinks for you,\" allowing users to click \"Review sitelinks\" to view suggestions based on their final URL. The interface showcases a \"Suggested\" tab alongside recommended sitelinks, enhancing usability for advertisers in optimizing their ads. This update was discovered by Arpan Banerjee and&nbsp; Barry Schwartz ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-21T01:49:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Google Ads automaticky navrhuje sitelinky pro vaše kampaně",
-   "updated": "2026-08-24T09:14:15.428335+00:00",
-   "what": "Google Ads spustil novou funkci, která automaticky navrhuje sitelinky pro rozšíření reklam. Návrhy se zobrazují přímo v administraci Google Ads a inzerenti je mohou snadno přidat ke svým kampaním.",
-   "why": "Sitelinky zvyšují CTR reklam a zabírají více místa ve výsledcích vyhledávání. Automatické návrhy šetří čas při optimalizaci kampaní a mohou upozornit na příležitosti, které inzerenti přehlédli.",
-   "takeaway": "Zkontrolujte novou sekci s návrhy sitelinek v Google Ads konzoli. Ověřte, zda návrhy dávají smysl pro vaše produkty a služby, a přidejte relevantní linky – může to zlepšit výkon kampaní bez nutnosti navyšovat rozpočet.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4410777aff.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "da24c5fdc0",
-   "created": "2026-08-19T04:10:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/enhanced-matching-customer-match",
-     "title": "Enhanced Matching for Customer Match",
-     "summary": "Google Ads appears to be rolling out a new Enhanced matching option for Customer Match under Account settings. When enabled, the setting can expand audience reach using connected user lists . According to the description in the interface, Google will match consented users with consented users from publishers where available. The option sits alongside existing Customer Match settings for Smart Bidding, Optimised Targeting, and conversion based customer lists. This update was noticed by Joey Bidner . The post Enhanced Matching for Customer Match appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-19T04:10:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS25weVNubmsxUk5vUkJyTGw4S290U2I3LXlfdE1xZ1hKckpNWnltSHZGU3VoMDMtdzd6VVRLczlTdnM3NkNQWmxIYnpSOW9HamRsN3BaZHpzaWNMNzJPNUxqb2lxb1ktVlZNZVdaamY4Rm5sSVJZbFBxZmFmZG1oSTU4VUN6dWxuYi1zbDFEN2VIUFU?oc=5",
-     "title": "Google Ads tests Enhanced Matching for Customer Match",
-     "summary": "Google Ads tests Enhanced Matching for Customer Match &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T15:21:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-enhanced-matching-41905.html",
-     "title": "Google Ads Enhanced Matching In Customer Match",
-     "summary": "Google Ads seems to be rolling out a new customer match option named \"enhanced matching.\" Google writes this allows you to \"Expand your audience reach with your consented user lists.\" Google will then \"match your consented users with publishers' consented users where available.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-20T11:31:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Google Ads testuje Enhanced Matching pro Customer Match audienci",
-   "updated": "2026-08-24T09:14:05.835625+00:00",
-   "what": "Google Ads začíná testovat novou funkci Enhanced Matching v nastavení účtu pod Customer Match. Podle popisu v rozhraní má funkce rozšířit dosah retargetingových kampaní tím, že spáruje uživatele z nahraných seznamů (se souhlasem) s uživateli vydavatelů (také se souhlasem), kde je to dostupné. Nastavení se objevuje vedle stávajících Customer Match funkcí jako Smart Bidding či Optimised Targeting.",
-   "why": "Customer Match je klíčový nástroj pro práci s vlastními daty zákazníků v Google Ads – pokud nová funkce skutečně rozšíří dosah retargetingových kampaní bez nutnosti měnit seznamy, může to zlepšit efektivitu remarketingu. Zároveň jde o testovací funkci – její dostupnost a finální podoba zatím nejsou jasné.",
-   "takeaway": "Pokud funkci Enhanced Matching v nastavení účtu uvidíte, otestujte ji na menší kampani a sledujte, zda skutečně roste dosah bez propadu konverzního poměru. Dopad na český trh zatím není potvrzený – čekejte na oficiální oznámení nebo širší rollout.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/da24c5fdc0.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "ae76d8e99a",
    "created": "2026-08-20T16:01:00+00:00",
    "articles": [
@@ -2157,59 +2823,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "ba9602bb31",
-   "created": "2026-08-19T21:06:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUxvbDlSanRXUTBnTU03VUZnMXNlcklmOE1SZ3VBeENJdjlKSDVnaV84UDVmWHA4anpMTGJ3dWJOdWtJd2lUVUMtZFp0VHBEWmVrVVRDMjlaMDRPR3FWa3pUbGJPaWVUVnU3OG05ZEhaTDJpUlYxeVVMZ2hpdHBreUEzRWRiYUlXdUN0ZHJEZHdiT1U?oc=5",
-     "title": "Google Ads API v25.1 expands measurement and insights",
-     "summary": "Google Ads API v25.1 expands measurement and insights &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T21:06:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-api-version-25-1-41908.html",
-     "title": "Google Ads API Version 25.1 Now Available",
-     "summary": "Google has released version 25.1 of the Google Ads API, this is a minor release with several of updates. This update includes text disclaimer assets, AI Max tracking, Brand and Conversion Lift measurements, brand sentiment insights, and several more features and changes.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-20T11:05:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://martech.org/marketers-dont-trust-the-data-used-to-shape-budgets",
-     "title": "B2B marketers don’t trust the data used to shape budgets",
-     "summary": "Marketing data influences budgets, but only 49% fully trust its accuracy and completeness. Disconnected reporting is behind the confidence gap. The post B2B marketers don’t trust the data used to shape budgets appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-21T12:47:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://martech.org/why-long-sales-cycles-make-b2b-marketing-so-hard-to-measure",
-     "title": "Why long sales cycles make B2B marketing hard to measure",
-     "summary": "Long B2B sales cycles make most marketing measurement unreliable. Learn why clicks, leads, and conversions don’t tell the full story. The post Why long sales cycles make B2B marketing hard to measure appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-21T12:01:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads API v25.1 přináší nové nástroje pro měření a tracking AI kampaní",
-   "updated": "2026-08-24T09:13:38.621764+00:00",
-   "what": "Google vydal verzi 25.1 svého Ads API. Přidává podporu pro text disclaimer assety, tracking AI Max kampaní, měření Brand a Conversion Lift, brand sentiment insights a další funkce.",
-   "why": "Pro vývojáře a firmy využívající Google Ads API k automatizaci a reportingu jde o rozšíření možností měření efektivity kampaní, především u AI-řízených Performance Max kampaní a brand metrik.",
-   "takeaway": "Pokud vaše firma nebo agentura používá Google Ads API pro automatizaci nebo vlastní reportingové nástroje, naplánujte upgrade na v25.1 a zvažte implementaci nových měřicích funkcí (zejména tracking Performance Max a brand metriky).",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/1ac2a6fb71.jpg",
-   "image_from": "martech.org"
-  },
-  {
    "id": "3a29a5fdc1",
    "created": "2026-08-21T11:05:00+00:00",
    "articles": [
@@ -2280,199 +2893,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "c36d88f6db",
-   "created": "2026-08-20T11:30:36+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/meta-removing-placement-controls-ad-sets",
-     "title": "Meta Is Removing Placement Controls From Ad Sets",
-     "summary": "Meta is removing placement controls from ad sets, including exclusions by placement, platform, device, and operating system. The post Meta Is Removing Placement Controls From Ad Sets appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-20T11:30:36+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-removes-option-to-exclude-ad-placements/828461",
-     "title": "Meta removes option to exclude ad placements",
-     "summary": "The company will use an automated system to target display options, and brands will no longer be able to decide which apps receive promotions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-20T21:53:57+00:00",
-     "score": 67
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 85,
-   "title": "Meta ruší manuální kontrolu nad umístěním reklam",
-   "updated": "2026-08-24T09:13:08.877110+00:00",
-   "what": "Meta odstraňuje možnost vybírat a vylučovat umístění reklam v kampaních. Inzerenti už nebudou moci vyloučit konkrétní platformy (Facebook, Instagram), zařízení, operační systémy ani konkrétní aplikace. Veškeré umístění bude řídit automatizovaný systém Meta.",
-   "why": "Jde o zásadní omezení kontroly nad tím, kde se vaše reklamy zobrazují. Zatímco Meta argumentuje efektivitou automatizace, ztratíte možnost vyhnout se problematickým umístěním nebo testovat výkon na konkrétních platformách. Pro značky se specifickými požadavky na umístění (například B2B, lokální firmy) to může znamenat plýtvání rozpočtem.",
-   "takeaway": "Zkontrolujte výsledky kampaní po této změně – sledujte rozdělení výdajů podle umístění v reporting a porovnejte konverzní metriky. Pokud některá umístění výrazně podvýkonná, budete muset řešit na úrovni kreativy nebo cílení, protože je už nelze vyloučit.",
-   "importance_label": "zásadní",
-   "multi_source": true,
-   "image": "img/c36d88f6db.jpg",
-   "image_from": "jonloomer.com"
-  },
-  {
-   "id": "35e0793763",
-   "created": "2026-08-19T19:41:53+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459",
-     "title": "Microsoft Advertising Rolls Out AI Max Globally via @sejournal, @brookeosmundson",
-     "summary": "Microsoft Advertising is rolling out AI Max globally, bringing expanded Search matching, text customization, URL expansion and new advertiser controls to Search campaigns. The post Microsoft Advertising Rolls Out AI Max Globally appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T19:41:53+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5",
-     "title": "Microsoft Advertising rolls out AI Max globally for Search campaigns",
-     "summary": "Microsoft Advertising rolls out AI Max globally for Search campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T20:46:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-41909.html",
-     "title": "Microsoft Advertising Rolling Out AI Max Globally",
-     "summary": "Microsoft Advertising is rolling out AI Max globally and to all advertisers. If you log in to your Microsoft Advertising account, you should be able to toggle on the AI Max setting for your search campaigns.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-20T11:21:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFpsYTAyLTdVTFE2UU5pTXVmUHJ0SnU1N2d0UjZMdFFtZDRsYVktam5oWmJaVjVnNkZDM2xzNlBOeDI5ZG5PdjgzODFTcnV6TFljR0thOUR4blFvMTljMzZ2UUJrX3NqWUdVNjM4aG5OYVh2VkZlSjBsaXppSVB3VFlkSmFxb3BsVFJhYkpNOFJWYmc?oc=5",
-     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
-     "summary": "AI Max Rolls Out Globally in Microsoft Advertising &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-21T08:17:11+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Microsoft Advertising spouští AI Max globálně – nové AI funkce pro Search kampaně",
-   "updated": "2026-08-24T09:12:59.327651+00:00",
-   "what": "Microsoft Advertising zpřístupňuje funkci AI Max všem inzerentům globálně. Jde o soubor AI nástrojů pro Search kampaně zahrnující rozšířené párování vyhledávání, automatickou úpravu textů inzerátů, rozšíření URL a nové možnosti kontroly pro inzerenty.",
-   "why": "Pro PPC specialisty a marketingové manažery spravující kampaně na Microsoft Advertising (včetně českého trhu) to znamená přístup k novým automatizačním funkcím, které mohou ovlivnit výkon a cílení kampaní. AI Max lze aktivovat přímo v nastavení Search kampaní.",
-   "takeaway": "Zkontrolujte své Microsoft Advertising účty – AI Max se zobrazuje jako přepínač v nastavení Search kampaní. Před aktivací si ověřte, jaké konkrétní změny přináší pro vaše kampaně, zejména u rozšířeného párování a automatických úprav textů, abyste měli kontrolu nad dopady na výkon a rozpočet.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/35e0793763.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "437dd04477",
-   "created": "2026-08-21T09:20:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZVlqR2Vwakk3X2tsNVZnREg0VXJpbC13OXpHc2VQemRjeEpQS0J6U2lnUUZRUWJEN0NNUnRySmZyUW11WEVSc3NLV0psUlM0WmNrYWZrWGNiY1FuWXZfQ3RoSzhFejJUMm91ZVBJbnowbFBWQy1vSVVPdXhIRmdaVm4yNnpxMVlIRlpz?oc=5",
-     "title": "Google August 2026 spam update done rolling out",
-     "summary": "Google August 2026 spam update done rolling out &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-21T09:25:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html",
-     "title": "Google August 2026 Spam Update Has Finished Rolling Out",
-     "summary": "The Google August 2026 spam update is now done rolling out. It started on Tuesday, August 18, 2026 at around 12:30 pm ET and completed on August 21, 2026 at around 4:50 am. Despite some people feeling the update started soon, Google's John Mueller said it did not.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T09:20:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/video-08-21-2026-41915.html",
-     "title": "Search News Buzz Video Recap: Google Unleashed The August 2026 Spam Update, Gemini 3.7 Powers AI Mode, Google and Microsoft Ads News & More",
-     "summary": "Google has released its third spam update of the 2026 year, the August 2026 spam update this week and finished rolling out Friday morning at 4:50am. Google Search's AI Mode is now being powered sometimes by...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T12:01:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597",
-     "title": "Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls. The post Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-22T12:30:28+00:00",
-     "score": 74
-    }
-   ],
-   "category": "seo",
-   "importance": 75,
-   "title": "Google dokončil srpnový spam update 2026",
-   "updated": "2026-08-24T09:12:51.602932+00:00",
-   "what": "Google dokončil August 2026 spam update 21. srpna 2026 kolem 4:50 ráno. Update začal ve úterý 18. srpna kolem 12:30 ET a trval zhruba tři dny. Jde o třetí spam update Googlu v roce 2026.",
-   "why": "Spam updaty cílí na nízkohodnotný a manipulativní obsah ve vyhledávání. Pro weby může znamenat pokles nebo nárůst viditelnosti v závislosti na kvalitě obsahu a dodržování Google pravidel proti spamu.",
-   "takeaway": "Zkontrolujte organický traffic a pozice svého webu v následujících týdnech. Pokud došlo k poklesu, prověřte kvalitu obsahu a dodržování Google Spam Policies. Zvažte audit obsahové strategie a odstranění problematických sekcí.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/437dd04477.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "c519223c16",
-   "created": "2026-08-23T07:36:57+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZERzdGl0ZFZYVGdSdnl0MUlYYjI1b200cVp2TndlbW5DR0R5TlZnVEdPU01RYkxrdHpENnRGTWJBM1BNWmZKU0JrVEpERFB1VTVEemRXVzZSZnc1N3dFM2RUeGdWTzk4ckhhc1p4ak8zOVFRS3N4Zi11bUZWbDFiUnlSdG5xTGIyMUpSaW1nRy1UaFN2?oc=5",
-     "title": "Performance Planner Adds Campaign Change Testing",
-     "summary": "Performance Planner Adds Campaign Change Testing &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T07:36:57+00:00",
-     "score": 50
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Performance Planner umožňuje testovat změny kampaní",
-   "updated": "2026-08-24T09:12:10.976102+00:00",
-   "what": "Google přidal do Performance Planneru funkci pro testování změn v reklamních kampaních ještě před jejich aplikací. Nástroj umožňuje simulovat dopady plánovaných úprav na výkon.",
-   "why": "Marketingoví manažeři získávají možnost předem vyhodnotit, jak se úpravy kampaní promítnou do výsledků a rozpočtu, což snižuje riziko neúspěšných změn a pomáhá lépe plánovat výdaje v Google Ads.",
-   "takeaway": "Pokud pracujete s Performance Plannerem, vyzkoušejte novou funkci testování při přípravě změn kampaní – ušetříte čas a rozpočet tím, že dopady uvidíte předem, ne až po spuštění.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/c519223c16.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "3a6d426aa2",
-   "created": "2026-08-23T07:36:57+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXBCM1RxcGNVWnFrMjlFWnMzaXFSS3NhZTdKQUVRQTA4ZlN1OWx4ZlNCdjZvVjJxRHNPdEtWSDU1MDBQT05rNVVhUzR4VWtsNVlrNmRuNXgwN2czY1J2cVpSNXh4TmVfTHYwY3pWR2NNRjh1NmhUbGtnOGhCd0RyQTg3b0pqTHZhNFJ3RzlneXoyX3NicnRoYjJJNnhCNlJDNmZBUTd3?oc=5",
-     "title": "Budget or Bidding Target Experiments Introduced for Search Campaigns",
-     "summary": "Budget or Bidding Target Experiments Introduced for Search Campaigns &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T07:36:57+00:00",
-     "score": 54
-    }
-   ],
-   "category": "ppc",
-   "importance": 70,
-   "title": "Google Ads umožňuje testovat rozpočty a bidding strategie v experimentech",
-   "updated": "2026-08-24T09:12:10.976102+00:00",
-   "what": "Google Ads zavádí možnost experimentovat přímo s rozpočtem a bidding cíli (target) u vyhledávacích kampaní. Dosud byly experimenty omezeny na jiné parametry, nyní lze testovat různé rozpočtové alokace nebo cílové CPA/ROAS na části provozu.",
-   "why": "Pro PPC specialisty i marketingové manažery to znamená bezpečnější způsob, jak optimalizovat rozpočty a bidding strategie – můžete porovnat výkon varianty s kontrolní skupinou, než změnu nasadíte plošně, a snížit tak riziko propadů při úpravě kampaní.",
-   "takeaway": "Pokud používáte Google Ads, využijte novou funkcionalitu k testování např. navýšení rozpočtu nebo změny target CPA – získáte data o skutečném dopadu na výkon, než změnu potvrdíte pro celou kampaň. Otestujte to na vybraných kampaních.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/3a6d426aa2.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "1c76272356",
    "created": "2026-08-22T23:38:37+00:00",
    "articles": [
@@ -2496,58 +2916,6 @@
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/1c76272356.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "8ff8ea268a",
-   "created": "2026-08-22T13:47:48+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeTdQSl8zeHB4TkJUc0RkVnVSQThvSVBpQkwzczV5YnpUX2lELVVNLVUyYWpFZ3pCRmRXbmxJSjdINWRrN0IySGNSSkt4NEVreFMwalQyRWFfMFYxZW9UYzY1bVpRRkZvQTBtWktkdFhvT0hWY2VVVVRXMWp3SEdVWGpn?oc=5",
-     "title": "Update to Misleading Ad Design Policy",
-     "summary": "Update to Misleading Ad Design Policy &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T13:47:48+00:00",
-     "score": 60
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google aktualizoval pravidla proti klamavým PPC reklamám",
-   "updated": "2026-08-24T09:12:10.976102+00:00",
-   "what": "Google oznámil aktualizaci své politiky týkající se klamavého designu reklam (Misleading Ad Design Policy). Konkrétní detaily změn nejsou ze zdroje známé, k dispozici je pouze odkaz na oznámení v PPC News Feed.",
-   "why": "Změny v pravidlech Google Ads mohou ovlivnit schvalování reklam a vyžadovat úpravu kreativ nebo landing pages, aby odpovídaly novým požadavkům. Porušení může vést k zamítnutí reklam nebo omezení účtu.",
-   "takeaway": "Sledujte oficiální oznámení Google Ads o nových pravidlech a zkontrolujte své aktivní kampaně, zda nevyužívají prvky, které by mohly být nově považovány za klamavé (např. falešná tlačítka, matoucí call-to-action, imitace systémových hlášek).",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/8ff8ea268a.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "1a0ec426c9",
-   "created": "2026-08-24T06:28:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/event-section-added-promotions-merchant-center",
-     "title": "Event Section Added to Promotions in Merchant Center",
-     "summary": "A new Event section has been introduced in the Promotions section of Google Merchant Center . This functionality allows advertisers to create promotions for sales events such as discounts or special occasions. Advertisers can also add images related to the event. During setup, users can: Add a dedicated event URL . Upload up to three promotional images . Assign promotions to specific product categories . These events can be displayed in Google search results and product listings without being tied to a specific product, while product categories can be added to ensure the event appears for rele",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-24T06:28:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Merchant Center: nová sekce Event pro propagaci akcí bez vazby na produkt",
-   "updated": "2026-08-24T07:35:57.763586+00:00",
-   "what": "Google přidal do Merchant Center novou sekci Event v rámci Promotions. Umožňuje vytvářet propagace pro slevové akce nebo speciální události, které se mohou zobrazovat ve vyhledávání a produktových výpisech bez vazby na konkrétní produkt. Při nastavení lze přidat dedikovanou URL, nahrát až tři obrázky a přiřadit propagaci k produktovým kategoriím.",
-   "why": "Jde o nový formát propagace v Google nákupech, který rozšiřuje možnosti, jak upozorňovat na slevové akce nebo eventy mimo klasické produktové reklamy. Pro e-shopy v ČR to znamená další prostor pro visibility při sezonních akcích nebo kampaních.",
-   "takeaway": "Pokud využíváte Google Merchant Center a nákupní kampaně, zkontrolujte v sekci Promotions novou funkci Event. Zvažte její použití pro sezónní akce (Black Friday, Vánoce apod.) – můžete získat viditelnost i mimo konkrétní produkty a podpořit brandovou komunikaci akce.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/1a0ec426c9.jpg",
    "image_from": "ppcnewsfeed.com"
   },
   {
@@ -2619,54 +2987,6 @@
    "image_from": "seroundtable.com"
   },
   {
-   "id": "68f08f808b",
-   "created": "2026-08-23T23:31:23+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook",
-     "title": "Microsoft Releases Agentic Commerce Playbook",
-     "summary": "Microsoft has released a new guide for agentic commerce called Prepare for the Age of AI Shopping , designed to help advertisers prepare for agentic commerce and AI driven shopping experiences . The playbook focuses on three areas.&nbsp; Get discovered with AI ready product feeds in Microsoft Merchant Center.&nbsp; Get chosen through AI native ads across Bing and Copilot, Copilot Checkout, and Brand Agents.&nbsp; Understand what is working with AI Visibility insights in Microsoft Clarity, including AI citations, grounding queries, competitor comparisons, and AI referred traffic. It also includ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T23:31:23+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Microsoft vydal příručku pro AI agentní nakupování v reklamě",
-   "updated": "2026-08-24T05:10:46.464241+00:00",
-   "what": "Microsoft publikoval průvodce 'Prepare for the Age of AI Shopping' zaměřený na přípravu inzerentů na agentní obchod a nákupní zkušenosti řízené AI. Materiál se soustředí na tři oblasti: optimalizaci produktových feedů pro AI v Microsoft Merchant Center, získání pozornosti zákazníků skrze AI-nativní reklamy v Bingu a Copilotu (včetně Copilot Checkout a Brand Agents) a měření výkonu pomocí AI Visibility insights v Microsoft Clarity.",
-   "why": "Ukazuje směr, jakým se ubírá reklamní ekosystém Microsoftu – od klasického vyhledávání k AI asistentům, kteří aktivně doporučují produkty. Pro inzerenty na Bingu to znamená nutnost přizpůsobit produktová data a reklamní strategie novým AI formátům.",
-   "takeaway": "Pokud inzerujete na Bingu nebo zvažujete rozšíření PPC mimo Google, stáhněte si playbook a prozkoumejte, jak připravit produktové feedy pro AI a jak měřit dopad AI doporučení na traffic. V ČR zatím jde o experimentální téma, ale vývoj sledujte – Microsoft Copilot postupně expanduje do Evropy.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "1ca2d3b9c3",
-   "created": "2026-08-23T22:57:16+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/how-this-ad-was-made-added-my-ad",
-     "title": "“How This Ad Was Made” Added to My Ad Center",
-     "summary": "Google Ads has improved ad&nbsp; transparency to provide&nbsp;users with detailed information about ads generated with artificial intelligence.&nbsp; The panel features a section titled \"How this ad was made,\" which discloses when an ad was created or edited with AI , allowing users to understand the origin and nature of the content they see. The feature is available through My Ad Center using the three-dot menu on ads across Search, YouTube, and Discover.&nbsp; Google emphasizes that ads built using its own tools will automatically include AI disclosures, while advertisers creating assets ext",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T22:57:16+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads označuje reklamy vytvořené AI v novém panelu My Ad Center",
-   "updated": "2026-08-24T05:10:46.464241+00:00",
-   "what": "Google Ads rozšířil transparentnost reklam o sekci \"Jak byla tato reklama vytvořena\" v My Ad Center. Uživatelé nyní vidí, zda byla reklama vytvořena nebo upravena pomocí AI. Funkce je dostupná přes menu tří teček u reklam ve vyhledávání, na YouTube a v Discover.",
-   "why": "Jde o zvýšení transparentnosti vůči koncovým uživatelům – reklamy vytvořené Google nástroji budou AI označení obsahovat automaticky. Může ovlivnit vnímání důvěryhodnosti AI reklam u části publika a vyžaduje pozornost při používání AI nástrojů pro tvorbu reklam.",
-   "takeaway": "Pokud používáte AI nástroje Google Ads pro tvorbu kreativ, počítejte s tím, že uživatelé uvidí označení o použití AI. Sledujte, zda toto označení ovlivní performance kampaní, a zvažte testování AI vs. manuálně vytvořených variant.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "49c7e7a769",
    "created": "2026-08-23T22:00:47+00:00",
    "articles": [
@@ -2687,30 +3007,6 @@
    "what": "Allegro, polské online tržiště, otevírá českým e-shopům možnost oslovit polské zákazníky bez nutnosti budovat vlastní marketing v zahraničí.",
    "why": "Jde o připravenou distribuční cestu k velkému polskému trhu, která ušetří náklady na budování vlastní kampaní a brandingu v zahraničí.",
    "takeaway": "Pokud zvažujete expanzi do Polska, prověřte podmínky prodeje přes Allegro jako alternativu k budování vlastního e-shopu a marketingu v zahraničí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "50e399a799",
-   "created": "2026-08-23T21:44:23+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552",
-     "title": "X launches MCP server",
-     "summary": "The system allows advertisers to connect their campaigns to the artificial intelligence tool of their choice and use it to guide their promotions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-23T21:44:23+00:00",
-     "score": 60
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "X (Twitter) spustil MCP server pro propojení AI nástrojů s reklamními kampaněmi",
-   "updated": "2026-08-24T05:10:46.464241+00:00",
-   "what": "Platforma X (dříve Twitter) představila MCP server, který umožňuje inzerentům propojit své kampaně s libovolným AI nástrojem a využít ho k řízení propagace.",
-   "why": "Jde o technickou novinku, která potenciálně otevírá možnost využít AI asistenty ke správě X kampaní. Pro české firmy zatím není jasné, zda a kdy bude dostupná v ČR/EU, ani jaké konkrétní funkce přináší.",
-   "takeaway": "Sledujte další vývoj a dostupnost MCP serveru v Evropě. Pokud aktivně inzerujete na X, zjistěte si detaily implementace a případné výhody oproti stávajícím nástrojům.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -2783,118 +3079,6 @@
    "what": "YouTube od února 2027 zvyšuje nároky na nové tvůrce v partnerském programu (YPP). Zpřísní limity pro monetizaci a zavede minimální hranici sledovanosti pro formát Shorts. Jde o první zásadní úpravu podmínek za osm let.",
    "why": "Pro firmy spolupracující s menšími tvůrci na YouTube může být obtížnější najít nové partnery s monetizací. Stávající členové YPP změnou nejsou dotčeni, což může posílit jejich vyjednávací pozici.",
    "takeaway": "Pokud plánujete spolupráce s YouTube tvůrci, zajistěte si stávající partnery s aktivní monetizací ještě před únorem 2027. Nově vstupující kanály budou muset splnit vyšší požadavky, což může zpomalit jejich růst a snížit počet dostupných partnerů.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "7777222cb5",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-tests-advertiser-list-favicons",
-     "title": "Google Tests Advertiser List with Favicons",
-     "summary": "Google is currently testing a new format for sponsored search results that adds more information to the sponsored section. The test displays a list of advertisers alongside their favicons . For related developments, see the earlier article about Google Ads testing grouped favicons next to sponsored labels published last month. This update was surfaced by Sachin Patel . The post Google Tests Advertiser List with Favicons appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-14T00:01:50+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-sponsored-results-ad-summary-header-41851.html",
-     "title": "Google Ads Sponsored Results Tests Advertiser Name & Favicon Summary",
-     "summary": "Google is testing placing the list of advertisers in the group of sponsored results at the top of the ad block in the mobile search results. So if the sponsored results group has two advertisers in it, Google will show the favicon and domain name of the ads that will be shown below, all the way at the top, directly under the \"Sponsored results\" header and directly above the actual ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-11T11:51:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3J5dnhyX3h2NTkyRGZnQkd5NzFFTEQ4Q0JSdjVQdVd5MnVPajNOa3lrSUpSbWZjU1cwR0wtUHJ3UVA5MFBqbE52YnpxVl81NFRPd0Utelo0Nmw4NElEYmQ1SXFkaXVDdnoyTHQ1MVVjd3pwT05KVWlFNkl1Zmd6YXllOGlncllzWV81QnpMd0dYQQ?oc=5",
-     "title": "Google tests advertiser list above mobile Search ads",
-     "summary": "Google tests advertiser list above mobile Search ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-11T16:17:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/business-logos-shopping-added-google-ads",
-     "title": "Business Logos for Shopping Added in Google Ads",
-     "summary": "Advertisers setting up Performance Max and Shopping campaigns can now add their business logo directly in Google Ads. If they do not add a logo, the system will revert to the logo from the Google Merchant Center as previously conducted. This update was flagged by Arpan Banerjee . The post Business Logos for Shopping Added in Google Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T23:20:34+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google testuje seznam inzerentů s favicony nad placenou reklamou",
-   "updated": "2026-08-23T04:59:16.520058+00:00",
-   "what": "Google testuje nový formát zobrazení sponzorovaných výsledků v mobilním vyhledávání. Nad samotné reklamy se zobrazuje seznam inzerentů včetně jejich favicon a doménových jmen, přímo pod hlavičkou \"Sponzorované výsledky\". Pokud skupina obsahuje například dva inzerenty, jejich loga a domény se ukáží nahoře ještě před tím, než uživatel uvidí konkrétní reklamní texty.",
-   "why": "Jde o výraznější vizuální změnu v uspořádání placených výsledků, která může ovlivnit, jak uživatelé vnímají a klikají na reklamy. Google tím přidává další vrstvu informací do již tak nabitého prostoru reklamních bloků.",
-   "takeaway": "Pro PPC specialisty to znamená další faktor, který může ovlivnit CTR jejich kampaní – silná značka s rozpoznatelnou favicon může mít výhodu, slabší brand naopak utrpí. Sledujte výkonnostní data, pokud se změna rozšíří i do ČR – vliv na metriky může být znatelný.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7777222cb5.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "6b7bc95d57",
-   "created": "2026-08-23T02:04:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-planner-adds-campaign-change-testing",
-     "title": "Performance Planner Adds Campaign Change Testing",
-     "summary": "Google is updating Performance Planner with new tools to help advertisers evaluate campaign changes before applying them.&nbsp; Advertisers can now examine how adjustments to bidding or budget targets may affect the performance of their existing campaigns. If the suggested changes align with their goals, they can apply them directly with a single click. This update gives advertisers another way to assess potential performance outcomes and turn planning recommendations into campaign changes more quickly.&nbsp; Check the official announcement: Make AI Max work for your business with new testing ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T04:12:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/budget-bidding-target-experiments-introduced-search-campaigns",
-     "title": "Budget or Bidding Target Experiments Introduced for Search Campaigns",
-     "summary": "Google is expanding its Search campaign&nbsp; experiments with new ways to test budgets and ROI targets across multiple campaigns in a single A/B test. Building on the one click experiments introduced for&nbsp; AI Max in August 2025 , the new capability called \"Budget or bidding target experiments for Search Campaigns\" will roll out in September . Advertisers will be able to test how scaling budgets or changing ROI targets impacts performance across several Search campaigns at once. Visit the official announcement here: Make AI Max work for your business with new testing and planning tools . T",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T02:04:00+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads: testování změn rozpočtů a cílů přímo v Performance Planneru",
-   "updated": "2026-08-23T04:59:16.520058+00:00",
-   "what": "Google přidává do Performance Planneru nové nástroje pro testování dopadů změn v kampaních ještě před jejich aplikací. Inzerenti mohou vyhodnotit, jak se změny bidů nebo rozpočtů projeví na výkonnosti stávajících kampaní, a pokud jsou výsledky v souladu s jejich cíli, aplikovat je jedním kliknutím. V září 2026 navíc Google rozšíří možnosti experimentů ve vyhledávacích kampaních – nově půjde testovat rozpočty a ROI cíle napříč více kampaněmi najednou formou A/B testu.",
-   "why": "Pomáhá marketingovým manažerům rychleji a s menším rizikem rozhodovat o změnách rozpočtů a bidovacích strategií v Google Ads. Místo slepého nasazení změn získávají předběžný odhad dopadu na výkon a možnost ověřit hypotézy (např. navýšení rozpočtu nebo změnu Target ROAS) pomocí řízeného A/B experimentu napříč portfoliem kampaní.",
-   "takeaway": "Pokud řídíte více vyhledávacích kampaní v Google Ads, sledujte v září dostupnost nových experimentů s rozpočty a ROI cíli – využijte je před velkými změnami, abyste ověřili dopad na skutečná data. Už nyní můžete v Performance Planneru testovat navrhované změny a aplikovat je jedním kliknutím, pokud vám sedí.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/6b7bc95d57.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "31645f85c1",
-   "created": "2026-08-22T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/update-misleading-ad-design-policy",
-     "title": "Update to Misleading Ad Design Policy",
-     "summary": "Google has updated the Misleading ad design policy article to provide additional examples and clearer information to advertisers. This update does not change enforcement of the policy. Find the official announcement here: Update to Misleading ad design policy article . The post Update to Misleading Ad Design Policy appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T11:51:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google upřesnil pravidla pro zavádějící design reklam",
-   "updated": "2026-08-22T13:08:07.093308+00:00",
-   "what": "Google aktualizoval dokumentaci k politice zavádějícího designu reklam. Přidal další příklady a zpřehlednil informace pro inzerenty. Samotné vynucování pravidel se nemění.",
-   "why": "Jasnější dokumentace pomůže inzerentům lépe pochopit, co Google považuje za zakázané praktiky, a snížit riziko zamítnutí reklam nebo pozastavení účtu kvůli nedorozumění.",
-   "takeaway": "Zkontrolujte si aktualizovanou dokumentaci, abyste se ujistili, že vaše reklamní kreativy (zejména displeje a responsive ads) neporušují pravidla týkající se zavádějícího designu – například napodobování systémových hlášek nebo tlačítek.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -3078,30 +3262,6 @@
    "image_from": "searchengineland.com"
   },
   {
-   "id": "3ac42f60e1",
-   "created": "2026-08-21T13:18:04.498824+00:00",
-   "articles": [
-    {
-     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping",
-     "title": "How businesses win when AI does the shopping",
-     "summary": "AI is already the fastest-growing retail channel. Our playbook helps you prepare for the age of AI shopping and agentic commerce.",
-     "source": "Microsoft Advertising blog",
-     "domain": "about.ads.microsoft.com",
-     "published": "2026-08-21T13:18:04.498824+00:00",
-     "score": 69
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Microsoft radí, jak se připravit na nákupy řízené AI",
-   "updated": "2026-08-21T13:19:07.542566+00:00",
-   "what": "Microsoft Advertising publikoval playbook o přípravě na éru AI nákupů a agentic commerce. Podle Microsoftu je AI již nejrychleji rostoucím retailovým kanálem.",
-   "why": "Jde o strategický materiál od provozovatele Microsoft Ads, který naznačuje směr vývoje e-commerce a PPC. Pokud AI skutečně přebírá roli nákupního agenta zákazníků, změní se způsob, jakým značky optimalizují kampaně a product feedy.",
-   "takeaway": "Sledujte doporučení Microsoftu – může to ovlivnit budoucí nastavení kampaní v Microsoft Ads i strukturu produktových dat. Zatím jde o přípravu na trend, který v ČR ještě není masový, ale u globálních platforem může přijít rychle.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "fae3846397",
    "created": "2026-08-21T12:46:00+00:00",
    "articles": [
@@ -3226,32 +3386,6 @@
    "multi_source": false
   },
   {
-   "id": "2d20804ffa",
-   "created": "2026-08-21T07:09:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rolls-out-ai-max-globally",
-     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
-     "summary": "Microsoft Advertising has started rolling out AI Max globally to all accounts as an optional suite for Search campaigns . AI Max combines search term matching, text customization, and final URL expansion to expand reach beyond existing keywords, generate relevant messaging, and route users to landing pages based on intent.&nbsp; Advertisers can activate features individually , use brand controls and URL rules , and test AI Max through optimization experiments . Existing autogenerated text assets and Predictive matching settings will move into AI Max automatically. When importing Search campaig",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-21T07:09:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Microsoft Advertising spouští AI Max globálně – rozšíření dosahu i nad rámec klíčových slov",
-   "updated": "2026-08-21T09:09:36.561336+00:00",
-   "what": "Microsoft Advertising zahájil globální zavádění AI Max do všech účtů jako volitelné sady funkcí pro Search kampaně. AI Max kombinuje rozšířené párování vyhledávacích dotazů, automatickou úpravu textů a rozšíření cílových URL s cílem zvýšit dosah i mimo stávající klíčová slova, generovat relevantní sdělení a směrovat uživatele na landing pages podle záměru.",
-   "why": "Jde o významný posun v automatizaci PPC na Microsoftu (Bing), který může výrazně ovlivnit řízení kampaní a rozpočtů. Funkce aktivně rozšiřují dosah i mimo manuálně nastavená klíčová slova a mění cílové URL, což může zvýšit konverze, ale i ztížit kontrolu nad tím, kde se reklamy zobrazují a kam vedou.",
-   "takeaway": "Zkontrolujte nastavení Search kampaní v Microsoft Advertising – AI Max je volitelný, ale stávající funkce jako Predictive matching a autogenerované texty se do něj přesunou automaticky. Otestujte jednotlivé funkce postupně (např. přes optimization experiments), nastavte brand controls a URL pravidla, abyste udrželi kontrolu nad značkou a cílovými stránkami.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/2d20804ffa.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "d8a091673b",
    "created": "2026-08-20T21:57:25+00:00",
    "articles": [
@@ -3272,30 +3406,6 @@
    "what": "Google vydal verzi 25.1 svého Ads API. Přináší podporu pro měření conversion lift a brand lift, včetně nových metrik a zdrojů. Dále umožňuje srovnávací analýzy podle kategorií produktů/služeb (BenchmarksService), získávání brand sentiment dat, segmentaci podle zákaznických věrnostních programů a reporting původní konverzní hodnoty.",
    "why": "Pro pokročilé inzerenty a agentury, které programově řídí Google Ads kampaně nebo vyvíjejí vlastní reporting, přináší nové možnosti měření dopadu kampaní na brand a detailnější segmentaci zákazníků podle věrnostních programů. Pro běžné uživatele rozhraní Google Ads zatím bez přímého dopadu.",
    "takeaway": "Pokud používáte vlastní skripty nebo nástroje napojené na Google Ads API, sledujte dokumentaci k v25.1 a zvažte implementaci nových metrik pro hlubší analýzu kampaní. Pro běžnou práci v rozhraní Google Ads není potřeba nic měnit.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "1d02021f0e",
-   "created": "2026-08-20T23:42:47+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sYVFYbkxuVkVNam15dHJDMjNza2hvZUhZLVBKRDctc1F6azU1MmtnTVNKc1VKUG93NjJaSEVYSy1kckVBV0xVdkx0elUtU3VKQzJiYjVBMF95YXNSdzY0YUFmNlk3aXl2NUx3ckxLaXhYZ1U1a2FBdnNsMA?oc=5",
-     "title": "Google Ads API v25.1 Released",
-     "summary": "Google Ads API v25.1 Released &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-20T23:42:47+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Ads API v25.1 je venku",
-   "updated": "2026-08-21T05:01:46.139405+00:00",
-   "what": "Google vydal novou verzi svého Google Ads API – v25.1. Jde o update programátorského rozhraní, přes které nástroje a agentury spravují kampaně.",
-   "why": "Nové verze API mohou přinést nové funkce pro automatizaci nebo vyžadovat aktualizaci nástrojů, které vaše firma nebo agentura používá pro správu Google Ads kampaní.",
-   "takeaway": "Pokud používáte nástroje třetích stran nebo vlastní skripty pro správu Google Ads, ověřte u dodavatele nebo vývojáře, zda jsou kompatibilní s v25.1. Google obvykle postupně vyřazuje starší verze API.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -3348,30 +3458,6 @@
    "multi_source": false,
    "image": "img/22083fc83e.jpg",
    "image_from": "socialmediatoday.com"
-  },
-  {
-   "id": "537964041a",
-   "created": "2026-08-20T02:58:47+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFBY2dXSlM2a3NzNDNUVUNGMzFpYi1LMy1idy1KZTBOSkhKUF9HWFdzaWtPdUlNU3E2ZjFmb1pyS2lTRlRxTlRZNkVGYTYyaWdaNTEtOW5zM1drUHVqUzl2anh1R2FnM3F0UTVoZ3lGMFg1Z3JPLWp2dmU0aFBjY1NTQUpFQmhhUFN0QXo1UQ?oc=5",
-     "title": "Native Commerce Attribute Help Page Released",
-     "summary": "Native Commerce Attribute Help Page Released &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-20T02:58:47+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Ads spustil nápovědu k atributům Native Commerce",
-   "updated": "2026-08-21T05:01:46.139405+00:00",
-   "what": "Google Ads publikoval novou help page věnovanou atributům Native Commerce. Jde o dokumentaci k funkcionalitě, která umožňuje propojit produktové katalogy s reklamními kampaněmi.",
-   "why": "Pro e-shopy a PPC specialisty je důležité sledovat dokumentaci nových funkcí Google Ads – Native Commerce atributy mohou ovlivnit nastavení produktových kampaní a feed management.",
-   "takeaway": "Pokud provozujete produktové kampaně v Google Ads, zkontrolujte novou dokumentaci k Native Commerce atributům a zjistěte, zda vás se týká a jak ji využít pro lepší propojení katalogu s kampaněmi.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "70472ed1f5",
@@ -3787,30 +3873,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "89392bf4c6",
-   "created": "2026-08-18T14:51:52+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRm1MdDN3VWZnQ3drNk1INWNwQzlrRlMxWG9VNjhDOWVXNFp5SWdtVlB5LWxONlhNUTMxQmNVWWp1a2hRZmQwT0hVVG5RRWxSRXFBVTdSU1pJZV9GZjU0Z0RFRXZNZGpZeVBSeF85amxpeXg3SDVvQXA4U29xTW5tUmZ4R3BaME5HQXNDQzVOMXpTbkV6?oc=5",
-     "title": "Blue Hyperlinks Spotted in Google Search Ad Descriptions",
-     "summary": "Blue Hyperlinks Spotted in Google Search Ad Descriptions &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-18T14:51:52+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google testuje modré hypertextové odkazy v popisech PPC reklam",
-   "updated": "2026-08-20T07:18:13.620810+00:00",
-   "what": "V textových reklamách Google Ads se objevily modré klikatelné odkazy přímo v popisech reklam, nikoliv pouze v rozšířeních nebo hlavní URL. Jde pravděpodobně o test nového formátu zobrazení.",
-   "why": "Pokud Google tento formát zavede natrvalo, změní se způsob, jakým uživatelé vnímají a používají textové reklamy – mohou klikat přímo na specifické odkazy v popisu místo hlavního titulku, což ovlivní CTR, tracking a strukturu kampaní.",
-   "takeaway": "Zatím nic neměňte – jde o test v omezené distribuci. Sledujte, zda se funkce objeví i ve vašich kampaních nebo v oficiálních oznámeních Google. Pokud ano, budete muset upravit texty reklam a přizpůsobit cílové URL tak, aby odkazy v popisu dávaly smysl a správně vedly návštěvníky.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "383b25f793",
    "created": "2026-08-18T07:51:01+00:00",
    "articles": [
@@ -3833,58 +3895,6 @@
    "takeaway": "Sleduj oficiální oznámení Googlu, zda se změna týká České republiky nebo sousedních trhů. Pokud máš v plánu spustit Shopping Ads v nových zemích, ověř si aktuální dostupnost.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "2acdb42d47",
-   "created": "2026-08-18T04:39:31+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1d2bnRYRmtIdmFjLWRoVDQ1RF94ZzExLUZPcEEybllWMmViTnlxZlM1blZDeVU1d0ZocURtOGxVN05jZkVQcThZOGZHcTIzU3V1Tjd5QnRRdVJzSWlQalFxN3REcFZPUHlIc29nekQ4cWRaWUhvdG5Jc05aWm0xTS0wNG5JSThfclhHOUkzWGpzMjRVT2c?oc=5",
-     "title": "Branded Searches Conversion Type Added to Google Ads",
-     "summary": "Branded Searches Conversion Type Added to Google Ads &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-18T04:39:31+00:00",
-     "score": 64
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads přidává nový typ konverze pro brandové vyhledávání",
-   "updated": "2026-08-20T07:18:13.620810+00:00",
-   "what": "Google Ads zavedl nový typ konverze specificky pro brandové vyhledávání. Jde o rozšíření možností sledování konverzí v platformě.",
-   "why": "Umožňuje oddělit a lépe měřit výkonnost kampaní zaměřených na značku od obecných kampaní, což může zpřesnit vyhodnocování ROI a optimalizaci rozpočtu mezi brandem a produktovými kampaněmi.",
-   "takeaway": "Zkontrolujte nastavení konverzí v Google Ads – nový typ konverze pro brandové vyhledávání může pomoci lépe vyhodnotit, které kampaně skutečně přinášejí nové zákazníky a které jen zachycují existující poptávku po vaší značce.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/2acdb42d47.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "c1eae1bf60",
-   "created": "2026-08-20T01:13:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/native-commerce-attribute-help-page-released",
-     "title": "Native Commerce Attribute Help Page Released",
-     "summary": "A new attribute called native commerce &nbsp; [native_commerce] has been introduced in Google Merchant Center , enabling eligible product listings to participate in the \"Buy Now\" flow&nbsp; within Google interfaces like Gemini and AI Mode in Search , without visiting an external website. It was previously mentioned in various occasions, but now Google published its own help page. Key features include Enhanced Transactability for high-intent surfaces and Seamless Integration via supplemental feeds that do not disrupt primary data.&nbsp; The checkout eligibility sub-attribute dictates if the \"Bu",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-20T01:13:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Merchant Center: nový atribut pro nákup přímo v AI režimu",
-   "updated": "2026-08-20T05:00:40.906515+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/c1eae1bf60.jpg",
-   "image_from": "ppcnewsfeed.com",
-   "what": "Google Merchant Center představil nový atribut native_commerce, který umožňuje prodej produktů přímo v rozhraní Googlu (Gemini, AI Mode v Search) bez nutnosti přechodu na web. Atribut se přidává přes doplňkové feedy a řídí zobrazení tlačítka \"Buy Now\".",
-   "why": "Pro e-shopy s Google Ads a Merchant Center to otevírá nový prodejní kanál – zákazníci mohou nakoupit přímo v AI výsledcích, což zkracuje cestu ke konverzi. Zároveň to znamená méně návštěv na webu, což ovlivní měření a retargeting.",
-   "takeaway": "Ověřte, zda vaše produkty splňují podmínky pro native_commerce (kontrola v Merchant Center). Zvažte pilotní test doplňkového feedu, sledujte dopad na konverze a web analytics – část prodejů se přesune mimo váš web."
   },
   {
    "id": "b4e08fed3a",
@@ -4044,41 +4054,6 @@
    "multi_source": false
   },
   {
-   "id": "4501914db5",
-   "created": "2026-08-19T15:02:30+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai",
-     "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
-     "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Roz&#353;íření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít pří&#353;tí týden.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-19T15:21:16+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ppchero.com/we-tested-ads-in-chatgpt",
-     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
-     "summary": "ChatGPT advertising is live: blunt targeting, opaque pricing, thin measurement. Here's what our testing found about formats and cost before you spend a dollar. &lt;p&gt;The post We Tested Ads in ChatGPT: Here&#8217;s What the Channel Actually Does first appeared on PPC Hero .&lt;/p&gt;",
-     "source": "PPC Hero",
-     "domain": "ppchero.com",
-     "published": "2026-08-19T15:02:30+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Reklamy v ChatGPT se příští týden spustí v Evropě včetně ČR",
-   "updated": "2026-08-19T16:58:27.680763+00:00",
-   "what": "OpenAI příští týden rozšíří zobrazování reklam v ChatGPT do 31 evropských zemí, tedy i do ČR. Reklamy běží v USA už půl roku. Podle prvních testů ze strany inzerentů jde o hrubé targetování, nejasné ceny a slabé možnosti měření výkonu.",
-   "why": "Pro marketingové manažery v ČR to znamená nový reklamní kanál s potenciálním dosahem mezi uživateli ChatGPT, ale s nejistými parametry návratnosti a měření. Zatím nejsou známy ani detaily ceníku, ani možnosti reportingu.",
-   "takeaway": "Počkejte si na první zkušenosti z trhu, než začnete testovat rozpočet. Sledujte, zda OpenAI zveřejní podmínky a ceny pro EU/ČR a jaké případové studie se objeví – teprve pak zvažte pilotní kampaň.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4501914db5.jpg",
-   "image_from": "lupa.cz"
-  },
-  {
    "id": "73f63ff615",
    "created": "2026-08-19T15:00:00+00:00",
    "articles": [
@@ -4137,41 +4112,6 @@
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/abba01bc98.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "413654ed88",
-   "created": "2026-08-19T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5",
-     "title": "ChatGPT Ads are expanding to 31 European countries",
-     "summary": "ChatGPT Ads are expanding to 31 European countries &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T14:22:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
-     "title": "ChatGPT Ads Expanding To 31 European Countries",
-     "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-19T11:51:00+00:00",
-     "score": 63
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "ChatGPT Ads expandují do 31 evropských zemí včetně ČR",
-   "updated": "2026-08-19T15:00:16.974952+00:00",
-   "what": "OpenAI rozšiřuje své reklamní služby ChatGPT Ads do 31 evropských zemí. Mezi podporované trhy patří Německo, Francie, Španělsko, Itálie, Švédsko, Norsko, Dánsko, Nizozemsko a Rakousko.",
-   "why": "Pro české firmy a marketéry se otevírá nový reklamní kanál s potenciálním dosahem na uživatele ChatGPT v Evropě. Jde o alternativu k tradičním vyhledávacím a sociálním platformám, která může ovlivnit rozložení PPC rozpočtů.",
-   "takeaway": "Sledujte dostupnost ChatGPT Ads pro ČR a vyhodnoťte, zda vaše cílová skupina používá ChatGPT natolik, aby investice do testování dávala smysl. Připravte se na možné rozšíření reklamních kanálů v roce 2025.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/413654ed88.jpg",
    "image_from": "searchengineland.com"
   },
   {
@@ -4727,50 +4667,6 @@
    "multi_source": false
   },
   {
-   "id": "ea2a0b392f",
-   "created": "2026-08-18T16:37:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301",
-     "title": "Google Begins Rolling Out The August 2026 Spam Update via @sejournal, @MattGSouthern",
-     "summary": "Google has begun rolling out the August 2026 spam update, applying globally and to all languages, its third one this year. The post Google Begins Rolling Out The August 2026 Spam Update appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T17:10:40+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
-     "title": "Google August 2026 Spam Update Has Been Unleashed",
-     "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all languages. This only impacts sites that spam, but with any update, there may be collateral damage.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-18T16:45:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5",
-     "title": "Google releases August 2026 spam update",
-     "summary": "Google releases August 2026 spam update &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-18T16:37:00+00:00",
-     "score": 78
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google spustil August 2026 Spam Update – třetí letos",
-   "updated": "2026-08-18T19:05:07.286964+00:00",
-   "what": "Google začal 5. srpna 2026 zavádět další spam update. Jde o třetí letošní aktualizaci zaměřenou na spam, která se týká všech jazyků a zemí včetně ČR. Kompletní nasazení by mělo trvat jen několik dní.",
-   "why": "Update cílí primárně na spamové weby, ale jako u každé velké aktualizace algoritmu může dojít i k nechtěnému dopadu na kvalitní stránky. Pro českého SEO specialistu i marketingového manažera to znamená potenciální výkyvy ve viditelnosti a organickém trafficu.",
-   "takeaway": "Sledujte pozice a organický provoz v následujících dnech, zejména pokud jste nedávno měnili obsah nebo link building strategii. Pokud zaznamenáte pokles, zkontrolujte kvalitu obsahu a backlink profil – spam signály mohou postihnout i neúmyslně.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/ea2a0b392f.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
    "id": "5f36a5e81c",
    "created": "2026-08-18T16:57:59+00:00",
    "articles": [
@@ -4795,30 +4691,6 @@
    "multi_source": false,
    "image": "img/5f36a5e81c.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "0b8fc44116",
-   "created": "2026-08-18T16:28:47+00:00",
-   "articles": [
-    {
-     "url": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
-     "title": "UPDATE: August 2026 spam update",
-     "summary": "Incident began at 2026-08-18 09:27 (all times are US/Pacific ). Released the August 2026 spam update , which applies globally and to all languages. The rollout may take a few days to complete. Affected products: Ranking",
-     "source": "Google Search Status Dashboard",
-     "domain": "status.search.google.com",
-     "published": "2026-08-18T16:28:47+00:00",
-     "score": 80
-    }
-   ],
-   "category": "seo",
-   "importance": 75,
-   "title": "Google spustil globální spam update pro srpen 2026",
-   "updated": "2026-08-18T17:00:10.130739+00:00",
-   "what": "Google 18. srpna 2026 vydal celosvětový spam update, který se týká všech jazyků. Dokončení update může trvat několik dní. Ovlivňuje pořadí ve vyhledávání.",
-   "why": "Spam updaty od Googlu mohou zásadně změnit pozice webu v organickém vyhledávání. Weby, které update vyhodnotí jako spam, mohou ztratit návštěvnost a konverze; čisté weby naopak často posílí.",
-   "takeaway": "Sledujte v následujících dnech pozice webu v Google Search Console a v návštěvnosti GA4. Pokud zaznamenáte pokles, zkontrolujte kvalitu obsahu a zda web nespadá pod Googlovu definici spamu (automatický obsah, keyword stuffing, skrytý text, irelevantní backlinky).",
-   "importance_label": "důležité",
-   "multi_source": false
   },
   {
    "id": "cc861e9f1d",
@@ -5002,32 +4874,6 @@
    "image_from": "searchenginejournal.com"
   },
   {
-   "id": "a73055a24d",
-   "created": "2026-08-18T14:15:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdUUyVnhBSFJSMXRrNnpZQTVqdUdqczRfXzh2ak1kX3NUczkxY3BNVXVrNldqdjdpOE5RT3U2V3VvcVk1ZlVJcTdmVnB1TlRpYm5FemxMMVlCOU5EOEN2ZllaNjJiWEU3ZzdDNHlJR1QzQXQyVnAxMERrQnlVRGJzcDZVMlVjQTdmZmU1TjlLM1NuNWMx?oc=5",
-     "title": "Google updates Branded Searches conversion measurement",
-     "summary": "Google updates Branded Searches conversion measurement &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-18T14:15:00+00:00",
-     "score": 78
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google upravil měření konverzí u brandových vyhledávání",
-   "updated": "2026-08-18T15:00:29.857925+00:00",
-   "what": "Google provedl aktualizaci způsobu, jakým měří konverze u vyhledávání na brand (Branded Searches). Jde o změnu v Google Ads, která ovlivňuje reporting a atribuci konverzí z vyhledávacích kampaní zaměřených na značku.",
-   "why": "Brandové vyhledávání patří k nejkonverznějším a nejefektivnějším kampaním, na které české firmy alokují část rozpočtu. Změna měření konverzí může ovlivnit vykazované výsledky těchto kampaní a rozhodování o rozpočtech.",
-   "takeaway": "Zkontrolujte aktuální nastavení měření konverzí u brandových kampaní v Google Ads a porovnejte čísla před a po změně. Případné rozdíly v reportech mohou ovlivnit optimalizaci a rozdělení rozpočtu mezi brand a non-brand kampaně.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/a73055a24d.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
    "id": "1d6ee74a75",
    "created": "2026-08-18T13:48:51+00:00",
    "articles": [
@@ -5052,54 +4898,6 @@
    "multi_source": false,
    "image": "img/1d6ee74a75.jpg",
    "image_from": "martech.org"
-  },
-  {
-   "id": "4ea9abb0c8",
-   "created": "2026-08-18T13:02:00+00:00",
-   "articles": [
-    {
-     "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads",
-     "title": "IAB updates standard for disclosing AI in ads",
-     "summary": "IAB’s updated framework draws the AI disclosure line around what changes consumer perceptions of authenticity, identity, and what’s real. The post IAB updates standard for disclosing AI in ads appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-18T13:02:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ai",
-   "importance": 45,
-   "title": "IAB aktualizuje standard pro označování AI v reklamě",
-   "updated": "2026-08-18T15:00:29.857925+00:00",
-   "what": "IAB (Interactive Advertising Bureau) aktualizoval svůj framework pro označování použití umělé inteligence v reklamách. Nový standard se zaměřuje na situace, kdy AI může měnit vnímání autenticity, identity nebo toho, co je skutečné.",
-   "why": "Pro marketingové manažery v ČR je relevantní proto, že IAB standardy postupně ovlivňují praxi i v Evropě. Jde o otázku transparentnosti vůči spotřebitelům – kdy musí být v reklamě jasně uvedeno, že jde o AI-generovaný obsah nebo AI-upravenou identitu.",
-   "takeaway": "Sledujte vývoj těchto standardů, zejména pokud ve své komunikaci používáte AI-generované kreativy, virtuální influencery nebo výrazně AI-upravené vizuály. V budoucnu může být povinné takový obsah v kampaních označovat.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "af4ee84af1",
-   "created": "2026-08-18T13:06:07+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wTFJiWnUzVkFhd19NUFlFb1FkQWFlRnptSFloTHd0WDQ3MjEwZDRpU0lVRWZKbmt1dmM5dHVEbldHV0tmb0prQUJWR25fWERPQlJEN0t0Mkl6OGsxdmxzZW9vdXVJRXVWZElpTlBWbmJ3NTVo?oc=5",
-     "title": "IAB updates standard for disclosing AI in ads",
-     "summary": "IAB updates standard for disclosing AI in ads &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-18T13:06:07+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "IAB aktualizoval standard pro označování AI v reklamách",
-   "updated": "2026-08-18T13:16:10.959722+00:00",
-   "what": "Mezinárodní asociace IAB (Interactive Advertising Bureau) vydala aktualizaci svého standardu pro označování reklamního obsahu vytvořeného nebo upraveného pomocí umělé inteligence.",
-   "why": "Standard definuje, jak mají inzerenti transparentně informovat uživatele o použití AI v reklamách, což je důležité pro důvěryhodnost a může se v budoucnu stát regulatorním požadavkem i v EU.",
-   "takeaway": "Sledujte vývoj standardu a připravte se na možné budoucí povinnosti označovat AI-generovaný obsah v reklamách. Prozatím jde o doporučení, ne závaznou normu v ČR.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "8b44187d6d",
@@ -5152,30 +4950,6 @@
    "takeaway": "Bez přístupu k plnému obsahu článku nelze poskytnout konkrétní doporučení. Pokud spravujete lokální pobočky nebo se zaměřujete na místní zákazníky, sledujte vývoj Local SEO – může to ovlivnit váš Google Business Profile, lokální citace a strategii obsahu."
   },
   {
-   "id": "e481e743a9",
-   "created": "2026-08-18T11:17:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-tests-blue-hyperlinks-ad-descriptions",
-     "title": "Blue Hyperlinks Spotted in Google Search Ad Descriptions",
-     "summary": "Google is testing blue hyperlinks in the ad descriptions within the sponsored results.&nbsp; The appearance of these links suggests that more keyword-rich links may be incorporated in the Google Search sponsored results descriptions in the future.&nbsp; This update was uncovered by Sachin Patel and&nbsp; Barry Schwartz . The post Blue Hyperlinks Spotted in Google Search Ad Descriptions appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-18T11:17:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google testuje modré odkazy v popisech textových reklam",
-   "updated": "2026-08-18T13:16:10.959722+00:00",
-   "what": "Google experimentuje s modrými hypertextovými odkazy přímo v popisech textových reklam ve vyhledávání. Zatím jde o test, který odhalili Sachin Patel a Barry Schwartz.",
-   "why": "Pokud Google tuto funkci zavede natrvalo, inzerenti budou moci do popisů reklam vkládat další proklikávatelné odkazy. To může zvýšit CTR a umožnit lepší směrování uživatelů na konkrétní podstránky přímo z reklamy.",
-   "takeaway": "Sledujte, zda se funkce objeví i ve vašich kampaních v Google Ads. Pokud ano, zvažte testování dalších odkazů v popisech pro zvýšení relevance a proklikovosti reklam.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "0ae7f79450",
    "created": "2026-08-18T06:50:00+00:00",
    "articles": [
@@ -5200,56 +4974,6 @@
    "multi_source": false
   },
   {
-   "id": "d84d771e1d",
-   "created": "2026-08-18T02:57:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/branded-searches-conversion-type-added-google-ads",
-     "title": "Branded Searches Conversion Type Added to Google Ads",
-     "summary": "Google Ads has documented branded searches as a new conversion type that records search queries made for a brand on Google and YouTube after viewing associated ads.&nbsp; This feature is available for YouTube and Demand Gen campaigns , classified under the Consideration goal . Unlike previous methods, such as Search Lift experiments, there is no additional setup required. Branded searches allow advertisers to track brand interest over a 7-day period , using last click and view-through conversion attribution. These insights help determine marketing budget allocations, inform campaign effectiven",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-18T02:57:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads nově měří branded vyhledávání jako typ konverze",
-   "updated": "2026-08-18T05:02:51.666377+00:00",
-   "what": "Google Ads přidal nový typ konverze \"branded searches\", který zaznamenává vyhledávání značky na Googlu a YouTube po zobrazení reklamy. Funkce je dostupná pro YouTube a Demand Gen kampaně pod cílem Consideration, bez nutnosti dodatečného nastavení.",
-   "why": "Umožňuje měřit zájem o značku v 7denním okně pomocí last click a view-through atribuce, což dříve vyžadovalo složitější Search Lift experimenty. Poskytuje přímá data pro hodnocení efektivity kampaní zaměřených na budování povědomí.",
-   "takeaway": "Zkontrolujte konverze v YouTube a Demand Gen kampaních – nová metrika vám ukáže, kolik lidí po shlédnutí reklamy aktivně vyhledávalo vaši značku. Využijte tato data při rozhodování o rozpočtu na brand awareness kampaně.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/d84d771e1d.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "a684b1982f",
-   "created": "2026-08-17T23:30:34+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-publishes-conversions-api-documentation",
-     "title": "Microsoft Publishes Conversions API Documentation",
-     "summary": "Microsoft Advertising has published a new documentation for the Conversions API (CAPI).&nbsp; This server-side solution, currently in beta, allows advertisers to send conversion and customer interaction data directly from their systems to Microsoft Advertising, supporting various measurement scenarios with a single connection. Key features of CAPI include the ability to improve conversion measurement accuracy, send online and offline events, increase attribution coverage, and reduce reliance on browser-only tracking methods.&nbsp; The recommended implementation approach involves using CAPI alo",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-17T23:30:34+00:00",
-     "score": 64
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Microsoft Advertising spustil Conversions API v beta verzi",
-   "updated": "2026-08-18T05:02:51.666377+00:00",
-   "what": "Microsoft Advertising zveřejnil dokumentaci k nové Conversions API (CAPI), která je aktuálně v beta verzi. Jde o server-side řešení, které umožňuje inzerentům posílat konverzní data a informace o interakcích zákazníků přímo ze svých systémů do Microsoft Advertising, bez závislosti na prohlížečových cookies.",
-   "why": "CAPI může zlepšit přesnost měření konverzí a rozšířit pokrytí atribučních dat v době, kdy browserové sledování je stále více omezováno (cookie consent, privacy updates). Řešení podporuje sledování online i offline událostí a doporučuje se použít společně s klasickým pixelovým trackingem.",
-   "takeaway": "Pokud inzerujete na Microsoft Advertising a řešíte problémy s neúplným měřením konverzí kvůli blokování cookies, sledujte vývoj této API – po ukončení beta fáze může být vhodné ji implementovat pro přesnější reportování a optimalizaci kampaní.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "263d0dbaef",
    "created": "2026-08-17T22:47:48+00:00",
    "articles": [
@@ -5270,82 +4994,6 @@
    "what": "X (dříve Twitter) zveřejnil části zdrojového kódu svého doporučovacího algoritmu. Business Insider na základě těchto informací popsal, jak algoritmus funguje a jaké strategie postování zvýhodňuje.",
    "why": "Pro firmy a marketéry využívající X v ČR to přináší konkrétní vodítka, jak optimalizovat organický dosah bez nutnosti navyšovat reklamní rozpočet – pochopení algoritmu umožňuje efektivněji plánovat obsah a timing příspěvků.",
    "takeaway": "Prostudujte zveřejněné poznatky o algoritmu X a upravte svou publikační strategii – zaměřte se na faktory, které algoritmus zvýhodňuje (timing, formáty, engagement). Může to zlepšit dosah bez dalších nákladů.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "ad78f2ff1d",
-   "created": "2026-08-17T22:45:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0dnTFhyTThjYVk3TFJES1hZYTFNdDV6Rkd0d3pRTHlLeUxzVmRMU01rbWk0aFFXZG5tQWJGVU05SlVCaDVNNXQ3blFiTmU1dlQ3MUVaZktHbHU1Z2h6MWdWMVNXZDlpU1dIN1RXZEdvelI2eU9UZVV6YjlBU1RraWtVNV90UWtpeklBaUUwVnBoMGVOemQtSDlNeF9HSGt5elJPWldCMDQ?oc=5",
-     "title": "Google Ads will use generative AI to resize Performance Max video ads",
-     "summary": "Google Ads will use generative AI to resize Performance Max video ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-17T22:45:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Google Ads přidává AI pro automatickou úpravu videoreklam v Performance Max",
-   "updated": "2026-08-18T05:02:51.666377+00:00",
-   "what": "Google Ads začne využívat generativní AI k automatické změně rozměrů videoreklam v kampaních Performance Max. Nástroj umožní přizpůsobení videí různým formátům a umístěním.",
-   "why": "Performance Max kampně běží napříč všemi Google sítěmi s různými formáty. Automatická úprava videí pomocí AI může ušetřit čas a náklady na produkci variant, zároveň ale znamená menší kontrolu nad finální podobou.",
-   "takeaway": "Pokud využíváte Performance Max s videem, sledujte výkon automaticky upravených variant a porovnejte je s ručně vytvořenými verzemi. Připravte se na možné kompromisy v kvalitě střihu versus úsporu času.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/ad78f2ff1d.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "2006a67fab",
-   "created": "2026-08-17T21:14:08+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093",
-     "title": "YouTube is changing how it counts views",
-     "summary": "The platform said that all formats will soon align with Shorts methodology and measure views the moment a video starts playing.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T21:14:08+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 62,
-   "title": "YouTube mění metodiku počítání zhlédnutí u všech formátů videí",
-   "updated": "2026-08-18T05:02:51.666377+00:00",
-   "what": "YouTube jednotně sjednocuje způsob měření zhlédnutí napříč všemi formáty videí. Všechny typy obsahu (klasická videa, Shorts) budou brzy počítat zhlédnutí stejně jako u Shorts – tedy od okamžiku, kdy video začne přehrávat.",
-   "why": "Změna ovlivní reportované metriky výkonu videí na YouTube, což je důležité pro vyhodnocování kampaní a organického obsahu. Manažeři mohou očekávat změny v naměřených číslech zhlédnutí, což může ovlivnit porovnávání historických dat a vyhodnocování ROI YouTube aktivit.",
-   "takeaway": "Připravte se na možný nárůst počtu zhlédnutí v reportech YouTube kampaní a organického obsahu. Při vyhodnocování výkonu porovnávejte data před a po změně s vědomím odlišné metodiky. Sledujte oficiální komunikaci YouTube k termínu zavedení změny.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/2006a67fab.jpg",
-   "image_from": "socialmediatoday.com"
-  },
-  {
-   "id": "a10f53a646",
-   "created": "2026-08-17T20:10:31+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166",
-     "title": "YouTube Changes How It Counts Views On Long-Form & Live via @sejournal, @MattGSouthern",
-     "summary": "YouTube is changing how it counts views on long-form videos and live streams. The post YouTube Changes How It Counts Views On Long-Form &#038; Live appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-17T20:10:31+00:00",
-     "score": 47
-    }
-   ],
-   "category": "obsah",
-   "importance": 45,
-   "title": "YouTube mění způsob počítání zhlédnutí u dlouhých videí a živých přenosů",
-   "updated": "2026-08-17T20:55:34.075563+00:00",
-   "what": "YouTube upravuje metodiku počítání zhlédnutí u long-form videí a live streamů. Konkrétní detaily změny nejsou v dostupném zdroji specifikovány.",
-   "why": "Pro marketéry pracující s video contentem a influencer kampaněmi to může ovlivnit způsob vyhodnocování dosahu a ROI YouTube kampaní. Změna metrik může mít dopad na reportování výkonnosti.",
-   "takeaway": "Sledujte oficiální komunikaci YouTube ohledně této změny a připravte se případně upravit způsob měření a reportování úspěšnosti YouTube kampaní. Pokud pracujete s influencery nebo měříte organický dosah videí, ověřte, jak změna ovlivní vaše metriky.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -5456,30 +5104,6 @@
    "why": "Jde o technickou novinku nástroje Gemini, která zjednodušuje práci s AI obsahem, ale nemá přímý dopad na marketingovou praxi v ČR. Pro většinu českých firem je Gemini spíše doplňkový nástroj.",
    "takeaway": "Pokud ve firmě používáte Gemini pro tvorbu vizuálů, můžete nyní vypnout viditelný vodoznak. Pro běžnou marketingovou praxi v ČR to ale zatím nemá zásadní vliv.",
    "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "94137465e7",
-   "created": "2026-08-17T15:43:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTByU3JCNDczd1kxQks4ME9JRXdiUGQ5SkNyc1Y1N3RabVRWQm9fRU5Yc0JPdEZONjgzbHJSdHR5VUVxUzBaZmFNVlZmcnNYV00zdGtmMjF1emJFSThnNFU2SlowaHpXT21md2x4ZFBnSzVQWHhnQkEwa0lYVTNEbHdkdDlxbXBTOVdpcXFOVWFXUkdqM25UZzJQVGl0bU0?oc=5",
-     "title": "Google updates Demand Gen view-through conversion optimization",
-     "summary": "Google updates Demand Gen view-through conversion optimization &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-17T15:43:00+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google upravil optimalizaci view-through konverzí v Demand Gen kampaních",
-   "updated": "2026-08-17T19:11:06.447024+00:00",
-   "what": "Google změnil způsob, jakým Demand Gen kampaně optimalizují view-through konverze (konverze započítané po zobrazení reklamy, bez kliknutí). Konkrétní parametry úpravy nejsou v dodaném zdroji specifikovány.",
-   "why": "Pokud používáte Demand Gen kampaně a sledujete view-through konverze, může tato změna ovlivnit reportování výkonu a optimalizaci kampaní. Demand Gen je poměrně nový formát zaměřený na vizuální reklamu v Google ekosystému.",
-   "takeaway": "Zkontrolujte nastavení konverzí ve svých Demand Gen kampaních a porovnejte data před a po změně. Sledujte, zda úprava neovlivnila výkonnost nebo alokaci rozpočtu mezi kampaněmi.",
-   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
