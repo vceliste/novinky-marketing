@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-23T20:46:45.899953+00:00",
+ "last_run": "2026-08-24T05:10:46.464241+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd881155d00>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f93ee417860>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -88,13 +88,13 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "chyba: empty feed (HTTP 403, text/html)",
    "new": 0
   },
   {
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -262,14 +262,14 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "status": "chyba: empty feed (HTTP 404, text/html)",
    "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -1760,9 +1760,214 @@
   "https://www.lupa.cz/clanky/prvni-supravodivy-tepelny-stroj-modularni-kryogenni-bunky-realistictejsi-hodnoceni-kvantove-vyhody": "2026-08-23T18:55:40.448032+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-08/google-redesigns-asset-optimization-panel": "2026-08-23T18:55:40.448032+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZkROQVdLYndYTTlhRzh0SjdvMGFFTFpQQkZJMjlHSEJUdkF2cFh0Rm52YVJhbXF6UDJ5Q0pCQXNkNVZZb3ZudmFKQ0c2d0xrb0l4blp2Smx2c0ppQWZqbWpjeVJaLXNMY1FjT1Q2T01fOTNiYmc1d3d1RHFXN3RpSnRLTkZRZWRwMUtoZm4zbnhtZHdzZmJBSW9sQS11WU5EZVNNWDJidUNaTVNHbDJKblFpSHduQUJneXNmRlljeGU?oc=5": "2026-08-23T20:46:45.899953+00:00",
-  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qbVdMWWNUeHduRVRIRmd2aWJ6bTN3dVJXMERyVkM4VURiMGhrUkRWRThFbHhBeVpoZUV3OVc3bVBrU19qX0s2LVZDay13Zw?oc=5": "2026-08-23T20:46:45.899953+00:00"
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qbVdMWWNUeHduRVRIRmd2aWJ6bTN3dVJXMERyVkM4VURiMGhrUkRWRThFbHhBeVpoZUV3OVc3bVBrU19qX0s2LVZDay13Zw?oc=5": "2026-08-23T20:46:45.899953+00:00",
+  "https://www.lupa.cz/clanky/mame-hotovych-90-procent-dodelejte-nam-zbytek-zadaji-klienti-vyvojare-jak-to-vypada-kdyz-vibecoding-meni-byznysmodel": "2026-08-24T05:10:46.464241+00:00",
+  "https://cc.cz/ceske-sklo-z-barbie-a-bridget-jonesove-miri-do-usa-znacka-lukase-klimcaka-uz-vyrostla-pres-60-milionu": "2026-08-24T05:10:46.464241+00:00",
+  "https://cc.cz/nakupujete-na-vintedu-ani-jeho-ai-vas-neochrani-pred-padelky-takto-je-odhalite-za-par-minut": "2026-08-24T05:10:46.464241+00:00",
+  "https://cc.cz/rocne-investujeme-miliardu-10x-vic-nez-pred-prodejem-rika-sef-zasilkovny-v-rychlosti-se-blizi-alze": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.lupa.cz/clanky/velky-prehled-cim-jdou-televize-proti-sobe-v-boji-o-divaky": "2026-08-24T05:10:46.464241+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-unifies-tag-tag-manager-measurement-tools": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.seroundtable.com/google-fix-favicon-crawl-stats-41928.html": "2026-08-24T05:10:46.464241+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.socialmediatoday.com/news/meta-glasses-face-more-challenges/828555": "2026-08-24T05:10:46.464241+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/how-this-ad-was-made-added-my-ad": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.mediar.cz/marketing-ktery-nemusite-budovat-od-nuly-jak-mohou-e-shopy-vyuzit-silu-online-trziste": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.socialmediatoday.com/news/instagram-stresses-the-importance-of-captions/828554": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.socialmediatoday.com/news/will-meta-be-found-guilty-of-driving-social-media-addiction/828553": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.socialmediatoday.com/news/youtube-expands-channels-experiment/828551": "2026-08-24T05:10:46.464241+00:00"
  },
  "events": [
+  {
+   "id": "d82507bc2d",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
+     "title": "Google Search Ranking Volatility Spikes On August 12-13",
+     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-13T11:51:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
+     "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
+     "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI report does not show clicks) starting around August 12th and 13th. This seems like a bug because the drop seems to be super widespread.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-17T17:37:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-fix-favicon-crawl-stats-41928.html",
+     "title": "Google Fixed Favicon Bug & Crawl Stats Missing Data",
+     "summary": "Google has fixed two bugs this weekend related to Google Search. The first is the bug with many favicons not showing up in the Google Search result snippets. The second is the bug with two days of data missing from the Google Search Console crawl stats report.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-24T00:45:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "seo",
+   "importance": 62,
+   "title": "Google Search zaznamenal výkyvy v žebříčcích a chyby v reportech kolem 12.–13. srpna",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Kolem 12.–13. srpna došlo k výraznému výkyvu v pořadí výsledků vyhledávání Google, což zaznamenaly monitorovací nástroje. Zároveň se v Google Search Console objevil pokles zobrazení a kliknutí v reportech výkonu (včetně AI přehledů) – pravděpodobně kvůli chybě, protože pokles byl plošný. Google během víkendu opravil dvě další chyby: chybějící favikony ve výsledcích vyhledávání a chybějící data v reportu statistik procházení.",
+   "why": "Výkyvy v žebříčcích mohou dočasně ovlivnit organický provoz na webu. Chybná data v Search Console (pokles impresí/kliknutí) mohou vést k mylným závěrům při vyhodnocování výkonu SEO, pokud se kontrolují právě tyto dny. Opravené chyby (favikony, crawl stats) signalizují, že Google měl technické problémy, které mohly zkreslit běžné metriky.",
+   "takeaway": "Zkontrolujte data v Google Search Console pro 12.–13. srpen – pokud vidíte výrazný pokles impresí nebo kliknutí, může jít o reportovací chybu, ne reálný propad. Sledujte, zda se data zpětně opraví. Pokud jste zaznamenali pokles pozic nebo návštěvnosti, porovnejte s monitorovacími nástroji (např. Collabim) a vyčkejte pár dní – může jít o dočasný výkyv algoritmu.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/d82507bc2d.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "5013057d9b",
+   "created": "2026-08-24T02:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-unifies-tag-tag-manager-measurement-tools",
+     "title": "Google Unifies Tag and Tag Manager Measurement Tools",
+     "summary": "Google has rolled out updates across its tagging tools to simplify the process of measuring website performance for advertisers .&nbsp; The changes are designed to consolidate measurement settings, allowing advertisers to manage both Google Ads and Google Analytics in one place through the integration of Google Tag and Tag Manager . Key updates include: Consolidated tagging tools: Centralize measurement settings for easier management. Improved performance: Streamlined data transmission may result in faster website speed. No-code event tracking: Automated setup allows users to navigate through ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T02:11:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "analytika",
+   "importance": 68,
+   "title": "Google sjednocuje Tag a Tag Manager pro měření",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Google aktualizoval své nástroje protagování webu – Google Tag a Google Tag Manager. Nově lze nastavení měření pro Google Ads i Google Analytics spravovat centrálně na jednom místě. Změny zahrnují zjednodušenou správu tagů, potenciálně rychlejší načítání stránek díky efektivnějšímu přenosu dat a automatizované sledování událostí bez nutnosti psát kód.",
+   "why": "Konsolidace nástrojů pro měření má zjednodušit práci marketérům, kteří dnes musí tagování a nastavení sledování řešit na více místech. Streamování přenosu dat může navíc přímo ovlivnit rychlost webu, což má vliv na UX i SEO.",
+   "takeaway": "Zkontrolujte aktuální nastavení Google Tag a Tag Manageru na svých webech a zvažte přechod na nové centralizované rozhraní. Ověřte, zda vám automatizované sledování událostí ušetří čas při konfiguraci konverzí. Sledujte případný dopad na rychlost načítání stránek.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/5013057d9b.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "68f08f808b",
+   "created": "2026-08-23T23:31:23+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook",
+     "title": "Microsoft Releases Agentic Commerce Playbook",
+     "summary": "Microsoft has released a new guide for agentic commerce called Prepare for the Age of AI Shopping , designed to help advertisers prepare for agentic commerce and AI driven shopping experiences . The playbook focuses on three areas.&nbsp; Get discovered with AI ready product feeds in Microsoft Merchant Center.&nbsp; Get chosen through AI native ads across Bing and Copilot, Copilot Checkout, and Brand Agents.&nbsp; Understand what is working with AI Visibility insights in Microsoft Clarity, including AI citations, grounding queries, competitor comparisons, and AI referred traffic. It also includ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T23:31:23+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Microsoft vydal příručku pro AI agentní nakupování v reklamě",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Microsoft publikoval průvodce 'Prepare for the Age of AI Shopping' zaměřený na přípravu inzerentů na agentní obchod a nákupní zkušenosti řízené AI. Materiál se soustředí na tři oblasti: optimalizaci produktových feedů pro AI v Microsoft Merchant Center, získání pozornosti zákazníků skrze AI-nativní reklamy v Bingu a Copilotu (včetně Copilot Checkout a Brand Agents) a měření výkonu pomocí AI Visibility insights v Microsoft Clarity.",
+   "why": "Ukazuje směr, jakým se ubírá reklamní ekosystém Microsoftu – od klasického vyhledávání k AI asistentům, kteří aktivně doporučují produkty. Pro inzerenty na Bingu to znamená nutnost přizpůsobit produktová data a reklamní strategie novým AI formátům.",
+   "takeaway": "Pokud inzerujete na Bingu nebo zvažujete rozšíření PPC mimo Google, stáhněte si playbook a prozkoumejte, jak připravit produktové feedy pro AI a jak měřit dopad AI doporučení na traffic. V ČR zatím jde o experimentální téma, ale vývoj sledujte – Microsoft Copilot postupně expanduje do Evropy.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "1ca2d3b9c3",
+   "created": "2026-08-23T22:57:16+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/how-this-ad-was-made-added-my-ad",
+     "title": "“How This Ad Was Made” Added to My Ad Center",
+     "summary": "Google Ads has improved ad&nbsp; transparency to provide&nbsp;users with detailed information about ads generated with artificial intelligence.&nbsp; The panel features a section titled \"How this ad was made,\" which discloses when an ad was created or edited with AI , allowing users to understand the origin and nature of the content they see. The feature is available through My Ad Center using the three-dot menu on ads across Search, YouTube, and Discover.&nbsp; Google emphasizes that ads built using its own tools will automatically include AI disclosures, while advertisers creating assets ext",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T22:57:16+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads označuje reklamy vytvořené AI v novém panelu My Ad Center",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Google Ads rozšířil transparentnost reklam o sekci \"Jak byla tato reklama vytvořena\" v My Ad Center. Uživatelé nyní vidí, zda byla reklama vytvořena nebo upravena pomocí AI. Funkce je dostupná přes menu tří teček u reklam ve vyhledávání, na YouTube a v Discover.",
+   "why": "Jde o zvýšení transparentnosti vůči koncovým uživatelům – reklamy vytvořené Google nástroji budou AI označení obsahovat automaticky. Může ovlivnit vnímání důvěryhodnosti AI reklam u části publika a vyžaduje pozornost při používání AI nástrojů pro tvorbu reklam.",
+   "takeaway": "Pokud používáte AI nástroje Google Ads pro tvorbu kreativ, počítejte s tím, že uživatelé uvidí označení o použití AI. Sledujte, zda toto označení ovlivní performance kampaní, a zvažte testování AI vs. manuálně vytvořených variant.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "49c7e7a769",
+   "created": "2026-08-23T22:00:47+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediar.cz/marketing-ktery-nemusite-budovat-od-nuly-jak-mohou-e-shopy-vyuzit-silu-online-trziste",
+     "title": "Marketing, který nemusíte budovat od nuly. Jak mohou e-shopy využít sílu online tržiště",
+     "summary": "Allegro otevírá cestu k publiku, ke němuž by se české e-shopy samy dostávaly složitěji.",
+     "source": "Médiář",
+     "domain": "mediar.cz",
+     "published": "2026-08-23T22:00:47+00:00",
+     "score": 64
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Allegro nabízí českým e-shopům přístup k polskému publiku",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Allegro, polské online tržiště, otevírá českým e-shopům možnost oslovit polské zákazníky bez nutnosti budovat vlastní marketing v zahraničí.",
+   "why": "Jde o připravenou distribuční cestu k velkému polskému trhu, která ušetří náklady na budování vlastní kampaní a brandingu v zahraničí.",
+   "takeaway": "Pokud zvažujete expanzi do Polska, prověřte podmínky prodeje přes Allegro jako alternativu k budování vlastního e-shopu a marketingu v zahraničí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "50e399a799",
+   "created": "2026-08-23T21:44:23+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552",
+     "title": "X launches MCP server",
+     "summary": "The system allows advertisers to connect their campaigns to the artificial intelligence tool of their choice and use it to guide their promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-23T21:44:23+00:00",
+     "score": 60
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "X (Twitter) spustil MCP server pro propojení AI nástrojů s reklamními kampaněmi",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "Platforma X (dříve Twitter) představila MCP server, který umožňuje inzerentům propojit své kampaně s libovolným AI nástrojem a využít ho k řízení propagace.",
+   "why": "Jde o technickou novinku, která potenciálně otevírá možnost využít AI asistenty ke správě X kampaní. Pro české firmy zatím není jasné, zda a kdy bude dostupná v ČR/EU, ani jaké konkrétní funkce přináší.",
+   "takeaway": "Sledujte další vývoj a dostupnost MCP serveru v Evropě. Pokud aktivně inzerujete na X, zjistěte si detaily implementace a případné výhody oproti stávajícím nástrojům.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d84e2a7004",
+   "created": "2026-08-23T21:40:52+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-expands-channels-experiment/828551",
+     "title": "YouTube expands Channels experiment",
+     "summary": "The platform is opening up its television-style streaming feature to a new group of musicians, podcasters and media creators but the test pool is still limited.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-23T21:40:52+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 35,
+   "title": "YouTube rozšiřuje test funkce Channels na další tvůrce",
+   "updated": "2026-08-24T05:10:46.464241+00:00",
+   "what": "YouTube otevřel experimentální funkci Channels dalším tvůrcům – hudebníkům, podcasterům a mediálním tvůrcům. Jde o streamovací formát ve stylu televizních kanálů, ale stále se jedná pouze o omezenou testovací skupinu.",
+   "why": "Channels představuje potenciálně nový způsob konzumace obsahu na YouTube, který připomíná klasickou televizní zkušenost. Pro marketéry může v budoucnu přinést nové formáty pro inzerci a spolupráce s tvůrci.",
+   "takeaway": "Funkce je zatím v testovací fázi mimo český trh. Sledujte vývoj – pokud se Channels rozšíří globálně, mohlo by to ovlivnit strategie spolupráce s YouTube tvůrci a umístění reklam.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
   {
    "id": "1a63f5cbef",
    "created": "2026-08-23T16:55:00+00:00",
@@ -5518,41 +5723,6 @@
    "importance_label": "stojí za pozornost",
    "multi_source": true,
    "image": "img/46afea07e0.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "d82507bc2d",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
-     "title": "Google Search Ranking Volatility Spikes On August 12-13",
-     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-13T11:51:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
-     "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
-     "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI report does not show clicks) starting around August 12th and 13th. This seems like a bug because the drop seems to be super widespread.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-17T17:37:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "Google: výkyvy v rankings a propad dat v Search Console od 12. srpna",
-   "updated": "2026-08-17T19:11:06.447024+00:00",
-   "what": "Kolem 12.–13. srpna 2024 nástroje zaznamenaly výrazný nárůst pohybů v organických výsledcích vyhledávání Google. Současně Search Console u řady webů ukazuje náhlý propad impresí a kliknutí od stejného data – jak v klasických výsledcích, tak v reportech pro AI funkce (tam pouze imprese). Podle diskuzí je takto razantní a plošný pokles dat pravděpodobně chyba v reportingu Google Search Console, nikoli skutečný propad návštěvnosti.",
-   "why": "Pokud jde o chybu v reportech, vaše reálná návštěvnost z vyhledávání pravděpodobně neklesla. Ale současný spike ve volatilitě rankingu může znamenat, že Google provádí algoritmickou změnu (i bez oficiálního oznámení), která může ovlivnit pozice konkrétních stránek nebo celého webu.",
-   "takeaway": "Porovnejte data z Google Search Console s reálnou návštěvností v Google Analytics 4 nebo jiném nástroji – pokud GA4 propad nepotvrdí, jde jen o chybu reportu a není třeba okamžitě reagovat. Sledujte, zda se pozice vašich klíčových stránek v nejbližších dnech stabilizují, nebo se naopak trvale změní; při trvalém poklesu konzultujte s SEO specialistou příčinu.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/d82507bc2d.jpg",
    "image_from": "seroundtable.com"
   },
   {
