@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-24T05:10:46.464241+00:00",
+ "last_run": "2026-08-24T07:35:57.763586+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 4
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f93ee417860>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f3739962000>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,14 +70,14 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -88,13 +88,13 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -262,14 +262,14 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "chyba: empty feed (HTTP 404, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
    "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 5
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
    "new": 0
   },
   {
@@ -1775,9 +1775,63 @@
   "https://www.socialmediatoday.com/news/instagram-stresses-the-importance-of-captions/828554": "2026-08-24T05:10:46.464241+00:00",
   "https://www.socialmediatoday.com/news/will-meta-be-found-guilty-of-driving-social-media-addiction/828553": "2026-08-24T05:10:46.464241+00:00",
   "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552": "2026-08-24T05:10:46.464241+00:00",
-  "https://www.socialmediatoday.com/news/youtube-expands-channels-experiment/828551": "2026-08-24T05:10:46.464241+00:00"
+  "https://www.socialmediatoday.com/news/youtube-expands-channels-experiment/828551": "2026-08-24T05:10:46.464241+00:00",
+  "https://www.mediaguru.cz/policie-modrava-je-s-temer-milionem-nedelnim-poradem": "2026-08-24T07:35:57.763586+00:00",
+  "https://blog.seznam.cz/2026/08/analyza-kupi-cz-ukazuje-na-vyrazny-pokles-akcnich-cen-vajec-velikost-m-v-baleni-10-kusu-se-da-v-posledni-dobe-poridit-o-tretinu-levneji": "2026-08-24T07:35:57.763586+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/event-section-added-promotions-merchant-center": "2026-08-24T07:35:57.763586+00:00",
+  "https://www.mediaguru.cz/firmy-omezuji-pocet-agentur-marketing-chteji-vice-integrovat": "2026-08-24T07:35:57.763586+00:00",
+  "https://www.mediaguru.cz/televizni-podzim-se-rozjizdi-novinky-prijdou-od-tohoto-tydne": "2026-08-24T07:35:57.763586+00:00",
+  "https://www.mediaguru.cz/interaktivni-storytelling-propojuje-knihy-hry-i-umelou-inteligenci": "2026-08-24T07:35:57.763586+00:00"
  },
  "events": [
+  {
+   "id": "1a0ec426c9",
+   "created": "2026-08-24T06:28:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/event-section-added-promotions-merchant-center",
+     "title": "Event Section Added to Promotions in Merchant Center",
+     "summary": "A new Event section has been introduced in the Promotions section of Google Merchant Center . This functionality allows advertisers to create promotions for sales events such as discounts or special occasions. Advertisers can also add images related to the event. During setup, users can: Add a dedicated event URL . Upload up to three promotional images . Assign promotions to specific product categories . These events can be displayed in Google search results and product listings without being tied to a specific product, while product categories can be added to ensure the event appears for rele",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T06:28:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Merchant Center: nová sekce Event pro propagaci akcí bez vazby na produkt",
+   "updated": "2026-08-24T07:35:57.763586+00:00",
+   "what": "Google přidal do Merchant Center novou sekci Event v rámci Promotions. Umožňuje vytvářet propagace pro slevové akce nebo speciální události, které se mohou zobrazovat ve vyhledávání a produktových výpisech bez vazby na konkrétní produkt. Při nastavení lze přidat dedikovanou URL, nahrát až tři obrázky a přiřadit propagaci k produktovým kategoriím.",
+   "why": "Jde o nový formát propagace v Google nákupech, který rozšiřuje možnosti, jak upozorňovat na slevové akce nebo eventy mimo klasické produktové reklamy. Pro e-shopy v ČR to znamená další prostor pro visibility při sezonních akcích nebo kampaních.",
+   "takeaway": "Pokud využíváte Google Merchant Center a nákupní kampaně, zkontrolujte v sekci Promotions novou funkci Event. Zvažte její použití pro sezónní akce (Black Friday, Vánoce apod.) – můžete získat viditelnost i mimo konkrétní produkty a podpořit brandovou komunikaci akce.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "b1a4edfdbf",
+   "created": "2026-08-24T05:20:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/firmy-omezuji-pocet-agentur-marketing-chteji-vice-integrovat",
+     "title": "Firmy omezují počet agentur. Marketing chtějí více integrovat",
+     "summary": "Marketingoví ředitelé častěji hledají způsoby, jak zjednodušit spolupráci s agenturami a propojit jednotlivé marketingové disciplíny. Podle průzkumu Gartner CMO Spend Survey plánuje 39 % z nich zúžit portfolio agentur a soustředit více aktivit u partnerů, kteří dokážou pokrýt širší část marketingu.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-24T05:20:00+00:00",
+     "score": 54
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Firmy zužují portfolio agentur, chtějí integrovanější marketing",
+   "updated": "2026-08-24T07:35:57.763586+00:00",
+   "what": "Podle průzkumu Gartner CMO Spend Survey plánuje 39 % marketingových ředitelů omezit počet spolupracujících agentur. Preferují partnery, kteří dokážou pokrýt širší spektrum marketingových disciplín místo úzké specializace.",
+   "why": "Jde o trend směrem k integrovanější spolupráci a zjednodušení řízení. Pro marketingové manažery to znamená tlak na konsolidaci dodavatelů a hledání partnerů s komplexnějšími službami.",
+   "takeaway": "Pokud spolupracujete s více menšími specialisty, zvažte, zda je nekonsolidovat, nebo hledejte agentury s širším pokrytím služeb. Může to zjednodušit koordinaci a snížit režii.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "d82507bc2d",
    "created": "2026-08-14T09:18:56.681311+00:00",
