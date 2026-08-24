@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-24T17:02:05.227737+00:00",
+ "last_run": "2026-08-24T19:09:35.392854+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fed2e88d4c0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f336be901d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 7
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -119,7 +119,7 @@
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Semrush blog",
@@ -130,7 +130,7 @@
   {
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
-   "status": "ok",
+   "status": "chyba: empty feed (HTTP 404, text/html)",
    "new": 0
   },
   {
@@ -179,13 +179,13 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -1855,294 +1855,402 @@
   "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuVXhsZ1FwOGNQZlJRS3psSDUyMkxUSEJqVlZvR0Q5bG90ZmdDLWdfR0NfLTRpWXJXNEJvZUFtSHRLVS1DSEV0N2I4MzZXOVY0ZGhZdVBrZkhUWUVrb3c?oc=5": "2026-08-24T17:02:05.227737+00:00",
   "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyQ2NVRG9EcHA5RzhtMzRLd01tY2NqOXpIdjZSOTJjbF8tMXFRWlEtbzZ3ZENVcEpPdE16Z3AwQ292TVhseklNR0JwUlVEUGdrekZfMy10MktVa2ttYmJSdm85dTNtc0FBS0UxcWRqZ201S1I2?oc=5": "2026-08-24T17:02:05.227737+00:00",
   "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41WXlYUFhYNHFSY29sVUdLZ1o2UEszemY2Zl9ZVmhoZVgwTjV1eWRKOVlqR1lKQUs4Q1N4ZkgzRGI5azY5eDJodmRUb1F1Mmhwb1RkQldIcw?oc=5": "2026-08-24T17:02:05.227737+00:00",
-  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Jcl91RERjVWx1Y0xEZk5odm5YSUhQcVVjeUtfWnUxUlRUZnM3UGZ0c29FXzdPd0JZUnVsNEtNWnZwOGp4SGN4cTBVRFBjYnhRR1E?oc=5": "2026-08-24T17:02:05.227737+00:00"
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Jcl91RERjVWx1Y0xEZk5odm5YSUhQcVVjeUtfWnUxUlRUZnM3UGZ0c29FXzdPd0JZUnVsNEtNWnZwOGp4SGN4cTBVRFBjYnhRR1E?oc=5": "2026-08-24T17:02:05.227737+00:00",
+  "https://www.searchenginejournal.com/1-in-10-webpages-shows-signs-of-ai-authorship-pew-reports/586883": "2026-08-24T19:09:35.392854+00:00",
+  "https://www.lupa.cz/aktuality/youtube-meni-vypocet-zhlednuti-cisla-porostou-rychleji": "2026-08-24T19:09:35.392854+00:00",
+  "https://www.marketingbrew.com/stories/coworking-with-monica-tailor": "2026-08-24T19:09:35.392854+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3VjaDlLZmw2MldVcm42bzZVcm10MW9PQ2xfRU1ya05JV1RQbzd2RlpSRWExSmFUNHZjN0N5dXN0UzRVSzZCYlN3bDRsampxRUZfR1Vsa3VzTzZmU281OE94NERGT0V5a19tZXZnM2NrNVhLU3o3RW9sdjFpb0g3MGRwQzRsQ2FvWnVaVmM1V29oc0k?oc=5": "2026-08-24T19:09:35.392854+00:00",
+  "https://www.seroundtable.com/recap-08-24-2026-41933.html": "2026-08-24T19:09:35.392854+00:00",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWXlwWWxZRlhSa1FXeHA2QW1ta2F2Nld3akxDV1BRYm4tVm83Ymo1dURoSW44YVJFcWlsZ21FVkZhSzFXMGkxRFZ4S0xuZkpTeTBZaVoyZGE1a2x5b3RLa0p2VlhWUUxEMmRUYTNkSWl6MzNVNW5kVGxsMnZTWElpTkJzQVI0TElGNUdZR3YxTm1hbUM1?oc=5": "2026-08-24T19:09:35.392854+00:00",
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLU9QTlVsTnY5aGdUdU1GTHFwVThVb1czZzBXNTlvMEFVS2NKcTZiek5ydktLU0JjUlVLT0E3VTd1T0t3OHpvZFQxT3RjdXlfbjRTSURHR0stbGxMdmdta0NlVHJOZUpIYklvNk55eUtyOXYybW9wWElYZGRjVlVNRmFWYUMxQXVFb1dkZHNhS1M1dw?oc=5": "2026-08-24T19:09:35.392854+00:00"
  },
  "events": [
   {
-   "id": "915147f998",
-   "created": "2026-08-17T14:00:00+00:00",
+   "id": "9079e3a0ff",
+   "created": "2026-07-23T07:00:00+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5",
-     "title": "The AI visibility index: Which brands are vanishing from AI search?",
-     "summary": "The AI visibility index: Which brands are vanishing from AI search? &nbsp;&nbsp; Search Engine Land",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhTHVqSnBhWnhIWW1QR2VKYnh1OF9sMGVWa2o4WGdPaDBGNmdhWEdlbVhEdWRBdEFLVDZhTVRtNDdzY2FJUVRiQVVYakJPX09teGVPbDg5RHhsUTVVR2xLWGVR?oc=5",
+     "title": "ChatGPT gains access to Yelp reviews, ratings, and photos",
+     "summary": "ChatGPT gains access to Yelp reviews, ratings, and photos &nbsp;&nbsp; Search Engine Land",
      "source": "Search Engine Land",
      "domain": "searchengineland.com",
-     "published": "2026-08-17T14:00:00+00:00",
-     "score": 73
+     "published": "2026-07-23T07:00:00+00:00",
+     "score": 68
     },
     {
-     "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing",
-     "title": "AI visibility index shows which brands are disappearing",
-     "summary": "Some brands dominate Google yet barely surface in AI answers. Here’s where traditional authority and AI recall diverge. The post AI visibility index shows which brands are disappearing appeared first on MarTech .",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRGUtay1TOWFZcUlfZThveXZDY29IQjhGckpXS01iLWVIWUJXWkp2c09hUGVoMzdOMHBINEJ6SDVTSlFyM1RyN2ZyQnBoaG5POUlicGJkU0VwY1ozR2dkVkY3LTBwNmc1SVBaQnN0NmplRlFlbXc?oc=5",
+     "title": "Yelp brings reviews and local leads to ChatGPT",
+     "summary": "Yelp brings reviews and local leads to ChatGPT &nbsp;&nbsp; MarTech",
      "source": "MarTech",
      "domain": "martech.org",
-     "published": "2026-08-18T13:48:51+00:00",
-     "score": 64
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "AI visibility index: Které značky mizí z AI vyhledávání",
-   "updated": "2026-08-24T17:04:46.838172+00:00",
-   "what": "Byl představen AI visibility index, který ukazuje, že některé značky dominující tradičnímu Google vyhledávání se téměř neobjevují v odpovědích AI vyhledávačů (ChatGPT, Perplexity apod.). Tradiční autorita ve výsledcích vyhledávání a viditelnost v AI odpovědích se zásadně rozcházejí.",
-   "why": "Pro marketéry to znamená, že SEO optimalizace pro klasické vyhledávání už nemusí zajistit viditelnost v rychle rostoucím AI vyhledávání. Firmy, které investovaly do vysokých pozic v Google, mohou být v AI odpovědích prakticky neviditelné, což může ovlivnit návštěvnost a brand awareness, jak AI vyhledávání získává na významu.",
-   "takeaway": "Sledujte, zda se vaše značka a konkurence objevuje v odpovědích AI vyhledávačů. Pravděpodobně bude potřeba upravit obsahovou strategii, aby byla viditelná nejen pro klasické vyhledávače, ale i pro AI modely, které fungují na jiných principech než tradiční SEO.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/1d6ee74a75.jpg",
-   "image_from": "martech.org"
-  },
-  {
-   "id": "82d24b1130",
-   "created": "2026-08-18T14:26:59+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/ai-search-myths-debunked-ahrefs-spa/584393",
-     "title": "9 AI Search Myths, Debunked by 15 Million Data Points via @sejournal, @ahrefs",
-     "summary": "Unveil the truth about AI search with interesting findings from 15 million data points. Learn what really influences rankings. The post 9 AI Search Myths, Debunked by 15 Million Data Points appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T14:26:59+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.searchenginejournal.com/why-search-volume-is-screening-out-your-best-content-opportunities/585048",
-     "title": "Why Search Volume Is Screening Out Your Best Content Opportunities",
-     "summary": "AI assistants turn contextual prompts into multiple queries, making buyer decisions and sub-questions more valuable content targets than raw keyword volume. The post Why Search Volume Is Screening Out Your Best Content Opportunities appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T14:30:48+00:00",
+     "published": "2026-07-28T07:00:00+00:00",
      "score": 57
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "Studie Ahrefs: AI vyhledávání mění pravidla pro výběr klíčových slov",
-   "updated": "2026-08-24T17:04:35.261396+00:00",
-   "what": "Ahrefs analyzoval 15 milionů datových bodů týkajících se AI vyhledávání a vyvrátil 9 rozšířených mýtů. Paralelně vyšla analýza, že AI asistenti transformují kontextové dotazy do více konkrétních vyhledávání, což mění hodnotu obsahu – důležitější jsou nyní dílčí otázky a nákupní rozhodování než klasický objem vyhledávání klíčových slov.",
-   "why": "Postupný nárůst AI vyhledávání (ChatGPT, Perplexity, Google AI Overview) mění, jaký obsah se zobrazuje a jak lidé hledají. Tradiční metriky jako search volume mohou nově skrývat cenné příležitosti, protože AI rozděluje jeden dotaz na několik dotazů a upřednostňuje kontext před přesnou shodou.",
-   "takeaway": "Nespoléhejte se jen na high-volume klíčová slova. Identifikujte konkrétní nákupní dílčí otázky a rozhodovací momenty vaší cílové skupiny – ty mohou mít nízké tradiční objemy, ale vysokou hodnotu v AI vyhledávání. Sledujte, jak se vaše kategorie objevuje v AI odpovědích (ChatGPT, Perplexity).",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/82d24b1130.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "a45a356494",
-   "created": "2026-08-17T12:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTFLekQ2eWI1blQzWFg2TjF2SF91UlNWczk2ZExqS3dHa0lpTTJLeEhlcERsWGRoVmZlbDh6bmZ3MTlzMWxfTEtRLTNNM3ZyT1BpT0dRTEtaYlRxUlNJbXpfRENfNUE1SDNtODQ5NnhRa3VEUFRWT2NfX2NtVkN0Y3YxMA?oc=5",
-     "title": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads",
-     "summary": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-17T12:00:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.searchenginejournal.com/llms-txt-v2-formal-markdown-linking-ai-agents/586119",
-     "title": "Llms.txt V2 Adds Formal Markdown Linking For AI Agents via @sejournal, @MattGSouthern",
-     "summary": "A v2 update to the llms.txt spec has shipped, adding formal link relations that help AI agents locate Markdown versions of pages. The post Llms.txt V2 Adds Formal Markdown Linking For AI Agents appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-17T16:06:23+00:00",
-     "score": 47
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Llms.txt v2 přináší formální označení Markdown verzí stránek pro AI agenty",
-   "updated": "2026-08-24T17:04:15.643202+00:00",
-   "what": "Specifikace llms.txt dostal aktualizaci na verzi 2, která přidává formální link relations pro označení Markdown verzí stránek. To AI agentům (jako ChatGPT) usnadňuje najít a číst obsah webu v čitelném formátu. Search Engine Land současně publikoval podrobný pohled do zákulisí retrievalového stacku ChatGPT – jak indexuje, cachuje a čte webové stránky.",
-   "why": "Pro SEO specialisty a contentové manažery je to praktická příležitost optimalizovat web pro AI nástroje. Pokud AI agenti lépe najdou a zpracují váš obsah, může to ovlivnit viditelnost v AI-poháněných odpovědích a nástrojích. Llms.txt je relativně nový standard, ale jeho adopce roste mezi weby, které chtějí být připravené na AI-driven vyhledávání.",
-   "takeaway": "Zvažte implementaci llms.txt v2 na vašem webu, zejména pokud produkujete hodnotný obsah, který by mohly AI nástroje citovat. Připravte Markdown verze klíčových stránek a správně je prolinkujte. Sledujte vývoj standardu a jeho adopci – může to být konkurenční výhoda v AI éře vyhledávání.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "46afea07e0",
-   "created": "2026-08-14T13:52:37.472906+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html",
-     "title": "Google AI Overviews With AI-Generated Images In The Wild",
-     "summary": "A month ago, we reported that Google said it would be rolling out AI-generated images within AI Overviews in Google Search. Well, it seems Google is starting to roll out those AI-generated images in AI Overviews this week.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T11:41:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFFUbHFyRndaWWN5cjNkbUsyNmFCSlVkdTc0LXZXRWRqemxiQXUzSzlvcHQ5OERRR2V1aDNlZll5WVJnRlozbnlfdjNyQWx5d3FpVlFHc29tX1FSRVlESFBGd21kaHJVckZFX0lEYmZrMzhYYktVMHl4TGNZSlVZXzVvTElKNGZkcldlNWF3MUxwbFVVcDc5Z2FRSjc?oc=5",
-     "title": "Google Search pauses AI-generated images within AI Overviews",
-     "summary": "Google Search pauses AI-generated images within AI Overviews &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-17T16:55:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6UkxTNURISThoM2FubW45RTZSbEcyQ2lYRVdueENvSmF6dE1OaVd2WTBVNGF6eURmTzdrM0t2VmpmdjVFTTVfNnNGbjYybGpVRmh3VWptd0NmZm9CMTFZWDlkbVRsQ2ZwaDIwZVFWVlZ6LTEwTkJpdEFPMHZOQQ?oc=5",
-     "title": "What 9 months of AI Overview data and 51,000+ tracked events reveal",
-     "summary": "What 9 months of AI Overview data and 51,000+ tracked events reveal &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-18T15:00:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google pozastavil AI-generované obrázky v AI Overview",
-   "updated": "2026-08-24T17:04:07.420933+00:00",
-   "what": "Google začal tento týden zobrazovat AI-generované obrázky přímo v AI Overviews ve vyhledávání, ale tuto funkci krátce poté pozastavil. Podle Search Engine Roundtable se funkce měla začít rolovat, než došlo k jejímu přerušení.",
-   "why": "AI Overviews stále více ovlivňují viditelnost webu ve výsledcích vyhledávání. Pokud by Google začal generovat obrázky sám místo zobrazení obrázků z webů, mohlo by to dále snížit prokliky na weby a změnit SEO strategii pro vizuální obsah.",
-   "takeaway": "Sledujte vývoj této funkce – pokud se AI-generované obrázky v AI Overviews vrátí, může to výrazně ovlivnit hodnotu vlastních obrázků na webu a CTR z vyhledávání. Zatím nemění praxi, ale je dobré být připraven.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/46afea07e0.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "3e52806424",
-   "created": "2026-08-17T17:00:44+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-lets-you-turn-off-visible-watermarks-in-gemini/586145",
-     "title": "Google Lets You Turn Off Visible Watermarks In Gemini via @sejournal, @MattGSouthern",
-     "summary": "Google Gemini allows users to disable the visible watermark on AI-generated images, videos, and music, while SynthID and C2PA marks stay embedded. The post Google Lets You Turn Off Visible Watermarks In Gemini appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-17T17:00:44+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/iab-ai-use-transparency-disclosure-framework",
-     "title": "IAB updates AI disclosure recommendations as legislation evolves",
-     "summary": "The advertising trade group is recommending targeted disclosure for uses including AI-generated images and videos, as opposed to universal labeling, Caroline Giegerich, VP of AI at the IAB, told us.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-08-18T18:10:11+00:00",
-     "score": 47
     }
    ],
    "category": "ai",
    "importance": 45,
-   "title": "Google Gemini umožňuje skrýt viditelný watermark u AI obsahu",
-   "updated": "2026-08-24T17:03:55.743859+00:00",
-   "what": "Google Gemini nyní umožňuje uživatelům vypnout viditelný watermark u AI-generovaných obrázků, videí a hudby. Skryté značky SynthID a C2PA zůstávají v obsahu vložené i po vypnutí viditelného označení. Paralelně IAB aktualizoval doporučení pro označování AI obsahu – místo univerzálního značení doporučuje cílené označení jen u vybraných použití, jako jsou AI-generované obrázky a videa.",
-   "why": "Pro marketéry pracující s AI-generovaným obsahem se mění možnosti a pravidla označování. Viditelné watermarky mohou ovlivnit vnímání značky a profesionalitu kreativy, zatímco skryté značky zůstávají pro účely transparentnosti a dodržení právních požadavků. Aktualizované IAB doporučení naznačují, že se standardy pro disclosure AI obsahu v reklamě vyvíjejí směrem k selektivnějšímu přístupu.",
-   "takeaway": "Pokud používáte AI nástroje pro tvorbu obsahu v kampaních, sledujte vývoj standardů označování – ne vždy bude nutné vše viditelně označovat. Zároveň si ověřte, zda vaše nástroje podporují technické značení (jako SynthID) pro případné právní požadavky nebo změny regulace v EU.",
+   "title": "ChatGPT získává přístup k recenzím a fotkám z Yelpu",
+   "updated": "2026-08-24T19:12:05.357120+00:00",
+   "what": "ChatGPT nyní umí zpřístupnit recenze, hodnocení a fotografie z Yelpu. Uživatelé mohou přímo v konverzaci s ChatGPT získat doporučení na místní služby a podniky na základě dat z Yelpu.",
+   "why": "Jde o propojení AI asistenta s databází lokálních recenzí, které může změnit způsob, jak lidé hledají místní služby. Pro firmy registrované na Yelpu (zejména restaurace, služby) to znamená nový kanál viditelnosti a potenciálně nový zdroj návštěvnosti.",
+   "takeaway": "Sledujte, zda a jak rychle se tato integrace rozšíří do Evropy a zda podobné kroky udělají konkurenční platformy (Google Maps, Firmy.cz). Pro firmy s profilem na Yelpu je teď důležitější než dřív udržovat kvalitní recenze a aktuální fotografie.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
   {
-   "id": "a10f53a646",
-   "created": "2026-08-17T20:10:31+00:00",
+   "id": "18516af0c2",
+   "created": "2026-07-24T07:55:42+00:00",
    "articles": [
     {
-     "url": "https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166",
-     "title": "YouTube Changes How It Counts Views On Long-Form & Live via @sejournal, @MattGSouthern",
-     "summary": "YouTube is changing how it counts views on long-form videos and live streams. The post YouTube Changes How It Counts Views On Long-Form &#038; Live appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-17T20:10:31+00:00",
-     "score": 47
+     "url": "https://ahrefs.com/blog/ai-search-strategy",
+     "title": "AI Search Strategy: 4 Pillars to Show Up More (and Right) in AI Answers",
+     "summary": "Before someone ever lands on your website, an AI assistant may have already explained what your product does, compared it with competitors, and helped them decide whether you’re worth considering. By the time someone clicks through to your site after &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-07-24T07:55:42+00:00",
+     "score": 70
     },
     {
-     "url": "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093",
-     "title": "YouTube is changing how it counts views",
-     "summary": "The platform said that all formats will soon align with Shorts methodology and measure views the moment a video starts playing.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T21:14:08+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediaexaminer.com/new-ways-to-expand-reach-and-engagement-on-instagram",
-     "title": "New Ways to Expand Reach and Engagement on Instagram",
-     "summary": "Wondering how to get more eyes on your Instagram carousels and posts without creating extra content? Curious which of Instagram's latest features can help small businesses reach new audiences?​ In this article, you'll discover how to use Instagram's newest updates, including the TV app, AI-powered story effects, audio swapping, and adding music to carousels for [&#8230;] The post New Ways to Expand Reach and Engagement on Instagram appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-08-20T10:00:00+00:00",
-     "score": 45
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "YouTube mění způsob počítání zhlédnutí u dlouhých videí a livestreamů",
-   "updated": "2026-08-24T17:03:39.258570+00:00",
-   "what": "YouTube sjednocuje metodiku měření zhlédnutí napříč formáty. U dlouhých videí a živých přenosů začne platforma počítat view od okamžiku spuštění přehrávání, stejně jako u Shorts. Dosud YouTube používal pro různé formáty odlišné způsoby počítání.",
-   "why": "Změna ovlivní metriky všech kanálů na YouTube – zhlédnutí porostou rychleji, ale zároveň budou méně vypovídat o skutečné angažovanosti. Pro marketéry to znamená nutnost revidovat způsob, jakým vyhodnocují úspěšnost video kampaní a organického obsahu.",
-   "takeaway": "Zkontrolujte nastavení reportingu YouTube kampaní a organického výkonu – čísla zhlédnutí po změně nebudou srovnatelná s historickými daty. Zaměřte se více na metriky skutečné angažovanosti (průměrná doba sledování, procento doshlédnutí, interakce).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/2006a67fab.jpg",
-   "image_from": "socialmediatoday.com"
-  },
-  {
-   "id": "5e7e9ec73c",
-   "created": "2026-08-14T11:26:06.848601+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnZJYndldGl2c0V1c3RuRUkwNTU4WlJpY1BoeVRjZ01LamVxUVhhbWFQUWZtYXpicy1UWGRIdzc4QjlvZDE2UVJDbW44SUFiaTk0ZVZjb2xJNVFHSG9tRS0xVlBwaGt2X2FrdEJrQUFzcVdSUTZlaFJDY0tlZmdWTkJhZHI3QzVsRHk3Y29nelBzUTV4Z3c?oc=5",
-     "title": "Microsoft Clarity AI Scrape-to-Referral insights report",
-     "summary": "Microsoft Clarity AI Scrape-to-Referral insights report &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-13T17:42:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral",
-     "title": "Microsoft Clarity adds an AI Scrape-to-Referral Ratio",
-     "summary": "Microsoft Clarity‘s AI Scrape-to-Referral Ratio compares what AI crawlers take from your site with what they send back.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-19T08:22:00+00:00",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGx6QUNvT1hLcFFWWFlWOVBvdm9UYkhGVVV5MkxLZzJoRGNuZkltVmZyN05ib205Y2hTalcxWkExQ09aSzFoRFlCejZpYVdOUGJSTGUyRVpxSHA3MjdzbVI1eWtUY2sxQXpwc1UxOXF3MGZfLWFYSXRlNHMwcnNXckNHTkI?oc=5",
+     "title": "New in AI Check: How AI systems perceive your brand and when they recommend it",
+     "summary": "New in AI Check: How AI systems perceive your brand and when they recommend it &nbsp;&nbsp; SISTRIX",
+     "source": "Sistrix blog",
+     "domain": "sistrix.com",
+     "published": "2026-07-30T07:00:00+00:00",
      "score": 60
     },
     {
-     "url": "https://www.seroundtable.com/google-tag-and-google-tag-manager-updated-41918.html",
-     "title": "Google Tag & Google Tag Manager Updated",
-     "summary": "Google updated the Google Tag and Google Tag Manager. Google said, \"these changes are designed to streamline your measurement setup, improve performance and management, and provide a more unified experience across Google's tagging products.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T11:05:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-unifies-tag-tag-manager-measurement-tools",
-     "title": "Google Unifies Tag and Tag Manager Measurement Tools",
-     "summary": "Google has rolled out updates across its tagging tools to simplify the process of measuring website performance for advertisers .&nbsp; The changes are designed to consolidate measurement settings, allowing advertisers to manage both Google Ads and Google Analytics in one place through the integration of Google Tag and Tag Manager . Key updates include: Consolidated tagging tools: Centralize measurement settings for easier management. Improved performance: Streamlined data transmission may result in faster website speed. No-code event tracking: Automated setup allows users to navigate through ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-24T02:11:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaEJKc3V5M0I5X284RHlkd2dvMFVVUTFhTjFIRjhtd1FUV1VsOUlDRGZ5bEk0eEpTSVJ0T0ZCTm1VTEtFanc5QkdHQnkyUmlVdXNSZmFMOVRCRVhIT2VjYjVRbUVxaDZGWGFIdjlZejRTTWVvT2hockZBNGZnYThZemRUdGdLNUZBeEdJam9zeFFCYzhmU1FWT29WV1dRUF9lRWE0XzNEVGk?oc=5",
-     "title": "Google unifies Google tag and Tag Manager, adds no-code event tracking",
-     "summary": "Google unifies Google tag and Tag Manager, adds no-code event tracking &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-24T14:15:00+00:00",
-     "score": 71
+     "url": "https://www.searchenginejournal.com/decision-coverage-why-ai-recommends-some-brands-and-not-others/583028",
+     "title": "Decision Coverage: Why AI Recommends Some Brands And Not Others via @sejournal, @billhunt",
+     "summary": "AI doesn't recommend products, it recommends decisions. A SaaS case study shows why missing evidence, not weak authority, causes exclusion from AI recommendations. The post Decision Coverage: Why AI Recommends Some Brands And Not Others appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T19:00:10+00:00",
+     "score": 52
     }
    ],
-   "category": "analytika",
-   "importance": 75,
-   "title": "Google sjednocuje Tag a Tag Manager, přidává sledování událostí bez kódu",
-   "updated": "2026-08-24T17:03:30.296259+00:00",
-   "what": "Google aktualizoval Google Tag a Google Tag Manager s cílem zjednodušit měření výkonu webu. Hlavní změny zahrnují: konsolidaci nastavení měření pro Google Ads i Analytics na jednom místě, zlepšení výkonu díky optimalizaci přenosu dat a nové automatické sledování událostí bez nutnosti psát kód.",
-   "why": "Změny přímo zasahují do každodenní práce s měřením a mohou urychlit a zjednodušit nastavení i správu konverzí a analytických dat. Propojení obou nástrojů může také zkrátit načítací dobu webu, což ovlivňuje SEO i uživatelskou zkušenost.",
-   "takeaway": "Zkontrolujte aktuální nastavení Google Tag a Tag Manageru – díky konsolidaci měření můžete zjednodušit správu, snížit počet tagů a případně zrychlit web. Využijte nové sledování událostí bez kódu, pokud dosud řešíte tracking ručně přes vývojáře.",
+   "category": "seo",
+   "importance": 68,
+   "title": "Ahrefs radí: 4 pilíře strategie pro zobrazování v AI odpovědích",
+   "updated": "2026-08-24T19:11:51.268799+00:00",
+   "what": "Ahrefs publikoval strategii, jak se firmy mohou dostat do odpovědí AI asistentů (ChatGPT, Perplexity, Google AI Overview). Zdůrazňuje, že AI nástroje dnes často odpovídají na dotazy uživatelů dříve, než se uživatel dostane na web – porovnají produkty, vysvětlí funkce a ovlivní rozhodnutí.",
+   "why": "AI vyhledávání roste a mění způsob, jak lidé hledají informace před nákupem. Pokud vaše značka nebo produkt v AI odpovědích chybí, můžete přijít o potenciální zákazníky ještě před tím, než vás vůbec navštíví. Pro marketingové manažery jde o nový kanál viditelnosti, který doplňuje SEO.",
+   "takeaway": "Sledujte, jak AI nástroje odpovídají na dotazy relevantní pro vaše produkty. Upravte obsah na webu tak, aby byl pro AI snadno zpracovatelný (strukturovaná data, jasné odpovědi na časté otázky). Ahrefs nabízí metodiku ve 4 pilířích – doporučuji nastudovat a zvážit v dlouhodobé content strategii.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/5e7e9ec73c.jpg",
-   "image_from": "news.google.com"
+   "image": "img/4eb0ecd150.jpg",
+   "image_from": "sistrix.com"
+  },
+  {
+   "id": "b967e8dc67",
+   "created": "2026-07-24T11:03:53+00:00",
+   "articles": [
+    {
+     "url": "https://ahrefs.com/blog/ai-search-trends",
+     "title": "5 AI Search Trends I’m Seeing in 2026, Backed by Ahrefs Data",
+     "summary": "Every week brings a new acronym, a new era, a new thing you are supposedly already too late for. Some of it changes how we work, but a lot of it is—let’s be honest—noise. Well, fear not. I’ve curated some &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-07-24T11:03:53+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://ahrefs.com/blog/google-doesnt-punish-ai-content",
+     "title": "Google Doesn’t Punish AI Content; It Punishes Bad Content (331k Pages Studied)",
+     "summary": "On the one hand, Google says they don’t care whether AI is used for content creation, as long as the content isn’t designed “with the primary purpose of manipulating ranking in search results.” On the other hand, people like Lily &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-07-27T08:00:13+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google netrestá AI obsah, ale špatnou kvalitu, ukazuje studie 331 tis. stránek",
+   "updated": "2026-08-24T19:11:39.507756+00:00",
+   "what": "Ahrefs analyzoval 331 tisíc stránek a potvrdil, že Google nepostihuje obsah vytvořený pomocí AI, ale penalizuje nekvalitní obsah – tedy takový, který je primárně určen k manipulaci s pořadím ve výsledcích vyhledávání. Google opakovaně zdůrazňuje, že mu nezáleží na tom, zda je obsah vytvořen AI, pokud neslouží ke škodlivé manipulaci s rankingem.",
+   "why": "Pro marketingové manažery a SEO specialisty je klíčové vědět, že použití AI nástrojů k tvorbě obsahu samo o sobě není riziko – rozhodující je kvalita a účel obsahu. Tato studie přináší datovou oporu pro rozhodování o využití AI ve content strategii.",
+   "takeaway": "Můžete bezpečně využívat AI nástroje pro tvorbu obsahu, ale soustřeďte se na jeho kvalitu, relevanci a hodnotu pro uživatele. Vyhněte se obsahu vytvořenému jen pro manipulaci s výsledky vyhledávání. Kontrolujte, že AI výstupy přinášejí skutečnou hodnotu a nejsou jen naplněním klíčových slov.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/b967e8dc67.jpg",
+   "image_from": "ahrefs.com"
+  },
+  {
+   "id": "baa41eecdd",
+   "created": "2026-08-18T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wcnpwdl9DY09jcmVDZkZoYmdaOURFdFVHQmp2UGJUNldJU3RRNlgwem1nSElnNEVXNWtzUTQ2ZGRVei1fZ2ZwTTlFRjYwWnRzZG1YaldvaUVJMERyZDJvWENTZW40bGVm?oc=5",
+     "title": "Local 5.0: The next evolution of local SEO is here",
+     "summary": "Local 5.0: The next evolution of local SEO is here &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T12:00:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/what-we-can-learn-from-evolving-chatgpt-fan-out-queries/586254",
+     "title": "What We Can Learn From Evolving ChatGPT Fan-Out Queries via @sejournal, @lilyraynyc",
+     "summary": "ChatGPT's search behavior is starting to look like E-E-A-T. Here's the data behind that theory, and what to do about it. The post What We Can Learn From Evolving ChatGPT Fan-Out Queries appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T13:01:30+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "ChatGPT mění vyhledávání – cituje zdroje podobně jako funguje E-E-A-T",
+   "updated": "2026-08-24T19:11:30.872897+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/baa41eecdd.jpg",
+   "image_from": "searchengineland.com",
+   "what": "Analýza Search Engine Journal ukazuje, že ChatGPT při vyhledávání začína citovat zdroje způsobem připomínajícím Googleho E-E-A-T princip (zkušenost, expertíza, autorita, důvěryhodnost). Vychází z dat o tzv. fan-out queries, tedy jak AI rozvíjí dotazy do širších kontextů.",
+   "why": "AI vyhledávání (ChatGPT Search, SGE) postupně nahrazuje část klasického Googlu. Pokud AI platformy preferují zdroje s prokázanou expertízou a autoritou podobně jako Google algoritmus, může to měnit pravidla pro tvorbu obsahu a SEO strategii.",
+   "takeaway": "Sledujte, jaké zdroje ChatGPT cituje ve vaší branži. Zaměřte se na budování expertního obsahu s jasně deklarovanými autory a důvěryhodnými referencemi – mělo by to fungovat jak pro Google, tak pro AI vyhledávače."
+  },
+  {
+   "id": "7949f1f96b",
+   "created": "2026-07-20T10:11:37+00:00",
+   "articles": [
+    {
+     "url": "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai",
+     "title": "AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI?",
+     "summary": "Svět vyhledávání se definitivně změnil. Klasické internetové vyhledávače doplnily AI nástroje, které stále častěji odpovídají na otázky uživatelů přímo, bez potřeby prokliknout na web. To zásadně mění způsob, jakým firmy vyhodnocují svou viditelnost ve vyhledávání. My v Taste měříme AI viditelnost pomocí vlastního nástroje AIVA. Proč se viditelnost v AI stala novou součástí SEO Dosavadní,... The post AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI? appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-07-20T10:11:37+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://blog.hubspot.com/marketing/hubspot-vs-ahrefs-aeo",
+     "title": "HubSpot AEO vs. Ahrefs Brand Radar: Features compared [2026]",
+     "summary": "As more buyers skip search entirely and go straight to ChatGPT, Gemini, or Perplexity for recommendations, marketers are realizing they need a new kind of tool — one that shows them how their brand appears in AI answers and what to do about it. That’s what both HubSpot AEO and Ahrefs Brand Radar are built for. But they take meaningfully different approaches, and the right choice depends almost entirely on what you need to do after you get the data.",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-08-06T11:00:03+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush",
+     "title": "How to find AI visibility gaps with Semrush",
+     "summary": "Find AI visibility gaps with Semrush. Spot prompts and sources where competitors get cited but you don‘t.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-07-27T09:34:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "AIVA, HubSpot AEO, Ahrefs a Semrush – nové nástroje měří viditelnost v AI",
+   "updated": "2026-08-24T19:11:19.340656+00:00",
+   "what": "Český Taste spustil vlastní nástroj AIVA pro měření viditelnosti značek v odpovědích AI (ChatGPT, Gemini, Perplexity). Obdobné funkce nedávno představily i Ahrefs (Brand Radar), HubSpot (AEO) a Semrush – všechny sledují, kdy a jak se firma objevuje v AI výstupech namísto klasických výsledků vyhledávání.",
+   "why": "Čím více lidí hledá odpovědi přímo v AI nástrojích místo v Googlu, tím méně platí tradiční SEO metriky. Firmy potřebují vědět, zda je AI doporučuje – a pokud ne, kde mají mezery oproti konkurenci. Nové nástroje to umožňují měřit a reagovat.",
+   "takeaway": "Pokud cílíte na zákazníky, kteří používají ChatGPT nebo Perplexity místo Googlu, nezůstávejte jen u klasického SEO. Zvažte pilotní testování některého z nových nástrojů (AIVA, Ahrefs Brand Radar, HubSpot AEO nebo Semrush AI visibility) – ukážou, kde vás AI nezmiňuje a kde ano konkurence. České řešení AIVA je první lokální možností.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7949f1f96b.jpg",
+   "image_from": "digichef.cz"
+  },
+  {
+   "id": "57f1740392",
+   "created": "2026-08-24T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96anFNeXlnQVVlLXpRSzJmSHlyTlh0T2NoTmpmNTVoa2FFSjQwb05IUTZBRGR6UUpQNUM3MGkxVFM2Y0xyM2NYdm9QaUl3TDJBcUYwMUd3eHRxVFlLT0p2VWZiQ3JzZlNWZWp0c3FlWVZ5RzZZa2c?oc=5",
+     "title": "AI search is here, but marketers still call it SEO",
+     "summary": "AI search is here, but marketers still call it SEO &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-24T14:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seos-are-becoming-the-tools-of-their-tools-the-ai-slop-backlash/586298",
+     "title": "SEOs Are Becoming The Tools Of Their Tools – The AI Slop Backlash via @sejournal, @gregjarboe",
+     "summary": "Platforms like Spotify and LinkedIn are cracking down on AI slop. SEOs face a choice: treat AI as a shortcut or as an editorial assistant. The post SEOs Are Becoming The Tools Of Their Tools – The AI Slop Backlash appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-24T14:30:06+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "AI search mění SEO, ale marketéři ji stále nazývají stejně",
+   "updated": "2026-08-24T19:11:08.972203+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "S nástupem AI vyhledávání (ChatGPT Search, Google AI Overviews, Perplexity) se mění způsob, jakým uživatelé hledají informace. Tradiční SEO praktiky čelí změnám, protože AI odpovídá přímo, místo aby posílala na webové stránky.",
+   "why": "Pro marketingové manažery to znamená posun v přístupu k viditelnosti online. Klasické optimalizace pro Google mohou přinášet méně přímé návštěvnosti, pokud AI odpovědi uspokojí uživatele bez kliknutí. Zároveň vzniká potřeba optimalizovat obsah tak, aby byl zdrojem pro AI modely.",
+   "takeaway": "Sledujte, jak se mění zdroje vaší organické návštěvnosti – pokud roste podíl AI vyhledávání, upravte obsahovou strategii tak, aby vaše informace sloužily jako autoritativní zdroj pro AI asistenty. Vyhodnoťte, které dotazy AI zodpoví přímo a které stále posílají návštěvnost.",
+   "image": "img/6110d4d2a8.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "e9dd8f2379",
+   "created": "2026-08-04T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnlseFNodXYyU2pRdDI3UjFwTnNTZFNEbEcxV1lpSkhNMTA4ZkpDRUI0Nm1uWHlDQjNpNTM0Z1ZvVC1rZ1pWSGJzZ0g2QUo3bHpYR25CVk1reGJRSnlISUZvQ3dnMmROTFN2WDU2WkhvM2xqZmtWRU5xYTF0aEdWdVZ0UkFvUkFuU2RZ?oc=5",
+     "title": "OpenAI ad experiment could change what happens after the click",
+     "summary": "OpenAI ad experiment could change what happens after the click &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-04T07:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SVm1zOS1TTlJTU3h4SlA2OWQ3SlhpM1k3bDlzbDg1YTVfVHMzQWtGd19TXzRTeXNYQlp1OGFLQjBWdnMyNGRFUHN2anlRSE1icVdid3BURWZZcTdMUlROZ0Y3SmhlWlYzRk1XQTU5V0Q2cHRTTktoYw?oc=5",
+     "title": "OpenAI adds technology to compete for ad dollars",
+     "summary": "OpenAI adds technology to compete for ad dollars &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-10T12:18:35+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aUGxiRFRsV21QZ20zQ0JuNTRGeHprTHA3ejcya090bWh1eXM4MUlmWWo2bHRnUWVkTlJlaS1PV2l3c1EtWjBjblNseWlGSE15TVNnV09KRk04WmN1QkZnYg?oc=5",
+     "title": "How to run ChatGPT ads: A step-by-step guide from early campaigns",
+     "summary": "How to run ChatGPT ads: A step-by-step guide from early campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T13:00:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqWkhuVUFuM0NKWVg0SDZna085MExvelgxZUlzS0I4N282VHpnVFloZkRnclpDYjlCS28xYmkxRks2a2x1dWNuczVTdnQtLUZiWDZvUmt1MVlaUS05cThmUzNVU1dHRHZyVVdIN09n?oc=5",
+     "title": "A 7-step guide to running ads on ChatGPT",
+     "summary": "A 7-step guide to running ads on ChatGPT &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-11T13:59:27+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scHQ4SG4tQ3NHdUR2VTV1eHJndHJMQWxudVN6aEN4SnNtMG9JeFo5TS1kcXVsOWJTN3VZOXhnV0lEUmxiaXNlaUxhRW01WW1zekJQVkRzb0k?oc=5",
+     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
+     "summary": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-19T15:07:36+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbkFJNk9Kb2xfbG9jMUpEMWdRNTdwYXRBNnZvN2pMT1p2dnBBUllvOHNZbmVyUFVCZVVyZmdjMHhtbDNNbTI3TmI0OU5QQ2Zxd29ZNEc3cW5TMnlmN25xME5Odlc0cWN6VjB0STdGWHlfdzdlN2ExYlczT0p3dUlDU2NDLWhITG9Hbjh5UDJNQ2ZzRnY0NGdIWElWTUZ2OFU?oc=5",
+     "title": "ChatGPT Ads rolls out oCPC campaigns, AAM and product carousels",
+     "summary": "ChatGPT Ads rolls out oCPC campaigns, AAM and product carousels &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-07T17:51:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.jonloomer.com/qvt/bid-multipliers-chatgpt-ads",
+     "title": "Bid Multipliers for ChatGPT Ads",
+     "summary": "In a somewhat surprising feature release, bid multipliers are here for ChatGPT ads. It&#8217;s not clear if all advertisers participating in the beta have access (I do). Let&#8217;s take a closer look&#8230; What Are Bid Multipliers? If you have this feature, you&#8217;ll see a new &#8220;Advanced&#8221; section in the ad group. Expand it, and you&#8217;ll... Read more &#187; The post Bid Multipliers for ChatGPT Ads appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-07-27T13:30:17+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1puSm1laUFYbUNNUlFoX25HVTNwRWFHWFo5dXpmWjdLcE5vUjIxVHFqbk80eEY3TTlLOWQwZEhMQnFwMWVKd3VGZUIxZDQ2V0FhbG4teWVSeDJDVkxjQlFjMHVoWWNGdUVBSzkxUkdVWlkzcDZUQXlQaVYxdngxNHJ3dzZvTURMVmZoMUVWVDc1UQ?oc=5",
+     "title": "Study: ChatGPT ads appear on 26% of commercial prompts",
+     "summary": "Study: ChatGPT ads appear on 26% of commercial prompts &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-10T22:21:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.mediaguru.cz/openai-zacne-zobrazovat-reklamu-v-chatgpt-take-v-kontinentalni-evrope",
+     "title": "OpenAI začne zobrazovat reklamu v ChatGPT také v kontinentální Evropě",
+     "summary": "OpenAI začne příští týden ve svém chatovacím systému ChatGPT zobrazovat reklamu rovněž v kontinentální Evropě. Zavedení reklamy by se mělo týkat i českého trhu.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-19T11:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5",
+     "title": "ChatGPT Ads are expanding to 31 European countries",
+     "summary": "ChatGPT Ads are expanding to 31 European countries &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:22:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
+     "title": "ChatGPT Ads Expanding To 31 European Countries",
+     "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-19T11:51:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai",
+     "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
+     "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Roz&#353;íření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít pří&#353;tí týden.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-19T15:21:16+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552",
+     "title": "X launches MCP server",
+     "summary": "The system allows advertisers to connect their campaigns to the artificial intelligence tool of their choice and use it to guide their promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-23T21:44:23+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://blog.shoptet.cz/chatgpt-ads-eshopy",
+     "title": "Reklamy v ChatGPT přicházejí do Evropy. Co to znamená pro e-shopy na Shoptetu?",
+     "summary": "ChatGPT se z místa, kde lidé hledají rady a porovnávají, stává&#160;novým reklamním kanálem. OpenAI 18. srpna 2026 oznámila dosud největší rozšíření svého reklamního systému a přichází s ChatGPT Ads do&#160;31 evropských zemí včetně Česka. E-shopům tak přináší nový způsob, jak se zviditelnit ve chvíli, kdy se zákazníci rozhodují o nákupu. A Shoptet připravil technické řešení, [&#8230;] Příspěvek Reklamy v ChatGPT přicházejí do Evropy. Co to znamená pro e-shopy na Shoptetu? pochází z Shoptet Blog",
+     "source": "Shoptet blog",
+     "domain": "blog.shoptet.cz",
+     "published": "2026-08-24T13:40:26+00:00",
+     "score": 82
+    },
+    {
+     "url": "https://www.jonloomer.com/chatgpt-ads-automated-bidding-placements-url-parameters",
+     "title": "ChatGPT Ads Get Automated Bidding, Placements, and URL Parameters",
+     "summary": "ChatGPT ads now include automated bidding, placement controls, and new URL parameters for third-party tracking. The post ChatGPT Ads Get Automated Bidding, Placements, and URL Parameters appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-13T11:30:13+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWt6d1JrWHphRURBOE9fQ1B5NTlJcWJ6SXpCUXFwQlJsMzRNdnRXLUluWnRSYUFkc0IxdHFXU1lXR2s3b1pCeGZfZEQ2UjdKZ3ZiMjZvS0dPUm1TNDV6N1FEZ0NYc0Jqb3pfWF9YTS1WN3hrMEVkRjIwdEFyWU5hcFFtY1BoRXJiQzdKNlliWnBRNmlmLWQwUkswdmJMRUNxdHVKeElMM0pZUQ?oc=5",
+     "title": "OpenAI appears to be building chatbot-native ads that launch AI agents",
+     "summary": "OpenAI appears to be building chatbot-native ads that launch AI agents &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-07-31T07:00:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "OpenAI spustilo reklamy v ChatGPT: nové nástroje a testovací výsledky",
+   "updated": "2026-08-24T19:10:56.962107+00:00",
+   "what": "OpenAI rozšířilo reklamní platformu ChatGPT Ads o nové funkce – optimalizované CPC kampaně (oCPC), produktové karusely a bid multipliery pro upřesnění nabídek. Studie ukazuje, že reklamy se zobrazují u 26 % komerčních dotazů.",
+   "why": "ChatGPT představuje nový reklamní kanál s potenciálně odlišnou logikou než Search nebo Social – uživatelé získávají doporučení v konverzaci, nikoliv na stránce s výsledky. Pro inzerenty to znamená nové způsoby cílení, formáty a metriky. Brzí testeři již publikují návody a zkušenosti, platforma se rychle vyvíjí.",
+   "takeaway": "Pokud zvažujete expanzi do nových kanálů (zejména s B2C nebo SaaS produkty), sledujte dostupnost ChatGPT Ads v ČR/EU a případy použití. Prozatím jde o beta v USA, ale vývoj je rychlý – připravte si strategie testování, až bude dostupné.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e9dd8f2379.jpg",
+   "image_from": "martech.org"
   },
   {
    "id": "b1d8047325",
@@ -2318,19 +2426,534 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-18T15:33:00+00:00",
      "score": 72
+    },
+    {
+     "url": "https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459",
+     "title": "Microsoft Advertising Rolls Out AI Max Globally via @sejournal, @brookeosmundson",
+     "summary": "Microsoft Advertising is rolling out AI Max globally, bringing expanded Search matching, text customization, URL expansion and new advertiser controls to Search campaigns. The post Microsoft Advertising Rolls Out AI Max Globally appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T19:41:53+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5",
+     "title": "Microsoft Advertising rolls out AI Max globally for Search campaigns",
+     "summary": "Microsoft Advertising rolls out AI Max globally for Search campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T20:46:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-41909.html",
+     "title": "Microsoft Advertising Rolling Out AI Max Globally",
+     "summary": "Microsoft Advertising is rolling out AI Max globally and to all advertisers. If you log in to your Microsoft Advertising account, you should be able to toggle on the AI Max setting for your search campaigns.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-20T11:21:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFpsYTAyLTdVTFE2UU5pTXVmUHJ0SnU1N2d0UjZMdFFtZDRsYVktam5oWmJaVjVnNkZDM2xzNlBOeDI5ZG5PdjgzODFTcnV6TFljR0thOUR4blFvMTljMzZ2UUJrX3NqWUdVNjM4aG5OYVh2VkZlSjBsaXppSVB3VFlkSmFxb3BsVFJhYkpNOFJWYmc?oc=5",
+     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
+     "summary": "AI Max Rolls Out Globally in Microsoft Advertising &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T08:17:11+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDlybzVrUzk5RkdVU2RNQkRTYjlJeUpmMm1kcC02bWJOOWg4dERDSldIT2V6dnNJaEd4OFVzQVZBQm1SLW1VLWpJcmgtRkZRWGtaNVNRQTdXb1JmemRiVmplajc0U3VrUjdxRXY1SFpRdDBtSlpjdmstREpPQjRjbktpRmVpRlg4aU1SQ25iTUVBOXNuSmJOT200ai10Q0UtOXV1NWRFZHNxaDkwdUt1NA?oc=5",
+     "title": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns",
+     "summary": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-20T16:01:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://www.searchenginejournal.com/microsoft-ads-is-removing-max-cpc-from-new-campaigns/586527",
+     "title": "Microsoft Ads Is Removing Max CPC From New Campaigns via @sejournal, @brookeosmundson",
+     "summary": "Microsoft Advertising will remove Max CPC from new non-portfolio campaigns starting Oct. 1, shifting advertisers toward automated bidding controls and performance targets. The post Microsoft Ads Is Removing Max CPC From New Campaigns appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-20T18:13:03+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-ads-removes-max-cpc-conversion-based-strategies",
+     "title": "Microsoft Ads Removes Max CPC for Conversion-Based Strategies",
+     "summary": "Microsoft Advertising is investing heavily in enhancing its bidding and measurement capabilities . Advertisers using conversion-based bidding strategies like TCPA and TROAS are finding it easier to meet their goals compared to those relying on legacy controls such as Max CPC, which can disrupt spend pacing due to overriding stated objectives. Starting October 1, 2026 , Microsoft Advertising will eliminate the ability to set a Max CPC for new campaigns using the standalone Max Conversion, Max Conversion Value, and Max Click bidding strategies .&nbsp; Source: Anthony Higman Existing campaigns wi",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-21T04:32:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html",
+     "title": "Microsoft Advertising Max CPC Won't Be Available For New Campaigns On Oct 1",
+     "summary": "Microsoft Advertising sent out emails yesterday announcing changes coming to Max CPC bidding. Microsoft wrote, \"Max CPC will no longer be available when creating new non-portfolio campaigns\" after October 1, 2026.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:41:00+00:00",
+     "score": 75
     }
    ],
    "category": "ppc",
-   "importance": 82,
-   "title": "Google spouští A/B testy pro AI Max a oznámil migraci kampaní k září 2026",
-   "updated": "2026-08-24T17:03:18.891882+00:00",
-   "what": "Google Ads přináší nové nástroje pro A/B testování v běžném vyhledávání i AI Max kampaních – zjednodušený proces tvorby experimentů, možnost testovat rozpočty, ROI cíle, brandové parametry a lokace. Zároveň Google oznámil, že od 1. září 2026 automaticky převede klasické Search kampaně využívající Broad Match na úrovni kampaně a automaticky vytvářená aktiva na nový formát AI Max.",
-   "why": "Nové A/B testy umožňují lépe porovnávat výkon propagačních kampaní a změn nastavení, což zlepšuje kontrolu nad ROI. Termín migrace na AI Max je zásadní pro plánování – firmy mají rok na přípravu a otestování nového formátu, než Google provede automatickou konverzi stávajících kampaní.",
-   "takeaway": "Vyzkoušejte nové A/B testovací nástroje v Google Ads pro ověření dopadů změn nastavení (rozpočty, cíle, lokace) na výkon. Sledujte výkonnost stávajících Broad Match kampaní a do léta 2026 naplánujte jejich testovací převod na AI Max, abyste předešli automatické migraci a měli kontrolu nad procesem.",
-   "importance_label": "zásadní",
+   "importance": 75,
+   "title": "Google spustil nové A/B testy v Ads a oznámil migraci na AI Max od září 2026",
+   "updated": "2026-08-24T19:10:39.786816+00:00",
+   "what": "Google přidal do Google Ads nové nástroje pro experimentování: zjednodušené A/B testování u Search kampaní, nové parametry pro brand a lokace v AI Max a rozšířené predikce v Performance Planneru. Zároveň oznámil, že od 1. září 2026 začne automaticky převádět Search kampaně používající Campaign-level Broad Match a Automatically Created Assets na AI Max.",
+   "why": "Nové A/B testy umožňují snazší testování promocí a změn v kampaních. Plánovaná automatická migrace na AI Max ale znamená zásadní změnu – ovlivní všechny inzerenty, kteří dosud používají klasické Search kampaně s broad match a automatickými assety. Mají přibližně 1,5 roku na přípravu.",
+   "takeaway": "Vyzkoušejte nové A/B testy u Search kampaní, abyste lépe změřili dopad změn. Pokud používáte Campaign-level Broad Match a automatické assety, připravte se na přechod na AI Max – máte čas do září 2026, ale raději otestujte AI Max dopředu a zjistěte, jak ovlivní vaše výsledky a rozpočty.",
+   "importance_label": "důležité",
    "multi_source": true,
    "image": "img/b1d8047325.jpg",
    "image_from": "searchengineland.com"
+  },
+  {
+   "id": "d82507bc2d",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
+     "title": "Google Search Ranking Volatility Spikes On August 12-13",
+     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-13T11:51:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
+     "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
+     "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI report does not show clicks) starting around August 12th and 13th. This seems like a bug because the drop seems to be super widespread.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-17T17:37:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-fix-favicon-crawl-stats-41928.html",
+     "title": "Google Fixed Favicon Bug & Crawl Stats Missing Data",
+     "summary": "Google has fixed two bugs this weekend related to Google Search. The first is the bug with many favicons not showing up in the Google Search result snippets. The second is the bug with two days of data missing from the Google Search Console crawl stats report.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-24T00:45:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
+     "title": "UPDATE: August 2026 spam update",
+     "summary": "Incident began at 2026-08-18 09:27 (all times are US/Pacific ). Released the August 2026 spam update , which applies globally and to all languages. The rollout may take a few days to complete. Affected products: Ranking",
+     "source": "Google Search Status Dashboard",
+     "domain": "status.search.google.com",
+     "published": "2026-08-18T16:28:47+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301",
+     "title": "Google Begins Rolling Out The August 2026 Spam Update via @sejournal, @MattGSouthern",
+     "summary": "Google has begun rolling out the August 2026 spam update, applying globally and to all languages, its third one this year. The post Google Begins Rolling Out The August 2026 Spam Update appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T17:10:40+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
+     "title": "Google August 2026 Spam Update Has Been Unleashed",
+     "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all languages. This only impacts sites that spam, but with any update, there may be collateral damage.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-18T16:45:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5",
+     "title": "Google releases August 2026 spam update",
+     "summary": "Google releases August 2026 spam update &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T16:37:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZVlqR2Vwakk3X2tsNVZnREg0VXJpbC13OXpHc2VQemRjeEpQS0J6U2lnUUZRUWJEN0NNUnRySmZyUW11WEVSc3NLV0psUlM0WmNrYWZrWGNiY1FuWXZfQ3RoSzhFejJUMm91ZVBJbnowbFBWQy1vSVVPdXhIRmdaVm4yNnpxMVlIRlpz?oc=5",
+     "title": "Google August 2026 spam update done rolling out",
+     "summary": "Google August 2026 spam update done rolling out &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-21T09:25:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html",
+     "title": "Google August 2026 Spam Update Has Finished Rolling Out",
+     "summary": "The Google August 2026 spam update is now done rolling out. It started on Tuesday, August 18, 2026 at around 12:30 pm ET and completed on August 21, 2026 at around 4:50 am. Despite some people feeling the update started soon, Google's John Mueller said it did not.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T09:20:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/video-08-21-2026-41915.html",
+     "title": "Search News Buzz Video Recap: Google Unleashed The August 2026 Spam Update, Gemini 3.7 Powers AI Mode, Google and Microsoft Ads News & More",
+     "summary": "Google has released its third spam update of the 2026 year, the August 2026 spam update this week and finished rolling out Friday morning at 4:50am. Google Search's AI Mode is now being powered sometimes by...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T12:01:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597",
+     "title": "Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls. The post Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-22T12:30:28+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-why-spam-updates-need-to-happen/586382",
+     "title": "Google Answers Why Spam Updates Need To Happen via @sejournal, @martinibuster",
+     "summary": "Why does Google have spam updates every once in a while? Google’s John Mueller answers that question and explains the reason why Google doesn’t just get rid of spam on a regular basis with existing algorithms. Spam Algorithms And Updates There are many kinds of search spam, and Google’s systems handle them with different algorithms. They have something called SpamBrain that’s an AI for figuring out what pages are spam. There are quality factors that weed out spammy sites, and there are link algorithms that can identify inauthentic link activities. Why Does Google Have Spam Updates? So why does",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T10:42:13+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-why-search-updates-arent-announced-right-away/586370",
+     "title": "Google Answers Why Search Updates Aren’t Announced Right Away via @sejournal, @martinibuster",
+     "summary": "Google's John Mueller explains why updates aren't announced earlier when rankings are already bouncing around. The post Google Answers Why Search Updates Aren&#8217;t Announced Right Away appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T10:19:30+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html",
+     "title": "Google AI Overviews With AI-Generated Images In The Wild",
+     "summary": "A month ago, we reported that Google said it would be rolling out AI-generated images within AI Overviews in Google Search. Well, it seems Google is starting to roll out those AI-generated images in AI Overviews this week.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-14T11:41:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFFUbHFyRndaWWN5cjNkbUsyNmFCSlVkdTc0LXZXRWRqemxiQXUzSzlvcHQ5OERRR2V1aDNlZll5WVJnRlozbnlfdjNyQWx5d3FpVlFHc29tX1FSRVlESFBGd21kaHJVckZFX0lEYmZrMzhYYktVMHl4TGNZSlVZXzVvTElKNGZkcldlNWF3MUxwbFVVcDc5Z2FRSjc?oc=5",
+     "title": "Google Search pauses AI-generated images within AI Overviews",
+     "summary": "Google Search pauses AI-generated images within AI Overviews &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T16:55:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6UkxTNURISThoM2FubW45RTZSbEcyQ2lYRVdueENvSmF6dE1OaVd2WTBVNGF6eURmTzdrM0t2VmpmdjVFTTVfNnNGbjYybGpVRmh3VWptd0NmZm9CMTFZWDlkbVRsQ2ZwaDIwZVFWVlZ6LTEwTkJpdEFPMHZOQQ?oc=5",
+     "title": "What 9 months of AI Overview data and 51,000+ tracked events reveal",
+     "summary": "What 9 months of AI Overview data and 51,000+ tracked events reveal &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-18T15:00:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google hlásí dokončení srpnového spam updatu 2026",
+   "updated": "2026-08-24T19:10:26.032829+00:00",
+   "what": "Google oznámil a dokončil rollout srpnového spam updatu 2026, který má dopad globálně a na všechny jazyky. Zároveň byly okolo 12.–13. srpna zaznamenány výkyvy v rankingu, pokles impresí a kliků v Google Search Console a technické chyby (chybějící favicony, data v crawl stats reportech), které Google postupně opravil.",
+   "why": "Spam update primárně cílí na spamové weby, ale může se dotknout i legitimních stránek (tzv. kolaterální škody).併行ně běžící technické problémy v GSC a volatilita rankingu mohou zkreslit data a ztížit vyhodnocení vlivu updatu na vaše weby.",
+   "takeaway": "Zkontrolujte data v Google Search Console za období kolem 12.–18. srpna (impressions, kliky, pozice) a sledujte, zda se po dokončení updatu objeví nějaké anomálie nebo poklesy. Pokud ano, vyhodnoťte, zda jde o dopad spam updatu, nebo zda jste ještě zasaženi technickými chybami, které Google řešil.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/d82507bc2d.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "915147f998",
+   "created": "2026-08-17T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5",
+     "title": "The AI visibility index: Which brands are vanishing from AI search?",
+     "summary": "The AI visibility index: Which brands are vanishing from AI search? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T14:00:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing",
+     "title": "AI visibility index shows which brands are disappearing",
+     "summary": "Some brands dominate Google yet barely surface in AI answers. Here’s where traditional authority and AI recall diverge. The post AI visibility index shows which brands are disappearing appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-18T13:48:51+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.searchenginejournal.com/ai-search-myths-debunked-ahrefs-spa/584393",
+     "title": "9 AI Search Myths, Debunked by 15 Million Data Points via @sejournal, @ahrefs",
+     "summary": "Unveil the truth about AI search with interesting findings from 15 million data points. Learn what really influences rankings. The post 9 AI Search Myths, Debunked by 15 Million Data Points appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T14:26:59+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.searchenginejournal.com/why-search-volume-is-screening-out-your-best-content-opportunities/585048",
+     "title": "Why Search Volume Is Screening Out Your Best Content Opportunities",
+     "summary": "AI assistants turn contextual prompts into multiple queries, making buyer decisions and sub-questions more valuable content targets than raw keyword volume. The post Why Search Volume Is Screening Out Your Best Content Opportunities appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T14:30:48+00:00",
+     "score": 57
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Studie: Některé značky mizí z AI vyhledávání navzdory dobré pozici v Googlu",
+   "updated": "2026-08-24T19:10:13.402562+00:00",
+   "what": "Nový AI Visibility Index ukazuje, že některé značky s vysokou viditelností v klasickém GoogleSearch se téměř nevyskytují v odpovědích AI asistentů (ChatGPT, Perplexity apod.). Analýza vychází z milionů datových bodů a odhaluje rozdíly mezi tradiční autoritou domény a tím, co AI modely skutečně citují.",
+   "why": "Pro marketingové manažery to znamená, že dosavadní SEO metriky (pozice v SERPu, autorita domény) nemusí zaručit viditelnost v AI odpovědích, kam se přesouvá část uživatelů. Jde o nový kanál, který vyžaduje odlišnou strategii než klasické SEO.",
+   "takeaway": "Sledujte, zda se vaše značka objevuje v odpovědích AI nástrojů na dotazy z vašeho oboru. Pokud ne, zvažte úpravu obsahu: AI preferují kontextové odpovědi a podotázky kupujících před vysokofrekvenčními klíčovými slovy. Zatím jde o trend zejména v anglicky mluvících trzích, ale s rozvojem AI vyhledávání v češtině (např. ChatGPT Search, budoucí AI integrace do Seznamu) bude relevantní i u nás.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/1d6ee74a75.jpg",
+   "image_from": "martech.org"
+  },
+  {
+   "id": "a10f53a646",
+   "created": "2026-08-17T20:10:31+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166",
+     "title": "YouTube Changes How It Counts Views On Long-Form & Live via @sejournal, @MattGSouthern",
+     "summary": "YouTube is changing how it counts views on long-form videos and live streams. The post YouTube Changes How It Counts Views On Long-Form &#038; Live appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T20:10:31+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-is-changing-how-it-counts-views/828093",
+     "title": "YouTube is changing how it counts views",
+     "summary": "The platform said that all formats will soon align with Shorts methodology and measure views the moment a video starts playing.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T21:14:08+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediaexaminer.com/new-ways-to-expand-reach-and-engagement-on-instagram",
+     "title": "New Ways to Expand Reach and Engagement on Instagram",
+     "summary": "Wondering how to get more eyes on your Instagram carousels and posts without creating extra content? Curious which of Instagram's latest features can help small businesses reach new audiences?​ In this article, you'll discover how to use Instagram's newest updates, including the TV app, AI-powered story effects, audio swapping, and adding music to carousels for [&#8230;] The post New Ways to Expand Reach and Engagement on Instagram appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-08-20T10:00:00+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/youtube-meni-vypocet-zhlednuti-cisla-porostou-rychleji",
+     "title": "YouTube mění výpočet zhlédnutí, čísla porostou rychleji",
+     "summary": "YouTube od 24. srpna změnil způsob výpočtu veřejně zobrazovaného počtu zhlédnutí. Nově stačí, aby se video začalo přehrávat. Divák u něj nemusí strávit žádnou minimální dobu.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-24T18:36:19+00:00",
+     "score": 72
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "YouTube mění metriku zhlédnutí – čísla porostou, ale pozor na interpretaci",
+   "updated": "2026-08-24T19:09:35.392854+00:00",
+   "what": "Od 24. srpna 2025 YouTube mění způsob počítání zhlédnutí u dlouhých videí a živých přenosů. Dosud se počítalo zhlédnutí až po určité době sledování, nově stačí, aby se video začalo přehrávat – stejně jako to funguje u YouTube Shorts. Divák u něj nemusí strávit žádnou minimální dobu.",
+   "why": "Změna unifikuje metriku napříč všemi formáty videí na YouTube, což zjednoduší srovnávání. Zároveň to ale povede k rychlejšímu růstu počtu zhlédnutí, což může zkreslit dosavadní benchmarky a reporty. Pro firmy využívající YouTube k propagaci (organicky i placeně) to znamená nutnost přehodnotit, jak hodnotí úspěšnost kampaní – samotné zhlédnutí už nebude znamenat skutečné zapojení.",
+   "takeaway": "Zkontrolujte si definice úspěšnosti YouTube kampaní a reportů. Pokud reportujete počty zhlédnutí, upozorněte kolegy a management, že čísla nyní porostou rychleji, ale neznamená to automaticky vyšší engagement. Sledujte spíše metriky typu průměrná doba sledování, retention nebo konverze.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/2006a67fab.jpg",
+   "image_from": "socialmediatoday.com"
+  },
+  {
+   "id": "5e7e9ec73c",
+   "created": "2026-08-14T11:26:06.848601+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnZJYndldGl2c0V1c3RuRUkwNTU4WlJpY1BoeVRjZ01LamVxUVhhbWFQUWZtYXpicy1UWGRIdzc4QjlvZDE2UVJDbW44SUFiaTk0ZVZjb2xJNVFHSG9tRS0xVlBwaGt2X2FrdEJrQUFzcVdSUTZlaFJDY0tlZmdWTkJhZHI3QzVsRHk3Y29nelBzUTV4Z3c?oc=5",
+     "title": "Microsoft Clarity AI Scrape-to-Referral insights report",
+     "summary": "Microsoft Clarity AI Scrape-to-Referral insights report &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-13T17:42:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral",
+     "title": "Microsoft Clarity adds an AI Scrape-to-Referral Ratio",
+     "summary": "Microsoft Clarity‘s AI Scrape-to-Referral Ratio compares what AI crawlers take from your site with what they send back.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-19T08:22:00+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://www.seroundtable.com/google-tag-and-google-tag-manager-updated-41918.html",
+     "title": "Google Tag & Google Tag Manager Updated",
+     "summary": "Google updated the Google Tag and Google Tag Manager. Google said, \"these changes are designed to streamline your measurement setup, improve performance and management, and provide a more unified experience across Google's tagging products.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-21T11:05:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-unifies-tag-tag-manager-measurement-tools",
+     "title": "Google Unifies Tag and Tag Manager Measurement Tools",
+     "summary": "Google has rolled out updates across its tagging tools to simplify the process of measuring website performance for advertisers .&nbsp; The changes are designed to consolidate measurement settings, allowing advertisers to manage both Google Ads and Google Analytics in one place through the integration of Google Tag and Tag Manager . Key updates include: Consolidated tagging tools: Centralize measurement settings for easier management. Improved performance: Streamlined data transmission may result in faster website speed. No-code event tracking: Automated setup allows users to navigate through ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T02:11:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaEJKc3V5M0I5X284RHlkd2dvMFVVUTFhTjFIRjhtd1FUV1VsOUlDRGZ5bEk0eEpTSVJ0T0ZCTm1VTEtFanc5QkdHQnkyUmlVdXNSZmFMOVRCRVhIT2VjYjVRbUVxaDZGWGFIdjlZejRTTWVvT2hockZBNGZnYThZemRUdGdLNUZBeEdJam9zeFFCYzhmU1FWT29WV1dRUF9lRWE0XzNEVGk?oc=5",
+     "title": "Google unifies Google tag and Tag Manager, adds no-code event tracking",
+     "summary": "Google unifies Google tag and Tag Manager, adds no-code event tracking &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-24T14:15:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "analytika",
+   "importance": 72,
+   "title": "Google sjednocuje Tag a Tag Manager, přidává no-code trackování událostí",
+   "updated": "2026-08-24T19:09:35.392854+00:00",
+   "what": "Google aktualizoval Google Tag a Google Tag Manager s cílem zjednodušit měření výkonu webu. Hlavní změny zahrnují sloučení nastavení měření pro Google Ads a Google Analytics do jednoho rozhraní, automatické trackování událostí bez kódu a optimalizaci přenosu dat, která může zrychlit web.",
+   "why": "Pro marketingové manažery to znamená jednodušší správu měřicích nástrojů na jednom místě místo přepínání mezi platformami. No-code trackování ušetří čas vývojářů a potenciálně sníží náklady na implementaci sledování konverzí a dalších událostí.",
+   "takeaway": "Zkontrolujte své současné nastavení Google Tagu a Tag Manageru a naplánujte přechod na nové sjednocené rozhraní. Otestujte automatické trackování událostí – může vám ušetřit práci při nastavování sledování konverzí bez nutnosti úprav kódu webu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/5e7e9ec73c.jpg",
+   "image_from": "news.google.com"
+  },
+  {
+   "id": "24add4a2c9",
+   "created": "2026-08-24T18:50:15+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/1-in-10-webpages-shows-signs-of-ai-authorship-pew-reports/586883",
+     "title": "1 In 10 Webpages Shows Signs Of AI Authorship, Pew Reports via @sejournal, @MattGSouthern",
+     "summary": "Pew found AI authorship signs on 10% of sampled webpages and 35% of pages carrying a post-ChatGPT publication date. The post 1 In 10 Webpages Shows Signs Of AI Authorship, Pew Reports appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-24T18:50:15+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Studie: 10 % webových stránek vykazuje znaky AI autorství",
+   "updated": "2026-08-24T19:09:35.392854+00:00",
+   "what": "Studie Pew Research Center zjistila, že 10 % vzorku webových stránek obsahuje znaky AI autorství. U stránek publikovaných po spuštění ChatGPT (konec 2022) to bylo dokonce 35 %.",
+   "why": "Ukazuje to masivní rozšíření AI generovaného obsahu na webu, což má dopady na SEO strategie, kvalitu obsahu a důvěryhodnost webů. Pro marketingové manažery je to signál rostoucí konkurence z AI obsahu a potřeby rozlišit se kvalitou.",
+   "takeaway": "Zvažte, jak se vaše obsahová strategie liší od AI generovaného obsahu – investujte do autenticity, expertnosti a unikátních insights. Sledujte, jak se Google staví k AI obsahu a zda to ovlivní vaše pozice ve vyhledávání.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e14234c2ce",
+   "created": "2026-08-24T07:36:31+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLU9QTlVsTnY5aGdUdU1GTHFwVThVb1czZzBXNTlvMEFVS2NKcTZiek5ydktLU0JjUlVLT0E3VTd1T0t3OHpvZFQxT3RjdXlfbjRTSURHR0stbGxMdmdta0NlVHJOZUpIYklvNk55eUtyOXYybW9wWElYZGRjVlVNRmFWYUMxQXVFb1dkZHNhS1M1dw?oc=5",
+     "title": "Event Section Added to Promotions in Merchant Center",
+     "summary": "Event Section Added to Promotions in Merchant Center &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T07:36:31+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Merchant Center přidává sekci pro eventové propagace",
+   "updated": "2026-08-24T19:09:35.392854+00:00",
+   "what": "Google přidal do Merchant Center novou sekci věnovanou propagacím vázaným na události (events). Jde o rozšíření stávajících možností propagačních nabídek v produktových feedech.",
+   "why": "Umožňuje e-shopům lépe cílit slevové akce na konkrétní události (Vánoce, Černý pátek, výprodeje apod.) a zvýšit relevanci produktových reklam v Google Ads a nákupech během těchto období.",
+   "takeaway": "Pokud provozujete e-shop a používáte Google Merchant Center, zkontrolujte novou sekci pro eventové propagace a zvažte nastavení cílených nabídek na klíčové prodejní události ve vašem kalendáři.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "a45a356494",
+   "created": "2026-08-17T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTFLekQ2eWI1blQzWFg2TjF2SF91UlNWczk2ZExqS3dHa0lpTTJLeEhlcERsWGRoVmZlbDh6bmZ3MTlzMWxfTEtRLTNNM3ZyT1BpT0dRTEtaYlRxUlNJbXpfRENfNUE1SDNtODQ5NnhRa3VEUFRWT2NfX2NtVkN0Y3YxMA?oc=5",
+     "title": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads",
+     "summary": "Inside ChatGPT’s retrieval stack: The index, cache, and pages it actually reads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-17T12:00:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/llms-txt-v2-formal-markdown-linking-ai-agents/586119",
+     "title": "Llms.txt V2 Adds Formal Markdown Linking For AI Agents via @sejournal, @MattGSouthern",
+     "summary": "A v2 update to the llms.txt spec has shipped, adding formal link relations that help AI agents locate Markdown versions of pages. The post Llms.txt V2 Adds Formal Markdown Linking For AI Agents appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T16:06:23+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Llms.txt v2 přináší formální označení Markdown verzí stránek pro AI agenty",
+   "updated": "2026-08-24T17:04:15.643202+00:00",
+   "what": "Specifikace llms.txt dostal aktualizaci na verzi 2, která přidává formální link relations pro označení Markdown verzí stránek. To AI agentům (jako ChatGPT) usnadňuje najít a číst obsah webu v čitelném formátu. Search Engine Land současně publikoval podrobný pohled do zákulisí retrievalového stacku ChatGPT – jak indexuje, cachuje a čte webové stránky.",
+   "why": "Pro SEO specialisty a contentové manažery je to praktická příležitost optimalizovat web pro AI nástroje. Pokud AI agenti lépe najdou a zpracují váš obsah, může to ovlivnit viditelnost v AI-poháněných odpovědích a nástrojích. Llms.txt je relativně nový standard, ale jeho adopce roste mezi weby, které chtějí být připravené na AI-driven vyhledávání.",
+   "takeaway": "Zvažte implementaci llms.txt v2 na vašem webu, zejména pokud produkujete hodnotný obsah, který by mohly AI nástroje citovat. Připravte Markdown verze klíčových stránek a správně je prolinkujte. Sledujte vývoj standardu a jeho adopci – může to být konkurenční výhoda v AI éře vyhledávání.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "3e52806424",
+   "created": "2026-08-17T17:00:44+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-lets-you-turn-off-visible-watermarks-in-gemini/586145",
+     "title": "Google Lets You Turn Off Visible Watermarks In Gemini via @sejournal, @MattGSouthern",
+     "summary": "Google Gemini allows users to disable the visible watermark on AI-generated images, videos, and music, while SynthID and C2PA marks stay embedded. The post Google Lets You Turn Off Visible Watermarks In Gemini appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-17T17:00:44+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/iab-ai-use-transparency-disclosure-framework",
+     "title": "IAB updates AI disclosure recommendations as legislation evolves",
+     "summary": "The advertising trade group is recommending targeted disclosure for uses including AI-generated images and videos, as opposed to universal labeling, Caroline Giegerich, VP of AI at the IAB, told us.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-08-18T18:10:11+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "Google Gemini umožňuje skrýt viditelný watermark u AI obsahu",
+   "updated": "2026-08-24T17:03:55.743859+00:00",
+   "what": "Google Gemini nyní umožňuje uživatelům vypnout viditelný watermark u AI-generovaných obrázků, videí a hudby. Skryté značky SynthID a C2PA zůstávají v obsahu vložené i po vypnutí viditelného označení. Paralelně IAB aktualizoval doporučení pro označování AI obsahu – místo univerzálního značení doporučuje cílené označení jen u vybraných použití, jako jsou AI-generované obrázky a videa.",
+   "why": "Pro marketéry pracující s AI-generovaným obsahem se mění možnosti a pravidla označování. Viditelné watermarky mohou ovlivnit vnímání značky a profesionalitu kreativy, zatímco skryté značky zůstávají pro účely transparentnosti a dodržení právních požadavků. Aktualizované IAB doporučení naznačují, že se standardy pro disclosure AI obsahu v reklamě vyvíjejí směrem k selektivnějšímu přístupu.",
+   "takeaway": "Pokud používáte AI nástroje pro tvorbu obsahu v kampaních, sledujte vývoj standardů označování – ne vždy bude nutné vše viditelně označovat. Zároveň si ověřte, zda vaše nástroje podporují technické značení (jako SynthID) pro případné právní požadavky nebo změny regulace v EU.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
   },
   {
    "id": "c1eae1bf60",
@@ -2600,140 +3223,6 @@
    "image_from": "searchenginejournal.com"
   },
   {
-   "id": "d82507bc2d",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-spikes-41869.html",
-     "title": "Google Search Ranking Volatility Spikes On August 12-13",
-     "summary": "We saw a spike in volatility yesterday amongst the Google Search results rankings. There was a spike in ranking movement outside the day-to-day norm that seemed to start yesterday and maybe into today. The chatter is somewhat cool, but the tools showed a spike in the Google rank volatility.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-13T11:51:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html",
-     "title": "Google Performance Reports Drop In Impressions/Clicks ~August 12",
-     "summary": "There are a number of reports that the performance reports, both for Google Search and the Generative AI features reports, are showing a decline in impressions and clicks (AI report does not show clicks) starting around August 12th and 13th. This seems like a bug because the drop seems to be super widespread.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-17T17:37:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/google-fix-favicon-crawl-stats-41928.html",
-     "title": "Google Fixed Favicon Bug & Crawl Stats Missing Data",
-     "summary": "Google has fixed two bugs this weekend related to Google Search. The first is the bug with many favicons not showing up in the Google Search result snippets. The second is the bug with two days of data missing from the Google Search Console crawl stats report.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-24T00:45:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE",
-     "title": "UPDATE: August 2026 spam update",
-     "summary": "Incident began at 2026-08-18 09:27 (all times are US/Pacific ). Released the August 2026 spam update , which applies globally and to all languages. The rollout may take a few days to complete. Affected products: Ranking",
-     "source": "Google Search Status Dashboard",
-     "domain": "status.search.google.com",
-     "published": "2026-08-18T16:28:47+00:00",
-     "score": 80
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-august-2026-spam-update/586301",
-     "title": "Google Begins Rolling Out The August 2026 Spam Update via @sejournal, @MattGSouthern",
-     "summary": "Google has begun rolling out the August 2026 spam update, applying globally and to all languages, its third one this year. The post Google Begins Rolling Out The August 2026 Spam Update appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T17:10:40+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://www.seroundtable.com/google-august-2026-spam-update-41895.html",
-     "title": "Google August 2026 Spam Update Has Been Unleashed",
-     "summary": "Google has just announced the release of the August 2026 spam update and said it should only take a few days to roll out. This is a global update and is expected to impact all languages. This only impacts sites that spam, but with any update, there may be collateral damage.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-18T16:45:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOczdic2xoeUphYVlrT2ZoSVBjLVBIbEN5RHR1dkFOQVpHRTRISGVYUmIzQ3FTaFlQUmFXUlBKYUVMY21XYTRCaFkxZWpEQm9WOVVnQVh0WG8tMWU1RHVObm9MNnhuRmh3TWZHd2J2MDZOMGFXX1E2VG1NeTNjQzM2SQ?oc=5",
-     "title": "Google releases August 2026 spam update",
-     "summary": "Google releases August 2026 spam update &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-18T16:37:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZVlqR2Vwakk3X2tsNVZnREg0VXJpbC13OXpHc2VQemRjeEpQS0J6U2lnUUZRUWJEN0NNUnRySmZyUW11WEVSc3NLV0psUlM0WmNrYWZrWGNiY1FuWXZfQ3RoSzhFejJUMm91ZVBJbnowbFBWQy1vSVVPdXhIRmdaVm4yNnpxMVlIRlpz?oc=5",
-     "title": "Google August 2026 spam update done rolling out",
-     "summary": "Google August 2026 spam update done rolling out &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-21T09:25:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html",
-     "title": "Google August 2026 Spam Update Has Finished Rolling Out",
-     "summary": "The Google August 2026 spam update is now done rolling out. It started on Tuesday, August 18, 2026 at around 12:30 pm ET and completed on August 21, 2026 at around 4:50 am. Despite some people feeling the update started soon, Google's John Mueller said it did not.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T09:20:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/video-08-21-2026-41915.html",
-     "title": "Search News Buzz Video Recap: Google Unleashed The August 2026 Spam Update, Gemini 3.7 Powers AI Mode, Google and Microsoft Ads News & More",
-     "summary": "Google has released its third spam update of the 2026 year, the August 2026 spam update this week and finished rolling out Friday morning at 4:50am. Google Search's AI Mode is now being powered sometimes by...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T12:01:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597",
-     "title": "Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls. The post Spam Update, Generative UI In AIOs, Reddit Drop – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-22T12:30:28+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-answers-why-spam-updates-need-to-happen/586382",
-     "title": "Google Answers Why Spam Updates Need To Happen via @sejournal, @martinibuster",
-     "summary": "Why does Google have spam updates every once in a while? Google’s John Mueller answers that question and explains the reason why Google doesn’t just get rid of spam on a regular basis with existing algorithms. Spam Algorithms And Updates There are many kinds of search spam, and Google’s systems handle them with different algorithms. They have something called SpamBrain that’s an AI for figuring out what pages are spam. There are quality factors that weed out spammy sites, and there are link algorithms that can identify inauthentic link activities. Why Does Google Have Spam Updates? So why does",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T10:42:13+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-answers-why-search-updates-arent-announced-right-away/586370",
-     "title": "Google Answers Why Search Updates Aren’t Announced Right Away via @sejournal, @martinibuster",
-     "summary": "Google's John Mueller explains why updates aren't announced earlier when rankings are already bouncing around. The post Google Answers Why Search Updates Aren&#8217;t Announced Right Away appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T10:19:30+00:00",
-     "score": 52
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google hlásí dokončení srpnového spam updatu 2026",
-   "updated": "2026-08-24T17:02:38.877650+00:00",
-   "what": "Google oznámil a dokončil rollout srpnového spam updatu 2026, který má dopad globálně a na všechny jazyky. Zároveň byly okolo 12.–13. srpna zaznamenány výkyvy v rankingu, pokles impresí a kliků v Google Search Console a technické chyby (chybějící favicony, data v crawl stats reportech), které Google postupně opravil.",
-   "why": "Spam update primárně cílí na spamové weby, ale může se dotknout i legitimních stránek (tzv. kolaterální škody).併行ně běžící technické problémy v GSC a volatilita rankingu mohou zkreslit data a ztížit vyhodnocení vlivu updatu na vaše weby.",
-   "takeaway": "Zkontrolujte data v Google Search Console za období kolem 12.–18. srpna (impressions, kliky, pozice) a sledujte, zda se po dokončení updatu objeví nějaké anomálie nebo poklesy. Pokud ano, vyhodnoťte, zda jde o dopad spam updatu, nebo zda jste ještě zasaženi technickými chybami, které Google řešil.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/d82507bc2d.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "211153fee3",
    "created": "2026-08-18T17:30:31+00:00",
    "articles": [
@@ -2920,175 +3409,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "e9dd8f2379",
-   "created": "2026-08-04T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnlseFNodXYyU2pRdDI3UjFwTnNTZFNEbEcxV1lpSkhNMTA4ZkpDRUI0Nm1uWHlDQjNpNTM0Z1ZvVC1rZ1pWSGJzZ0g2QUo3bHpYR25CVk1reGJRSnlISUZvQ3dnMmROTFN2WDU2WkhvM2xqZmtWRU5xYTF0aEdWdVZ0UkFvUkFuU2RZ?oc=5",
-     "title": "OpenAI ad experiment could change what happens after the click",
-     "summary": "OpenAI ad experiment could change what happens after the click &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-04T07:00:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SVm1zOS1TTlJTU3h4SlA2OWQ3SlhpM1k3bDlzbDg1YTVfVHMzQWtGd19TXzRTeXNYQlp1OGFLQjBWdnMyNGRFUHN2anlRSE1icVdid3BURWZZcTdMUlROZ0Y3SmhlWlYzRk1XQTU5V0Q2cHRTTktoYw?oc=5",
-     "title": "OpenAI adds technology to compete for ad dollars",
-     "summary": "OpenAI adds technology to compete for ad dollars &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-10T12:18:35+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aUGxiRFRsV21QZ20zQ0JuNTRGeHprTHA3ejcya090bWh1eXM4MUlmWWo2bHRnUWVkTlJlaS1PV2l3c1EtWjBjblNseWlGSE15TVNnV09KRk04WmN1QkZnYg?oc=5",
-     "title": "How to run ChatGPT ads: A step-by-step guide from early campaigns",
-     "summary": "How to run ChatGPT ads: A step-by-step guide from early campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T13:00:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqWkhuVUFuM0NKWVg0SDZna085MExvelgxZUlzS0I4N282VHpnVFloZkRnclpDYjlCS28xYmkxRks2a2x1dWNuczVTdnQtLUZiWDZvUmt1MVlaUS05cThmUzNVU1dHRHZyVVdIN09n?oc=5",
-     "title": "A 7-step guide to running ads on ChatGPT",
-     "summary": "A 7-step guide to running ads on ChatGPT &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-11T13:59:27+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scHQ4SG4tQ3NHdUR2VTV1eHJndHJMQWxudVN6aEN4SnNtMG9JeFo5TS1kcXVsOWJTN3VZOXhnV0lEUmxiaXNlaUxhRW01WW1zekJQVkRzb0k?oc=5",
-     "title": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does",
-     "summary": "We Tested Ads in ChatGPT: Here’s What the Channel Actually Does &nbsp;&nbsp; PPC Hero",
-     "source": "PPC Hero",
-     "domain": "ppchero.com",
-     "published": "2026-08-19T15:07:36+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbkFJNk9Kb2xfbG9jMUpEMWdRNTdwYXRBNnZvN2pMT1p2dnBBUllvOHNZbmVyUFVCZVVyZmdjMHhtbDNNbTI3TmI0OU5QQ2Zxd29ZNEc3cW5TMnlmN25xME5Odlc0cWN6VjB0STdGWHlfdzdlN2ExYlczT0p3dUlDU2NDLWhITG9Hbjh5UDJNQ2ZzRnY0NGdIWElWTUZ2OFU?oc=5",
-     "title": "ChatGPT Ads rolls out oCPC campaigns, AAM and product carousels",
-     "summary": "ChatGPT Ads rolls out oCPC campaigns, AAM and product carousels &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-07T17:51:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.jonloomer.com/qvt/bid-multipliers-chatgpt-ads",
-     "title": "Bid Multipliers for ChatGPT Ads",
-     "summary": "In a somewhat surprising feature release, bid multipliers are here for ChatGPT ads. It&#8217;s not clear if all advertisers participating in the beta have access (I do). Let&#8217;s take a closer look&#8230; What Are Bid Multipliers? If you have this feature, you&#8217;ll see a new &#8220;Advanced&#8221; section in the ad group. Expand it, and you&#8217;ll... Read more &#187; The post Bid Multipliers for ChatGPT Ads appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-07-27T13:30:17+00:00",
-     "score": 45
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1puSm1laUFYbUNNUlFoX25HVTNwRWFHWFo5dXpmWjdLcE5vUjIxVHFqbk80eEY3TTlLOWQwZEhMQnFwMWVKd3VGZUIxZDQ2V0FhbG4teWVSeDJDVkxjQlFjMHVoWWNGdUVBSzkxUkdVWlkzcDZUQXlQaVYxdngxNHJ3dzZvTURMVmZoMUVWVDc1UQ?oc=5",
-     "title": "Study: ChatGPT ads appear on 26% of commercial prompts",
-     "summary": "Study: ChatGPT ads appear on 26% of commercial prompts &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-10T22:21:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.mediaguru.cz/openai-zacne-zobrazovat-reklamu-v-chatgpt-take-v-kontinentalni-evrope",
-     "title": "OpenAI začne zobrazovat reklamu v ChatGPT také v kontinentální Evropě",
-     "summary": "OpenAI začne příští týden ve svém chatovacím systému ChatGPT zobrazovat reklamu rovněž v kontinentální Evropě. Zavedení reklamy by se mělo týkat i českého trhu.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-19T11:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOckNCZl9rSXZrSlRqUlB5NWxNUTFNUjRMNlpTYzE5UWxZcUhUbmZQZlhUb2VObEZyRDRORXlwcldicTY0REU4VHRJU2N2a3Rra294ckgybzhob2pNTEFRT3lYSGtjbENjMHFVZ2ZRMjRLa25fOW5UYkx2c2hseENTRG5Yc3FxT19INERjRUpNMA?oc=5",
-     "title": "ChatGPT Ads are expanding to 31 European countries",
-     "summary": "ChatGPT Ads are expanding to 31 European countries &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T14:22:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.seroundtable.com/chatgpt-ads-europe-41902.html",
-     "title": "ChatGPT Ads Expanding To 31 European Countries",
-     "summary": "OpenAI announced it is expanding its ChatGPT Ads service and product to 31 European countries. These countries include Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-19T11:51:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai",
-     "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
-     "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Roz&#353;íření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít pří&#353;tí týden.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-19T15:21:16+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/x-launches-mcp-server/828552",
-     "title": "X launches MCP server",
-     "summary": "The system allows advertisers to connect their campaigns to the artificial intelligence tool of their choice and use it to guide their promotions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-23T21:44:23+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://blog.shoptet.cz/chatgpt-ads-eshopy",
-     "title": "Reklamy v ChatGPT přicházejí do Evropy. Co to znamená pro e-shopy na Shoptetu?",
-     "summary": "ChatGPT se z místa, kde lidé hledají rady a porovnávají, stává&#160;novým reklamním kanálem. OpenAI 18. srpna 2026 oznámila dosud největší rozšíření svého reklamního systému a přichází s ChatGPT Ads do&#160;31 evropských zemí včetně Česka. E-shopům tak přináší nový způsob, jak se zviditelnit ve chvíli, kdy se zákazníci rozhodují o nákupu. A Shoptet připravil technické řešení, [&#8230;] Příspěvek Reklamy v ChatGPT přicházejí do Evropy. Co to znamená pro e-shopy na Shoptetu? pochází z Shoptet Blog",
-     "source": "Shoptet blog",
-     "domain": "blog.shoptet.cz",
-     "published": "2026-08-24T13:40:26+00:00",
-     "score": 82
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "OpenAI spustilo plnou reklamu v ChatGPT – nové možnosti a první zkušenosti",
-   "updated": "2026-08-24T15:08:58.357675+00:00",
-   "what": "OpenAI rozšiřuje reklamní systém v ChatGPT o pokročilé funkce: optimalizované oCPC kampaně, produktové karusely, custom audiences a bid multipliéry pro úpravu nabídek. Podle studie se reklamy zobrazují u 26 % komerčních dotazů. Inzerenti testují nový formát, který neřeší jen klik, ale zasahuje přímo do konverzace s AI.",
-   "why": "ChatGPT má stovky milionů uživatelů a stává se alternativním reklamním kanálem k Googlu a Meta. První testy ukazují odlišnou logiku – uživatelé nemusí klikat, AI může odpověď integrovat přímo do dialogu. Jde o nový typ PPC, který mění způsob, jak lidé hledají a nakupují.",
-   "takeaway": "Sleduj vývoj ChatGPT reklamy – pokud tvoje cílová skupina aktivně používá ChatGPT (zejména pro rešerše produktů, služeb, B2B), připrav si testovací rozpočet. Zatím jde o beta v USA, ale rozšíření do EU je pravděpodobné. Zjisti, zda má smysl přihlásit se do waitlistu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/e9dd8f2379.jpg",
-   "image_from": "martech.org"
-  },
-  {
-   "id": "6110d4d2a8",
-   "created": "2026-08-24T14:30:06+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/seos-are-becoming-the-tools-of-their-tools-the-ai-slop-backlash/586298",
-     "title": "SEOs Are Becoming The Tools Of Their Tools – The AI Slop Backlash via @sejournal, @gregjarboe",
-     "summary": "Platforms like Spotify and LinkedIn are cracking down on AI slop. SEOs face a choice: treat AI as a shortcut or as an editorial assistant. The post SEOs Are Becoming The Tools Of Their Tools – The AI Slop Backlash appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-24T14:30:06+00:00",
-     "score": 47
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Spotify a LinkedIn bojují proti AI obsahu – SEO experti musí zvolit strategii",
-   "updated": "2026-08-24T15:07:50.198840+00:00",
-   "what": "Velké platformy jako Spotify a LinkedIn začínají aktivně omezovat nekvalitní obsah generovaný AI (tzv. AI slop). SEO specialisté stojí před volbou, zda AI používat jako nástroj pro rychlé vytváření obsahu, nebo jako editorského asistenta při tvorbě kvalitního materiálu.",
-   "why": "Důležité pro SEO specialisty a content manažery v ČR, protože platformy a vyhledávače začínají penalizovat nekvalitní AI obsah. Způsob využití AI nástrojů bude přímo ovlivňovat úspěšnost contentu a SEO výsledky.",
-   "takeaway": "Pokud ve firmě používáte AI pro tvorbu obsahu, přehodnoťte proces – AI by mělo sloužit jako pomocník při editaci a optimalizaci, ne jako náhrada kvalitního psaní. Nekvalitní AI obsah bude mít stále horší výsledky.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/6110d4d2a8.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
    "id": "6947b86944",
    "created": "2026-08-24T14:04:28+00:00",
    "articles": [
@@ -3111,30 +3431,6 @@
    "takeaway": "Začněte plánovat Black Friday kampaně s dostatečným předstihem. Připravte se na vyšší soutěž v aukcích, prověřte nastavení automatizovaných strategií a sledujte dopady nových reklamních formátů (ChatGPT Ads) na vaše kampaně. Počítejte s potenciálně vyššími náklady a nižšími maržemi.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "57f1740392",
-   "created": "2026-08-24T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96anFNeXlnQVVlLXpRSzJmSHlyTlh0T2NoTmpmNTVoa2FFSjQwb05IUTZBRGR6UUpQNUM3MGkxVFM2Y0xyM2NYdm9QaUl3TDJBcUYwMUd3eHRxVFlLT0p2VWZiQ3JzZlNWZWp0c3FlWVZ5RzZZa2c?oc=5",
-     "title": "AI search is here, but marketers still call it SEO",
-     "summary": "AI search is here, but marketers still call it SEO &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-24T14:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "AI search mění SEO, ale marketéři ji stále nazývají stejně",
-   "updated": "2026-08-24T15:07:50.198840+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false,
-   "what": "S nástupem AI vyhledávání (ChatGPT Search, Google AI Overviews, Perplexity) se mění způsob, jakým uživatelé hledají informace. Tradiční SEO praktiky čelí změnám, protože AI odpovídá přímo, místo aby posílala na webové stránky.",
-   "why": "Pro marketingové manažery to znamená posun v přístupu k viditelnosti online. Klasické optimalizace pro Google mohou přinášet méně přímé návštěvnosti, pokud AI odpovědi uspokojí uživatele bez kliknutí. Zároveň vzniká potřeba optimalizovat obsah tak, aby byl zdrojem pro AI modely.",
-   "takeaway": "Sledujte, jak se mění zdroje vaší organické návštěvnosti – pokud roste podíl AI vyhledávání, upravte obsahovou strategii tak, aby vaše informace sloužily jako autoritativní zdroj pro AI asistenty. Vyhodnoťte, které dotazy AI zodpoví přímo a které stále posílají návštěvnost."
   },
   {
    "id": "a9bb64f7b1",
@@ -3188,95 +3484,6 @@
    "multi_source": true,
    "image": "img/a9bb64f7b1.jpg",
    "image_from": "news.google.com"
-  },
-  {
-   "id": "35e0793763",
-   "created": "2026-08-19T19:41:53+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459",
-     "title": "Microsoft Advertising Rolls Out AI Max Globally via @sejournal, @brookeosmundson",
-     "summary": "Microsoft Advertising is rolling out AI Max globally, bringing expanded Search matching, text customization, URL expansion and new advertiser controls to Search campaigns. The post Microsoft Advertising Rolls Out AI Max Globally appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T19:41:53+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWsxc0VDUFNQaHlLWVkxcGFCeVFnaXd4bXFSLTZBd1QzOW9NbDByODlVa0lENVFUeVlmODQtcWp6RWRDSFJvSDR6UE9xNC0wclltdy1LQUhqdU1UZFd5Wm0yVmNnR1B1aHh3ckZiZ0huSG1ZR1htRk5rNDVtYW94WnJiTHFDeUI3Nl9rQkRWamFHZVd5U0FWZ2V0VG93LUJPeWhaYXVKSQ?oc=5",
-     "title": "Microsoft Advertising rolls out AI Max globally for Search campaigns",
-     "summary": "Microsoft Advertising rolls out AI Max globally for Search campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T20:46:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-41909.html",
-     "title": "Microsoft Advertising Rolling Out AI Max Globally",
-     "summary": "Microsoft Advertising is rolling out AI Max globally and to all advertisers. If you log in to your Microsoft Advertising account, you should be able to toggle on the AI Max setting for your search campaigns.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-20T11:21:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFpsYTAyLTdVTFE2UU5pTXVmUHJ0SnU1N2d0UjZMdFFtZDRsYVktam5oWmJaVjVnNkZDM2xzNlBOeDI5ZG5PdjgzODFTcnV6TFljR0thOUR4blFvMTljMzZ2UUJrX3NqWUdVNjM4aG5OYVh2VkZlSjBsaXppSVB3VFlkSmFxb3BsVFJhYkpNOFJWYmc?oc=5",
-     "title": "AI Max Rolls Out Globally in Microsoft Advertising",
-     "summary": "AI Max Rolls Out Globally in Microsoft Advertising &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-21T08:17:11+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDlybzVrUzk5RkdVU2RNQkRTYjlJeUpmMm1kcC02bWJOOWg4dERDSldIT2V6dnNJaEd4OFVzQVZBQm1SLW1VLWpJcmgtRkZRWGtaNVNRQTdXb1JmemRiVmplajc0U3VrUjdxRXY1SFpRdDBtSlpjdmstREpPQjRjbktpRmVpRlg4aU1SQ25iTUVBOXNuSmJOT200ai10Q0UtOXV1NWRFZHNxaDkwdUt1NA?oc=5",
-     "title": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns",
-     "summary": "Microsoft Advertising removes Max CPC from new standalone bidding campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-20T16:01:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.searchenginejournal.com/microsoft-ads-is-removing-max-cpc-from-new-campaigns/586527",
-     "title": "Microsoft Ads Is Removing Max CPC From New Campaigns via @sejournal, @brookeosmundson",
-     "summary": "Microsoft Advertising will remove Max CPC from new non-portfolio campaigns starting Oct. 1, shifting advertisers toward automated bidding controls and performance targets. The post Microsoft Ads Is Removing Max CPC From New Campaigns appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-20T18:13:03+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-ads-removes-max-cpc-conversion-based-strategies",
-     "title": "Microsoft Ads Removes Max CPC for Conversion-Based Strategies",
-     "summary": "Microsoft Advertising is investing heavily in enhancing its bidding and measurement capabilities . Advertisers using conversion-based bidding strategies like TCPA and TROAS are finding it easier to meet their goals compared to those relying on legacy controls such as Max CPC, which can disrupt spend pacing due to overriding stated objectives. Starting October 1, 2026 , Microsoft Advertising will eliminate the ability to set a Max CPC for new campaigns using the standalone Max Conversion, Max Conversion Value, and Max Click bidding strategies .&nbsp; Source: Anthony Higman Existing campaigns wi",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-21T04:32:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html",
-     "title": "Microsoft Advertising Max CPC Won't Be Available For New Campaigns On Oct 1",
-     "summary": "Microsoft Advertising sent out emails yesterday announcing changes coming to Max CPC bidding. Microsoft wrote, \"Max CPC will no longer be available when creating new non-portfolio campaigns\" after October 1, 2026.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-21T11:41:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Microsoft Advertising spouští AI Max globálně a ruší Max CPC u nových kampaní",
-   "updated": "2026-08-24T13:24:00.108387+00:00",
-   "what": "Microsoft Advertising spustil globálně funkci AI Max pro Search kampanně, která přináší rozšířené párování dotazů, automatickou úpravu textů inzerátů, rozšíření URL a nové kontrolní možnosti. Současně od 1. října 2026 zrušil možnost nastavit Max CPC u nových kampaní používajících strategie Max Conversions, Max Conversion Value a Max Clicks – stávající kampaně nejsou dotčeny.",
-   "why": "Jde o posun k automatizovaným strategiím nabídkování, který omezuje manuální kontrolu. Microsoft argumentuje, že Max CPC může narušovat tempo utrácení a brání plnění cílů u konverzních strategií. AI Max naopak slibuje větší automatizaci a lepší výkon, ale méně přímé kontroly nad jednotlivými kliky.",
-   "takeaway": "Pokud plánujete nové Microsoft Ads kampaně po říjnu 2026, nemůžete již použít Max CPC jako pojistku proti vysokým CPC – musíte spoléhat na cílové CPA/ROAS nebo portfolio strategie. U stávajících kampaní kontrolu zatím zachováte. Otestujte AI Max na menším vzorku, abyste zjistili, jak funguje s vašimi daty a zda přináší lepší výsledky oproti manuálnímu nastavení.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/35e0793763.jpg",
-   "image_from": "searchenginejournal.com"
   },
   {
    "id": "8f7b5f0e27",
@@ -4308,41 +4515,6 @@
    "multi_source": false
   },
   {
-   "id": "4eb0ecd150",
-   "created": "2026-07-30T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGx6QUNvT1hLcFFWWFlWOVBvdm9UYkhGVVV5MkxLZzJoRGNuZkltVmZyN05ib205Y2hTalcxWkExQ09aSzFoRFlCejZpYVdOUGJSTGUyRVpxSHA3MjdzbVI1eWtUY2sxQXpwc1UxOXF3MGZfLWFYSXRlNHMwcnNXckNHTkI?oc=5",
-     "title": "New in AI Check: How AI systems perceive your brand and when they recommend it",
-     "summary": "New in AI Check: How AI systems perceive your brand and when they recommend it &nbsp;&nbsp; SISTRIX",
-     "source": "Sistrix blog",
-     "domain": "sistrix.com",
-     "published": "2026-07-30T07:00:00+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://www.searchenginejournal.com/decision-coverage-why-ai-recommends-some-brands-and-not-others/583028",
-     "title": "Decision Coverage: Why AI Recommends Some Brands And Not Others via @sejournal, @billhunt",
-     "summary": "AI doesn't recommend products, it recommends decisions. A SaaS case study shows why missing evidence, not weak authority, causes exclusion from AI recommendations. The post Decision Coverage: Why AI Recommends Some Brands And Not Others appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T19:00:10+00:00",
-     "score": 52
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "SISTRIX spustil AI Check: sleduje, kdy AI doporučí vaši značku",
-   "updated": "2026-08-19T20:56:17.146554+00:00",
-   "what": "SISTRIX představil nový nástroj AI Check, který monitoruje, jak AI systémy (chatboti, asistenti) vnímají vaši značku a kdy ji doporučují uživatelům. Podle case study z oboru SaaS AI nedoporučuje produkty primárně podle autority značky, ale podle toho, zda má dostatek důkazů (evidence) pro rozhodnutí – chybějící informace vedou k vyřazení z doporučení.",
-   "why": "S nástupem AI asistentů (ChatGPT, Gemini, Copilot) začíná část uživatelů hledat doporučení produktů a služeb přes AI místo klasického vyhledávání. Pokud AI nemá pro vaši značku potřebné informace k rozhodnutí, nezahrne ji do odpovědi – i když jste autoritativní hráč na trhu.",
-   "takeaway": "Zkontrolujte, zda jsou na webu a v online obsahu jasně viditelné informace, které AI potřebuje pro doporučení (funkce, ceny, use-case, výhody). Sledujte pomocí AI Check, zda vás AI systémy doporučují v relevantních dotazech – absence v AI odpovědích může znamenat ztrátu návštěvnosti.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4eb0ecd150.jpg",
-   "image_from": "sistrix.com"
-  },
-  {
    "id": "73f63ff615",
    "created": "2026-08-19T15:00:00+00:00",
    "articles": [
@@ -4764,56 +4936,6 @@
    "multi_source": true,
    "image": "img/44fa41ec6e.jpg",
    "image_from": "developers.google.com"
-  },
-  {
-   "id": "8b44187d6d",
-   "created": "2026-08-18T13:01:30+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/what-we-can-learn-from-evolving-chatgpt-fan-out-queries/586254",
-     "title": "What We Can Learn From Evolving ChatGPT Fan-Out Queries via @sejournal, @lilyraynyc",
-     "summary": "ChatGPT's search behavior is starting to look like E-E-A-T. Here's the data behind that theory, and what to do about it. The post What We Can Learn From Evolving ChatGPT Fan-Out Queries appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T13:01:30+00:00",
-     "score": 47
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "ChatGPT začíná vyhledávat podobně jako Google s E-E-A-T",
-   "updated": "2026-08-18T13:16:10.959722+00:00",
-   "what": "Analýza chování vyhledávání ChatGPT ukazuje, že začíná při odpovědích preferovat zdroje podobným způsobem, jako Google hodnotí E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Jde o evoluci tzv. fan-out dotazů – jak ChatGPT rozhoduje, které zdroje použije.",
-   "why": "Pro SEO specialisty a obsahové stratégy to znamená, že optimalizace obsahu pro AI vyhledávače může začít kopírovat osvědčené principy z Google SEO. Pokud se potvrdí podobnost s E-E-A-T, existující práce na autoritě a důvěryhodnosti webu může mít hodnotu i pro viditelnost v AI odpovědích.",
-   "takeaway": "Sledujte, zda vaše obsahová strategie zahrnuje prokazatelnou expertizu, autoritu a důvěryhodnost – nejen pro Google, ale potenciálně i pro AI nástroje. Konkrétní data a doporučení jsou ve zdrojovém článku.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "baa41eecdd",
-   "created": "2026-08-18T12:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wcnpwdl9DY09jcmVDZkZoYmdaOURFdFVHQmp2UGJUNldJU3RRNlgwem1nSElnNEVXNWtzUTQ2ZGRVei1fZ2ZwTTlFRjYwWnRzZG1YaldvaUVJMERyZDJvWENTZW40bGVm?oc=5",
-     "title": "Local 5.0: The next evolution of local SEO is here",
-     "summary": "Local 5.0: The next evolution of local SEO is here &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-18T12:00:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Local 5.0: nová éra lokálního SEO podle Search Engine Land",
-   "updated": "2026-08-18T13:16:10.959722+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false,
-   "image": "img/baa41eecdd.jpg",
-   "image_from": "searchengineland.com",
-   "what": "Search Engine Land představil koncept \"Local 5.0\" jako další evoluční stupeň lokálního SEO. Jde o teoretický rámec popisující vývoj lokálního vyhledávání od prvních adresářů po současné AI-poháněné odpovědi.",
-   "why": "Pro firmy s pobočkami nebo místní působností může jít o změnu v tom, jak optimalizovat prezenci pro lokální vyhledávání. Článek pravděpodobně popisuje nové faktory a signály, které ovlivňují viditelnost v lokálních výsledcích.",
-   "takeaway": "Bez přístupu k plnému obsahu článku nelze poskytnout konkrétní doporučení. Pokud spravujete lokální pobočky nebo se zaměřujete na místní zákazníky, sledujte vývoj Local SEO – může to ovlivnit váš Google Business Profile, lokální citace a strategii obsahu."
   },
   {
    "id": "263d0dbaef",
@@ -5263,63 +5385,6 @@
    "takeaway": "Sledujte, jak AI nástroje pracují s obsahem ve vašem oboru. Pokud část vašeho publika používá ChatGPT nebo AI Overviews, zvažte úpravu struktury článků, FAQ sekcí a faktografického obsahu tak, aby byl lépe citovatelný AI. Jedná se zatím o trend, nikoli urgentní změnu praxe."
   },
   {
-   "id": "7949f1f96b",
-   "created": "2026-07-20T10:11:37+00:00",
-   "articles": [
-    {
-     "url": "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai",
-     "title": "AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI?",
-     "summary": "Svět vyhledávání se definitivně změnil. Klasické internetové vyhledávače doplnily AI nástroje, které stále častěji odpovídají na otázky uživatelů přímo, bez potřeby prokliknout na web. To zásadně mění způsob, jakým firmy vyhodnocují svou viditelnost ve vyhledávání. My v Taste měříme AI viditelnost pomocí vlastního nástroje AIVA. Proč se viditelnost v AI stala novou součástí SEO Dosavadní,... The post AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI? appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-07-20T10:11:37+00:00",
-     "score": 70
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Český nástroj AIVA měří viditelnost značek v odpovědích AI asistentů",
-   "updated": "2026-08-17T14:54:17.723492+00:00",
-   "what": "Agentura Taste (Digichef) spustila vlastní nástroj AIVA pro měření viditelnosti značek a webů v odpovědích AI nástrojů (ChatGPT, Perplexity apod.). Jde o reakci na změnu ve vyhledávání – AI asistenti stále častěji odpovídají přímo, bez kliknutí na web.",
-   "why": "Klasické SEO metriky (pozice v Google, CTR) nezachycují, jak často AI nástroje zmíní vaši značku nebo web v generovaných odpovědích. AIVA nabízí nový pohled na viditelnost tam, kde tradiční vyhledávače už nemusí být primárním zdrojem návštěvnosti.",
-   "takeaway": "Pokud investujete do SEO, sledujte, zda se vaše značka/obsah objevuje v odpovědích AI asistentů – může to ovlivnit budoucí návštěvnost a potřebu adjustovat contentu strategii. Zvažte testování nástrojů typu AIVA pro monitoring AI visibility.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "34211d02a1",
-   "created": "2026-08-06T11:00:03+00:00",
-   "articles": [
-    {
-     "url": "https://blog.hubspot.com/marketing/hubspot-vs-ahrefs-aeo",
-     "title": "HubSpot AEO vs. Ahrefs Brand Radar: Features compared [2026]",
-     "summary": "As more buyers skip search entirely and go straight to ChatGPT, Gemini, or Perplexity for recommendations, marketers are realizing they need a new kind of tool — one that shows them how their brand appears in AI answers and what to do about it. That’s what both HubSpot AEO and Ahrefs Brand Radar are built for. But they take meaningfully different approaches, and the right choice depends almost entirely on what you need to do after you get the data.",
-     "source": "HubSpot Marketing Blog",
-     "domain": "blog.hubspot.com",
-     "published": "2026-08-06T11:00:03+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush",
-     "title": "How to find AI visibility gaps with Semrush",
-     "summary": "Find AI visibility gaps with Semrush. Spot prompts and sources where competitors get cited but you don‘t.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-07-27T09:34:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "HubSpot, Ahrefs a Semrush spustily nástroje pro sledování viditelnosti značky v AI",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "HubSpot uvedl AEO nástroj, Ahrefs představil Brand Radar a Semrush přidal funkci pro hledání mezer v AI viditelnosti. Všechny tři produkty mají sledovat, jak se značka zobrazuje v odpovědích ChatGPT, Gemini nebo Perplexity a kde se zmiňují konkurenti místo ní.",
-   "why": "Část uživatelů místo Googlu jde rovnou do AI chatbotů pro rady a doporučení. Pokud se tam vaše značka neobjevuje, přicházíte o reach. Tyto nástroje mají ukázat, které prompty a zdroje konkurence vytěžuje, zatímco vy v nich chybíte.",
-   "takeaway": "Pokud investujete do obsahu nebo PR a chcete měřit AI reach, sledujte dostupnost těchto nástrojů v ČR. Zatím jde o novou kategorii, která ještě nemá jasné use case ani návratnost – zvažte pilotní test, až nástroje půjdou použít s česky relevantními daty.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
    "id": "340885228b",
    "created": "2026-08-05T07:00:00+00:00",
    "articles": [
@@ -5750,30 +5815,6 @@
    "image_from": "martech.org"
   },
   {
-   "id": "2c73c6699d",
-   "created": "2026-07-28T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRGUtay1TOWFZcUlfZThveXZDY29IQjhGckpXS01iLWVIWUJXWkp2c09hUGVoMzdOMHBINEJ6SDVTSlFyM1RyN2ZyQnBoaG5POUlicGJkU0VwY1ozR2dkVkY3LTBwNmc1SVBaQnN0NmplRlFlbXc?oc=5",
-     "title": "Yelp brings reviews and local leads to ChatGPT",
-     "summary": "Yelp brings reviews and local leads to ChatGPT &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-07-28T07:00:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Yelp integruje recenze do ChatGPT",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "Yelp uzavřel partnerství s OpenAI a zpřístupnil své databáze recenzí a informací o lokálních firmách přímo v ChatGPT. Uživatelé tak mohou v konverzaci získat doporučení restaurací, služeb a dalších podniků včetně hodnocení a kontaktů.",
-   "why": "Jde o posun v tom, jak lidé hledají lokální služby – místo vyhledávačů nebo map mohou začít u AI chatbota. Pro firmy to znamená nový kanál, kde se objevují jejich recenze a údaje, nad kterým ale nemají přímou kontrolu jako nad vlastním webem nebo Google profilem.",
-   "takeaway": "Sledujte, zda vaše firma (pokud máte Yelp profil nebo jste v lokálním byznysu) začne dostávat dotazy nebo návštěvnost z ChatGPT. Udržujte aktuální a kvalitní recenze na všech platformách – AI je bude stále častěji citovat.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "a91ffcce83",
    "created": "2026-07-27T11:36:55+00:00",
    "articles": [
@@ -5843,30 +5884,6 @@
    "why": "Jde o standardní evergreen obsah – návod/checklist bez konkrétní novinky. Nedošlo k žádné změně algoritmu, nástroje ani pravidel. Pro běžného marketingového manažera to není akční informace, ale obecné doporučení.",
    "takeaway": "Pokud řešíte technické SEO, může být článek užitečný jako kontrolní seznam. Pro běžnou práci ale nepřináší novou informaci vyžadující okamžitou akci.",
    "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "2c3fe417be",
-   "created": "2026-07-27T08:00:13+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/google-doesnt-punish-ai-content",
-     "title": "Google Doesn’t Punish AI Content; It Punishes Bad Content (331k Pages Studied)",
-     "summary": "On the one hand, Google says they don’t care whether AI is used for content creation, as long as the content isn’t designed “with the primary purpose of manipulating ranking in search results.” On the other hand, people like Lily &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-07-27T08:00:13+00:00",
-     "score": 65
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Studie: Google netrestá AI obsah, ale špatnou kvalitu (analýza 331k stránek)",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "Ahrefs analyzoval 331 tisíc stránek a potvrdil, že Google netrestá obsah vytvořený umělou inteligencí jako takový. Penalizuje pouze obsah primárně určený k manipulaci pozic ve vyhledávání, bez ohledu na způsob vzniku.",
-   "why": "Studie na velkém vzorku dat potvrzuje oficiální stanovisko Googlu a může ukončit spekulace o automatickém trestání AI obsahu. Pro marketéry je klíčové zaměřit se na kvalitu a účel obsahu, ne na nástroj tvorby.",
-   "takeaway": "Pokud používáte AI pro tvorbu obsahu, zaměřte se na kvalitu, relevanci a přínos pro uživatele. Samotné použití AI není riziko pro SEO – riziko představuje nekvalitní nebo manipulativní obsah bez reálné hodnoty.",
-   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -5966,54 +5983,6 @@
    "multi_source": false
   },
   {
-   "id": "b967e8dc67",
-   "created": "2026-07-24T11:03:53+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/ai-search-trends",
-     "title": "5 AI Search Trends I’m Seeing in 2026, Backed by Ahrefs Data",
-     "summary": "Every week brings a new acronym, a new era, a new thing you are supposedly already too late for. Some of it changes how we work, but a lot of it is—let’s be honest—noise. Well, fear not. I’ve curated some &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-07-24T11:03:53+00:00",
-     "score": 65
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Ahrefs: 5 trendů AI vyhledávání v roce 2026 podložených daty",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "Ahrefs publikoval analýzu trendů v oblasti AI vyhledávání pro rok 2026, založenou na vlastních datech. Článek slibuje oddělení skutečně relevantních změn od běžného šumu v oboru.",
-   "why": "Pro SEO specialisty a marketingové manažery může jít o pohled na směřování vyhledávání založený na datech z velkého nástroje. Ahrefs má rozsáhlou databázi, takže jeho postřehy mohou být relevantnější než běžné predikce.",
-   "takeaway": "Sledujte tento rozbor, pokud plánujete SEO strategii na rok 2026 – může obsahovat konkrétní data o změnách ve vyhledávání, která ovlivní vaši práci s klíčovými slovy a obsahem. Vyhodnoťte, které trendy se týkají českého trhu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "18516af0c2",
-   "created": "2026-07-24T07:55:42+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/ai-search-strategy",
-     "title": "AI Search Strategy: 4 Pillars to Show Up More (and Right) in AI Answers",
-     "summary": "Before someone ever lands on your website, an AI assistant may have already explained what your product does, compared it with competitors, and helped them decide whether you’re worth considering. By the time someone clicks through to your site after &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-07-24T07:55:42+00:00",
-     "score": 70
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Ahrefs radí: 4 pilíře strategie pro zobrazování v AI odpovědích",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "Ahrefs publikoval strategii, jak se firmy mohou dostat do odpovědí AI asistentů (ChatGPT, Perplexity, Google AI Overview). Zdůrazňuje, že AI nástroje dnes často odpovídají na dotazy uživatelů dříve, než se uživatel dostane na web – porovnají produkty, vysvětlí funkce a ovlivní rozhodnutí.",
-   "why": "AI vyhledávání roste a mění způsob, jak lidé hledají informace před nákupem. Pokud vaše značka nebo produkt v AI odpovědích chybí, můžete přijít o potenciální zákazníky ještě před tím, než vás vůbec navštíví. Pro marketingové manažery jde o nový kanál viditelnosti, který doplňuje SEO.",
-   "takeaway": "Sledujte, jak AI nástroje odpovídají na dotazy relevantní pro vaše produkty. Upravte obsah na webu tak, aby byl pro AI snadno zpracovatelný (strukturovaná data, jasné odpovědi na časté otázky). Ahrefs nabízí metodiku ve 4 pilířích – doporučuji nastudovat a zvážit v dlouhodobé content strategii.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "842b44c331",
    "created": "2026-07-23T11:01:33+00:00",
    "articles": [
@@ -6058,30 +6027,6 @@
    "what": "YouTube se soustředí na zvýšení sledovanosti na velkých obrazovkách v obýváku (connected TV). Marketéři by měli přizpůsobit svůj obsah a strategii kanálu pro diváky sledující YouTube na 65palcových televizích místo mobilů nebo počítačů.",
    "why": "Rostoucí podíl sledování YouTube na televizích mění požadavky na formát, design a způsob prezentace obsahu – co funguje na mobilu, nemusí být dobře čitelné nebo působivé na velkém TV displeji.",
    "takeaway": "Zkontrolujte, zda vaše YouTube videa (zejména grafika, titulky a vizuální prvky) jsou dobře čitelné a působivé i na velkých obrazovkách. Zvažte úpravu formátu obsahu a využití nových YouTube funkcí zaměřených na TV sledování.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "9079e3a0ff",
-   "created": "2026-07-23T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhTHVqSnBhWnhIWW1QR2VKYnh1OF9sMGVWa2o4WGdPaDBGNmdhWEdlbVhEdWRBdEFLVDZhTVRtNDdzY2FJUVRiQVVYakJPX09teGVPbDg5RHhsUTVVR2xLWGVR?oc=5",
-     "title": "ChatGPT gains access to Yelp reviews, ratings, and photos",
-     "summary": "ChatGPT gains access to Yelp reviews, ratings, and photos &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-07-23T07:00:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "ai",
-   "importance": 45,
-   "title": "ChatGPT nyní zobrazuje recenze a fotky z Yelpu",
-   "updated": "2026-08-17T13:19:56.133140+00:00",
-   "what": "ChatGPT dostal přístup k recenzím, hodnocením a fotografiím z platformy Yelp. Uživatelé tak mohou přímo v konverzaci s AI získat informace o firmách, restauracích a službách včetně uživatelských hodnocení a vizuálního obsahu.",
-   "why": "Jde o posílení role ChatGPT jako vyhledávacího nástroje, který může konkurovat klasickým vyhledávačům. Pro firmy to znamená další místo, kde se jejich online reputace a recenze mohou zobrazovat – tentokrát zprostředkovaně přes AI.",
-   "takeaway": "Sledujte, zda a jak AI nástroje jako ChatGPT zprostředkovávají vaše recenze z různých platforem. V budoucnu to může ovlivnit, kde a jak aktivně spravujete reputaci firmy. Pro český trh zatím přímý dopad minimální – Yelp se u nás nepoužívá, sledujte však případnou integraci s Google, Firmou.cz nebo Zboží.cz.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -6182,39 +6127,6 @@
    "multi_source": true,
    "image": "img/46abc14dc8.jpg",
    "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "5417af8b9a",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/chatgpt-ads-automated-bidding-placements-url-parameters",
-     "title": "ChatGPT Ads Get Automated Bidding, Placements, and URL Parameters",
-     "summary": "ChatGPT ads now include automated bidding, placement controls, and new URL parameters for third-party tracking. The post ChatGPT Ads Get Automated Bidding, Placements, and URL Parameters appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-13T11:30:13+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWt6d1JrWHphRURBOE9fQ1B5NTlJcWJ6SXpCUXFwQlJsMzRNdnRXLUluWnRSYUFkc0IxdHFXU1lXR2s3b1pCeGZfZEQ2UjdKZ3ZiMjZvS0dPUm1TNDV6N1FEZ0NYc0Jqb3pfWF9YTS1WN3hrMEVkRjIwdEFyWU5hcFFtY1BoRXJiQzdKNlliWnBRNmlmLWQwUkswdmJMRUNxdHVKeElMM0pZUQ?oc=5",
-     "title": "OpenAI appears to be building chatbot-native ads that launch AI agents",
-     "summary": "OpenAI appears to be building chatbot-native ads that launch AI agents &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-07-31T07:00:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "ChatGPT spustil automatické bidding a tracking parametry pro reklamní inzerci",
-   "updated": "2026-08-17T10:59:36.879807+00:00",
-   "what": "OpenAI rozšířil funkce reklamní platformy ChatGPT Ads o automatické bidding, kontrolu umístění reklam a nové URL parametry pro sledování třetími stranami. Podle zdrojů OpenAI také pracuje na nativních reklamních formátech přímo v chatbotu, které mohou spouštět AI agenty.",
-   "why": "ChatGPT se posouvá od experimentální platformy k plnohodnotnému reklamnímu kanálu s nástroji, které znají marketéři z Google Ads nebo Meta – automatizace nabídek a tracking konverzí. Jde o signál, že konverzační AI se stává reálným místem pro alokaci rozpočtu.",
-   "takeaway": "Pro české firmy je zatím ChatGPT Ads jen zajímavost k sledování – platforma není v ČR/EU plně dostupná a chybí lokální audience data. Sledujte vývoj: pokud OpenAI otevře trh v EU, budete muset rychle testovat tracking a nastavení kampaní podobně jako při startu nových Meta formátů.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "af243acb8e",
