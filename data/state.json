@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-26T18:11:57.682587+00:00",
+ "last_run": "2026-08-26T20:15:17.827390+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f9a2ab85f40>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd50a10d8e0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -95,13 +95,13 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -136,7 +136,7 @@
   {
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: Exceeded 30 redirects.)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -215,7 +215,7 @@
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Ecomail blog",
@@ -239,7 +239,7 @@
    "name": "Litmus",
    "feed": "https://www.litmus.com/blog/feed",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Email on Acid",
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Jon Loomer",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -2100,213 +2100,17 @@
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUmU3VTEza1RlMjlOV3g5S2EwXzlRZ0RoUExBU1VEYk5CNHZfRFdfa3UtaUd1QTJIWGt1N1lqclZRRUw2Z0NkVHczcG9rd0Y0YWtwa291Y1VpUms2NDd5TlVZc0VzVndWeEg0SnpCamROMWtUNHVlMlpnVU1scDc0Z1lyeTZCZU0?oc=5": "2026-08-26T18:11:57.682587+00:00",
   "https://www.semrush.com/blog/google-august-2026-spam-update": "2026-08-26T18:11:57.682587+00:00",
   "https://www.semrush.com/blog/reddits-citations-in-chatgpt-fall": "2026-08-26T18:11:57.682587+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRW9sZXotd2NCYVpsQWo4RkVsNkdkX0xvTHhKOEJPMmNYUFZFMHRIcG1mdVlRMkRrYk9lNEZ2V05XTWF6WF9uaVhHdWNvTTZueV9lUWlTbHgwNnJNM3JId0hHUXdaZGhCY2M0UFlKTnJyX0x0a1VPeVZGNm1KazhXbDhSMXdTMWpmaUllZHJrWlY5a05CR01UOENReGlWX0RYekpCWXZHdktzXzEwcXBtQ3Rwa3NqOERnb1JvQ1U1Vm8?oc=5": "2026-08-26T18:11:57.682587+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRW9sZXotd2NCYVpsQWo4RkVsNkdkX0xvTHhKOEJPMmNYUFZFMHRIcG1mdVlRMkRrYk9lNEZ2V05XTWF6WF9uaVhHdWNvTTZueV9lUWlTbHgwNnJNM3JId0hHUXdaZGhCY2M0UFlKTnJyX0x0a1VPeVZGNm1KazhXbDhSMXdTMWpmaUllZHJrWlY5a05CR01UOENReGlWX0RYekpCWXZHdktzXzEwcXBtQ3Rwa3NqOERnb1JvQ1U1Vm8?oc=5": "2026-08-26T18:11:57.682587+00:00",
+  "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion": "2026-08-26T20:15:17.827390+00:00",
+  "https://www.litmus.com/blog/the-email-footer-small-space-big-responsibility": "2026-08-26T20:15:17.827390+00:00",
+  "https://www.searchenginejournal.com/why-running-youtube-ads-like-search-will-burn-your-budget/584794": "2026-08-26T20:15:17.827390+00:00",
+  "https://www.seroundtable.com/dolly-parton-easter-egg-41955.html": "2026-08-26T20:15:17.827390+00:00",
+  "https://www.marketingbrew.com/stories/state-farm-nfl-campaign": "2026-08-26T20:15:17.827390+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRnp6ejZSSXpFUUhiQ1ZZV1JiQzM3NmU2RVVGRjBxbktvNXZ1YklpWTVVbUIxRnR0QkprVy16MXhBNEZLYWRXdGRydFZEd0hjelk2eW5ueVpMWndHbVpadERBSE1jRXNDSGV4OXAteDE5TjBTUVF6aTV5MTA5ejloc05RdWExeUxyRkhQbUNLZ0xuUkplaFoxVVN0dUNDV3pPbVYyT2lkWUsxd3BCTEJZTWJYTmdVS25XRHhlaTZTdEo?oc=5": "2026-08-26T20:15:17.827390+00:00",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMl9oV1AxaWtCNUQ2QUxlTHpuTk44NFQxZERFa2pTYUZXUVdPWGowd1YxWW8zWlExVUxxUl9FRzk0YkxveWdWQVZNWlJyMHZsbVNwSkRpV0pRdGhKUGtaejJlNlR2eFBxRzJ0SG52eDlrc2V5SFEzTDU3eFZnel9RZUVwWTdjbm5pWVRUVUlHVjA0Z2xDX1hhN1o4aGRGb3pScXpGb3g2d0dPUWltT0VJUm80cXg1UVh6RDBvdQ?oc=5": "2026-08-26T20:15:17.827390+00:00",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYUxXcUdaZXlUTG12eDJRUkt6ZFRBeVJkeE5vc1BwUjlsOFg2WWc2RThIRk5QZnFRd0RfWVlZSTRYSjBhT25sVmhhMFptS1JlMnlCcWVSQmtiRkxOSFc5RzVxR3VFTFY4aTBiMXBHdnRzUnl1aWlmcWVwNzE2M19GdDR6a2RKUVdGNE9mZG0xb1BiWmV5al9fdEhTbzdvUnVraXduQ2YtWFppTnZuRGNwVjlSYzloV3M4NHlGbmdIaWdGWnpkbmhIcA?oc=5": "2026-08-26T20:15:17.827390+00:00"
  },
  "events": [
-  {
-   "id": "68561720b2",
-   "created": "2026-08-26T08:25:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.semrush.com/blog/google-august-2026-spam-update",
-     "title": "Google releases August 2026 spam update: What marketers need to know",
-     "summary": "Google‘s August 2026 spam update finished rolling out on August 21. Learn what changed, what didn‘t, and how to read your data.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-26T08:25:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
-     "title": "Google Search Ranking Volatility Continues Post Spam Update",
-     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:55:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
-     "title": "Has Google demoted listicles?",
-     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T12:00:00+00:00",
-     "score": 55
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google dokončil srpnový spam update 2026",
-   "updated": "2026-08-26T18:12:59.902421+00:00",
-   "what": "Google 21. srpna dokončil rollout srpnového spam updatu 2026. Jde o pravidelnou aktualizaci zaměřenou na potírání spamových praktik ve vyhledávání.",
-   "why": "Spam updaty Googlu moją přímo ovlivnit viditelnost webu v organickém vyhledávání. Weby používající manipulativní techniky (automaticky generovaný obsah, skrytý text, cloaking, spam komentáře) mohou zaznamenat pokles pozic a návštěvnosti.",
-   "takeaway": "Zkontrolujte svoje analytická data od poloviny srpna – pokles organické návštěvnosti může signalizovat, že Google vyhodnotil některé části webu jako spam. V takovém případě odstraňte problematický obsah a dodržujte Spam Policies Googlu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/47472ffd48.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "ec6accb556",
-   "created": "2026-08-26T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-channel-settings-prioritization-slider-41949.html",
-     "title": "Google Ads Channel Settings Prioritization Slider (Alpha Test)",
-     "summary": "Google is testing a new \"Channels\" slider that lets you adjust how much you prioritize conversions from your Google Ads channels, such as Google Search, Google Partners, Discover, Maps, YouTube, the Display Network and Gmail.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:05:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-product-titles-report-41948.html",
-     "title": "Google Ads AI-Created Product Titles Report Beta",
-     "summary": "Google is beta testing a new Product title report within Google Ads. This is a special product title report for Al-created product titles. The report should show in your ads when they're more relevant than your original titles, Google wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:11:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHN2ejRucGp4RDg0QUo4M09CWGhfb3RqU1VJSG1xWFpOVGp1QWdVNHRaN2ZtYkduMXRLenVGblE3aXNFTTVURUp5NFZWYVpJeXAwa1lpakNXOWw4ZDl1dEdTT2dTYU9pUjFkdXptWmF2S0JpdzVEeXFSa1R3cGRFWU5yTnRWNzUtLWo4eHk0N0NDMG5xa1dRWA?oc=5",
-     "title": "Google Ads adds reporting for AI-generated product titles",
-     "summary": "Google Ads adds reporting for AI-generated product titles &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T14:58:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810",
-     "title": "How To Advertise In Google AI Mode For Ecommerce via @sejournal, @tonyadam",
-     "summary": "Google generates AI Mode ads directly from your product feed, not your ad copy. Here's which Merchant Center attributes decide whether your products get chosen. The post How To Advertise In Google AI Mode For Ecommerce appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-26T12:00:17+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjJ3cERfU25mYlBvd0pYemlGV0ZmWWRDX1V3TWtFSTNXcWpwekxWN08zdXFDZl9ER1hBVGwzNEdvTlFpRjUxcFR6VERHR2RHandSaGdYWC1MT1hSWGEzZm1uZjcxUVhoUTlrTXRpNjRvUGxHRlltNmNtOVBQNDQwZnhSaTUxSkhZd085ZDJMX3c3cGUwaUdBaG1QLWFXSHM?oc=5",
-     "title": "Google Ads API Developer Assistant gets major AI agent upgrade",
-     "summary": "Google Ads API Developer Assistant gets major AI agent upgrade &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T15:43:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-moves-policy-manager-new-admin-location",
-     "title": "Google Moves Policy Manager to New Admin Location",
-     "summary": "Google has relocated its Policy Manager , which oversees the policy status of limited and disapproved ads, from Tools &gt; Troubleshooting to Admin &gt; Policy .&nbsp; A new Ads tab has been added alongside the existing Account tab, which focuses on account verifications and certifications. This update was shared by Vojtěch Audy . The post Google Moves Policy Manager to New Admin Location appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-26T15:59:00+00:00",
-     "score": 72
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads testuje prioritizaci kanálů pomocí posuvníku a AI titulky produktů",
-   "updated": "2026-08-26T18:12:48.266278+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/ec6accb556.jpg",
-   "image_from": "seroundtable.com",
-   "what": "Google Ads spustil alfa test nového posuvníku \"Channels\", který umožňuje nastavit prioritu konverzí z jednotlivých kanálů (Search, Partners, Discover, Maps, YouTube, Display, Gmail). Zároveň běží beta test reportu pro AI-vytvořené titulky produktů, které Google automaticky generuje z product feedu a zobrazuje je místo původních titulků, když jsou relevantnější.",
-   "why": "Posuvník prioritizace kanálů může změnit způsob řízení kampaní napříč Google ekosystémem – dosud šlo nastavit jen bidding strategie, ne přímou váhu jednotlivých kanálů. AI titulky produktů znamenají, že inzerenti ztrácejí část kontroly nad tím, co se zobrazuje uživatelům, protože Google přepisuje titulky na základě dat z Merchant Center, nikoli z reklamních textů.",
-   "takeaway": "Sledujte, zda se vám posuvník prioritizace zobrazí v účtu – může pomoci lépe řídit výkon napříč kanály. U Shopping kampaní zkontrolujte nový report AI titulků v Google Ads a porovnejte výkon s původními – kvalita dat v Merchant Center (atributy produktů) bude čím dál důležitější pro viditelnost."
-  },
-  {
-   "id": "094abad828",
-   "created": "2026-08-10T09:52:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.semrush.com/blog/overcoming-ai-related-traffic-loss",
-     "title": "Traffic Is Down—Now What? Marketing Success In the Age of AI",
-     "summary": "Google traffic is slowly declining. Learn how to future-proof your business in the AI era.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-10T09:52:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
-     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
-     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
-     "source": "PPC Hero",
-     "domain": "news.google.com",
-     "published": "2026-08-14T13:14:12+00:00",
-     "score": 45
-    },
-    {
-     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
-     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
-     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T22:03:26+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
-     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
-     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T14:47:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
-     "title": "What's Next for Your Brand Website?",
-     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
-     "source": "Content Marketing Institute",
-     "domain": "contentmarketinginstitute.com",
-     "published": "2026-08-19T10:00:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
-     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
-     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-25T19:00:30+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.marketingaiinstitute.com/blog/trust-as-content-strategy-maicon-2026",
-     "title": "When AI Creates Tons of Content, Trust Becomes the Strategy [MAICON 2026]",
-     "summary": "AI can now produce more content in an afternoon than most marketing teams used to create in a month. For Joe Pulizzi, that's precisely the problem and the opportunity.",
-     "source": "Marketing AI Institute",
-     "domain": "marketingaiinstitute.com",
-     "published": "2026-08-10T14:30:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.semrush.com/blog/reddits-citations-in-chatgpt-fall",
-     "title": "Reddit's citations in ChatGPT fall from 3.8% to 0.5%",
-     "summary": "Promptwatch says Reddit‘s share of ChatGPT citations fell 86% in four days. OpenAI says it hasn‘t changed how it picks sources.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-26T08:21:00+00:00",
-     "score": 45
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Citace Redditu v ChatGPT klesly za 4 dny o 86 %, příčina není jasná",
-   "updated": "2026-08-26T18:11:57.682587+00:00",
-   "what": "Podle dat Promptwatch klesl podíl citací z Redditu ve výsledcích ChatGPT Search z 3,8 % na 0,5 % během čtyř dnů. OpenAI tvrdí, že nezměnilo způsob výběru zdrojů. Analýza struktury dotazů ukazuje, že ChatGPT sice Reddit stále vyhledává (84 vláken se dostalo do retrieval poolu), ale žádné z nich nakonec necituje.",
-   "why": "Pokud plánujete obsah pro AI vyhledávače nebo sledujete jejich chování, tato změna ukazuje, jak rychle a nepředvídatelně se může měnit viditelnost zdrojů v AI nástrojích – bez oznámení a bez jasného vysvětlení. Pro české firmy zatím není přímý dopad, ale jde o signál nestability AI citací jako komunikačního kanálu.",
-   "takeaway": "Nespoléhejte na AI nástroje (ChatGPT Search, Perplexity aj.) jako na stabilní zdroj návštěvnosti – pravidla jejich výběru zdrojů se mohou změnit přes noc. Sledujte vlastní data z Analytics a zaměřte se na vlastní kanály (e-mail, web, SEO v klasickém vyhledávání), kde máte kontrolu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/094abad828.jpg",
-   "image_from": "semrush.com"
-  },
   {
    "id": "e13b3fe728",
    "created": "2026-08-26T16:19:20+00:00",
@@ -2319,103 +2123,28 @@
      "domain": "cc.cz",
      "published": "2026-08-26T16:19:20+00:00",
      "score": 75
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 72,
-   "title": "Meta omezí přístup mladistvých na Facebook a Instagram na 2 hodiny denně",
-   "updated": "2026-08-26T18:11:57.682587+00:00",
-   "what": "Meta zavádí časové limity pro nezletilé uživatele – Facebook a Instagram budou dostupné maximálně 2 hodiny denně, v noci se aplikace zablokují. Pokud mladiství používají i TikTok nebo YouTube, limit klesne na 1 hodinu na každé síti. Opatření souvisí s žalobami, kvůli nimž Meta zaplatí až 372 miliard korun.",
-   "why": "Změna zásadně ovlivní dosah organického i placeného obsahu u mladistvého publika na Facebooku a Instagramu. Firmy cílící na mladou generaci budou mít na těchto platformách výrazně omezenější možnosti oslovení.",
-   "takeaway": "Pokud vaše kampaně cílí na mladistvé, přehodnoťte strategii a rozpočty – dosah na Meta platformách bude omezený. Zvažte diverzifikaci do jiných kanálů nebo přesměrování komunikace na starší segmenty.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/e13b3fe728.jpg",
-   "image_from": "cc.cz"
-  },
-  {
-   "id": "959fd23cec",
-   "created": "2026-08-17T07:31:21.653291+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
-     "title": "X adds video overlays",
-     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T02:42:47+00:00",
-     "score": 52
     },
     {
-     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
-     "title": "X algorithm insights highlight key posting strategies",
-     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T22:47:48+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN1NZa1hNb1dyMUxSbzNuNC04NHRFTW5QSUZUSmlta3VUR0l0bm1PRHJUVk9LZXVCbV80bHEzbVFYYUZfekZRc1d4U1h0U3MzUHNteWpQdlM0cW1yenMtZUtvRVo0WmppSkpQVkdR0gFzQVVfeXFMTnp4bEdQR1BwRjVwYUpZNnNmZDdxQVktM2VkcFlZR190MmliSWE4c1pUUGY1RXRPcUhlWnVjWVItOUplQzBtUHZmWFRocGVGdGlVREZiaVhCMVdqaTRjcjEtVjVtWE9wX1R2bHNDaVpBMmxkZw?oc=5",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Reply to Keywords Meta Ads Feature &nbsp;&nbsp; Jon Loomer Digital",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T12:38:28+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "X (Twitter) vylepšuje editaci videí a odhaluje fungování algoritmu",
-   "updated": "2026-08-26T16:05:46.356198+00:00",
-   "what": "Platforma X (dříve Twitter) přidala pro iOS uživatele možnost přidávat text a emoji přímo do videí, čímž se přibližuje funkcím konkurenčních sociálních sítí. Zároveň Business Insider analyzoval nedávno zveřejněné informace o fungování algoritmu platformy a jak s ním efektivně pracovat.",
-   "why": "Nové editační nástroje umožňují tvorbu atraktivnějšího video obsahu přímo v aplikaci, což může ušetřit čas a náklady na externí nástroje. Pochopení principů algoritmu X pomáhá optimalizovat organický dosah příspěvků bez nutnosti zvyšovat reklamní rozpočet.",
-   "takeaway": "Pokud vaše firma publikuje video obsah na X, ověřte, zda můžete využít nové editační funkce místo externích nástrojů. Prostudujte zveřejněné principy algoritmu a upravte strategii publishingu (timing, formáty) pro lepší organický dosah.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "d465ede499",
-   "created": "2026-08-19T11:00:22+00:00",
-   "articles": [
-    {
-     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
-     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
-     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-19T11:00:22+00:00",
-     "score": 49
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
-     "title": "Deciding #WhatToWatch just got easier with TikTok",
-     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-26T04:07:29+00:00",
-     "score": 49
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350",
-     "title": "TikTok explores expanding in-stream payment options",
-     "summary": "The app&rsquo;s China-based version highlights Douyin Pay as a key transaction option, and Bloomberg reports that a similar feature may be coming to the U.S.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-19T23:19:31+00:00",
+     "url": "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion",
+     "title": "Meta settles landmark child safety suit for more than $17 billion",
+     "summary": "The company agreed to implement additional safety measures—while calling on its rivals to do the same.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-08-26T20:07:41+00:00",
      "score": 57
     }
    ],
    "category": "socialni-site",
-   "importance": 45,
-   "title": "TikTok testuje vlastní platební systém pro transakce v aplikaci",
-   "updated": "2026-08-26T16:05:37.326435+00:00",
-   "what": "TikTok podle Bloomberg zvažuje rozšíření platebních možností přímo v aplikaci, podobně jako již funguje v čínské verzi Douyin s funkcí Douyin Pay. Šlo by o nativní platební řešení pro transakce uvnitř platformy.",
-   "why": "Pro české e-shopy a značky prodávající přes TikTok by vlastní platební systém platformy mohl znamenat změnu v integraci a nákladech na transakce. Zatím jde o test v USA, ale pokud se funkce rozšíří globálně, ovlivní to způsob, jakým brands prodávají přímo přes sociální síť.",
-   "takeaway": "Sledujte vývoj – pokud TikTok spustí vlastní platební systém v Evropě, bude třeba přehodnotit integraci e-shopu, platební brány a případně podmínky a poplatky za transakce v aplikaci. Zatím jde o testování v USA bez potvrzení dostupnosti v ČR/EU.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
+   "importance": 65,
+   "title": "Meta zaplatí 372 mld. Kč za ochranu dětí, omezí mladistvým přístup k sítím",
+   "updated": "2026-08-26T20:16:09.938793+00:00",
+   "what": "Meta uzavřela mimosoudní dohodu v žalobě týkající se ochrany dětí a zaplatí přes 17 miliard dolarů (cca 372 miliard Kč). Zároveň zavádí časová omezení pro mladistvé: Facebook a Instagram budou dostupné pouze dvě hodiny denně, v noci se zablokují. Pokud mladiství používají i TikTok nebo YouTube, limit klesne na hodinu denně pro každou síť.",
+   "why": "Jde o precedentní případ, který ukazuje rostoucí regulační tlak na sociální sítě v oblasti ochrany mladistvých uživatelů. Časová omezení pravděpodobně sníží dosah a engagement u mladé cílové skupiny na Facebooku a Instagramu, což může ovlivnit efektivitu kampaní zacílených na tuto demografii.",
+   "takeaway": "Pokud cílíte kampaně na mladší publikum (13–17 let) na Meta platformách, počítejte s výrazně omezeným dosahem a engagement. Sledujte, zda podobná omezení začnou zavádět i další platformy – může to ovlivnit celkovou strategii práce s mladou cílovou skupinou.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e13b3fe728.jpg",
+   "image_from": "cc.cz"
   },
   {
    "id": "f2094c4077",
@@ -2708,24 +2437,105 @@
      "domain": "seroundtable.com",
      "published": "2026-08-26T11:31:00+00:00",
      "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-channel-settings-prioritization-slider-41949.html",
+     "title": "Google Ads Channel Settings Prioritization Slider (Alpha Test)",
+     "summary": "Google is testing a new \"Channels\" slider that lets you adjust how much you prioritize conversions from your Google Ads channels, such as Google Search, Google Partners, Discover, Maps, YouTube, the Display Network and Gmail.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:05:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-product-titles-report-41948.html",
+     "title": "Google Ads AI-Created Product Titles Report Beta",
+     "summary": "Google is beta testing a new Product title report within Google Ads. This is a special product title report for Al-created product titles. The report should show in your ads when they're more relevant than your original titles, Google wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:11:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHN2ejRucGp4RDg0QUo4M09CWGhfb3RqU1VJSG1xWFpOVGp1QWdVNHRaN2ZtYkduMXRLenVGblE3aXNFTTVURUp5NFZWYVpJeXAwa1lpakNXOWw4ZDl1dEdTT2dTYU9pUjFkdXptWmF2S0JpdzVEeXFSa1R3cGRFWU5yTnRWNzUtLWo4eHk0N0NDMG5xa1dRWA?oc=5",
+     "title": "Google Ads adds reporting for AI-generated product titles",
+     "summary": "Google Ads adds reporting for AI-generated product titles &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T14:58:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810",
+     "title": "How To Advertise In Google AI Mode For Ecommerce via @sejournal, @tonyadam",
+     "summary": "Google generates AI Mode ads directly from your product feed, not your ad copy. Here's which Merchant Center attributes decide whether your products get chosen. The post How To Advertise In Google AI Mode For Ecommerce appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T12:00:17+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjJ3cERfU25mYlBvd0pYemlGV0ZmWWRDX1V3TWtFSTNXcWpwekxWN08zdXFDZl9ER1hBVGwzNEdvTlFpRjUxcFR6VERHR2RHandSaGdYWC1MT1hSWGEzZm1uZjcxUVhoUTlrTXRpNjRvUGxHRlltNmNtOVBQNDQwZnhSaTUxSkhZd085ZDJMX3c3cGUwaUdBaG1QLWFXSHM?oc=5",
+     "title": "Google Ads API Developer Assistant gets major AI agent upgrade",
+     "summary": "Google Ads API Developer Assistant gets major AI agent upgrade &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T15:43:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-moves-policy-manager-new-admin-location",
+     "title": "Google Moves Policy Manager to New Admin Location",
+     "summary": "Google has relocated its Policy Manager , which oversees the policy status of limited and disapproved ads, from Tools &gt; Troubleshooting to Admin &gt; Policy .&nbsp; A new Ads tab has been added alongside the existing Account tab, which focuses on account verifications and certifications. This update was shared by Vojtěch Audy . The post Google Moves Policy Manager to New Admin Location appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T15:59:00+00:00",
+     "score": 72
     }
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google ruší manuální jazykové cílení u Search kampaní",
-   "updated": "2026-08-26T16:05:17.548146+00:00",
-   "what": "Google Ads koncem září 2026 odstraní možnost ručně nastavit jazykové cílení na úrovni kampaně u Search a Performance Max. Místo toho bude Google automaticky rozhodovat podle jazyka kreativy, cílové stránky a signálů z chování uživatele. Pokud uživatel rozumí více jazykům, reklamy budou způsobilé v obou.",
-   "why": "Inzerenti ztratí kontrolu nad tím, v jakém jazyce se jejich reklamy zobrazí, což komplikuje správu vícejazyčných kampaní nebo cílení na specifickou jazykovou skupinu. Google slibuje lepší automatickou optimalizaci pomocí AI, ale změna může vyžadovat úpravu struktury kampaní a testování dopadů.",
-   "takeaway": "Zkontrolujte, zda vaše reklamy a landing pages jsou jazykově konzistentní – to bude nově hlavní signál pro Google. U vícejazyčných kampaní připravte testování od září, abyste ověřili, jak změna ovlivní zobrazování a výkon. Zvažte oddělení kampaní podle jazyka kreativ místo podle nastavení cílení.",
+   "title": "Google Ads ruší manuální jazykové cílení u Searchových kampaní",
+   "updated": "2026-08-26T20:15:59.153174+00:00",
+   "what": "Google Ads od září 2026 odebírá možnost ručního nastavení jazyka na úrovni kampaně u Search kampaní a Performance Max. Jazyk reklamy bude určovat automaticky na základě jazyka kreativy, landing page a signálů o uživateli. Pokud uživatel rozumí více jazykům, může vidět reklamy v kterémkoli z nich.",
+   "why": "Jde o významnou změnu pro inzerenty se zahraničními kampaněmi nebo s vícejazyčnými weby – přichází o přímou kontrolu nad tím, v jakém jazyce se reklama zobrazí. Google slibuje lepší AI automatizaci, ale pro kampaně cílené na české uživatele s českým obsahem to může znamenat riziko zobrazení reklam s cizím obsahem, pokud má uživatel nastaven i jiný jazyk.",
+   "takeaway": "Zkontrolujte své kampaně cílené na ČR – ujistěte se, že kreativy a landing pages jsou v češtině (pokud cílíte na české publikum), protože systém se bude řídit právě podle nich. Pokud máte vícejazyčné weby nebo kampaně, připravte se na přestavbu struktury kampaní a sledujte po zavedení změny, zda se vám nezobrazují reklamy ve špatném jazyce.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/f2094c4077.jpg",
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "1fe38632ec",
-   "created": "2026-08-26T14:45:00+00:00",
+   "id": "68561720b2",
+   "created": "2026-08-26T08:25:00+00:00",
    "articles": [
+    {
+     "url": "https://www.semrush.com/blog/google-august-2026-spam-update",
+     "title": "Google releases August 2026 spam update: What marketers need to know",
+     "summary": "Google‘s August 2026 spam update finished rolling out on August 21. Learn what changed, what didn‘t, and how to read your data.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-26T08:25:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
+     "title": "Google Search Ranking Volatility Continues Post Spam Update",
+     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:55:00+00:00",
+     "score": 61
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
+     "title": "Has Google demoted listicles?",
+     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T12:00:00+00:00",
+     "score": 55
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTYxaXNFeUVZSHZMdGZYanJ2QjNhUExKNmhIM1RxS2cxd0JhNjFtY3IxVmRSZkJOc01NUWRKVElLMTJnSUZxSkRCSkFlM1VHVE4xUXc4clZIbTE4OVJZeVQtUFpEUWRNeXNtNE9qTUFWQTlMMHNRZ0xPUFZ2b09WempKQzRNanVQY28wdXJtemRlX1JHOEcwTS1aRQ?oc=5",
      "title": "Google adds link carousels for developing topics in AI Mode",
@@ -2737,14 +2547,213 @@
     }
    ],
    "category": "seo",
+   "importance": 72,
+   "title": "Google spam update v srpnu vyvolal neobvyklé turbulence ve výsledcích vyhledávání",
+   "updated": "2026-08-26T20:15:47.664198+00:00",
+   "what": "Google dokončil spam update 21. srpna 2026. Od té doby však vyhledávací výsledky vykazují neobvyklou volatilitu – pozice webů kolísají výrazněji než obvykle. SEO komunita i měřicí nástroje zaznamenávají pokračující turbulence. Zároveň se objevují diskuse o možném potlačení listiklů (článků typu 'top 10') ve výsledcích.",
+   "why": "Pokračující volatilita po ukončení updatu znamená, že pozice webu se mohou měnit i po skončení oficiálního rolloutingu. To komplikuje vyhodnocení dopadu updatu a může narušit běžný provoz organic trafficu. Změny v hodnocení listiklů (běžného formátu pro affiliate a produktové weby) mohou ovlivnit návštěvnost celých kategorií obsahu.",
+   "takeaway": "Sledujte pozice klíčových stránek v Google Search Console minimálně další 2 týdny a počítejte s kolísáním. Pokud vaše stránky obsahují listicly, vyhodnoťte jejich výkonnost v organickém vyhledávání – případný pokles může být důvod k úpravě obsahové strategie. Jakmile se situace stabilizuje, proveďte kompletní zhodnocení dopadu updatu na traffic.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/47472ffd48.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "b5bd91b63c",
+   "created": "2026-08-26T19:00:30+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/why-running-youtube-ads-like-search-will-burn-your-budget/584794",
+     "title": "Why Running YouTube Ads Like Search Will Burn Your Budget",
+     "summary": "Before funding YouTube Ads, businesses must fix attribution, build skip-proof creative, budget for algorithmic calibration, and simplify offers to one clear promise. The post Why Running YouTube Ads Like Search Will Burn Your Budget appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T19:00:30+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
    "importance": 55,
-   "title": "Google přidává odkazy v AI Mode pro aktuální témata",
-   "updated": "2026-08-26T16:03:44.293455+00:00",
-   "what": "Google rozšiřuje AI Mode v USA o karusely odkazů u aktuálních a vyvíjejících se témat. Funkce má uživatelům pomoci rychleji najít další zdroje přímo z AI odpovědi.",
-   "why": "AI Mode zatím není v ČR dostupný a jde o postupný rollout v USA. Pro české marketéry je to signál, jak se bude vyvíjet budoucí podoba vyhledávání – AI odpovědi doplněné odkazy mohou změnit způsob, jakým uživatelé procházejí výsledky a jak generují návštěvnost.",
-   "takeaway": "Sledujte vývoj AI Mode a připravte obsah tak, aby byl relevantní i pro AI odpovědi – strukturovaná data, jasné informace a kvalitní zdroje zvyšují šanci na zmínění v karuselech odkazů, až funkce dorazí do Evropy.",
+   "title": "YouTube reklamy nejsou jako Search – jinak spálíte rozpočet",
+   "updated": "2026-08-26T20:15:17.827390+00:00",
+   "what": "Search Engine Journal upozorňuje na častou chybu firem: přistupovat k YouTube reklamám stejně jako k vyhledávací inzerci. Bez správné atribuce, kreativy odolné proti přeskočení, rozpočtu na kalibraci algoritmu a zjednodušené nabídky s jedním jasným sdělením firmy plýtvají penězi.",
+   "why": "Mnoho marketérů nastavuje YouTube kampaně stejně jako Google Search, což vede k neefektivnímu utrácení. YouTube vyžaduje odlišnou strategii – jinou kreativu, jiný způsob měření úspěšnosti a čas na naučení algoritmu.",
+   "takeaway": "Pokud plánujete YouTube reklamy, připravte rozpočet na testovací fázi algoritmu, vytvořte kreativu, která zaujme v prvních vteřinách, nastavte správnou atribuci a zjednodušte sdělení na jednu jasnou nabídku. Nekopírujte přístup z vyhledávací inzerce.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
+  },
+  {
+   "id": "094abad828",
+   "created": "2026-08-10T09:52:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.semrush.com/blog/overcoming-ai-related-traffic-loss",
+     "title": "Traffic Is Down—Now What? Marketing Success In the Age of AI",
+     "summary": "Google traffic is slowly declining. Learn how to future-proof your business in the AI era.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-10T09:52:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
+     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
+     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "news.google.com",
+     "published": "2026-08-14T13:14:12+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
+     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
+     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T22:03:26+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
+     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
+     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:47:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+     "title": "What's Next for Your Brand Website?",
+     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
+     "source": "Content Marketing Institute",
+     "domain": "contentmarketinginstitute.com",
+     "published": "2026-08-19T10:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
+     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
+     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-25T19:00:30+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.marketingaiinstitute.com/blog/trust-as-content-strategy-maicon-2026",
+     "title": "When AI Creates Tons of Content, Trust Becomes the Strategy [MAICON 2026]",
+     "summary": "AI can now produce more content in an afternoon than most marketing teams used to create in a month. For Joe Pulizzi, that's precisely the problem and the opportunity.",
+     "source": "Marketing AI Institute",
+     "domain": "marketingaiinstitute.com",
+     "published": "2026-08-10T14:30:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.semrush.com/blog/reddits-citations-in-chatgpt-fall",
+     "title": "Reddit's citations in ChatGPT fall from 3.8% to 0.5%",
+     "summary": "Promptwatch says Reddit‘s share of ChatGPT citations fell 86% in four days. OpenAI says it hasn‘t changed how it picks sources.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-26T08:21:00+00:00",
+     "score": 45
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Citace Redditu v ChatGPT klesly za 4 dny o 86 %, příčina není jasná",
+   "updated": "2026-08-26T18:11:57.682587+00:00",
+   "what": "Podle dat Promptwatch klesl podíl citací z Redditu ve výsledcích ChatGPT Search z 3,8 % na 0,5 % během čtyř dnů. OpenAI tvrdí, že nezměnilo způsob výběru zdrojů. Analýza struktury dotazů ukazuje, že ChatGPT sice Reddit stále vyhledává (84 vláken se dostalo do retrieval poolu), ale žádné z nich nakonec necituje.",
+   "why": "Pokud plánujete obsah pro AI vyhledávače nebo sledujete jejich chování, tato změna ukazuje, jak rychle a nepředvídatelně se může měnit viditelnost zdrojů v AI nástrojích – bez oznámení a bez jasného vysvětlení. Pro české firmy zatím není přímý dopad, ale jde o signál nestability AI citací jako komunikačního kanálu.",
+   "takeaway": "Nespoléhejte na AI nástroje (ChatGPT Search, Perplexity aj.) jako na stabilní zdroj návštěvnosti – pravidla jejich výběru zdrojů se mohou změnit přes noc. Sledujte vlastní data z Analytics a zaměřte se na vlastní kanály (e-mail, web, SEO v klasickém vyhledávání), kde máte kontrolu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/094abad828.jpg",
+   "image_from": "semrush.com"
+  },
+  {
+   "id": "959fd23cec",
+   "created": "2026-08-17T07:31:21.653291+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
+     "title": "X adds video overlays",
+     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T02:42:47+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
+     "title": "X algorithm insights highlight key posting strategies",
+     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T22:47:48+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN1NZa1hNb1dyMUxSbzNuNC04NHRFTW5QSUZUSmlta3VUR0l0bm1PRHJUVk9LZXVCbV80bHEzbVFYYUZfekZRc1d4U1h0U3MzUHNteWpQdlM0cW1yenMtZUtvRVo0WmppSkpQVkdR0gFzQVVfeXFMTnp4bEdQR1BwRjVwYUpZNnNmZDdxQVktM2VkcFlZR190MmliSWE4c1pUUGY1RXRPcUhlWnVjWVItOUplQzBtUHZmWFRocGVGdGlVREZiaVhCMVdqaTRjcjEtVjVtWE9wX1R2bHNDaVpBMmxkZw?oc=5",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Reply to Keywords Meta Ads Feature &nbsp;&nbsp; Jon Loomer Digital",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T12:38:28+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "X (Twitter) vylepšuje editaci videí a odhaluje fungování algoritmu",
+   "updated": "2026-08-26T16:05:46.356198+00:00",
+   "what": "Platforma X (dříve Twitter) přidala pro iOS uživatele možnost přidávat text a emoji přímo do videí, čímž se přibližuje funkcím konkurenčních sociálních sítí. Zároveň Business Insider analyzoval nedávno zveřejněné informace o fungování algoritmu platformy a jak s ním efektivně pracovat.",
+   "why": "Nové editační nástroje umožňují tvorbu atraktivnějšího video obsahu přímo v aplikaci, což může ušetřit čas a náklady na externí nástroje. Pochopení principů algoritmu X pomáhá optimalizovat organický dosah příspěvků bez nutnosti zvyšovat reklamní rozpočet.",
+   "takeaway": "Pokud vaše firma publikuje video obsah na X, ověřte, zda můžete využít nové editační funkce místo externích nástrojů. Prostudujte zveřejněné principy algoritmu a upravte strategii publishingu (timing, formáty) pro lepší organický dosah.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "d465ede499",
+   "created": "2026-08-19T11:00:22+00:00",
+   "articles": [
+    {
+     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
+     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
+     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-19T11:00:22+00:00",
+     "score": 49
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
+     "title": "Deciding #WhatToWatch just got easier with TikTok",
+     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T04:07:29+00:00",
+     "score": 49
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350",
+     "title": "TikTok explores expanding in-stream payment options",
+     "summary": "The app&rsquo;s China-based version highlights Douyin Pay as a key transaction option, and Bloomberg reports that a similar feature may be coming to the U.S.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-19T23:19:31+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "TikTok testuje vlastní platební systém pro transakce v aplikaci",
+   "updated": "2026-08-26T16:05:37.326435+00:00",
+   "what": "TikTok podle Bloomberg zvažuje rozšíření platebních možností přímo v aplikaci, podobně jako již funguje v čínské verzi Douyin s funkcí Douyin Pay. Šlo by o nativní platební řešení pro transakce uvnitř platformy.",
+   "why": "Pro české e-shopy a značky prodávající přes TikTok by vlastní platební systém platformy mohl znamenat změnu v integraci a nákladech na transakce. Zatím jde o test v USA, ale pokud se funkce rozšíří globálně, ovlivní to způsob, jakým brands prodávají přímo přes sociální síť.",
+   "takeaway": "Sledujte vývoj – pokud TikTok spustí vlastní platební systém v Evropě, bude třeba přehodnotit integraci e-shopu, platební brány a případně podmínky a poplatky za transakce v aplikaci. Zatím jde o testování v USA bez potvrzení dostupnosti v ČR/EU.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
   },
   {
    "id": "02545fdaf6",
