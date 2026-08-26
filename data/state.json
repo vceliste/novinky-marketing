@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-26T11:02:10.402706+00:00",
+ "last_run": "2026-08-26T13:30:55.322483+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 5
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fe26a9ca2d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f559c4c25a0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 7
   },
   {
    "name": "Google Search Central Blog",
@@ -136,13 +136,13 @@
   {
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: Exceeded 30 redirects.)",
+   "new": 2
   },
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fe26a888bf0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -275,7 +275,7 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hootsuite blog",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Think with Google",
@@ -1998,478 +1998,139 @@
   "https://www.searchenginejournal.com/wix-introduces-symphony-an-easy-way-for-local-businesses-to-use-ai-agents/587093": "2026-08-26T11:02:10.402706+00:00",
   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeGM2eERXb2JVUktkMVRVRTd0Zko0UzE3ODZ0Sm1qRW4xV0hRR1dqamt1dkV3Vzlabjc5VXRJd0NobzRjemxWR0RqS3pjbFB6NGlJZ3dNZFBoSzR6YUJiOVFRZ0lWdmFoYUYybkU4ZjkwMnFGd3J1SFNkV1RuR1J0dUJBcUVSaGh6ZHM0TFRzT3J6RkZqQnpPNVNRMXNGLThGblhEVnBBcXRlUQ?oc=5": "2026-08-26T11:02:10.402706+00:00",
   "https://sproutsocial.com/insights/ai-social-media-assistant": "2026-08-26T11:02:10.402706+00:00",
-  "https://sproutsocial.com/insights/how-to-manage-social-media-as-a-one-person-team": "2026-08-26T11:02:10.402706+00:00"
+  "https://sproutsocial.com/insights/how-to-manage-social-media-as-a-one-person-team": "2026-08-26T11:02:10.402706+00:00",
+  "https://www.lupa.cz/aktuality/dog-cat-tv-bude-od-zari-u-vodafone-tv-a-sledovanitv": "2026-08-26T13:30:55.322483+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-pilots-audience-ads-cryptocurrency-exchanges": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.mediar.cz/ct-kvuli-usporam-pozastavila-modernizaci-budovy-zpravodajstvi": "2026-08-26T13:30:55.322483+00:00",
+  "https://cc.cz/cesi-pracuji-na-navratu-legendy-milovana-hra-naseho-mladi-se-ale-promenila-k-nepoznani": "2026-08-26T13:30:55.322483+00:00",
+  "https://martech.org/the-ai-governance-test-most-marketers-are-missing": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.mediar.cz/mnau-tv-dostane-konkurenci-do-ceska-prichazi-televize-dog-cat-tv": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.lupa.cz/aktuality/ceska-televize-kvuli-nejistemu-vyhledu-pozastavila-modernizaci-zpravodajstvi": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.lupa.cz/aktuality/vlckuv-ai-startup-aisle-ma-dalsi-zarez-muze-pridelovat-cve-mezinarodni-cisla-zranitelnosti-softwaru-a-hardwaru": "2026-08-26T13:30:55.322483+00:00",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTzE1cXYyeE9nYU1sU2t4aDNIUkxHajNiai1CdVFnTkp3Z3lIakg5M3VVeXVBaDVLaTJPQ1VJQnpxamFHRkxqbHF1OHZEMjNvYWpraXRhWWZzWEJIcFFxQllVamoyVlZfeC1YYlJwUVJTVzF4MHhhMVByZkswR0cxdHZZNFRaWU5DZnV6UkhVa1hQTmpZekR2RVFXSmhaTVhLRk5Zb0x3T3V3czJqaG1QMjJiaVpHTFl0cmZSOFA1OA?oc=5": "2026-08-26T13:30:55.322483+00:00",
+  "https://martech.org/lost-in-translation-why-content-and-data-teams-cant-speak-the-same-language": "2026-08-26T13:30:55.322483+00:00",
+  "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.lupa.cz/aktuality/nova-softwarova-firma-z-nizozemska-bude-z-cr-ridit-expanzi-v-regionu-najala-sefa-z-revolutu-ci-woltu": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810": "2026-08-26T13:30:55.322483+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-lsa-expands-booking-partners-41945.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-ai-mode-link-carousels-41947.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.lupa.cz/aktuality/chysta-se-predelavka-kultovnich-heroes-of-might-and-magic-3-trailer-vytvorili-cesi-podivejte-se": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-ads-customer-lifecycle-optimization-conversion-goals-41941.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://cc.cz/banku-postavili-rychleji-nez-svou-centralu-az-ted-ziskali-povoleni-brzdili-nas-skodici-rikaji": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/bing-shorts-video-tab-41892.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-ads-product-titles-report-41948.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.seroundtable.com/google-ads-channel-settings-prioritization-slider-41949.html": "2026-08-26T13:30:55.322483+00:00",
+  "https://www.mediar.cz/galerie-reklamy/csob-v-reklame-otvira-temata-dospelosti-zasazuje-je-do-terapeutovny": "2026-08-26T13:30:55.322483+00:00",
+  "https://blog.hubspot.com/marketing/marketo-alternatives": "2026-08-26T13:30:55.322483+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPajBjcFR1aHV6TXJWaUc3cUNxZG9vdGxNaVNDOWdoamU3dXh5THhkV2lxTmVnZHc2Tk4xTFpvTEd1SEdkRlJLVTQ2US1OUEhScUJxZTBKWDM3SXdya0RsNHA0S3cxY1ZOMHV2a095ZEg2WDdrTDJpc2R2dzE4U1pRWXo4cWFNLWV4cC1j?oc=5": "2026-08-26T13:30:55.322483+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Y1E1dnhSUFltUjJQdmloM0JscHE4bHVRMG5tbVFBUVd1d1RXa3dTdnpJNm9Vemk5Y3hPc2dWMEVtc2U0SUc5d1lsaTRVa2tTY1p6VW1CMUx0VklxaFNVUHl3b0JoX3Yw?oc=5": "2026-08-26T13:30:55.322483+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LYXU3RWwycmw0VTdnRHAwSzFOVmdyQnp6ZlBlSDF3MThEUGVQbTVjTVlnaTJ3cXhLckN5Z2FtLWdBSl9JMkNJamhETlBBdUxNXzZvSGJfZTljNm9OTGdDVmphR3l4SGJxcXhQWWNJbXAxQXM?oc=5": "2026-08-26T13:30:55.322483+00:00"
  },
  "events": [
   {
-   "id": "c748a6b0ae",
-   "created": "2026-08-17T08:28:39.081527+00:00",
+   "id": "47472ffd48",
+   "created": "2026-08-26T11:55:00+00:00",
    "articles": [
     {
-     "url": "https://www.mediaguru.cz/livesport-nasadi-ai-avatarku-ailu-vyuzije-ji-pro-videa-oznameni-i-vlastni-porady",
-     "title": "Livesport nasadí AI avatarku, využije ji pro videa, oznámení i vlastní pořady",
-     "summary": "Livesport představila virtuální AI moderátorku AILU, kterou po testovacím nasazení během fotbalového mistrovství světa zařadí mezi své stálé komunikační nástroje. Digitální avatarka dokáže připravovat a moderovat lokalizovaný obsah v desítkách jazyků a má být využívána v redakčním obsahu, produktové komunikaci i obchodních partnerstvích.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-17T08:15:00+00:00",
-     "score": 47
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
+     "title": "Google Search Ranking Volatility Continues Post Spam Update",
+     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:55:00+00:00",
+     "score": 61
     },
     {
-     "url": "https://www.searchenginejournal.com/wix-introduces-symphony-an-easy-way-for-local-businesses-to-use-ai-agents/587093",
-     "title": "Wix Introduces Symphony, An Easy Way For Local Businesses To Use AI Agents via @sejournal, @martinibuster",
-     "summary": "Wix introduced Symphony, an easy and safe way for small to medium size local businesses to use AI agents. The post Wix Introduces Symphony, An Easy Way For Local Businesses To Use AI Agents appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-26T09:17:38+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ai",
-   "importance": 45,
-   "title": "Livesport nasadí AI avatarku AILU pro videa a vlastní pořady",
-   "updated": "2026-08-26T11:06:20.384657+00:00",
-   "what": "Livesport představil virtuální AI moderátorku AILU, která po testování během fotbalového MS přechází do stálého provozu. Avatarka umí připravovat a moderovat lokalizovaný obsah v desítkách jazyků a bude využívána v redakčním obsahu, produktové komunikaci i obchodních partnerstvích.",
-   "why": "Jde o konkrétní ukázku, jak český hráč využívá AI pro škálovatelnou tvorbu video obsahu napříč jazyky – potenciálně relevantní inspirace pro firmy s mezinárodním dosahem nebo vícejazyčnými weby.",
-   "takeaway": "Pokud připravujete video obsah nebo komunikaci pro více trhů, sledujte výsledky Livesportu s AILU – AI avatarky mohou být praktická (a cenově dostupnější) alternativa k produkci s živými moderátory.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "fc43240066",
-   "created": "2026-07-22T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5",
-     "title": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé",
-     "summary": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-07-22T07:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBLTR6WUdnNXhWLWNpMG4yY1hJSmxOdlctcVF4dVB2a3dfcGFLb0NFOEJHZHJILWpYQzhvNnZDNWctdzdIVDAzb0x3WEZ6bUtaYkFNeFotWkVBbV90UFMxWXlPTkxiS0RtUWVEOFJsZ1hJMlkxYy1r?oc=5",
-     "title": "AI is reshaping marketing teams from the inside",
-     "summary": "AI is reshaping marketing teams from the inside &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-04T07:00:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yWkwtcHo1OGtjbWFvMUNEUFh1ZlF1UFRZTk1xdmNfRG5mbW51Y0gyeEgwS0N4cTF6b09USG9aZGhQV25zT3VhRDVwc1ZVekZaRlY5cHRpOTZHQ0N5X2RndTh3OWlmVWtveE85V2xweGc0UQ?oc=5",
-     "title": "Why your AI-review process is going to fail",
-     "summary": "Why your AI-review process is going to fail &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-07-27T07:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14ZmZjN3pKWF83YlFWM3lsUkVOb3ROV3JkUGtVWWhZTGZHU2s5MjNtOFpiUE4ycGJKSkFKZ2l0T0ZvcWhxbWxaMFJvRWJhQ252UFNPaWVqM3dFNDYtNW5iWnN5YXVzZFRQMG0wMjJvMmNKX2htVkRCd3Zodw?oc=5",
-     "title": "Four holiday reports reveal one big divide over AI",
-     "summary": "Four holiday reports reveal one big divide over AI &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-03T07:00:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qUnd0UUpGZGtXQ2ZEX0w4OUxuY1JtVHE3WTJlcWxmR3FYN0NXa2E4QlVyNkE4TXJqUXQ0NnIwRHI5aFJXcW9UVXNTVDhaSzNTMU5uMXVtbkpIYkkyS2xCYVkyOG12UV9OZUFOcFROcw?oc=5",
-     "title": "AI halftime report: H1 2026",
-     "summary": "AI halftime report: H1 2026 &nbsp;&nbsp; Search Engine Land",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
+     "title": "Has Google demoted listicles?",
+     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
      "source": "Search Engine Land",
      "domain": "searchengineland.com",
-     "published": "2026-07-29T07:00:00+00:00",
-     "score": 51
-    },
-    {
-     "url": "https://www.marketingaiinstitute.com/blog/from-ai-users-to-ai-builders-maicon-2026",
-     "title": "From AI Users to AI Builders: The Next Phase of AI in Marketing [MAICON 2026]",
-     "summary": "Most marketing teams have gotten comfortable using AI. They've integrated it into content workflows, sharpened their prompts, and found individual productivity gains. But the next phase is already here, and it relies heavily on the ability and dedication of humans, says Zapier’s Dan Slagen.",
-     "source": "Marketing AI Institute",
-     "domain": "marketingaiinstitute.com",
-     "published": "2026-08-03T13:00:01+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend",
-     "title": "The next AI opportunity is deciding where to spend",
-     "summary": "AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working. The post The next AI opportunity is deciding where to spend appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-17T12:34:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently",
-     "title": "What the teams getting the most from AI do differently",
-     "summary": "Teams built around autonomy, experimentation, and cross-functional work can turn AI’s speed into faster campaigns without adding headcount. The post What the teams getting the most from AI do differently appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-21T12:46:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS1k5dEp4VkxkWWFuc2EtLWJtSk1xQWpnQWhOZ1hncXpES0NaVXNmQzNqVkVueGNGVEM0Z215czFJWHVZU0JjenluNXdCRzNyTHlhMEhUQVllWHhRYUtDSmlvZjFON1piSXBvNkFtQzVfSFJVQ0VlbWVWaVdINGZoNzFPVFVMQk5fVU1sYzdLMmQ4T2d4LTJ3S25HRWJrX1N6R015NVN4Sm9RQkFuTHhLMTQ3SUNsY21WMWhiOW1IVl82b2Z0WUpDZjNZYkZfdlAyZ0RSNXBQTk15Z2s3d0lzNkFlOXhsTDg?oc=5",
-     "title": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
-     "summary": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-16T07:00:00+00:00",
-     "score": 49
-    }
-   ],
-   "category": "ai",
-   "importance": 68,
-   "title": "AI přechází od používání k alokaci rozpočtů – marketéři začínají AI využívat k řízení výdajů",
-   "updated": "2026-08-26T11:06:08.524335+00:00",
-   "what": "AI nástroje se posouvají z fáze základního používání (tvorba obsahu, optimalizace promptů) do pokročilejší role – pomáhají marketérům rozhodovat, kam směřovat rozpočty a jak alokovat výdaje na základě výkonnosti kampaní. Týmy, které z AI těží nejvíce, se vyznačují autonomií, experimentováním a meziodborovou spoluprací.",
-   "why": "Pro marketingového manažera to znamená novou příležitost optimalizovat rozpočty efektivněji – místo jen rychlejší práce může AI přímo ovlivnit ROI tím, že identifikuje, kam směřovat peníze. Současně se týmy musí posunout od individuálního používání AI k systemizovanému přístupu, jinak riskují, že AI review procesy selžou.",
-   "takeaway": "Zvažte pilotní testování AI nástrojů pro media buying a alokaci rozpočtů – ne jen pro content. Vytvořte v týmu prostor pro experimentování s AI a ujistěte se, že máte jasný proces schvalování AI výstupů, protože ad-hoc přístupy typicky selhávají.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/fc43240066.jpg",
-   "image_from": "mam.cz"
-  },
-  {
-   "id": "f64851872e",
-   "created": "2026-07-23T10:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediaexaminer.com/youtube-on-tv-what-marketers-need-to-know",
-     "title": "YouTube on TV: What Marketers Need to Know",
-     "summary": "Wondering what YouTube's aggressive push into living rooms means for your channel strategy? Want to learn how to make sure your YouTube content looks great on a 65-inch screen?&#160; In this article, you'll discover how to optimize your YouTube channel for TV viewers, create content that works on connected TVs, and use new YouTube features [&#8230;] The post YouTube on TV: What Marketers Need to Know appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-07-23T10:00:00+00:00",
+     "published": "2026-08-26T12:00:00+00:00",
      "score": 55
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218",
-     "title": "YouTube rolls out improvements for Connected TV",
-     "summary": "The company added multiple new features, including the ability to turn creator playlists into shows so viewers can stream videos episodically.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-18T23:05:41+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 48,
-   "title": "YouTube míří do obýváků: jak optimalizovat obsah pro televize",
-   "updated": "2026-08-26T11:05:40.946696+00:00",
-   "what": "YouTube se soustředí na zvýšení sledovanosti na velkých obrazovkách v obýváku (connected TV). Marketéři by měli přizpůsobit svůj obsah a strategii kanálu pro diváky sledující YouTube na 65palcových televizích místo mobilů nebo počítačů.",
-   "why": "Rostoucí podíl sledování YouTube na televizích mění požadavky na formát, design a způsob prezentace obsahu – co funguje na mobilu, nemusí být dobře čitelné nebo působivé na velkém TV displeji.",
-   "takeaway": "Zkontrolujte, zda vaše YouTube videa (zejména grafika, titulky a vizuální prvky) jsou dobře čitelné a působivé i na velkých obrazovkách. Zvažte úpravu formátu obsahu a využití nových YouTube funkcí zaměřených na TV sledování.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "094abad828",
-   "created": "2026-08-10T09:52:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.semrush.com/blog/overcoming-ai-related-traffic-loss",
-     "title": "Traffic Is Down—Now What? Marketing Success In the Age of AI",
-     "summary": "Google traffic is slowly declining. Learn how to future-proof your business in the AI era.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-10T09:52:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
-     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
-     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
-     "source": "PPC Hero",
-     "domain": "news.google.com",
-     "published": "2026-08-14T13:14:12+00:00",
-     "score": 45
-    },
-    {
-     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
-     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
-     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T22:03:26+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
-     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
-     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T14:47:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
-     "title": "What's Next for Your Brand Website?",
-     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
-     "source": "Content Marketing Institute",
-     "domain": "contentmarketinginstitute.com",
-     "published": "2026-08-19T10:00:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
-     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
-     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-25T19:00:30+00:00",
-     "score": 47
     }
    ],
    "category": "seo",
-   "importance": 68,
-   "title": "Google traffic klesá kvůli AI – jak přizpůsobit marketingovou strategii",
-   "updated": "2026-08-26T11:03:58.061678+00:00",
-   "what": "Semrush upozorňuje na postupný pokles organického trafficu z Googlu v důsledku rostoucího vlivu AI (AI Overviews, chatboti). Firmy musí přehodnotit závislost na SEO jako hlavním zdroji návštěvnosti.",
-   "why": "Pro marketingové manažery to znamená nutnost diverzifikace kanálů – čistě SEO strategie už nemusí být dlouhodobě udržitelná. Pokles trafficu může přímo ovlivnit konverze a tržby, pokud firma nemá alternativní zdroje návštěvníků.",
-   "takeaway": "Zkontrolujte závislost vaší firmy na organickém Google trafficu. Posilte další kanály (PPC, e-mailing, sociální sítě, direct traffic) a připravte se na to, že SEO samo o sobě nebude stačit. Sledujte vývoj AI Overviews a jejich vliv na vaše klíčová slova.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/094abad828.jpg",
-   "image_from": "semrush.com"
-  },
-  {
-   "id": "569f2a4320",
-   "created": "2026-08-05T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQ0Nfcl9iNk1QcGVlcEtVRmtkQW9OOEdQcEZEenpOT0lmZnFzV3FfeEEwczFEbV9RZXFGcjJhSFhldVN3T0lPS0kzU0VDbHVMYkdXQXRiR1NFRm1rSUJOWTE0aTVtWmtYTGFGRXZaVkEzYWN0WDdYZWlPUDlXRWpRaTNpanR5NDd3VVl3RmtwVVZrWDFLeDZvRnRNNjRKMHBJVHNIcktOSjhFZGNOTlNlRGtTTlI1MXBVUlNyVzVLVWZ3bTdQWFFKSmdvNk9DYnM4ZTZGTw?oc=5",
-     "title": "The Walt Disney Company and TikTok Announce a First-of-its-Kind Global Short-Form Content-Sharing Deal",
-     "summary": "The Walt Disney Company and TikTok Announce a First-of-its-Kind Global Short-Form Content-Sharing Deal &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-05T07:00:00+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGF1dUdYQTVWNkZoazFOeXJlUXJSNUhLN0ZzWndQbGtacVBkVUhNc3RndUdFLWwzcFJMeEtaT3pfY3I4NFotSXppcXhXYVdvSUNXOTByQmJ0WlM5Vi1YcGVfNXhWNVlKS1R2amJwWGNHTVowQ3poYWRtbVpoUmgtc1FQVEUwOHRiZUwtLXFDZFFzbVU?oc=5",
-     "title": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens",
-     "summary": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-26T00:12:31+00:00",
-     "score": 56
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792",
-     "title": "TikTok expands public placement opportunities for advertisers",
-     "summary": "The company continues to roll out Out of Phone promotion expansions as it brings in-app content to billboards, in-store displays, cinema promos and more.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-25T23:59:56+00:00",
-     "score": 52
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 52,
-   "title": "TikTok rozšiřuje Out of Phone reklamu v Evropě – billboardy, kina, obchody",
-   "updated": "2026-08-26T11:03:47.694795+00:00",
-   "what": "TikTok spustil program Out of Phone v Evropě ve spolupráci s šesti mediálními partnery (Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media, C-Screens). Reklamní obsah z TikToku se bude objevovat na billboardech, v kinech, obchodech a dalších veřejných prostorech mimo mobilní telefony. Paralelně TikTok uzavřel globální dohodu s Disneym o sdílení krátkých videí.",
-   "why": "Jde o rozšíření reklamních možností TikToku mimo aplikaci – umožňuje inzerentům oslovit publikum tam, kde se pohybuje fyzicky. Pro české firmy s rozpočtem na DOOH (digital out-of-home) nebo kinoreklamu to může znamenat nový formát a kanál, pokud spolupráce zahrnuje také ČR nebo lokální partnery.",
-   "takeaway": "Sledujte dostupnost Out of Phone programu v ČR – pokud máte rozpočet na venkovní reklamu nebo spolupracujete s DOOH sítěmi, může to být cesta, jak propojit TikTok obsah s offline publikem. Zatím není potvrzeno, zda jsou čeští partneři součástí expanze.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "d465ede499",
-   "created": "2026-08-19T11:00:22+00:00",
-   "articles": [
-    {
-     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
-     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
-     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-19T11:00:22+00:00",
-     "score": 49
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
-     "title": "Deciding #WhatToWatch just got easier with TikTok",
-     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-26T04:07:29+00:00",
-     "score": 49
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 35,
-   "title": "Meta spouští akcelerátor pro startupy, TikTok usnadňuje výběr obsahu",
-   "updated": "2026-08-26T11:03:36.828518+00:00",
-   "what": "Meta spustila Meta Startup School – tříměsíční program pro 200 startupů zaměřených na spotřebitelské značky. Program nabídne přístup k podpoře venture kapitálových firem a odborníkům. TikTok oznámil novou funkci usnadňující uživatelům rozhodování, co sledovat (konkrétní detaily ve zdroji chybí).",
-   "why": "Meta Startup School může být příležitostí pro české startupy v e-commerce a D2C segmentu získat know-how a případně i financování. Jde ale o globální program bez potvrzené dostupnosti pro ČR. TikTok novinka naznačuje další posílení platformy jako discovery kanálu, což může ovlivnit strategii brandů na TikToku.",
-   "takeaway": "Pokud vedete nebo spolupracujete s early-stage D2C značkou s globálními ambicemi, sledujte podmínky přihlášení do Meta Startup School. U TikToku zatím čekejte na detaily nové funkce – může ovlivnit, jak uživatelé objevují obsah značek.",
-   "importance_label": "kontext",
-   "multi_source": true
-  },
-  {
-   "id": "81b57dce1e",
-   "created": "2026-07-20T13:30:24+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/qvt/roas-goal-maximize-number-conversions",
-     "title": "ROAS Goal for Maximize Number of Conversions",
-     "summary": "This is an interesting change&#8230; The ROAS (Return On Ad Spend) Goal bid strategy is now available for the performance goal that &#8220;maximizes the number of conversions.&#8221; Let&#8217;s take a closer look&#8230; ROAS Goal History When running ads for purchases, most advertisers use the performance goal to &#8220;maximize the number of conversions.&#8221; When selected, Meta... Read more &#187; The post ROAS Goal for Maximize Number of Conversions appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-07-20T13:30:24+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.jonloomer.com/qvt/predicted-lifetime-value-pltv",
-     "title": "What is Predicted Lifetime Value (pLTV)?",
-     "summary": "Predicted Lifetime Value (or pLTV) value optimization helps you acquire high-value customers using your own long-term value predictions. Here is what I&#8217;ve learned from Meta&#8217;s developer documentation on the feature&#8230; How it Works Predicted Lifetime Value (pLTV) is built around a single conversion event that helps predict value. So maybe you can predict that the... Read more &#187; The post What is Predicted Lifetime Value (pLTV)? appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-17T13:30:48+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.jonloomer.com/exclusion-only-custom-audiences",
-     "title": "Exclusion-Only Custom Audiences",
-     "summary": "Learn how to create and use exclusion-only custom audiences in Meta Ads, including limitations, targeting restrictions, and use cases. The post Exclusion-Only Custom Audiences appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-07T18:18:13+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping",
-     "title": "How businesses win when AI does the shopping",
-     "summary": "AI is already the fastest-growing retail channel. Our playbook helps you prepare for the age of AI shopping and agentic commerce.",
-     "source": "Microsoft Advertising blog",
-     "domain": "about.ads.microsoft.com",
-     "published": "2026-08-21T13:18:04.498824+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook",
-     "title": "Microsoft Releases Agentic Commerce Playbook",
-     "summary": "Microsoft has released a new guide for agentic commerce called Prepare for the Age of AI Shopping , designed to help advertisers prepare for agentic commerce and AI driven shopping experiences . The playbook focuses on three areas.&nbsp; Get discovered with AI ready product feeds in Microsoft Merchant Center.&nbsp; Get chosen through AI native ads across Bing and Copilot, Copilot Checkout, and Brand Agents.&nbsp; Understand what is working with AI Visibility insights in Microsoft Clarity, including AI citations, grounding queries, competitor comparisons, and AI referred traffic. It also includ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-23T23:31:23+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.jonloomer.com/meta-rewrite-text-ad-images",
-     "title": "Meta Can Now Rewrite the Text on Your Ad Images",
-     "summary": "Meta can now rewrite the text on your ad images while preserving the original design. Here’s how this Advantage+ Creative feature works. The post Meta Can Now Rewrite the Text on Your Ad Images appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-07-28T11:30:40+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-draft-option-video-uploads",
-     "title": "Google Adds Draft Option for Video Uploads",
-     "summary": "Google Ads has added an Upload as drafts option for video assets in Asset Studio . This allows advertisers to save videos as drafts without immediately selecting any YouTube channel. Previously, videos had to be uploaded to a YouTube channel before being added to a campaign. This new feature offers more flexibility for advertisers needing to make changes to their videos or those without a designated YouTube channel yet.&nbsp; However, videos will still require uploading to YouTube before they can be used in a campaign. This update was discovered by Hana Kobzová . The post Google Adds Draft Opt",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-26T05:48:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 72,
-   "title": "Meta umí přepsat text přímo v obrázku reklamy",
-   "updated": "2026-08-26T11:03:28.010680+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/81b57dce1e.jpg",
-   "image_from": "jonloomer.com",
-   "what": "Meta spustila novou funkci v rámci Advantage+ Creative, která dokáže automaticky přepsat text přímo v obrazových reklamách při zachování původního designu. Jde o rozšíření automatických úprav kreativ.",
-   "why": "Pro inzerenty to znamená, že Meta může nyní měnit nejen copywriting v textové části reklamy, ale i textové prvky přímo uvnitř grafiky – což může výrazně ovlivnit, jak vaše vizuály vypadají a co říkají, aniž byste to explicitně schválili.",
-   "takeaway": "Zkontrolujte nastavení Advantage+ Creative v běžících kampaních na Metu a zvažte, zda chcete tuto funkci povolit nebo raději vypnout u kampaní, kde je konzistence brand komunikace kritická. Sledujte v reportech, jak úpravy textů v obrázcích ovlivňují výkon."
-  },
-  {
-   "id": "7ba4a9be80",
-   "created": "2026-08-14T09:38:29.556736+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
-     "title": "Meta outlines updated scam alert system coming to WhatsApp",
-     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-12T21:53:40+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
-     "title": "We’re Upgrading Your WhatsApp Group Chats",
-     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-04T14:00:24+00:00",
-     "score": 54
-    },
-    {
-     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
-     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
-     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-08-20T14:31:40+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
-     "title": "YouTube simplifies its AI claims process",
-     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-20T23:18:27+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T11:30:41+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
-     "title": "Meta tests auto-DM response for Instagram ad comments",
-     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-25T23:54:10+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/new-zealand-introduces-teen-social-media-restrictions/828662",
-     "title": "New Zealand introduces teen social media restrictions",
-     "summary": "A new ban would require platforms such as Instagram, TikTok, Snapchat and Facebook to confirm that users are over 16 years old, per Bloomberg.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-24T20:20:26+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
    "importance": 65,
-   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
-   "updated": "2026-08-26T11:03:18.545851+00:00",
-   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
-   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
-   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
+   "title": "Google Search: volatilita výsledků pokračuje i po skončení spam updatu",
+   "updated": "2026-08-26T13:33:09.825530+00:00",
+   "what": "Google dokončil srpnový spam update 21. srpna 2026, ale pořadí výsledků vyhledávání se nestabilizovalo. SEO komunita i monitorovací nástroje zaznamenávají pokračující výkyvy v pozicích webu.",
+   "why": "Pokud váš web zažívá výkyvy v organickém výkonu, může to být způsobeno právě touto volatilitou – nejde nutně o problém na vaší straně. Pro správné vyhodnocení dopadů spam updatu je potřeba počkat, až se situace uklidní.",
+   "takeaway": "Nedělejte unáhlená rozhodnutí na základě krátkodobých změn v pozicích. Počkejte na stabilizaci výsledků vyhledávání, teprve pak vyhodnoťte skutečné dopady updatu na váš web. Sledujte vývoj v následujících dnech.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/7b985549f3.jpg",
-   "image_from": "digichef.cz"
+   "image": "img/47472ffd48.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "959fd23cec",
+   "created": "2026-08-17T07:31:21.653291+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
+     "title": "X adds video overlays",
+     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T02:42:47+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
+     "title": "X algorithm insights highlight key posting strategies",
+     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T22:47:48+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "X přidal video overlay a odhalil detaily algoritmu",
+   "updated": "2026-08-26T13:33:02.036490+00:00",
+   "what": "X (dříve Twitter) spustil pro iOS uživatele funkci přidávání textu a emoji přímo na videa. Zároveň zveřejnil další informace o fungování svého algoritmu, včetně doporučení pro efektivnější organické publikování.",
+   "why": "Úprava videí přímo v aplikaci zjednodušuje tvorbu obsahu bez externích nástrojů. Zveřejněné detaily algoritmu umožňují lépe optimalizovat frekvenci, formát a timing příspěvků pro vyšší organický dosah.",
+   "takeaway": "Pokud na X publikujete video obsah, vyzkoušejte novou editaci přímo v aplikaci na iOS. Prostudujte si zveřejněná doporučení k algoritmu a upravte podle nich svou publikační strategii – může vám to zvýšit dosah bez nutnosti platit za reklamu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e78bd72be8",
+   "created": "2026-08-22T07:22:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
+     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
+     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T07:22:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppchero.com/black-friday-2026",
+     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
+     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-24T14:04:28+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google Ads: offline konverze starší 7 dní neovlivní atribuční model",
+   "updated": "2026-08-26T13:32:51.798893+00:00",
+   "what": "Google upřesnil v nápovědě k atribučním reportům, že jeho atribuční engine zpracovává pouze offline konverze nahrané do 7 dnů od jejich vzniku. Konverze nahrané později se sice zobrazí ve standardních reportech, ale nebudou započítány do data-driven attribution modelu.",
+   "why": "Pro inzerenty pracující s lead generací a offline konverzemi (např. obchody s delším prodejním cyklem) to znamená vysvětlení dlouhodobých nesrovnalostí v datech. Pokud firma nahrává konverze se zpožděním delším než týden, její atribuční model je od počátku nepřesný – což může vést k chybným rozhodnutím o rozpočtech a strategiích kampaní.",
+   "takeaway": "Zkontrolujte, jak rychle nahráváte offline konverze do Google Ads. Pokud trvá déle než 7 dní, upravte proces – jinak přicházíte o správnou atribuci a optimalizace kampaní fungují s neúplnými daty. U lead generace a delších prodejních cyklů je nutné nastavit rychlejší reporting.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e78bd72be8.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "f2094c4077",
@@ -2681,24 +2342,7 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-16T00:20:00+00:00",
      "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads ruší manuální nastavení jazyka u vyhledávacích kampaní",
-   "updated": "2026-08-26T11:03:06.618763+00:00",
-   "what": "Od září 2026 Google Ads odstraní možnost ručně nastavovat cílení jazyka u Search kampaní a Performance Max. Místo toho bude jazyk automaticky detekován z obsahu reklamy, cílové stránky a uživatelského prostředí. Když uživatel rozumí více jazykům, Google bude moci zobrazit reklamu v kterémkoli z nich.",
-   "why": "Jde o zásadní změnu, která zasáhne zejména účty s multijazyčnými kampaněmi nebo s explicitní kontrolou jazyka. Inzerenti přijdou o možnost aktivně omezit zobrazení jen na určitý jazyk – přenechávají to zcela automatice Google Ads. Pro české firmy cílící jen na češtinu a slovenštinu to může znamenat širší exponování reklamám i v dalších jazycích, pokud budou mít na webu např. anglické verze stránek.",
-   "takeaway": "Do září 2026 zkontrolujte všechny Search a PMax kampaně a ujistěte se, že texty reklam i landing pages jsou jen v jazycích, ve kterých chcete inzerovat. Pokud máte vícejazyčný web, připravte se na to, že Google může zobrazovat reklamy v různých jazycích automaticky – zvažte případné rozdělení kampaní nebo úpravu struktury. Sledujte výkonnost kampaní po spuštění změny.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f2094c4077.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "189cc95b23",
-   "created": "2026-08-25T16:41:34+00:00",
-   "articles": [
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5",
      "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
@@ -2761,19 +2405,28 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-26T01:13:00+00:00",
      "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/google-lsa-expands-booking-partners-41945.html",
+     "title": "Google Massively Expands Booking Partners On Local Services Ads",
+     "summary": "Google has expanded the booking partners for Local Service Ads from about 20 partners to over 500 partners. That is about a 2,400 percent increase. \"We're vastly expanding booking capabilities for Local Services Ads to include more than 500 Reserve with Google booking partners '\" up from just 20,\" Ginny Marvin, the Google Ads Liaison said.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:51:00+00:00",
+     "score": 68
     }
    ],
    "category": "ppc",
-   "importance": 35,
-   "title": "Google Local Services Ads přidává nové funkce a začne účtovat zmeškané hovory",
-   "updated": "2026-08-26T11:02:57.990148+00:00",
-   "importance_label": "kontext",
+   "importance": 75,
+   "title": "Google Ads ruší manuální jazykové cílení v září 2026",
+   "updated": "2026-08-26T13:32:41.291435+00:00",
+   "what": "Google Ads od září 2026 odstraňuje možnost manuálního nastavení jazykového cílení na úrovni kampaní pro Search a Performance Max. Místo toho bude systém automaticky vybírat jazyk reklamy na základě jazyka kreativy, landing page a signálů od uživatele.",
+   "why": "Změna výrazně ovlivní práci s vícejazyčnými kampaněmi a stávající struktury účtů. Inzerenti ztratí přímou kontrolu nad jazykovým targetingem. Když uživatel rozumí více jazykům, může vidět reklamy v kterémkoli z nich – to může být problematické zejména v ČR, kde lidé často rozumějí i slovenštině, angličtině nebo němčině.",
+   "takeaway": "Do září 2026 zkontrolujte nastavení všech Search a Performance Max kampaní s vícejazyčnými variantami (např. CZ/SK/EN verze). Ujistěte se, že jazyk landing pages a reklamních textů je jednoznačný. Plánujte případné rozdělení kampaní, pokud potřebujete striktně oddělit jazykové verze – např. kvůli různým cenám nebo nabídce pro ČR a SK.",
+   "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/189cc95b23.jpg",
-   "image_from": "ppcnewsfeed.com",
-   "what": "Google rozšiřuje Local Services Ads o přímé rezervace (direct booking), nové vertikály a pre-badge možnosti. Od 1. října 2026 bude navíc účtovat i některé zmeškané hovory.",
-   "why": "Local Services Ads (LSA) nejsou v ČR plně dostupné, ale změny naznačují směr vývoje lokálního PPC. Pokud Google LSA zavede v ČR, bude třeba počítat s novým modelem zpoplatnění včetně zmeškaných hovorů – což ovlivní kalkulaci nákladů na zákazníka u lokálních služeb.",
-   "takeaway": "Zatím žádná akce, LSA v ČR nejsou. Sleduj, zda Google oznámí expanzi do ČR – pak bude třeba připravit procesy na handling hovorů a vyhodnotit, zda LSA dávají pro tvou firmu smysl oproti běžným PPC kampaním."
+   "image": "img/f2094c4077.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "7949f1f96b",
@@ -3399,18 +3052,624 @@
      "domain": "blog.hubspot.com",
      "published": "2026-07-22T11:00:03+00:00",
      "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-mode-link-carousels-41947.html",
+     "title": "Google AI Mode Also Gains Link Carousels For Developing Topics",
+     "summary": "Back in June, Google released link carousels for top stories or developing topics to AI Overviews. I was happy. Now, Google is also releasing this for AI Mode queries, which adds carousels of web pages directly in the AI Mode response.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:41:00+00:00",
+     "score": 58
     }
    ],
    "category": "seo",
-   "importance": 65,
-   "title": "Nové nástroje měří viditelnost značek v AI odpovědích – AIVA, HubSpot AEO, Ahrefs",
-   "updated": "2026-08-26T11:02:45.636721+00:00",
-   "what": "Na trh přichází řada nástrojů pro měření viditelnosti značek v odpovědích AI asistentů (ChatGPT, Gemini, Perplexity). Mezi nimi český nástroj AIVA od agentury Taste, HubSpot AEO, Ahrefs Brand Radar, Semrush nebo SISTRIX AI Check. Cílem je sledovat, kdy a jak AI doporučují konkrétní značky a produkty uživatelům.",
-   "why": "Lidé stále častěji hledají odpovědi přímo v AI nástrojích místo Google – pokud tam vaše firma není zmíněná, zákazník o vás vůbec nemusí vědět. Klasické SEO metriky (pozice ve vyhledávači) už nestačí. Ukazuje se, že AI nedoporučují značky kvůli autoritě, ale kvůli konkrétním důkazům a kontextu rozhodování, který o nich mají.",
-   "takeaway": "Pokud pracujete s obsahem nebo SEO, měli byste začít sledovat, zda se vaše značka objevuje v AI odpovědích na klíčové dotazy zákazníků. Zvažte pilotní vyzkoušení některého z nových nástrojů (AIVA, Semrush, Ahrefs) a upravte obsah tak, aby poskytoval konkrétní důkazy pro rozhodování, ne jen obecnou autoritu.",
+   "importance": 68,
+   "title": "Nástroje pro měření viditelnosti značky v AI odpovědích: HubSpot, Ahrefs, Semrush a Sistrix",
+   "updated": "2026-08-26T13:32:30.930447+00:00",
+   "what": "Na trh přichází nová kategorie nástrojů pro měření AI viditelnosti – schopnosti značky objevit se v odpovědích ChatGPT, Gemini a Perplexity. HubSpot spustil AEO (Answer Engine Optimization), Ahrefs nabízí Brand Radar, Semrush umožňuje hledat mezery v AI viditelnosti a Sistrix přidává AI Check. Česká agentura Taste vyvinula vlastní nástroj AIVA.",
+   "why": "Stále více uživatelů získává doporučení přímo z AI asistentů místo Google vyhledávání. Pokud se značka v AI odpovědích neobjevuje, uživatelé ji nezahrnují do výběru ještě před návštěvou webu. Tradiční metriky SEO (pozice v SERP, organický provoz) už nezachycují celý obraz viditelnosti značky.",
+   "takeaway": "Zvažte monitoring AI viditelnosti jako doplněk ke klasickým SEO metrikám. Pokud už používáte Semrush, Ahrefs nebo HubSpot, prozkoumejte jejich nové funkce pro měření výskytu značky v AI odpovědích. Zaměřte se na to, zda konkurenti dostávají v AI doporučení tam, kde vaše značka chybí.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/7949f1f96b.jpg",
+   "image_from": "digichef.cz"
+  },
+  {
+   "id": "094abad828",
+   "created": "2026-08-10T09:52:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.semrush.com/blog/overcoming-ai-related-traffic-loss",
+     "title": "Traffic Is Down—Now What? Marketing Success In the Age of AI",
+     "summary": "Google traffic is slowly declining. Learn how to future-proof your business in the AI era.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-10T09:52:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
+     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
+     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "news.google.com",
+     "published": "2026-08-14T13:14:12+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
+     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
+     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T22:03:26+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
+     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
+     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:47:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+     "title": "What's Next for Your Brand Website?",
+     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
+     "source": "Content Marketing Institute",
+     "domain": "contentmarketinginstitute.com",
+     "published": "2026-08-19T10:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
+     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
+     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-25T19:00:30+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.marketingaiinstitute.com/blog/trust-as-content-strategy-maicon-2026",
+     "title": "When AI Creates Tons of Content, Trust Becomes the Strategy [MAICON 2026]",
+     "summary": "AI can now produce more content in an afternoon than most marketing teams used to create in a month. For Joe Pulizzi, that's precisely the problem and the opportunity.",
+     "source": "Marketing AI Institute",
+     "domain": "marketingaiinstitute.com",
+     "published": "2026-08-10T14:30:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "seo",
+   "importance": 62,
+   "title": "Citace Redditu v ChatGPT Search klesly během čtyř dnů o 86 %",
+   "updated": "2026-08-26T13:32:17.251130+00:00",
+   "what": "Data od Promptwatch ukazují prudký propad citací Redditu v ChatGPT Search – během čtyř dnů pokles o 86 %. Analýza nového formátu volání nástrojů v ChatGPT Search odhalila, že i když systém vytáhl 84 Reddit vláken do fondu relevantních zdrojů, žádné z nich nebylo nakonec citováno. OpenAI nedávno přestavělo svůj vyhledávací nástroj a změnilo způsob, jak ChatGPT pracuje se zdroji před generováním odpovědi.",
+   "why": "Pokud vaše firma spoléhá na organický dosah přes platformy jako Reddit (nebo jiné komunitní weby), může se stát, že AI nástroje vaše obsahy načtou, ale nezmíní. To znamená nulovou viditelnost a návštěvnost, i když jste v 'retrieval poolu'. Změna také signalizuje nestabilitu AI search jako referenčního kanálu – pravidla se mění rychle a bez předchozího upozornění.",
+   "takeaway": "Sledujte si citace a traffic ze zdrojů jako ChatGPT Search pomocí nástrojů jako Promptwatch nebo Google Analytics (referrer kontrola). Nespoléhejte výhradně na AI vyhledávače jako na budoucí SEO kanál – jejich chování je zatím nepředvídatelné. Pokud máte obsah na Redditu nebo podobných platformách, diverzifikujte zdroje návštěvnosti.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/094abad828.jpg",
+   "image_from": "semrush.com"
+  },
+  {
+   "id": "8cced7c67e",
+   "created": "2026-08-26T12:00:17+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810",
+     "title": "How To Advertise In Google AI Mode For Ecommerce via @sejournal, @tonyadam",
+     "summary": "Google generates AI Mode ads directly from your product feed, not your ad copy. Here's which Merchant Center attributes decide whether your products get chosen. The post How To Advertise In Google AI Mode For Ecommerce appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T12:00:17+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google AI Mode generuje reklamy z produktového feedu, ne z ad copy",
+   "updated": "2026-08-26T13:30:55.322483+00:00",
+   "what": "Google v AI Mode vytváří reklamy pro e-shopy přímo z dat v Merchant Center feedu, nikoli z připravených textů kampaní. O zařazení produktů rozhodují konkrétní atributy ve feedu.",
+   "why": "Mění přístup k tvorbě PPC kampaní pro e-commerce – klíčové přestává být psaní ad copy a důležitější se stává kvalita a kompletnost dat v produktovém feedu.",
+   "takeaway": "Zkontrolujte a optimalizujte atributy produktů v Google Merchant Center – právě ony určují, zda a jak se vaše produkty zobrazí v AI Mode reklamách. Investujte čas do kvality feedu místo do ruční tvorby reklamních textů.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/8cced7c67e.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "6baf8127da",
+   "created": "2026-08-26T11:31:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-customer-lifecycle-optimization-conversion-goals-41941.html",
+     "title": "Google Ads Customer Lifecycle Optimization Within Conversion Goals",
+     "summary": "Google Ads has placed Customer Lifecycle Optimization directly within the conversion goals section of the Google Ads platform.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:31:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads přesunul Customer Lifecycle Optimization do nastavení konverzí",
+   "updated": "2026-08-26T13:30:55.322483+00:00",
+   "what": "Google Ads umístil funkci Customer Lifecycle Optimization (optimalizace zákaznického cyklu) přímo do sekce cílů konverzí v rozhraní platformy. Jde o změnu v uspořádání funkce, která byla dříve dostupná jinde.",
+   "why": "Integrace CLO přímo do nastavení konverzí znamená snadnější přístup k optimalizaci kampaní podle fáze zákaznického cyklu (akvizice vs. retention). Pro inzerenty, kteří pracují s remarketingem nebo Customer Match, je to rychlejší cesta k nastavení rozdílných strategií nabídkování.",
+   "takeaway": "Pokud využíváte Customer Lifecycle Optimization, zkontrolujte nové umístění funkce v sekci conversion goals. Změna usnadňuje nastavení – ověřte, zda máte správně nastavené cíle pro akvizici i udržení zákazníků a zda kampaně optimalizují na správnou fázi cyklu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "f548588a5f",
+   "created": "2026-08-26T11:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html",
+     "title": "Bing Tests Shorts Video Tab In Search Menu",
+     "summary": "Microsoft Bing is testing a new \"Shorts\" tab in the search menu on Bing Search. This should filter the results by short videos across YouTube, Instagram, TikTok, Facebook and so on. The tab is called \"Shorts\" and looks like a video play icon in vertical format.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:21:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 48,
+   "title": "Bing Tests Shorts Video Tab In Search Menu",
+   "updated": "2026-08-26T13:30:55.322483+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "683b3c9600",
+   "created": "2026-08-26T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-product-titles-report-41948.html",
+     "title": "Google Ads AI-Created Product Titles Report Beta",
+     "summary": "Google is beta testing a new Product title report within Google Ads. This is a special product title report for Al-created product titles. The report should show in your ads when they're more relevant than your original titles, Google wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:11:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads testuje AI generování titulků produktů – beta report pro inzerenty",
+   "updated": "2026-08-26T13:30:55.322483+00:00",
+   "what": "Google spustil beta testování nového reportu v Google Ads, který zobrazuje AI vytvořené titulky produktů. Tyto AI titulky se podle Googlu zobrazují v reklamách místo původních, pokud jsou relevantnější.",
+   "why": "Jde o další krok Googlu k automatickému přepisování obsahu reklam. Pro PPC specialisty a e-shopy to znamená, že Google může začít měnit názvy produktů v reklamách bez jejich vědomí – report má sloužit k monitorování těchto změn.",
+   "takeaway": "Pokud máte přístup k beta reportu Product titles v Google Ads, sledujte, jak Google přepisuje vaše produktové titulky a zda to zlepšuje nebo zhoršuje výkon. V opačném případě zatím čekejte – funkce je v testování a není jasné, kdy a zda dorazí do ČR.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "ec6accb556",
+   "created": "2026-08-26T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-channel-settings-prioritization-slider-41949.html",
+     "title": "Google Ads Channel Settings Prioritization Slider (Alpha Test)",
+     "summary": "Google is testing a new \"Channels\" slider that lets you adjust how much you prioritize conversions from your Google Ads channels, such as Google Search, Google Partners, Discover, Maps, YouTube, the Display Network and Gmail.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:05:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "ppc",
+   "importance": 71,
+   "title": "Google Ads Channel Settings Prioritization Slider (Alpha Test)",
+   "updated": "2026-08-26T13:30:55.322483+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/ec6accb556.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "c748a6b0ae",
+   "created": "2026-08-17T08:28:39.081527+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/livesport-nasadi-ai-avatarku-ailu-vyuzije-ji-pro-videa-oznameni-i-vlastni-porady",
+     "title": "Livesport nasadí AI avatarku, využije ji pro videa, oznámení i vlastní pořady",
+     "summary": "Livesport představila virtuální AI moderátorku AILU, kterou po testovacím nasazení během fotbalového mistrovství světa zařadí mezi své stálé komunikační nástroje. Digitální avatarka dokáže připravovat a moderovat lokalizovaný obsah v desítkách jazyků a má být využívána v redakčním obsahu, produktové komunikaci i obchodních partnerstvích.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-17T08:15:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.searchenginejournal.com/wix-introduces-symphony-an-easy-way-for-local-businesses-to-use-ai-agents/587093",
+     "title": "Wix Introduces Symphony, An Easy Way For Local Businesses To Use AI Agents via @sejournal, @martinibuster",
+     "summary": "Wix introduced Symphony, an easy and safe way for small to medium size local businesses to use AI agents. The post Wix Introduces Symphony, An Easy Way For Local Businesses To Use AI Agents appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T09:17:38+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "Livesport nasadí AI avatarku AILU pro videa a vlastní pořady",
+   "updated": "2026-08-26T11:06:20.384657+00:00",
+   "what": "Livesport představil virtuální AI moderátorku AILU, která po testování během fotbalového MS přechází do stálého provozu. Avatarka umí připravovat a moderovat lokalizovaný obsah v desítkách jazyků a bude využívána v redakčním obsahu, produktové komunikaci i obchodních partnerstvích.",
+   "why": "Jde o konkrétní ukázku, jak český hráč využívá AI pro škálovatelnou tvorbu video obsahu napříč jazyky – potenciálně relevantní inspirace pro firmy s mezinárodním dosahem nebo vícejazyčnými weby.",
+   "takeaway": "Pokud připravujete video obsah nebo komunikaci pro více trhů, sledujte výsledky Livesportu s AILU – AI avatarky mohou být praktická (a cenově dostupnější) alternativa k produkci s živými moderátory.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "fc43240066",
+   "created": "2026-07-22T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5",
+     "title": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé",
+     "summary": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-07-22T07:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBLTR6WUdnNXhWLWNpMG4yY1hJSmxOdlctcVF4dVB2a3dfcGFLb0NFOEJHZHJILWpYQzhvNnZDNWctdzdIVDAzb0x3WEZ6bUtaYkFNeFotWkVBbV90UFMxWXlPTkxiS0RtUWVEOFJsZ1hJMlkxYy1r?oc=5",
+     "title": "AI is reshaping marketing teams from the inside",
+     "summary": "AI is reshaping marketing teams from the inside &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-04T07:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yWkwtcHo1OGtjbWFvMUNEUFh1ZlF1UFRZTk1xdmNfRG5mbW51Y0gyeEgwS0N4cTF6b09USG9aZGhQV25zT3VhRDVwc1ZVekZaRlY5cHRpOTZHQ0N5X2RndTh3OWlmVWtveE85V2xweGc0UQ?oc=5",
+     "title": "Why your AI-review process is going to fail",
+     "summary": "Why your AI-review process is going to fail &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-07-27T07:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14ZmZjN3pKWF83YlFWM3lsUkVOb3ROV3JkUGtVWWhZTGZHU2s5MjNtOFpiUE4ycGJKSkFKZ2l0T0ZvcWhxbWxaMFJvRWJhQ252UFNPaWVqM3dFNDYtNW5iWnN5YXVzZFRQMG0wMjJvMmNKX2htVkRCd3Zodw?oc=5",
+     "title": "Four holiday reports reveal one big divide over AI",
+     "summary": "Four holiday reports reveal one big divide over AI &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-03T07:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qUnd0UUpGZGtXQ2ZEX0w4OUxuY1JtVHE3WTJlcWxmR3FYN0NXa2E4QlVyNkE4TXJqUXQ0NnIwRHI5aFJXcW9UVXNTVDhaSzNTMU5uMXVtbkpIYkkyS2xCYVkyOG12UV9OZUFOcFROcw?oc=5",
+     "title": "AI halftime report: H1 2026",
+     "summary": "AI halftime report: H1 2026 &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-07-29T07:00:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.marketingaiinstitute.com/blog/from-ai-users-to-ai-builders-maicon-2026",
+     "title": "From AI Users to AI Builders: The Next Phase of AI in Marketing [MAICON 2026]",
+     "summary": "Most marketing teams have gotten comfortable using AI. They've integrated it into content workflows, sharpened their prompts, and found individual productivity gains. But the next phase is already here, and it relies heavily on the ability and dedication of humans, says Zapier’s Dan Slagen.",
+     "source": "Marketing AI Institute",
+     "domain": "marketingaiinstitute.com",
+     "published": "2026-08-03T13:00:01+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend",
+     "title": "The next AI opportunity is deciding where to spend",
+     "summary": "AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working. The post The next AI opportunity is deciding where to spend appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-17T12:34:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently",
+     "title": "What the teams getting the most from AI do differently",
+     "summary": "Teams built around autonomy, experimentation, and cross-functional work can turn AI’s speed into faster campaigns without adding headcount. The post What the teams getting the most from AI do differently appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:46:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS1k5dEp4VkxkWWFuc2EtLWJtSk1xQWpnQWhOZ1hncXpES0NaVXNmQzNqVkVueGNGVEM0Z215czFJWHVZU0JjenluNXdCRzNyTHlhMEhUQVllWHhRYUtDSmlvZjFON1piSXBvNkFtQzVfSFJVQ0VlbWVWaVdINGZoNzFPVFVMQk5fVU1sYzdLMmQ4T2d4LTJ3S25HRWJrX1N6R015NVN4Sm9RQkFuTHhLMTQ3SUNsY21WMWhiOW1IVl82b2Z0WUpDZjNZYkZfdlAyZ0RSNXBQTk15Z2s3d0lzNkFlOXhsTDg?oc=5",
+     "title": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
+     "summary": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-16T07:00:00+00:00",
+     "score": 49
+    }
+   ],
+   "category": "ai",
+   "importance": 68,
+   "title": "AI přechází od používání k alokaci rozpočtů – marketéři začínají AI využívat k řízení výdajů",
+   "updated": "2026-08-26T11:06:08.524335+00:00",
+   "what": "AI nástroje se posouvají z fáze základního používání (tvorba obsahu, optimalizace promptů) do pokročilejší role – pomáhají marketérům rozhodovat, kam směřovat rozpočty a jak alokovat výdaje na základě výkonnosti kampaní. Týmy, které z AI těží nejvíce, se vyznačují autonomií, experimentováním a meziodborovou spoluprací.",
+   "why": "Pro marketingového manažera to znamená novou příležitost optimalizovat rozpočty efektivněji – místo jen rychlejší práce může AI přímo ovlivnit ROI tím, že identifikuje, kam směřovat peníze. Současně se týmy musí posunout od individuálního používání AI k systemizovanému přístupu, jinak riskují, že AI review procesy selžou.",
+   "takeaway": "Zvažte pilotní testování AI nástrojů pro media buying a alokaci rozpočtů – ne jen pro content. Vytvořte v týmu prostor pro experimentování s AI a ujistěte se, že máte jasný proces schvalování AI výstupů, protože ad-hoc přístupy typicky selhávají.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/fc43240066.jpg",
+   "image_from": "mam.cz"
+  },
+  {
+   "id": "f64851872e",
+   "created": "2026-07-23T10:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediaexaminer.com/youtube-on-tv-what-marketers-need-to-know",
+     "title": "YouTube on TV: What Marketers Need to Know",
+     "summary": "Wondering what YouTube's aggressive push into living rooms means for your channel strategy? Want to learn how to make sure your YouTube content looks great on a 65-inch screen?&#160; In this article, you'll discover how to optimize your YouTube channel for TV viewers, create content that works on connected TVs, and use new YouTube features [&#8230;] The post YouTube on TV: What Marketers Need to Know appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-07-23T10:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-rolls-out-improvements-for-connected-tv/828218",
+     "title": "YouTube rolls out improvements for Connected TV",
+     "summary": "The company added multiple new features, including the ability to turn creator playlists into shows so viewers can stream videos episodically.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-18T23:05:41+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 48,
+   "title": "YouTube míří do obýváků: jak optimalizovat obsah pro televize",
+   "updated": "2026-08-26T11:05:40.946696+00:00",
+   "what": "YouTube se soustředí na zvýšení sledovanosti na velkých obrazovkách v obýváku (connected TV). Marketéři by měli přizpůsobit svůj obsah a strategii kanálu pro diváky sledující YouTube na 65palcových televizích místo mobilů nebo počítačů.",
+   "why": "Rostoucí podíl sledování YouTube na televizích mění požadavky na formát, design a způsob prezentace obsahu – co funguje na mobilu, nemusí být dobře čitelné nebo působivé na velkém TV displeji.",
+   "takeaway": "Zkontrolujte, zda vaše YouTube videa (zejména grafika, titulky a vizuální prvky) jsou dobře čitelné a působivé i na velkých obrazovkách. Zvažte úpravu formátu obsahu a využití nových YouTube funkcí zaměřených na TV sledování.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "569f2a4320",
+   "created": "2026-08-05T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQ0Nfcl9iNk1QcGVlcEtVRmtkQW9OOEdQcEZEenpOT0lmZnFzV3FfeEEwczFEbV9RZXFGcjJhSFhldVN3T0lPS0kzU0VDbHVMYkdXQXRiR1NFRm1rSUJOWTE0aTVtWmtYTGFGRXZaVkEzYWN0WDdYZWlPUDlXRWpRaTNpanR5NDd3VVl3RmtwVVZrWDFLeDZvRnRNNjRKMHBJVHNIcktOSjhFZGNOTlNlRGtTTlI1MXBVUlNyVzVLVWZ3bTdQWFFKSmdvNk9DYnM4ZTZGTw?oc=5",
+     "title": "The Walt Disney Company and TikTok Announce a First-of-its-Kind Global Short-Form Content-Sharing Deal",
+     "summary": "The Walt Disney Company and TikTok Announce a First-of-its-Kind Global Short-Form Content-Sharing Deal &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-05T07:00:00+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGF1dUdYQTVWNkZoazFOeXJlUXJSNUhLN0ZzWndQbGtacVBkVUhNc3RndUdFLWwzcFJMeEtaT3pfY3I4NFotSXppcXhXYVdvSUNXOTByQmJ0WlM5Vi1YcGVfNXhWNVlKS1R2amJwWGNHTVowQ3poYWRtbVpoUmgtc1FQVEUwOHRiZUwtLXFDZFFzbVU?oc=5",
+     "title": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens",
+     "summary": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T00:12:31+00:00",
+     "score": 56
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792",
+     "title": "TikTok expands public placement opportunities for advertisers",
+     "summary": "The company continues to roll out Out of Phone promotion expansions as it brings in-app content to billboards, in-store displays, cinema promos and more.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:59:56+00:00",
+     "score": 52
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 52,
+   "title": "TikTok rozšiřuje Out of Phone reklamu v Evropě – billboardy, kina, obchody",
+   "updated": "2026-08-26T11:03:47.694795+00:00",
+   "what": "TikTok spustil program Out of Phone v Evropě ve spolupráci s šesti mediálními partnery (Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media, C-Screens). Reklamní obsah z TikToku se bude objevovat na billboardech, v kinech, obchodech a dalších veřejných prostorech mimo mobilní telefony. Paralelně TikTok uzavřel globální dohodu s Disneym o sdílení krátkých videí.",
+   "why": "Jde o rozšíření reklamních možností TikToku mimo aplikaci – umožňuje inzerentům oslovit publikum tam, kde se pohybuje fyzicky. Pro české firmy s rozpočtem na DOOH (digital out-of-home) nebo kinoreklamu to může znamenat nový formát a kanál, pokud spolupráce zahrnuje také ČR nebo lokální partnery.",
+   "takeaway": "Sledujte dostupnost Out of Phone programu v ČR – pokud máte rozpočet na venkovní reklamu nebo spolupracujete s DOOH sítěmi, může to být cesta, jak propojit TikTok obsah s offline publikem. Zatím není potvrzeno, zda jsou čeští partneři součástí expanze.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "d465ede499",
+   "created": "2026-08-19T11:00:22+00:00",
+   "articles": [
+    {
+     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
+     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
+     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-19T11:00:22+00:00",
+     "score": 49
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
+     "title": "Deciding #WhatToWatch just got easier with TikTok",
+     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T04:07:29+00:00",
+     "score": 49
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 35,
+   "title": "Meta spouští akcelerátor pro startupy, TikTok usnadňuje výběr obsahu",
+   "updated": "2026-08-26T11:03:36.828518+00:00",
+   "what": "Meta spustila Meta Startup School – tříměsíční program pro 200 startupů zaměřených na spotřebitelské značky. Program nabídne přístup k podpoře venture kapitálových firem a odborníkům. TikTok oznámil novou funkci usnadňující uživatelům rozhodování, co sledovat (konkrétní detaily ve zdroji chybí).",
+   "why": "Meta Startup School může být příležitostí pro české startupy v e-commerce a D2C segmentu získat know-how a případně i financování. Jde ale o globální program bez potvrzené dostupnosti pro ČR. TikTok novinka naznačuje další posílení platformy jako discovery kanálu, což může ovlivnit strategii brandů na TikToku.",
+   "takeaway": "Pokud vedete nebo spolupracujete s early-stage D2C značkou s globálními ambicemi, sledujte podmínky přihlášení do Meta Startup School. U TikToku zatím čekejte na detaily nové funkce – může ovlivnit, jak uživatelé objevují obsah značek.",
+   "importance_label": "kontext",
+   "multi_source": true
+  },
+  {
+   "id": "81b57dce1e",
+   "created": "2026-07-20T13:30:24+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/qvt/roas-goal-maximize-number-conversions",
+     "title": "ROAS Goal for Maximize Number of Conversions",
+     "summary": "This is an interesting change&#8230; The ROAS (Return On Ad Spend) Goal bid strategy is now available for the performance goal that &#8220;maximizes the number of conversions.&#8221; Let&#8217;s take a closer look&#8230; ROAS Goal History When running ads for purchases, most advertisers use the performance goal to &#8220;maximize the number of conversions.&#8221; When selected, Meta... Read more &#187; The post ROAS Goal for Maximize Number of Conversions appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-07-20T13:30:24+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.jonloomer.com/qvt/predicted-lifetime-value-pltv",
+     "title": "What is Predicted Lifetime Value (pLTV)?",
+     "summary": "Predicted Lifetime Value (or pLTV) value optimization helps you acquire high-value customers using your own long-term value predictions. Here is what I&#8217;ve learned from Meta&#8217;s developer documentation on the feature&#8230; How it Works Predicted Lifetime Value (pLTV) is built around a single conversion event that helps predict value. So maybe you can predict that the... Read more &#187; The post What is Predicted Lifetime Value (pLTV)? appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-17T13:30:48+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.jonloomer.com/exclusion-only-custom-audiences",
+     "title": "Exclusion-Only Custom Audiences",
+     "summary": "Learn how to create and use exclusion-only custom audiences in Meta Ads, including limitations, targeting restrictions, and use cases. The post Exclusion-Only Custom Audiences appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-07T18:18:13+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/how-businesses-win-when-ai-does-the-shopping",
+     "title": "How businesses win when AI does the shopping",
+     "summary": "AI is already the fastest-growing retail channel. Our playbook helps you prepare for the age of AI shopping and agentic commerce.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-08-21T13:18:04.498824+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-releases-agentic-commerce-playbook",
+     "title": "Microsoft Releases Agentic Commerce Playbook",
+     "summary": "Microsoft has released a new guide for agentic commerce called Prepare for the Age of AI Shopping , designed to help advertisers prepare for agentic commerce and AI driven shopping experiences . The playbook focuses on three areas.&nbsp; Get discovered with AI ready product feeds in Microsoft Merchant Center.&nbsp; Get chosen through AI native ads across Bing and Copilot, Copilot Checkout, and Brand Agents.&nbsp; Understand what is working with AI Visibility insights in Microsoft Clarity, including AI citations, grounding queries, competitor comparisons, and AI referred traffic. It also includ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-23T23:31:23+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.jonloomer.com/meta-rewrite-text-ad-images",
+     "title": "Meta Can Now Rewrite the Text on Your Ad Images",
+     "summary": "Meta can now rewrite the text on your ad images while preserving the original design. Here’s how this Advantage+ Creative feature works. The post Meta Can Now Rewrite the Text on Your Ad Images appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-07-28T11:30:40+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-draft-option-video-uploads",
+     "title": "Google Adds Draft Option for Video Uploads",
+     "summary": "Google Ads has added an Upload as drafts option for video assets in Asset Studio . This allows advertisers to save videos as drafts without immediately selecting any YouTube channel. Previously, videos had to be uploaded to a YouTube channel before being added to a campaign. This new feature offers more flexibility for advertisers needing to make changes to their videos or those without a designated YouTube channel yet.&nbsp; However, videos will still require uploading to YouTube before they can be used in a campaign. This update was discovered by Hana Kobzová . The post Google Adds Draft Opt",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T05:48:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 72,
+   "title": "Meta umí přepsat text přímo v obrázku reklamy",
+   "updated": "2026-08-26T11:03:28.010680+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/81b57dce1e.jpg",
+   "image_from": "jonloomer.com",
+   "what": "Meta spustila novou funkci v rámci Advantage+ Creative, která dokáže automaticky přepsat text přímo v obrazových reklamách při zachování původního designu. Jde o rozšíření automatických úprav kreativ.",
+   "why": "Pro inzerenty to znamená, že Meta může nyní měnit nejen copywriting v textové části reklamy, ale i textové prvky přímo uvnitř grafiky – což může výrazně ovlivnit, jak vaše vizuály vypadají a co říkají, aniž byste to explicitně schválili.",
+   "takeaway": "Zkontrolujte nastavení Advantage+ Creative v běžících kampaních na Metu a zvažte, zda chcete tuto funkci povolit nebo raději vypnout u kampaní, kde je konzistence brand komunikace kritická. Sledujte v reportech, jak úpravy textů v obrázcích ovlivňují výkon."
+  },
+  {
+   "id": "7ba4a9be80",
+   "created": "2026-08-14T09:38:29.556736+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
+     "title": "Meta outlines updated scam alert system coming to WhatsApp",
+     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-12T21:53:40+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
+     "title": "We’re Upgrading Your WhatsApp Group Chats",
+     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-04T14:00:24+00:00",
+     "score": 54
+    },
+    {
+     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
+     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
+     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-08-20T14:31:40+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
+     "title": "YouTube simplifies its AI claims process",
+     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T23:18:27+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T11:30:41+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
+     "title": "Meta tests auto-DM response for Instagram ad comments",
+     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:54:10+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/new-zealand-introduces-teen-social-media-restrictions/828662",
+     "title": "New Zealand introduces teen social media restrictions",
+     "summary": "A new ban would require platforms such as Instagram, TikTok, Snapchat and Facebook to confirm that users are over 16 years old, per Bloomberg.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-24T20:20:26+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
+   "updated": "2026-08-26T11:03:18.545851+00:00",
+   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
+   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
+   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7b985549f3.jpg",
    "image_from": "digichef.cz"
   },
   {
@@ -4604,56 +4863,6 @@
    "image_from": "ahrefs.com"
   },
   {
-   "id": "6947b86944",
-   "created": "2026-08-24T14:04:28+00:00",
-   "articles": [
-    {
-     "url": "https://ppchero.com/black-friday-2026",
-     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
-     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
-     "source": "PPC Hero",
-     "domain": "ppchero.com",
-     "published": "2026-08-24T14:04:28+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Black Friday 2026: ChatGPT reklamy a automatizace zvyšují rizika kampaní",
-   "updated": "2026-08-24T15:07:50.198840+00:00",
-   "what": "Článek z PPC Hero upozorňuje, že Black Friday 2026 bude pro PPC týmy mimořádně náročný kvůli kombinaci faktorů: nástup ChatGPT reklam, tlak na marže, říjnové launche produktů a rostoucí závislost na automatizaci kampaní.",
-   "why": "Jde o varování před 'dokonalou bouří' okolností, které mohou zásadně ovlivnit výkonnost a ziskovost PPC kampaní během klíčového prodejního období. Pro marketingové manažery to znamená potřebu připravit se na vyšší konkurenci a komplexnější řízení kampaní.",
-   "takeaway": "Začněte plánovat Black Friday kampaně s dostatečným předstihem. Připravte se na vyšší soutěž v aukcích, prověřte nastavení automatizovaných strategií a sledujte dopady nových reklamních formátů (ChatGPT Ads) na vaše kampaně. Počítejte s potenciálně vyššími náklady a nižšími maržemi.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "e78bd72be8",
-   "created": "2026-08-22T07:22:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
-     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
-     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T07:22:00+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads: offline konverze starší 7 dní ignoruje atribuční model",
-   "updated": "2026-08-22T08:55:39.683917+00:00",
-   "what": "Google upřesnil v nápovědě, že data-driven attribution v Google Ads zpracovává pouze offline konverze nahrané do 7 dnů od události. Konverze nahrané později se sice objeví ve standardních reportech, ale atribuční model je nebere v úvahu.",
-   "why": "Pro firmy pracující s lead generation a delším prodejním cyklem to vysvětluje dlouhodobé nesrovnalosti v atribučních datech a může ovlivnit strategii měření a optimalizaci kampaní.",
-   "takeaway": "Zkontroluj, jak rychle nahráváš offline konverze do Google Ads. Pokud trvá déle než týden, atribuční data nejsou přesná a měl bys urychlit nebo automatizovat nahrávání, případně upravit nastavení měření konverzí.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/e78bd72be8.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "3dad1a5b60",
    "created": "2026-08-21T14:43:31+00:00",
    "articles": [
@@ -4774,30 +4983,6 @@
    "multi_source": false,
    "image": "img/5f36a5e81c.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "263d0dbaef",
-   "created": "2026-08-17T22:47:48+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
-     "title": "X algorithm insights highlight key posting strategies",
-     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T22:47:48+00:00",
-     "score": 47
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "X zveřejnil části algoritmu: jak vyhrát v organickém dosahu",
-   "updated": "2026-08-18T05:02:51.666377+00:00",
-   "what": "X (dříve Twitter) zveřejnil části zdrojového kódu svého doporučovacího algoritmu. Business Insider na základě těchto informací popsal, jak algoritmus funguje a jaké strategie postování zvýhodňuje.",
-   "why": "Pro firmy a marketéry využívající X v ČR to přináší konkrétní vodítka, jak optimalizovat organický dosah bez nutnosti navyšovat reklamní rozpočet – pochopení algoritmu umožňuje efektivněji plánovat obsah a timing příspěvků.",
-   "takeaway": "Prostudujte zveřejněné poznatky o algoritmu X a upravte svou publikační strategii – zaměřte se na faktory, které algoritmus zvýhodňuje (timing, formáty, engagement). Může to zlepšit dosah bez dalších nákladů.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "160d207a3a",
@@ -5190,30 +5375,6 @@
    "takeaway": "Zvažte, zda perfektně vyleštěný obsah stále funguje pro vaše publikum, nebo testujte autentičtější formáty (zákulisí, neupravená videa, reálné zákaznické situace). Sledujte metriky engagement u různých typů obsahu."
   },
   {
-   "id": "fd53b08253",
-   "created": "2026-08-10T14:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.marketingaiinstitute.com/blog/trust-as-content-strategy-maicon-2026",
-     "title": "When AI Creates Tons of Content, Trust Becomes the Strategy [MAICON 2026]",
-     "summary": "AI can now produce more content in an afternoon than most marketing teams used to create in a month. For Joe Pulizzi, that's precisely the problem and the opportunity.",
-     "source": "Marketing AI Institute",
-     "domain": "marketingaiinstitute.com",
-     "published": "2026-08-10T14:30:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "obsah",
-   "importance": 55,
-   "title": "Joe Pulizzi: Když AI vytváří tuny obsahu, důvěra se stává strategií",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Joe Pulizzi na konferenci MAICON 2026 upozornil, že AI dnes dokáže vytvořit během odpoledne více obsahu, než marketingové týmy dříve vyrobily za měsíc. Právě v tom vidí hlavní problém i příležitost současného content marketingu.",
-   "why": "Přesycení trhu AI generovaným obsahem mění pravidla hry – diferenciátorem se stává důvěra, ne kvantita. Pro marketingové manažery to znamená přehodnocení content strategie: místo masové produkce se zaměřit na budování kredibility a vztahu s publikem.",
-   "takeaway": "Přehodnoťte svou content strategii – nezaměřujte se na kvantitu obsahu, kterou AI snadno vyprodukuje, ale na budování důvěry jako klíčového diferenciátoru. Investujte do prvků, které AI neumí nahradit: autenticitu, expertízu a dlouhodobé vztahy s publikem.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "de710764aa",
    "created": "2026-08-10T09:52:43+00:00",
    "articles": [
@@ -5352,30 +5513,6 @@
    "what": "Podle nového výzkumu STEM rozhodují čeští spotřebitelé o nákupu oblečení především na základě ceny, kvality a vzhledu. Více než pětina Čechů nakupuje na platformách ultra rychlé módy jako SHEIN nebo Temu. Ekologické a etické aspekty výroby jsou pro většinu okrajovou záležitostí, i když lidé deklarují podporu odpovědnějšímu přístupu k módě.",
    "why": "Data ukazují reálné nákupní chování českých spotřebitelů v segmentu módy – cenová sensitivita a rostoucí podíl asiatských platforem typu SHEIN/Temu ovlivňujíStrategie e-commerce hráčů a retailových značek na českém trhu. Rozpor mezi deklarovanými hodnotami (udržitelnost) a skutečným chováním (cena) je zásadní pro targeting a komunikaci.",
    "takeaway": "Pokud prodáváte oblečení nebo inzerujete módní značky v ČR, počítejte s tím, že zákazníci primárně řeší cenu – komunikace ekologie a etiky funguje spíše jako image, ale neovlivňuje většinové nákupní rozhodnutí. Sledujte konkurenci z SHEIN/Temu a jejich cenovou úroveň při nastavování PPC kampaní a cenových strategií.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "959fd23cec",
-   "created": "2026-08-17T07:31:21.653291+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
-     "title": "X adds video overlays",
-     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T02:42:47+00:00",
-     "score": 52
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "X (Twitter) přidává textové a emoji překryvy do videí",
-   "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Platforma X (dříve Twitter) zavádí pro iOS uživatele možnost přidávat text a emoji přímo do videí. Funkce přibližuje editační možnosti X k ostatním sociálním sítím.",
-   "why": "Pro správce firemních sociálních sítí to znamená možnost vytvářet atraktivnější video obsah přímo v aplikaci X, bez nutnosti předúprav v externích nástrojích. Zjednodušuje to tvorbu video contentu pro tento kanál.",
-   "takeaway": "Pokud pro firmu spravujete X a pravidelně publikujete videa, prozkoumejte novou funkci překryvů – můžete ušetřit čas s editací a zvýšit engagement videí přidáním textových akcentů nebo emoji přímo v aplikaci.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
