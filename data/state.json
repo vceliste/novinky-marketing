@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-25T20:53:34.458134+00:00",
+ "last_run": "2026-08-26T05:04:39.754298+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f56210ce090>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f71cc80a060>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -101,13 +101,13 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
+   "new": 8
   },
   {
    "name": "Hana Kobzová",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
    "new": 0
   },
   {
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Sprout Social",
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
@@ -304,8 +304,8 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -1948,9 +1948,243 @@
   "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022": "2026-08-25T19:06:38.586716+00:00",
   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGxyMXJoWXV4SWc4NlBZdEd4a1U3T0Jpc1pSTFEzQnZ3OHl2XzdYQ2tnTUh4em41dEhFdFpZbW1MWWlYbzJlcmhYMkdBSUZteFQxY3BoS1VndUNDWlU1bTUwbWZadXA4ek5CeDg0bDh5eTFtbXkteTBfenhyMjNrR1pMUmhGeE12dmZ5LTNwTHBwS2F0Y3NlYmpCYV9OMERwX2pNLVdFdXk3Y1FHbGQw?oc=5": "2026-08-25T19:06:38.586716+00:00",
   "https://cc.cz/velke-novinky-ze-sveta-zaklinace-geraltuv-pribeh-si-uzijete-v-novem-kabate-i-v-novem-dobrodruzstvi": "2026-08-25T20:53:34.458134+00:00",
-  "https://blog.hootsuite.com/social-media-monitoring": "2026-08-25T20:53:34.458134+00:00"
+  "https://blog.hootsuite.com/social-media-monitoring": "2026-08-25T20:53:34.458134+00:00",
+  "https://www.mediaguru.cz/effie-stage-se-zameri-na-to-co-stoji-za-komunikaci-ktera-funguje": "2026-08-26T05:04:39.754298+00:00",
+  "https://cc.cz/podcenili-start-investovali-miliony-zdvojnasobili-naklady-cesti-vyvojari-zariskovali-a-ted-miri-do-finise": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.lupa.cz/clanky/ekonomiku-postavenou-na-ai-agentech-ovladne-ten-od-koho-nepujde-odejit-zacina-snaha-aby-to-nebylo-par-gigantu": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTUZ4bDhtdk1lZTNmQjE0eEo3VmxXS2o1Zi03R1phZFVITkNkVTU3LUVVMmZ4dnN6UWpZZnhrYXk0dTN5dEx5cXU1bG1aRlQwd240Uk4wRWpRWjFJRmkwVVkybEtsdHlSbmk0WXA5MWxqWUpEQTF1ODZob0VHc3pId3ZibUtSanRyMlBHMk1xbzBwSVhiMWduU3hQVGk0WlowcjZvTDB2QkpmajVPWjU4aXgtVTdpbjFFLUlFWkNHZy0?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGF1dUdYQTVWNkZoazFOeXJlUXJSNUhLN0ZzWndQbGtacVBkVUhNc3RndUdFLWwzcFJMeEtaT3pfY3I4NFotSXppcXhXYVdvSUNXOTByQmJ0WlM5Vi1YcGVfNXhWNVlKS1R2amJwWGNHTVowQ3poYWRtbVpoUmgtc1FQVEUwOHRiZUwtLXFDZFFzbVU?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/youtube-enables-users-to-create-multiple-custom-feeds/828790": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/instagram-launches-first-draft-for-reels/828789": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/whatsapp-adds-new-passkey-and-two-step-verification-options/828788": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.searchenginejournal.com/org-sites-are-34-likelier-to-generate-ecommerce-revenue-than-com/587082": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.seroundtable.com/google-search-fewer-pdf-files-41946.html": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.socialmediatoday.com/news/pinterest-hobbies-report-highlights-diy-and-vintage/828786": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHJNVjVhQXdOMXhWMjVoMnNCZ1JHSDBHdF9uR25oLUNPTjRTVW5VaWpEa2ExcFFOdHI1QXFXWmNDdHVDTGFDNEJtXzN5YVNyT3pjd1Z5TDVJTFIwLVVGVFNQV2Z3Qnk4aG4zbUtENUhLRzdtaEJLWm5JN3Jac1M5cnFUbFM0SlMxTEtLWG9oeHZ1OVBOejl0bFhSR3dGZw?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOOEdtZEw2YzE4aVpRTTh0dG1SY244NHlmcEJjMnlvY3kwQlVRSXFrczJMODlKOTNwRFE1em81SjlBWmxPNXpNU25FVE54Q1R3b3FxcWFMSjJuN1g4WDdZZlg5WUdnZTZSR2hoN0lCOGI4b1k?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWE5ajBNellaNG4xZmtLTTFDaFdhUzg2UWNUTU9TRVh0Mkc4R3R4U3plVzE2Xy1KYjJtbTk3Mk45LWs4WDdNV2MtaU56dWxGeDlDU0l2MGdlcDhWbG5LRUhLOWcwTm1vYUZ3eHFnX3lWYl9JVkREY19BcjZwdGpJbDI1Nng?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQclExdFcyWjY2VWZuMGNGdGN2S014VEIxSnEtc3k2UmJQRFZjX1BBUi02NVFiY2NYLS1yckVsWmZOdTdZdXZoc3luU0hFWEM3RzVkM0x0Y1Bjd2RFeDVZZ0lYSllqSHlmWFVwRHEzZ3ZpaHJIQlBtX0lsdksyZWxfVlJDZk1DN3ZYS240?oc=5": "2026-08-26T05:04:39.754298+00:00"
  },
  "events": [
+  {
+   "id": "4df9188baf",
+   "created": "2026-08-25T07:33:07+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5",
+     "title": "Google Introduces Multi-Source Conversions",
+     "summary": "Google Introduces Multi-Source Conversions &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T07:33:07+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHJNVjVhQXdOMXhWMjVoMnNCZ1JHSDBHdF9uR25oLUNPTjRTVW5VaWpEa2ExcFFOdHI1QXFXWmNDdHVDTGFDNEJtXzN5YVNyT3pjd1Z5TDVJTFIwLVVGVFNQV2Z3Qnk4aG4zbUtENUhLRzdtaEJLWm5JN3Jac1M5cnFUbFM0SlMxTEtLWG9oeHZ1OVBOejl0bFhSR3dGZw?oc=5",
+     "title": "Customer Lifecycle Optimization Feature Live in Google Ads",
+     "summary": "Customer Lifecycle Optimization Feature Live in Google Ads &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T15:31:26+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWE5ajBNellaNG4xZmtLTTFDaFdhUzg2UWNUTU9TRVh0Mkc4R3R4U3plVzE2Xy1KYjJtbTk3Mk45LWs4WDdNV2MtaU56dWxGeDlDU0l2MGdlcDhWbG5LRUhLOWcwTm1vYUZ3eHFnX3lWYl9JVkREY19BcjZwdGpJbDI1Nng?oc=5",
+     "title": "Demand Gen Now Allows Multiple Conversion Goals",
+     "summary": "Demand Gen Now Allows Multiple Conversion Goals &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T15:31:26+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads přidává multi-source konverze a optimalizaci životního cyklu zákazníka",
+   "updated": "2026-08-26T05:06:46.078463+00:00",
+   "what": "Google spustil v Google Ads tři nové funkce: Multi-Source Conversions (konverze z více zdrojů), Customer Lifecycle Optimization (optimalizace životního cyklu zákazníka) a možnost nastavit více konverzních cílů v Demand Gen kampaních.",
+   "why": "Jde o rozšíření možností měření a optimalizace kampaní. Multi-source konverze umožňují lépe sledovat customer journey napříč kanály, Customer Lifecycle Optimization se zaměřuje na práci se zákazníky v různých fázích jejich životního cyklu a Demand Gen kampání získávají flexibilnější nastavení cílů.",
+   "takeaway": "Zkontrolujte v Google Ads, zda máte dostupné tyto nové funkce. Pokud ano, zvažte nasazení multi-source konverzí pro přesnější měření výkonu kampaní a Customer Lifecycle Optimization pro segmentaci zákazníků podle jejich fáze v nákupním cyklu. U Demand Gen kampaní můžete nyní nastavit více konverzních cílů najednou.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/4df9188baf.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "f2094c4077",
+   "created": "2026-08-14T09:18:56.681311+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-removes-campaign-level-language-targeting",
+     "title": "Google Removes Campaign-Level Language Targeting",
+     "summary": "Google Ads is eliminating campaign-level language targeting settings for Search campaigns and Performance Max . This change is set to roll out in late September , with Google shifting the focus to its automated signals for language matching.&nbsp; As a result, advertisers are left with questions regarding multilingual campaigns and existing campaign structures. Key updates include: Google will prioritize ads based on the language of the creative and landing page instead of client-defined campaign settings. When users understand multiple languages, ads will become eligible in either language, b",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-14T07:29:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592",
+     "title": "Google Is Removing Language Targeting From Search Campaigns via @sejournal, @brookeosmundson",
+     "summary": "Google Ads is changing language targeting for Search and Performance Max in September 2026. Learn what’s changing and what advertisers need to know. The post Google Is Removing Language Targeting From Search Campaigns appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-13T21:30:33+00:00",
+     "score": 82
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVUEwT3NpRk1wVzhfZjhCQTdpeEp6eF90NjEyUFVaRkhJT2lGM3lYR0lFVTIxVm9yVk1ubTNZb0RIMFF6YmtqRkVyTEtQVUh4R29ydjhKOHFQS1Ixdl9BZUNSQ3Q3SU1semFxZ2VyNElIaDduMjA5R3VsaTJpWVlCcjV4d3lOSk5nbnlSVmszTDhwd2pmdEgteW12QnZwSDZz?oc=5",
+     "title": "Google Ads is removing language targeting from Search campaigns",
+     "summary": "Google Ads is removing language targeting from Search campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-13T21:30:00+00:00",
+     "score": 88
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-language-targeting-update-41867.html",
+     "title": "Google Ads Language Targeting Update Coming In September",
+     "summary": "Google Ads will roll out a change to language targeting that will remove the ability to manually adjust the language setting. This change is happening next month, in September 2026. Google said its ad systems already match languages automatically and enhanced AI prioritization will automatically select the most relevant ad language when there are eligible ads in multiple languages, Google told me.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-14T11:51:00+00:00",
+     "score": 81
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-new-local-customer-optimization-41862.html",
+     "title": "Google Ads New Local Customer Optimization Help Doc",
+     "summary": "With Google migrating Local Service Ads to the main Google Ads platform, Google is already preparing new Google Ads help documents with more details about the change. A new document named About Local customer optimization within Performance Max campaign for store goals was just posted by Google.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-12T11:51:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeDZLSWJ5Q1l6M3FQM002R1c4T2JvVWh0LWE1VG9wZHhXaGhMdU16SURmZEZJcXY1QVd2ZGVoRVZOVXFoSUJwWE1JQUpHUmRqVEhsc1NxMVFNNnhpWGRKNl9oZUZ3MnpOeGRPUTgzZHFhRDRhYzJqbGlPNDk0cEtLRzdiSDRKTExmS2t5OWNRbjBwa3NRRFoxN1JR?oc=5",
+     "title": "Google adds Local customer optimization to Performance Max",
+     "summary": "Google adds Local customer optimization to Performance Max &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-12T16:48:00+00:00",
+     "score": 83
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-updates-demand-gen-vtc-optimization",
+     "title": "Google Updates Demand Gen VTC Optimization",
+     "summary": "Google has announced upcoming changes to view-through conversion (VTC) optimization in Demand Gen campaigns .&nbsp; VTC optimization will now apply exclusively to video assets, while image VTCs will remain available in reporting but will no longer be biddable or appear in the main conversions column. For new Demand Gen campaigns , VTC optimization will be enabled by default.&nbsp; Additionally, VTC inventory has been expanded beyond YouTube and the Discover Feed to include Display . Billing for video assets on Display will transition from cost-per-click (CPC) to cost-per-thousand impressions (",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-15T11:22:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajVFTC1fRkJNM2FhOHNkRVR3Q3BuQkhXaERpdkhOT181RFh5ZDNqbmFweVFaSENRRk5udkktR0M4dDZYZXVlQTM2UW1QbTZNSmwzVXFaMHBnV0FjRlpaX2ZHaHh4UnVQNHJzWHU5Q3VpY0lwZEYyZGcxbUlDc1ljaGdVM3NMYW9BWUoxck5yd1Z6cW1PWU9R?oc=5",
+     "title": "Google updates YouTube and Discover Feed ad requirements",
+     "summary": "Google updates YouTube and Discover Feed ad requirements &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-12T15:54:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/updates-to-youtube-and-discover-feed-ad-requirements",
+     "title": "Updates to YouTube and Discover Feed Ad Requirements",
+     "summary": "In August 2026, Google updated the YouTube and Discover Feed ad requirements for better language and readability.&nbsp; The changes aim to provide clearer information for advertisers but do not alter the enforcement of existing policies. Read the official announcement here: Updates to the YouTube and Discover Feed ad requirements . The post Updates to YouTube and Discover Feed Ad Requirements appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-15T03:56:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-campaign-selection-support-form",
+     "title": "Google Adds Campaign Selection to Support Form",
+     "summary": "Google support has introduced an update allowing users to select specific campaigns in its support form.&nbsp; This enhancement aims to streamline the support process for advertisers by making it easier to specify their needs when searching for help. This update was discovered by Arpan Banerjee . The post Google Adds Campaign Selection to Support Form appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-14T12:27:00+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-financial-services-verification-requirements",
+     "title": "Google Expands Financial Services Verification Requirements",
+     "summary": "Google Ads is expanding its Financial Services Verification requirements to 13 additional EEA countries . Applications via G2 will open on August 11, 2026 , with enforcement starting from September 15, 2026 .&nbsp; Advertisers in sectors such as banking , loans , investments , trading , and insurance will need to complete verification to continue running their ads. If an account is flagged by Google, verification must be completed before the deadline. The previous expansion was announced in June so it seems this topic is very important for Google. This update was flagged by Adriaan Dekker . Th",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-14T13:54:00+00:00",
+     "score": 90
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google Ads ruší manuální jazykové cílení u vyhledávání a Performance Max",
+   "updated": "2026-08-26T05:06:35.656469+00:00",
+   "what": "Google Ads od září 2026 odstraní možnost ručního nastavení jazykového cílení na úrovni kampaní u Search a Performance Max. Namísto toho bude systém automaticky určovat jazyk reklamy podle jazyka kreativy, landing page a signálů od uživatele. Pokud uživatel rozumí více jazykům, může se mu zobrazit reklama v libovolném z nich.",
+   "why": "Změna výrazně ovlivní správu kampaní, zejména u inzerentů s vícejazyčnými kampaněmi nebo specifickými jazykovými požadavky. Tradiční kontrola nad jazykovým cílením zmizí a nahradí ji automatizace, což může vést k nutnosti přestrukturovat existující kampaně a upravit kreativy či landing pages podle jazyků.",
+   "takeaway": "Zkontrolujte, zda máte kampaně strukturované podle jazyků, a připravte se na případnou reorganizaci. Ujistěte se, že landing pages a kreativy jsou v odpovídajících jazycích – Google je bude brát jako hlavní signál. Sledujte výkon kampaní po zavedení změny v září 2026, zejména pokud cílíte na specifické jazykové skupiny.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/f2094c4077.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "e6899a36b1",
+   "created": "2026-08-25T17:24:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGxyMXJoWXV4SWc4NlBZdEd4a1U3T0Jpc1pSTFEzQnZ3OHl2XzdYQ2tnTUh4em41dEhFdFpZbW1MWWlYbzJlcmhYMkdBSUZteFQxY3BoS1VndUNDWlU1bTUwbWZadXA4ek5CeDg0bDh5eTFtbXkteTBfenhyMjNrR1pMUmhGeE12dmZ5LTNwTHBwS2F0Y3NlYmpCYV9OMERwX2pNLVdFdXk3Y1FHbGQw?oc=5",
+     "title": "Google Local Services Ads will charge for some missed calls starting Oct. 1",
+     "summary": "Google Local Services Ads will charge for some missed calls starting Oct. 1 &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T17:24:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT09sRk5PdzFFaGVVTXd0cFhtR1N5OHpERFVDX2NRa19MaVY1SkZ3aVk3UWZBYzZwXzk1eXVKU0Y2Wjk3TUZ1dHpnS2lSbHR3SU9ZREhNRnBPNHViX1lYY1Y4SVBUM2Q4c0c1MTNXaTBnWDNIRTVuTlIzaFJuT2Y0RzlkS0diamczNVBnSGRhdW5DQQ?oc=5",
+     "title": "Google expands direct booking for Local Services Ads",
+     "summary": "Google expands direct booking for Local Services Ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T17:55:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5",
+     "title": "Google Local Service Ads Expands Pre-Badge and Verticals",
+     "summary": "Google Local Service Ads Expands Pre-Badge and Verticals &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T23:34:05+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMWFyVWt5UV83Q09FaXFqQ1RUVVpJOXpUZDllQk9jb0U4aFFiMXJjVUgxTlJGNnB0OGFSdGtSbzFOME5HTVBtRVd0MG9mUmRLQTNvUm43WVUxWkpIX1FQMjZLZFJxRGJpUjRoeDJmUWdkUjRLR0x0MG1mWWVwQjlDVXBKcXY2VTBfenYyVjZsN3FJU0hk?oc=5",
+     "title": "Google brings Gemini Omni video creation to Google Ads",
+     "summary": "Google brings Gemini Omni video creation to Google Ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T18:23:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 35,
+   "title": "Google Local Services Ads zpoplatní některé zmeškaná volání od října",
+   "updated": "2026-08-26T05:06:23.441784+00:00",
+   "what": "Google od 1. října 2024 začne u Local Services Ads (LSA) účtovat poplatky za některá zmeškaná volání. Zároveň rozšiřuje možnost přímé rezervace v LSA a přidává nové kategorie služeb včetně fáze před získáním odznaku (pre-badge).",
+   "why": "Local Services Ads jsou v českém prostředí málo rozšířené (tento formát zatím není dostupný v ČR), ale změna zpoplatnění zmeškaných hovorů může být signálem budoucí strategie Google i pro další trhy. Pro české firmy působící v USA nebo plánující expandovat na západní trhy je to relevantní nákladová změna.",
+   "takeaway": "Pokud provozujete LSA kampaně v USA nebo jiných podporovaných trzích, zkontrolujte od října systém zpracování příchozích hovorů – zmeškané hovory již nemusí být zdarma. V ČR LSA zatím není dostupné, sledujte ale vývoj formátu pro případ budoucího rozšíření.",
+   "importance_label": "kontext",
+   "multi_source": true,
+   "image": "img/7f11749e9d.jpg",
+   "image_from": "searchengineland.com"
+  },
   {
    "id": "950dafebd2",
    "created": "2026-08-14T09:18:56.681311+00:00",
@@ -1981,251 +2215,229 @@
      "domain": "searchenginejournal.com",
      "published": "2026-08-25T17:39:07+00:00",
      "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-for-agencies-1000-accounts-41870.html",
+     "title": "Google Merchant Center For Agencies Can Link Up To 1,000 Accounts",
+     "summary": "Google updated a help document within the Google Merchant Center help area to document that Google Merchant Center for Agencies can now link to up to 1,000 Merchant Center accounts. Previously, that number was not there, and now we know - up to 1,000 accounts can be linked to a single agency account.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-14T11:31:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTd4eDBYWkhUckN5Zk03QXVaUEVvWDc4SU9rSkhUWlV6ejdld3ZDUHAxVUpadVAxN1JZcnpwcVlIWXBwUUtLaFVnM1RrN1lmaURKX3dDMTJmWjhKNUJBM3dldXlnaWRSQ0d6WlAyeGdIbFRSQmZwM2JYQ284VF9BN2dPSmJHWFVDeHJtUGNvUll4bHAtQXdUR05aWmd3SnZfMGhVdWZrdXkyZHg4b1FaNA?oc=5",
+     "title": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts",
+     "summary": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "news.google.com",
+     "published": "2026-08-14T14:52:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/merchant-center-agencies-now-supports-1-000-accounts",
+     "title": "Merchant Center for Agencies Now Supports 1,000 Accounts",
+     "summary": "Google has updated its Merchant Center documentation, clarifying that Merchant Center for Agencies can now link up to 1,000 client Merchant Center accounts under a single agency account. This newly documented limit provides agencies with clearer guidance on account management. Understanding the account limit is crucial for agencies managing large portfolios, as it can aid in planning account structures and onboarding processes.&nbsp; This news was discovered by Anu Adegbola . The post Merchant Center for Agencies Now Supports 1,000 Accounts appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-17T07:50:00+00:00",
+     "score": 52
     }
    ],
-   "category": "seo",
-   "importance": 48,
-   "title": "Google snížil požadavky na Search Profily z 100 000 na 35 000 followerů",
-   "updated": "2026-08-25T19:11:54.064257+00:00",
-   "what": "Google výrazně snížil minimální počet followerů potřebný pro vytvoření Search Profilu (dedikované vizitky v Google vyhledávání). Z původních 100 000 odběratelů napříč YouTube, Instagram, X a TikTok stačí nyní 35 000 na YouTube, Instagramu nebo X. Pouze pro TikTok zůstává hranice 100 000.",
-   "why": "Search Profily umožňují brandům a tvůrcům obsahu výraznější prezentaci přímo ve výsledcích Google vyhledávání. Snížením požadavků se tato funkce otevírá širšímu okruhu českých firem a influencerů, kteří mohou získat lepší viditelnost ve vyhledávání bez nutnosti mít stotisícové publikum.",
-   "takeaway": "Pokud vaše značka nebo někdo z vašich ambasadorů má víc než 35 000 followerů na YouTube, Instagramu nebo X, zkontrolujte, zda máte aktivovaný Search Profil – může vám přinést dodatečnou viditelnost v organickém vyhledávání na Google.",
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Merchant Center pro agentury zvýšil limit na 1 000 propojených účtů",
+   "updated": "2026-08-26T05:06:14.837341+00:00",
+   "what": "Google aktualizoval dokumentaci Merchant Center a oficiálně potvrdil, že agenturní účet (Merchant Center for Agencies) může nyní spravovat až 1 000 klientských účtů. Dosud tento limit nebyl veřejně zdokumentován.",
+   "why": "Pro agentury spravující velké portfolio e-shopů to přináší jasnou informaci o možnostech škálování a strukturování účtů. Dosud nebylo jisté, kolik klientů lze pod jeden agenturní účet připojit.",
+   "takeaway": "Pokud vaše agentura nebo firma spravuje e-shopy přes Merchant Center for Agencies, máte nyní oficiální potvrzení limitu 1 000 účtů – lze to využít při plánování onboardingu nových klientů a organizace účtové struktury.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
   {
-   "id": "a9bb64f7b1",
-   "created": "2026-08-16T16:54:30.323444+00:00",
+   "id": "7949f1f96b",
+   "created": "2026-07-20T10:11:37+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
-     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
-     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
-     "source": "PPC Hero",
-     "domain": "news.google.com",
-     "published": "2026-08-14T13:14:12+00:00",
-     "score": 45
+     "url": "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai",
+     "title": "AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI?",
+     "summary": "Svět vyhledávání se definitivně změnil. Klasické internetové vyhledávače doplnily AI nástroje, které stále častěji odpovídají na otázky uživatelů přímo, bez potřeby prokliknout na web. To zásadně mění způsob, jakým firmy vyhodnocují svou viditelnost ve vyhledávání. My v Taste měříme AI viditelnost pomocí vlastního nástroje AIVA. Proč se viditelnost v AI stala novou součástí SEO Dosavadní,... The post AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI? appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-07-20T10:11:37+00:00",
+     "score": 70
     },
     {
-     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
-     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
-     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T22:03:26+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
-     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
-     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T14:47:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
-     "title": "What's Next for Your Brand Website?",
-     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
-     "source": "Content Marketing Institute",
-     "domain": "contentmarketinginstitute.com",
-     "published": "2026-08-19T10:00:00+00:00",
+     "url": "https://blog.hubspot.com/marketing/hubspot-vs-ahrefs-aeo",
+     "title": "HubSpot AEO vs. Ahrefs Brand Radar: Features compared [2026]",
+     "summary": "As more buyers skip search entirely and go straight to ChatGPT, Gemini, or Perplexity for recommendations, marketers are realizing they need a new kind of tool — one that shows them how their brand appears in AI answers and what to do about it. That’s what both HubSpot AEO and Ahrefs Brand Radar are built for. But they take meaningfully different approaches, and the right choice depends almost entirely on what you need to do after you get the data.",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-08-06T11:00:03+00:00",
      "score": 55
     },
     {
-     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
-     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
-     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
+     "url": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush",
+     "title": "How to find AI visibility gaps with Semrush",
+     "summary": "Find AI visibility gaps with Semrush. Spot prompts and sources where competitors get cited but you don‘t.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-07-27T09:34:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://blog.hubspot.com/marketing/hubspot-vs-se-ranking",
+     "title": "HubSpot AEO vs SE Ranking: Features, pricing, and fit",
+     "summary": "You’ve probably noticed it yourself: buyers aren’t just Googling anymore. They’re asking ChatGPT, Gemini, and Perplexity questions and trusting whatever answers they get. If your brand isn’t named in those answers, well, you may not even be a consideration.",
+     "source": "HubSpot Marketing Blog",
+     "domain": "blog.hubspot.com",
+     "published": "2026-07-20T11:00:03+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://ahrefs.com/blog/ai-search-strategy",
+     "title": "AI Search Strategy: 4 Pillars to Show Up More (and Right) in AI Answers",
+     "summary": "Before someone ever lands on your website, an AI assistant may have already explained what your product does, compared it with competitors, and helped them decide whether you’re worth considering. By the time someone clicks through to your site after &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-07-24T07:55:42+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGx6QUNvT1hLcFFWWFlWOVBvdm9UYkhGVVV5MkxLZzJoRGNuZkltVmZyN05ib205Y2hTalcxWkExQ09aSzFoRFlCejZpYVdOUGJSTGUyRVpxSHA3MjdzbVI1eWtUY2sxQXpwc1UxOXF3MGZfLWFYSXRlNHMwcnNXckNHTkI?oc=5",
+     "title": "New in AI Check: How AI systems perceive your brand and when they recommend it",
+     "summary": "New in AI Check: How AI systems perceive your brand and when they recommend it &nbsp;&nbsp; SISTRIX",
+     "source": "Sistrix blog",
+     "domain": "sistrix.com",
+     "published": "2026-07-30T07:00:00+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://www.searchenginejournal.com/decision-coverage-why-ai-recommends-some-brands-and-not-others/583028",
+     "title": "Decision Coverage: Why AI Recommends Some Brands And Not Others via @sejournal, @billhunt",
+     "summary": "AI doesn't recommend products, it recommends decisions. A SaaS case study shows why missing evidence, not weak authority, causes exclusion from AI recommendations. The post Decision Coverage: Why AI Recommends Some Brands And Not Others appeared first on Search Engine Journal .",
      "source": "Search Engine Journal",
      "domain": "searchenginejournal.com",
-     "published": "2026-08-25T19:00:30+00:00",
-     "score": 47
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "Citace Redditu v ChatGPT Search klesly o 86 % – dopad na vyhledávání i PPC",
-   "updated": "2026-08-25T19:11:39.346005+00:00",
-   "what": "Podle Promptwatch klesly citace Redditu v ChatGPT Search během čtyř dnů o 86 %. Důvodem je přestavba vyhledávacího nástroje ChatGPT – nový formát tool-call ukazuje, že i když ChatGPT načetl desítky Reddit vláken (např. 84 ve sledovaném případě), žádné nebyly nakonec citované. Současně se Reddit stává místem, kde se prolíná vyhledávání a sociální interakce.",
-   "why": "Pro marketéry je to signál, že AI vyhledávače mění pravidla viditelnosti obsahu – tradiční SEO optimalizace nemusí stačit, pokud AI nástroje načtou obsah, ale necitují jej. Současně roste role Redditu jako platformy ovlivňující nákupní rozhodování i organické i placené vyhledávání – uživatelé stále častěji přidávají 'reddit' do dotazů.",
-   "takeaway": "Sledujte, jak AI nástroje pracují s vaším obsahem (nejen zda jej načtou, ale i citují). Zvažte, zda vaše PPC strategie počítá s Redditem jako kanálem ovlivňujícím rozhodování – platforma propojuje search a social, kde lidé hledají reálné recenze a doporučení. Připravte web i obsah nejen pro lidské návštěvníky, ale i pro AI agenty – mění se metriky i struktura obsahu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/a9bb64f7b1.jpg",
-   "image_from": "news.google.com"
-  },
-  {
-   "id": "0a0b8bd1f9",
-   "created": "2026-07-29T07:00:00+00:00",
-   "articles": [
+     "published": "2026-08-19T19:00:10+00:00",
+     "score": 52
+    },
     {
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qUnd0UUpGZGtXQ2ZEX0w4OUxuY1JtVHE3WTJlcWxmR3FYN0NXa2E4QlVyNkE4TXJqUXQ0NnIwRHI5aFJXcW9UVXNTVDhaSzNTMU5uMXVtbkpIYkkyS2xCYVkyOG12UV9OZUFOcFROcw?oc=5",
-     "title": "AI halftime report: H1 2026",
-     "summary": "AI halftime report: H1 2026 &nbsp;&nbsp; Search Engine Land",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5",
+     "title": "The AI visibility index: Which brands are vanishing from AI search?",
+     "summary": "The AI visibility index: Which brands are vanishing from AI search? &nbsp;&nbsp; Search Engine Land",
      "source": "Search Engine Land",
      "domain": "searchengineland.com",
-     "published": "2026-07-29T07:00:00+00:00",
-     "score": 51
+     "published": "2026-08-17T14:00:00+00:00",
+     "score": 73
     },
     {
-     "url": "https://www.marketingaiinstitute.com/blog/from-ai-users-to-ai-builders-maicon-2026",
-     "title": "From AI Users to AI Builders: The Next Phase of AI in Marketing [MAICON 2026]",
-     "summary": "Most marketing teams have gotten comfortable using AI. They've integrated it into content workflows, sharpened their prompts, and found individual productivity gains. But the next phase is already here, and it relies heavily on the ability and dedication of humans, says Zapier’s Dan Slagen.",
-     "source": "Marketing AI Institute",
-     "domain": "marketingaiinstitute.com",
-     "published": "2026-08-03T13:00:01+00:00",
+     "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing",
+     "title": "AI visibility index shows which brands are disappearing",
+     "summary": "Some brands dominate Google yet barely surface in AI answers. Here’s where traditional authority and AI recall diverge. The post AI visibility index shows which brands are disappearing appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-18T13:48:51+00:00",
      "score": 64
-    }
-   ],
-   "category": "ai",
-   "importance": 45,
-   "title": "Marketing prý přechází od používání AI k jejímu budování",
-   "updated": "2026-08-25T19:11:30.974769+00:00",
-   "what": "Podle Zapier a Marketing AI Institute většina marketingových týmů již AI běžně využívá v contentu a produktivitě. Nyní nastupuje další fáze – firmy přechází od pouhého používání hotových AI nástrojů k budování vlastních AI řešení na míru.",
-   "why": "Změna přístupu naznačuje, že firmy už nehledají jen úsporu času přes hotové nástroje (ChatGPT, Jasper), alechtějí si stavět vlastní automatizace a procesy. To může vyžadovat jiné kompetence v týmu a jiné investice.",
-   "takeaway": "Sleduj, zda a jak rychle se trend vlastních AI řešení prosadí v Česku. Pro většinu firem zatím platí: nejprve důsledně využít hotové nástroje, investice do custom AI řešení jsou zatím spíš pro větší týmy nebo agentury.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "fc43240066",
-   "created": "2026-07-22T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5",
-     "title": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé",
-     "summary": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-07-22T07:00:00+00:00",
-     "score": 47
     },
     {
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBLTR6WUdnNXhWLWNpMG4yY1hJSmxOdlctcVF4dVB2a3dfcGFLb0NFOEJHZHJILWpYQzhvNnZDNWctdzdIVDAzb0x3WEZ6bUtaYkFNeFotWkVBbV90UFMxWXlPTkxiS0RtUWVEOFJsZ1hJMlkxYy1r?oc=5",
-     "title": "AI is reshaping marketing teams from the inside",
-     "summary": "AI is reshaping marketing teams from the inside &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-04T07:00:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ai",
-   "importance": 65,
-   "title": "AI v marketingu: mladí Češi ji používají víc než jejich firmy",
-   "updated": "2026-08-25T19:11:21.845739+00:00",
-   "what": "Mladí čeští pracovníci v marketingu běžně používají AI nástroje, často rychleji a efektivněji než jejich zaměstnavatelé dokážou technologii implementovat do firemních procesů. Podle zahraničních zdrojů AI už aktivně mění strukturu marketingových týmů.",
-   "why": "Signalizuje rostoucí propast mezi individuálním využíváním AI a firemní strategií v českých firmách. Pokud marketingoví manažeři nezachytí tento trend a nevytvoří rámec pro produktivní využití AI, riskují ztrátu konkurenceschopnosti i odliv talentů.",
-   "takeaway": "Zmapujte, jak vaši lidé AI už používají (ChatGPT, generování textů, analýzy). Vytvořte jasná pravidla pro použití AI (data, Brand Voice, kontrola faktů) a investujte do nástrojů, které jim práci s AI usnadní – předejdete stínové IT i plýtvání časem na nekvalitní výstupy.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/fc43240066.jpg",
-   "image_from": "mam.cz"
-  },
-  {
-   "id": "41674e2b70",
-   "created": "2026-07-27T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yWkwtcHo1OGtjbWFvMUNEUFh1ZlF1UFRZTk1xdmNfRG5mbW51Y0gyeEgwS0N4cTF6b09USG9aZGhQV25zT3VhRDVwc1ZVekZaRlY5cHRpOTZHQ0N5X2RndTh3OWlmVWtveE85V2xweGc0UQ?oc=5",
-     "title": "Why your AI-review process is going to fail",
-     "summary": "Why your AI-review process is going to fail &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-07-27T07:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14ZmZjN3pKWF83YlFWM3lsUkVOb3ROV3JkUGtVWWhZTGZHU2s5MjNtOFpiUE4ycGJKSkFKZ2l0T0ZvcWhxbWxaMFJvRWJhQ252UFNPaWVqM3dFNDYtNW5iWnN5YXVzZFRQMG0wMjJvMmNKX2htVkRCd3Zodw?oc=5",
-     "title": "Four holiday reports reveal one big divide over AI",
-     "summary": "Four holiday reports reveal one big divide over AI &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-03T07:00:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ai",
-   "importance": 45,
-   "title": "Studie: firmy nejsou připravené řídit AI nástroje v marketingu",
-   "updated": "2026-08-25T19:11:11.169416+00:00",
-   "what": "Americký MarTech publikoval dva články o problémech firem s nasazením AI: jeden varuje, že interní procesy kontroly AI obsahu většinou selhávají, druhý analyzuje vánoční kampaně a ukazuje velkou propast mezi tím, jak firmy AI deklarují vs. reálně využívají.",
-   "why": "Marketingoví manažeři v českých firmách čelí stejnému tlaku – AI nástroje (ChatGPT, copywritingové asistenty, generátory obrázků) jsou dostupné, ale chybí jasná pravidla a kontrolní mechanismy. Bez procesu hrozí nekvalitní obsah, brand-safety problémy nebo plýtvání rozpočtem na nástroje, které tým reálně nepoužívá.",
-   "takeaway": "Než povolíš AI nástroje v týmu, nastav jasný review proces: kdo kontroluje výstupy, jaká jsou pravidla pro brand voice a fact-checking. Sleduj reálné využití placených AI nástrojů – ne jen pilotní nasazení.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "8c2fd08e78",
-   "created": "2026-08-17T12:34:00+00:00",
-   "articles": [
-    {
-     "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend",
-     "title": "The next AI opportunity is deciding where to spend",
-     "summary": "AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working. The post The next AI opportunity is deciding where to spend appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-17T12:34:00+00:00",
+     "url": "https://www.searchenginejournal.com/ai-search-myths-debunked-ahrefs-spa/584393",
+     "title": "9 AI Search Myths, Debunked by 15 Million Data Points via @sejournal, @ahrefs",
+     "summary": "Unveil the truth about AI search with interesting findings from 15 million data points. Learn what really influences rankings. The post 9 AI Search Myths, Debunked by 15 Million Data Points appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T14:26:59+00:00",
      "score": 62
     },
     {
-     "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently",
-     "title": "What the teams getting the most from AI do differently",
-     "summary": "Teams built around autonomy, experimentation, and cross-functional work can turn AI’s speed into faster campaigns without adding headcount. The post What the teams getting the most from AI do differently appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-21T12:46:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ai",
-   "importance": 55,
-   "title": "AI přebírá rozhodování o rozpočtech a alokaci médií",
-   "updated": "2026-08-25T19:11:00.019167+00:00",
-   "what": "Podle MarTech se AI posouvá od automatizace kampaní k pomoci s alokací marketingových rozpočtů – rozhoduje, kam směřovat výdaje na základě výkonnosti kanálů. Týmy, které z AI těží nejvíce, staví na autonomii, experimentování a cross-funkční spolupráci, což jim umožňuje rychleji spouštět kampaně bez nárůstu počtu lidí.",
-   "why": "Pro marketingového manažera to znamená posun od manuálního přerozdělování rozpočtů mezi kanály k systému, který může tuto práci dělat průběžně a rychleji. Týmy schopné experimentovat a testovat nové přístupy získávají konkurenční výhodu v rychlosti i efektivitě výdajů.",
-   "takeaway": "Zvažte pilotní nasazení nástrojů s AI pro optimalizaci rozpočtů mezi kanály (Google Ads, Meta, Sklik). Podpořte v týmu kulturu testování a sdílení dat napříč kanály – bez této změny zůstane AI jen další nástroj bez skutečného dopadu na výkonnost.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "c06503b707",
-   "created": "2026-08-19T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/ct-bude-pozadovat-zruseni-zakazu-online-reklamy-i-stropu-na-sponzoring",
-     "title": "ČT bude požadovat zrušení zákazu online reklamy i stropu na sponzoring",
-     "summary": "Do podzimních vyjednáváních o podobě zákona o médiích veřejné služby, kterým chce současná vládní koalice zrušit financování ČT pomocí TV poplatků, půjde Česká televize s požadavkem na vrácení možností umísťovat obchodní sdělení tak, jak to bylo možné do konce dubna 2025.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-19T05:00:00+00:00",
-     "score": 47
+     "url": "https://www.searchenginejournal.com/why-search-volume-is-screening-out-your-best-content-opportunities/585048",
+     "title": "Why Search Volume Is Screening Out Your Best Content Opportunities",
+     "summary": "AI assistants turn contextual prompts into multiple queries, making buyer decisions and sub-questions more valuable content targets than raw keyword volume. The post Why Search Volume Is Screening Out Your Best Content Opportunities appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-18T14:30:48+00:00",
+     "score": 57
     },
     {
-     "url": "https://www.mediaguru.cz/radiozurnal-zustava-na-cele-v-dennim-poslechu-roste-frekvence-1-i-digitalni-stanice",
-     "title": "Radiožurnál zůstává na čele v denním poslechu, roste Frekvence 1 i digitální stanice",
-     "summary": "Radiožurnál je nadále nadále nejposlouchanější stanicí v denním poslechu. Nově se dostal na čelo i v podílu na poslechovosti. Nejvyšší týdenní poslechovost má Rádio Impuls. Ve skupině nadregionálních rádií drží prvenství Kiss a ve skupině regionálních stanic se do vedení dostalo Radio Čas Rock.",
+     "url": "https://www.searchenginejournal.com/clicks-are-down-42-linkedin-reach-down-47-but-youre-raging-at-the-wrong-target/585862",
+     "title": "Clicks Are Down 42%, LinkedIn Reach Down 47% But You’re Raging At The Wrong Target via @sejournal, @gregjarboe",
+     "summary": "LinkedIn reach and Google clicks are collapsing, but Tony Uphoff argues SEO pros are diagnosing structural disruption as decline, and prescribing the wrong fix. The post Clicks Are Down 42%, LinkedIn Reach Down 47% But You&#8217;re Raging At The Wrong Target appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T14:30:55+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUgwdTJ1UHZQZXU5UDM1dVZwQjhqcHBkVlNhTHFFeDFrN0puakhIY0dZQkZhMDNJcVVXbjZQb3J3eVBqVFhjVmlIS2dxTjJHUDJEa05Fb1pvaE9kZUJRMFhudExLOGgtcXRLb3hQZ09JUXRWZ1dRajJfbU5sZTQ5S25vaWJQQm1aS2VLS01fNkxnRXY0WjJv?oc=5",
+     "title": "Business websites dominate Gemini local AI search citations: Study",
+     "summary": "Business websites dominate Gemini local AI search citations: Study &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T18:43:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://www.mediaguru.cz/jak-zvysit-sance-ze-znacky-budou-v-ai-vyhledavani-viditelne",
+     "title": "Jak zvýšit šance, že značky budou v AI vyhledávání viditelné?",
+     "summary": "Nástup AI modelů přináší nová pravidla pro viditelnost značek v internetovém vyhledávání. Podle Vojtěcha Lamberta z LCG New Media proto firmy vedle klasického SEO potřebují pracovat také s GEO, tedy optimalizací pro generativní AI vyhledávače. Jedním z klíčových prvků je budování konzistentní a důvěryhodné identity značky napříč webem, včetně PR, sociálních sítí, podcastů a recenzí.",
      "source": "MediaGuru",
      "domain": "mediaguru.cz",
-     "published": "2026-08-19T09:05:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 45,
-   "title": "ČT chce zpět reklamu online a vyšší limity na sponzoring",
-   "updated": "2026-08-25T19:10:52.525973+00:00",
-   "what": "Česká televize plánuje v podzimních jednáních o novém zákonu o médiích veřejné služby požadovat zrušení zákazu online reklamy a stropu na sponzoring. Chce vrátit možnost umísťovat obchodní sdělení, jak to bylo možné do konce dubna 2025.",
-   "why": "Změna financování ČT může ovlivnit mediální trh – pokud se ČT vrátí do online reklamního prostoru, vznikne nová konkurence pro komerční média a může se změnit distribuce reklamních rozpočtů.",
-   "takeaway": "Sledujte legislativní proces v druhé polovině roku. Pokud ČT získá možnost online reklamy, počítejte s novým hráčem v konkurenci o digitální reklamní rozpočty a případně zvažte přehodnocení mediamixu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "e9dd8f2379",
-   "created": "2026-08-04T07:00:00+00:00",
-   "articles": [
+     "published": "2026-08-25T05:15:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.semrush.com/blog/advanced-seo",
+     "title": "13 Advanced SEO techniques & strategies for 2026",
+     "summary": "Advanced SEO techniques include optimizing content for AI extraction and improving crawl depth.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-07-27T09:12:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.semrush.com/blog/ai-visibility-roi",
+     "title": "How to determine AI visibility ROI and revenue impact",
+     "summary": "Determine AI visibility ROI by linking mentions, citations, and AI referrals directly to leads and revenue.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-07-27T10:17:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.semrush.com/blog/query-fan-out",
+     "title": "What is query fan-out? How to find & optimize for subqueries",
+     "summary": "Query fan-out splits one AI prompt into a dozen or more subqueries. Learn how to find the ones that matter for your brand, and how to cover them.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-17T09:16:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.semrush.com/blog/prompt-research-for-ai-seo",
+     "title": "How to do prompt research for AI SEO",
+     "summary": "Learn a repeatable process for prompt research that shows where your brand competes and where it doesn‘t.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-17T09:03:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONVRLRkZYdjNWSE9tZ1pvNVZMLWgwcmsxYnB6RTY2aVJVWkNCSTdKZG1JSURhcG9nVExWQm1UeXdWLTBpTXdtYnJydzJKaWMzV2MtbDJrcU9mbHdtajhNN1NiRGlkU3AtcUpkdmdfWEQzWThDLVJ6V1E0bXBuV0tSeU9RUU51dWpLOWhMMjZUOA?oc=5",
+     "title": "Keyword research meets prompt research: A smarter way to prioritize topics",
+     "summary": "Keyword research meets prompt research: A smarter way to prioritize topics &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-03T07:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.semrush.com/blog/digital-pr-for-ai-visibility",
+     "title": "Digital PR for AI visibility: 5 tactics + how to measure",
+     "summary": "Having a site isn‘t enough to get AI to talk about you. Use these 5 digital PR tactics to grow AI visibility.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-07-30T10:42:00+00:00",
+     "score": 60
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnlseFNodXYyU2pRdDI3UjFwTnNTZFNEbEcxV1lpSkhNMTA4ZkpDRUI0Nm1uWHlDQjNpNTM0Z1ZvVC1rZ1pWSGJzZ0g2QUo3bHpYR25CVk1reGJRSnlISUZvQ3dnMmROTFN2WDU2WkhvM2xqZmtWRU5xYTF0aEdWdVZ0UkFvUkFuU2RZ?oc=5",
      "title": "OpenAI ad experiment could change what happens after the click",
@@ -2524,214 +2736,369 @@
      "score": 57
     }
    ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "OpenAI spustilo reklamy v ChatGPT – nový formát s produktovými karusely a oCPC",
-   "updated": "2026-08-25T19:10:38.959108+00:00",
-   "what": "OpenAI veřejně rozjelo reklamní program v ChatGPT. Inzerenti dostanou přístup k novým formátům včetně produktových karuselů, bid multipliers (úpravy nabídek podle parametrů) a optimalizovaných kampaní na konverze (oCPC). Podle studie se reklamy zobrazují u 26 % komerčních dotazů.",
-   "why": "ChatGPT má obrovský dosah a mění způsob, jak lidé hledají informace – místo kliknutí na odkazy rovnou dostávají odpovědi s doporučeními. Pokud se tento reklamní formát rozšíří, může přetáhnout část rozpočtu z Google Ads a dalších vyhledávacích kanálů. Jde o potenciálně novou platformu, na kterou budou muset firmy cílit – zejména v B2B a v produktových kategoriích.",
-   "takeaway": "Sledujte, zda a kdy se ChatGPT reklamy otevřou širšímu okruhu inzerentů mimo USA. Připravte se na testování nového kanálu, kde uživatelé nehledají stejně jako v Googlu – potřebujete jiný typ obsahu a messagingu. Pokud vaše firma prodává B2B nástroje nebo produkty s delším rozhodovacím procesem, dejte si tento kanál na radar.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/e9dd8f2379.jpg",
-   "image_from": "martech.org"
-  },
-  {
-   "id": "7949f1f96b",
-   "created": "2026-07-20T10:11:37+00:00",
-   "articles": [
-    {
-     "url": "https://digichef.cz/ai-inside-out-101-jak-aiva-meri-viditelnost-v-ai",
-     "title": "AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI?",
-     "summary": "Svět vyhledávání se definitivně změnil. Klasické internetové vyhledávače doplnily AI nástroje, které stále častěji odpovídají na otázky uživatelů přímo, bez potřeby prokliknout na web. To zásadně mění způsob, jakým firmy vyhodnocují svou viditelnost ve vyhledávání. My v Taste měříme AI viditelnost pomocí vlastního nástroje AIVA. Proč se viditelnost v AI stala novou součástí SEO Dosavadní,... The post AI Inside Out #101: Jak nový tool AIVA měří viditelnost v AI? appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-07-20T10:11:37+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://blog.hubspot.com/marketing/hubspot-vs-ahrefs-aeo",
-     "title": "HubSpot AEO vs. Ahrefs Brand Radar: Features compared [2026]",
-     "summary": "As more buyers skip search entirely and go straight to ChatGPT, Gemini, or Perplexity for recommendations, marketers are realizing they need a new kind of tool — one that shows them how their brand appears in AI answers and what to do about it. That’s what both HubSpot AEO and Ahrefs Brand Radar are built for. But they take meaningfully different approaches, and the right choice depends almost entirely on what you need to do after you get the data.",
-     "source": "HubSpot Marketing Blog",
-     "domain": "blog.hubspot.com",
-     "published": "2026-08-06T11:00:03+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush",
-     "title": "How to find AI visibility gaps with Semrush",
-     "summary": "Find AI visibility gaps with Semrush. Spot prompts and sources where competitors get cited but you don‘t.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-07-27T09:34:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://blog.hubspot.com/marketing/hubspot-vs-se-ranking",
-     "title": "HubSpot AEO vs SE Ranking: Features, pricing, and fit",
-     "summary": "You’ve probably noticed it yourself: buyers aren’t just Googling anymore. They’re asking ChatGPT, Gemini, and Perplexity questions and trusting whatever answers they get. If your brand isn’t named in those answers, well, you may not even be a consideration.",
-     "source": "HubSpot Marketing Blog",
-     "domain": "blog.hubspot.com",
-     "published": "2026-07-20T11:00:03+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://ahrefs.com/blog/ai-search-strategy",
-     "title": "AI Search Strategy: 4 Pillars to Show Up More (and Right) in AI Answers",
-     "summary": "Before someone ever lands on your website, an AI assistant may have already explained what your product does, compared it with competitors, and helped them decide whether you’re worth considering. By the time someone clicks through to your site after &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-07-24T07:55:42+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGx6QUNvT1hLcFFWWFlWOVBvdm9UYkhGVVV5MkxLZzJoRGNuZkltVmZyN05ib205Y2hTalcxWkExQ09aSzFoRFlCejZpYVdOUGJSTGUyRVpxSHA3MjdzbVI1eWtUY2sxQXpwc1UxOXF3MGZfLWFYSXRlNHMwcnNXckNHTkI?oc=5",
-     "title": "New in AI Check: How AI systems perceive your brand and when they recommend it",
-     "summary": "New in AI Check: How AI systems perceive your brand and when they recommend it &nbsp;&nbsp; SISTRIX",
-     "source": "Sistrix blog",
-     "domain": "sistrix.com",
-     "published": "2026-07-30T07:00:00+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://www.searchenginejournal.com/decision-coverage-why-ai-recommends-some-brands-and-not-others/583028",
-     "title": "Decision Coverage: Why AI Recommends Some Brands And Not Others via @sejournal, @billhunt",
-     "summary": "AI doesn't recommend products, it recommends decisions. A SaaS case study shows why missing evidence, not weak authority, causes exclusion from AI recommendations. The post Decision Coverage: Why AI Recommends Some Brands And Not Others appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T19:00:10+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlzN1VLQXoxN1FNWFNfdV82cURlMV9qR2oyaFJ5TEkwUnRPQXY5MGZ2WlRIN091aHk5T2pyUnB2ZjhoeDkwaHJkY20wWllDdDczVGJYcl84YTF6eHA1RWh2ZG8xcFVyR25Dc3VNSHRONVdhTnY0UC0wN3Zad3ZKX1htR0NOSS1VWk9teTM0VG4?oc=5",
-     "title": "The AI visibility index: Which brands are vanishing from AI search?",
-     "summary": "The AI visibility index: Which brands are vanishing from AI search? &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-17T14:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing",
-     "title": "AI visibility index shows which brands are disappearing",
-     "summary": "Some brands dominate Google yet barely surface in AI answers. Here’s where traditional authority and AI recall diverge. The post AI visibility index shows which brands are disappearing appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-08-18T13:48:51+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://www.searchenginejournal.com/ai-search-myths-debunked-ahrefs-spa/584393",
-     "title": "9 AI Search Myths, Debunked by 15 Million Data Points via @sejournal, @ahrefs",
-     "summary": "Unveil the truth about AI search with interesting findings from 15 million data points. Learn what really influences rankings. The post 9 AI Search Myths, Debunked by 15 Million Data Points appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T14:26:59+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.searchenginejournal.com/why-search-volume-is-screening-out-your-best-content-opportunities/585048",
-     "title": "Why Search Volume Is Screening Out Your Best Content Opportunities",
-     "summary": "AI assistants turn contextual prompts into multiple queries, making buyer decisions and sub-questions more valuable content targets than raw keyword volume. The post Why Search Volume Is Screening Out Your Best Content Opportunities appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-18T14:30:48+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.searchenginejournal.com/clicks-are-down-42-linkedin-reach-down-47-but-youre-raging-at-the-wrong-target/585862",
-     "title": "Clicks Are Down 42%, LinkedIn Reach Down 47% But You’re Raging At The Wrong Target via @sejournal, @gregjarboe",
-     "summary": "LinkedIn reach and Google clicks are collapsing, but Tony Uphoff argues SEO pros are diagnosing structural disruption as decline, and prescribing the wrong fix. The post Clicks Are Down 42%, LinkedIn Reach Down 47% But You&#8217;re Raging At The Wrong Target appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-19T14:30:55+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUgwdTJ1UHZQZXU5UDM1dVZwQjhqcHBkVlNhTHFFeDFrN0puakhIY0dZQkZhMDNJcVVXbjZQb3J3eVBqVFhjVmlIS2dxTjJHUDJEa05Fb1pvaE9kZUJRMFhudExLOGgtcXRLb3hQZ09JUXRWZ1dRajJfbU5sZTQ5S25vaWJQQm1aS2VLS01fNkxnRXY0WjJv?oc=5",
-     "title": "Business websites dominate Gemini local AI search citations: Study",
-     "summary": "Business websites dominate Gemini local AI search citations: Study &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-19T18:43:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.mediaguru.cz/jak-zvysit-sance-ze-znacky-budou-v-ai-vyhledavani-viditelne",
-     "title": "Jak zvýšit šance, že značky budou v AI vyhledávání viditelné?",
-     "summary": "Nástup AI modelů přináší nová pravidla pro viditelnost značek v internetovém vyhledávání. Podle Vojtěcha Lamberta z LCG New Media proto firmy vedle klasického SEO potřebují pracovat také s GEO, tedy optimalizací pro generativní AI vyhledávače. Jedním z klíčových prvků je budování konzistentní a důvěryhodné identity značky napříč webem, včetně PR, sociálních sítí, podcastů a recenzí.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-25T05:15:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.semrush.com/blog/advanced-seo",
-     "title": "13 Advanced SEO techniques & strategies for 2026",
-     "summary": "Advanced SEO techniques include optimizing content for AI extraction and improving crawl depth.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-07-27T09:12:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.semrush.com/blog/ai-visibility-roi",
-     "title": "How to determine AI visibility ROI and revenue impact",
-     "summary": "Determine AI visibility ROI by linking mentions, citations, and AI referrals directly to leads and revenue.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-07-27T10:17:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.semrush.com/blog/query-fan-out",
-     "title": "What is query fan-out? How to find & optimize for subqueries",
-     "summary": "Query fan-out splits one AI prompt into a dozen or more subqueries. Learn how to find the ones that matter for your brand, and how to cover them.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-17T09:16:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.semrush.com/blog/prompt-research-for-ai-seo",
-     "title": "How to do prompt research for AI SEO",
-     "summary": "Learn a repeatable process for prompt research that shows where your brand competes and where it doesn‘t.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-17T09:03:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONVRLRkZYdjNWSE9tZ1pvNVZMLWgwcmsxYnB6RTY2aVJVWkNCSTdKZG1JSURhcG9nVExWQm1UeXdWLTBpTXdtYnJydzJKaWMzV2MtbDJrcU9mbHdtajhNN1NiRGlkU3AtcUpkdmdfWEQzWThDLVJ6V1E0bXBuV0tSeU9RUU51dWpLOWhMMjZUOA?oc=5",
-     "title": "Keyword research meets prompt research: A smarter way to prioritize topics",
-     "summary": "Keyword research meets prompt research: A smarter way to prioritize topics &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-03T07:00:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.semrush.com/blog/digital-pr-for-ai-visibility",
-     "title": "Digital PR for AI visibility: 5 tactics + how to measure",
-     "summary": "Having a site isn‘t enough to get AI to talk about you. Use these 5 digital PR tactics to grow AI visibility.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-07-30T10:42:00+00:00",
-     "score": 60
-    }
-   ],
    "category": "seo",
-   "importance": 72,
-   "title": "AI viditelnost: nová disciplína SEO a tři nástroje na měření",
-   "updated": "2026-08-25T19:10:28.805535+00:00",
-   "what": "Na trh přichází nástroje pro měření viditelnosti značek v odpovědích AI asistentů (ChatGPT, Gemini, Perplexity). Česká agentura Taste spustila vlastní tool AIVA, globálně nabízejí tuto funkci HubSpot AEO, Ahrefs Brand Radar, Semrush a SISTRIX AI Check. Sledují, kdy a jak AI nástroje zmiňují nebo doporučují konkrétní značky.",
-   "why": "Uživatelé stále častěji místo vyhledávačů používají AI asistenty, kteří odpovídají přímo – bez kliku na web. Pokud AI váš produkt nezmiňuje nebo doporučuje konkurenci, vůbec se nedostanete do výběru. Klasické SEO metriky (pozice, kliky) tuto viditelnost nezachytí.",
-   "takeaway": "Začněte sledovat, zda a jak AI asistenti odpovídají na klíčové otázky z vašeho oboru a jestli v odpovědích figuruje vaše značka nebo konkurence. Zvažte pilotní audit přes některý z nových nástrojů (Semrush, Ahrefs, SISTRIX mají funkci dostupnou, český AIVA nabízí Taste).",
+   "importance": 75,
+   "title": "V ČR vznikl nástroj AIVA pro měření viditelnosti značek v AI vyhledávačích",
+   "updated": "2026-08-26T05:06:02.400734+00:00",
+   "what": "Česká společnost Taste vyvinula vlastní nástroj AIVA, který měří, jak často a v jakém kontextu se značky objevují v odpovědích AI asistentů (ChatGPT, Gemini, Perplexity). Jde o reakci na změnu chování uživatelů, kteří stále častěji získávají odpovědi přímo z AI, aniž by klikali na weby. Paralelně globální nástroje (HubSpot AEO, Ahrefs Brand Radar, Semrush, Sistrix AI Check) začínají nabízet podobné funkce – sledování, kdy a proč AI doporučuje konkurenční značky, ale ne tu vaši.",
+   "why": "Pro SEO specialisty a marketingové manažery přestává stačit sledování pozic v Google, pokud rostoucí část potenciálních zákazníků nedoklikává na web, ale rozhoduje se už na základě AI odpovědi. Kdo se v AI nezobrazuje, vypadává z úvahy zákazníka ještě před návštěvou webu. AIVA je první známý český nástroj tohoto typu, což signalizuje, že téma AI viditelnosti vstupuje do běžné praxe i v ČR.",
+   "takeaway": "Začněte sledovat, jestli se vaše značka objevuje v odpovědích ChatGPT, Gemini nebo Perplexity na dotazy spojené s vaším produktem – buď manuálně, nebo pomocí AIVA či jiných nástrojů. Pokud konkurence dostává doporučení a vy ne, identifikujte chybějící důkazy nebo kontext, který AI potřebuje (např. recenze, strukturovaná data, jasná kategorizace).",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/7949f1f96b.jpg",
    "image_from": "digichef.cz"
+  },
+  {
+   "id": "fc43240066",
+   "created": "2026-07-22T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1QQUUzU0tQZ2JMaThDakI1UHdmNHIwQjY4Rk9iTHoyS1RFUk5WWWRacml1aFp3UHUyYnFMZGktX1FRc0lvQlA2N0dBa3hac01raTk1WGJqek5SZ3Fvb2NMQUJPbnRWS3JORkp4XzBobnU1cFlkd2IxMTMxZFktSGx1c2lFTWJDTWN2eExoNFY4M0hHMDBXZTV1T19qaU03bnc1cUVpT2VHZ1VrekUwakJXNmozcVk1dlBPeVgxcVZwVHVZejU4QzV3VQ?oc=5",
+     "title": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé",
+     "summary": "AI se stává parťákem mladých Čechů. V používání jsou často dál než zaměstnavatelé &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-07-22T07:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBLTR6WUdnNXhWLWNpMG4yY1hJSmxOdlctcVF4dVB2a3dfcGFLb0NFOEJHZHJILWpYQzhvNnZDNWctdzdIVDAzb0x3WEZ6bUtaYkFNeFotWkVBbV90UFMxWXlPTkxiS0RtUWVEOFJsZ1hJMlkxYy1r?oc=5",
+     "title": "AI is reshaping marketing teams from the inside",
+     "summary": "AI is reshaping marketing teams from the inside &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-04T07:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yWkwtcHo1OGtjbWFvMUNEUFh1ZlF1UFRZTk1xdmNfRG5mbW51Y0gyeEgwS0N4cTF6b09USG9aZGhQV25zT3VhRDVwc1ZVekZaRlY5cHRpOTZHQ0N5X2RndTh3OWlmVWtveE85V2xweGc0UQ?oc=5",
+     "title": "Why your AI-review process is going to fail",
+     "summary": "Why your AI-review process is going to fail &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-07-27T07:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14ZmZjN3pKWF83YlFWM3lsUkVOb3ROV3JkUGtVWWhZTGZHU2s5MjNtOFpiUE4ycGJKSkFKZ2l0T0ZvcWhxbWxaMFJvRWJhQ252UFNPaWVqM3dFNDYtNW5iWnN5YXVzZFRQMG0wMjJvMmNKX2htVkRCd3Zodw?oc=5",
+     "title": "Four holiday reports reveal one big divide over AI",
+     "summary": "Four holiday reports reveal one big divide over AI &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-03T07:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qUnd0UUpGZGtXQ2ZEX0w4OUxuY1JtVHE3WTJlcWxmR3FYN0NXa2E4QlVyNkE4TXJqUXQ0NnIwRHI5aFJXcW9UVXNTVDhaSzNTMU5uMXVtbkpIYkkyS2xCYVkyOG12UV9OZUFOcFROcw?oc=5",
+     "title": "AI halftime report: H1 2026",
+     "summary": "AI halftime report: H1 2026 &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-07-29T07:00:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.marketingaiinstitute.com/blog/from-ai-users-to-ai-builders-maicon-2026",
+     "title": "From AI Users to AI Builders: The Next Phase of AI in Marketing [MAICON 2026]",
+     "summary": "Most marketing teams have gotten comfortable using AI. They've integrated it into content workflows, sharpened their prompts, and found individual productivity gains. But the next phase is already here, and it relies heavily on the ability and dedication of humans, says Zapier’s Dan Slagen.",
+     "source": "Marketing AI Institute",
+     "domain": "marketingaiinstitute.com",
+     "published": "2026-08-03T13:00:01+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend",
+     "title": "The next AI opportunity is deciding where to spend",
+     "summary": "AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working. The post The next AI opportunity is deciding where to spend appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-17T12:34:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently",
+     "title": "What the teams getting the most from AI do differently",
+     "summary": "Teams built around autonomy, experimentation, and cross-functional work can turn AI’s speed into faster campaigns without adding headcount. The post What the teams getting the most from AI do differently appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-08-21T12:46:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ai",
+   "importance": 65,
+   "title": "AI mění strukturu marketingových týmů – od používání k vlastnímu vývoji",
+   "updated": "2026-08-26T05:05:52.510336+00:00",
+   "what": "Marketingové týmy přecházejí od pouhého používání AI nástrojů k jejich vlastní tvorbě a hlubší integraci. Největší přínosy získávají týmy založené na autonomii, experimentování a mezifunkční spolupráci. AI se také stále více uplatňuje při rozhodování o alokaci rozpočtů a optimalizaci mediálních nákupů.",
+   "why": "Jde o posun od individuální produktivity k systémovým změnám v práci týmu. Firmy, které zvládnou tento přechod, mohou zrychlit kampaně a lépe alokovat budgety bez nutnosti navyšovat počet zaměstnanců. V Česku mladí uživatelé často ovládají AI lépe než jejich zaměstnavatelé, což vytváří příležitost i riziko pro firemní praxi.",
+   "takeaway": "Zvažte reorganizaci týmu směrem k větší autonomii a experimentování s AI. Zaměřte se na implementaci AI do rozhodování o rozpočtech a mediálních nákupech, kde může přinést měřitelné úspory. Pokud máte mladší kolegy zdatnější v AI, využijte jejich know-how systematicky.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/fc43240066.jpg",
+   "image_from": "mam.cz"
+  },
+  {
+   "id": "7b985549f3",
+   "created": "2026-08-20T14:31:40+00:00",
+   "articles": [
+    {
+     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
+     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
+     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-08-20T14:31:40+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
+     "title": "YouTube simplifies its AI claims process",
+     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T23:18:27+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T11:30:41+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
+     "title": "Meta tests auto-DM response for Instagram ad comments",
+     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:54:10+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "Meta testuje automatické DM odpovědi na klíčová slova v komentářích",
+   "updated": "2026-08-26T05:04:39.754298+00:00",
+   "what": "Meta testuje novou funkci Reply to Keywords, která automaticky odesílá soukromou zprávu do Instagram DM uživatelům, kteří v komentáři použijí určité klíčové slovo.",
+   "why": "Funkce umožňuje značkám automatizovat komunikaci s uživateli přímo z komentářů na Instagramu, což může zjednodušit sběr leadů, distribucí kupónů nebo nasměrování zákazníků do DM konverzace bez nutnosti manuální reakce.",
+   "takeaway": "Sledujte dostupnost této funkce ve vašem Meta Ads Manageru – pokud ji získáte do testování, zvažte nasazení pro kampaně, kde potřebujete rychlou interakci s engagovanými uživateli (například soutěže, promo kódy nebo lead magnety).",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7b985549f3.jpg",
+   "image_from": "digichef.cz"
+  },
+  {
+   "id": "7b0d05fc6d",
+   "created": "2026-08-25T18:47:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORG5NbldtYmlJejZONjFpeVcwNDNQQ2RjWGhrZ3Z3UHF2YklyZkM3NTR5dm1IYXRaMUV4aXhza3FpTXN0N041WVgtenhueWJlLU9DbWloakQ0QWtJVVI3Q2Z3cnFlaXE0emhwWE5US055cnYxN0szbUI5U3U0eE5YMVltVFZiLWpCNFZ6TVNmWFNEdkxucTJkZFFEaUFyOUJCZUE?oc=5",
+     "title": "Google tests channel prioritization controls for Performance Max",
+     "summary": "Google tests channel prioritization controls for Performance Max &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T18:47:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5",
+     "title": "Google Tests \"Only Bid for New Prospects\" in Performance Max",
+     "summary": "Google Tests \"Only Bid for New Prospects\" in Performance Max &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T07:33:07+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google testuje prioritizaci kanálů a bidování jen na nové zákazníky v Performance Max",
+   "updated": "2026-08-26T05:04:39.754298+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7b0d05fc6d.jpg",
+   "image_from": "searchengineland.com",
+   "what": "Google v omezené beta verzi testuje dvě nové funkce pro Performance Max kampaně: možnost prioritizovat konkrétní reklamní kanály (Search, Shopping, Display, YouTube atd.) a nastavení 'Only Bid for New Prospects', které omezí bidování pouze na nové potenciální zákazníky místo všech uživatelů.",
+   "why": "Performance Max kampaně doposud fungovaly jako plně automatizovaná 'černá skříňka' bez možnosti řídit, kam přesně jdou peníze. Tyto kontroly by marketérům umožnily lépe řídit rozpočet a zaměřit se na akvizici nových zákazníků, což je častý požadavek firem.",
+   "takeaway": "Funkce jsou zatím jen v testování pro vybrané účty. Sledujte jejich oficiální dostupnost v Google Ads – pokud se rozšíří, získáte větší kontrolu nad alokací rozpočtu v Performance Max a možnost efektivněji investovat do získávání nových zákazníků."
+  },
+  {
+   "id": "d7df49ef68",
+   "created": "2026-08-25T23:59:56+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGF1dUdYQTVWNkZoazFOeXJlUXJSNUhLN0ZzWndQbGtacVBkVUhNc3RndUdFLWwzcFJMeEtaT3pfY3I4NFotSXppcXhXYVdvSUNXOTByQmJ0WlM5Vi1YcGVfNXhWNVlKS1R2amJwWGNHTVowQ3poYWRtbVpoUmgtc1FQVEUwOHRiZUwtLXFDZFFzbVU?oc=5",
+     "title": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens",
+     "summary": "TikTok Expands Out of Phone Program across Europe — Partnering with Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media & C-Screens &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T00:12:31+00:00",
+     "score": 56
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792",
+     "title": "TikTok expands public placement opportunities for advertisers",
+     "summary": "The company continues to roll out Out of Phone promotion expansions as it brings in-app content to billboards, in-store displays, cinema promos and more.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:59:56+00:00",
+     "score": 52
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "TikTok rozšiřuje Out of Phone program v Evropě – reklama mimo aplikaci",
+   "updated": "2026-08-26T05:04:39.754298+00:00",
+   "what": "TikTok rozšířil svůj program Out of Phone v Evropě prostřednictvím partnerství se společnostmi Alight Media, DooH it, Powerpill, Zoom, Next-Gen Media a C-Screens. Program umožňuje přenést obsah z aplikace TikTok na billboardy, in-store displeje, kinoreklamu a další veřejné plochy.",
+   "why": "Jde o nový reklamní formát, který umožňuje inzerentům oslovit publikum mimo mobilní aplikaci TikToku prostřednictvím digitálního out-of-home (DOOH) a dalších offline kanálů. Pro marketéry to znamená potenciální rozšíření dosahu kampaní z TikToku do fyzického prostoru.",
+   "takeaway": "Sledujte dostupnost programu Out of Phone v ČR a u lokálních partnerů. Pokud využíváte TikTok pro performance kampaně, zjistěte, zda můžete obsah rozšířit na DOOH plochy pro zvýšení brand awareness a dosahu mimo aplikaci.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "12ae18d4d6",
+   "created": "2026-08-25T21:01:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-fewer-pdf-files-41946.html",
+     "title": "Google Search Showing Fewer PDF Files. But Why?",
+     "summary": "Google seems to be showing fewer and fewer PDF files, and when it does show PDF files, it seems not to show them from some pretty important sites, like IRS.gov, New York State, and some others. But in some cases we are seeing Google show PDF documents, without you having to explicitly filter for PDF file types.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-25T21:01:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Google omezuje zobrazování PDF souborů ve výsledcích vyhledávání",
+   "updated": "2026-08-26T05:04:39.754298+00:00",
+   "what": "Google začal ve výsledcích vyhledávání zobrazovat výrazně méně PDF souborů. Postiženy jsou i dokumenty z důležitých státních institucí, jako je IRS.gov nebo New York State. V některých případech Google PDF soubory stále zobrazuje, ale bez nutnosti explicitníhofiltrování podle typu souboru.",
+   "why": "Změna může ovlivnit viditelnost firemních materiálů publikovaných jako PDF (ceníky, katalogy, whitepapery, návody). Pokud vaše firma spoléhá na organický příjem návštěvnosti z PDF dokumentů, můžete zaznamenat pokles.",
+   "takeaway": "Zkontrolujte v Google Search Console výkonnost URL adres vašich PDF dokumentů za poslední týdny. Pokud jsou PDF klíčové pro vaši komunikaci, zvažte jejich převod do HTML stránek nebo alespoň vytvoření HTML verzí se stejným obsahem. Sledujte, zda se trend potvrdí i v českém vyhledávání.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "189cc95b23",
+   "created": "2026-08-25T16:41:34+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5",
+     "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
+     "summary": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T16:41:34+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 67,
+   "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
+   "updated": "2026-08-26T05:04:39.754298+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/189cc95b23.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "a9bb64f7b1",
+   "created": "2026-08-16T16:54:30.323444+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3MxdEEtMmczTGE1dmwxU2lISGltd1N5dW5zRkRYbUhsak1Da19Wd3pTNnVKVHUzM2o1Uy1DZDNLekw5OHJxeThFcThTODlHeG14dEhmTUdpakpsTGYxZUp2MkV0OXY5dGhIYl8xcFRVbzFzRDktRUhDRzlEaDRLaU1GTEtlRkc0ZE5RZ1JjMTM4a0c4YXUtaGxMQ05JejBEZllr?oc=5",
+     "title": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact?",
+     "summary": "Reddit Is Where Search & Social Collide. Is Your Paid Strategy Ready for the Impact? &nbsp;&nbsp; PPC Hero",
+     "source": "PPC Hero",
+     "domain": "news.google.com",
+     "published": "2026-08-14T13:14:12+00:00",
+     "score": 45
+    },
+    {
+     "url": "https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479",
+     "title": "Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern",
+     "summary": "New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month. The post Why Reddit&#8217;s ChatGPT Citation Drop Isn&#8217;t Fully Explained appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-19T22:03:26+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkVhUFRvaEk1VkMwSFNRMHFUN2FTclhfZlI4dzV5YkRPUzFIN2N3bU5MRWhrZmRVaXo5WlB5YVJ3Q1M4TzZzeFdrbV9SQnFjOUtMQzhDMzBlYW5YWlZ1Q3l3eWk3ZlJHeDhkQUhUVi1YUXlaRlFIX3pZTUxaeDBOaVpWb3cyZw?oc=5",
+     "title": "Reddit’s ChatGPT Search citations fell 86% in four days: Report",
+     "summary": "Reddit’s ChatGPT Search citations fell 86% in four days: Report &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-19T14:47:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+     "title": "What's Next for Your Brand Website?",
+     "summary": "Websites now have more AI agent visitors than humans. Is your brand’s site ready for that fundamentally different audience? Marketing leaders share how they’re restructuring content, metrics, and teams to earn attention from both AI systems and human buyers.",
+     "source": "Content Marketing Institute",
+     "domain": "contentmarketinginstitute.com",
+     "published": "2026-08-19T10:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.searchenginejournal.com/chatgpt-rebuilt-its-search-tool-i-read-the-new-language-it-speaks/586710",
+     "title": "ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks via @sejournal, @suganthan",
+     "summary": "84 Reddit threads entered the retrieval pool. Zero got cited. The new tool-call format shows what ChatGPT fetches before it answers. The post ChatGPT Rebuilt Its Search Tool, I Read The New Language It Speaks appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-25T19:00:30+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Citace Redditu v ChatGPT Search klesly o 86 % – dopad na vyhledávání i PPC",
+   "updated": "2026-08-25T19:11:39.346005+00:00",
+   "what": "Podle Promptwatch klesly citace Redditu v ChatGPT Search během čtyř dnů o 86 %. Důvodem je přestavba vyhledávacího nástroje ChatGPT – nový formát tool-call ukazuje, že i když ChatGPT načetl desítky Reddit vláken (např. 84 ve sledovaném případě), žádné nebyly nakonec citované. Současně se Reddit stává místem, kde se prolíná vyhledávání a sociální interakce.",
+   "why": "Pro marketéry je to signál, že AI vyhledávače mění pravidla viditelnosti obsahu – tradiční SEO optimalizace nemusí stačit, pokud AI nástroje načtou obsah, ale necitují jej. Současně roste role Redditu jako platformy ovlivňující nákupní rozhodování i organické i placené vyhledávání – uživatelé stále častěji přidávají 'reddit' do dotazů.",
+   "takeaway": "Sledujte, jak AI nástroje pracují s vaším obsahem (nejen zda jej načtou, ale i citují). Zvažte, zda vaše PPC strategie počítá s Redditem jako kanálem ovlivňujícím rozhodování – platforma propojuje search a social, kde lidé hledají reálné recenze a doporučení. Připravte web i obsah nejen pro lidské návštěvníky, ale i pro AI agenty – mění se metriky i struktura obsahu.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/a9bb64f7b1.jpg",
+   "image_from": "news.google.com"
+  },
+  {
+   "id": "c06503b707",
+   "created": "2026-08-19T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/ct-bude-pozadovat-zruseni-zakazu-online-reklamy-i-stropu-na-sponzoring",
+     "title": "ČT bude požadovat zrušení zákazu online reklamy i stropu na sponzoring",
+     "summary": "Do podzimních vyjednáváních o podobě zákona o médiích veřejné služby, kterým chce současná vládní koalice zrušit financování ČT pomocí TV poplatků, půjde Česká televize s požadavkem na vrácení možností umísťovat obchodní sdělení tak, jak to bylo možné do konce dubna 2025.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-19T05:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.mediaguru.cz/radiozurnal-zustava-na-cele-v-dennim-poslechu-roste-frekvence-1-i-digitalni-stanice",
+     "title": "Radiožurnál zůstává na čele v denním poslechu, roste Frekvence 1 i digitální stanice",
+     "summary": "Radiožurnál je nadále nadále nejposlouchanější stanicí v denním poslechu. Nově se dostal na čelo i v podílu na poslechovosti. Nejvyšší týdenní poslechovost má Rádio Impuls. Ve skupině nadregionálních rádií drží prvenství Kiss a ve skupině regionálních stanic se do vedení dostalo Radio Čas Rock.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-08-19T09:05:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "ČT chce zpět reklamu online a vyšší limity na sponzoring",
+   "updated": "2026-08-25T19:10:52.525973+00:00",
+   "what": "Česká televize plánuje v podzimních jednáních o novém zákonu o médiích veřejné služby požadovat zrušení zákazu online reklamy a stropu na sponzoring. Chce vrátit možnost umísťovat obchodní sdělení, jak to bylo možné do konce dubna 2025.",
+   "why": "Změna financování ČT může ovlivnit mediální trh – pokud se ČT vrátí do online reklamního prostoru, vznikne nová konkurence pro komerční média a může se změnit distribuce reklamních rozpočtů.",
+   "takeaway": "Sledujte legislativní proces v druhé polovině roku. Pokud ČT získá možnost online reklamy, počítejte s novým hráčem v konkurenci o digitální reklamní rozpočty a případně zvažte přehodnocení mediamixu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "c5e62a4a95",
@@ -4012,50 +4379,6 @@
    "image_from": "blog.seznam.cz"
   },
   {
-   "id": "7b985549f3",
-   "created": "2026-08-20T14:31:40+00:00",
-   "articles": [
-    {
-     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
-     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
-     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-08-20T14:31:40+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
-     "title": "YouTube simplifies its AI claims process",
-     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-20T23:18:27+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T11:30:41+00:00",
-     "score": 55
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta testuje automatické DM odpovědi na klíčová slova v komentářích",
-   "updated": "2026-08-25T19:08:44.371752+00:00",
-   "what": "Meta testuje novou funkci Reply to Keywords, která automaticky odesílá soukromou zprávu do Instagram DM uživatelům, kteří v komentáři použijí určité klíčové slovo.",
-   "why": "Funkce umožňuje značkám automatizovat komunikaci s uživateli přímo z komentářů na Instagramu, což může zjednodušit sběr leadů, distribucí kupónů nebo nasměrování zákazníků do DM konverzace bez nutnosti manuální reakce.",
-   "takeaway": "Sledujte dostupnost této funkce ve vašem Meta Ads Manageru – pokud ji získáte do testování, zvažte nasazení pro kampaně, kde potřebujete rychlou interakci s engagovanými uživateli (například soutěže, promo kódy nebo lead magnety).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7b985549f3.jpg",
-   "image_from": "digichef.cz"
-  },
-  {
    "id": "9079e3a0ff",
    "created": "2026-07-23T07:00:00+00:00",
    "articles": [
@@ -4939,106 +5262,6 @@
    "multi_source": true,
    "image": "img/24d5386393.jpg",
    "image_from": "blog.seznam.cz"
-  },
-  {
-   "id": "7b0d05fc6d",
-   "created": "2026-08-25T18:47:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORG5NbldtYmlJejZONjFpeVcwNDNQQ2RjWGhrZ3Z3UHF2YklyZkM3NTR5dm1IYXRaMUV4aXhza3FpTXN0N041WVgtenhueWJlLU9DbWloakQ0QWtJVVI3Q2Z3cnFlaXE0emhwWE5US055cnYxN0szbUI5U3U0eE5YMVltVFZiLWpCNFZ6TVNmWFNEdkxucTJkZFFEaUFyOUJCZUE?oc=5",
-     "title": "Google tests channel prioritization controls for Performance Max",
-     "summary": "Google tests channel prioritization controls for Performance Max &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T18:47:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google testuje prioritizaci kanálů v Performance Max kampaních",
-   "updated": "2026-08-25T19:06:38.586716+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/7b0d05fc6d.jpg",
-   "image_from": "searchengineland.com",
-   "what": "Google testuje novou funkcionalitu, která umožní inzerentům nastavit prioritu jednotlivých reklamních kanálů v rámci Performance Max kampaní. Jde o testovací fázi, dostupnost a konkrétní fungování zatím nejsou detailně popsány.",
-   "why": "Performance Max kampaně jsou plně automatizované a inzerenti dosud neměli kontrolu nad tím, kde se jejich reklamy zobrazují. Možnost prioritizovat kanály by mohla zlepšit kontrolu nad rozpočtem a výkonností kampaní.",
-   "takeaway": "Sledujte, zda se tato funkce objeví ve vašem Google Ads účtu. Pokud ano, můžete získat větší kontrolu nad distribucí rozpočtu v Performance Max kampaních, což může zlepšit jejich efektivitu."
-  },
-  {
-   "id": "7f11749e9d",
-   "created": "2026-08-25T18:23:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMWFyVWt5UV83Q09FaXFqQ1RUVVpJOXpUZDllQk9jb0U4aFFiMXJjVUgxTlJGNnB0OGFSdGtSbzFOME5HTVBtRVd0MG9mUmRLQTNvUm43WVUxWkpIX1FQMjZLZFJxRGJpUjRoeDJmUWdkUjRLR0x0MG1mWWVwQjlDVXBKcXY2VTBfenYyVjZsN3FJU0hk?oc=5",
-     "title": "Google brings Gemini Omni video creation to Google Ads",
-     "summary": "Google brings Gemini Omni video creation to Google Ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T18:23:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads získává AI generátor videí Gemini Omni",
-   "updated": "2026-08-25T19:06:38.586716+00:00",
-   "what": "Google integruje do Google Ads nástroj Gemini Omni pro tvorbu video reklam pomocí umělé inteligence. Jde o rozšíření možností automatického vytváření reklamního obsahu přímo v platformě.",
-   "why": "Pro marketingové manažery to znamená možnost rychleji vytvářet video kampaně bez nutnosti externích nástrojů nebo produkčních týmů. Video reklamy mají obecně vyšší engagement než statický obsah.",
-   "takeaway": "Sledujte dostupnost funkce ve vašem Google Ads účtu a otestujte ji pro kampaně, kde potřebujete rychle produkovat video varianty – může to snížit náklady na produkci a zkrátit time-to-market nových kampaní.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/7f11749e9d.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "73e2545dc1",
-   "created": "2026-08-25T17:55:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT09sRk5PdzFFaGVVTXd0cFhtR1N5OHpERFVDX2NRa19MaVY1SkZ3aVk3UWZBYzZwXzk1eXVKU0Y2Wjk3TUZ1dHpnS2lSbHR3SU9ZREhNRnBPNHViX1lYY1Y4SVBUM2Q4c0c1MTNXaTBnWDNIRTVuTlIzaFJuT2Y0RzlkS0diamczNVBnSGRhdW5DQQ?oc=5",
-     "title": "Google expands direct booking for Local Services Ads",
-     "summary": "Google expands direct booking for Local Services Ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T17:55:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google rozšiřuje přímé objednávání u Local Services Ads",
-   "updated": "2026-08-25T19:06:38.586716+00:00",
-   "what": "Google rozšiřuje možnost přímého objednávání (direct booking) v rámci Local Services Ads. Jde o formát reklamy pro lokální poskytovatele služeb, kde zákazníci mohou objednat službu přímo z reklamy.",
-   "why": "Pro firmy poskytující lokální služby to znamená jednodušší cestu k zákazníkovi – menší tření mezi kliknutím a objednávkou může zvýšit konverze. Zároveň to může ovlivnit náklady a reporting kampaní.",
-   "takeaway": "Pokud provozujete nebo plánujete kampaně pro lokální služby (řemeslníci, služby), sledujte dostupnost této funkce v ČR a zvažte testování. Může snížit počet kroků k objednávce a zvýšit efektivitu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "e6899a36b1",
-   "created": "2026-08-25T17:24:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGxyMXJoWXV4SWc4NlBZdEd4a1U3T0Jpc1pSTFEzQnZ3OHl2XzdYQ2tnTUh4em41dEhFdFpZbW1MWWlYbzJlcmhYMkdBSUZteFQxY3BoS1VndUNDWlU1bTUwbWZadXA4ek5CeDg0bDh5eTFtbXkteTBfenhyMjNrR1pMUmhGeE12dmZ5LTNwTHBwS2F0Y3NlYmpCYV9OMERwX2pNLVdFdXk3Y1FHbGQw?oc=5",
-     "title": "Google Local Services Ads will charge for some missed calls starting Oct. 1",
-     "summary": "Google Local Services Ads will charge for some missed calls starting Oct. 1 &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T17:24:00+00:00",
-     "score": 78
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Local Services Ads od října zpoplatní některé zmeškané hovory",
-   "updated": "2026-08-25T19:06:38.586716+00:00",
-   "what": "Google od 1. října 2024 začne účtovat poplatky za některé zmeškané hovory v rámci Local Services Ads. Dosud se platilo pouze za spojené hovory a validní leady, nově budou zpoplatněny i některé zmeškaná volání.",
-   "why": "Změna se dotkne inzerentů používajících Local Services Ads a může zvýšit jejich náklady na lead. Jde o zásadní změnu cenového modelu této služby Google.",
-   "takeaway": "Pokud využíváte Google Local Services Ads, připravte se na možné navýšení nákladů od října a zvažte nastavení dostupnosti a kapacity pro příjem hovorů, abyste minimalizovali zmeškané hovory, které budou nově zpoplatněny.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "11a0ab2f6e",
@@ -6254,48 +6477,6 @@
    "image_from": "heureka.group"
   },
   {
-   "id": "caf4145081",
-   "created": "2026-08-14T13:52:37.472906+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-for-agencies-1000-accounts-41870.html",
-     "title": "Google Merchant Center For Agencies Can Link Up To 1,000 Accounts",
-     "summary": "Google updated a help document within the Google Merchant Center help area to document that Google Merchant Center for Agencies can now link to up to 1,000 Merchant Center accounts. Previously, that number was not there, and now we know - up to 1,000 accounts can be linked to a single agency account.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T11:31:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTd4eDBYWkhUckN5Zk03QXVaUEVvWDc4SU9rSkhUWlV6ejdld3ZDUHAxVUpadVAxN1JZcnpwcVlIWXBwUUtLaFVnM1RrN1lmaURKX3dDMTJmWjhKNUJBM3dldXlnaWRSQ0d6WlAyeGdIbFRSQmZwM2JYQ284VF9BN2dPSmJHWFVDeHJtUGNvUll4bHAtQXdUR05aWmd3SnZfMGhVdWZrdXkyZHg4b1FaNA?oc=5",
-     "title": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts",
-     "summary": "Google Merchant Center for Agencies now supports up to 1,000 linked accounts &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-14T14:52:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/merchant-center-agencies-now-supports-1-000-accounts",
-     "title": "Merchant Center for Agencies Now Supports 1,000 Accounts",
-     "summary": "Google has updated its Merchant Center documentation, clarifying that Merchant Center for Agencies can now link up to 1,000 client Merchant Center accounts under a single agency account. This newly documented limit provides agencies with clearer guidance on account management. Understanding the account limit is crucial for agencies managing large portfolios, as it can aid in planning account structures and onboarding processes.&nbsp; This news was discovered by Anu Adegbola . The post Merchant Center for Agencies Now Supports 1,000 Accounts appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-17T07:50:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Merchant Center pro agentury zvýšil limit na 1000 účtů",
-   "updated": "2026-08-17T08:28:39.081527+00:00",
-   "what": "Google aktualizoval dokumentaci Merchant Center a oficiálně potvrdil, že jeden agenturní účet Google Merchant Center for Agencies může nyní propojit až 1000 klientských účtů. Tento limit dříve nebyl v dokumentaci uveden.",
-   "why": "Pro agentury s rozsáhlým portfoliem klientů to přináší jasnost při plánování struktury účtů a onboardingu nových klientů. Znalost maximálního počtu propojitelných účtů pomáhá předejít omezením při škálování.",
-   "takeaway": "Pokud vaše agentura spravuje produktové kampaně pro více klientů, ověřte si aktuální počet propojených účtů a naplánujte případné rozdělení do více agenturních účtů před dosažením limitu 1000.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
    "id": "c748a6b0ae",
    "created": "2026-08-17T08:28:39.081527+00:00",
    "articles": [
@@ -6458,186 +6639,6 @@
    "multi_source": false,
    "image": "img/4e77ade495.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "d83b8fc7ca",
-   "created": "2026-08-14T09:38:29.556736+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-new-local-customer-optimization-41862.html",
-     "title": "Google Ads New Local Customer Optimization Help Doc",
-     "summary": "With Google migrating Local Service Ads to the main Google Ads platform, Google is already preparing new Google Ads help documents with more details about the change. A new document named About Local customer optimization within Performance Max campaign for store goals was just posted by Google.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-12T11:51:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeDZLSWJ5Q1l6M3FQM002R1c4T2JvVWh0LWE1VG9wZHhXaGhMdU16SURmZEZJcXY1QVd2ZGVoRVZOVXFoSUJwWE1JQUpHUmRqVEhsc1NxMVFNNnhpWGRKNl9oZUZ3MnpOeGRPUTgzZHFhRDRhYzJqbGlPNDk0cEtLRzdiSDRKTExmS2t5OWNRbjBwa3NRRFoxN1JR?oc=5",
-     "title": "Google adds Local customer optimization to Performance Max",
-     "summary": "Google adds Local customer optimization to Performance Max &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-12T16:48:00+00:00",
-     "score": 83
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-updates-demand-gen-vtc-optimization",
-     "title": "Google Updates Demand Gen VTC Optimization",
-     "summary": "Google has announced upcoming changes to view-through conversion (VTC) optimization in Demand Gen campaigns .&nbsp; VTC optimization will now apply exclusively to video assets, while image VTCs will remain available in reporting but will no longer be biddable or appear in the main conversions column. For new Demand Gen campaigns , VTC optimization will be enabled by default.&nbsp; Additionally, VTC inventory has been expanded beyond YouTube and the Discover Feed to include Display . Billing for video assets on Display will transition from cost-per-click (CPC) to cost-per-thousand impressions (",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-15T11:22:00+00:00",
-     "score": 77
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google přidává Local customer optimization do Performance Max kampaní",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google migruje Local Service Ads do hlavní platformy Google Ads a přidává novou funkci Local customer optimization pro Performance Max kampaně se zaměřením na lokální cíle. Google již zveřejnil novou help dokumentaci popisující tuto změnu.",
-   "why": "Změna umožňuje inzerentům cílícím na lokální zákazníky lépe optimalizovat své Performance Max kampaně pro návštěvnost prodejen a místní konverze přímo v rámci hlavního Google Ads rozhraní.",
-   "takeaway": "Pokud provozujete lokální byznys s kampaněmi v Performance Max, připravte se na novou optimalizační funkci zaměřenou na místní zákazníky. Prostudujte si novou dokumentaci Googlu, abyste mohli využít tuto možnost pro zvýšení návštěvnosti prodejen.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/d83b8fc7ca.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "258b7959dd",
-   "created": "2026-08-14T11:26:06.848601+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajVFTC1fRkJNM2FhOHNkRVR3Q3BuQkhXaERpdkhOT181RFh5ZDNqbmFweVFaSENRRk5udkktR0M4dDZYZXVlQTM2UW1QbTZNSmwzVXFaMHBnV0FjRlpaX2ZHaHh4UnVQNHJzWHU5Q3VpY0lwZEYyZGcxbUlDc1ljaGdVM3NMYW9BWUoxck5yd1Z6cW1PWU9R?oc=5",
-     "title": "Google updates YouTube and Discover Feed ad requirements",
-     "summary": "Google updates YouTube and Discover Feed ad requirements &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-12T15:54:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/updates-to-youtube-and-discover-feed-ad-requirements",
-     "title": "Updates to YouTube and Discover Feed Ad Requirements",
-     "summary": "In August 2026, Google updated the YouTube and Discover Feed ad requirements for better language and readability.&nbsp; The changes aim to provide clearer information for advertisers but do not alter the enforcement of existing policies. Read the official announcement here: Updates to the YouTube and Discover Feed ad requirements . The post Updates to YouTube and Discover Feed Ad Requirements appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-15T03:56:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Google zpřesnil požadavky na reklamy na YouTube a ve Discover Feed",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google v srpnu 2026 aktualizoval znění požadavků na reklamy zobrazované na YouTube a ve Discover Feed. Změny se týkají pouze formulace pravidel pro lepší srozumitelnost, nikoli samotné enforcement stávajících politik.",
-   "why": "Jde o upřesnění komunikace pravidel pro inzerenty, které má zajistit jasnější pochopení požadavků na reklamy v těchto formátech, aniž by se měnila samotná pravidla.",
-   "takeaway": "Pro české marketéry, kteří inzerují na YouTube nebo ve Discover Feed, se reálně nic nemění – dodržování stejných pravidel pokračuje, jen jsou nyní jasněji formulovaná. Doporučuje se přečíst si aktualizované znění v oficiálním oznámení Googlu.",
-   "importance_label": "kontext",
-   "multi_source": true
-  },
-  {
-   "id": "78cd537230",
-   "created": "2026-08-14T15:20:13.885678+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-expands-financial-services-verification-requirements",
-     "title": "Google Expands Financial Services Verification Requirements",
-     "summary": "Google Ads is expanding its Financial Services Verification requirements to 13 additional EEA countries . Applications via G2 will open on August 11, 2026 , with enforcement starting from September 15, 2026 .&nbsp; Advertisers in sectors such as banking , loans , investments , trading , and insurance will need to complete verification to continue running their ads. If an account is flagged by Google, verification must be completed before the deadline. The previous expansion was announced in June so it seems this topic is very important for Google. This update was flagged by Adriaan Dekker . Th",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-14T13:54:00+00:00",
-     "score": 90
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google rozšiřuje ověřování inzerentů finančních služeb na 13 zemí EHP",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google Ads zavádí povinné ověřování (Financial Services Verification) pro inzerenty finančních služeb v dalších 13 zemích Evropského hospodářského prostoru. Přihlášky k ověření budou otevřeny 11. srpna 2026, vynucování začne 15. září 2026. Týká se sektorů jako bankovnictví, půjčky, investice, obchodování a pojištění.",
-   "why": "Inzerenti finančních služeb v dotčených zemích EHP budou muset projít ověřením, jinak nebudou moci od září 2026 zobrazovat své reklamy. Google k tomuto tématu opakovaně přistupuje – předchozí rozšíření oznámil v červnu, což naznačuje, že jde o prioritní oblast kontroly.",
-   "takeaway": "Pokud inzerujete finanční služby v EHP (včetně potenciálně ČR – konkrétní seznam zemí není ve zdroji uveden), sledujte, zda vás Google označí k ověření, a zahajte proces včas před srpnem 2026. Nezahájenému ověření hrozí zastavení kampaní od září 2026.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/78cd537230.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "f2094c4077",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-removes-campaign-level-language-targeting",
-     "title": "Google Removes Campaign-Level Language Targeting",
-     "summary": "Google Ads is eliminating campaign-level language targeting settings for Search campaigns and Performance Max . This change is set to roll out in late September , with Google shifting the focus to its automated signals for language matching.&nbsp; As a result, advertisers are left with questions regarding multilingual campaigns and existing campaign structures. Key updates include: Google will prioritize ads based on the language of the creative and landing page instead of client-defined campaign settings. When users understand multiple languages, ads will become eligible in either language, b",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-14T07:29:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592",
-     "title": "Google Is Removing Language Targeting From Search Campaigns via @sejournal, @brookeosmundson",
-     "summary": "Google Ads is changing language targeting for Search and Performance Max in September 2026. Learn what’s changing and what advertisers need to know. The post Google Is Removing Language Targeting From Search Campaigns appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-13T21:30:33+00:00",
-     "score": 82
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVUEwT3NpRk1wVzhfZjhCQTdpeEp6eF90NjEyUFVaRkhJT2lGM3lYR0lFVTIxVm9yVk1ubTNZb0RIMFF6YmtqRkVyTEtQVUh4R29ydjhKOHFQS1Ixdl9BZUNSQ3Q3SU1semFxZ2VyNElIaDduMjA5R3VsaTJpWVlCcjV4d3lOSk5nbnlSVmszTDhwd2pmdEgteW12QnZwSDZz?oc=5",
-     "title": "Google Ads is removing language targeting from Search campaigns",
-     "summary": "Google Ads is removing language targeting from Search campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "news.google.com",
-     "published": "2026-08-13T21:30:00+00:00",
-     "score": 88
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-language-targeting-update-41867.html",
-     "title": "Google Ads Language Targeting Update Coming In September",
-     "summary": "Google Ads will roll out a change to language targeting that will remove the ability to manually adjust the language setting. This change is happening next month, in September 2026. Google said its ad systems already match languages automatically and enhanced AI prioritization will automatically select the most relevant ad language when there are eligible ads in multiple languages, Google told me.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T11:51:00+00:00",
-     "score": 81
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google ruší manuální jazykové cílení v Search a Performance Max kampaních",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google Ads od konce září 2026 odstraňuje možnost ručního nastavení jazyka na úrovni kampaní v Search a Performance Max. Namísto toho bude jazyk automaticky určován podle jazyka reklamy, cílové stránky a dalších signálů. Pokud uživatel rozumí více jazykům, reklamy budou způsobilé ve všech těchto jazycích.",
-   "why": "Změna přímo ovlivňuje nastavení kampaní inzerentů, kteří dosud využívali manuální jazykové cílení k přesnému řízení, na jaké jazykové skupiny reklamy směřovat. Může to komplikovat práci s vícejazyčnými kampaněmi a vyžaduje úpravu existujících struktur.",
-   "takeaway": "Zkontrolujte své Search a Performance Max kampaně – ujistěte se, že jazyk reklam a landing pages odpovídá cílové skupině. Pokud provozujete vícejazyčné kampaně, připravte se na úpravu struktury tak, aby se Google mohl správně orientovat podle obsahu, ne podle vašeho ručního nastavení.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f2094c4077.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "b60ddc0efd",
-   "created": "2026-08-14T13:52:37.472906+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-campaign-selection-support-form",
-     "title": "Google Adds Campaign Selection to Support Form",
-     "summary": "Google support has introduced an update allowing users to select specific campaigns in its support form.&nbsp; This enhancement aims to streamline the support process for advertisers by making it easier to specify their needs when searching for help. This update was discovered by Arpan Banerjee . The post Google Adds Campaign Selection to Support Form appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-14T12:27:00+00:00",
-     "score": 60
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Google zjednodušil formulář podpory pro PPC kampaně",
-   "updated": "2026-08-16T13:12:22.067975+00:00",
-   "what": "Google přidal do svého formuláře technické podpory možnost vybrat konkrétní kampaň. Aktualizaci objevil Arpan Banerjee.",
-   "why": "Změna má zjednodušit komunikaci s podporou – inzerenti mohou přesněji specifikovat, ke které kampani potřebují pomoc, což by mělo urychlit vyřizování požadavků.",
-   "takeaway": "Pokud v Google Ads řešíte technický problém, nyní můžete rovnou označit konkrétní kampaň, což by mělo vést k rychlejší a relevantnější odpovědi od podpory.",
-   "importance_label": "kontext",
-   "multi_source": false
   },
   {
    "id": "7ff058f41d",
