@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-26T13:30:55.322483+00:00",
+ "last_run": "2026-08-26T16:03:44.293455+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.mediar.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.mediar.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "new": 48
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 5
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f559c4c25a0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f3012bc4920>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -82,8 +82,8 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 1
   },
   {
    "name": "APEK",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 7
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -137,12 +137,12 @@
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
    "status": "ok (Google News; přímý feed: chyba: Exceeded 30 redirects.)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f3012f98ce0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -209,12 +209,12 @@
    "name": "Microsoft Advertising blog",
    "feed": "https://about.ads.microsoft.com/en/blog/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Síť v malíčku",
@@ -299,19 +299,19 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 2
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -371,25 +371,25 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Marketing AI Institute",
@@ -2026,44 +2026,69 @@
   "https://blog.hubspot.com/marketing/marketo-alternatives": "2026-08-26T13:30:55.322483+00:00",
   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPajBjcFR1aHV6TXJWaUc3cUNxZG9vdGxNaVNDOWdoamU3dXh5THhkV2lxTmVnZHc2Tk4xTFpvTEd1SEdkRlJLVTQ2US1OUEhScUJxZTBKWDM3SXdya0RsNHA0S3cxY1ZOMHV2a095ZEg2WDdrTDJpc2R2dzE4U1pRWXo4cWFNLWV4cC1j?oc=5": "2026-08-26T13:30:55.322483+00:00",
   "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Y1E1dnhSUFltUjJQdmloM0JscHE4bHVRMG5tbVFBUVd1d1RXa3dTdnpJNm9Vemk5Y3hPc2dWMEVtc2U0SUc5d1lsaTRVa2tTY1p6VW1CMUx0VklxaFNVUHl3b0JoX3Yw?oc=5": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LYXU3RWwycmw0VTdnRHAwSzFOVmdyQnp6ZlBlSDF3MThEUGVQbTVjTVlnaTJ3cXhLckN5Z2FtLWdBSl9JMkNJamhETlBBdUxNXzZvSGJfZTljNm9OTGdDVmphR3l4SGJxcXhQWWNJbXAxQXM?oc=5": "2026-08-26T13:30:55.322483+00:00"
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LYXU3RWwycmw0VTdnRHAwSzFOVmdyQnp6ZlBlSDF3MThEUGVQbTVjTVlnaTJ3cXhLckN5Z2FtLWdBSl9JMkNJamhETlBBdUxNXzZvSGJfZTljNm9OTGdDVmphR3l4SGJxcXhQWWNJbXAxQXM?oc=5": "2026-08-26T13:30:55.322483+00:00",
+  "https://about.ads.microsoft.com/en/blog/post/august-2026/all-in-on-ai-series-the-transformation-shift": "2026-08-26T16:03:44.293455+00:00",
+  "https://blog.hootsuite.com/facebook-ad-targeting": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.marketingbrew.com/stories/astral-tequila-practical-magic-2-microdrama-brand-intetgration": "2026-08-26T16:03:44.293455+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-moves-policy-manager-new-admin-location": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjJ3cERfU25mYlBvd0pYemlGV0ZmWWRDX1V3TWtFSTNXcWpwekxWN08zdXFDZl9ER1hBVGwzNEdvTlFpRjUxcFR6VERHR2RHandSaGdYWC1MT1hSWGEzZm1uZjcxUVhoUTlrTXRpNjRvUGxHRlltNmNtOVBQNDQwZnhSaTUxSkhZd085ZDJMX3c3cGUwaUdBaG1QLWFXSHM?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.marketingbrew.com/stories/stravas-strength-training-soft-bar-carl-radke": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPblNFbVUtTjRvLWNRa2E5NEpxd1Nhbko4YTFRcVNyZ2t3Y1NneU9VSHYxZ25sMGFzTTZxeFllT2lHSjRFb0oyRm9GeEZaRndLZTMyZTZia1hLc2xWWGFodkpFaG5TSi1icS1YZ2xRbEUtWW9DVG8yeUtrUWhJYzZyRTR4TWZTbEx3dEcyR3JZdXpVR2VPaWYzRDRZWE9yNmpvN0p4NEMwZ2JhTk9BUHc?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.mediaguru.cz/oneplay-sport-odvysila-derby-sparty-a-slavie-s-divaky-primo-ve-studiu": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQnEzazZ1MFcweEUxT191UDRrYzdrb2wtUi1hY3JTcENhM1dfRl9HS2pDM255MEVLSnMtcGxrYUtNSVhhYkxFTVZaTDRTWWFFNmVIdUEyblBxTklWTFR2RHlpQmUyMVlneUN3NWF4aV9BaWV3cW0yQWhsblczc3FfdQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHN2ejRucGp4RDg0QUo4M09CWGhfb3RqU1VJSG1xWFpOVGp1QWdVNHRaN2ZtYkduMXRLenVGblE3aXNFTTVURUp5NFZWYVpJeXAwa1lpakNXOWw4ZDl1dEdTT2dTYU9pUjFkdXptWmF2S0JpdzVEeXFSa1R3cGRFWU5yTnRWNzUtLWo4eHk0N0NDMG5xa1dRWA?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTYxaXNFeUVZSHZMdGZYanJ2QjNhUExKNmhIM1RxS2cxd0JhNjFtY3IxVmRSZkJOc01NUWRKVElLMTJnSUZxSkRCSkFlM1VHVE4xUXc4clZIbTE4OVJZeVQtUFpEUWRNeXNtNE9qTUFWQTlMMHNRZ0xPUFZ2b09WempKQzRNanVQY28wdXJtemRlX1JHOEcwTS1aRQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.searchenginejournal.com/ai-brand-preference-now-splits-by-generation-claude-leads-gen-z-more-than-7-to-1/586624": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlNmk3VFlub1ZHRVRxdVlpV014aHJRMzZVeGVfcGZicnhwMEtwV0h4SXFvZFlTOV9EVVRLczUtdUF2czBYb2E0WXFQSXQ3VGE3MFptaDlCWWJfdkNtZktLRUk0aFlCUmtzV2Y2SHpNb0VydVBqcWkw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://martech.org/build-content-briefs-around-people-not-keywords": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EZ1pnbHRvNFRJaTROanF6WGNzMmJ6QVB5QnJ2NklwQ2FPNEh6UF80U1hOZlRKRVdwa3BWLWItZWlXeDR5QklkQ280MnRVZHNzdDNZYTB3ZGFwSkk?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://blog.hootsuite.com/influencer-marketing-tools": "2026-08-26T16:03:44.293455+00:00",
+  "https://cc.cz/vydelava-miliardy-v-par-lidech-presto-se-znacky-mnozi-stiti-onlyfans-zdedila-bojovnice-s-rakovinou": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JSE5WUlZlbEJXdDNuQkx1WDV5S255bUNjUlB5bzRZdGRneWV1eGM0UmoteUg1ZmNDQndiWG00ZThSWTV4Xzdna3l2WjA1a2lqTUliTFE0S1BxMTBZVUpGWHM5VGZnZUJyMkI4ejJEWlM3REQt?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.seroundtable.com/recap-08-26-2026-41951.html": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.mediaguru.cz/krizovy-scenar-ct-by-mohla-fungovat-i-pri-snizeni-rozpoctu-o-350-mil-kc": "2026-08-26T16:03:44.293455+00:00",
+  "https://about.fb.com/news/2026/08/open-letter-to-tiktok-and-youtube-to-join-us-in-supporting-teens": "2026-08-26T16:03:44.293455+00:00",
+  "https://about.fb.com/news/2026/08/agreement-with-state-attorneys-general-supporting-teens": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObk5MZUNCaXhCUEtGYW4xTzdPc0VQS01rZGQ3OHhLQ1BTRGpTYk55b0FlSjNTNkJMNWNmTWl2U1U5UHp1dXJTVmU1dGJyUVBDMUpyYWxNenVZbkk3d1FCSkktam1ZWDBFMFlwbi1Sekk2QTFuUnduQ2lLam9GVUZDWm9yMUtSM281V1RrdXdxMXdyWDlxamZBREJPUHZ6eEJDUmZnc0t3UWxPRzJNdDM1UWZKcmF6NkVicWo2WXpuTjdkZw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ocWJsWTZSNFhtY25lc0JNRzVhYzliOE9VUDMwS1dVMEJ0ZzBodXFuTzMyMGVmSzY5UXBMcHhJS2o4WGsxS2RrNmY1NS1ZX2NVTVZqTlctR05oa1ZPZzR4akF2cmhTdjJVbzBadmc2dDk?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWmlIODlFTllxQk9NMWVZZG1GenBxeFRFbHJHSWxsRGQyRVpsUFZiTkFQZUJva3pSb1hfMU9pTnJpekJxOG9tU2E0X3NURGc0THFUQ1I4dUI0alFTYTFLNGZLSFdMT2xkWUNqMENqS1RrNEtydGlwRm5BV05nYk45Y21fbjZZYko3UVVIeHhQTXRNNGVvQlE?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2Nhc0tyY19YWEZ6bVdkbDFsNWZKdTF3aHRfZ29Fa0N3aVpVbFN1QzR5Ui1XLVNfNElfamtiRjRyR2RfcXEzeG56ZWVPNzlXbHJ3S1dXdExPNEJUVHhiemJkRk5BdU00VVFMU0QxaG4zV2VBWFdXbkZQTzU2bDNrZjBMQ2Z0di03QXhKRGU1MWJQRHdXckFqQ2Fadw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVXdTUXN1ODUyV2NfakdtQUd2cVRRN0tDUHItR0tPNi1oNE42UnBFaXJrcHJwYVdzeW1HNmtJX3RESVhRLUVWZmhVSHpvYWEzT2g4d2xUdk5SVE00UWdrdHhvOVhMLW82YTVnVF9EYnJIR2FCcE9UdTdhT0hLQ0JEUEQ0ektocWlFTmw0RA?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOHMyOEh2WmVoQ1FhZlJyMlVwbG96UkoyMUhMMDlsejFQdTd6SmR1V0ZiUnJMVHc2UldzcGJ5bzh0YWlOZTNSOERTYjZucUQwR3hfdzQ1YUIzSGNYVDdheHludGs2VWI3N05CdWZkUU1YTEk0Q1RHdnB2cVBPOUhpbWlnVHZreElUZWxJMm1PWXc?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://www.marketingbrew.com/stories/got2b-dancing-with-the-stars-the-next-pro-sponsorship-strategy": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN3BrYlFWS0NINW5UQ0hBb01HRDZSa2d1cF9QTGEwVHI0bmh6SjhsM3JUelJwUzRDd0RtRFJlU2dHelA4cEFyMTVHcTNlWU1kajBqSlFVS1VXa3AwXzhJdEtvanhtTTZUdGVobXVRVEdQREZDXzlTNzdwUTN3elFUV1BLalFwWjZEZ292N1NZVQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHlzWFNhNGI5MnBKMDgta2lLMXd0MDJMR3RBd0czV3hPX1A3SG95VmlUNV9jWkg1YmZUbVczWk1BaGpfZmdpTmQwczJWWDFFSUVFZUQ1aHVtWjVqR2JGLXJKVEJ3cVBKNUtBdnhVQWF6VVJxUEtnUjR4VWw5Y21RNG9wSlBUbkFxRzV2aW5wLXdTZXpMNFp1OVRUZklUdUk?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://blog.hootsuite.com/competitive-intelligence-software": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkp5UFJPUEhtQXREUzhqTXdqbXl3c192ZnRPaEJiOFFVUWxjRmI1QUlBZmN6R3MyTURiQ0xSSjEtVks2YnZIQWlnMTJaNDBQUEJTVjVmcGFpLXJIWWN0aGJjT1d3NTB1d1ZoQmRvZkFmS3UtdGgwQ2RtcllBbXdIcnluMDlaN2pZZ1N2S2FR?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQnZZVWdBTWxfS3E5elF4emUxNHdoVEZ4TUk3MFVtbm9HMThvVGM1XzJ6SzVjazFpeHlaN1VrUTY2MjNLSFZuRElRdHp3RUxvYXNPcmN2UU5LVHgwWkR6SjNhYjlkZS00c2NyTlBCZkN3NU1uUzV6V0pNOG5JdnR4SHJHZEJGeGpvS3NYMG5GbElQbTRYejg1X1RxYnlGeGRIOHFCU1BDYzJqRDJmZnE5X1pyam95OGtYTE55Uw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbENjejVQazNsNURzNFhLaDlhUVVGNGxWUzU0ZFpkd1k5b0E0ckF1X3VDSVlQZElrdnc2aGh3QmV6eWdyV0IxeFVTMG12T1IzSF9IUnFJc3dCU1JBa2NsY1g4b2xqMm5NaF96dGZ1ZmRSRFFNc1prbjF4VDRMbHNXT1RXNmJmNU02OXNmVnR4d21Xb0kwWV91aHdnYTVhVEd1cmhWd05UTHk1Zk5Uak1vRWk4aw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZjE2eTZZbWNrcmhvdHZISmZ2QUJYR05sS2p1azR3YTlELXNWTWd5VEJZeThVNzR4M0NVWGp3TDhWLVY5VXVGcmlTUkk0d3g4dTBkQVNCXzRlNERSanlNMmNyb2JvcnRiU2FMdlB3blVKb2p0YXNqNjZZQTN1UC05NkZrU2gydGttem45UF9vWXlvR1VGb0xBUzhwTkhfUkh1c2N4dTM0QQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTWl2X21HeUVOWkttWTdHYjRDeGVJMkJETUtPcDlzdW1fQ2FlRlZCUVg0cERLdzdlX296TmtlR2s0OS1XUmtxVlFkeWFlZERETW5DMkVOMVhHelhPVDBhU1RzUHg5YzVwY1haNGN2cE9MaEhXZnlmOFJUbmFVUC00TThvOVh3anF0eTRHeXYtV3o0dVFLWmtsZzZROFplSVRsRFdlZzE3YjBwLXc?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZFRsZk1VcDZ1TXp2cnhseUhDbGdYcTQ1RXVzRzNJQ1Bma0JBY1VkMmxQVi1tbzlxRVhaRlUxRF9hc25obWVWU2ZTVFNseTctby0tQlJqQmVYZ0MyVGxWYi1objZnV2UxTVRQRDNnY1hma0NYWlpiWW5kSDJZV0hIejlhQ29yZ2hwaWZxV0ViYzBibXVfWmFEUEM0Ykk?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSnR5Q0g5RGYwV1hKc1VZUHhyeFZ4N0Q4U182S3QwanczekNTaDJDekNfNV82TmhHU2dWMkxXaWI0eU5DWEFiMHNZTng0cHZaUEFDd0J5YkREZUlPMU11aUZwdUFYUVd5VTVRN0hhSkFXa1doM29hd3VBcndzVXk4bGRBSm41RWtteGM5VjZXZW9sM2RFZkliejN5czlDY2VZV1dZTG0wZG40cFIzd0d3?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZmJzLTVmSnV6eE9ZTTJJUVlhdlFWNlJfWmREM25INm5aZTBOSkRQb3NPMmZmVVVvT2VRUktSWFNIUjZaSy1Qa2xTZzhnSlRJYXhuWXJtSkh3M0QzTHo2VW5DY1Z0RDFOLUFDb0Z6MTNySTlFRmlpY0pPRjVnV0YtdTdWcVEwNnp0TE5ieS1MY2M1a3Z6VmtCVXdZUG94Yjhx?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbTJObXZSdUxieEoyOU9RejVaLTJYajR2WDJlZlV3YWhBVnBSVmIzOFJ0Q0w5anpYb2Uxa3U5M0p2NUYtWHBSWWIzVmpYV0RyaUp4MmdPb25FTlZMRmFyYi16SE9STE5yVHpFZU9zSXZkSG5wYlVPRHp5dEk4WU01Y2o5Q2dkS0NZX2ZvWjNUYUFMWXhrOTcyWVlkRF84LVhwRGw0cURuSG5SM1pvN2JMWTRFWQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnFMT2JfUjFVYkltRFZabm14d2gyYUJ2bmhudWY1b0tXdHdTYWJxXzZrNk8yRHNGRThpekF0a0tkOFZJU2c4T2pzdXlZNnp5MnlZYmtYR01vVjlwVzhldnctb1lvVVpNZDNkNUlyWThoa2M0YnFhSndsZEhWRWlHa2FUa2Z5LXVNNjI5V1F2RU13U0pvTEpVcjJPeXN5WUs5WTE1Yw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTzI4eTZaTlM0MXhmWDJlbGpVUGpLSkdacmZ4X3czdTJBaE5MYmhORFdIN0pJUzFCbkVRQW1abHNkY2NnWFY4Yk1ONmhMaG9iNWFmNjhzOUg5amdpU3JHYzR6UjJwRDFnb0lkdnByUklGRlBzUEROYkR5VXBianlmRWZDbHJWUzg?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaMGVkRmxISlF0UVE2aTJ2Vk1yX0pCa0FxbV95T0VaTE4ySGcwTnFIUVViSUNnRklTQXcxeEkxNEQyaXlqZzBSems2cGpyc3J3ZElOWXdoYTE4MjBLWF9hQ3E2cHh6M2dG?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdTFuQ0gzX3I1ZXlCeVVtTGYxNjVYSENhV2xPSTBtOFdlYVRHcF9lNWtNdGt0ajNuMGl1Sjd2SnpwRFhVbWlfRFVrQVB0cjZMdmcwY2FBSWVZZG9EclRNc05iNGpYbW9MdEhRUVpUVmx3MG5NVmdwUUYyd1ZZdFprWk5kMlJ4V0dfUFFSR1FoZk1kWjRaQ0ZNd2FBc1NMX3ZoWlE?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmFRRU93aEVoUk92akhfMUxyeG13ekc0dldvV0daWkdyeS1OcXJUV0pRTXR5MnB4aG1qZlowSXppbzV0Nm9kQXZJUVNjemRCbjVSdVJuWTktZ3JlNC1EMWI5MXROcFpCLUVOYkxBMVMxUnByYlUxRFI4QmIwQWJkb0JLaEh6eXRa?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN1NZa1hNb1dyMUxSbzNuNC04NHRFTW5QSUZUSmlta3VUR0l0bm1PRHJUVk9LZXVCbV80bHEzbVFYYUZfekZRc1d4U1h0U3MzUHNteWpQdlM0cW1yenMtZUtvRVo0WmppSkpQVkdR0gFzQVVfeXFMTnp4bEdQR1BwRjVwYUpZNnNmZDdxQVktM2VkcFlZR190MmliSWE4c1pUUGY1RXRPcUhlWnVjWVItOUplQzBtUHZmWFRocGVGdGlVREZiaVhCMVdqaTRjcjEtVjVtWE9wX1R2bHNDaVpBMmxkZw?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSXIyc2t3aGdQSDdOU1VQNjlOZDJDZ1hGRkZXbWdGM2ZIcmpkZ0lRM3hkSzB5MHBBc0N0VENuUFRxSHp6NWh6cXJUUDFfR3gtNVZPVmJHWnhGWk50am5KN0RqX3lfV3NYdFJmbllnRmJWYTk2YlBYU2xvWVVKLVMyU2xZdXRBbUZrajRtX3NvSQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVGxXMW43eUVKN2tlNmpXeEwxdV9DdW12elVhVUlGQ0hCVlo4STQ0dzhnRUNtVDJRdnJQcTRIamplT2s2Zks5SGNrRUJSejBRd1pXMWJwNHItaUVTaC1yMXdxcjBHZmxCS3Z1eUNEWGhNQm5xa1otZWNueE5wRk8xU3lBT054aENwSUI5Z2YtYTZtdXJxanlVTnoybTUyTG1tSTJtVzVCaE5RbmpId3Bvb3NGeU1BQQ?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zeU9iVi15eE1aazZZdmpJS3ZoYkFHMURVMGU0QlNsVThNNmZpU21MR1pwUFlWbXgwMm9vb2xiNkhHSzk1dFlXdG05dDFDVzh1SDJRZUNSblF4LUdCSzNHRWtuUWhjakRtOFVwUnVaTG10X0JaVV85MGN3?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkp2UHZaaTM2Q1l5cWw0WWFTM3hITVBtVDdseU1Eb0RBcEFSYnI5My13VExRSmxLWkhmUjc0WnFXWXZscWlDdzMySjYxT0NEWndhY01uckQwVmM2SWxOaDFnbS1lci02d1FLWUpVVWF1c0lKMmRIa1NKMnk3S1F3bm11NG1RWHF0cVJGSmViM1l2LUNjV2ZvM0lXSUo4V2hGbVNfMVZtV01HTW8?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOEEwYmhzdzR2ZUEtQzdFQkhXZ1VRbmRxc1pPUTVfYWpYU2pwV3MyWXpkSW5LUVZiOGJxb3NINUlWRnVKVVFBV2llY09SNUtzN0RJdWhvZTJQQVNDQ3NrQXNfQ3VocTRYNUZ2dThBMWNRZWRtTjVCcmlTbDNoMGZxU1VlRkpTdXhRVGx4NkxXMA?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://business.google.com/us/think/search-and-video/rise-brand-experience-ai-video-generation": "2026-08-26T16:03:44.293455+00:00",
+  "https://business.google.com/us/think/search-and-video/brands-and-youtube-creators-partnerships": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0eUJqQWJqMUFVRUg1cWtuOGtzZHhKYXZ4MG1fRGRSUnlpMnd1ejhaaGtzRHlocXZLQ2U2djVPVWcwZU5fMGtnVk5NWmp0MDdvU3lndmNRZkpEWl9NV1N1dTh1R1JwWmVDeGpWdVpnT3NaZ1VDdFJlYnc2bVYxY2c?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ3BGV3hNc1gyRThQbXFHTjlvSDlxZTdsVmxzQThtaWlFTDdRNldsakJnTE1EWVF5VFlLNEtKekxFQk9TQTB0SnRXNjJISG1jWWpEVk9FVzhfNXpDNnB5b2lqMmFiTlV1aE1BeUlxT1YtaV84MVlxY1Q5Z0c3MnVXQTFQcHBiR1BTYndkSzJwTXZUbDRCY2J3YXo3Qnc?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wbWxmYVc0MWN4OW1zT3lGRk5QQ2QwMzMxQWF2RGxBQ3haWFd0ZEtVaXhpVWxEVGtPNERYTDF6UlRwZ3JyZkRuRkVsb29Eck5RSmRRbEdLeU9OOVBLQzNrN205cWRDVEhZcFRma3NDRzNYVFZHWEdv?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLVRyRnB4c1hzVHdLVzZpZDJUeTFybFFyWXFPWHp0NWhNLTJZSXZMS2QyUVU0Wmk5N0ZuWkJrdjl3MVNjdGVTc1g3T0ZfRmEwU3RVbWF3Vng4NHpCbUctMUF1UHMtdjJoTWdxRl9ReUQtYzhwNHdqYUl3S2lFdEZfSHF5MndmUXllWnhuV2l3RnNWU0RDdEFDNlBPZVV3RGtaZ1Vz?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWVPaFlPUjJieE9zUDNLNm9wSFhlSHliYk9rYkw4UjFVeGN4ZkphcGdYWXFmUkpXd1puaFBxV3dHTVJzZVFpQnpwd1pLNXN3NFlPNmotRGVSM19FQnBaNE1LZ2hnZzBFVGc2R3owekhtZjNsRmM1XzVOaklfN29LT3lHN21aN05wUExid09uYUd0VDFyMll5OA?oc=5": "2026-08-26T16:03:44.293455+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXFrcHNkN3hFSXNCbDFVV0RhellBYjQ5S2VEZFRSRFlDd3BoM0ltZ3NxakdSaHlJdnJXUFFwdkVuendIS1EtLVVabXhHWEpCMDJvbWFOWmVZQUV4V29sbWVld1hfNy14bkg3OVdaWEVFS25BUTZwV1k3bnFrcTJid19tNnhETEdwMnA4TFl4bmZqQUNwNXVmN3lGdlFjSFU1TzI5eUJrS3lubU1aWTFJTUkyQW5wdw?oc=5": "2026-08-26T16:03:44.293455+00:00"
  },
  "events": [
-  {
-   "id": "47472ffd48",
-   "created": "2026-08-26T11:55:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
-     "title": "Google Search Ranking Volatility Continues Post Spam Update",
-     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:55:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
-     "title": "Has Google demoted listicles?",
-     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T12:00:00+00:00",
-     "score": 55
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Google Search: volatilita výsledků pokračuje i po skončení spam updatu",
-   "updated": "2026-08-26T13:33:09.825530+00:00",
-   "what": "Google dokončil srpnový spam update 21. srpna 2026, ale pořadí výsledků vyhledávání se nestabilizovalo. SEO komunita i monitorovací nástroje zaznamenávají pokračující výkyvy v pozicích webu.",
-   "why": "Pokud váš web zažívá výkyvy v organickém výkonu, může to být způsobeno právě touto volatilitou – nejde nutně o problém na vaší straně. Pro správné vyhodnocení dopadů spam updatu je potřeba počkat, až se situace uklidní.",
-   "takeaway": "Nedělejte unáhlená rozhodnutí na základě krátkodobých změn v pozicích. Počkejte na stabilizaci výsledků vyhledávání, teprve pak vyhodnoťte skutečné dopady updatu na váš web. Sledujte vývoj v následujících dnech.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/47472ffd48.jpg",
-   "image_from": "searchengineland.com"
-  },
   {
    "id": "959fd23cec",
    "created": "2026-08-17T07:31:21.653291+00:00",
@@ -2085,52 +2110,112 @@
      "domain": "socialmediatoday.com",
      "published": "2026-08-17T22:47:48+00:00",
      "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN1NZa1hNb1dyMUxSbzNuNC04NHRFTW5QSUZUSmlta3VUR0l0bm1PRHJUVk9LZXVCbV80bHEzbVFYYUZfekZRc1d4U1h0U3MzUHNteWpQdlM0cW1yenMtZUtvRVo0WmppSkpQVkdR0gFzQVVfeXFMTnp4bEdQR1BwRjVwYUpZNnNmZDdxQVktM2VkcFlZR190MmliSWE4c1pUUGY1RXRPcUhlWnVjWVItOUplQzBtUHZmWFRocGVGdGlVREZiaVhCMVdqaTRjcjEtVjVtWE9wX1R2bHNDaVpBMmxkZw?oc=5",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Reply to Keywords Meta Ads Feature &nbsp;&nbsp; Jon Loomer Digital",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T12:38:28+00:00",
+     "score": 50
     }
    ],
    "category": "socialni-site",
    "importance": 45,
-   "title": "X přidal video overlay a odhalil detaily algoritmu",
-   "updated": "2026-08-26T13:33:02.036490+00:00",
-   "what": "X (dříve Twitter) spustil pro iOS uživatele funkci přidávání textu a emoji přímo na videa. Zároveň zveřejnil další informace o fungování svého algoritmu, včetně doporučení pro efektivnější organické publikování.",
-   "why": "Úprava videí přímo v aplikaci zjednodušuje tvorbu obsahu bez externích nástrojů. Zveřejněné detaily algoritmu umožňují lépe optimalizovat frekvenci, formát a timing příspěvků pro vyšší organický dosah.",
-   "takeaway": "Pokud na X publikujete video obsah, vyzkoušejte novou editaci přímo v aplikaci na iOS. Prostudujte si zveřejněná doporučení k algoritmu a upravte podle nich svou publikační strategii – může vám to zvýšit dosah bez nutnosti platit za reklamu.",
+   "title": "X (Twitter) vylepšuje editaci videí a odhaluje fungování algoritmu",
+   "updated": "2026-08-26T16:05:46.356198+00:00",
+   "what": "Platforma X (dříve Twitter) přidala pro iOS uživatele možnost přidávat text a emoji přímo do videí, čímž se přibližuje funkcím konkurenčních sociálních sítí. Zároveň Business Insider analyzoval nedávno zveřejněné informace o fungování algoritmu platformy a jak s ním efektivně pracovat.",
+   "why": "Nové editační nástroje umožňují tvorbu atraktivnějšího video obsahu přímo v aplikaci, což může ušetřit čas a náklady na externí nástroje. Pochopení principů algoritmu X pomáhá optimalizovat organický dosah příspěvků bez nutnosti zvyšovat reklamní rozpočet.",
+   "takeaway": "Pokud vaše firma publikuje video obsah na X, ověřte, zda můžete využít nové editační funkce místo externích nástrojů. Prostudujte zveřejněné principy algoritmu a upravte strategii publishingu (timing, formáty) pro lepší organický dosah.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "multi_source": true
   },
   {
-   "id": "e78bd72be8",
-   "created": "2026-08-22T07:22:00+00:00",
+   "id": "d465ede499",
+   "created": "2026-08-19T11:00:22+00:00",
    "articles": [
     {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
-     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
-     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T07:22:00+00:00",
-     "score": 74
+     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
+     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
+     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-19T11:00:22+00:00",
+     "score": 49
     },
     {
-     "url": "https://ppchero.com/black-friday-2026",
-     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
-     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
-     "source": "PPC Hero",
-     "domain": "ppchero.com",
-     "published": "2026-08-24T14:04:28+00:00",
-     "score": 62
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
+     "title": "Deciding #WhatToWatch just got easier with TikTok",
+     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T04:07:29+00:00",
+     "score": 49
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350",
+     "title": "TikTok explores expanding in-stream payment options",
+     "summary": "The app&rsquo;s China-based version highlights Douyin Pay as a key transaction option, and Bloomberg reports that a similar feature may be coming to the U.S.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-19T23:19:31+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "TikTok testuje vlastní platební systém pro transakce v aplikaci",
+   "updated": "2026-08-26T16:05:37.326435+00:00",
+   "what": "TikTok podle Bloomberg zvažuje rozšíření platebních možností přímo v aplikaci, podobně jako již funguje v čínské verzi Douyin s funkcí Douyin Pay. Šlo by o nativní platební řešení pro transakce uvnitř platformy.",
+   "why": "Pro české e-shopy a značky prodávající přes TikTok by vlastní platební systém platformy mohl znamenat změnu v integraci a nákladech na transakce. Zatím jde o test v USA, ale pokud se funkce rozšíří globálně, ovlivní to způsob, jakým brands prodávají přímo přes sociální síť.",
+   "takeaway": "Sledujte vývoj – pokud TikTok spustí vlastní platební systém v Evropě, bude třeba přehodnotit integraci e-shopu, platební brány a případně podmínky a poplatky za transakce v aplikaci. Zatím jde o testování v USA bez potvrzení dostupnosti v ČR/EU.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "683b3c9600",
+   "created": "2026-08-26T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-product-titles-report-41948.html",
+     "title": "Google Ads AI-Created Product Titles Report Beta",
+     "summary": "Google is beta testing a new Product title report within Google Ads. This is a special product title report for Al-created product titles. The report should show in your ads when they're more relevant than your original titles, Google wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:11:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHN2ejRucGp4RDg0QUo4M09CWGhfb3RqU1VJSG1xWFpOVGp1QWdVNHRaN2ZtYkduMXRLenVGblE3aXNFTTVURUp5NFZWYVpJeXAwa1lpakNXOWw4ZDl1dEdTT2dTYU9pUjFkdXptWmF2S0JpdzVEeXFSa1R3cGRFWU5yTnRWNzUtLWo4eHk0N0NDMG5xa1dRWA?oc=5",
+     "title": "Google Ads adds reporting for AI-generated product titles",
+     "summary": "Google Ads adds reporting for AI-generated product titles &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T14:58:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810",
+     "title": "How To Advertise In Google AI Mode For Ecommerce via @sejournal, @tonyadam",
+     "summary": "Google generates AI Mode ads directly from your product feed, not your ad copy. Here's which Merchant Center attributes decide whether your products get chosen. The post How To Advertise In Google AI Mode For Ecommerce appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T12:00:17+00:00",
+     "score": 70
     }
    ],
    "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads: offline konverze starší 7 dní neovlivní atribuční model",
-   "updated": "2026-08-26T13:32:51.798893+00:00",
-   "what": "Google upřesnil v nápovědě k atribučním reportům, že jeho atribuční engine zpracovává pouze offline konverze nahrané do 7 dnů od jejich vzniku. Konverze nahrané později se sice zobrazí ve standardních reportech, ale nebudou započítány do data-driven attribution modelu.",
-   "why": "Pro inzerenty pracující s lead generací a offline konverzemi (např. obchody s delším prodejním cyklem) to znamená vysvětlení dlouhodobých nesrovnalostí v datech. Pokud firma nahrává konverze se zpožděním delším než týden, její atribuční model je od počátku nepřesný – což může vést k chybným rozhodnutím o rozpočtech a strategiích kampaní.",
-   "takeaway": "Zkontrolujte, jak rychle nahráváte offline konverze do Google Ads. Pokud trvá déle než 7 dní, upravte proces – jinak přicházíte o správnou atribuci a optimalizace kampaní fungují s neúplnými daty. U lead generace a delších prodejních cyklů je nutné nastavit rychlejší reporting.",
+   "importance": 72,
+   "title": "Google Ads testuje reporting pro AI generované titulky produktů",
+   "updated": "2026-08-26T16:05:27.931389+00:00",
+   "what": "Google spustil beta test nového reportu v Google Ads, který zobrazuje AI vytvořené titulky produktů. Tyto titulky se v reklamách zobrazují místo originálních, když jsou podle Googlu relevantnější. AI generuje reklamy včetně titulků přímo z produktového feedu v Merchant Center, nikoli z ručně napsaných textů reklam.",
+   "why": "Pro e-shopy běžící PPC kampaně je to změna kontroly nad reklamními texty. Google automaticky přepisuje titulky produktů, pokud AI vyhodnotí svou variantu jako lepší. Report umožní vidět, kdy a jak Google zasahuje do prezentace produktů.",
+   "takeaway": "Pokud máte propojený Merchant Center s Google Ads, zkontrolujte v betě nový report pro AI titulky a porovnejte výkon původních a AI variant. Věnujte pozornost kvalitě atributů ve feedu (title, description), protože z nich AI čerpá – ne z nastavení kampaní.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/e78bd72be8.jpg",
-   "image_from": "ppcnewsfeed.com"
+   "image": "img/8cced7c67e.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "f2094c4077",
@@ -2414,18 +2499,265 @@
      "domain": "seroundtable.com",
      "published": "2026-08-26T11:51:00+00:00",
      "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-customer-lifecycle-optimization-conversion-goals-41941.html",
+     "title": "Google Ads Customer Lifecycle Optimization Within Conversion Goals",
+     "summary": "Google Ads has placed Customer Lifecycle Optimization directly within the conversion goals section of the Google Ads platform.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:31:00+00:00",
+     "score": 65
     }
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google Ads ruší manuální jazykové cílení v září 2026",
-   "updated": "2026-08-26T13:32:41.291435+00:00",
-   "what": "Google Ads od září 2026 odstraňuje možnost manuálního nastavení jazykového cílení na úrovni kampaní pro Search a Performance Max. Místo toho bude systém automaticky vybírat jazyk reklamy na základě jazyka kreativy, landing page a signálů od uživatele.",
-   "why": "Změna výrazně ovlivní práci s vícejazyčnými kampaněmi a stávající struktury účtů. Inzerenti ztratí přímou kontrolu nad jazykovým targetingem. Když uživatel rozumí více jazykům, může vidět reklamy v kterémkoli z nich – to může být problematické zejména v ČR, kde lidé často rozumějí i slovenštině, angličtině nebo němčině.",
-   "takeaway": "Do září 2026 zkontrolujte nastavení všech Search a Performance Max kampaní s vícejazyčnými variantami (např. CZ/SK/EN verze). Ujistěte se, že jazyk landing pages a reklamních textů je jednoznačný. Plánujte případné rozdělení kampaní, pokud potřebujete striktně oddělit jazykové verze – např. kvůli různým cenám nebo nabídce pro ČR a SK.",
+   "title": "Google ruší manuální jazykové cílení u Search kampaní",
+   "updated": "2026-08-26T16:05:17.548146+00:00",
+   "what": "Google Ads koncem září 2026 odstraní možnost ručně nastavit jazykové cílení na úrovni kampaně u Search a Performance Max. Místo toho bude Google automaticky rozhodovat podle jazyka kreativy, cílové stránky a signálů z chování uživatele. Pokud uživatel rozumí více jazykům, reklamy budou způsobilé v obou.",
+   "why": "Inzerenti ztratí kontrolu nad tím, v jakém jazyce se jejich reklamy zobrazí, což komplikuje správu vícejazyčných kampaní nebo cílení na specifickou jazykovou skupinu. Google slibuje lepší automatickou optimalizaci pomocí AI, ale změna může vyžadovat úpravu struktury kampaní a testování dopadů.",
+   "takeaway": "Zkontrolujte, zda vaše reklamy a landing pages jsou jazykově konzistentní – to bude nově hlavní signál pro Google. U vícejazyčných kampaní připravte testování od září, abyste ověřili, jak změna ovlivní zobrazování a výkon. Zvažte oddělení kampaní podle jazyka kreativ místo podle nastavení cílení.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/f2094c4077.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "3d2b2fcbbb",
+   "created": "2026-08-26T15:59:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-moves-policy-manager-new-admin-location",
+     "title": "Google Moves Policy Manager to New Admin Location",
+     "summary": "Google has relocated its Policy Manager , which oversees the policy status of limited and disapproved ads, from Tools &gt; Troubleshooting to Admin &gt; Policy .&nbsp; A new Ads tab has been added alongside the existing Account tab, which focuses on account verifications and certifications. This update was shared by Vojtěch Audy . The post Google Moves Policy Manager to New Admin Location appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T15:59:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 35,
+   "title": "Google přesunul Policy Manager v rozhraní Google Ads",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Google přemístil Policy Manager – nástroj pro správu stavu omezených a zamítnutých reklam – z menu Nástroje > Řešení potíží do sekce Admin > Zásady. V administraci přibyl nový tab Reklamy vedle stávajícího tabu Účet, který se věnuje ověřením a certifikacím účtu.",
+   "why": "Jde o čistě navigační změnu v rozhraní Google Ads bez dopadu na funkčnost. Pro běžnou práci PPC specialisty nebo marketingového manažera nemá praktický význam – Policy Manager stále dělá totéž, jen je jinde.",
+   "takeaway": "Pokud pravidelně kontrolujete stav zamítnutých nebo omezených reklam, najdete Policy Manager nově v sekci Admin > Zásady místo v Nástrojích. Funkce se nemění, jde jen o přesun v menu.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "0e5c3010c1",
+   "created": "2026-08-26T15:43:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjJ3cERfU25mYlBvd0pYemlGV0ZmWWRDX1V3TWtFSTNXcWpwekxWN08zdXFDZl9ER1hBVGwzNEdvTlFpRjUxcFR6VERHR2RHandSaGdYWC1MT1hSWGEzZm1uZjcxUVhoUTlrTXRpNjRvUGxHRlltNmNtOVBQNDQwZnhSaTUxSkhZd085ZDJMX3c3cGUwaUdBaG1QLWFXSHM?oc=5",
+     "title": "Google Ads API Developer Assistant gets major AI agent upgrade",
+     "summary": "Google Ads API Developer Assistant gets major AI agent upgrade &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T15:43:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads API Developer Assistant dostal AI agenta pro automatizaci úloh",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Google upgradoval svého API Developer Assistanta pro Google Ads o funkce AI agenta. Nástroj nyní dokáže autonomně plánovat a provádět složitější úlohy v rámci práce s Google Ads API, nejen odpovídat na dotazy.",
+   "why": "Pro firmy využívající vlastní integraci s Google Ads API nebo spolupracující s vývojáři může jít o zjednodušení vývoje a údržby skriptů. Menší technické bariéry mohou urychlit automatizaci kampaní.",
+   "takeaway": "Pokud vaše firma pracuje s vývojáři na vlastních automatizacích Google Ads nebo plánuje hlubší API integraci, sledujte nové možnosti AI asistenta – může ušetřit čas a náklady na vývoj.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "1fe38632ec",
+   "created": "2026-08-26T14:45:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTYxaXNFeUVZSHZMdGZYanJ2QjNhUExKNmhIM1RxS2cxd0JhNjFtY3IxVmRSZkJOc01NUWRKVElLMTJnSUZxSkRCSkFlM1VHVE4xUXc4clZIbTE4OVJZeVQtUFpEUWRNeXNtNE9qTUFWQTlMMHNRZ0xPUFZ2b09WempKQzRNanVQY28wdXJtemRlX1JHOEcwTS1aRQ?oc=5",
+     "title": "Google adds link carousels for developing topics in AI Mode",
+     "summary": "Google adds link carousels for developing topics in AI Mode &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T14:45:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Google přidává odkazy v AI Mode pro aktuální témata",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Google rozšiřuje AI Mode v USA o karusely odkazů u aktuálních a vyvíjejících se témat. Funkce má uživatelům pomoci rychleji najít další zdroje přímo z AI odpovědi.",
+   "why": "AI Mode zatím není v ČR dostupný a jde o postupný rollout v USA. Pro české marketéry je to signál, jak se bude vyvíjet budoucí podoba vyhledávání – AI odpovědi doplněné odkazy mohou změnit způsob, jakým uživatelé procházejí výsledky a jak generují návštěvnost.",
+   "takeaway": "Sledujte vývoj AI Mode a připravte obsah tak, aby byl relevantní i pro AI odpovědi – strukturovaná data, jasné informace a kvalitní zdroje zvyšují šanci na zmínění v karuselech odkazů, až funkce dorazí do Evropy.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "02545fdaf6",
+   "created": "2026-08-26T13:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ocWJsWTZSNFhtY25lc0JNRzVhYzliOE9VUDMwS1dVMEJ0ZzBodXFuTzMyMGVmSzY5UXBMcHhJS2o4WGsxS2RrNmY1NS1ZX2NVTVZqTlctR05oa1ZPZzR4akF2cmhTdjJVbzBadmc2dDk?oc=5",
+     "title": "Meta Ads: Why creative diversity matters more than volume",
+     "summary": "Meta Ads: Why creative diversity matters more than volume &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T13:00:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Meta Ads: Diverzita kreativ je důležitější než jejich množství",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Search Engine Land publikoval článek o tom, že v Meta reklamách (Facebook, Instagram) je klíčová diverzita kreativních formátů, nikoliv jen jejich celkový počet. Jde o přístup k testování a optimalizaci reklamních materiálů.",
+   "why": "Pro marketingové manažery řídící Meta kampaně to znamená změnu strategie – místo produkce velkého množství podobných variant je efektivnější vytvářet rozmanitější typy kreativ (různé formáty, styly, sdělení), což může vést k lepším výsledkům kampaní.",
+   "takeaway": "Při plánování Meta kampaní se zaměřte na rozmanitost kreativních přístupů (video, statické obrázky, carousely, různá sdělení) místo produkce mnoha podobných variant. Přehodnoťte aktuální kreativní strategii a brief pro dodavatele obsahu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e4e6914f58",
+   "created": "2026-08-26T10:42:03+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkp5UFJPUEhtQXREUzhqTXdqbXl3c192ZnRPaEJiOFFVUWxjRmI1QUlBZmN6R3MyTURiQ0xSSjEtVks2YnZIQWlnMTJaNDBQUEJTVjVmcGFpLXJIWWN0aGJjT1d3NTB1d1ZoQmRvZkFmS3UtdGgwQ2RtcllBbXdIcnluMDlaN2pZZ1N2S2FR?oc=5",
+     "title": "Heureka Group uspěla v soudním sporu se společností Google",
+     "summary": "Heureka Group uspěla v soudním sporu se společností Google &nbsp;&nbsp; heureka.group",
+     "source": "Heureka blog",
+     "domain": "heureka.group",
+     "published": "2026-08-26T10:42:03+00:00",
+     "score": 70
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Heureka Group vyhrála soudní spor s Googlem",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Heureka Group oznámila, že uspěla v soudním sporu se společností Google. Podrobnosti o předmětu sporu ani o rozsudku nejsou z dodaného zdroje známy.",
+   "why": "Informace je relevantní pro český e-commerce, protože Heureka je klíčový srovnávač a partner prodejců. Bez znalosti podrobností sporu však nelze posoudit přímý dopad na praxi.",
+   "takeaway": "Sledujte další informace o výsledku sporu – pokud půjde o podmínky práce s Google Shopping nebo reklamou, může to ovlivnit vaši strategii pro srovnávače a PPC.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "b89d5e5061",
+   "created": "2026-08-25T00:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://business.google.com/us/think/search-and-video/rise-brand-experience-ai-video-generation",
+     "title": "How Rise built an adaptive music video that honors artistic vision",
+     "summary": "Google’s Official Digital Marketing Publication. See how Rise used AI video generation to create personalized brand experiences while preserving creative vision.",
+     "source": "Think with Google",
+     "domain": "business.google.com",
+     "published": "2026-08-25T00:00:00+00:00",
+     "score": 45
+    }
+   ],
+   "category": "obsah",
+   "importance": 45,
+   "title": "Rise ukázal personalizované AI video – inspirace pro kreativní značky",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Kreativní agentura Rise vytvořila adaptivní hudební video využívající AI generování videa. Projekt demonstruje, jak lze pomocí AI vytvářet personalizované značkové zážitky, přičemž byla zachována původní kreativní vize.",
+   "why": "Ukazuje praktickou aplikaci AI video generování v marketingu – technologie, která začíná být dostupnější a může v budoucnu změnit tvorbu video obsahu pro kampaně.",
+   "takeaway": "Sleduj vývoj AI nástrojů pro tvorbu videa – technologie je zatím v experimentální fázi, ale může časem nabídnout efektivnější způsoby personalizace video obsahu pro různé segmenty zákazníků.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "980c721c38",
+   "created": "2026-08-25T00:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://business.google.com/us/think/search-and-video/brands-and-youtube-creators-partnerships",
+     "title": "Hollywood is looking to YouTube creators. Here’s why brands should too",
+     "summary": "Google’s Official Digital Marketing Publication. Discover why brands should look to YouTube creators as they reshape entertainment, culture, and content.",
+     "source": "Think with Google",
+     "domain": "business.google.com",
+     "published": "2026-08-25T00:00:00+00:00",
+     "score": 55
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "Google doporučuje brandům spolupráci s YouTube tvůrci",
+   "updated": "2026-08-26T16:03:44.293455+00:00",
+   "what": "Google ve své publikaci Think with Google vyzývá značky, aby se inspirovaly Hollywoodem a více spolupracovaly s YouTube tvůrci. Tvůrci na YouTube podle Googlu přetvářejí zábavu, kulturu a obsah.",
+   "why": "YouTube creators mají autentický vztah s publikem a jejich obsah často lépe rezonuje než klasická brandová komunikace. Pro marketingové manažery jde o alternativní kanál k placené reklamě.",
+   "takeaway": "Zvažte influencer marketing na YouTube jako doplněk k vlastním kampaním. Ověřte si metriky engagement a dosah konkrétních českých tvůrců ve vaší kategorii před investicí do spolupráce.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "47472ffd48",
+   "created": "2026-08-26T11:55:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
+     "title": "Google Search Ranking Volatility Continues Post Spam Update",
+     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:55:00+00:00",
+     "score": 61
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
+     "title": "Has Google demoted listicles?",
+     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T12:00:00+00:00",
+     "score": 55
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google Search: volatilita výsledků pokračuje i po skončení spam updatu",
+   "updated": "2026-08-26T13:33:09.825530+00:00",
+   "what": "Google dokončil srpnový spam update 21. srpna 2026, ale pořadí výsledků vyhledávání se nestabilizovalo. SEO komunita i monitorovací nástroje zaznamenávají pokračující výkyvy v pozicích webu.",
+   "why": "Pokud váš web zažívá výkyvy v organickém výkonu, může to být způsobeno právě touto volatilitou – nejde nutně o problém na vaší straně. Pro správné vyhodnocení dopadů spam updatu je potřeba počkat, až se situace uklidní.",
+   "takeaway": "Nedělejte unáhlená rozhodnutí na základě krátkodobých změn v pozicích. Počkejte na stabilizaci výsledků vyhledávání, teprve pak vyhodnoťte skutečné dopady updatu na váš web. Sledujte vývoj v následujících dnech.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/47472ffd48.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "e78bd72be8",
+   "created": "2026-08-22T07:22:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
+     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
+     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T07:22:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppchero.com/black-friday-2026",
+     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
+     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-24T14:04:28+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google Ads: offline konverze starší 7 dní neovlivní atribuční model",
+   "updated": "2026-08-26T13:32:51.798893+00:00",
+   "what": "Google upřesnil v nápovědě k atribučním reportům, že jeho atribuční engine zpracovává pouze offline konverze nahrané do 7 dnů od jejich vzniku. Konverze nahrané později se sice zobrazí ve standardních reportech, ale nebudou započítány do data-driven attribution modelu.",
+   "why": "Pro inzerenty pracující s lead generací a offline konverzemi (např. obchody s delším prodejním cyklem) to znamená vysvětlení dlouhodobých nesrovnalostí v datech. Pokud firma nahrává konverze se zpožděním delším než týden, její atribuční model je od počátku nepřesný – což může vést k chybným rozhodnutím o rozpočtech a strategiích kampaní.",
+   "takeaway": "Zkontrolujte, jak rychle nahráváte offline konverze do Google Ads. Pokud trvá déle než 7 dní, upravte proces – jinak přicházíte o správnou atribuci a optimalizace kampaní fungují s neúplnými daty. U lead generace a delších prodejních cyklů je nutné nastavit rychlejší reporting.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e78bd72be8.jpg",
    "image_from": "ppcnewsfeed.com"
   },
   {
@@ -3156,56 +3488,6 @@
    "image_from": "semrush.com"
   },
   {
-   "id": "8cced7c67e",
-   "created": "2026-08-26T12:00:17+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810",
-     "title": "How To Advertise In Google AI Mode For Ecommerce via @sejournal, @tonyadam",
-     "summary": "Google generates AI Mode ads directly from your product feed, not your ad copy. Here's which Merchant Center attributes decide whether your products get chosen. The post How To Advertise In Google AI Mode For Ecommerce appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-26T12:00:17+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google AI Mode generuje reklamy z produktového feedu, ne z ad copy",
-   "updated": "2026-08-26T13:30:55.322483+00:00",
-   "what": "Google v AI Mode vytváří reklamy pro e-shopy přímo z dat v Merchant Center feedu, nikoli z připravených textů kampaní. O zařazení produktů rozhodují konkrétní atributy ve feedu.",
-   "why": "Mění přístup k tvorbě PPC kampaní pro e-commerce – klíčové přestává být psaní ad copy a důležitější se stává kvalita a kompletnost dat v produktovém feedu.",
-   "takeaway": "Zkontrolujte a optimalizujte atributy produktů v Google Merchant Center – právě ony určují, zda a jak se vaše produkty zobrazí v AI Mode reklamách. Investujte čas do kvality feedu místo do ruční tvorby reklamních textů.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/8cced7c67e.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "6baf8127da",
-   "created": "2026-08-26T11:31:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-customer-lifecycle-optimization-conversion-goals-41941.html",
-     "title": "Google Ads Customer Lifecycle Optimization Within Conversion Goals",
-     "summary": "Google Ads has placed Customer Lifecycle Optimization directly within the conversion goals section of the Google Ads platform.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:31:00+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads přesunul Customer Lifecycle Optimization do nastavení konverzí",
-   "updated": "2026-08-26T13:30:55.322483+00:00",
-   "what": "Google Ads umístil funkci Customer Lifecycle Optimization (optimalizace zákaznického cyklu) přímo do sekce cílů konverzí v rozhraní platformy. Jde o změnu v uspořádání funkce, která byla dříve dostupná jinde.",
-   "why": "Integrace CLO přímo do nastavení konverzí znamená snadnější přístup k optimalizaci kampaní podle fáze zákaznického cyklu (akvizice vs. retention). Pro inzerenty, kteří pracují s remarketingem nebo Customer Match, je to rychlejší cesta k nastavení rozdílných strategií nabídkování.",
-   "takeaway": "Pokud využíváte Customer Lifecycle Optimization, zkontrolujte nové umístění funkce v sekci conversion goals. Změna usnadňuje nastavení – ověřte, zda máte správně nastavené cíle pro akvizici i udržení zákazníků a zda kampaně optimalizují na správnou fázi cyklu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "f548588a5f",
    "created": "2026-08-26T11:21:00+00:00",
    "articles": [
@@ -3223,30 +3505,6 @@
    "importance": 48,
    "title": "Bing Tests Shorts Video Tab In Search Menu",
    "updated": "2026-08-26T13:30:55.322483+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "683b3c9600",
-   "created": "2026-08-26T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-product-titles-report-41948.html",
-     "title": "Google Ads AI-Created Product Titles Report Beta",
-     "summary": "Google is beta testing a new Product title report within Google Ads. This is a special product title report for Al-created product titles. The report should show in your ads when they're more relevant than your original titles, Google wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:11:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads testuje AI generování titulků produktů – beta report pro inzerenty",
-   "updated": "2026-08-26T13:30:55.322483+00:00",
-   "what": "Google spustil beta testování nového reportu v Google Ads, který zobrazuje AI vytvořené titulky produktů. Tyto AI titulky se podle Googlu zobrazují v reklamách místo původních, pokud jsou relevantnější.",
-   "why": "Jde o další krok Googlu k automatickému přepisování obsahu reklam. Pro PPC specialisty a e-shopy to znamená, že Google může začít měnit názvy produktů v reklamách bez jejich vědomí – report má sloužit k monitorování těchto změn.",
-   "takeaway": "Pokud máte přístup k beta reportu Product titles v Google Ads, sledujte, jak Google přepisuje vaše produktové titulky a zda to zlepšuje nebo zhoršuje výkon. V opačném případě zatím čekejte – funkce je v testování a není jasné, kdy a zda dorazí do ČR.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -3477,39 +3735,6 @@
    "why": "Jde o rozšíření reklamních možností TikToku mimo aplikaci – umožňuje inzerentům oslovit publikum tam, kde se pohybuje fyzicky. Pro české firmy s rozpočtem na DOOH (digital out-of-home) nebo kinoreklamu to může znamenat nový formát a kanál, pokud spolupráce zahrnuje také ČR nebo lokální partnery.",
    "takeaway": "Sledujte dostupnost Out of Phone programu v ČR – pokud máte rozpočet na venkovní reklamu nebo spolupracujete s DOOH sítěmi, může to být cesta, jak propojit TikTok obsah s offline publikem. Zatím není potvrzeno, zda jsou čeští partneři součástí expanze.",
    "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "d465ede499",
-   "created": "2026-08-19T11:00:22+00:00",
-   "articles": [
-    {
-     "url": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
-     "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
-     "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts. The post Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-19T11:00:22+00:00",
-     "score": 49
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
-     "title": "Deciding #WhatToWatch just got easier with TikTok",
-     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-26T04:07:29+00:00",
-     "score": 49
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 35,
-   "title": "Meta spouští akcelerátor pro startupy, TikTok usnadňuje výběr obsahu",
-   "updated": "2026-08-26T11:03:36.828518+00:00",
-   "what": "Meta spustila Meta Startup School – tříměsíční program pro 200 startupů zaměřených na spotřebitelské značky. Program nabídne přístup k podpoře venture kapitálových firem a odborníkům. TikTok oznámil novou funkci usnadňující uživatelům rozhodování, co sledovat (konkrétní detaily ve zdroji chybí).",
-   "why": "Meta Startup School může být příležitostí pro české startupy v e-commerce a D2C segmentu získat know-how a případně i financování. Jde ale o globální program bez potvrzené dostupnosti pro ČR. TikTok novinka naznačuje další posílení platformy jako discovery kanálu, což může ovlivnit strategii brandů na TikToku.",
-   "takeaway": "Pokud vedete nebo spolupracujete s early-stage D2C značkou s globálními ambicemi, sledujte podmínky přihlášení do Meta Startup School. U TikToku zatím čekejte na detaily nové funkce – může ovlivnit, jak uživatelé objevují obsah značek.",
-   "importance_label": "kontext",
    "multi_source": true
   },
   {
@@ -4884,30 +5109,6 @@
    "why": "Jde o evergreen edukatkvní obsah bez konkrétní novinky. Pro marketingového manažera v ČR nepřináší změnu v praxi ani novou funkci – je to návod k obecným principům práce se sociálními sítěmi.",
    "takeaway": "Článek může posloužit jako referenční materiál pro zaškolení týmu nebo kontrolu strategie zapojení na sociálních sítích, ale neobsahuje nic, co by vyžadovalo okamžitou akci nebo změnu.",
    "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "b4e08fed3a",
-   "created": "2026-08-19T23:19:31+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-explores-expanding-in-stream-payment-options/828350",
-     "title": "TikTok explores expanding in-stream payment options",
-     "summary": "The app&rsquo;s China-based version highlights Douyin Pay as a key transaction option, and Bloomberg reports that a similar feature may be coming to the U.S.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-19T23:19:31+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "TikTok testuje vlastní platební systém inspirovaný čínským Douyin Pay",
-   "updated": "2026-08-20T05:00:40.906515+00:00",
-   "what": "TikTok zvažuje rozšíření platebních možností přímo v aplikaci, podobně jako jeho čínská verze Douyin, která nabízí Douyin Pay jako klíčový transakční nástroj. Podle Bloomberg může podobná funkce zamířit do USA.",
-   "why": "Pokud TikTok spustí vlastní platební systém, může to změnit dynamiku e-commerce na platformě – uživatelé by mohli nakupovat bez opuštění aplikace, což by zvýšilo konverze z TikTok Shopping kampaní. Pro marketéry by to znamenalo nový prodejní kanál s potenciálně nižšími bariérami nákupu.",
-   "takeaway": "Zatím jde o spekulaci ohledně USA, do ČR by novinka dorazila s časovým zpožděním (pokud vůbec). Pokud vaše firma prodává přes TikTok Shop nebo zvažuje TikTok Shopping reklamy, sledujte vývoj – nativní platby mohou v budoucnu zjednodušit nákupní cestu zákazníků.",
-   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
