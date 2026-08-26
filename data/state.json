@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-26T05:04:39.754298+00:00",
+ "last_run": "2026-08-26T07:16:22.015576+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f71cc80a060>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f412ffd1ac0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='ppcnewsfeed.com', port=443): Read timed out. (read timeout=15))",
-   "new": 8
+   "status": "ok",
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 6
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -1969,52 +1969,153 @@
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5": "2026-08-26T05:04:39.754298+00:00",
   "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5": "2026-08-26T05:04:39.754298+00:00",
   "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQclExdFcyWjY2VWZuMGNGdGN2S014VEIxSnEtc3k2UmJQRFZjX1BBUi02NVFiY2NYLS1yckVsWmZOdTdZdXZoc3luU0hFWEM3RzVkM0x0Y1Bjd2RFeDVZZ0lYSllqSHlmWFVwRHEzZ3ZpaHJIQlBtX0lsdksyZWxfVlJDZk1DN3ZYS240?oc=5": "2026-08-26T05:04:39.754298+00:00"
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQclExdFcyWjY2VWZuMGNGdGN2S014VEIxSnEtc3k2UmJQRFZjX1BBUi02NVFiY2NYLS1yckVsWmZOdTdZdXZoc3luU0hFWEM3RzVkM0x0Y1Bjd2RFeDVZZ0lYSllqSHlmWFVwRHEzZ3ZpaHJIQlBtX0lsdksyZWxfVlJDZk1DN3ZYS240?oc=5": "2026-08-26T05:04:39.754298+00:00",
+  "https://www.mediar.cz/krausova-a-vaclavek-zakladaji-shiftrs-trh-nepotrebuje-dalsi-agenturu-mini": "2026-08-26T07:16:22.015576+00:00",
+  "https://blog.seznam.cz/2026/08/z-maleho-e-shopu-k-obratu-temer-50-milionu-kc": "2026-08-26T07:16:22.015576+00:00",
+  "https://www.mediar.cz/cesi-zavrsi-boj-o-konferencni-ligu-na-tv-tipsport-prima-sport-da-opet-polaky": "2026-08-26T07:16:22.015576+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-draft-option-video-uploads": "2026-08-26T07:16:22.015576+00:00",
+  "https://www.mediaguru.cz/kaufland-meni-vernostni-program-na-card-xtra-desetkrat-zrychli-sber-bodu": "2026-08-26T07:16:22.015576+00:00",
+  "https://cc.cz/turbiny-vrty-i-baterie-jrd-postavi-za-ctvrt-miliardy-drevostavbu-ktera-si-cast-provozu-pokryje-sama": "2026-08-26T07:16:22.015576+00:00",
+  "https://www.mediar.cz/nielsen-admosphere-jsme-koupili-peoplemetry-ale-ridit-nebudeme-popisuje-sef-ato": "2026-08-26T07:16:22.015576+00:00",
+  "https://www.mediaguru.cz/nechteli-jsme-aby-televizni-mereni-ovladly-zajmove-skupiny": "2026-08-26T07:16:22.015576+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/local-customer-optimization-pmax-store-goals": "2026-08-26T07:16:22.015576+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5": "2026-08-26T07:16:22.015576+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rewrites-government-services-policy": "2026-08-26T07:16:22.015576+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zdnktOHptaGxlY1RFWklyY3RVZXZrYTh1eThDVW5YWGtGeVBKamh3RXlBZEJfQnRTZnNrdFhzNTAzZjRod3VGMTdkTVZmUXlQY0syc2VSNm4?oc=5": "2026-08-26T07:16:22.015576+00:00"
  },
  "events": [
   {
-   "id": "4df9188baf",
-   "created": "2026-08-25T07:33:07+00:00",
+   "id": "7ba4a9be80",
+   "created": "2026-08-14T09:38:29.556736+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5",
-     "title": "Google Introduces Multi-Source Conversions",
-     "summary": "Google Introduces Multi-Source Conversions &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-25T07:33:07+00:00",
-     "score": 70
+     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
+     "title": "Meta outlines updated scam alert system coming to WhatsApp",
+     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-12T21:53:40+00:00",
+     "score": 57
     },
     {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHJNVjVhQXdOMXhWMjVoMnNCZ1JHSDBHdF9uR25oLUNPTjRTVW5VaWpEa2ExcFFOdHI1QXFXWmNDdHVDTGFDNEJtXzN5YVNyT3pjd1Z5TDVJTFIwLVVGVFNQV2Z3Qnk4aG4zbUtENUhLRzdtaEJLWm5JN3Jac1M5cnFUbFM0SlMxTEtLWG9oeHZ1OVBOejl0bFhSR3dGZw?oc=5",
-     "title": "Customer Lifecycle Optimization Feature Live in Google Ads",
-     "summary": "Customer Lifecycle Optimization Feature Live in Google Ads &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-25T15:31:26+00:00",
-     "score": 72
+     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
+     "title": "We’re Upgrading Your WhatsApp Group Chats",
+     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-04T14:00:24+00:00",
+     "score": 54
     },
     {
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWE5ajBNellaNG4xZmtLTTFDaFdhUzg2UWNUTU9TRVh0Mkc4R3R4U3plVzE2Xy1KYjJtbTk3Mk45LWs4WDdNV2MtaU56dWxGeDlDU0l2MGdlcDhWbG5LRUhLOWcwTm1vYUZ3eHFnX3lWYl9JVkREY19BcjZwdGpJbDI1Nng?oc=5",
-     "title": "Demand Gen Now Allows Multiple Conversion Goals",
-     "summary": "Demand Gen Now Allows Multiple Conversion Goals &nbsp;&nbsp; PPC News Feed",
+     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
+     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
+     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-08-20T14:31:40+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
+     "title": "YouTube simplifies its AI claims process",
+     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T23:18:27+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T11:30:41+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
+     "title": "Meta tests auto-DM response for Instagram ad comments",
+     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:54:10+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
+   "updated": "2026-08-26T07:17:35.843023+00:00",
+   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
+   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
+   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7b985549f3.jpg",
+   "image_from": "digichef.cz"
+  },
+  {
+   "id": "189cc95b23",
+   "created": "2026-08-25T16:41:34+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5",
+     "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
+     "summary": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive &nbsp;&nbsp; PPC News Feed",
      "source": "PPC Newsfeed",
      "domain": "ppcnewsfeed.com",
-     "published": "2026-08-25T15:31:26+00:00",
-     "score": 70
+     "published": "2026-08-25T16:41:34+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGxyMXJoWXV4SWc4NlBZdEd4a1U3T0Jpc1pSTFEzQnZ3OHl2XzdYQ2tnTUh4em41dEhFdFpZbW1MWWlYbzJlcmhYMkdBSUZteFQxY3BoS1VndUNDWlU1bTUwbWZadXA4ek5CeDg0bDh5eTFtbXkteTBfenhyMjNrR1pMUmhGeE12dmZ5LTNwTHBwS2F0Y3NlYmpCYV9OMERwX2pNLVdFdXk3Y1FHbGQw?oc=5",
+     "title": "Google Local Services Ads will charge for some missed calls starting Oct. 1",
+     "summary": "Google Local Services Ads will charge for some missed calls starting Oct. 1 &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T17:24:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT09sRk5PdzFFaGVVTXd0cFhtR1N5OHpERFVDX2NRa19MaVY1SkZ3aVk3UWZBYzZwXzk1eXVKU0Y2Wjk3TUZ1dHpnS2lSbHR3SU9ZREhNRnBPNHViX1lYY1Y4SVBUM2Q4c0c1MTNXaTBnWDNIRTVuTlIzaFJuT2Y0RzlkS0diamczNVBnSGRhdW5DQQ?oc=5",
+     "title": "Google expands direct booking for Local Services Ads",
+     "summary": "Google expands direct booking for Local Services Ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T17:55:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5",
+     "title": "Google Local Service Ads Expands Pre-Badge and Verticals",
+     "summary": "Google Local Service Ads Expands Pre-Badge and Verticals &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-24T23:34:05+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMWFyVWt5UV83Q09FaXFqQ1RUVVpJOXpUZDllQk9jb0U4aFFiMXJjVUgxTlJGNnB0OGFSdGtSbzFOME5HTVBtRVd0MG9mUmRLQTNvUm43WVUxWkpIX1FQMjZLZFJxRGJpUjRoeDJmUWdkUjRLR0x0MG1mWWVwQjlDVXBKcXY2VTBfenYyVjZsN3FJU0hk?oc=5",
+     "title": "Google brings Gemini Omni video creation to Google Ads",
+     "summary": "Google brings Gemini Omni video creation to Google Ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T18:23:00+00:00",
+     "score": 73
     }
    ],
    "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads přidává multi-source konverze a optimalizaci životního cyklu zákazníka",
-   "updated": "2026-08-26T05:06:46.078463+00:00",
-   "what": "Google spustil v Google Ads tři nové funkce: Multi-Source Conversions (konverze z více zdrojů), Customer Lifecycle Optimization (optimalizace životního cyklu zákazníka) a možnost nastavit více konverzních cílů v Demand Gen kampaních.",
-   "why": "Jde o rozšíření možností měření a optimalizace kampaní. Multi-source konverze umožňují lépe sledovat customer journey napříč kanály, Customer Lifecycle Optimization se zaměřuje na práci se zákazníky v různých fázích jejich životního cyklu a Demand Gen kampání získávají flexibilnější nastavení cílů.",
-   "takeaway": "Zkontrolujte v Google Ads, zda máte dostupné tyto nové funkce. Pokud ano, zvažte nasazení multi-source konverzí pro přesnější měření výkonu kampaní a Customer Lifecycle Optimization pro segmentaci zákazníků podle jejich fáze v nákupním cyklu. U Demand Gen kampaní můžete nyní nastavit více konverzních cílů najednou.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/4df9188baf.jpg",
-   "image_from": "ppcnewsfeed.com"
+   "importance": 45,
+   "title": "Google Local Services Ads účtují i zmeškaná volání a rozšiřují přímé rezervace",
+   "updated": "2026-08-26T07:17:23.007478+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/189cc95b23.jpg",
+   "image_from": "ppcnewsfeed.com",
+   "what": "Google od 1. října 2024 začne u Local Services Ads (LSA) účtovat poplatky i za některá zmeškaná volání od zákazníků. Zároveň rozšiřuje možnost přímé online rezervace (direct booking) a přidává nové kategorie poskytovatelů služeb, včetně fáze před získáním certifikace (pre-badge).",
+   "why": "Změna modelu zpoplatnění může zvýšit náklady firmám, které nestihnou odebrat hovor – doposud se platilo jen za spojení. Nová funkce přímých rezervací může naopak usnadnit konverzi a snížit administrativu, zatímco rozšíření vertikál otevírá LSA dalším odvětvím. LSA jsou zatím dostupné jen v USA, ale princip zpoplatnění a vývoj funkcí mohou signalizovat budoucí směr i pro jiné trhy.",
+   "takeaway": "Pokud plánujete využít Local Services Ads (zatím USA), připravte se na to, že zmeškaný hovor může stát peníze – zajistěte dostupnost call centra nebo automatické odpovědi. Sledujte, zda se model rozšíří do EU – princip placení za zmeškaná volání by mohl ovlivnit i jiné reklamní formáty."
   },
   {
    "id": "f2094c4077",
@@ -2118,77 +2219,7 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-14T13:54:00+00:00",
      "score": 90
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads ruší manuální jazykové cílení u vyhledávání a Performance Max",
-   "updated": "2026-08-26T05:06:35.656469+00:00",
-   "what": "Google Ads od září 2026 odstraní možnost ručního nastavení jazykového cílení na úrovni kampaní u Search a Performance Max. Namísto toho bude systém automaticky určovat jazyk reklamy podle jazyka kreativy, landing page a signálů od uživatele. Pokud uživatel rozumí více jazykům, může se mu zobrazit reklama v libovolném z nich.",
-   "why": "Změna výrazně ovlivní správu kampaní, zejména u inzerentů s vícejazyčnými kampaněmi nebo specifickými jazykovými požadavky. Tradiční kontrola nad jazykovým cílením zmizí a nahradí ji automatizace, což může vést k nutnosti přestrukturovat existující kampaně a upravit kreativy či landing pages podle jazyků.",
-   "takeaway": "Zkontrolujte, zda máte kampaně strukturované podle jazyků, a připravte se na případnou reorganizaci. Ujistěte se, že landing pages a kreativy jsou v odpovídajících jazycích – Google je bude brát jako hlavní signál. Sledujte výkon kampaní po zavedení změny v září 2026, zejména pokud cílíte na specifické jazykové skupiny.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f2094c4077.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "e6899a36b1",
-   "created": "2026-08-25T17:24:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGxyMXJoWXV4SWc4NlBZdEd4a1U3T0Jpc1pSTFEzQnZ3OHl2XzdYQ2tnTUh4em41dEhFdFpZbW1MWWlYbzJlcmhYMkdBSUZteFQxY3BoS1VndUNDWlU1bTUwbWZadXA4ek5CeDg0bDh5eTFtbXkteTBfenhyMjNrR1pMUmhGeE12dmZ5LTNwTHBwS2F0Y3NlYmpCYV9OMERwX2pNLVdFdXk3Y1FHbGQw?oc=5",
-     "title": "Google Local Services Ads will charge for some missed calls starting Oct. 1",
-     "summary": "Google Local Services Ads will charge for some missed calls starting Oct. 1 &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T17:24:00+00:00",
-     "score": 78
     },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT09sRk5PdzFFaGVVTXd0cFhtR1N5OHpERFVDX2NRa19MaVY1SkZ3aVk3UWZBYzZwXzk1eXVKU0Y2Wjk3TUZ1dHpnS2lSbHR3SU9ZREhNRnBPNHViX1lYY1Y4SVBUM2Q4c0c1MTNXaTBnWDNIRTVuTlIzaFJuT2Y0RzlkS0diamczNVBnSGRhdW5DQQ?oc=5",
-     "title": "Google expands direct booking for Local Services Ads",
-     "summary": "Google expands direct booking for Local Services Ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T17:55:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5",
-     "title": "Google Local Service Ads Expands Pre-Badge and Verticals",
-     "summary": "Google Local Service Ads Expands Pre-Badge and Verticals &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-24T23:34:05+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMWFyVWt5UV83Q09FaXFqQ1RUVVpJOXpUZDllQk9jb0U4aFFiMXJjVUgxTlJGNnB0OGFSdGtSbzFOME5HTVBtRVd0MG9mUmRLQTNvUm43WVUxWkpIX1FQMjZLZFJxRGJpUjRoeDJmUWdkUjRLR0x0MG1mWWVwQjlDVXBKcXY2VTBfenYyVjZsN3FJU0hk?oc=5",
-     "title": "Google brings Gemini Omni video creation to Google Ads",
-     "summary": "Google brings Gemini Omni video creation to Google Ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T18:23:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Google Local Services Ads zpoplatní některé zmeškaná volání od října",
-   "updated": "2026-08-26T05:06:23.441784+00:00",
-   "what": "Google od 1. října 2024 začne u Local Services Ads (LSA) účtovat poplatky za některá zmeškaná volání. Zároveň rozšiřuje možnost přímé rezervace v LSA a přidává nové kategorie služeb včetně fáze před získáním odznaku (pre-badge).",
-   "why": "Local Services Ads jsou v českém prostředí málo rozšířené (tento formát zatím není dostupný v ČR), ale změna zpoplatnění zmeškaných hovorů může být signálem budoucí strategie Google i pro další trhy. Pro české firmy působící v USA nebo plánující expandovat na západní trhy je to relevantní nákladová změna.",
-   "takeaway": "Pokud provozujete LSA kampaně v USA nebo jiných podporovaných trzích, zkontrolujte od října systém zpracování příchozích hovorů – zmeškané hovory již nemusí být zdarma. V ČR LSA zatím není dostupné, sledujte ale vývoj formátu pro případ budoucího rozšíření.",
-   "importance_label": "kontext",
-   "multi_source": true,
-   "image": "img/7f11749e9d.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "950dafebd2",
-   "created": "2026-08-14T09:18:56.681311+00:00",
-   "articles": [
     {
      "url": "https://www.seroundtable.com/google-search-profiles-lowers-subscriber-requirements-41866.html",
      "title": "Google Lowers Subscriber Requirements For Search Profiles",
@@ -2245,14 +2276,176 @@
     }
    ],
    "category": "ppc",
+   "importance": 82,
+   "title": "Google ruší manuální jazykové cílení v Search kampaních od září 2026",
+   "updated": "2026-08-26T07:17:14.511594+00:00",
+   "what": "Google Ads od září 2026 odstraňuje možnost ručně nastavit jazyk kampaně v Search a Performance Max. Místo toho bude jazyk určovat automaticky podle jazyka reklamy, landing page a signálů uživatele. Pokud uživatel rozumí více jazykům, může vidět reklamy v kterémkoli z nich.",
+   "why": "Změna výrazně ovlivní správu vícejazyčných kampaní a tvorbu kampaňové struktury – dosavadní praxe oddělovat kampaně podle jazyka přestane fungovat. Inzerenti ztrácejí kontrolu nad tím, v jakém jazyce se zobrazí reklama u vícejazyčných uživatelů.",
+   "takeaway": "Do září 2026 zkontrolujte strukturu vícejazyčných kampaní a zajistěte konzistenci jazyka kreativy a landing page. Připravte se na to, že Google bude jazyk vybírat automaticky – cílení na jeden jazyk již nebude možné nastavit ručně.",
+   "importance_label": "zásadní",
+   "multi_source": true,
+   "image": "img/f2094c4077.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "4df9188baf",
+   "created": "2026-08-25T07:33:07+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5",
+     "title": "Google Introduces Multi-Source Conversions",
+     "summary": "Google Introduces Multi-Source Conversions &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T07:33:07+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHJNVjVhQXdOMXhWMjVoMnNCZ1JHSDBHdF9uR25oLUNPTjRTVW5VaWpEa2ExcFFOdHI1QXFXWmNDdHVDTGFDNEJtXzN5YVNyT3pjd1Z5TDVJTFIwLVVGVFNQV2Z3Qnk4aG4zbUtENUhLRzdtaEJLWm5JN3Jac1M5cnFUbFM0SlMxTEtLWG9oeHZ1OVBOejl0bFhSR3dGZw?oc=5",
+     "title": "Customer Lifecycle Optimization Feature Live in Google Ads",
+     "summary": "Customer Lifecycle Optimization Feature Live in Google Ads &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T15:31:26+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWE5ajBNellaNG4xZmtLTTFDaFdhUzg2UWNUTU9TRVh0Mkc4R3R4U3plVzE2Xy1KYjJtbTk3Mk45LWs4WDdNV2MtaU56dWxGeDlDU0l2MGdlcDhWbG5LRUhLOWcwTm1vYUZ3eHFnX3lWYl9JVkREY19BcjZwdGpJbDI1Nng?oc=5",
+     "title": "Demand Gen Now Allows Multiple Conversion Goals",
+     "summary": "Demand Gen Now Allows Multiple Conversion Goals &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T15:31:26+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORG5NbldtYmlJejZONjFpeVcwNDNQQ2RjWGhrZ3Z3UHF2YklyZkM3NTR5dm1IYXRaMUV4aXhza3FpTXN0N041WVgtenhueWJlLU9DbWloakQ0QWtJVVI3Q2Z3cnFlaXE0emhwWE5US055cnYxN0szbUI5U3U0eE5YMVltVFZiLWpCNFZ6TVNmWFNEdkxucTJkZFFEaUFyOUJCZUE?oc=5",
+     "title": "Google tests channel prioritization controls for Performance Max",
+     "summary": "Google tests channel prioritization controls for Performance Max &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-25T18:47:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5",
+     "title": "Google Tests \"Only Bid for New Prospects\" in Performance Max",
+     "summary": "Google Tests \"Only Bid for New Prospects\" in Performance Max &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-25T07:33:07+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google testuje nové cílení v Performance Max – jen na nové zákazníky",
+   "updated": "2026-08-26T07:17:05.624054+00:00",
+   "what": "Google testuje v Performance Max kampaních funkci \"Only Bid for New Prospects\", která umožňuje cílit jen na nové potenciální zákazníky. Současně přidává možnost nastavit prioritizaci kanálů v Performance Max a rozšiřuje podporu pro více konverzních cílů v Demand Gen kampaních.",
+   "why": "Performance Max dosud nabízel velmi omezené možnosti kontroly nad tím, komu se reklamy zobrazují a v jakých kanálech. Možnost cílit pouze na nové zákazníky a kontrolovat prioritu kanálů dává inzerentům větší kontrolu nad strategií a rozpočtem, což může výrazně ovlivnit efektivitu kampaní zaměřených na akvizici.",
+   "takeaway": "Sledujte, zda se tyto funkce objeví ve vašem Google Ads účtu (jde o testy). Pokud ano, vyhodnoťte, zda vám strategie \"jen noví zákazníci\" dává smysl pro akvizici – může ušetřit rozpočet tím, že nevyužijete budget na remarketingové zobrazení. U Demand Gen můžete začít pracovat s více konverzními cíli najednou.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/4df9188baf.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "a3ba7a50ee",
+   "created": "2026-08-26T05:48:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-draft-option-video-uploads",
+     "title": "Google Adds Draft Option for Video Uploads",
+     "summary": "Google Ads has added an Upload as drafts option for video assets in Asset Studio . This allows advertisers to save videos as drafts without immediately selecting any YouTube channel. Previously, videos had to be uploaded to a YouTube channel before being added to a campaign. This new feature offers more flexibility for advertisers needing to make changes to their videos or those without a designated YouTube channel yet.&nbsp; However, videos will still require uploading to YouTube before they can be used in a campaign. This update was discovered by Hana Kobzová . The post Google Adds Draft Opt",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T05:48:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
    "importance": 45,
-   "title": "Google Merchant Center pro agentury zvýšil limit na 1 000 propojených účtů",
-   "updated": "2026-08-26T05:06:14.837341+00:00",
-   "what": "Google aktualizoval dokumentaci Merchant Center a oficiálně potvrdil, že agenturní účet (Merchant Center for Agencies) může nyní spravovat až 1 000 klientských účtů. Dosud tento limit nebyl veřejně zdokumentován.",
-   "why": "Pro agentury spravující velké portfolio e-shopů to přináší jasnou informaci o možnostech škálování a strukturování účtů. Dosud nebylo jisté, kolik klientů lze pod jeden agenturní účet připojit.",
-   "takeaway": "Pokud vaše agentura nebo firma spravuje e-shopy přes Merchant Center for Agencies, máte nyní oficiální potvrzení limitu 1 000 účtů – lze to využít při plánování onboardingu nových klientů a organizace účtové struktury.",
+   "title": "Google Ads umožňuje ukládat video reklamy jako koncepty",
+   "updated": "2026-08-26T07:16:22.015576+00:00",
+   "what": "Google Ads přidal do Asset Studia možnost ukládat videa jako koncepty (Upload as drafts). Inzerenti tak mohou ukládat videa, aniž by museli okamžitě vybírat YouTube kanál. Dříve bylo nutné nahrát video přímo na YouTube kanál ještě před přidáním do kampaně.",
+   "why": "Funkce přináší větší flexibilitu při správě video kampaní – usnadňuje práci těm, kdo potřebují upravit videa před finálním nasazením, nebo ještě nemají přiřazený konkrétní YouTube kanál. Před použitím v kampani ale bude stále nutné video nahrát na YouTube.",
+   "takeaway": "Pokud pracujete s video kampaněmi v Google Ads, můžete nyní připravovat video assety postupně a nahrát je na YouTube až v okamžiku spuštění kampaně. Využijte to pro lepší organizaci práce s kreativami.",
    "importance_label": "stojí za pozornost",
-   "multi_source": true
+   "multi_source": false
+  },
+  {
+   "id": "6ec247289f",
+   "created": "2026-08-26T04:45:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/local-customer-optimization-pmax-store-goals",
+     "title": "Local Customer Optimization for PMAX for Store Goals",
+     "summary": "Google has introduced Local customer optimization as a feature within Performance Max campaigns&nbsp;for store goals . This feature allows advertisers to prioritize reaching potential customers who are nearby and ready to take immediate actions, such as visiting or contacting the business. Local customer optimization helps businesses increase their local visibility by targeting users who are actively searching for services in a specific area. Key benefits include: Capture Ready-to-Act Customers: Reach users who plan routes or search for services near their business with immediate intent. Targe",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T04:45:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google spustil Local customer optimization pro PMAX kampaně s fyzickými prodejnami",
+   "updated": "2026-08-26T07:16:22.015576+00:00",
+   "what": "Google představil novou funkci Local customer optimization v rámci Performance Max kampaní zaměřených na cíle prodejen (store goals). Funkce umožňuje inzerentům cílit prioritně na potenciální zákazníky, kteří jsou v blízkosti a mají záměr okamžité akce – například plánují návštěvu prodejny nebo aktivně hledají služby v dané lokalitě.",
+   "why": "Pro firmy s fyzickými prodejnami v ČR jde o nový způsob, jak lépe zacílit na zákazníky s aktuálním záměrem nákupu nebo návštěvy. Může zvýšit efektivitu PMAX kampaní u lokálních businessů (maloobchod, služby, restaurace) tím, že osloví lidi, kteří právě plánují trasu nebo hledají službu poblíž.",
+   "takeaway": "Pokud provozujete PMAX kampaně pro firmu s fyzickými prodejnami, zkontrolujte dostupnost této funkce v Google Ads v ČR a otestujte ji – může zlepšit konverzní poměr a návštěvnost prodejen. Sledujte metriky návštěvnosti a store visits.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/6ec247289f.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "691ae115d3",
+   "created": "2026-08-26T04:07:29+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5",
+     "title": "Deciding #WhatToWatch just got easier with TikTok",
+     "summary": "Deciding #WhatToWatch just got easier with TikTok &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-26T04:07:29+00:00",
+     "score": 49
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "TikTok spustil funkci #WhatToWatch pro doporučení filmů a seriálů",
+   "updated": "2026-08-26T07:16:22.015576+00:00",
+   "what": "TikTok oznámil novou funkci #WhatToWatch, která má uživatelům usnadnit rozhodování, co sledovat. Jedná se o rozšíření platformy o doporučování video obsahu mimo TikTok samotný.",
+   "why": "Pro marketéry jde o potvrzení trendu, kdy sociální platformy expandují do role discovery nástrojů i pro tradiční média a služby. TikTok se tak stává relevantním kanálem nejen pro vlastní obsah, ale i pro propagaci filmů, seriálů a streamovacích služeb.",
+   "takeaway": "Sledujte, zda a kdy funkce dorazí do ČR. Pokud vaše firma působí v oblasti entertainmentu, streamingu nebo médií, připravte se na testování kampaní zaměřených na discovery a doporučení obsahu přes TikTok.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d8f9f32866",
+   "created": "2026-08-26T01:13:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rewrites-government-services-policy",
+     "title": "Microsoft Advertising Rewrites Government Services Policy",
+     "summary": "Microsoft Advertising has updated its Government Services Policy , effective August 19, 2026. Under the new guidelines, third-party providers of government services, such as passports and visas, must now document their authorization in the target market and go through preapproval via the Government Services Advertising Program . Key updates include: The policy now allows ads from government entities and authorized third-party companies that can verify their authorization. Previously, only&nbsp;government entities were allowed running ads. Aggregators, affiliates , and lead-gen advertisers are ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-26T01:13:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Ads nově povoluje reklamy třetích stran na státní služby",
+   "updated": "2026-08-26T07:16:22.015576+00:00",
+   "what": "Microsoft Advertising od 19. srpna 2026 mění pravidla pro reklamy na státní služby (pasy, víza apod.). Nově mohou inzerovat i třetí strany (soukromé firmy), pokud prokážou autorizaci na cílovém trhu a projdou předchozím schválením v rámci Government Services Advertising Program. Dříve směly takové reklamy zobrazovat pouze státní instituce samotné.",
+   "why": "Změna otevírá možnost inzerovat soukromým poskytovatelům služeb spojených s úřady, ale zavádí přísnou kontrolu – agregátory, affiliate partnery a lead-gen inzerenty pravidla pravděpodobně vylučují. Pro české inzerenty je relevantní zejména při propagaci služeb mimo ČR (např. visa do USA, asistence s dokumenty).",
+   "takeaway": "Pokud inzerujete služby typu vyřízení víz, pasů nebo jiných státních dokumentů na Microsoft Ads, zkontrolujte, zda splňujete nové podmínky autorizace a zajistěte si předschválení do srpna 2026. Pokud působíte jako agregátor nebo affiliate, počítejte s tím, že vaše kampaně mohou být od srpna zamítnuty.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "7949f1f96b",
@@ -2838,94 +3031,6 @@
    "image_from": "mam.cz"
   },
   {
-   "id": "7b985549f3",
-   "created": "2026-08-20T14:31:40+00:00",
-   "articles": [
-    {
-     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
-     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
-     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-08-20T14:31:40+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
-     "title": "YouTube simplifies its AI claims process",
-     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-20T23:18:27+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T11:30:41+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
-     "title": "Meta tests auto-DM response for Instagram ad comments",
-     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-25T23:54:10+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta testuje automatické DM odpovědi na klíčová slova v komentářích",
-   "updated": "2026-08-26T05:04:39.754298+00:00",
-   "what": "Meta testuje novou funkci Reply to Keywords, která automaticky odesílá soukromou zprávu do Instagram DM uživatelům, kteří v komentáři použijí určité klíčové slovo.",
-   "why": "Funkce umožňuje značkám automatizovat komunikaci s uživateli přímo z komentářů na Instagramu, což může zjednodušit sběr leadů, distribucí kupónů nebo nasměrování zákazníků do DM konverzace bez nutnosti manuální reakce.",
-   "takeaway": "Sledujte dostupnost této funkce ve vašem Meta Ads Manageru – pokud ji získáte do testování, zvažte nasazení pro kampaně, kde potřebujete rychlou interakci s engagovanými uživateli (například soutěže, promo kódy nebo lead magnety).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7b985549f3.jpg",
-   "image_from": "digichef.cz"
-  },
-  {
-   "id": "7b0d05fc6d",
-   "created": "2026-08-25T18:47:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORG5NbldtYmlJejZONjFpeVcwNDNQQ2RjWGhrZ3Z3UHF2YklyZkM3NTR5dm1IYXRaMUV4aXhza3FpTXN0N041WVgtenhueWJlLU9DbWloakQ0QWtJVVI3Q2Z3cnFlaXE0emhwWE5US055cnYxN0szbUI5U3U0eE5YMVltVFZiLWpCNFZ6TVNmWFNEdkxucTJkZFFEaUFyOUJCZUE?oc=5",
-     "title": "Google tests channel prioritization controls for Performance Max",
-     "summary": "Google tests channel prioritization controls for Performance Max &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-25T18:47:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5",
-     "title": "Google Tests \"Only Bid for New Prospects\" in Performance Max",
-     "summary": "Google Tests \"Only Bid for New Prospects\" in Performance Max &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-25T07:33:07+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google testuje prioritizaci kanálů a bidování jen na nové zákazníky v Performance Max",
-   "updated": "2026-08-26T05:04:39.754298+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7b0d05fc6d.jpg",
-   "image_from": "searchengineland.com",
-   "what": "Google v omezené beta verzi testuje dvě nové funkce pro Performance Max kampaně: možnost prioritizovat konkrétní reklamní kanály (Search, Shopping, Display, YouTube atd.) a nastavení 'Only Bid for New Prospects', které omezí bidování pouze na nové potenciální zákazníky místo všech uživatelů.",
-   "why": "Performance Max kampaně doposud fungovaly jako plně automatizovaná 'černá skříňka' bez možnosti řídit, kam přesně jdou peníze. Tyto kontroly by marketérům umožnily lépe řídit rozpočet a zaměřit se na akvizici nových zákazníků, což je častý požadavek firem.",
-   "takeaway": "Funkce jsou zatím jen v testování pro vybrané účty. Sledujte jejich oficiální dostupnost v Google Ads – pokud se rozšíří, získáte větší kontrolu nad alokací rozpočtu v Performance Max a možnost efektivněji investovat do získávání nových zákazníků."
-  },
-  {
    "id": "d7df49ef68",
    "created": "2026-08-25T23:59:56+00:00",
    "articles": [
@@ -2981,29 +3086,6 @@
    "takeaway": "Zkontrolujte v Google Search Console výkonnost URL adres vašich PDF dokumentů za poslední týdny. Pokud jsou PDF klíčové pro vaši komunikaci, zvažte jejich převod do HTML stránek nebo alespoň vytvoření HTML verzí se stejným obsahem. Sledujte, zda se trend potvrdí i v českém vyhledávání.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "189cc95b23",
-   "created": "2026-08-25T16:41:34+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5",
-     "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
-     "summary": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-25T16:41:34+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 67,
-   "title": "Shopper Incentive Gets \"Limit Maximum Amount of Money Customers Can Receive",
-   "updated": "2026-08-26T05:04:39.754298+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/189cc95b23.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "a9bb64f7b1",
@@ -6314,39 +6396,6 @@
    "what": "Podle Digichef.cz se objevuje trend, kdy značky záměrně vytvářejí méně dokonalý obsah jako reakci na přesycení ultra-estetickými vizuály a AI generovanými příspěvky. Cílem je vypadat autentičtěji a odlišit se od perfektních, ale neosobních contentu.",
    "why": "Pro marketingového manažera jde o signál měnícího se vnímání obsahu – dokonalost může působit nepřirozeně a snižovat důvěru. V době, kdy AI umožňuje hromadnou produkci bezchybného obsahu, může naopak \"lidskost\" a nedokonalost zvyšovat engagement.",
    "takeaway": "Zvažte, zda perfektně vyleštěný obsah stále funguje pro vaše publikum, nebo testujte autentičtější formáty (zákulisí, neupravená videa, reálné zákaznické situace). Sledujte metriky engagement u různých typů obsahu."
-  },
-  {
-   "id": "7ba4a9be80",
-   "created": "2026-08-14T09:38:29.556736+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
-     "title": "Meta outlines updated scam alert system coming to WhatsApp",
-     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-12T21:53:40+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
-     "title": "We’re Upgrading Your WhatsApp Group Chats",
-     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-04T14:00:24+00:00",
-     "score": 54
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
-   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
-   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "3e8ee373ba",
