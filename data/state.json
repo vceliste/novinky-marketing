@@ -1,5 +1,5 @@
 {
- "last_run": "2026-08-26T20:15:17.827390+00:00",
+ "last_run": "2026-08-26T23:51:14.855344+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fd50a10d8e0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7fce06e49c40>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fce06e48d10>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -239,7 +239,7 @@
    "name": "Litmus",
    "feed": "https://www.litmus.com/blog/feed",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Email on Acid",
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -275,7 +275,7 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hootsuite blog",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -2108,43 +2108,114 @@
   "https://www.marketingbrew.com/stories/state-farm-nfl-campaign": "2026-08-26T20:15:17.827390+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRnp6ejZSSXpFUUhiQ1ZZV1JiQzM3NmU2RVVGRjBxbktvNXZ1YklpWTVVbUIxRnR0QkprVy16MXhBNEZLYWRXdGRydFZEd0hjelk2eW5ueVpMWndHbVpadERBSE1jRXNDSGV4OXAteDE5TjBTUVF6aTV5MTA5ejloc05RdWExeUxyRkhQbUNLZ0xuUkplaFoxVVN0dUNDV3pPbVYyT2lkWUsxd3BCTEJZTWJYTmdVS25XRHhlaTZTdEo?oc=5": "2026-08-26T20:15:17.827390+00:00",
   "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMl9oV1AxaWtCNUQ2QUxlTHpuTk44NFQxZERFa2pTYUZXUVdPWGowd1YxWW8zWlExVUxxUl9FRzk0YkxveWdWQVZNWlJyMHZsbVNwSkRpV0pRdGhKUGtaejJlNlR2eFBxRzJ0SG52eDlrc2V5SFEzTDU3eFZnel9RZUVwWTdjbm5pWVRUVUlHVjA0Z2xDX1hhN1o4aGRGb3pScXpGb3g2d0dPUWltT0VJUm80cXg1UVh6RDBvdQ?oc=5": "2026-08-26T20:15:17.827390+00:00",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYUxXcUdaZXlUTG12eDJRUkt6ZFRBeVJkeE5vc1BwUjlsOFg2WWc2RThIRk5QZnFRd0RfWVlZSTRYSjBhT25sVmhhMFptS1JlMnlCcWVSQmtiRkxOSFc5RzVxR3VFTFY4aTBiMXBHdnRzUnl1aWlmcWVwNzE2M19GdDR6a2RKUVdGNE9mZG0xb1BiWmV5al9fdEhTbzdvUnVraXduQ2YtWFppTnZuRGNwVjlSYzloV3M4NHlGbmdIaWdGWnpkbmhIcA?oc=5": "2026-08-26T20:15:17.827390+00:00"
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYUxXcUdaZXlUTG12eDJRUkt6ZFRBeVJkeE5vc1BwUjlsOFg2WWc2RThIRk5QZnFRd0RfWVlZSTRYSjBhT25sVmhhMFptS1JlMnlCcWVSQmtiRkxOSFc5RzVxR3VFTFY4aTBiMXBHdnRzUnl1aWlmcWVwNzE2M19GdDR6a2RKUVdGNE9mZG0xb1BiWmV5al9fdEhTbzdvUnVraXduQ2YtWFppTnZuRGNwVjlSYzloV3M4NHlGbmdIaWdGWnpkbmhIcA?oc=5": "2026-08-26T20:15:17.827390+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-api-developer-assistant-v4": "2026-08-26T23:51:14.855344+00:00",
+  "https://www.searchenginejournal.com/judge-in-penske-vs-google-says-ai-situation-seems-really-unfair/587216": "2026-08-26T23:51:14.855344+00:00",
+  "https://www.searchenginejournal.com/ai-tools-recommend-brands-but-cite-other-sites-data-shows/587160": "2026-08-26T23:51:14.855344+00:00",
+  "https://www.seroundtable.com/google-search-goto-tracking-41957.html": "2026-08-26T23:51:14.855344+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3RaRmhTNHVFdXFEeFFPQVd4amhtbjF1Zmo2SkZYQTFydGtDLWgxY2NkaVdlVHNad3RxRFpMRVpsNTdIa21hdU5BM1liUDNGdGRTZG14NzZmYm1KZUdtME5BTi03TFA3MmhXQWNHejJzZm5jX2RxeXNZY3VoMEJMU1BURFloQW01M0ZpZWszdw?oc=5": "2026-08-26T23:51:14.855344+00:00",
+  "https://sproutsocial.com/insights/breaking-ground-q3-2026-product-updates": "2026-08-26T23:51:14.855344+00:00",
+  "https://sproutsocial.com/insights/social-media-tasks": "2026-08-26T23:51:14.855344+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFBXUm44WlI2ZkVlY295a2FCMWlScU1Bdjg0SEdDUkZWMUxkVHB1Q0duMkVBYWg3OXVQT1ZGLU5QZ2g1S3J1T05qamprTEMwMVpITGlNaU96ZmJXQTZLWXEwSkNWZHduRlpHR3I3bGVERGxqOTJKRWRDN29UVUpmTHFCRThnTkstTkxTSDA1X1ZGZ21SeG05cA?oc=5": "2026-08-26T23:51:14.855344+00:00"
  },
  "events": [
   {
-   "id": "e13b3fe728",
-   "created": "2026-08-26T16:19:20+00:00",
+   "id": "7ba4a9be80",
+   "created": "2026-08-14T09:38:29.556736+00:00",
    "articles": [
     {
-     "url": "https://cc.cz/meta-kvuli-zalobam-zaplati-az-372-miliard-korun-facebook-a-instagram-zavedou-pro-mladistve-omezeni-pristupu",
-     "title": "Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu",
-     "summary": "Nezletilí budou mít sítě jen dvě hodiny denně a v noci se jim zablokují. Pokud se přidají TikTok a YouTube, limit klesne na hodinu na každé síti. Článek Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-08-26T16:19:20+00:00",
-     "score": 75
+     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
+     "title": "Meta outlines updated scam alert system coming to WhatsApp",
+     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-12T21:53:40+00:00",
+     "score": 57
     },
     {
-     "url": "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion",
-     "title": "Meta settles landmark child safety suit for more than $17 billion",
-     "summary": "The company agreed to implement additional safety measures—while calling on its rivals to do the same.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-08-26T20:07:41+00:00",
+     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
+     "title": "We’re Upgrading Your WhatsApp Group Chats",
+     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-08-04T14:00:24+00:00",
+     "score": 54
+    },
+    {
+     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
+     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
+     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-08-20T14:31:40+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
+     "title": "YouTube simplifies its AI claims process",
+     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-20T23:18:27+00:00",
      "score": 57
+    },
+    {
+     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
+     "title": "Reply to Keywords Meta Ads Feature",
+     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-25T11:30:41+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
+     "title": "Meta tests auto-DM response for Instagram ad comments",
+     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-25T23:54:10+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/new-zealand-introduces-teen-social-media-restrictions/828662",
+     "title": "New Zealand introduces teen social media restrictions",
+     "summary": "A new ban would require platforms such as Instagram, TikTok, Snapchat and Facebook to confirm that users are over 16 years old, per Bloomberg.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-24T20:20:26+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
+     "title": "X adds video overlays",
+     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T02:42:47+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
+     "title": "X algorithm insights highlight key posting strategies",
+     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-17T22:47:48+00:00",
+     "score": 47
     }
    ],
    "category": "socialni-site",
    "importance": 65,
-   "title": "Meta zaplatí 372 mld. Kč za ochranu dětí, omezí mladistvým přístup k sítím",
-   "updated": "2026-08-26T20:16:09.938793+00:00",
-   "what": "Meta uzavřela mimosoudní dohodu v žalobě týkající se ochrany dětí a zaplatí přes 17 miliard dolarů (cca 372 miliard Kč). Zároveň zavádí časová omezení pro mladistvé: Facebook a Instagram budou dostupné pouze dvě hodiny denně, v noci se zablokují. Pokud mladiství používají i TikTok nebo YouTube, limit klesne na hodinu denně pro každou síť.",
-   "why": "Jde o precedentní případ, který ukazuje rostoucí regulační tlak na sociální sítě v oblasti ochrany mladistvých uživatelů. Časová omezení pravděpodobně sníží dosah a engagement u mladé cílové skupiny na Facebooku a Instagramu, což může ovlivnit efektivitu kampaní zacílených na tuto demografii.",
-   "takeaway": "Pokud cílíte kampaně na mladší publikum (13–17 let) na Meta platformách, počítejte s výrazně omezeným dosahem a engagement. Sledujte, zda podobná omezení začnou zavádět i další platformy – může to ovlivnit celkovou strategii práce s mladou cílovou skupinou.",
+   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
+   "updated": "2026-08-26T23:52:33.175684+00:00",
+   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
+   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
+   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/e13b3fe728.jpg",
-   "image_from": "cc.cz"
+   "image": "img/7b985549f3.jpg",
+   "image_from": "digichef.cz"
   },
   {
    "id": "f2094c4077",
@@ -2491,19 +2562,70 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-26T15:59:00+00:00",
      "score": 72
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
+     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
+     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-22T07:22:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppchero.com/black-friday-2026",
+     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
+     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
+     "source": "PPC Hero",
+     "domain": "ppchero.com",
+     "published": "2026-08-24T14:04:28+00:00",
+     "score": 62
     }
    ],
    "category": "ppc",
    "importance": 75,
-   "title": "Google Ads ruší manuální jazykové cílení u Searchových kampaní",
-   "updated": "2026-08-26T20:15:59.153174+00:00",
-   "what": "Google Ads od září 2026 odebírá možnost ručního nastavení jazyka na úrovni kampaně u Search kampaní a Performance Max. Jazyk reklamy bude určovat automaticky na základě jazyka kreativy, landing page a signálů o uživateli. Pokud uživatel rozumí více jazykům, může vidět reklamy v kterémkoli z nich.",
-   "why": "Jde o významnou změnu pro inzerenty se zahraničními kampaněmi nebo s vícejazyčnými weby – přichází o přímou kontrolu nad tím, v jakém jazyce se reklama zobrazí. Google slibuje lepší AI automatizaci, ale pro kampaně cílené na české uživatele s českým obsahem to může znamenat riziko zobrazení reklam s cizím obsahem, pokud má uživatel nastaven i jiný jazyk.",
-   "takeaway": "Zkontrolujte své kampaně cílené na ČR – ujistěte se, že kreativy a landing pages jsou v češtině (pokud cílíte na české publikum), protože systém se bude řídit právě podle nich. Pokud máte vícejazyčné weby nebo kampaně, připravte se na přestavbu struktury kampaní a sledujte po zavedení změny, zda se vám nezobrazují reklamy ve špatném jazyce.",
+   "title": "Google ruší manuální cílení na jazyk v Search a Performance Max kampaních",
+   "updated": "2026-08-26T23:52:23.803581+00:00",
+   "what": "Google Ads od září 2026 odstraňuje možnost ručního nastavení jazyka v Search kampaních a Performance Max. Místo toho bude Google automaticky určovat jazyk reklamy na základě jazyka kreativy, landing page a AI signálů. Když uživatel rozumí více jazykům, reklama může být zobrazena v kterémkoli z nich.",
+   "why": "Změna zasahuje do fungování multijazyčných kampaní a struktury účtů. Inzerenti ztratí přímou kontrolu nad tím, v jakém jazyce se jejich reklama zobrazí – což může být problém zejména u kampaní s českými i anglickými verzemi landing pages nebo u e-shopů se zahraničními mutacemi.",
+   "takeaway": "Zkontrolujte strukturu multijazyčných kampaní, ujistěte se, že jazyk kreativ a landing pages odpovídá cílové skupině. U kampaní jen pro český trh ověřte, že všechny materiály jsou česky. Připravte se na možné překryvy zobrazení u dvoujazyčných uživatelů a sledujte výkonnost po zavedení změny v září.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/f2094c4077.jpg",
    "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "980c721c38",
+   "created": "2026-08-25T00:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://business.google.com/us/think/search-and-video/brands-and-youtube-creators-partnerships",
+     "title": "Hollywood is looking to YouTube creators. Here’s why brands should too",
+     "summary": "Google’s Official Digital Marketing Publication. Discover why brands should look to YouTube creators as they reshape entertainment, culture, and content.",
+     "source": "Think with Google",
+     "domain": "business.google.com",
+     "published": "2026-08-25T00:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ocWJsWTZSNFhtY25lc0JNRzVhYzliOE9VUDMwS1dVMEJ0ZzBodXFuTzMyMGVmSzY5UXBMcHhJS2o4WGsxS2RrNmY1NS1ZX2NVTVZqTlctR05oa1ZPZzR4akF2cmhTdjJVbzBadmc2dDk?oc=5",
+     "title": "Meta Ads: Why creative diversity matters more than volume",
+     "summary": "Meta Ads: Why creative diversity matters more than volume &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T13:00:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Meta Ads: diverzita kreativ důležitější než jejich množství",
+   "updated": "2026-08-26T23:52:16.060570+00:00",
+   "what": "Search Engine Land publikoval článek o tom, že u Meta Ads je pro výkon kampaní důležitější diverzita (rozmanitost) reklamních kreativ než jejich samotný počet.",
+   "why": "Marketingoví manažeři na Facebooku a Instagramu často sázejí na velké množství variant reklam, ale efektivnější může být zaměřit se na různorodost přístupů, sdělení a formátů – to lépe osloví různé segmenty publika a pomáhá algoritmu Mety najít správné kombinace.",
+   "takeaway": "Při plánování Meta kampaní v ČR raději testujte několik opravdu odlišných kreativních přístupů (jiné vizuály, sdělení, formáty) než desítky drobných variant jednoho motivu. Diverzita kreativ může zlepšit výkon kampaní při stejném nebo menším úsilí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
   },
   {
    "id": "68561720b2",
@@ -2544,12 +2666,21 @@
      "domain": "searchengineland.com",
      "published": "2026-08-26T14:45:00+00:00",
      "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html",
+     "title": "Bing Tests Shorts Video Tab In Search Menu",
+     "summary": "Microsoft Bing is testing a new \"Shorts\" tab in the search menu on Bing Search. This should filter the results by short videos across YouTube, Instagram, TikTok, Facebook and so on. The tab is called \"Shorts\" and looks like a video play icon in vertical format.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:21:00+00:00",
+     "score": 48
     }
    ],
    "category": "seo",
    "importance": 72,
    "title": "Google spam update v srpnu vyvolal neobvyklé turbulence ve výsledcích vyhledávání",
-   "updated": "2026-08-26T20:15:47.664198+00:00",
+   "updated": "2026-08-26T23:51:56.712292+00:00",
    "what": "Google dokončil spam update 21. srpna 2026. Od té doby však vyhledávací výsledky vykazují neobvyklou volatilitu – pozice webů kolísají výrazněji než obvykle. SEO komunita i měřicí nástroje zaznamenávají pokračující turbulence. Zároveň se objevují diskuse o možném potlačení listiklů (článků typu 'top 10') ve výsledcích.",
    "why": "Pokračující volatilita po ukončení updatu znamená, že pozice webu se mohou měnit i po skončení oficiálního rolloutingu. To komplikuje vyhodnocení dopadu updatu a může narušit běžný provoz organic trafficu. Změny v hodnocení listiklů (běžného formátu pro affiliate a produktové weby) mohou ovlivnit návštěvnost celých kategorií obsahu.",
    "takeaway": "Sledujte pozice klíčových stránek v Google Search Console minimálně další 2 týdny a počítejte s kolísáním. Pokud vaše stránky obsahují listicly, vyhodnoťte jejich výkonnost v organickém vyhledávání – případný pokles může být důvod k úpravě obsahové strategie. Jakmile se situace stabilizuje, proveďte kompletní zhodnocení dopadu updatu na traffic.",
@@ -2557,6 +2688,120 @@
    "multi_source": true,
    "image": "img/47472ffd48.jpg",
    "image_from": "searchengineland.com"
+  },
+  {
+   "id": "7bea6dbcda",
+   "created": "2026-08-26T21:13:06+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/judge-in-penske-vs-google-says-ai-situation-seems-really-unfair/587216",
+     "title": "Judge In Penske Vs Google Says AI Situation “Seems Really Unfair” via @sejournal, @martinibuster",
+     "summary": "Judge who ruled that Google is a monopoly said in the Penske vs Google hearing that the AI Overviews situation \"seems really unfair.\" The post Judge In Penske Vs Google Says AI Situation &#8220;Seems Really Unfair&#8221; appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T22:06:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/ai-tools-recommend-brands-but-cite-other-sites-data-shows/587160",
+     "title": "AI Tools Recommend Brands But Cite Other Sites, Data Shows via @sejournal, @MattGSouthern",
+     "summary": "A report finds AI tools often recommend brands while citing other websites as the source. The post AI Tools Recommend Brands But Cite Other Sites, Data Shows appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T21:13:06+00:00",
+     "score": 62
+    }
+   ],
+   "category": "seo",
+   "importance": 67,
+   "title": "Judge In Penske Vs Google Says AI Situation “Seems Really Unfair” via @sejournal, @martinibuster",
+   "updated": "2026-08-26T23:51:14.855344+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/7bea6dbcda.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "88459826c3",
+   "created": "2026-08-26T21:01:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-goto-tracking-41957.html",
+     "title": "Google Search Rolling Out google.com/goto Tracking Parameters?",
+     "summary": "Google Search seems like it is rolling out the google.com/goto URL as a passthrough URL within the search results that it began testing in July 2026. This seems like a way for Google to help prevent scraping of its search results by third-party tools and AI companies but Google has not yet commented on this goto URL paramter.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T21:01:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google testuje google.com/goto – nová překážka pro SEO nástroje",
+   "updated": "2026-08-26T23:51:14.855344+00:00",
+   "what": "Google začíná nasazovat parametr google.com/goto doURL odkazů ve výsledcích vyhledávání. Jde o přechodovou URL adresu, kterou Google poprvé testoval v červenci 2024. Google se k této změně zatím oficiálně nevyjádřil.",
+   "why": "Tato změna pravděpodobně ztíží nebo znemožní scraping výsledků vyhledávání třetími stranami – tedy SEO nástroji pro sledování pozic (rank trackery), analytickými platformami i AI společnostmi. Pro marketéra to může znamenat omezení funkčnosti nástrojů, na které je zvyklý spoléhat při sledování výkonu SEO.",
+   "takeaway": "Sledujte, zda vaše SEO nástroje (Collabim, SE Ranking, Ahrefs apod.) hlásí problémy se sběrem dat z Googlu. Připravte se na možné změny v dostupnosti dat o pozicích a buďte ve spojení s poskytovateli nástrojů ohledně případných řešení nebo alternativ.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/88459826c3.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "b38909dd35",
+   "created": "2026-08-24T23:27:32+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFBXUm44WlI2ZkVlY295a2FCMWlScU1Bdjg0SEdDUkZWMUxkVHB1Q0duMkVBYWg3OXVQT1ZGLU5QZ2g1S3J1T05qamprTEMwMVpITGlNaU96ZmJXQTZLWXEwSkNWZHduRlpHR3I3bGVERGxqOTJKRWRDN29UVUpmTHFCRThnTkstTkxTSDA1X1ZGZ21SeG05cA?oc=5",
+     "title": "Why is Gmail \"clipping\" my email?",
+     "summary": "Why is Gmail \"clipping\" my email? &nbsp;&nbsp; ActiveCampaign",
+     "source": "ActiveCampaign blog",
+     "domain": "activecampaign.com",
+     "published": "2026-08-24T23:27:32+00:00",
+     "score": 45
+    }
+   ],
+   "category": "emailing",
+   "importance": 45,
+   "title": "Why is Gmail \"clipping\" my email?",
+   "updated": "2026-08-26T23:51:14.855344+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e13b3fe728",
+   "created": "2026-08-26T16:19:20+00:00",
+   "articles": [
+    {
+     "url": "https://cc.cz/meta-kvuli-zalobam-zaplati-az-372-miliard-korun-facebook-a-instagram-zavedou-pro-mladistve-omezeni-pristupu",
+     "title": "Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu",
+     "summary": "Nezletilí budou mít sítě jen dvě hodiny denně a v noci se jim zablokují. Pokud se přidají TikTok a YouTube, limit klesne na hodinu na každé síti. Článek Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-08-26T16:19:20+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion",
+     "title": "Meta settles landmark child safety suit for more than $17 billion",
+     "summary": "The company agreed to implement additional safety measures—while calling on its rivals to do the same.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-08-26T20:07:41+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "Meta zaplatí 372 mld. Kč za ochranu dětí, omezí mladistvým přístup k sítím",
+   "updated": "2026-08-26T20:16:09.938793+00:00",
+   "what": "Meta uzavřela mimosoudní dohodu v žalobě týkající se ochrany dětí a zaplatí přes 17 miliard dolarů (cca 372 miliard Kč). Zároveň zavádí časová omezení pro mladistvé: Facebook a Instagram budou dostupné pouze dvě hodiny denně, v noci se zablokují. Pokud mladiství používají i TikTok nebo YouTube, limit klesne na hodinu denně pro každou síť.",
+   "why": "Jde o precedentní případ, který ukazuje rostoucí regulační tlak na sociální sítě v oblasti ochrany mladistvých uživatelů. Časová omezení pravděpodobně sníží dosah a engagement u mladé cílové skupiny na Facebooku a Instagramu, což může ovlivnit efektivitu kampaní zacílených na tuto demografii.",
+   "takeaway": "Pokud cílíte kampaně na mladší publikum (13–17 let) na Meta platformách, počítejte s výrazně omezeným dosahem a engagement. Sledujte, zda podobná omezení začnou zavádět i další platformy – může to ovlivnit celkovou strategii práce s mladou cílovou skupinou.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e13b3fe728.jpg",
+   "image_from": "cc.cz"
   },
   {
    "id": "b5bd91b63c",
@@ -2672,48 +2917,6 @@
    "image_from": "semrush.com"
   },
   {
-   "id": "959fd23cec",
-   "created": "2026-08-17T07:31:21.653291+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979",
-     "title": "X adds video overlays",
-     "summary": "The feature allows iOS users to add text and emojis over clips, bringing the platform&rsquo;s editing capabilities more in line with other social media apps.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T02:42:47+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/x-algorithm-insights-highlight-key-posting-strategies/828094",
-     "title": "X algorithm insights highlight key posting strategies",
-     "summary": "A report from Business Insider outlined what the app&rsquo;s recent source disclosures mean and how to work within the system.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-17T22:47:48+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sN1NZa1hNb1dyMUxSbzNuNC04NHRFTW5QSUZUSmlta3VUR0l0bm1PRHJUVk9LZXVCbV80bHEzbVFYYUZfekZRc1d4U1h0U3MzUHNteWpQdlM0cW1yenMtZUtvRVo0WmppSkpQVkdR0gFzQVVfeXFMTnp4bEdQR1BwRjVwYUpZNnNmZDdxQVktM2VkcFlZR190MmliSWE4c1pUUGY1RXRPcUhlWnVjWVItOUplQzBtUHZmWFRocGVGdGlVREZiaVhCMVdqaTRjcjEtVjVtWE9wX1R2bHNDaVpBMmxkZw?oc=5",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Reply to Keywords Meta Ads Feature &nbsp;&nbsp; Jon Loomer Digital",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T12:38:28+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "X (Twitter) vylepšuje editaci videí a odhaluje fungování algoritmu",
-   "updated": "2026-08-26T16:05:46.356198+00:00",
-   "what": "Platforma X (dříve Twitter) přidala pro iOS uživatele možnost přidávat text a emoji přímo do videí, čímž se přibližuje funkcím konkurenčních sociálních sítí. Zároveň Business Insider analyzoval nedávno zveřejněné informace o fungování algoritmu platformy a jak s ním efektivně pracovat.",
-   "why": "Nové editační nástroje umožňují tvorbu atraktivnějšího video obsahu přímo v aplikaci, což může ušetřit čas a náklady na externí nástroje. Pochopení principů algoritmu X pomáhá optimalizovat organický dosah příspěvků bez nutnosti zvyšovat reklamní rozpočet.",
-   "takeaway": "Pokud vaše firma publikuje video obsah na X, ověřte, zda můžete využít nové editační funkce místo externích nástrojů. Prostudujte zveřejněné principy algoritmu a upravte strategii publishingu (timing, formáty) pro lepší organický dosah.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
    "id": "d465ede499",
    "created": "2026-08-19T11:00:22+00:00",
    "articles": [
@@ -2754,30 +2957,6 @@
    "takeaway": "Sledujte vývoj – pokud TikTok spustí vlastní platební systém v Evropě, bude třeba přehodnotit integraci e-shopu, platební brány a případně podmínky a poplatky za transakce v aplikaci. Zatím jde o testování v USA bez potvrzení dostupnosti v ČR/EU.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
-  },
-  {
-   "id": "02545fdaf6",
-   "created": "2026-08-26T13:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ocWJsWTZSNFhtY25lc0JNRzVhYzliOE9VUDMwS1dVMEJ0ZzBodXFuTzMyMGVmSzY5UXBMcHhJS2o4WGsxS2RrNmY1NS1ZX2NVTVZqTlctR05oa1ZPZzR4akF2cmhTdjJVbzBadmc2dDk?oc=5",
-     "title": "Meta Ads: Why creative diversity matters more than volume",
-     "summary": "Meta Ads: Why creative diversity matters more than volume &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T13:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "Meta Ads: Diverzita kreativ je důležitější než jejich množství",
-   "updated": "2026-08-26T16:03:44.293455+00:00",
-   "what": "Search Engine Land publikoval článek o tom, že v Meta reklamách (Facebook, Instagram) je klíčová diverzita kreativních formátů, nikoliv jen jejich celkový počet. Jde o přístup k testování a optimalizaci reklamních materiálů.",
-   "why": "Pro marketingové manažery řídící Meta kampaně to znamená změnu strategie – místo produkce velkého množství podobných variant je efektivnější vytvářet rozmanitější typy kreativ (různé formáty, styly, sdělení), což může vést k lepším výsledkům kampaní.",
-   "takeaway": "Při plánování Meta kampaní se zaměřte na rozmanitost kreativních přístupů (video, statické obrázky, carousely, různá sdělení) místo produkce mnoha podobných variant. Přehodnoťte aktuální kreativní strategii a brief pro dodavatele obsahu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "e4e6914f58",
@@ -2826,65 +3005,6 @@
    "takeaway": "Sleduj vývoj AI nástrojů pro tvorbu videa – technologie je zatím v experimentální fázi, ale může časem nabídnout efektivnější způsoby personalizace video obsahu pro různé segmenty zákazníků.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "980c721c38",
-   "created": "2026-08-25T00:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://business.google.com/us/think/search-and-video/brands-and-youtube-creators-partnerships",
-     "title": "Hollywood is looking to YouTube creators. Here’s why brands should too",
-     "summary": "Google’s Official Digital Marketing Publication. Discover why brands should look to YouTube creators as they reshape entertainment, culture, and content.",
-     "source": "Think with Google",
-     "domain": "business.google.com",
-     "published": "2026-08-25T00:00:00+00:00",
-     "score": 55
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "Google doporučuje brandům spolupráci s YouTube tvůrci",
-   "updated": "2026-08-26T16:03:44.293455+00:00",
-   "what": "Google ve své publikaci Think with Google vyzývá značky, aby se inspirovaly Hollywoodem a více spolupracovaly s YouTube tvůrci. Tvůrci na YouTube podle Googlu přetvářejí zábavu, kulturu a obsah.",
-   "why": "YouTube creators mají autentický vztah s publikem a jejich obsah často lépe rezonuje než klasická brandová komunikace. Pro marketingové manažery jde o alternativní kanál k placené reklamě.",
-   "takeaway": "Zvažte influencer marketing na YouTube jako doplněk k vlastním kampaním. Ověřte si metriky engagement a dosah konkrétních českých tvůrců ve vaší kategorii před investicí do spolupráce.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "e78bd72be8",
-   "created": "2026-08-22T07:22:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate",
-     "title": "Offline Conversion Uploads Have 7-Day Upload Gate",
-     "summary": "Google has updated its About Attribution Reports help page to include a new section detailing the 7-day offline conversion upload limit .&nbsp; This limit states that the attribution modeling engine will only process conversions from the last seven days; offline conversions uploaded after this period will be ignored by data-driven attribution calculations while still appearing in standard reports.&nbsp; This clarification addresses longstanding discrepancies affecting lead-generation advertisers. Here's the official help page: About attribution reports . The post Offline Conversion Uploads Hav",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-22T07:22:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://ppchero.com/black-friday-2026",
-     "title": "Black Friday 2026: A Uniquely High-Stakes Quarter",
-     "summary": "ChatGPT Ads, margin pressure, October launches and automation risk are leading to a perfect storm this Black Friday 2026. Here's how PPC teams should respond. &lt;p&gt;The post Black Friday 2026: A Uniquely High-Stakes Quarter first appeared on PPC Hero .&lt;/p&gt;",
-     "source": "PPC Hero",
-     "domain": "ppchero.com",
-     "published": "2026-08-24T14:04:28+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads: offline konverze starší 7 dní neovlivní atribuční model",
-   "updated": "2026-08-26T13:32:51.798893+00:00",
-   "what": "Google upřesnil v nápovědě k atribučním reportům, že jeho atribuční engine zpracovává pouze offline konverze nahrané do 7 dnů od jejich vzniku. Konverze nahrané později se sice zobrazí ve standardních reportech, ale nebudou započítány do data-driven attribution modelu.",
-   "why": "Pro inzerenty pracující s lead generací a offline konverzemi (např. obchody s delším prodejním cyklem) to znamená vysvětlení dlouhodobých nesrovnalostí v datech. Pokud firma nahrává konverze se zpožděním delším než týden, její atribuční model je od počátku nepřesný – což může vést k chybným rozhodnutím o rozpočtech a strategiích kampaní.",
-   "takeaway": "Zkontrolujte, jak rychle nahráváte offline konverze do Google Ads. Pokud trvá déle než 7 dní, upravte proces – jinak přicházíte o správnou atribuci a optimalizace kampaní fungují s neúplnými daty. U lead generace a delších prodejních cyklů je nutné nastavit rychlejší reporting.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/e78bd72be8.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "7949f1f96b",
@@ -3534,27 +3654,6 @@
    "image_from": "digichef.cz"
   },
   {
-   "id": "f548588a5f",
-   "created": "2026-08-26T11:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html",
-     "title": "Bing Tests Shorts Video Tab In Search Menu",
-     "summary": "Microsoft Bing is testing a new \"Shorts\" tab in the search menu on Bing Search. This should filter the results by short videos across YouTube, Instagram, TikTok, Facebook and so on. The tab is called \"Shorts\" and looks like a video play icon in vertical format.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:21:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "seo",
-   "importance": 48,
-   "title": "Bing Tests Shorts Video Tab In Search Menu",
-   "updated": "2026-08-26T13:30:55.322483+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "c748a6b0ae",
    "created": "2026-08-17T08:28:39.081527+00:00",
    "articles": [
@@ -3839,86 +3938,6 @@
    "what": "Meta spustila novou funkci v rámci Advantage+ Creative, která dokáže automaticky přepsat text přímo v obrazových reklamách při zachování původního designu. Jde o rozšíření automatických úprav kreativ.",
    "why": "Pro inzerenty to znamená, že Meta může nyní měnit nejen copywriting v textové části reklamy, ale i textové prvky přímo uvnitř grafiky – což může výrazně ovlivnit, jak vaše vizuály vypadají a co říkají, aniž byste to explicitně schválili.",
    "takeaway": "Zkontrolujte nastavení Advantage+ Creative v běžících kampaních na Metu a zvažte, zda chcete tuto funkci povolit nebo raději vypnout u kampaní, kde je konzistence brand komunikace kritická. Sledujte v reportech, jak úpravy textů v obrázcích ovlivňují výkon."
-  },
-  {
-   "id": "7ba4a9be80",
-   "created": "2026-08-14T09:38:29.556736+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-outlines-updated-scam-alert-system-coming-to-whatsapp/827753",
-     "title": "Meta outlines updated scam alert system coming to WhatsApp",
-     "summary": "The system adheres to WhatsApp&rsquo;s privacy focus, ensuring better user protection without external oversight.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-12T21:53:40+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://about.fb.com/news/2026/08/were-upgrading-your-whatsapp-group-chats",
-     "title": "We’re Upgrading Your WhatsApp Group Chats",
-     "summary": "We’re introducing new updates to WhatsApp group chats that make it even easier for you to connect with the groups you care about. The post We’re Upgrading Your WhatsApp Group Chats appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-08-04T14:00:24+00:00",
-     "score": 54
-    },
-    {
-     "url": "https://digichef.cz/collab-nebo-paid-partnership-oboji-je-kinda-chic",
-     "title": "Collab, nebo Paid Partnership? Obojí je kinda chic",
-     "summary": "Kdybychom měli říct, co je aktuálně jeden z největších pain points social media manažerů, tak jsou to nástroje Instagram Collab a Paid Partnership (kromě Meta Business Suite, SMM manažeři pochopí). Instagram nabízí dva skvělé nástroje pro značky a tvůrce, které se ale často pletou dohromady. I když každý řeší něco trochu jiného. Co tyhle nástroje... The post Collab, nebo Paid Partnership? Obojí je kinda chic appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-08-20T14:31:40+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-simplifies-its-ai-claims-process/828462",
-     "title": "YouTube simplifies its AI claims process",
-     "summary": "The platform has updated its system to alert creators about potential image misuse and provide opportunities to dispute allegations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-20T23:18:27+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature",
-     "title": "Reply to Keywords Meta Ads Feature",
-     "summary": "Meta is testing Reply to Keywords, a feature that automatically sends an Instagram DM when someone comments with a specific keyword. The post Reply to Keywords Meta Ads Feature appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-25T11:30:41+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791",
-     "title": "Meta tests auto-DM response for Instagram ad comments",
-     "summary": "A similar Reply to Keywords feature is already available via inbox automation and Meta Business Agent options. &nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-25T23:54:10+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/new-zealand-introduces-teen-social-media-restrictions/828662",
-     "title": "New Zealand introduces teen social media restrictions",
-     "summary": "A new ban would require platforms such as Instagram, TikTok, Snapchat and Facebook to confirm that users are over 16 years old, per Bloomberg.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-24T20:20:26+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "WhatsApp vylepšuje ochranu před podvody a funkce skupinových chatů",
-   "updated": "2026-08-26T11:03:18.545851+00:00",
-   "what": "Meta oznámila dva updaty pro WhatsApp: vylepšený systém varování před podvody (scam alerts) a nové funkce pro skupinové chaty. Systém ochrany funguje v souladu s principem end-to-end šifrování WhatsApp, detekuje podezřelé zprávy lokálně na zařízení bez externího dohledu. Zároveň přicházejí vylepšení pro správu a používání skupinových konverzací.",
-   "why": "Pro firmy využívající WhatsApp Business ke komunikaci se zákazníky (podporu, prodej, notifikace) jde o posílení důvěry uživatelů v platformu. Lepší ochrana před podvody může zvýšit ochotu zákazníků komunikovat přes WhatsApp. Vylepšené skupinové funkce mohou rozšířit možnosti komunitní komunikace a zákaznické podpory.",
-   "takeaway": "Pokud využíváte WhatsApp Business API pro komunikaci se zákazníky, sledujte, jak nové bezpečnostní funkce ovlivní důvěru uživatelů – může to podpořit adopt rate komunikace přes WhatsApp. Vylepšené skupinové funkce stojí za test pro komunitní marketing nebo zákaznickou podporu. Konkrétní dopad pro ČR zatím není jasný, detaily funkcí nebyly ve zdrojích specifikovány.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7b985549f3.jpg",
-   "image_from": "digichef.cz"
   },
   {
    "id": "9079e3a0ff",
