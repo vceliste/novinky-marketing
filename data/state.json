@@ -1,17 +1,17 @@
 {
- "last_run": "2026-08-27T15:27:06.330046+00:00",
+ "last_run": "2026-08-28T01:08:30.844881+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 10
+   "new": 3
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -29,19 +29,19 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 9
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 8
+   "new": 3
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f54af80b980>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tyinternety.cz', port=443) at 0x7f966fbf90d0>, 'Connection to tyinternety.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -70,44 +70,44 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 4
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
    "name": "APEK",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 6
+   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 4
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
@@ -119,7 +119,7 @@
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Semrush blog",
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
    "new": 0
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 6
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,20 +196,20 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f54af7e74d0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f966fb9f2f0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Microsoft Advertising blog",
    "feed": "https://about.ads.microsoft.com/en/blog/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Hero",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -262,8 +262,8 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "status": "chyba: empty feed (HTTP 404, text/html)",
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -275,7 +275,7 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hootsuite blog",
@@ -293,19 +293,19 @@
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 2
+   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "new": 0
   },
   {
    "name": "Jon Loomer",
@@ -334,8 +334,8 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
-   "new": 2
+   "status": "chyba: empty feed (HTTP 500, text/html)",
+   "new": 0
   },
   {
    "name": "MeasureSchool",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "chyba: empty feed (HTTP 429, text/html)",
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -2176,39 +2176,136 @@
   "https://blog.seznam.cz/2026/08/mobilni-aplikace-email-cz-ted-umi-navrhnout-predmet-e-mailu-nebo-shrnout-jeho-zneni": "2026-08-27T15:27:06.330046+00:00",
   "https://cc.cz/atypicti-investori-dal-uraduji-po-zakladni-skole-si-vyhlidli-hrackarstvi-hugo-chodi-bos-i-dve-veteriny": "2026-08-27T15:27:06.330046+00:00",
   "https://www.mediaguru.cz/detska-tralala-tv-byla-po-roce-odpojena-z-celoplosneho-dvb-t2": "2026-08-27T15:27:06.330046+00:00",
-  "https://www.mediar.cz/hunatych-maskotu-neni-nikdy-dost-v-klani-operatoru-zvitezil-vodafone": "2026-08-27T15:27:06.330046+00:00"
+  "https://www.mediar.cz/hunatych-maskotu-neni-nikdy-dost-v-klani-operatoru-zvitezil-vodafone": "2026-08-27T15:27:06.330046+00:00",
+  "https://about.ads.microsoft.com/en/blog/post/august-2026/reimagining-search-campaigns-for-the-ai-era-with-ai-max": "2026-08-28T01:08:30.844881+00:00",
+  "https://about.fb.com/news/2026/08/closed-loop-cooling-explained-the-plumbing-behind-metas-ai": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.lupa.cz/aktuality/k-udajum-zakazniku-ceske-financni-instituce-partners-se-dostali-hackeri": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.searchenginejournal.com/ai-search-didnt-remove-cognitive-load-it-moved-it/586700": "2026-08-28T01:08:30.844881+00:00",
+  "https://cc.cz/pustte-si-prvni-legalni-zabery-z-hrani-gta-vi-nejocekavanejsi-hru-konecne-uvidite-bez-hackerskych-uniku": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.seroundtable.com/irs-website-drops-google-search-41967.html": "2026-08-28T01:08:30.844881+00:00",
+  "https://blog.youtube/creator-and-artist-stories/super-simple-songs-20th-anniversary-youtube": "2026-08-28T01:08:30.844881+00:00",
+  "https://sproutsocial.com/insights/reddit-statistics": "2026-08-28T01:08:30.844881+00:00",
+  "https://sproutsocial.com/insights/customer-experience-audit": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.searchenginejournal.com/google-starts-rolling-out-hotel-booking-in-ai-mode/587288": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.seroundtable.com/google-ai-mode-travel-updates-41956.html": "2026-08-28T01:08:30.844881+00:00",
+  "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.mediaguru.cz/zradci-zacnou-16-zari-na-prima-a-v-nedeli-20-zari-na-tv-prima": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.lupa.cz/aktuality/vlada-ukazala-navrh-zakona-pro-startupy-investori-si-budou-moci-odecist-miliony-ze-zakladu-dane": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.mediaguru.cz/ugo-se-za-dvacet-let-vypracovalo-az-k-miliardovemu-byznysu-prisly-ale-i-tezke-chvile": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.mediaguru.cz/ceska-sporitelna-spustila-podcast-o-bydleni-cili-na-mladou-generaci": "2026-08-28T01:08:30.844881+00:00",
+  "https://cc.cz/dvojnasobny-zisk-i-trzby-pohadkova-marze-a-nvidia-dal-roste-do-ai-nebe-bude-to-ale-stacit": "2026-08-28T01:08:30.844881+00:00",
+  "https://cc.cz/na-pohovoru-ji-nechtel-pak-se-vzali-a-dnes-maji-skolu-resili-jsme-ji-porad-deti-uz-zadonily-o-klid-rikaji": "2026-08-28T01:08:30.844881+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-shortens-smart-bidding-adjustment-period": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.lupa.cz/clanky/ct-pripravila-uspory-za-350-milionu-zasahly-by-take-vyrobu-poradu": "2026-08-28T01:08:30.844881+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-loyalty-member-bidding-controls": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.socialmediatoday.com/news/meta-adds-new-ai-subscription-packages/828904": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.socialmediatoday.com/news/instagram-launches-connected-tv-promotion/828903": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.socialmediatoday.com/news/snapchat-highlights-opportunities-for-sportsbook-and-prediction-market-ads/828902": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.socialmediatoday.com/news/x-revives-twitters-lead-gen-ads/828901": "2026-08-28T01:08:30.844881+00:00",
+  "https://www.socialmediatoday.com/news/meta-settles-landmark-lawsuit-for-18b/828900": "2026-08-28T01:08:30.844881+00:00"
  },
  "events": [
   {
-   "id": "01115b6a6e",
-   "created": "2026-08-27T06:01:52+00:00",
+   "id": "e13b3fe728",
+   "created": "2026-08-26T16:19:20+00:00",
    "articles": [
     {
-     "url": "https://blog.seznam.cz/2026/08/mobilni-aplikace-email-cz-ted-umi-navrhnout-predmet-e-mailu-nebo-shrnout-jeho-zneni",
-     "title": "Mobilní aplikace Email.cz teď umí navrhnout předmět e-mailu nebo shrnout jeho znění",
-     "summary": "Aplikace Seznam.cz Email, kterou lidé používají už přes deset let, dostává první funkce s umělou inteligencí i do mobilu. Nově umí sama navrhnout předmět e-mailu a shrnout obsah delší zprávy do pár vět. Funkce, které si uživatelé oblíbili na webu, jsou teď k dispozici i na cestách. Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-08-27T06:01:52+00:00",
-     "score": 54
+     "url": "https://cc.cz/meta-kvuli-zalobam-zaplati-az-372-miliard-korun-facebook-a-instagram-zavedou-pro-mladistve-omezeni-pristupu",
+     "title": "Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu",
+     "summary": "Nezletilí budou mít sítě jen dvě hodiny denně a v noci se jim zablokují. Pokud se přidají TikTok a YouTube, limit klesne na hodinu na každé síti. Článek Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-08-26T16:19:20+00:00",
+     "score": 75
     },
     {
-     "url": "https://www.lupa.cz/aktuality/email-cz-na-mobilech-shrne-postu-a-vygeneruje-predmet-zpravy-seznam-pokracuje-v-zavadeni-ai",
-     "title": "Email.cz na mobilech shrne poštu a vygeneruje předmět zprávy, Seznam pokračuje v zavádění AI",
-     "summary": "Seznam pokračuje v zavádění prvků umělé inteligence v rámci svých produktů. Mobilní aplikace Email.cz nově umí shrnout e-maily do stručného textu. AI také zvládne na základě rozepsaného e-mailu navrhnout vhodný předmět.",
+     "url": "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion",
+     "title": "Meta settles landmark child safety suit for more than $17 billion",
+     "summary": "The company agreed to implement additional safety measures—while calling on its rivals to do the same.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-08-26T20:07:41+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.lupa.cz/clanky/meta-se-vyhnula-soudu-a-detem-v-usa-omezi-pouzivani-socialnich-siti-co-si-z-toho-muze-odnest-evropa",
+     "title": "Meta se vyhnula soudu a dětem v USA omezí používání sociálních sítí. Co si z toho může odnést Evropa?",
+     "summary": "Právníci firmy Meta dosáhli dohody, která je pro majitele Facebooku a Instagramu poměrně výhodná. Jak se společnost zavázala změnit fungování svých sociálních sítí a jak se americký přístup liší od evropských záměrů?",
      "source": "Lupa.cz",
      "domain": "lupa.cz",
-     "published": "2026-08-27T08:57:43+00:00",
-     "score": 55
+     "published": "2026-08-27T10:00:18+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-settles-landmark-lawsuit-for-18b/828900",
+     "title": "Meta settles landmark lawsuit for $18B",
+     "summary": "In addition to the payout, the company agreed to a series of restrictions aimed at curbing the use of Facebook and Instagram among users under age 18.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-26T19:50:32+00:00",
+     "score": 54
     }
    ],
-   "category": "cesky-marketing",
-   "importance": 45,
-   "title": "Email.cz přidává AI funkce do mobilní aplikace: shrnutí zpráv a návrh předmětu",
-   "updated": "2026-08-27T15:31:17.011951+00:00",
-   "what": "Mobilní aplikace Seznam.cz Email získává první AI funkce – automatické shrnutí delších e-mailů do několika vět a generování předmětu zprávy na základě rozepsaného textu. Funkce, které uživatelé znali z webové verze, jsou nyní dostupné i v mobilní aplikaci.",
-   "why": "Jde o rozšíření AI nástrojů Seznamu do každodenně používané mobilní komunikace. Pro firmy využívající Email.cz to může znamenat efektivnější práci s e-mailovou komunikací na mobilech, zejména při zpracování delší korespondence.",
-   "takeaway": "Pokud vaše firma nebo tým používá Email.cz, vyhodnoťte, zda AI shrnutí pomůže při mobilní práci s e-maily. Sledujte, jak Seznam postupně integruje AI do svých produktů – může to signalizovat budoucí změny i v dalších nástrojích (Sklik, Zboží.cz).",
+   "category": "socialni-site",
+   "importance": 65,
+   "title": "Meta zaplatí 372 mld. Kč a zavede časové limity pro mladistvé uživatele",
+   "updated": "2026-08-28T01:11:17.105270+00:00",
+   "what": "Meta uzavřela mimosoudní dohodu v žalobě týkající se bezpečnosti dětí. Zaplatí přes 17 miliard dolarů (cca 372 mld. Kč) a zavádí časová omezení pro uživatele pod 18 let: max 2 hodiny denně na Facebooku a Instagramu, noční blokace. Pokud se přidají TikTok a YouTube, limit klesne na hodinu na každou síť.",
+   "why": "Omezení se zatím týká USA, ale ukazuje směr vývoje regulace a odpovědnosti platforem vůči mladistvým. Pro firmy cílící na mladé publikum na Facebooku a Instagramu to může znamenat zásadní omezení dosahu a engagement této skupiny. Evropa může následovat podobný přístup – je třeba sledovat, zda a jak se opatření rozšíří do EU.",
+   "takeaway": "Pokud cílíte na mladé uživatele (do 18 let) na Facebooku nebo Instagramu, počítejte s možným poklesem dosahu a času stráveného na platformě. Sledujte, zda Meta podobná omezení zavede i v Evropě – mohlo by to ovlivnit vaši stratégii a ROI kampaní.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e13b3fe728.jpg",
+   "image_from": "cc.cz"
+  },
+  {
+   "id": "4ed15919c8",
+   "created": "2026-08-27T11:31:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-search-term-landing-page-report-41950.html",
+     "title": "Microsoft Advertising Search Term Landing Page Report For AI Max",
+     "summary": "Microsoft Advertising, with the release of AI Max globally, has rolled out a new Search term landing page reporting template. This report gives advertisers \"full insights into all parts of AI Max's performance,\" said Navah Hopkins, the Microsoft Ads Liaison.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-27T11:31:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/august-2026/reimagining-search-campaigns-for-the-ai-era-with-ai-max",
+     "title": "Reimagining Search campaigns for the AI era with AI Max",
+     "summary": "Reach more relevant searches, deliver more relevant ads, and guide performance with AI Max—now available in Microsoft Advertising Search campaigns.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-08-28T01:05:23.648269+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-aggregate-campaign-delivery-status",
+     "title": "Microsoft Advertising Rolls Out Aggregate Campaign Delivery Status",
+     "summary": "Microsoft Advertising has introduced a new aggregate delivery status feature in the Campaigns grid, now available for some users. This feature displays an overall delivery status for each campaign, summarizing the highest-priority issue affecting its performance. The updated help documentation provides a rewritten introduction on how campaign delivery statuses summarize campaign health and outlines a new procedure for reviewing a campaign's delivery status.&nbsp; Users can now click on the delivery status in the Delivery column to access diagnostic details and take necessary actions, such as r",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-27T11:53:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-documents-campaign-level-tracking-pmax-product",
+     "title": "Microsoft Advertising Documents Campaign-Level Tracking for PMAX Product URLs",
+     "summary": "Microsoft Advertising has updated its help page to include campaign-level tracking for Performance Max shopping product URLs . The help page outlines that dynamic parameters such as {AdGroup} can be used in campaign-level tracking templates to populate asset group values.&nbsp; A sample UTM string is provided, demonstrating how tracking can be structured to optimize performance for shopping campaigns. See the help page for more details: Microsoft Advertising Documents Campaign-Level Tracking for Performance Max Product URLs . This update was uncovered by Hana Kobzová . The post Microsoft Adver",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-27T13:55:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Advertising spouští AI Max globálně s novým reportingem",
+   "updated": "2026-08-28T01:11:03.979227+00:00",
+   "what": "Microsoft Advertising globálně spustil AI Max – nový typ search kampaní založený na umělé inteligenci. Společně s tím představil reporting šablonu Search Term Landing Page Report, která má dát inzerentům kompletní přehled o výkonu AI Max kampaní.",
+   "why": "AI Max představuje nový způsob automatizace search kampaní v Microsoft Advertising, který má lépe cílit na relevantní vyhledávání a zobrazovat relevantnější reklamy. Pro inzerenty používající Microsoft Ads (Bing) to znamená novou možnost řízení kampaní s větší mírou automatizace.",
+   "takeaway": "Pokud inzerujete na Microsoft Advertising, sledujte dostupnost AI Max ve svém účtu a nový reporting. Zvažte testování proti stávajícím search kampaním, abyste viděli, zda automatizace přináší lepší výsledky při srovnatelných nákladech.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
   },
@@ -2233,51 +2330,37 @@
      "domain": "seroundtable.com",
      "published": "2026-08-27T11:41:00+00:00",
      "score": 68
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PS1pGVlIzY1RnVVhXM3c3cUlyRkVfTC00YnRHMTFaWEZVUmRpY3VGemwzX0wyZGF1SWVCb0VLN3ctemRoWUNZeHRWVG51cHVFTUhrR1FLMWJuekw4Zml0emgxMHh4eEJUU2ZOV2pCaW14d2hVaUt3?oc=5",
+     "title": "Moving from Google Display to Demand Gen: What you’ll lose and gain",
+     "summary": "Moving from Google Display to Demand Gen: What you’ll lose and gain &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-27T15:00:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026",
+     "title": "Reach your audience in new ways with August’s Demand Gen Drop.",
+     "summary": "Drive high-quality leads and acquire customers with new messaging, travel, and creative features in YouTube’s August Demand Gen Drop.",
+     "source": "Google Ads & Commerce Blog",
+     "domain": "blog.google",
+     "published": "2026-08-27T16:00:00+00:00",
+     "score": 69
     }
    ],
    "category": "ppc",
-   "importance": 65,
-   "title": "Ask Advisor bude mít společnou paměť napříč Google nástroji",
-   "updated": "2026-08-27T15:31:08.563675+00:00",
-   "what": "Google oznámil, že jeho AI asistent Ask Advisor získá sdílenou paměť napříč Google Ads, Analytics, Merchant Center a Google Marketing Platform. Systém si bude pamatovat cíle, minulá rozhodnutí a výkonnostní data z jednoho nástroje a využije je při dotazech v jiném.",
-   "why": "Pro marketéry pracující s více Google nástroji to znamená konzistentnější doporučení a úsporu času – nebudou muset opakovat kontext při přepínání mezi platformami. Ask Advisor může nabídnout relevantnější odpovědi díky znalosti souvislostí z předchozích interakcí.",
-   "takeaway": "Zatím jen oznámení funkce bez data spuštění. Sledujte dostupnost a po zavedení testujte, zda společná paměť skutečně zlepší kvalitu odpovědí při práci napříč Google Ads a Analytics – může to ušetřit čas při optimalizaci kampaní.",
-   "importance_label": "důležité",
+   "importance": 55,
+   "title": "Ask Advisor získá sdílenou paměť napříč nástroji Google",
+   "updated": "2026-08-28T01:10:56.233353+00:00",
+   "what": "Google oznámil, že jeho AI asistent Ask Advisor bude brzy udržovat sdílenou paměť napříč Google Ads, Analytics, Merchant Center a Google Marketing Platform. Při přechodu mezi nástroji si bude pamatovat předchozí konverzace, cíle a rozhodnutí uživatele.",
+   "why": "Sdílená paměť umožní Ask Advisor poskytovat relevantnější odpovědi a doporučení na základě celkového kontextu práce uživatele napříč platformami, místo izolovaných odpovědí v každém nástroji zvlášť.",
+   "takeaway": "Až funkce dorazí, testujte Ask Advisor na opakované dotazy napříč nástroji (např. nejprve v Google Ads, poté v Analytics) – může ušetřit čas při práci s daty z více platforem najednou.",
+   "importance_label": "stojí za pozornost",
    "multi_source": true,
    "image": "img/fa8a18e62d.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "7c5c86d7de",
-   "created": "2026-08-27T13:49:03+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/discussions-and-forums-serps",
-     "title": "Analysis: Reddit Appears in 83.9% of Google’s Discussions and Forums Results",
-     "summary": "The most prominent domain was Reddit.com, which showed up in 87.8% of SERPs (83.9% worldwide), with an average of 1.29 link appearances. Along with Ahrefs’ data scientist Xibeijia Guan, I set out to uncover how prominent other sites were, whether &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-08-27T13:49:03+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZa25wWGhCWDZrazBhc2w3S3ZHVEZ6VHlKTGRubzJoZmptS1NPRW5abkpGV2x0WWlOMDZlallKYktzNzBpZnlyQ2l2NDVJVkM4ZWlZanRZRXlKSnpfZ1QwYW40UFJ3TXhHRWpLOXZfWEdGUQ?oc=5",
-     "title": "Reddit is the keyword research tool you’re probably not using",
-     "summary": "Reddit is the keyword research tool you’re probably not using &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-27T14:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 62,
-   "title": "Analysis: Reddit Appears in 83.9% of Google’s Discussions and Forums Results",
-   "updated": "2026-08-27T15:30:58.835862+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7c5c86d7de.jpg",
-   "image_from": "ahrefs.com"
   },
   {
    "id": "094abad828",
@@ -2363,19 +2446,240 @@
      "domain": "searchenginejournal.com",
      "published": "2026-08-27T12:00:30+00:00",
      "score": 47
+    },
+    {
+     "url": "https://www.searchenginejournal.com/ai-search-citation-sources-trendos-spa/586289",
+     "title": "We Analyzed 107 Million AI Answers. Here’s Where Each Industry’s Citations Actually Come From via @sejournal, @trendos_com",
+     "summary": "Discover the top citation sources for AI answers and how they impact recommendations across major AI platforms. The post We Analyzed 107 Million AI Answers. Here&#8217;s Where Each Industry&#8217;s Citations Actually Come From appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-27T13:37:27+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://ahrefs.com/blog/discussions-and-forums-serps",
+     "title": "Analysis: Reddit Appears in 83.9% of Google’s Discussions and Forums Results",
+     "summary": "The most prominent domain was Reddit.com, which showed up in 87.8% of SERPs (83.9% worldwide), with an average of 1.29 link appearances. Along with Ahrefs’ data scientist Xibeijia Guan, I set out to uncover how prominent other sites were, whether &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-08-27T13:49:03+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZa25wWGhCWDZrazBhc2w3S3ZHVEZ6VHlKTGRubzJoZmptS1NPRW5abkpGV2x0WWlOMDZlallKYktzNzBpZnlyQ2l2NDVJVkM4ZWlZanRZRXlKSnpfZ1QwYW40UFJ3TXhHRWpLOXZfWEdGUQ?oc=5",
+     "title": "Reddit is the keyword research tool you’re probably not using",
+     "summary": "Reddit is the keyword research tool you’re probably not using &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-27T14:00:00+00:00",
+     "score": 58
     }
    ],
    "category": "seo",
    "importance": 65,
-   "title": "Citace Redditu v ChatGPT klesly za čtyři dny o 86 %",
-   "updated": "2026-08-27T15:30:48.957554+00:00",
-   "what": "Podle dat od Promptwatch poklesly citace Redditu v ChatGPT Search z 3,8 % na 0,5 % během čtyř dnů v lednu 2025. OpenAI tvrdí, že nezměnilo způsob výběru zdrojů. Nová architektura vyhledávacího nástroje ChatGPT ukázuje, že z 84 Reddit vláken, která se dostala do \"retrieval pool\", nebylo citováno ani jedno.",
-   "why": "Ukazuje na změny v tom, jak AI nástroje vybírají a citují zdroje, což ovlivňuje, kde bude vaše obsahová strategie viditelná. Pokud vaše značka spoléhala na viditelnost přes Reddit v AI vyhledávání, tato změna může zásadně snížit dosah.",
-   "takeaway": "Sledujte, odkud AI nástroje citují váš obsah – nedůvěřujte jedné platformě. Diverzifikujte zdroje pro získávání organické návštěvnosti a visibility v AI vyhledávání. ChatGPT nyní může preferovat jiné typy zdrojů než diskusní fóra.",
+   "title": "Citace Redditu v ChatGPT klesly za 4 dny o 86 %",
+   "updated": "2026-08-28T01:10:45.146629+00:00",
+   "what": "Podle dat od Promptwatch klesly citace Redditu v ChatGPT Search z 3,8 % na 0,5 % během čtyř dnů v únoru 2025. OpenAI tvrdí, že nezměnilo způsob výběru zdrojů. ChatGPT přitom přestavěl svůj vyhledávací nástroj a upravil formát načítání obsahu – v některých případech sice Reddit načetl do tzv. retrieval poolu, ale neocitoval jej ve finální odpovědi.",
+   "why": "Pokud váš obsah nebo diskuze na Redditu sloužily jako zdroj AI trafikových citací, jejich viditelnost v ChatGPT právě dramaticky klesla. Jde o konkrétní ukázku toho, jak volatilní může být závislost na AI platformách jako zdroji návštěvnosti – algoritmy a formáty se mění rychle a bez varování.",
+   "takeaway": "Nestavte strategii jen na jednom AI kanálu. Sledujte, kde se vaše značka cituje (Reddit, ChatGPT, další AI nástroje), ale diverzifikujte zdroje návštěvnosti a zaměřte se na vlastní kanály (web, e-mail, komunitní platformy). Monitorujte AI citace stejně jako SEO – mohou kolísat stejně rychle.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/094abad828.jpg",
    "image_from": "semrush.com"
+  },
+  {
+   "id": "72ad5a2e51",
+   "created": "2026-08-27T18:23:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/irs-website-drops-google-search-41967.html",
+     "title": "IRS Website Drops Heavily In Google Search",
+     "summary": "Over the past few days, the IRS website (and other government sites) has tanked within Google's search results. My gut feeling is that the federal government implemented some bot-blocking that was too aggressive and blocked Google, among others, resulting in Google not fully showing the IRS website. I believe the IRS implemented some fixes, and the website is slowly coming back in Google Search.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-27T18:23:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Web IRS zmizel z Googlu kvůli přísné ochraně proti botům",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Web amerického daňového úřadu IRS a další vládní weby USA prudce poklesly ve výsledcích Google vyhledávání. Důvodem byla pravděpodobně příliš agresivní ochrana proti botům, která omylem zablokovala také Googlebot. IRS již problém částečně napravil a web se postupně do výsledků vrací.",
+   "why": "Případ ilustruje riziko špatně nastavené technické ochrany webu – může vést k úplnému zmizení z vyhledávání, což znamená ztrátu většiny organické návštěvnosti. Pro marketingové manažery to je varování, že i bezpečnostní opatření je třeba testovat na dopad na crawlery.",
+   "takeaway": "Zkontrolujte nastavení ochrany proti botům (firewall, rate limiting, WAF) na vašem webu a ujistěte se, že neblokují Googlebot ani Seznam.cz robot. Sledujte Google Search Console a Sklik reporting – náhlý propad může signalizovat technický problém, ne změnu algoritmu.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/72ad5a2e51.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "c3f3647615",
+   "created": "2026-08-27T16:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-starts-rolling-out-hotel-booking-in-ai-mode/587288",
+     "title": "Google Starts Rolling Out Hotel Booking In AI Mode via @sejournal, @MattGSouthern",
+     "summary": "Google is rolling out hotel booking in AI Mode with Google Pay checkout. Flight alerts and rewards pricing are available in supported markets. The post Google Starts Rolling Out Hotel Booking In AI Mode appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-27T16:00:35+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-mode-travel-updates-41956.html",
+     "title": "Google AI Mode Adds Flight Price Tracking, Mile Rates & Hotel Booking",
+     "summary": "Google is rolling out three new travel features within AI Mode in Google Search. These features include track flight prices, view points or miles rates, and book hotels directly within AI Mode, through your conversational search.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-27T16:00:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google AI Mode umožňuje rezervovat hotely a sledovat ceny letenek",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Google zavádí do AI Mode (konverzačního vyhledávání) tři nové funkce pro cestování: sledování cen letenek, zobrazení cen v bodech/mílích a přímou rezervaci hotelů včetně platby přes Google Pay. Funkce se postupně spouští na podporovaných trzích.",
+   "why": "Pokud se funkce rozšíří do ČR/EU, změní to způsob, jakým uživatelé vyhledávají a rezervují cestování – místo klikání na weby hotelů nebo OTA mohou dokončit transakci přímo v AI odpovědi. To může snížit návštěvnost stránek ubytovacích zařízení a comparatorů.",
+   "takeaway": "Sledujte, kdy AI Mode dorazí do češtiny a zda zahrnuje česká ubytování. Pokud ano, testujte viditelnost vašich hotelů v AI odpovědích a zvažte připojení Google Pay. Majitelé hotelů by měli zkontrolovat strukturovaná data a integraci s Google Hotel Ads.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/c3f3647615.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "d7b5efe194",
+   "created": "2026-08-27T04:02:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-shortens-smart-bidding-adjustment-period",
+     "title": "Google Shortens Smart Bidding Adjustment Period",
+     "summary": "Google has updated its guidance on Smart Bidding adjustments , reducing the recommended waiting period from 3 conversion cycles or 4 weeks to 1-2 conversion cycles . This change reflects a shift in Google's assessment of how quickly its bidding systems can adapt to new strategies or goals. The updates affect multiple help documents within Google Ads, including the Target ROAS , Change Bid Strategy , and Smart Bidding Exploration best practices pages. This update implies that advertisers may experience shorter ramp-up periods when making changes, allowing for quicker data acquisition and perfor",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-27T04:02:00+00:00",
+     "score": 77
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google zkrátil doporučenou čekací dobu po změně Smart Biddingu",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Google aktualizoval doporučení pro úpravy Smart Biddingu v Google Ads. Doporučenou čekací dobu po změně strategie nebo cílů zkrátil z původních 3 konverzních cyklů nebo 4 týdnů na 1–2 konverzní cykly. Změna se promítla do víceHelP článků včetně dokumentace k Target ROAS a best practices pro Smart Bidding.",
+   "why": "Kratší čekací doba znamená, že algoritmus Google Ads se nyní adaptuje na změny rychleji. Pro inzerenty to může zkrátit dobu rozjezdu kampaní a umožnit rychlejší získávání dat i optimalizaci výkonu po úpravách bidovacích strategií.",
+   "takeaway": "Pokud měníte cíle nebo strategii Smart Biddingu (např. Target ROAS), nemusíte čekat celé 4 týdny – stačí 1–2 konverzní cykly. Zkontrolujte výkon kampaní dříve a podle potřeby upravte nastavení rychleji než doteď.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/d7b5efe194.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "fb0be5e58f",
+   "created": "2026-08-27T00:54:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-loyalty-member-bidding-controls",
+     "title": "Google Adds Loyalty Member Bidding Controls",
+     "summary": "Google Ads has added new customer retention controls for loyalty program members , giving advertisers more flexibility when optimizing campaigns for existing customers. Advertisers can now bid higher specifically for loyalty program members , separately from the existing option to adjust bidding for lapsed customers. Another setting lets advertisers show member benefits to loyalty program members in eligible countries. Google Ads API v25 also supports dedicated loyalty campaign goals , allowing advertisers to manage these retention settings programmatically. This update was uncovered by Arpan ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-27T00:54:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads umožňuje vyšší nabídky pro členy věrnostních programů",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Google Ads přidal nové nástroje pro práci s existujícími zákazníky. Inzerenti nyní mohou nastavit vyšší nabídky specificky pro členy věrnostních programů, odděleně od stávající možnosti upravovat nabídky pro neaktivní zákazníky. Nové nastavení také umožňuje zobrazovat členské benefity přímo v reklamách (v podporovaných zemích). Google Ads API v25 navíc podporuje dedikované cíle kampaní zaměřené na věrnostní programy.",
+   "why": "Řešení je relevantní pro e-shopy a služby s věrnostními programy, které chtějí efektivněji pracovat s retenčními kampaněmi. Dosud šlo upravovat nabídky jen obecně pro stávající zákazníky nebo ty neaktivní – nově lze cílit přesněji na registrované členy programů a komunikovat jim jejich výhody přímo v PPC reklamách.",
+   "takeaway": "Pokud provozujete věrnostní program, otestujte v Google Ads vyšší nabídky pro jeho členy a zvažte zobrazování členských benefitů v reklamách. Pokud používáte Google Ads API, nové cíle kampaní v API v25 umožní automatizovanou správu těchto nastavení.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/fb0be5e58f.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "e43d04b48e",
+   "created": "2026-08-26T23:51:56+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-adds-new-ai-subscription-packages/828904",
+     "title": "Meta adds new AI subscription packages",
+     "summary": "The company is looking to monetize its artificial intelligence investments even as a new report from Reuters sheds light on some internal challenges.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-26T23:51:56+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Meta spouští placené AI balíčky pro firmy",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Meta zavádí nové prémiové předplatné AI funkcí, kterými chce zpeněžit své investice do umělé inteligence. Jde o další krok v monetizaci AI nástrojů pro podnikatelské účely.",
+   "why": "Pro firmy využívající Meta platformy (Facebook, Instagram) k marketingu může jít o nové náklady nebo možnosti. Zatím není jasné, jaké konkrétní funkce balíčky obsahují a zda budou dostupné v EU.",
+   "takeaway": "Sledujte oznámení o dostupnosti a ceníku v ČR/EU. Pokud Meta zpřístupní prémiové AI nástroje (automatizace kampaní, vylepšené targetování, tvorba obsahu), vyhodnoťte, zda přínosy ospravedlní dodatečné náklady oproti stávajícím bezplatným funkcím.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "c37d2bedbd",
+   "created": "2026-08-26T23:30:52+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-revives-twitters-lead-gen-ads/828901",
+     "title": "X revives Twitter’s Lead Gen Ads",
+     "summary": "The platform updated some parts of the format while preserving the functionality of this previously retired call-to-action feature.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-26T23:30:52+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "X obnovil Lead Generation Ads po roční pauze",
+   "updated": "2026-08-28T01:08:30.844881+00:00",
+   "what": "Sociální síť X (dříve Twitter) znovu spustila formát Lead Generation Ads, který dříve zrušila. Jde o inzerci s call-to-action funkcí, která umožňuje sbírat kontakty přímo v rámci platformy. Platforma při obnově upravila některé části formátu, ale základní funkcionalita zůstává zachována.",
+   "why": "Pro firmy inzerující na X se vrací nástroj pro přímé získávání leadů bez nutnosti odkliknutí na externí stránku. To může zvýšit konverzní poměr a snížit cenu za lead zejména při mobilní inzerci.",
+   "takeaway": "Pokud inzerujete na X/Twitteru, zkontrolujte, zda je formát dostupný ve vašem ad manageru a zvažte A/B test proti klasickým link ads – lead gen formáty obvykle mají nižší bariéru vstupu a vyšší konverzi, ale je třeba ověřit kvalitu získaných kontaktů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "01115b6a6e",
+   "created": "2026-08-27T06:01:52+00:00",
+   "articles": [
+    {
+     "url": "https://blog.seznam.cz/2026/08/mobilni-aplikace-email-cz-ted-umi-navrhnout-predmet-e-mailu-nebo-shrnout-jeho-zneni",
+     "title": "Mobilní aplikace Email.cz teď umí navrhnout předmět e-mailu nebo shrnout jeho znění",
+     "summary": "Aplikace Seznam.cz Email, kterou lidé používají už přes deset let, dostává první funkce s umělou inteligencí i do mobilu. Nově umí sama navrhnout předmět e-mailu a shrnout obsah delší zprávy do pár vět. Funkce, které si uživatelé oblíbili na webu, jsou teď k dispozici i na cestách. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-08-27T06:01:52+00:00",
+     "score": 54
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/email-cz-na-mobilech-shrne-postu-a-vygeneruje-predmet-zpravy-seznam-pokracuje-v-zavadeni-ai",
+     "title": "Email.cz na mobilech shrne poštu a vygeneruje předmět zprávy, Seznam pokračuje v zavádění AI",
+     "summary": "Seznam pokračuje v zavádění prvků umělé inteligence v rámci svých produktů. Mobilní aplikace Email.cz nově umí shrnout e-maily do stručného textu. AI také zvládne na základě rozepsaného e-mailu navrhnout vhodný předmět.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-08-27T08:57:43+00:00",
+     "score": 55
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Email.cz přidává AI funkce do mobilní aplikace: shrnutí zpráv a návrh předmětu",
+   "updated": "2026-08-27T15:31:17.011951+00:00",
+   "what": "Mobilní aplikace Seznam.cz Email získává první AI funkce – automatické shrnutí delších e-mailů do několika vět a generování předmětu zprávy na základě rozepsaného textu. Funkce, které uživatelé znali z webové verze, jsou nyní dostupné i v mobilní aplikaci.",
+   "why": "Jde o rozšíření AI nástrojů Seznamu do každodenně používané mobilní komunikace. Pro firmy využívající Email.cz to může znamenat efektivnější práci s e-mailovou komunikací na mobilech, zejména při zpracování delší korespondence.",
+   "takeaway": "Pokud vaše firma nebo tým používá Email.cz, vyhodnoťte, zda AI shrnutí pomůže při mobilní práci s e-maily. Sledujte, jak Seznam postupně integruje AI do svých produktů – může to signalizovat budoucí změny i v dalších nástrojích (Sklik, Zboží.cz).",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
   },
   {
    "id": "7ba4a9be80",
@@ -2494,124 +2798,6 @@
    "image_from": "digichef.cz"
   },
   {
-   "id": "e13b3fe728",
-   "created": "2026-08-26T16:19:20+00:00",
-   "articles": [
-    {
-     "url": "https://cc.cz/meta-kvuli-zalobam-zaplati-az-372-miliard-korun-facebook-a-instagram-zavedou-pro-mladistve-omezeni-pristupu",
-     "title": "Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu",
-     "summary": "Nezletilí budou mít sítě jen dvě hodiny denně a v noci se jim zablokují. Pokud se přidají TikTok a YouTube, limit klesne na hodinu na každé síti. Článek Meta kvůli žalobám zaplatí až 372 miliard korun, Facebook a Instagram zavedou pro mladistvé omezení přístupu se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-08-26T16:19:20+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/meta-settles-landmark-child-safety-suit-for-more-than-usd17-billion",
-     "title": "Meta settles landmark child safety suit for more than $17 billion",
-     "summary": "The company agreed to implement additional safety measures—while calling on its rivals to do the same.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-08-26T20:07:41+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.lupa.cz/clanky/meta-se-vyhnula-soudu-a-detem-v-usa-omezi-pouzivani-socialnich-siti-co-si-z-toho-muze-odnest-evropa",
-     "title": "Meta se vyhnula soudu a dětem v USA omezí používání sociálních sítí. Co si z toho může odnést Evropa?",
-     "summary": "Právníci firmy Meta dosáhli dohody, která je pro majitele Facebooku a Instagramu poměrně výhodná. Jak se společnost zavázala změnit fungování svých sociálních sítí a jak se americký přístup liší od evropských záměrů?",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-27T10:00:18+00:00",
-     "score": 68
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 68,
-   "title": "Meta zaplatí 372 mld. Kč pokutu a omezí mladistvým přístup k Facebooku a Instagramu",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Meta uzavřela mimosoudní dohodu ve velkém sporu o bezpečnost dětí a zavázala se zaplatit více než 17 miliard dolarů (přes 372 mld. Kč). Součástí dohody jsou nová omezení: nezletilí v USA budou mít Facebook a Instagram jen dvě hodiny denně, v noci se účty zablokují. Pokud přidají TikTok nebo YouTube, limit klesne na hodinu na každou síť.",
-   "why": "Jde o precedentní případ, který mění podmínky fungování sociálních sítí. Omezení dopadnou na dosah i čas strávený na platformách – klíčové metriky pro plánování kampaní cílených na mladší publikum. V Evropě se podobná regulace také diskutuje, byť z jiných důvodů (DSA a ochrana nezletilých).",
-   "takeaway": "Pokud cílíte kampaně na mladé (15–18 let) na Facebooku nebo Instagramu, počítejte s nižší dostupností i časem stráveným na platformách. Sledujte, zda Meta podobná omezení zavede i v EU – mohlo by to ovlivnit dosah a náklady na kampaně.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/e13b3fe728.jpg",
-   "image_from": "cc.cz"
-  },
-  {
-   "id": "7bc2bd161a",
-   "created": "2026-08-27T15:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PS1pGVlIzY1RnVVhXM3c3cUlyRkVfTC00YnRHMTFaWEZVUmRpY3VGemwzX0wyZGF1SWVCb0VLN3ctemRoWUNZeHRWVG51cHVFTUhrR1FLMWJuekw4Zml0emgxMHh4eEJUU2ZOV2pCaW14d2hVaUt3?oc=5",
-     "title": "Moving from Google Display to Demand Gen: What you’ll lose and gain",
-     "summary": "Moving from Google Display to Demand Gen: What you’ll lose and gain &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-27T15:00:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google ruší Display kampaně, nahrazují je Demand Gen – co se mění",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Google postupně přesouvá inzerenty z klasických Display kampaní na novější formát Demand Gen. Jde o zásadní změnu v jednom ze základních typů kampaní v Google Ads.",
-   "why": "Demand Gen funguje jinak než Display – má odlišné nastavení cílení, formáty reklam i způsob měření výkonu. Inzerenti, kteří dosud používali Display kampaně, budují budou muset upravit strategie, kreativy i očekávání od výsledků.",
-   "takeaway": "Pokud používáte Display kampaně, připravte se na přechod na Demand Gen – prostudujte si rozdíly v nastavení, připravte nové kreativní formáty a počítejte s tím, že se mohou změnit dosah i výkon kampaní. Sledujte komunikaci od Googlu o harmonogramu migrace.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/7bc2bd161a.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "e40b179459",
-   "created": "2026-08-27T13:55:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-documents-campaign-level-tracking-pmax-product",
-     "title": "Microsoft Advertising Documents Campaign-Level Tracking for PMAX Product URLs",
-     "summary": "Microsoft Advertising has updated its help page to include campaign-level tracking for Performance Max shopping product URLs . The help page outlines that dynamic parameters such as {AdGroup} can be used in campaign-level tracking templates to populate asset group values.&nbsp; A sample UTM string is provided, demonstrating how tracking can be structured to optimize performance for shopping campaigns. See the help page for more details: Microsoft Advertising Documents Campaign-Level Tracking for Performance Max Product URLs . This update was uncovered by Hana Kobzová . The post Microsoft Adver",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-27T13:55:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Microsoft Ads dokumentuje sledování URL produktů na úrovni PMAX kampaní",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Microsoft Advertising aktualizoval nápovědu o sledování URL produktů v Performance Max kampaních pro nákupy. Nově je zdokumentováno, jak používat dynamické parametry (například {AdGroup}) v šablonách sledování na úrovni kampaně k naplnění hodnot ze skupin aktiv. Dokumentace obsahuje ukázkový UTM řetězec.",
-   "why": "Pro PPC specialisty pracující s Performance Max kampaněmi v Microsoft Ads jde o důležitou novinku v oblasti trackingu, která umožňuje lepší měření výkonu na úrovni skupin aktiv.",
-   "takeaway": "Pokud v Microsoft Ads používáte Performance Max kampaně pro produkty, projděte si novou dokumentaci a zvažte implementaci parametrů sledování na úrovni kampaně pro přesnější měření výkonu jednotlivých skupin aktiv.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "f2e6f92278",
-   "created": "2026-08-27T13:37:27+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/ai-search-citation-sources-trendos-spa/586289",
-     "title": "We Analyzed 107 Million AI Answers. Here’s Where Each Industry’s Citations Actually Come From via @sejournal, @trendos_com",
-     "summary": "Discover the top citation sources for AI answers and how they impact recommendations across major AI platforms. The post We Analyzed 107 Million AI Answers. Here&#8217;s Where Each Industry&#8217;s Citations Actually Come From appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-27T13:37:27+00:00",
-     "score": 60
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Analýza 107 milionů AI odpovědí odhalila hlavní zdroje citací podle odvětví",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Společnost Trendos analyzovala 107 milionů odpovědí z AI platforem a zmapovala, které weby jsou nejčastěji citovány v odpovědích AI asistentů napříč různými odvětvími a platformami.",
-   "why": "Ukazuje, které typy zdrojů AI platformy preferují při generování odpovědí. Pro firmy je klíčové vědět, zda a jak se mohou dostat do AI citací, protože to může ovlivnit jejich viditelnost mimo tradiční vyhledávání.",
-   "takeaway": "Zjistěte si, jaké weby AI cituje ve vašem odvětví, a vyhodnoťte, zda má smysl optimalizovat obsah pro AI odpovědi. Sledujte, zda se váš web nebo konkurence v AI citacích objevuje.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "24870e34ea",
    "created": "2026-08-27T13:00:00+00:00",
    "articles": [
@@ -2686,30 +2872,6 @@
    "multi_source": false
   },
   {
-   "id": "a8d64d03bb",
-   "created": "2026-08-27T11:53:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-aggregate-campaign-delivery-status",
-     "title": "Microsoft Advertising Rolls Out Aggregate Campaign Delivery Status",
-     "summary": "Microsoft Advertising has introduced a new aggregate delivery status feature in the Campaigns grid, now available for some users. This feature displays an overall delivery status for each campaign, summarizing the highest-priority issue affecting its performance. The updated help documentation provides a rewritten introduction on how campaign delivery statuses summarize campaign health and outlines a new procedure for reviewing a campaign's delivery status.&nbsp; Users can now click on the delivery status in the Delivery column to access diagnostic details and take necessary actions, such as r",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-27T11:53:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Microsoft Ads přidává souhrnný stav kampaní pro rychlejší diagnostiku problémů",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Microsoft Advertising zavádí novou funkci agregovaného stavu doručení (aggregate delivery status) v přehledu kampaní. Pro každou kampaň se zobrazuje celkový stav, který shrnuje problém s nejvyšší prioritou ovlivňující její výkon. Uživatelé mohou kliknout na stav v sloupci Delivery a zobrazit diagnostické detaily.",
-   "why": "Funkce zjednodušuje kontrolu stavu kampaní – namísto procházení jednotlivých upozornění vidí PPC specialista okamžitě hlavní problém každé kampaně na jednom místě. Šetří čas při denní správě účtu a urychluje reakci na výkonnostní problémy.",
-   "takeaway": "Pokud spravujete kampaně v Microsoft Ads, zkontrolujte, zda máte funkci dostupnou, a nastavte si pravidelnou kontrolu sloupce Delivery – ušetříte čas oproti ruční kontrole upozornění a rychleji odhalíte problémy s rozpočtem, targeting nebo schvalováním reklam.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "5c12a39949",
    "created": "2026-08-27T11:51:00+00:00",
    "articles": [
@@ -2727,30 +2889,6 @@
    "importance": 53,
    "title": "Bing Tests Renaming Copilot Search Answer To AI Overviews",
    "updated": "2026-08-27T15:27:06.330046+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "4ed15919c8",
-   "created": "2026-08-27T11:31:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/microsoft-advertising-ai-max-search-term-landing-page-report-41950.html",
-     "title": "Microsoft Advertising Search Term Landing Page Report For AI Max",
-     "summary": "Microsoft Advertising, with the release of AI Max globally, has rolled out a new Search term landing page reporting template. This report gives advertisers \"full insights into all parts of AI Max's performance,\" said Navah Hopkins, the Microsoft Ads Liaison.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-27T11:31:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Microsoft Advertising spustil reporting pro AI Max kampaně",
-   "updated": "2026-08-27T15:27:06.330046+00:00",
-   "what": "Microsoft Advertising globálně představil novou reportovací šablonu Search Term Landing Page Report pro své AI Max kampaně. Podle Navah Hopkins, Microsoft Ads Liaison, poskytuje report reklamním inzerentům kompletní přehled o výkonnosti všech částí AI Max.",
-   "why": "AI Max je nový formát kampaní v Microsoft Advertising, který využívá umělou inteligenci k optimalizaci reklam. Nový reporting umožňuje inzerentům detailněji sledovat, jak tyto AI-řízené kampaně fungují – konkrétně vztah mezi vyhledávacími dotazy a cílovými stránkami.",
-   "takeaway": "Pokud používáte Microsoft Advertising (alternativu k Google Ads), ověřte dostupnost tohoto reportu ve svém účtu – lepší reporting AI Max kampaní vám umožní přesnější vyhodnocení návratnosti investice a optimalizaci výkonu.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
