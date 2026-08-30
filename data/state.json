@@ -1,11 +1,11 @@
 {
- "last_run": "2026-08-30T19:23:18.505872+00:00",
+ "last_run": "2026-08-30T22:51:39.086029+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Search Engine Land",
@@ -101,7 +101,7 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -2342,7 +2342,9 @@
   "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16ZTROaVB1Z2V5YTBueE1iVUF3ZlRDV05PaTlFclpDVzZ6TktlcFBjM1pObWR0N1Bua1RnMk8tTHpSbXd6Nk91UnJlTGZQOWg3YU5qT293?oc=5": "2026-08-30T19:23:18.505872+00:00",
   "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcGVhS2NlN3ZKN1dlT3BWeGE1YllkNkRBdlpINERXQlRGTXJCNWdIbVZtVXdJVGJsRXhnSXRvWkoxS0pENG9ZczZBR1hpaHdVUW9GQXlGc3hUM1F4aDFKX3RiOG1WR3lkYnFQVWdRelRGbTJVVGtJdEFLc2xVVHNjR1ZCa01VSzFEckZyVFkyMXE1S0FNazhvYTlZUTl0ZksydVdfUQ?oc=5": "2026-08-30T19:23:18.505872+00:00",
   "https://cc.cz/umela-inteligence-utrzena-ze-retezu-az-bije-na-poplach-i-bill-gates-a-chrlic-novych-projektu": "2026-08-30T19:23:18.505872+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/evaluating-sponsored-results-animation-test-serp": "2026-08-30T19:23:18.505872+00:00"
+  "https://ppcnewsfeed.com/ppc-news/2026-08/evaluating-sponsored-results-animation-test-serp": "2026-08-30T19:23:18.505872+00:00",
+  "https://www.searchenginejournal.com/anthropic-warns-hackers-are-stealing-claude-sessions-to-hijack-accounts/587566": "2026-08-30T22:51:39.086029+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-08/swipeable-categories-tested-google-search-ads": "2026-08-30T22:51:39.086029+00:00"
  },
  "events": [
   {
@@ -2510,24 +2512,7 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-08-29T11:45:00+00:00",
      "score": 72
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads přidává samostatné nabídkování pro členy věrnostních programů",
-   "updated": "2026-08-30T19:24:14.015040+00:00",
-   "what": "Google Ads umožňuje inzerentům samostatně navyšovat nabídky (bidy) specificky pro členy věrnostních programů, odděleně od stávající možnosti upravovat nabídky pro neaktivní zákazníky. Nové nastavení také umožňuje zobrazovat členské výhody přímo členům věrnostních programů v podporovaných zemích. Funkce je dostupná i přes Google Ads API v25.",
-   "why": "Dává inzerentům větší kontrolu nad rozpočtem určeným na udržení stávajících zákazníků – mohou nyní cíleně investovat více do oslovení aktivních členů věrnostních programů, což může zvýšit efektivitu retention kampaní oproti dosavadnímu obecnému nastavení pro existující zákazníky.",
-   "takeaway": "Pokud provozujete věrnostní program, zkontrolujte nastavení kampaní v Google Ads – můžete nyní odlišit bidding pro aktivní členy programu a potenciálně zlepšit ROI retention kampaní. Zvažte také zobrazování členských výhod přímo v reklamách.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/fb0be5e58f.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "327a227640",
-   "created": "2026-08-28T05:05:00+00:00",
-   "articles": [
+    },
     {
      "url": "https://ppcnewsfeed.com/ppc-news/2026-08/short-title-attribute-performance-max",
      "title": "Short Title Attribute Now Used in Performance Max",
@@ -2630,15 +2615,39 @@
    ],
    "category": "ppc",
    "importance": 68,
-   "title": "Google Ads spouští A/B testování kreativ a AI nástroj pro tvorbu videí",
-   "updated": "2026-08-30T19:24:03.285685+00:00",
-   "what": "Google uvedl do Google Ads několik nových AI funkcí: automatizované A/B testování reklamních kreativ v Asset Studio na jedno kliknutí, real-time diagnostiku výkonu a AI doporučení pro optimalizaci. Zároveň přidal Gemini Omni – multimodální nástroj pro tvorbu videí přímo v Asset Studio, který umožňuje vytvářet videa z textových podnětů nebo statických materiálů pro kampaně na YouTube a Googlu.",
-   "why": "Dosud bylo testování kreativ časově náročné a vyžadovalo ruční nastavení. Nové funkce zjednodušují proces a umožňují rychleji najít nejlépe fungující varianty reklam. Gemini Omni snižuje náklady a čas potřebný na produkci videí pro Display a Video kampaně.",
-   "takeaway": "Pokud používáte Google Ads, vyzkoušejte nové A/B testování kreativ v Asset Studio – může vám rychle ukázat, které varianty reklam fungují lépe. Pokud potřebujete videa pro kampaně a nemáte na produkci rozpočet nebo čas, otestujte Gemini Omni pro generování videí z existujících materiálů.",
+   "title": "Google Ads: nové bidding pro věrnostní programy a křížová paměť Ask Advisoru",
+   "updated": "2026-08-30T22:52:11.391374+00:00",
+   "what": "Google Ads přidal možnost samostatně upravovat nabídky pro členy věrnostních programů (dosud šlo upravit pouze pro zaniklé zákazníky). Nově lze členům loyalty programů zobrazovat jejich výhody a nastavení spravovat i přes API. Zároveň Google zkrátil doporučenou dobu čekání na stabilizaci Smart Biddingu z 3–4 týdnů na 1–2 konverzní cykly. Ask Advisor (dostupný v Google Ads, Analytics, Merchant Center) získá sdílenou paměť napříč nástroji – udrží si kontext z předchozích konverzací a cílů v jiných platformách.",
+   "why": "Umožňuje lépe monetizovat stávající zákazníky a věrnostní programy (samostatné bidding strategie) a rychleji reagovat na změny kampaní (kratší čekací doba u Smart Biddingu). Sdílená paměť Ask Advisoru může zrychlit práci s daty a návrhy optimalizací napříč nástroji Google ekosystému.",
+   "takeaway": "Pokud provozujete věrnostní program, nastavte v kampani vyšší nabídky pro členy a otestujte dopad na ROAS. U změn Smart Bidding strategií počítejte s kratším vyhodnocovacím oknem (1–2 cykly místo 4 týdnů). Sledujte, kdy se zpřístupní křížová paměť Ask Advisoru – může zjednodušit reporty a návrhy napříč Ads a Analytics.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/327a227640.jpg",
+   "image": "img/fb0be5e58f.jpg",
    "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "1ac411baf8",
+   "created": "2026-08-30T19:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/swipeable-categories-tested-google-search-ads",
+     "title": "Swipeable Categories Tested in Google Search Ads",
+     "summary": "Google is testing swipeable categories in paid text ads. This feature allows users to swipe through a carousel of categories to see different sponsored results below. The update was shared&nbsp; Sachin Patel . The post Swipeable Categories Tested in Google Search Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-30T19:00:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google testuje přesunovatelné kategorie v textových reklamách",
+   "updated": "2026-08-30T22:51:39.086029+00:00",
+   "what": "Google testuje nový formát textových reklam s přesunovatelnými kategoriemi. Uživatelé mohou přejetím prstem procházet karusel kategorií a pod nimi vidět různé sponzorované výsledky.",
+   "why": "Jde o experimentální změnu v zobrazování Google Ads, která může ovlivnit, jak uživatelé interagují s placenými výsledky vyhledávání. Pokud se test rozšíří, může to mít dopad na CTR a strukturu kampaní.",
+   "takeaway": "Sledujte, zda se nový formát objeví v ČR. Pokud ano, může být potřeba upravit seskupení kampaní a klíčových slov podle kategorií, aby vaše reklamy odpovídaly novému zobrazení.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "24d5386393",
