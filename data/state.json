@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-01T19:28:03.635776+00:00",
+ "last_run": "2026-09-01T22:41:16.407812+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -82,8 +82,8 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 1
   },
   {
    "name": "APEK",
@@ -95,13 +95,13 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -275,7 +275,7 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hootsuite blog",
@@ -299,7 +299,7 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
@@ -389,13 +389,13 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   }
  ],
  "feed_overrides": {
@@ -2539,132 +2539,15 @@
   "https://cc.cz/nataceli-je-v-cesku-a-bude-vam-z-nich-tuhnout-krev-v-zilach-jeden-uvidite-v-kine-druhy-na-streamu": "2026-09-01T19:28:03.635776+00:00",
   "https://www.mediar.cz/mindsquared-expanduje-na-slovensko-pobocku-povede-radomir-cech": "2026-09-01T19:28:03.635776+00:00",
   "https://www.seroundtable.com/recap-09-01-2026-41989.html": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.marketingbrew.com/stories/humanity-in-advertising-ai-distrust": "2026-09-01T19:28:03.635776+00:00"
+  "https://www.marketingbrew.com/stories/humanity-in-advertising-ai-distrust": "2026-09-01T19:28:03.635776+00:00",
+  "https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab": "2026-09-01T22:41:16.407812+00:00",
+  "https://www.mediaguru.cz/kfc-zarazuje-do-nabidky-loaded-doritos-inspirovalo-se-trendem": "2026-09-01T22:41:16.407812+00:00",
+  "https://www.seroundtable.com/google-local-service-ads-bug-41999.html": "2026-09-01T22:41:16.407812+00:00",
+  "https://sproutsocial.com/insights/cross-posting-on-social-media": "2026-09-01T22:41:16.407812+00:00",
+  "https://www.mediar.cz/galerie-reklamy/sunar-ma-svuj-prvni-spot-v-ai-vytvorila-ho-agentura-bubble-s-mikolasem-bilkem": "2026-09-01T22:41:16.407812+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2UGlwNllsMFVYREtXVWp3YTltaVJoRWRTV1h6RE5PaDd5MWJPU0dzQ05oMmJlUUVFVTlZSlJyM1FPdVZhX2t5M0U5NzhtcWE5dF9wV1V1aFdVUXUzaXQ4RDQwRFpXeFJESkpaVGlvd1F0TVdrZnlB?oc=5": "2026-09-01T22:41:16.407812+00:00"
  },
  "events": [
-  {
-   "id": "edb30b6f42",
-   "created": "2026-09-01T11:30:55+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/meta-automatic-events-feature",
-     "title": "Meta Introduces a New Automatic Events Feature",
-     "summary": "Meta introduced a new Automatic Events feature that uses AI to detect and create website events. Here's how it differs from the old version. The post Meta Introduces a New Automatic Events Feature appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-09-01T11:30:55+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/business-agent-can-now-be-enabled-from-shopify",
-     "title": "Business Agent Can Now Be Enabled From Shopify",
-     "summary": "Google has updated its Business Agent help page to let Shopify merchants enable the AI powered shopping assistant directly through the Google &amp; YouTube app . Business Agent is a branded AI shopping assistant that appears when consumers search for a business on Google Search. Shoppers can use it to ask questions about the brand and its products.&nbsp; Previously, merchants could customize and activate their Business Agent through Merchant Center or their brand profile on Google Search . Now, the Google &amp; YouTube app has been added as a third option. A new recommendation card in the Goog",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-01T16:00:00+00:00",
-     "score": 64
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Meta spustila AI detekci událostí na webu, Google Business Agent přímo v Shopify",
-   "updated": "2026-09-01T19:29:37.365080+00:00",
-   "what": "Meta představila novou funkci Automatic Events, která pomocí AI automaticky detekuje a vytváří události na webu (konverze). Google zároveň umožnil obchodníkům na Shopify aktivovat AI asistenta Business Agent přímo z aplikace Google & YouTube – dosud šlo nastavení provést jen přes Merchant Center nebo Brand Profile.",
-   "why": "Obě novinky usnadňují nastavení klíčových nástrojů pro sledování a obsluhu zákazníků. Automatická detekce událostí Meta šetří čas při implementaci měření konverzí. Business Agent v Googlu zvyšuje interakci zákazníků s brandovými výsledky ve vyhledávání – aktivace přímo ze Shopify odstraňuje technickou bariéru pro e-shopy.",
-   "takeaway": "Pokud používáte Meta Ads a nemáte dokonale nastavené události, vyzkoušejte novou AI detekci. Majitelé Shopify shopů by měli zvážit aktivaci Business Agent v Google & YouTube aplikaci – jde o jednoduché rozšíření viditelnosti v Google Search.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/edb30b6f42.jpg",
-   "image_from": "jonloomer.com"
-  },
-  {
-   "id": "aa16ec6fc8",
-   "created": "2026-09-01T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/lookalike-segments-expand-video-campaigns",
-     "title": "Lookalike Segments Expand to Video Campaigns",
-     "summary": "Google Ads is expanding Lookalike segments to Video campaigns , giving advertisers another campaign type where they can reach new users who share characteristics with existing audiences. Previously, Lookalike segments were available only for Demand Gen campaigns. The expansion means advertisers running Video campaigns can now use their existing audience data to find and reach similar potential customers. Google recommends using at least 1,000 active users in the seed list for better audience quality and recommends using value based data when available. Read the official help page spotted by Ha",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-01T07:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-ai-generated-store-rating-reviews-41983.html",
-     "title": "Google Ads AI-Generated From The Store Rating Reviews Label",
-     "summary": "Google Ads has been testing AI-generated snippets and summaries in the sponsored results within Google Search for some time. But now Google is labeling a new section named \"What customers love\" as \"AI-generated from the store rating reviews.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-01T11:41:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads rozšiřuje Lookalike segmenty do video kampaní",
-   "updated": "2026-09-01T19:29:28.356846+00:00",
-   "what": "Google Ads zpřístupňuje Lookalike segmenty (publikum podobné existujícím zákazníkům) pro Video kampaně. Dosud byly dostupné pouze pro Demand Gen kampaně. Funkce umožňuje oslovit nové uživatele se stejnými charakteristikami jako stávající zákazníci.",
-   "why": "Pro inzerenty provozující video kampaně na YouTube to znamená nový způsob targetingu – mohou využít data o svých zákaznících k oslovení podobných lidí, místo jen demografického nebo obsahového zacílení. Google doporučuje použít minimálně 1 000 aktivních uživatelů v základním seznamu a pokud možno data založená na hodnotě zákazníka.",
-   "takeaway": "Pokud provozujete video kampaně na YouTube a máte kvalitní data o zákaznících (min. 1 000 aktivních uživatelů), otestujte Lookalike segmenty – mohou zlepšit kvalitu oslovených uživatelů. Připravte si srovnání s dosavadním targetingem (náklady, konverze).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/aa16ec6fc8.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "ffc0a72587",
-   "created": "2026-08-31T17:22:03+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWmlrbTZ6NFRlNnZyZ2psdjdKeEFBaTNUSFBRaTJIdnNaTmRCOWhsMlhWQzNzSkxXTTNmbThYM2dENDduanNmVjlyaHZJRm81UjBFeWUxa21KWDFaQ05VY2QtWFF2YUJTNzE3WTBRM2FkQURvN3NPUGJjXzRGTnJwSTRZdVItampGTlpsWWhXTFN2ZDNfLVlQVUxHNExmSVhlUEdTbU9iUGNSazhPcjVodDdJdlBfalQwdWdyUjJVT3NZQQ?oc=5",
-     "title": "Digital Services Act: Our seventh transparency report on content moderation in Europe",
-     "summary": "Digital Services Act: Our seventh transparency report on content moderation in Europe &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-08-31T17:22:03+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-continues-to-add-users-in-eu/829242",
-     "title": "TikTok continues to add users in EU",
-     "summary": "The platform&rsquo;s latest DSA disclosure reports show that it is maintaining momentum even though its moderation staff has shrunk significantly since 2024.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-31T22:50:02+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/australia-considers-algorithm-opt-out-laws/829243",
-     "title": "Australia considers algorithm opt-out laws",
-     "summary": "Following the country&rsquo;s social media restrictions, The Guardian reported that the government was exploring ways to let people control what they see in apps.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-31T23:10:04+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.lupa.cz/aktuality/evropska-komise-bude-prisneji-dohlizet-na-chatgpt-reddit-a-roblox-dosahnou-na-prilis-mnoho-lidi",
-     "title": "Evropská komise bude přísněji dohlížet na ChatGPT, Reddit a Roblox. Dosáhnou na příliš mnoho lidí",
-     "summary": "Evropská komise (EK) zařadila ChatGPT, Reddit a Roblox na seznam mimořádně velkých online platforem, u kterých hodlá uplatňovat přísněj&#353;í regulaci v rámci zákona o digitálních službách (DSA). Služby uvedly, že v EU oslovují v průměru nejméně 45 milionů obyvatel měsíčně, čímž splnily limit pro zařazení do této kategorie, uvádí EK.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-01T13:58:21+00:00",
-     "score": 75
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 68,
-   "title": "ChatGPT, Reddit a Roblox pod přísnější kontrolou EU – nová pravidla DSA",
-   "updated": "2026-09-01T19:29:19.275089+00:00",
-   "what": "Evropská komise zařadila ChatGPT, Reddit a Roblox na seznam mimořádně velkých online platfom (VLOP) podle zákona o digitálních službách (DSA). Služby dosáhly v EU alespoň 45 milionů aktivních uživatelů měsíčně, čímž splnily limit pro přísnější regulaci. TikTok zveřejnil sedmou zprávu o moderování obsahu podle DSA a nadále roste v počtu evropských uživatelů.",
-   "why": "Pro marketéry v ČR to znamená přísnější pravidla transparentnosti, moderování obsahu a podávání zpráv na těchto platformách. DSA ukládá povinnosti týkající se reklamy, algoritmů a ochrany uživatelů – změny mohou ovlivnit dostupnost reklamních formátů, targeting a reporting kampaní na těchto službách.",
-   "takeaway": "Sledujte změny v reklamních možnostech a podmínkách na Redditu a TikToku (pokud tyto platformy používáte). Připravte se na možné omezení targetingu nebo nové požadavky na transparentnost reklam v souladu s DSA. Australské úvahy o opt-outu z algoritmů zatím nemají přímý dopad na EU.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/ffc0a72587.jpg",
-   "image_from": "newsroom.tiktok.com"
-  },
   {
    "id": "0ca96c6703",
    "created": "2026-08-27T07:44:59+00:00",
@@ -2812,439 +2695,28 @@
      "domain": "marketingbrew.com",
      "published": "2026-08-31T11:00:00+00:00",
      "score": 52
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-renames-ai-max-text-guidelines-text-guardrails",
+     "title": "Microsoft Renames AI Max Text Guidelines to Text Guardrails",
+     "summary": "Microsoft has renamed its AI Max Text Guidelines to Text Guardrails in both the AI Max search campaign flow and Performance Max.&nbsp; Advertisers can edit these guardrails to set term exclusions , ensuring AI-generated text assets align with brand requirements. The exclusion limit remains up to 25 terms. Read the official help pages here: How do I create a Search campaign? &nbsp;and&nbsp; Create a Performance Max campaign . This update was spotted by Hana Kobzová . The post Microsoft Renames AI Max Text Guidelines to Text Guardrails appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-01T12:00:00+00:00",
+     "score": 70
     }
    ],
    "category": "ppc",
-   "importance": 75,
-   "title": "ChatGPT začíná testovat reklamu, česká Acomware je první certifikovaný partner",
-   "updated": "2026-09-01T19:29:10.637476+00:00",
-   "what": "OpenAI spouští reklamní formáty v ChatGPT a česká agentura Acomware je mezi prvními certifikovanými partnery, kteří je mohou testovat s klienty. Acomware otevřela waitlist pro české zadavatele, kteří chtějí reklamu vyzkoušet.",
-   "why": "Jde o zcela nový reklamní kanál s potenciálem velkého dosahu – ChatGPT má stamiliony aktivních uživatelů. Pro české marketéry je klíčové, že mají přímý přístup k beta testování přes certifikovaného lokálního partnera, což umožňuje rychle získat zkušenosti a konkurenční výhodu.",
-   "takeaway": "Pokud testujete nové kanály nebo máte rozpočet na experimenty, zvažte zařazení do waitlistu u Acomware – jde o early-access k potenciálně důležitému kanálu. Sledujte výsledky prvních kampaní a vyhodnoťte, zda má smysl reklamu v ChatGPT testovat s vašimi produkty nebo službami.",
+   "importance": 72,
+   "title": "ChatGPT začíná zobrazovat reklamy, česká agentura testuje s prvními klienty",
+   "updated": "2026-09-01T22:42:11.159479+00:00",
+   "what": "OpenAI spustilo reklamu v ChatGPT a česká agentura Acomware jako první v ČR otevřela program pro testování této reklamy s klienty. Agentura spouští waitlist pro zájemce.",
+   "why": "ChatGPT patří mezi nejpoužívanější AI nástroje v ČR a vstup reklamy znamená nový reklamní kanál s potenciálně vysokým dosahem. Pro české firmy a agentury jde o příležitost získat přístup mezi první inzerenty a vyzkoušet nový formát ještě před jeho masovým rozšířením.",
+   "takeaway": "Pokud zvažujete testování reklamy v AI nástrojích, kontaktujte Acomware a zapište se do waitlistu. Sledujte vývoj formátu a připravte se na alokaci testovacího rozpočtu pro nový kanál.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/0ca96c6703.jpg",
    "image_from": "mam.cz"
-  },
-  {
-   "id": "68561720b2",
-   "created": "2026-08-26T08:25:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.semrush.com/blog/google-august-2026-spam-update",
-     "title": "Google releases August 2026 spam update: What marketers need to know",
-     "summary": "Google‘s August 2026 spam update finished rolling out on August 21. Learn what changed, what didn‘t, and how to read your data.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-08-26T08:25:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
-     "title": "Google Search Ranking Volatility Continues Post Spam Update",
-     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:55:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
-     "title": "Has Google demoted listicles?",
-     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T12:00:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTYxaXNFeUVZSHZMdGZYanJ2QjNhUExKNmhIM1RxS2cxd0JhNjFtY3IxVmRSZkJOc01NUWRKVElLMTJnSUZxSkRCSkFlM1VHVE4xUXc4clZIbTE4OVJZeVQtUFpEUWRNeXNtNE9qTUFWQTlMMHNRZ0xPUFZ2b09WempKQzRNanVQY28wdXJtemRlX1JHOEcwTS1aRQ?oc=5",
-     "title": "Google adds link carousels for developing topics in AI Mode",
-     "summary": "Google adds link carousels for developing topics in AI Mode &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-26T14:45:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html",
-     "title": "Bing Tests Shorts Video Tab In Search Menu",
-     "summary": "Microsoft Bing is testing a new \"Shorts\" tab in the search menu on Bing Search. This should filter the results by short videos across YouTube, Instagram, TikTok, Facebook and so on. The tab is called \"Shorts\" and looks like a video play icon in vertical format.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T11:21:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWW1LYUN4WHNldDJISWdvUFZ6bUhlMTZINVJ1dVBqaVZYQ2ZCRmkxU0pnNDgxZENnQTNUTEs1UnhtaURvVWE2SnZHeHlCcVZCMjRiQl9qQTNZSnRzNWl4V25DaW1rTUQxbGlXLUZjakJzR3IyeVppT1U4MEpWT2ZUcmtJXzJRQXpT?oc=5",
-     "title": "Google’s August 2026 spam update hit rankings harder than normal",
-     "summary": "Google’s August 2026 spam update hit rankings harder than normal &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-27T15:21:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-judge-questions-google-ai-spam-update-fallout/587325",
-     "title": "Judge Questions Google AI, Spam Update Fallout – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "This week’s SEO Pulse covers Google’s AI publisher dispute, spam update fallout, the GEO debate, AI citation gaps, and ChatGPT’s Reddit behavior in search. The post Judge Questions Google AI, Spam Update Fallout – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-29T12:30:49+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.searchenginejournal.com/judge-in-penske-vs-google-says-ai-situation-seems-really-unfair/587216",
-     "title": "Judge In Penske Vs Google Says AI Situation “Seems Really Unfair” via @sejournal, @martinibuster",
-     "summary": "Judge who ruled that Google is a monopoly said in the Penske vs Google hearing that the AI Overviews situation \"seems really unfair.\" The post Judge In Penske Vs Google Says AI Situation &#8220;Seems Really Unfair&#8221; appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-26T22:06:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/ai-tools-recommend-brands-but-cite-other-sites-data-shows/587160",
-     "title": "AI Tools Recommend Brands But Cite Other Sites, Data Shows via @sejournal, @MattGSouthern",
-     "summary": "A report finds AI tools often recommend brands while citing other websites as the source. The post AI Tools Recommend Brands But Cite Other Sites, Data Shows appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-26T21:13:06+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY1ZxZGMtWk1TN2J5TVdZZHg3Y012Y3FTVzdKR2RFejI0TDJpZUFQY0l2V2hrMkx5OXh5R0xLU3VPczM4NGtac29vLXZHa1dRVkFRcWtyQ3lkWU5PMGFVM1l0THg0UXpPYkJDcWFUdEVnRDV4cHM3ekdhemVyZ0dwaTAtaFRveDQyRy1YdmNtMzd5eVZpRmZDbkxIRDV1X0hOZF9QdGdnbF9YaUlfT2x3SnF6VnVTQXFfYkJRN2NPUQ?oc=5",
-     "title": "Google won’t respect manual actions for site reputation abuse in European Economic Area",
-     "summary": "Google won’t respect manual actions for site reputation abuse in European Economic Area &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-28T05:00:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-site-reputation-policy-eea-41968.html",
-     "title": "Google Won't Enforce Its Site Reputation Policy Manual Actions In Europe",
-     "summary": "Google announced it will not enforce manual actions under the site reputation abuse policy in the European Economic Area (EEA) due to a mandate set by the European Commission, effective August 30, 2026. Google said searchers in the EEA will not benefit from Google's spam prevention for sites labeled for site reputation abuse.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-28T05:00:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-updates-site-reputation-abuse-policy-removes-penalties-in-eea/587423",
-     "title": "Google Updates Site Reputation Abuse Policy: Removes Penalties In EEA via @sejournal, @martinibuster",
-     "summary": "Google is replacing site reputation abuse manual actions in the EEA with a system that can rank affected site sections independently. The post Google Updates Site Reputation Abuse Policy: Removes Penalties In EEA appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-28T11:18:58+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
-     "title": "Update to the Site Reputation Policy",
-     "summary": "In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that site's good reputation to rank higher in Search. This practice hurts search quality, and creates a bad experience for users.",
-     "source": "Google Search Central Blog",
-     "domain": "developers.google.com",
-     "published": "2026-08-28T00:00:00+00:00",
-     "score": 80
-    },
-    {
-     "url": "https://www.searchenginejournal.com/add-google-preferred-sources-button-website/586908",
-     "title": "How To Add Google’s Preferred Sources Button To Your Website via @sejournal, @vahandev",
-     "summary": "Add Google's Preferred Sources button with the standard embed, a configurable WordPress widget, or a deeplink. The post How To Add Google&#8217;s Preferred Sources Button To Your Website appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-28T19:00:53+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.seroundtable.com/google-announces-search-updates-41969.html",
-     "title": "Google Announces Search Updates For Transparency, Actionable Updates Get Blog Posts",
-     "summary": "Google's John Mueller said Google \"primarily\" announces search updates to provide \"transparency for site owners.\" He added that when Google publishes blog posts, updates policies, and help center documentation, that is an actionable announcement site owners could use.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-28T11:41:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-answers-if-updates-come-with-actionable-seo-signals/587432",
-     "title": "Google Answers If Updates Come With Actionable SEO Signals via @sejournal, @martinibuster",
-     "summary": "Google explains why a named update can shake up rankings without giving affected site owners anything specific to act on. The post Google Answers If Updates Come With Actionable SEO Signals appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-28T11:45:08+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-goto-tracking-41957.html",
-     "title": "Google Search Rolling Out google.com/goto Tracking Parameters?",
-     "summary": "Google Search seems like it is rolling out the google.com/goto URL as a passthrough URL within the search results that it began testing in July 2026. This seems like a way for Google to help prevent scraping of its search results by third-party tools and AI companies but Google has not yet commented on this goto URL paramter.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-26T21:01:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/irs-website-drops-google-search-41967.html",
-     "title": "IRS Website Drops Heavily In Google Search",
-     "summary": "Over the past few days, the IRS website (and other government sites) has tanked within Google's search results. My gut feeling is that the federal government implemented some bot-blocking that was too aggressive and blocked Google, among others, resulting in Google not fully showing the IRS website. I believe the IRS implemented some fixes, and the website is slowly coming back in Google Search.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-27T18:23:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRHZUV3BlQ1A3V29mRDVFYmF3d3pfZUI3ZG9uWWg0emRUeFhqcmVZTm1jQndNUWViV1MxLVVFWVpLeFYwMU5aUzgzemRBM2JPczBRUmhORC1nZkpmMEotRUp6WUZYWGwxLWxMY29Ua1M5a0pPQ2VXc3Q0QXhod3hkV0tTN0FDTFVnUW5LeXRUUFZLcF9odHRIc01rRjhKZnJGVnRwTTJ4Zw?oc=5",
-     "title": "Google confirms deploying goto URL redirects to search results links",
-     "summary": "Google confirms deploying goto URL redirects to search results links &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-27T00:13:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-spam-team-fighting-41980.html",
-     "title": "Google Confirms Search Spam Team Is Fighting & Well Resourced",
-     "summary": "Rajan Patel, VP of Engineering for Google Search, has confirmed that the Google Search team is still well-resourced in its fight against search spam. The spam team continues to update its spam algorithms, such as the latest Google August 2026 spam update, to help reduce spam in Google Search results.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-31T11:21:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/recap-08-31-2026-41981.html",
-     "title": "Daily Search Forum Recap: August 31, 2026",
-     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google Search is making AI Overviews fully expanded for some queries, making it more like AI Mode and pushing the core search results down...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-31T14:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836",
-     "title": "Google Search Console AI Reports Rolled Out Worldwide via @sejournal, @MattGSouthern",
-     "summary": "Google says Search Console's generative AI performance reports, which track AI Overviews and AI Mode impressions, have now rolled out to all sites worldwide. The post Google Search Console AI Reports Rolled Out Worldwide appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-31T19:04:38+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJYVFg1eDdGdjduWU4xUE9xeTdLWDg1QXJZTzZlVk03cVFtaU8tN2tCcjIzeVNLbW51NlZiRUx3UWJNeklsMlVrUU5Fd1hfS3BWTHJxWXpZaFoyaU5PRzNRYkJrWTh0d0VnYW1wMllia05zb3U2WVd0TW5zS292anh2dURqZHJQLUF5VFlneFdna01DWnA2Y3hOLVB2bEltbVp3VEZJRUdUZVZhVWxtUTQxd21yR3F4QzVTdnlheUZ0WFZuV0Jnd080MmphZ1E?oc=5",
-     "title": "Google Search Console AI performance reports and Search generative AI control rolling out globally",
-     "summary": "Google Search Console AI performance reports and Search generative AI control rolling out globally &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-08-31T15:15:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-indexing-issues-41972.html",
-     "title": "Google Search Having Indexing/Serving Issues August 28th",
-     "summary": "Google Search seems to be having indexing or serving issues in the past hour or so. New content from the past hour doesn't seem to be showing up in Google Search results. Content from the Wall Street Journal, New York Times, CNN and other news sites that post content constantly are not showing much or any new pages in the Google search results.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-28T11:15:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/update-to-masthead-format-requirements",
-     "title": "Update to Masthead Format Requirements",
-     "summary": "In September 2026 , Google will update the requirements for Google TV masthead ads . The new guidelines include the allowance of assets depicting alcohol , specific consumer electronics like headphones and computers, and content related to healthcare and medicines .&nbsp; Additionally, certain assets related to gambling , such as sports betting and Daily Fantasy Sports targeting the U.S. and Canada, will also be permitted. However, other gambling-related content remains prohibited. The update will also introduce a list of common policy disapproval reasons for masthead ads and enhance the clari",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-28T12:53:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-max-adds-channel-prioritization-controls",
-     "title": "Performance Max Adds Channel Prioritization Controls",
-     "summary": "A new feature for Performance Max campaigns enables advertisers to adjust channel priorities based on their business importance. This Alpha allows advertisers to control how conversions are prioritized across channels, including Search , YouTube , Gmail , and more. Priority sliders can be set from Low to High , influencing CPA bid adjustments for each channel when using tCPA bidding. Lowering a channel's priority will lead Google Ads to increase the CPA bid for that specific channel, giving advertisers more control over Performance Max campaign performance. Adjustments are available for the fo",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-31T03:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/book-online-buttons-expand-search-performance-max",
-     "title": "“Book Online” Buttons Expand to Search and Performance Max",
-     "summary": "Google is expanding the \"Book Online\" button through Reserve with Google partner integration to Search and Performance Max campaigns. Previously, this was only available on Google Local Service Ads and Maps ads. Clicking the Book button will direct searchers from Google Ads to an advertiser's scheduling platform to book appointments. This feature does not require additional setup from advertisers. It's worth noting that this update is not applicable to healthcare campaigns as Google Ads does not allow booking links or goals for these sectors. This update was shared by Michel van Luijtelaar &nb",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-30T17:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/swipeable-categories-tested-google-search-ads",
-     "title": "Swipeable Categories Tested in Google Search Ads",
-     "summary": "Google is testing swipeable categories in paid text ads. This feature allows users to swipe through a carousel of categories to see different sponsored results below. The update was shared&nbsp; Sachin Patel . The post Swipeable Categories Tested in Google Search Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-08-30T19:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-mode-shopping-carousel-ads-41973.html",
-     "title": "Google AI Mode With Inline Shopping Carousel Ads & Single Ad Unit",
-     "summary": "Google is now showing shopping ads in a carousel format inline within AI Mode results. Plus, Google is also showing a similar ad unit at the bottom of the AI Mode results. We got a lot of ads in AI Mode now, and I guess Google is looking for more and more ways to monetize those ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-31T11:11:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-pmax-help-doc-updated-41982.html",
-     "title": "Google Ads Performance Max Help Docs Updated",
-     "summary": "On Friday, Google pushed out a pretty big overhaul of the Performance Max documentation within the Google Ads support area. I've been waiting to compare the old and new documents, but the Wayback Machine has been down for about a week now.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-01T11:31:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.jonloomer.com/qvt/existing-customer-exclusions",
-     "title": "Check Your Existing Customer Exclusions",
-     "summary": "What&#8217;s going on here? Meta introduced Customer Lifecycle Strategy a few months ago. It allows you to define whether you want to get conversions from all audiences or only acquire new customers. When you choose to acquire new customers, you’ll need to define the custom audiences you want to exclude. But Meta is doing something... Read more &#187; The post Check Your Existing Customer Exclusions appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-08-31T13:30:59+00:00",
-     "score": 65
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google srpnový spam update zasáhl žebříčky silněji než obvykle",
-   "updated": "2026-09-01T19:28:58.469713+00:00",
-   "what": "Google dokončil 21. srpna 2026 svůj srpnový spam update. Podle více zdrojů měl tentokrát silnější dopad na pozice stránek než běžné spam updaty a volatilita ve výsledcích vyhledávání přetrvává i po jeho oficiálním ukončení. Některé zdroje spekulují o možném poklesu pozic pro články typu \"listicle\" (seznamy), ale není to potvrzené.",
-   "why": "Spam updaty přímo ovlivňují viditelnost webů v Googlu. Pokud update zasáhl silněji než obvykle a volatilita pokračuje, mohou se pozice stránek měnit i týdny po oficiálním konci – což komplikuje vyhodnocení dopadů a rozhodování o SEO strategii.",
-   "takeaway": "Sledujte pozice svých klíčových stránek v následujících týdnech – změny nemusí být definitivní. Pokud jste zaznamenali pokles, nevyhodnocujte to okamžitě jako trvalou ztrátu. U obsahu typu seznamy (\"10 tipů jak...\") si všímejte, zda nedochází k poklesu – není to oficiálně potvrzené, ale objevují se na to náznaky.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/47472ffd48.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "f1eac83993",
-   "created": "2026-08-31T16:13:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-european-search-dataset-licensing-program-41986.html",
-     "title": "Google European Search Dataset Licensing Program Details",
-     "summary": "Google has updated its Google European Search Dataset Licensing Program page with details on the program. Google has been designated as a \"gatekeeper\" under the DMA and is thus legally required to share its search data with competing search engines to foster fair competition.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-31T16:13:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-details-who-can-license-its-search-data-in-europe/587995",
-     "title": "Google Details Who Can License Its Search Data In Europe via @sejournal, @MattGSouthern",
-     "summary": "Google published eligibility rules, samples, and key dates for licensing ranking, query, click, and view data from EEA Search under the EU's Digital Markets Act. The post Google Details Who Can License Its Search Data In Europe appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-01T17:20:25+00:00",
-     "score": 77
-    }
-   ],
-   "category": "seo",
-   "importance": 77,
-   "title": "Google European Search Dataset Licensing Program Details",
-   "updated": "2026-09-01T19:28:03.635776+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f1eac83993.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "bee6d7238f",
-   "created": "2026-09-01T19:00:47+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/the-technical-signals-ai-search-uses-that-most-seos-still-arent-optimizing/586381",
-     "title": "The Technical Signals AI Search Uses That Most SEOs Still Aren’t Optimizing",
-     "summary": "Getting cited in AI responses is the easy part. Our audit of 50 major websites shows where real AI readiness begins. The post The Technical Signals AI Search Uses That Most SEOs Still Aren&#8217;t Optimizing appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-01T19:00:47+00:00",
-     "score": 70
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Audit 50 webů odhalil: SEO pro AI vyhledávání vyžaduje jinou optimalizaci",
-   "updated": "2026-09-01T19:28:03.635776+00:00",
-   "what": "Search Engine Journal publikoval audit 50 velkých webů, který ukazuje, že získat citaci v AI odpovědích je snadné, ale skutečná připravenost na AI vyhledávání vyžaduje optimalizaci technických signálů, které většina SEO specialistů dosud neřeší.",
-   "why": "S nástupem AI vyhledávání (ChatGPT Search, Google SGE, Perplexity) se mění způsob, jak uživatelé hledají informace. Weby, které neoptimalizují pro tyto nové technické signály, mohou ztrácet viditelnost i u kvalitního obsahu.",
-   "takeaway": "Sledujte vývoj AI vyhledávání a připravte se na to, že klasické SEO signály nemusí stačit. Požádejte SEO specialistu nebo agenturu o audit technické připravenosti webu na AI search. Pro udržení viditelnosti bude třeba postupně přizpůsobit technickou strukturu a způsob prezentace obsahu.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/bee6d7238f.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "4ae75018c7",
-   "created": "2026-09-01T15:34:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGhNZjVyblVwQlZmSy13ZVFZdzVQdWpJQUVJTF9pNTNxdklweFYtM3QyM2lOamdEajlOQ2VkVFpDZ3hHTW41WlJQWEVDeDJ0U09xREVpOEQ1eVN5OWN6NmVxSkw4bjBPaUVLbzliTDdOV2VWV0J0R3FIY3oyQ01BTjQ4dmM2TFVFcENESVdtNUhhN2tZNkVYVnZoQW1qZkhsOWRCVg?oc=5",
-     "title": "Google AdSense to change how it counts impressions: Begin-to-Render",
-     "summary": "Google AdSense to change how it counts impressions: Begin-to-Render &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-01T15:34:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google AdSense mění způsob počítání impresí na Begin-to-Render",
-   "updated": "2026-09-01T19:28:03.635776+00:00",
-   "what": "Google AdSense zavádí novou metriku Begin-to-Render (B2R) pro počítání impresí. Jde o změnu v tom, kdy systém zaznamenává zobrazení reklamy.",
-   "why": "Změna může ovlivnit reportované počty impresí a tím i metriky výkonu (CTR, viewability) pro vydavatele i inzerenty využívající AdSense. Pokud jste publisher s AdSense nebo inzerujete přes Google Display Network, můžete zaznamenat změny v datech.",
-   "takeaway": "Sledujte metriky AdSense po zavedení změny – můžete vidět pokles počtu impresí, ale to neznamená pokles skutečného zobrazení reklam. Podle dostupného zdroje není jasné, kdy změna nabývá účinnosti ani detaily implementace – očekávejte oficiální komunikaci od Google.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "3c032953fd",
-   "created": "2026-08-27T21:02:09+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/x-launches-api-for-business-chatbot-accounts/829029",
-     "title": "X launches API for business chatbot accounts",
-     "summary": "The custom function will let brands build their own automated response agents and offer customers access to answers when they need them.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-27T21:02:09+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-adds-amazon-affiliate-links/829031",
-     "title": "YouTube adds Amazon affiliate links",
-     "summary": "Creators will be able to tag a curated list of products from the online retailer in their videos and earn commissions from every resulting sale.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-27T23:10:15+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/snapchat-expands-unified-attribution-to-all-advertisers/829236",
-     "title": "Snapchat expands Unified Attribution to all advertisers",
-     "summary": "The update is designed to help marketers better understand ad performance metrics and share more perspective on campaigns.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-08-31T21:31:40+00:00",
-     "score": 62
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "YouTube spouští affiliate program s Amazonem, tvůrci mohou vydělávat na provizích",
-   "updated": "2026-09-01T15:05:00.425298+00:00",
-   "what": "YouTube umožňuje tvůrcům označovat produkty z Amazonu přímo ve svých videích a získávat provize z každého prodeje. Jde o rozšíření affiliate možností platformy.",
-   "why": "Pro české firmy prodávající přes Amazon nebo spolupracující s YouTubery to znamená nový způsob, jak řídit influencer marketing – tvůrci dostanou přímý nástroj na monetizaci doporučení, což může ovlivnit formu spolupráce a vyjednávání.",
-   "takeaway": "Pokud pracujete s YouTubery nebo máte produkty na Amazonu, sledujte, jak se tato funkce rozšíří do EU (zatím není potvrzena dostupnost v ČR). Může to změnit způsob odměňování influencerů – místo fixních poplatků budou chtít provize z prodeje.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "7949f1f96b",
@@ -3897,19 +3369,578 @@
      "domain": "searchenginejournal.com",
      "published": "2026-09-01T12:00:02+00:00",
      "score": 57
+    },
+    {
+     "url": "https://www.searchenginejournal.com/the-technical-signals-ai-search-uses-that-most-seos-still-arent-optimizing/586381",
+     "title": "The Technical Signals AI Search Uses That Most SEOs Still Aren’t Optimizing",
+     "summary": "Getting cited in AI responses is the easy part. Our audit of 50 major websites shows where real AI readiness begins. The post The Technical Signals AI Search Uses That Most SEOs Still Aren&#8217;t Optimizing appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-01T19:00:47+00:00",
+     "score": 70
     }
    ],
    "category": "seo",
-   "importance": 72,
-   "title": "Viditelnost v AI vyhledávačích – nové nástroje pro měření AEO",
-   "updated": "2026-09-01T15:04:41.299943+00:00",
-   "what": "Světoví i čeští hráči spouštějí nástroje pro měření viditelnosti značek v AI vyhledávačích (ChatGPT, Gemini, Perplexity). HubSpot uvádí AEO modul, Ahrefs Brand Radar, Semrush i SE Ranking přidávají funkce pro AEO tracking. Česká agentura Taste uvedla vlastní nástroj AIVA.",
-   "why": "Uživatelé se ptají AI asistentů místo Googlu – pokud vás AI nezmíní v odpovědi, neexistujete v nákupním procesu. Klasické SEO metriky (pozice, kliky) nedokážou zachytit, zda a jak vás AI doporučuje.",
-   "takeaway": "Sledujte, zda a kdy vás AI nástroje zmiňují u relevantních otázek. Vyzkoušejte dostupné AEO nástroje (např. český AIVA nebo zahraniční Ahrefs, HubSpot, Semrush) a identifikujte mezery – kde konkurence figuruje a vy ne. Upravte strukturu a zdroje obsahu tak, aby AI měla k vašim faktům snadný přístup.",
+   "importance": 68,
+   "title": "Nástroje na měření viditelnosti v AI odpovědích – srovnání AIVA, HubSpot, Ahrefs, Semrush",
+   "updated": "2026-09-01T22:41:57.096170+00:00",
+   "what": "Na trh přichází série nástrojů pro měření viditelnosti značek v AI odpovědích (ChatGPT, Gemini, Perplexity). Česká agentura Taste představila AIVA, mezinárodně se prosazují HubSpot AEO, Ahrefs Brand Radar, Semrush AI visibility a SISTRIX AI Check. Všechny řeší stejný problém: uživatelé stále častěji dostávají doporučení přímo z AI, bez návštěvy webu.",
+   "why": "Klasické SEO metriky (pozice ve vyhledávači, návštěvnost) už nezachycují, jestli vás AI asistenti vůbec zmiňují při doporučování produktů nebo služeb. Pokud vaše značka v AI odpovědích chybí, může vás zákazník vyřadit ještě před návštěvou webu. Nástroje umožňují identifikovat, kdy a proč konkurence dostává zmínky a vy ne.",
+   "takeaway": "Sledujte, zda máte v plánu měřit AI viditelnost – zejména pokud prodáváte B2B nebo produkty, které lidé porovnávají přes ChatGPT a Perplexity. Otestujte dostupné nástroje (český AIVA, mezinárodní Semrush či Ahrefs) a zjistěte, zda vás AI vůbec zmiňují při relevantních dotazech. Bez této kontroly můžete ztrácet poptávku, aniž byste to ze standardní analytiky poznali.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/7949f1f96b.jpg",
    "image_from": "digichef.cz"
+  },
+  {
+   "id": "68561720b2",
+   "created": "2026-08-26T08:25:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.semrush.com/blog/google-august-2026-spam-update",
+     "title": "Google releases August 2026 spam update: What marketers need to know",
+     "summary": "Google‘s August 2026 spam update finished rolling out on August 21. Learn what changed, what didn‘t, and how to read your data.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-08-26T08:25:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html",
+     "title": "Google Search Ranking Volatility Continues Post Spam Update",
+     "summary": "As you know, Google's August 2026 spam update began on August 18th and concluded on August 21st. But the volatility has not calmed down since and I think it is time I document it. We've been seeing chatter within the SEO community, in addition to the third-party Google tracking tools pick up on volatility within the Google Search results after the conclusion of the August spam update.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:55:00+00:00",
+     "score": 61
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5",
+     "title": "Has Google demoted listicles?",
+     "summary": "Has Google demoted listicles? &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T12:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTYxaXNFeUVZSHZMdGZYanJ2QjNhUExKNmhIM1RxS2cxd0JhNjFtY3IxVmRSZkJOc01NUWRKVElLMTJnSUZxSkRCSkFlM1VHVE4xUXc4clZIbTE4OVJZeVQtUFpEUWRNeXNtNE9qTUFWQTlMMHNRZ0xPUFZ2b09WempKQzRNanVQY28wdXJtemRlX1JHOEcwTS1aRQ?oc=5",
+     "title": "Google adds link carousels for developing topics in AI Mode",
+     "summary": "Google adds link carousels for developing topics in AI Mode &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-26T14:45:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-shorts-video-tab-41892.html",
+     "title": "Bing Tests Shorts Video Tab In Search Menu",
+     "summary": "Microsoft Bing is testing a new \"Shorts\" tab in the search menu on Bing Search. This should filter the results by short videos across YouTube, Instagram, TikTok, Facebook and so on. The tab is called \"Shorts\" and looks like a video play icon in vertical format.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T11:21:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWW1LYUN4WHNldDJISWdvUFZ6bUhlMTZINVJ1dVBqaVZYQ2ZCRmkxU0pnNDgxZENnQTNUTEs1UnhtaURvVWE2SnZHeHlCcVZCMjRiQl9qQTNZSnRzNWl4V25DaW1rTUQxbGlXLUZjakJzR3IyeVppT1U4MEpWT2ZUcmtJXzJRQXpT?oc=5",
+     "title": "Google’s August 2026 spam update hit rankings harder than normal",
+     "summary": "Google’s August 2026 spam update hit rankings harder than normal &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-27T15:21:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-judge-questions-google-ai-spam-update-fallout/587325",
+     "title": "Judge Questions Google AI, Spam Update Fallout – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "This week’s SEO Pulse covers Google’s AI publisher dispute, spam update fallout, the GEO debate, AI citation gaps, and ChatGPT’s Reddit behavior in search. The post Judge Questions Google AI, Spam Update Fallout – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-29T12:30:49+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.searchenginejournal.com/judge-in-penske-vs-google-says-ai-situation-seems-really-unfair/587216",
+     "title": "Judge In Penske Vs Google Says AI Situation “Seems Really Unfair” via @sejournal, @martinibuster",
+     "summary": "Judge who ruled that Google is a monopoly said in the Penske vs Google hearing that the AI Overviews situation \"seems really unfair.\" The post Judge In Penske Vs Google Says AI Situation &#8220;Seems Really Unfair&#8221; appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T22:06:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/ai-tools-recommend-brands-but-cite-other-sites-data-shows/587160",
+     "title": "AI Tools Recommend Brands But Cite Other Sites, Data Shows via @sejournal, @MattGSouthern",
+     "summary": "A report finds AI tools often recommend brands while citing other websites as the source. The post AI Tools Recommend Brands But Cite Other Sites, Data Shows appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-26T21:13:06+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY1ZxZGMtWk1TN2J5TVdZZHg3Y012Y3FTVzdKR2RFejI0TDJpZUFQY0l2V2hrMkx5OXh5R0xLU3VPczM4NGtac29vLXZHa1dRVkFRcWtyQ3lkWU5PMGFVM1l0THg0UXpPYkJDcWFUdEVnRDV4cHM3ekdhemVyZ0dwaTAtaFRveDQyRy1YdmNtMzd5eVZpRmZDbkxIRDV1X0hOZF9QdGdnbF9YaUlfT2x3SnF6VnVTQXFfYkJRN2NPUQ?oc=5",
+     "title": "Google won’t respect manual actions for site reputation abuse in European Economic Area",
+     "summary": "Google won’t respect manual actions for site reputation abuse in European Economic Area &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-28T05:00:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-site-reputation-policy-eea-41968.html",
+     "title": "Google Won't Enforce Its Site Reputation Policy Manual Actions In Europe",
+     "summary": "Google announced it will not enforce manual actions under the site reputation abuse policy in the European Economic Area (EEA) due to a mandate set by the European Commission, effective August 30, 2026. Google said searchers in the EEA will not benefit from Google's spam prevention for sites labeled for site reputation abuse.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-28T05:00:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-updates-site-reputation-abuse-policy-removes-penalties-in-eea/587423",
+     "title": "Google Updates Site Reputation Abuse Policy: Removes Penalties In EEA via @sejournal, @martinibuster",
+     "summary": "Google is replacing site reputation abuse manual actions in the EEA with a system that can rank affected site sections independently. The post Google Updates Site Reputation Abuse Policy: Removes Penalties In EEA appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-28T11:18:58+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+     "title": "Update to the Site Reputation Policy",
+     "summary": "In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that site's good reputation to rank higher in Search. This practice hurts search quality, and creates a bad experience for users.",
+     "source": "Google Search Central Blog",
+     "domain": "developers.google.com",
+     "published": "2026-08-28T00:00:00+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://www.searchenginejournal.com/add-google-preferred-sources-button-website/586908",
+     "title": "How To Add Google’s Preferred Sources Button To Your Website via @sejournal, @vahandev",
+     "summary": "Add Google's Preferred Sources button with the standard embed, a configurable WordPress widget, or a deeplink. The post How To Add Google&#8217;s Preferred Sources Button To Your Website appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-28T19:00:53+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.seroundtable.com/google-announces-search-updates-41969.html",
+     "title": "Google Announces Search Updates For Transparency, Actionable Updates Get Blog Posts",
+     "summary": "Google's John Mueller said Google \"primarily\" announces search updates to provide \"transparency for site owners.\" He added that when Google publishes blog posts, updates policies, and help center documentation, that is an actionable announcement site owners could use.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-28T11:41:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-answers-if-updates-come-with-actionable-seo-signals/587432",
+     "title": "Google Answers If Updates Come With Actionable SEO Signals via @sejournal, @martinibuster",
+     "summary": "Google explains why a named update can shake up rankings without giving affected site owners anything specific to act on. The post Google Answers If Updates Come With Actionable SEO Signals appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-28T11:45:08+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-goto-tracking-41957.html",
+     "title": "Google Search Rolling Out google.com/goto Tracking Parameters?",
+     "summary": "Google Search seems like it is rolling out the google.com/goto URL as a passthrough URL within the search results that it began testing in July 2026. This seems like a way for Google to help prevent scraping of its search results by third-party tools and AI companies but Google has not yet commented on this goto URL paramter.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-26T21:01:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/irs-website-drops-google-search-41967.html",
+     "title": "IRS Website Drops Heavily In Google Search",
+     "summary": "Over the past few days, the IRS website (and other government sites) has tanked within Google's search results. My gut feeling is that the federal government implemented some bot-blocking that was too aggressive and blocked Google, among others, resulting in Google not fully showing the IRS website. I believe the IRS implemented some fixes, and the website is slowly coming back in Google Search.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-27T18:23:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRHZUV3BlQ1A3V29mRDVFYmF3d3pfZUI3ZG9uWWg0emRUeFhqcmVZTm1jQndNUWViV1MxLVVFWVpLeFYwMU5aUzgzemRBM2JPczBRUmhORC1nZkpmMEotRUp6WUZYWGwxLWxMY29Ua1M5a0pPQ2VXc3Q0QXhod3hkV0tTN0FDTFVnUW5LeXRUUFZLcF9odHRIc01rRjhKZnJGVnRwTTJ4Zw?oc=5",
+     "title": "Google confirms deploying goto URL redirects to search results links",
+     "summary": "Google confirms deploying goto URL redirects to search results links &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-27T00:13:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-spam-team-fighting-41980.html",
+     "title": "Google Confirms Search Spam Team Is Fighting & Well Resourced",
+     "summary": "Rajan Patel, VP of Engineering for Google Search, has confirmed that the Google Search team is still well-resourced in its fight against search spam. The spam team continues to update its spam algorithms, such as the latest Google August 2026 spam update, to help reduce spam in Google Search results.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-31T11:21:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/recap-08-31-2026-41981.html",
+     "title": "Daily Search Forum Recap: August 31, 2026",
+     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google Search is making AI Overviews fully expanded for some queries, making it more like AI Mode and pushing the core search results down...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-31T14:00:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836",
+     "title": "Google Search Console AI Reports Rolled Out Worldwide via @sejournal, @MattGSouthern",
+     "summary": "Google says Search Console's generative AI performance reports, which track AI Overviews and AI Mode impressions, have now rolled out to all sites worldwide. The post Google Search Console AI Reports Rolled Out Worldwide appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-08-31T19:04:38+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJYVFg1eDdGdjduWU4xUE9xeTdLWDg1QXJZTzZlVk03cVFtaU8tN2tCcjIzeVNLbW51NlZiRUx3UWJNeklsMlVrUU5Fd1hfS3BWTHJxWXpZaFoyaU5PRzNRYkJrWTh0d0VnYW1wMllia05zb3U2WVd0TW5zS292anh2dURqZHJQLUF5VFlneFdna01DWnA2Y3hOLVB2bEltbVp3VEZJRUdUZVZhVWxtUTQxd21yR3F4QzVTdnlheUZ0WFZuV0Jnd080MmphZ1E?oc=5",
+     "title": "Google Search Console AI performance reports and Search generative AI control rolling out globally",
+     "summary": "Google Search Console AI performance reports and Search generative AI control rolling out globally &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-08-31T15:15:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-indexing-issues-41972.html",
+     "title": "Google Search Having Indexing/Serving Issues August 28th",
+     "summary": "Google Search seems to be having indexing or serving issues in the past hour or so. New content from the past hour doesn't seem to be showing up in Google Search results. Content from the Wall Street Journal, New York Times, CNN and other news sites that post content constantly are not showing much or any new pages in the Google search results.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-28T11:15:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/update-to-masthead-format-requirements",
+     "title": "Update to Masthead Format Requirements",
+     "summary": "In September 2026 , Google will update the requirements for Google TV masthead ads . The new guidelines include the allowance of assets depicting alcohol , specific consumer electronics like headphones and computers, and content related to healthcare and medicines .&nbsp; Additionally, certain assets related to gambling , such as sports betting and Daily Fantasy Sports targeting the U.S. and Canada, will also be permitted. However, other gambling-related content remains prohibited. The update will also introduce a list of common policy disapproval reasons for masthead ads and enhance the clari",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-28T12:53:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/performance-max-adds-channel-prioritization-controls",
+     "title": "Performance Max Adds Channel Prioritization Controls",
+     "summary": "A new feature for Performance Max campaigns enables advertisers to adjust channel priorities based on their business importance. This Alpha allows advertisers to control how conversions are prioritized across channels, including Search , YouTube , Gmail , and more. Priority sliders can be set from Low to High , influencing CPA bid adjustments for each channel when using tCPA bidding. Lowering a channel's priority will lead Google Ads to increase the CPA bid for that specific channel, giving advertisers more control over Performance Max campaign performance. Adjustments are available for the fo",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-31T03:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/book-online-buttons-expand-search-performance-max",
+     "title": "“Book Online” Buttons Expand to Search and Performance Max",
+     "summary": "Google is expanding the \"Book Online\" button through Reserve with Google partner integration to Search and Performance Max campaigns. Previously, this was only available on Google Local Service Ads and Maps ads. Clicking the Book button will direct searchers from Google Ads to an advertiser's scheduling platform to book appointments. This feature does not require additional setup from advertisers. It's worth noting that this update is not applicable to healthcare campaigns as Google Ads does not allow booking links or goals for these sectors. This update was shared by Michel van Luijtelaar &nb",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-30T17:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-08/swipeable-categories-tested-google-search-ads",
+     "title": "Swipeable Categories Tested in Google Search Ads",
+     "summary": "Google is testing swipeable categories in paid text ads. This feature allows users to swipe through a carousel of categories to see different sponsored results below. The update was shared&nbsp; Sachin Patel . The post Swipeable Categories Tested in Google Search Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-08-30T19:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-mode-shopping-carousel-ads-41973.html",
+     "title": "Google AI Mode With Inline Shopping Carousel Ads & Single Ad Unit",
+     "summary": "Google is now showing shopping ads in a carousel format inline within AI Mode results. Plus, Google is also showing a similar ad unit at the bottom of the AI Mode results. We got a lot of ads in AI Mode now, and I guess Google is looking for more and more ways to monetize those ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-31T11:11:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-pmax-help-doc-updated-41982.html",
+     "title": "Google Ads Performance Max Help Docs Updated",
+     "summary": "On Friday, Google pushed out a pretty big overhaul of the Performance Max documentation within the Google Ads support area. I've been waiting to compare the old and new documents, but the Wayback Machine has been down for about a week now.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-01T11:31:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.jonloomer.com/qvt/existing-customer-exclusions",
+     "title": "Check Your Existing Customer Exclusions",
+     "summary": "What&#8217;s going on here? Meta introduced Customer Lifecycle Strategy a few months ago. It allows you to define whether you want to get conversions from all audiences or only acquire new customers. When you choose to acquire new customers, you’ll need to define the custom audiences you want to exclude. But Meta is doing something... Read more &#187; The post Check Your Existing Customer Exclusions appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-08-31T13:30:59+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/sept-2026-google-webmaster-report-41979.html",
+     "title": "September 2026 Google Webmaster Report",
+     "summary": "It is time for the monthly Google webmaster report, where I recap the larger stories from the past month, specifically related to Google SEO, search, and webmaster/site owner topics...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-01T11:11:00+00:00",
+     "score": 61
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google srpnový spam update zasáhl žebříčky silněji než obvykle",
+   "updated": "2026-09-01T22:41:45.116000+00:00",
+   "what": "Google dokončil 21. srpna 2026 svůj srpnový spam update. Podle více zdrojů měl tentokrát silnější dopad na pozice stránek než běžné spam updaty a volatilita ve výsledcích vyhledávání přetrvává i po jeho oficiálním ukončení. Některé zdroje spekulují o možném poklesu pozic pro články typu \"listicle\" (seznamy), ale není to potvrzené.",
+   "why": "Spam updaty přímo ovlivňují viditelnost webů v Googlu. Pokud update zasáhl silněji než obvykle a volatilita pokračuje, mohou se pozice stránek měnit i týdny po oficiálním konci – což komplikuje vyhodnocení dopadů a rozhodování o SEO strategii.",
+   "takeaway": "Sledujte pozice svých klíčových stránek v následujících týdnech – změny nemusí být definitivní. Pokud jste zaznamenali pokles, nevyhodnocujte to okamžitě jako trvalou ztrátu. U obsahu typu seznamy (\"10 tipů jak...\") si všímejte, zda nedochází k poklesu – není to oficiálně potvrzené, ale objevují se na to náznaky.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/47472ffd48.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "b685df5607",
+   "created": "2026-09-01T19:17:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-local-service-ads-bug-41999.html",
+     "title": "Google Working On Fixing Local Service Ads Bug",
+     "summary": "Google is working on fixing a bug with Local Service Ads where it seems Local Service Ads are being unlinked from the associated Google Business Profiles. There are also complaints of instability and slowness on the Local Service Ads platform.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-01T19:17:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google opravuje chybu v Local Service Ads – odpojování od firemních profilů",
+   "updated": "2026-09-01T22:41:16.407812+00:00",
+   "what": "Google řeší bug v platformě Local Service Ads (LSA), který způsobuje odpojování reklam od přidružených Google Business profilů. Uživatelé hlásí také nestabilitu a zpomalení celé LSA platformy.",
+   "why": "Pro české firmy využívající LSA (lokální služby jako instalatéři, právníci, řemeslníci) může bug znamenat ztrátu propojení reklamy s firemním profilem, což ovlivňuje zobrazování a důvěryhodnost. Nestabilita platformy komplikuje správu kampaní.",
+   "takeaway": "Pokud využíváte Local Service Ads, zkontrolujte, zda jsou vaše reklamy stále správně propojené s Google Business profilem. Sledujte vývoj a případné chybové hlášky v LSA platformě, dokud Google bug neodstraní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "edb30b6f42",
+   "created": "2026-09-01T11:30:55+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/meta-automatic-events-feature",
+     "title": "Meta Introduces a New Automatic Events Feature",
+     "summary": "Meta introduced a new Automatic Events feature that uses AI to detect and create website events. Here's how it differs from the old version. The post Meta Introduces a New Automatic Events Feature appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-09-01T11:30:55+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/business-agent-can-now-be-enabled-from-shopify",
+     "title": "Business Agent Can Now Be Enabled From Shopify",
+     "summary": "Google has updated its Business Agent help page to let Shopify merchants enable the AI powered shopping assistant directly through the Google &amp; YouTube app . Business Agent is a branded AI shopping assistant that appears when consumers search for a business on Google Search. Shoppers can use it to ask questions about the brand and its products.&nbsp; Previously, merchants could customize and activate their Business Agent through Merchant Center or their brand profile on Google Search . Now, the Google &amp; YouTube app has been added as a third option. A new recommendation card in the Goog",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-01T16:00:00+00:00",
+     "score": 64
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Meta spustila AI detekci událostí na webu, Google Business Agent přímo v Shopify",
+   "updated": "2026-09-01T19:29:37.365080+00:00",
+   "what": "Meta představila novou funkci Automatic Events, která pomocí AI automaticky detekuje a vytváří události na webu (konverze). Google zároveň umožnil obchodníkům na Shopify aktivovat AI asistenta Business Agent přímo z aplikace Google & YouTube – dosud šlo nastavení provést jen přes Merchant Center nebo Brand Profile.",
+   "why": "Obě novinky usnadňují nastavení klíčových nástrojů pro sledování a obsluhu zákazníků. Automatická detekce událostí Meta šetří čas při implementaci měření konverzí. Business Agent v Googlu zvyšuje interakci zákazníků s brandovými výsledky ve vyhledávání – aktivace přímo ze Shopify odstraňuje technickou bariéru pro e-shopy.",
+   "takeaway": "Pokud používáte Meta Ads a nemáte dokonale nastavené události, vyzkoušejte novou AI detekci. Majitelé Shopify shopů by měli zvážit aktivaci Business Agent v Google & YouTube aplikaci – jde o jednoduché rozšíření viditelnosti v Google Search.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/edb30b6f42.jpg",
+   "image_from": "jonloomer.com"
+  },
+  {
+   "id": "aa16ec6fc8",
+   "created": "2026-09-01T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/lookalike-segments-expand-video-campaigns",
+     "title": "Lookalike Segments Expand to Video Campaigns",
+     "summary": "Google Ads is expanding Lookalike segments to Video campaigns , giving advertisers another campaign type where they can reach new users who share characteristics with existing audiences. Previously, Lookalike segments were available only for Demand Gen campaigns. The expansion means advertisers running Video campaigns can now use their existing audience data to find and reach similar potential customers. Google recommends using at least 1,000 active users in the seed list for better audience quality and recommends using value based data when available. Read the official help page spotted by Ha",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-01T07:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-ai-generated-store-rating-reviews-41983.html",
+     "title": "Google Ads AI-Generated From The Store Rating Reviews Label",
+     "summary": "Google Ads has been testing AI-generated snippets and summaries in the sponsored results within Google Search for some time. But now Google is labeling a new section named \"What customers love\" as \"AI-generated from the store rating reviews.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-01T11:41:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads rozšiřuje Lookalike segmenty do video kampaní",
+   "updated": "2026-09-01T19:29:28.356846+00:00",
+   "what": "Google Ads zpřístupňuje Lookalike segmenty (publikum podobné existujícím zákazníkům) pro Video kampaně. Dosud byly dostupné pouze pro Demand Gen kampaně. Funkce umožňuje oslovit nové uživatele se stejnými charakteristikami jako stávající zákazníci.",
+   "why": "Pro inzerenty provozující video kampaně na YouTube to znamená nový způsob targetingu – mohou využít data o svých zákaznících k oslovení podobných lidí, místo jen demografického nebo obsahového zacílení. Google doporučuje použít minimálně 1 000 aktivních uživatelů v základním seznamu a pokud možno data založená na hodnotě zákazníka.",
+   "takeaway": "Pokud provozujete video kampaně na YouTube a máte kvalitní data o zákaznících (min. 1 000 aktivních uživatelů), otestujte Lookalike segmenty – mohou zlepšit kvalitu oslovených uživatelů. Připravte si srovnání s dosavadním targetingem (náklady, konverze).",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/aa16ec6fc8.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "ffc0a72587",
+   "created": "2026-08-31T17:22:03+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWmlrbTZ6NFRlNnZyZ2psdjdKeEFBaTNUSFBRaTJIdnNaTmRCOWhsMlhWQzNzSkxXTTNmbThYM2dENDduanNmVjlyaHZJRm81UjBFeWUxa21KWDFaQ05VY2QtWFF2YUJTNzE3WTBRM2FkQURvN3NPUGJjXzRGTnJwSTRZdVItampGTlpsWWhXTFN2ZDNfLVlQVUxHNExmSVhlUEdTbU9iUGNSazhPcjVodDdJdlBfalQwdWdyUjJVT3NZQQ?oc=5",
+     "title": "Digital Services Act: Our seventh transparency report on content moderation in Europe",
+     "summary": "Digital Services Act: Our seventh transparency report on content moderation in Europe &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-08-31T17:22:03+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-continues-to-add-users-in-eu/829242",
+     "title": "TikTok continues to add users in EU",
+     "summary": "The platform&rsquo;s latest DSA disclosure reports show that it is maintaining momentum even though its moderation staff has shrunk significantly since 2024.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-31T22:50:02+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/australia-considers-algorithm-opt-out-laws/829243",
+     "title": "Australia considers algorithm opt-out laws",
+     "summary": "Following the country&rsquo;s social media restrictions, The Guardian reported that the government was exploring ways to let people control what they see in apps.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-31T23:10:04+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/evropska-komise-bude-prisneji-dohlizet-na-chatgpt-reddit-a-roblox-dosahnou-na-prilis-mnoho-lidi",
+     "title": "Evropská komise bude přísněji dohlížet na ChatGPT, Reddit a Roblox. Dosáhnou na příliš mnoho lidí",
+     "summary": "Evropská komise (EK) zařadila ChatGPT, Reddit a Roblox na seznam mimořádně velkých online platforem, u kterých hodlá uplatňovat přísněj&#353;í regulaci v rámci zákona o digitálních službách (DSA). Služby uvedly, že v EU oslovují v průměru nejméně 45 milionů obyvatel měsíčně, čímž splnily limit pro zařazení do této kategorie, uvádí EK.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-01T13:58:21+00:00",
+     "score": 75
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 68,
+   "title": "ChatGPT, Reddit a Roblox pod přísnější kontrolou EU – nová pravidla DSA",
+   "updated": "2026-09-01T19:29:19.275089+00:00",
+   "what": "Evropská komise zařadila ChatGPT, Reddit a Roblox na seznam mimořádně velkých online platfom (VLOP) podle zákona o digitálních službách (DSA). Služby dosáhly v EU alespoň 45 milionů aktivních uživatelů měsíčně, čímž splnily limit pro přísnější regulaci. TikTok zveřejnil sedmou zprávu o moderování obsahu podle DSA a nadále roste v počtu evropských uživatelů.",
+   "why": "Pro marketéry v ČR to znamená přísnější pravidla transparentnosti, moderování obsahu a podávání zpráv na těchto platformách. DSA ukládá povinnosti týkající se reklamy, algoritmů a ochrany uživatelů – změny mohou ovlivnit dostupnost reklamních formátů, targeting a reporting kampaní na těchto službách.",
+   "takeaway": "Sledujte změny v reklamních možnostech a podmínkách na Redditu a TikToku (pokud tyto platformy používáte). Připravte se na možné omezení targetingu nebo nové požadavky na transparentnost reklam v souladu s DSA. Australské úvahy o opt-outu z algoritmů zatím nemají přímý dopad na EU.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/ffc0a72587.jpg",
+   "image_from": "newsroom.tiktok.com"
+  },
+  {
+   "id": "f1eac83993",
+   "created": "2026-08-31T16:13:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-european-search-dataset-licensing-program-41986.html",
+     "title": "Google European Search Dataset Licensing Program Details",
+     "summary": "Google has updated its Google European Search Dataset Licensing Program page with details on the program. Google has been designated as a \"gatekeeper\" under the DMA and is thus legally required to share its search data with competing search engines to foster fair competition.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-08-31T16:13:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-details-who-can-license-its-search-data-in-europe/587995",
+     "title": "Google Details Who Can License Its Search Data In Europe via @sejournal, @MattGSouthern",
+     "summary": "Google published eligibility rules, samples, and key dates for licensing ranking, query, click, and view data from EEA Search under the EU's Digital Markets Act. The post Google Details Who Can License Its Search Data In Europe appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-01T17:20:25+00:00",
+     "score": 77
+    }
+   ],
+   "category": "seo",
+   "importance": 77,
+   "title": "Google European Search Dataset Licensing Program Details",
+   "updated": "2026-09-01T19:28:03.635776+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/f1eac83993.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "4ae75018c7",
+   "created": "2026-09-01T15:34:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGhNZjVyblVwQlZmSy13ZVFZdzVQdWpJQUVJTF9pNTNxdklweFYtM3QyM2lOamdEajlOQ2VkVFpDZ3hHTW41WlJQWEVDeDJ0U09xREVpOEQ1eVN5OWN6NmVxSkw4bjBPaUVLbzliTDdOV2VWV0J0R3FIY3oyQ01BTjQ4dmM2TFVFcENESVdtNUhhN2tZNkVYVnZoQW1qZkhsOWRCVg?oc=5",
+     "title": "Google AdSense to change how it counts impressions: Begin-to-Render",
+     "summary": "Google AdSense to change how it counts impressions: Begin-to-Render &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-01T15:34:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google AdSense mění způsob počítání impresí na Begin-to-Render",
+   "updated": "2026-09-01T19:28:03.635776+00:00",
+   "what": "Google AdSense zavádí novou metriku Begin-to-Render (B2R) pro počítání impresí. Jde o změnu v tom, kdy systém zaznamenává zobrazení reklamy.",
+   "why": "Změna může ovlivnit reportované počty impresí a tím i metriky výkonu (CTR, viewability) pro vydavatele i inzerenty využívající AdSense. Pokud jste publisher s AdSense nebo inzerujete přes Google Display Network, můžete zaznamenat změny v datech.",
+   "takeaway": "Sledujte metriky AdSense po zavedení změny – můžete vidět pokles počtu impresí, ale to neznamená pokles skutečného zobrazení reklam. Podle dostupného zdroje není jasné, kdy změna nabývá účinnosti ani detaily implementace – očekávejte oficiální komunikaci od Google.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "3c032953fd",
+   "created": "2026-08-27T21:02:09+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-api-for-business-chatbot-accounts/829029",
+     "title": "X launches API for business chatbot accounts",
+     "summary": "The custom function will let brands build their own automated response agents and offer customers access to answers when they need them.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-27T21:02:09+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-adds-amazon-affiliate-links/829031",
+     "title": "YouTube adds Amazon affiliate links",
+     "summary": "Creators will be able to tag a curated list of products from the online retailer in their videos and earn commissions from every resulting sale.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-27T23:10:15+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/snapchat-expands-unified-attribution-to-all-advertisers/829236",
+     "title": "Snapchat expands Unified Attribution to all advertisers",
+     "summary": "The update is designed to help marketers better understand ad performance metrics and share more perspective on campaigns.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-08-31T21:31:40+00:00",
+     "score": 62
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "YouTube spouští affiliate program s Amazonem, tvůrci mohou vydělávat na provizích",
+   "updated": "2026-09-01T15:05:00.425298+00:00",
+   "what": "YouTube umožňuje tvůrcům označovat produkty z Amazonu přímo ve svých videích a získávat provize z každého prodeje. Jde o rozšíření affiliate možností platformy.",
+   "why": "Pro české firmy prodávající přes Amazon nebo spolupracující s YouTubery to znamená nový způsob, jak řídit influencer marketing – tvůrci dostanou přímý nástroj na monetizaci doporučení, což může ovlivnit formu spolupráce a vyjednávání.",
+   "takeaway": "Pokud pracujete s YouTubery nebo máte produkty na Amazonu, sledujte, jak se tato funkce rozšíří do EU (zatím není potvrzena dostupnost v ČR). Může to změnit způsob odměňování influencerů – místo fixních poplatků budou chtít provize z prodeje.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "a05c127e9b",
@@ -4132,30 +4163,6 @@
    "multi_source": false
   },
   {
-   "id": "0b4641f5f0",
-   "created": "2026-09-01T12:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-renames-ai-max-text-guidelines-text-guardrails",
-     "title": "Microsoft Renames AI Max Text Guidelines to Text Guardrails",
-     "summary": "Microsoft has renamed its AI Max Text Guidelines to Text Guardrails in both the AI Max search campaign flow and Performance Max.&nbsp; Advertisers can edit these guardrails to set term exclusions , ensuring AI-generated text assets align with brand requirements. The exclusion limit remains up to 25 terms. Read the official help pages here: How do I create a Search campaign? &nbsp;and&nbsp; Create a Performance Max campaign . This update was spotted by Hana Kobzová . The post Microsoft Renames AI Max Text Guidelines to Text Guardrails appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-01T12:00:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 25,
-   "title": "Microsoft přejmenoval AI Max Text Guidelines na Text Guardrails",
-   "updated": "2026-09-01T15:01:46.674645+00:00",
-   "what": "Microsoft změnil název funkce AI Max Text Guidelines na Text Guardrails v kampañích AI Max Search a Performance Max. Jde pouze o přejmenování – funkce umožňuje nastavit až 25 vyloučených termínů, aby AI-generované textové assety odpovídaly požadavkům značky.",
-   "why": "Pro inzerenty v Microsoft Ads (dostupných i v ČR) se nemění nic praktického, jde jen o novou terminologii v rozhraní. Funkce zůstává stejná.",
-   "takeaway": "Pokud používáte AI Max kampaně v Microsoft Ads, žádná akce není potřeba – pouze si všimněte nového názvu \"Text Guardrails\" místo původního \"Text Guidelines\".",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
    "id": "013609ecd8",
    "created": "2026-09-01T11:21:00+00:00",
    "articles": [
@@ -4201,30 +4208,6 @@
    "why": "Jde o upřesnění pravidel pro správce PPC kampaní, kteří používají nebo plánují používat AI Max. Pokud máte v účtu nastavené broad match klíčové slova a přecházíte na AI Max, může se změnit jejich chování při prioritizaci, což ovlivní, které klíčové slovo se použije při aukci.",
    "takeaway": "Pokud pracujete s AI Max kampaněmi v Google Ads, zkontrolujte aktualizovanou dokumentaci ohledně nastavení broad match klíčových slov. Ujistěte se, že vaše strategie prioritizace klíčových slov odpovídá novým pravidlům, abyste předešli neočekávaným změnám v tom, která klíčová slova se zobrazují.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "e10effa106",
-   "created": "2026-09-01T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/sept-2026-google-webmaster-report-41979.html",
-     "title": "September 2026 Google Webmaster Report",
-     "summary": "It is time for the monthly Google webmaster report, where I recap the larger stories from the past month, specifically related to Google SEO, search, and webmaster/site owner topics...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-01T11:11:00+00:00",
-     "score": 61
-    }
-   ],
-   "category": "seo",
-   "importance": 35,
-   "title": "Zářijový přehled Google pro webmastery (2026)",
-   "updated": "2026-09-01T15:01:46.674645+00:00",
-   "what": "Search Engine Roundtable publikoval měsíční shrnutí hlavních událostí v oblasti Google SEO a vyhledávání za září 2026. Jde o pravidelný přehled témat relevantních pro provozovatele webů.",
-   "why": "Měsíční přehledy pomáhají udržet si přehled o změnách v Google vyhledávání a SEO, které mohou ovlivnit viditelnost webu a organický provoz. Pro SEO specialisty i marketingové manažery je to rychlý způsob, jak nezmeškát důležité novinky.",
-   "takeaway": "Sledujte zdroj pro shrnutí zářijových změn v Google. Pokud spravujete SEO nebo web firemní stránky, ověřte si, zda některá ze zmíněných témat nevyžaduje akci z vaší strany.",
-   "importance_label": "kontext",
    "multi_source": false
   },
   {
