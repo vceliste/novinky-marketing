@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-04T14:31:25.481439+00:00",
+ "last_run": "2026-09-04T19:02:46.641165+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -29,7 +29,7 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "CzechCrunch",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 5
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 9
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fa9b9180f80>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -257,7 +257,7 @@
    "name": "GetResponse blog",
    "feed": "https://www.getresponse.com/blog/feed",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "ActiveCampaign blog",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -2891,9 +2891,145 @@
   "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLU5XaVZSUVhNLXZ4Y0FVdHNOOFJaeEFSeHFWbzJLZ210TWlnNFFSQUlNQ0hPc0lGV2NNWGlKUGhGWHIzUTljZGF5Vm5KaGs4UlhHVlJIX2xZeENra3FkLWFhZjB2a0phbjNFYWRrVFlUT1FfQVFhTWwxem5xTWVkakF0c3o1X2hJcXBTSDgzcnRnb0lETEpqdjI5eWJ3cExBYlFQQ2pYWnRpOGxTaU9JSUNadk1WYlJvUTdJZ0J2S1d1XzhIYXlpUlVjNXc?oc=5": "2026-09-04T14:31:25.481439+00:00",
   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS0c1aEZXTVJjT3VFcWZ0X3JRTWxlZGlSVnBSVmxjTGZjMlAySkhndF83YUhYOFIzLW9Pb3liOHhyQmNuc0V0QmdyVDdZaTJDaHI0elFuNndIN3M4d3ZVM2dYZy1kSU5aUXJfd0lMMUllanlTek9vUzRodXl6Xzk5YlJJb3lLb2VUNUxoSG1UYTVONGpPS2hPUnlwSXVtM1pVRXBmTGFUelBEUmhXTkJZak5DaTlZQ3hW?oc=5": "2026-09-04T14:31:25.481439+00:00",
   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWklITjZkOU1HLVphTWQ5NDgySk1MMW9NN0haZUxEUDdhSk5PZ2JyVzl6QVAwSjlpWU16OTRYd3RySGRRSXJzTVdTQ1VCU0NrNldwSzlZYk5IMlZJSEF4aWFCOXo3QnJ3eGZCYk5DWlRMV1hTdjdoaGVfTmZkZUdqdGNFbHNOd2ZFODkyemNTcTB3Qmh1UmRHSlp5UU9OTkg1ZDJnR3loSkNlX2tYTGJISFZTaTdodl9I?oc=5": "2026-09-04T14:31:25.481439+00:00",
-  "https://www.socialmediatoday.com/news/tiktok-adds-voice-and-image-carousel-comments/829640": "2026-09-04T14:31:25.481439+00:00"
+  "https://www.socialmediatoday.com/news/tiktok-adds-voice-and-image-carousel-comments/829640": "2026-09-04T14:31:25.481439+00:00",
+  "https://www.lupa.cz/aktuality/neviditelni-pro-termokamery-cesky-startup-je-v-programu-nato-z-tisicu-zajemcu-mezi-hrstkou-nejzajimavejsich": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdnc1Zzc2YWpfenU5YmRMckh1cFRYVHhjY21COFhGMUxQUW44ZmNwcEF4VWhWbm1tS2N1Rnc2QTdlNnlnWUNvN19FNU8xd05ROG9qbzlVbkRwa3NJNGsyVUJnVVBMYk1JRUJmVzZ6M28wWUI2R0RkWVV4QTMwTGdsemhKTzljaHU0elVrOHF0bEFaUTFGc3l2YVh1UDFZVlhPZXRxVldwazZBVjlPT2gzdkFoSENfbHlO?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.searchenginejournal.com/most-teams-can-measure-ai-visibility-few-can-move-it/588219": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzRBalZMYVJnZ0hNdHRwakJJcG5Cb3FDZnYyUnQ1TGZiQklkREhhT3EzcDBmOUFHTmg4eEVZRkFjODl6YkFZZjlUdG9jOS1YQTh0bUwwOWo4YUJBdVF3dTl2c3N2YjFZalNlU3BjNERNelBBT3BVRjBzNTIzbTZSUzdsNHh1alVJTi1oRlhsVU5DVUlIMUlvSGR3eko?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://blog.shoptet.cz/clo-pokles-zasilek-z-ciny": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2poSUxKRXk5TmhOUFJXUWU3dDV5dFJOb0hlY1BidjZXdjVWRUdzTHUyci1tZXNnckxKMWQ3R3NkVWVfS3lzMGdOQmVKWmdWdzBsdmlEQmpmYS1QbF83VVowRFl4RnZua08tcGNNMk15el9PRktvYnozeHhRT3FJLTNObnphYWw2azRXVXBRZng4VkhmVXU0c0FEX21rM0It?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ01kbjdpYlVuSzdQbTFwMHdmbU94UjVlanU3M2ozTnhQZE9kdUF4R25HOUZGSDMxYVptWWt6OFhpWkJnVXd6SXZyRnNJQ3EwMktuOUJTRTZHUnZHTnhqUG9ZYUtTYkFqUlI4RnZYTWZQeHU3YWZfNnRZaUFXd2JIWnlBQk5XWGRKV3Z6NzVZdnI5cWhCMnlPYS12NmxxM25TdjVWR3RJRUM4ZGFoNUFrQ0RR?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.seroundtable.com/google-job-search-bug-42022.html": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.marketingbrew.com/stories/roku/ctv-advertising-strategies-survey-results": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wU2lTakkxVFdLT2FNSTVHY1pNZnRBOFhSZGxxeEQzRnkxQ19pSnBDNGFfVGIxWmx0aUJhX2VVM3F1b0xaY01EN3dvTzJnTHg4cURHbUk2b0ctVVRaVHliR3J3VVlfWkxuU2JaR2RB?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://cc.cz/netflix-odhalil-tajemstvi-vsech-tajemstvi-podivejte-se-kde-se-v-praze-toci-serial-podle-knihy-dana-browna": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnZkQ3JXWFFqZmhKWk9fTTRIdVItWlBRa014NVlYQl9ZVWcxdEljeHVDSlRpMnFQTUd5dG0xa2N4QWlVcERKSndmSW5NeEdrRjdKTlBGRnZUdG5RVVlSbW55cWREYWR1aVpwcHhPdXpfUjc2dllGNEs3VG9XdVZhRDY1Q3JnZw?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vMGdOaWVZN1BjRHNXbzB4M1JodWdxS1ktM0NGVnprN2dYUGtaSm9sWjBPV3VSQVpCbnVMdExBWFF1alpSbVR5dTY4cWxabFRZbVdxalFUNjAyck0?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.lupa.cz/aktuality/hackeri-jdou-po-uzivatelich-signalu-varuje-nukib": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.searchenginejournal.com/getting-your-product-into-chatgpt-isnt-the-hard-part-getting-it-through-checkout-is/587470": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UaU9fQXNtMUpPaXdWNUFobWV3VEVwVXpWZ0l0akd3Z3lsLWUtQmtDbE0teDJCM0tNWDFJeVpJMXhKWWJybDlfTUM2MkVyWGxHaDFxX1RtdENNSTliVlFQbQ?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://cc.cz/motoriste-s-prekvapenim-zjistuji-ze-se-od-vlastniho-programu-odchylili-o-224-miliard": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mTV92Nk4zM1l5el9ZOEMyYjdkMG9sUFctd0FEVHRfc1VMSVJBNnlIbEZidmh2WVdMR3JrWm40cXJiWTdjMmUtdy1XQzZOd0ZiWDBjcHdIaFN5ZDZ0XzJmaDVEb0E?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HU2h0RWs5NEczV1RScTE0NVJtWDJSSGY5Ullxa1l1S2VUTHBsV1dVcTFrQU51NFRHcWdWbmhfVzBucGthb1BDUjFrMDFyWnBkZG1FNXN0SlNSQQ?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.seroundtable.com/recap-09-04-2026-42020.html": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hREdrczdoR1poY0MzOC1fT2ZJWlgzbkRneGRpcHpRV19Pb3ZPbFRYRU5DRFdTLXA2NlRYZXJmbzN1bmNibnVaWFFNYmxrMEhDTzJwaWhrNl9xclV5VFdxTG1ocDkwb1BodnlGYw?oc=5": "2026-09-04T19:02:46.641165+00:00",
+  "https://www.mediar.cz/galerie-reklamy/mluvte-s-detmi-nabadaji-witowska-titlbach-cernoskova-a-hynkova-vrbova": "2026-09-04T19:02:46.641165+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY1JOQm14dkRsMXF6TTBsVk5lcW1pWXVyVFdLU0dpREh0RHh5TjVxeUR2UkE4UHJ3Z3BpcHJvOUJXZ0ZROUxHNGpQQk1pXzNFWGNVSnJnczZmbzdKcUYxUDVoUEtmcURLdnZlTmVya1AyVTBBV2dxRjhHOHRZZFJlY19Fd2Z6RkZ1LXZIMm1od1cxanF3OUNsY2lEbGExRmhhNXg4T3FzRWdManNvZlpidzY4N0JrVm5Nc1puTkVRc20?oc=5": "2026-09-04T19:02:46.641165+00:00"
  },
  "events": [
+  {
+   "id": "9f12005002",
+   "created": "2026-09-01T18:16:29+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LR3NBQ0wtU1lwZkZaa2NuWVFfc1VLTVFnLUp4Zi1Kb0JKZDJnQUM4SnlSV1ZNNDlBQjlfYkxXSEpnZmVLUjlDeXBmbjhOS2ZJVGRhSnd1OW9nNU85S3RpWG52NkRDbTjSAWxBVV95cUxQMjl3STZKaW9fWHFfSWFjWlJMUzQ0RGdIdjVxb0xQZG8xVDdRVXFqSG5pX2docmdoZGg5N0hJMDE2Nzh5ZjFaajVHSGo2bkQ4SUh5MGo1LWZtYzhQQ3pFbXFYQktabnJRVC1ISEo?oc=5",
+     "title": "Meta Introduces a New Automatic Events Feature",
+     "summary": "Meta Introduces a New Automatic Events Feature &nbsp;&nbsp; Jon Loomer Digital",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-09-01T18:16:29+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/klaviyo-added-as-customer-data-source-partner",
+     "title": "Klaviyo Added as Customer Data Source Partner",
+     "summary": "Google Ads has added Klaviyo as a new integration for Offline Conversion Import and Customer Match . The integration can help advertisers streamline how first party customer data moves between Klaviyo and Google Ads, reducing the need for manual data uploads. Read the official help page found by Hana Kobzová &nbsp;here: Data Source and Destination Integrations Table . The post Klaviyo Added as Customer Data Source Partner appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-04T09:00:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Google Ads integruje Klaviyo pro import konverzí a Customer Match",
+   "updated": "2026-09-04T19:04:09.305081+00:00",
+   "what": "Google Ads přidal Klaviyo jako nového integračního partnera pro Offline Conversion Import a Customer Match. Integrace zjednodušuje přenos zákaznických dat (first-party) mezi Klaviyo a Google Ads bez nutnosti manuálních uploadu.",
+   "why": "Pro firmy používající Klaviyo (oblíbený nástroj pro e-mail marketing zejména v e-commerce) to znamená automatizaci správy zákaznických dat v Google Ads – snadnější cílení remarketingových kampaní a přesnější měření offline nebo post-click konverzí.",
+   "takeaway": "Pokud používáš Klaviyo, zkontroluj možnosti integrace s Google Ads – ušetříš čas při synchronizaci dat a zlepšíš cílení kampaní na základě chování zákazníků z e-mailů a objednávek.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/9f12005002.jpg",
+   "image_from": "jonloomer.com"
+  },
+  {
+   "id": "561dc2ae62",
+   "created": "2026-09-03T12:30:00+00:00",
+   "articles": [
+    {
+     "url": "https://blog.hootsuite.com/social-media-mcp",
+     "title": "What is a social media MCP? Everything marketers need to know",
+     "summary": "AI is more useful when it knows what’s happening on your social accounts. Here’s how MCP gives it that context. The post What is a social media MCP? Everything marketers need to know appeared first on Social Media Marketing &amp; Management Dashboard .",
+     "source": "Hootsuite blog",
+     "domain": "blog.hootsuite.com",
+     "published": "2026-09-03T12:30:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBINWVNc3U5VU4zM0FpdnZYb2xuaDZtME1HcVJ5Q3M4cUc4UW9GR21selBjUmFjNVNTbzVUNWFFNXdGN0kzNEZHTVU0ajYyQTdyeXY2TlJTcHVocURPMlBXM3Z0WGhzLXZCbEViQw?oc=5",
+     "title": "Say More in the Comments: Introducing Voice, Polls, and Carousels on TikTok",
+     "summary": "Say More in the Comments: Introducing Voice, Polls, and Carousels on TikTok &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-09-03T14:06:34+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-adds-voice-notes-and-image-carousels-in-comments/829640",
+     "title": "TikTok adds voice notes and image carousels in comments",
+     "summary": "The additional response options are being rolled out globally and could help to drive more engagement in the app.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-03T21:42:44+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-updates-branded-content-sourcing-and-disclosures/829643",
+     "title": "YouTube updates branded content sourcing and disclosures",
+     "summary": "The platform is running a new local affiliate shopping test and clarifying some of its language around sponsored acknowledgments.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-03T23:24:34+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-adds-voice-and-image-carousel-comments/829640",
+     "title": "TikTok adds voice and image carousel comments",
+     "summary": "The additional response options are being rolled out globally and could help to drive more engagement in the app.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-03T21:42:44+00:00",
+     "score": 54
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/reddit-expands-ai-powered-max-campaigns/829636",
+     "title": "Reddit expands AI-powered Max campaigns",
+     "summary": "The platform is offering its automated promotions to all advertisers and rolling out new features to help brands get more out of their ad spend.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-03T19:48:33+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://cc.cz/vydelavat-na-youtube-je-snazsi-nez-driv-misto-milionu-zhlednuti-dnes-staci-50-tisic-rika-jirka-kral",
+     "title": "Vydělávat na YouTube je snazší než dřív. Místo milionu zhlédnutí dnes stačí 50 tisíc, říká Jirka Král",
+     "summary": "Bývalý youtuber a spolumajitel agentury Socialpark popisuje, jak se za osm let posunula hranice úspěchu na YouTube. A co nás v tomto světě čeká. Článek Vydělávat na YouTube je snazší než dřív. Místo milionu zhlédnutí dnes stačí 50 tisíc, říká Jirka Král se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-09-04T04:20:11+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "TikTok zavádí hlasové zprávy, ankety a karusely v komentářích",
+   "updated": "2026-09-04T19:04:01.342111+00:00",
+   "what": "TikTok globálně spouští nové formáty komentářů – uživatelé mohou reagovat hlasovými zprávami, anketami nebo karusely obrázků. Funkce jsou dostupné celosvětově.",
+   "why": "Rozšíření formátů komentářů může zvýšit engagement u organického i placeného obsahu na TikToku. Pro brandové účty a influencery to znamená nové způsoby, jak vtáhnout publikum do konverzace – a potenciálně vyšší dosah díky většímu počtu interakcí.",
+   "takeaway": "Sledujte, jak tyto formáty fungují pod vašimi posty – mohou pomoci zvýšit zapojení komunity a vylepšit metriky kampaní. Zvažte, jak je aktivně využít v komunikaci se sledujícími (např. ankety pro rychlý feedback).",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
   {
    "id": "9760442613",
    "created": "2026-09-04T11:11:00+00:00",
@@ -2924,12 +3060,21 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-09-04T14:00:00+00:00",
      "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQd214STNpeTFNQVBtMEo2WDUxUS1FamcyT1dycDA3dERXUGhPSVBXWmJYN1FDWlBvb0ZLaXNfMGNaWktEZzd3MVRUUFpNV2xxazFsLTZnWmJBdzlUVU00bG9ELVJYdHRnTjdFV2xZNVpKaTg?oc=5",
+     "title": "Limited Ad Serving: Why Google Ads suddenly show less often",
+     "summary": "Limited Ad Serving: Why Google Ads suddenly show less often &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-04T13:00:00+00:00",
+     "score": 71
     }
    ],
    "category": "ppc",
    "importance": 65,
    "title": "Google Ads znovu nabízí už odmítnutá doporučení",
-   "updated": "2026-09-04T14:34:21.574173+00:00",
+   "updated": "2026-09-04T19:03:51.169093+00:00",
    "what": "Google Ads začal v rozhraní zobrazovat notifikace upozorňující na doporučení, která inzerenti v minulosti již odmítli. V konzoli se objevuje zpráva \"You still have dismissed recommendations for this campaign\", kterou lze opět zamítnout.",
    "why": "Jde o změnu v přístupu Google Ads k doporučením, která může narušovat workflow a nutí inzerenty opakovaně odmítat stejné návrhy. Může to být signál, že Google bude aktivněji tlačit na implementaci svých doporučení.",
    "takeaway": "Připravte se na opakované notifikace ohledně odmítnutých doporučení v Google Ads. Kontrolujte, zda Google neimplementuje změny automaticky, a dokumentujte si důvody odmítnutí jednotlivých doporučení pro případnou podporu.",
@@ -2937,6 +3082,191 @@
    "multi_source": true,
    "image": "img/9760442613.jpg",
    "image_from": "seroundtable.com"
+  },
+  {
+   "id": "a8cdd401ba",
+   "created": "2026-09-04T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/openai-chatgpt-ads-updates-42017.html",
+     "title": "ChatGPT Ads Manager Plugin, Audience Updates, Product Feeds & More",
+     "summary": "We got a number of updates coming from OpenAI about ChatGPT Ads and the ChatGPT Ads Manager, we also suspect that the shopping results coming from ChatGPT only come from those who submit product feeds. The other updates include a plugin for integration with ChatGPT and/or Codex, custom audience improvements, conversion matching updates, ad unit formats, budget pacing, more conversion optimization options and expansion of the platform.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-04T11:05:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2poSUxKRXk5TmhOUFJXUWU3dDV5dFJOb0hlY1BidjZXdjVWRUdzTHUyci1tZXNnckxKMWQ3R3NkVWVfS3lzMGdOQmVKWmdWdzBsdmlEQmpmYS1QbF83VVowRFl4RnZua08tcGNNMk15el9PRktvYnozeHhRT3FJLTNObnphYWw2azRXVXBRZng4VkhmVXU0c0FEX21rM0It?oc=5",
+     "title": "OpenAI expands ChatGPT ads globally and builds out its ad stack",
+     "summary": "OpenAI expands ChatGPT ads globally and builds out its ad stack &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-04T16:32:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "OpenAI spouští globální expanzi ChatGPT reklam a buduje vlastní ad stack",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "OpenAI rozšiřuje ChatGPT reklamy globálně a staví kompletní reklamní infrastrukturu. K dispozici je plugin pro ChatGPT Ads Manager, možnost nahrávat produktové feedy (pro zobrazení v nákupních výsledcích ChatGPT), vylepšené custom audience, nové formáty reklamních jednotek, lepší rozpočtové řízení a optimalizace konverzí.",
+   "why": "Vzniká nová reklamní platforma s potenciálně vysokým dosahem – ChatGPT má stovky milionů uživatelů. Pro marketéry to znamená nový kanál v rámci performance marketingu a search, který zatím prakticky nikdo v ČR nezkouší.",
+   "takeaway": "Sleduj, kdy a jestli bude ChatGPT Ads dostupný v ČR/EU a v jakém rozsahu. Pokud plánuješ testovat nové PPC kanály, připrav si produktový feed a zvař si čas na pilotní kampaň – jde o early-mover příležitost, zatímco konkurence ještě čeká.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/a8cdd401ba.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "f73c9dfb86",
+   "created": "2026-09-04T18:08:42+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/most-teams-can-measure-ai-visibility-few-can-move-it/588219",
+     "title": "How To Win More Citations In AI Answers, Live With Ahrefs’ Constance Tan via @sejournal, @hethr_campbell",
+     "summary": "Learn which AI visibility metrics matter, how to prioritize your next steps, and the tactics that win more citations in AI answers. The post How To Win More Citations In AI Answers, Live With Ahrefs&#8217; Constance Tan appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-04T18:08:42+00:00",
+     "score": 57
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Ahrefs: Jak získat citace v AI odpovědích – metriky a taktiky",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Ahrefs publikoval návod, jak měřit viditelnost v AI odpovědích (ChatGPT, Perplexity aj.) a jaké taktiky použít k získání více citací. Jde o praktický postup, jak AI visibility sledovat a zlepšovat.",
+   "why": "AI odpovědi začínají měnit způsob, jakým uživatelé hledají informace – namísto kliknutí na web dostávají odpověď přímo. Pro weby, které spoléhají na organickou návštěvnost, jde o potenciální pokles návštěvnosti, ale i příležitost být citovaným zdrojem.",
+   "takeaway": "Sledujte, zda vaše weby/klienti získávají citace v AI nástrojích (Ahrefs nabízí metriky). Zaměřte se na obsah, který AI modely preferují – faktické, strukturované, autoritativní zdroje. Do půl roku pravděpodobně bude AI visibility běžnou součástí SEO reportů.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/f73c9dfb86.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "e70db62aed",
+   "created": "2026-09-04T17:47:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzRBalZMYVJnZ0hNdHRwakJJcG5Cb3FDZnYyUnQ1TGZiQklkREhhT3EzcDBmOUFHTmg4eEVZRkFjODl6YkFZZjlUdG9jOS1YQTh0bUwwOWo4YUJBdVF3dTl2c3N2YjFZalNlU3BjNERNelBBT3BVRjBzNTIzbTZSUzdsNHh1alVJTi1oRlhsVU5DVUlIMUlvSGR3eko?oc=5",
+     "title": "Google opens YouTube personalized ads to alcohol advertisers",
+     "summary": "Google opens YouTube personalized ads to alcohol advertisers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-04T17:47:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google povolil personalizované reklamy na alkohol na YouTube",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Google začal umožňovat cílení alkoholových reklam na YouTube podle věku, pohlaví a dalších demografických údajů. Dosud byly alkoholové reklamy povoleny jen s kontextovým cílením (podle obsahu videa), nikoli podle uživatelských dat.",
+   "why": "Pro inzerenty alkoholu (pivovary, vinotéky, e-shopy s alkoholem) se otevírá možnost přesnějšího zacílení YouTube kampaní. Mohou oslovit relevantnější publikum a potenciálně zlepšit výkon kampaní oproti jen kontextovému cílení.",
+   "takeaway": "Pokud inzerujete alkohol na YouTube, ověřte nová nastavení cílení podle publika v Google Ads. Otestujte výkon personalizovaných kampaní proti dosavadnímu kontextovému cílení. Pamatujte na dodržení českých pravidel pro reklamu na alkohol (věková omezení, zákaz cílení na mladistvé).",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/e70db62aed.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "603d0120a2",
+   "created": "2026-09-04T16:44:26+00:00",
+   "articles": [
+    {
+     "url": "https://blog.shoptet.cz/clo-pokles-zasilek-z-ciny",
+     "title": "Tříeurové clo už přináší první výsledky. Dovoz zásilek z Asie výrazně klesl",
+     "summary": "Od 1. července 2026 platí v Evropské unii clo ve výši 3 eur na položky v zásilkách s hodnotou do 150 eur dovezených ze zemí mimo EU. První data naznačují, že opatření funguje: počet malých zásilek klesl o 30 až 40 %. Příspěvek Tříeurové clo už přináší první výsledky. Dovoz zásilek z Asie výrazně klesl pochází z Shoptet Blog",
+     "source": "Shoptet blog",
+     "domain": "blog.shoptet.cz",
+     "published": "2026-09-04T16:44:26+00:00",
+     "score": 75
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 65,
+   "title": "Unijní clo 3 € snížilo dovoz drobných zásilek z Asie o 30–40 %",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Od 1. července 2026 platí v EU clo 3 eura na položky v zásilkách do 150 eur z mimounijních zemí. První data ukazují pokles počtu malých zásilek o 30 až 40 %.",
+   "why": "Opatření mění ekonomiku malých objednávek z Asie (zejména Číny) a může ovlivnit konkurenceschopnost e-shopů prodávajících levné zboží z těchto zdrojů, stejně jako očekávání zákazníků ohledně cen a dostupnosti.",
+   "takeaway": "Zkontroluj, jestli tvůj e-shop nebo konkurence spoléhá na dovoz levného zboží z Asie – clo může zvýšit ceny a snížit konkurenceschopnost. Sleduj, jak se změní chování zákazníků a cenová očekávání.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/603d0120a2.jpg",
+   "image_from": "blog.shoptet.cz"
+  },
+  {
+   "id": "ce7bbad26b",
+   "created": "2026-09-04T15:08:12+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/roku/ctv-advertising-strategies-survey-results",
+     "title": "Where does CTV belong in advertisers’ strategies? We surveyed marketers to find out",
+     "summary": "Research finds conflicting perspectives and lack of consensus.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-04T15:08:12+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Studie: Marketéři nemají jasno, kam CTV patří v mediamixu",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Výzkum mezi marketéry ukázal protichůdné názory a absenci konsenzu ohledně role Connected TV v reklamních strategiích.",
+   "why": "CTV roste, ale firmy stále hledají optimální způsob jeho zařazení do mediamixu a měření účinnosti.",
+   "takeaway": "Pokud v ČR zvažujete CTV (např. CANAL+, Voyo, Prima+), počítejte s tím, že best practice stále není ustálená – testujte, měřte a srovnávejte s ostatními kanály.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "1559494173",
+   "created": "2026-09-04T15:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnZkQ3JXWFFqZmhKWk9fTTRIdVItWlBRa014NVlYQl9ZVWcxdEljeHVDSlRpMnFQTUd5dG0xa2N4QWlVcERKSndmSW5NeEdrRjdKTlBGRnZUdG5RVVlSbW55cWREYWR1aVpwcHhPdXpfUjc2dllGNEs3VG9XdVZhRDY1Q3JnZw?oc=5",
+     "title": "The big winners and losers in U.S. website traffic over the past year",
+     "summary": "The big winners and losers in U.S. website traffic over the past year &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-04T15:00:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "analytika",
+   "importance": 35,
+   "title": "Největší vítězové a poražení ve webové návštěvnosti v USA za poslední rok",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Search Engine Land publikoval přehled webů, které v USA za poslední rok nejvíce získaly nebo naopak ztratily v návštěvnosti. Konkrétní jména webů ani číselné údaje však dodaný zdroj neobsahuje.",
+   "why": "Globální trendy v návštěvnosti mohou signalizovat změny v chování uživatelů, posun v algoritmech vyhledávačů nebo vzestup nových platforem. Pro české marketéry může jít o indikátor budoucího vývoje i na našem trhu.",
+   "takeaway": "Sledujte obdobné analýzy zaměřené na český trh (např. data z Gemius, NetMonitor nebo Google Analytics benchmarků), abyste včas rozpoznali, které kategorie webů rostou a které ztrácejí – může to ovlivnit vaši strategii investic do obsahu a kanálů.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "79eebf5705",
+   "created": "2026-09-04T14:30:02+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/getting-your-product-into-chatgpt-isnt-the-hard-part-getting-it-through-checkout-is/587470",
+     "title": "Getting Your Product Into ChatGPT Isn’t The Hard Part, Getting It Through Checkout Is via @sejournal, @gregjarboe",
+     "summary": "Getting surfaced in ChatGPT is the easy half. Three checks every retailer should run before connecting a fourth agentic commerce protocol. The post Getting Your Product Into ChatGPT Isn&#8217;t The Hard Part, Getting It Through Checkout Is appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-04T14:30:02+00:00",
+     "score": 50
+    }
+   ],
+   "category": "obsah",
+   "importance": 55,
+   "title": "ChatGPT pro e-shopy: viditelnost nestačí, rozhoduje checkout",
+   "updated": "2026-09-04T19:02:46.641165+00:00",
+   "what": "Search Engine Journal upozorňuje na problém, se kterým se potýkají e-shopy integrující produkty do ChatGPT. Zatímco zobrazení produktu v AI asistentovi je relativně snadné, skutečnou výzvou je dostat zákazníka až k dokončení objednávky.",
+   "why": "Jde o důležité varování pro e-shopy zvažující napojení na AI agenty a chatboty. Investice do integrace nezaručuje konverze – pokud nefunguje checkout proces, integrace nepřinese výsledky.",
+   "takeaway": "Než budete investovat do napojení eshopu na ChatGPT nebo jiné AI asistenty, otestujte si reálný nákupní proces od AI doporučení až po dokončení objednávky. Zaměřte se na hladkost checkoutu a návaznost systémů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "f6d4cf5ff9",
@@ -3121,75 +3451,6 @@
    "multi_source": true,
    "image": "img/ad6234e38d.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "561dc2ae62",
-   "created": "2026-09-03T12:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://blog.hootsuite.com/social-media-mcp",
-     "title": "What is a social media MCP? Everything marketers need to know",
-     "summary": "AI is more useful when it knows what’s happening on your social accounts. Here’s how MCP gives it that context. The post What is a social media MCP? Everything marketers need to know appeared first on Social Media Marketing &amp; Management Dashboard .",
-     "source": "Hootsuite blog",
-     "domain": "blog.hootsuite.com",
-     "published": "2026-09-03T12:30:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBINWVNc3U5VU4zM0FpdnZYb2xuaDZtME1HcVJ5Q3M4cUc4UW9GR21selBjUmFjNVNTbzVUNWFFNXdGN0kzNEZHTVU0ajYyQTdyeXY2TlJTcHVocURPMlBXM3Z0WGhzLXZCbEViQw?oc=5",
-     "title": "Say More in the Comments: Introducing Voice, Polls, and Carousels on TikTok",
-     "summary": "Say More in the Comments: Introducing Voice, Polls, and Carousels on TikTok &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-09-03T14:06:34+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-adds-voice-notes-and-image-carousels-in-comments/829640",
-     "title": "TikTok adds voice notes and image carousels in comments",
-     "summary": "The additional response options are being rolled out globally and could help to drive more engagement in the app.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-03T21:42:44+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-updates-branded-content-sourcing-and-disclosures/829643",
-     "title": "YouTube updates branded content sourcing and disclosures",
-     "summary": "The platform is running a new local affiliate shopping test and clarifying some of its language around sponsored acknowledgments.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-03T23:24:34+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/tiktok-adds-voice-and-image-carousel-comments/829640",
-     "title": "TikTok adds voice and image carousel comments",
-     "summary": "The additional response options are being rolled out globally and could help to drive more engagement in the app.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-03T21:42:44+00:00",
-     "score": 54
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/reddit-expands-ai-powered-max-campaigns/829636",
-     "title": "Reddit expands AI-powered Max campaigns",
-     "summary": "The platform is offering its automated promotions to all advertisers and rolling out new features to help brands get more out of their ad spend.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-03T19:48:33+00:00",
-     "score": 62
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "TikTok přidává hlasové zprávy, ankety a karusely obrázků do komentářů",
-   "updated": "2026-09-04T14:33:46.835429+00:00",
-   "what": "TikTok globálně spouští nové formáty komentářů: uživatelé mohou odpovídat hlasovými zprávami, anketami a karusely obrázků. Funkce jsou dostupné po celém světě včetně ČR.",
-   "why": "Nové formáty interakce zvyšují engagement v komentářích, což ovlivňuje algoritmus TikToku. Pro značky to znamená více způsobů, jak komunita může reagovat na organický i placený obsah.",
-   "takeaway": "Sledujte, jak komunita využívá nové formáty pod vašimi příspěvky – mohou zvýšit engagement a viditelnost obsahu. Zvažte, jak v contentu přímo vyzývat k těmto typům reakcí (např. ankety pro preferenci produktů).",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "fb0be5e58f",
@@ -4644,32 +4905,6 @@
    "multi_source": false
   },
   {
-   "id": "73ece1650d",
-   "created": "2026-09-04T13:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQd214STNpeTFNQVBtMEo2WDUxUS1FamcyT1dycDA3dERXUGhPSVBXWmJYN1FDWlBvb0ZLaXNfMGNaWktEZzd3MVRUUFpNV2xxazFsLTZnWmJBdzlUVU00bG9ELVJYdHRnTjdFV2xZNVpKaTg?oc=5",
-     "title": "Limited Ad Serving: Why Google Ads suddenly show less often",
-     "summary": "Limited Ad Serving: Why Google Ads suddenly show less often &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-04T13:00:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Proč Google Ads náhle zobrazuje reklamy méně často – příčiny a řešení",
-   "updated": "2026-09-04T14:31:25.481439+00:00",
-   "what": "Google Ads může omezit zobrazování kampaní (Limited Ad Serving) z různých důvodů, což vede k poklesu výkonu a dosahu. Jde o systémové omezení ze strany platformy, které může nastat i u dříve fungujících kampaní.",
-   "why": "Omezené zobrazování reklam znamená pro marketingový rozpočet nevyužitý potenciál a ztrátu výkonnosti kampaní. Manažer musí rychle identifikovat příčinu a problém odstranit, aby neztratil rozpočet a konverze.",
-   "takeaway": "Pokud výrazně klesne počet zobrazení nebo prokliků v Google Ads, zkontrolujte oznámení v účtu o Limited Ad Serving a identifikujte příčinu (porušení pravidel, technické problémy, nízká kvalita). Odstraňte problém co nejdříve, abyste obnovili plný dosah kampaní.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/73ece1650d.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
    "id": "c978eca84a",
    "created": "2026-09-04T12:00:01+00:00",
    "articles": [
@@ -4744,56 +4979,6 @@
    "multi_source": false
   },
   {
-   "id": "a8cdd401ba",
-   "created": "2026-09-04T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/openai-chatgpt-ads-updates-42017.html",
-     "title": "ChatGPT Ads Manager Plugin, Audience Updates, Product Feeds & More",
-     "summary": "We got a number of updates coming from OpenAI about ChatGPT Ads and the ChatGPT Ads Manager, we also suspect that the shopping results coming from ChatGPT only come from those who submit product feeds. The other updates include a plugin for integration with ChatGPT and/or Codex, custom audience improvements, conversion matching updates, ad unit formats, budget pacing, more conversion optimization options and expansion of the platform.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-04T11:05:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "OpenAI spouští ChatGPT Ads Manager – nová reklamní platforma s produktovými feedy",
-   "updated": "2026-09-04T14:31:25.481439+00:00",
-   "what": "OpenAI rozšiřuje ChatGPT o reklamní platformu ChatGPT Ads Manager. Mezi novinky patří plugin pro integraci s ChatGPT/Codex, možnost nahrávat produktové feedy (pravděpodobně podmínka pro zobrazení v nákupních výsledcích), vylepšení cílení publika, optimalizace konverzí, různé reklamní formáty a nástroje pro řízení rozpočtu.",
-   "why": "ChatGPT má miliony aktivních uživatelů a stává se novým reklamním kanálem. Pro české e-shopy a firmy to může znamenat další místo, kde oslovit zákazníky – podobně jako kdysi vznikly Google Shopping nebo Meta Ads. Pokud se ChatGPT Ads rozšíří do ČR/EU, bude nutné připravit produktové feedy a zvážit testovací rozpočet.",
-   "takeaway": "Sledujte dostupnost ChatGPT Ads v ČR/EU a připravte se na možné rozšíření reklamních kanálů. Pokud už máte produktový feed pro Google nebo Zboží.cz, budete mít náskok při startu. Zatím jde o novinku primárně pro USA, ale vývoj je rychlý.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/a8cdd401ba.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "3f3c5703f5",
-   "created": "2026-09-04T09:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/klaviyo-added-as-customer-data-source-partner",
-     "title": "Klaviyo Added as Customer Data Source Partner",
-     "summary": "Google Ads has added Klaviyo as a new integration for Offline Conversion Import and Customer Match . The integration can help advertisers streamline how first party customer data moves between Klaviyo and Google Ads, reducing the need for manual data uploads. Read the official help page found by Hana Kobzová &nbsp;here: Data Source and Destination Integrations Table . The post Klaviyo Added as Customer Data Source Partner appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-04T09:00:00+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 58,
-   "title": "Google Ads propojil Klaviyo pro Customer Match a offline konverze",
-   "updated": "2026-09-04T14:31:25.481439+00:00",
-   "what": "Google Ads přidal Klaviyo jako nového partnera pro import offline konverzí a Customer Match. Integrace umožňuje automatizovat přenos zákaznických dat mezi Klaviyo a Google Ads bez nutnosti ručního nahrávání.",
-   "why": "Pro firmy využívající Klaviyo (emailový a CRM nástroj) to znamená jednodušší využití first-party dat v reklamních kampaních. Zrychluje nastavení remarketingu a měření výkonnosti napříč kanály.",
-   "takeaway": "Pokud používáte Klaviyo, nastavte propojení s Google Ads – ušetříte čas při aktualizaci zákaznických seznamů pro remarketing a získáte přesnější data o offline konverzích z emailových kampaní.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "16daf62c78",
    "created": "2026-09-04T05:35:00+00:00",
    "articles": [
@@ -4815,30 +5000,6 @@
    "why": "Jde o informaci ze zákulisí telekomunikačního byznysu – čísla o úspěšnosti interního loyalty programu jednoho operátora. Pro marketingového manažera české firmy nemá přímý dopad na praxi, rozpočty ani dostupné nástroje a kanály.",
    "takeaway": "Pokud váš brand využívá T-Mobile jako mediálního partnera nebo uvažujete o partnerství v rámci Magenta Moments, můžete počítat s potenciálním reach 2 miliony aktivních uživatelů programu.",
    "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "68a087c43a",
-   "created": "2026-09-04T04:20:11+00:00",
-   "articles": [
-    {
-     "url": "https://cc.cz/vydelavat-na-youtube-je-snazsi-nez-driv-misto-milionu-zhlednuti-dnes-staci-50-tisic-rika-jirka-kral",
-     "title": "Vydělávat na YouTube je snazší než dřív. Místo milionu zhlédnutí dnes stačí 50 tisíc, říká Jirka Král",
-     "summary": "Bývalý youtuber a spolumajitel agentury Socialpark popisuje, jak se za osm let posunula hranice úspěchu na YouTube. A co nás v tomto světě čeká. Článek Vydělávat na YouTube je snazší než dřív. Místo milionu zhlédnutí dnes stačí 50 tisíc, říká Jirka Král se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-09-04T04:20:11+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 52,
-   "title": "YouTube snížil práh pro monetizaci – stačí 50 tisíc zhlédnutí místo milionu",
-   "updated": "2026-09-04T09:00:01.497903+00:00",
-   "what": "Podle Jirky Krále ze Socialparku je dnes na YouTube výrazně jednodušší začít vydělávat než před osmi lety. Zatímco dříve bylo potřeba generovat miliony zhlédnutí, nyní postačuje už 50 tisíc zhlédnutí.",
-   "why": "Pro marketingové manažery a firmy to znamená dostupnější příležitost ke spolupráci s menšími youtubery a potenciálně lepší poměr cena/výkon při influencer marketingu. Nižší vstupní bariéra také znamená větší nabídku tvůrců ochotných spolupracovat.",
-   "takeaway": "Zvažte rozšíření influencer strategie i o menší YouTube kanály s desetitisíci zhlédnutí – mohou nabídnout lepší CPM a autentičtější působení než velcí tvůrci. Sledujte, jak se mění cenové relace na trhu YouTube spolupráce v ČR.",
-   "importance_label": "stojí za pozornost",
    "multi_source": false
   },
   {
@@ -4888,32 +5049,6 @@
    "takeaway": "Pokud provozujete e-shop na Shoptetu, prozkoumejte nové AI funkce v administraci – mohou vám ušetřit čas při běžné správě. Sledujte, jaké konkrétní úkony AI skutečně zvládne a zda vám vyhovuje jejich kvalita.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "9f12005002",
-   "created": "2026-09-01T18:16:29+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LR3NBQ0wtU1lwZkZaa2NuWVFfc1VLTVFnLUp4Zi1Kb0JKZDJnQUM4SnlSV1ZNNDlBQjlfYkxXSEpnZmVLUjlDeXBmbjhOS2ZJVGRhSnd1OW9nNU85S3RpWG52NkRDbTjSAWxBVV95cUxQMjl3STZKaW9fWHFfSWFjWlJMUzQ0RGdIdjVxb0xQZG8xVDdRVXFqSG5pX2docmdoZGg5N0hJMDE2Nzh5ZjFaajVHSGo2bkQ4SUh5MGo1LWZtYzhQQ3pFbXFYQktabnJRVC1ISEo?oc=5",
-     "title": "Meta Introduces a New Automatic Events Feature",
-     "summary": "Meta Introduces a New Automatic Events Feature &nbsp;&nbsp; Jon Loomer Digital",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-09-01T18:16:29+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Meta spouští automatické sledování událostí v Ads Manageru",
-   "updated": "2026-09-04T09:00:01.497903+00:00",
-   "what": "Meta zavádí novou funkci Automatic Events, která umožňuje automatické sledování klíčových konverzních událostí (jako zobrazení stránky, přidání do košíku nebo nákup) bez nutnosti manuálního nastavování Meta Pixelu nebo Conversions API. Funkce by měla zjednodušit implementaci trackingu pro inzerenty.",
-   "why": "Pro marketingové manažery to znamená potenciálně rychlejší a jednodušší nastavení kampaní, zejména u menších projektů nebo při testování nových kanálů. Automatizace trackingu může snížit technickou náročnost a časovou investici do implementace měření.",
-   "takeaway": "Sledujte dostupnost této funkce ve vašem Meta Ads účtu. Pokud ji dostanete, otestujte ji na méně kritických kampaních a porovnejte přesnost dat s vaším současným nastavením Pixelu/CAPI, než ji nasadíte plošně. Automatické události nejsou náhradou za kvalitně implementované měření u složitějších e-shopů.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/9f12005002.jpg",
-   "image_from": "jonloomer.com"
   },
   {
    "id": "e9eb6f68d2",
