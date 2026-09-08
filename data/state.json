@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-08T19:33:46.928056+00:00",
+ "last_run": "2026-09-08T22:46:45.029271+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -101,13 +101,13 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f131e5c36b0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Síť v malíčku",
@@ -299,19 +299,19 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -3133,7 +3133,13 @@
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUZOUFRYN3dGQlc2OUVEazlkcURwMXlYbVlxR2ZfSHduaUFydUZhRmZMZ0o3cTR2bnVST180OGtpYzRLeEJaM2Q4VDIyNDdaWXl1QnU5bXJiTWtLLVZiWGQxWTBmXy13ZkpnU2NaSHdud1kyN0pjV3Q4VzhJb1BnVW9mdGxPZXZjblBIbkRxUEw4Q0JVSFEyUWRaczJ1akhNVlNLQlJNZFA5T2h4ZktkN3dDT3g?oc=5": "2026-09-08T19:33:46.928056+00:00",
   "https://blog.hootsuite.com/social-media-archiving": "2026-09-08T19:33:46.928056+00:00",
   "https://www.seroundtable.com/recap-09-08-2026-42041.html": "2026-09-08T19:33:46.928056+00:00",
-  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZm5ZNmZOU1pMTVBNb2hMZTZCaVVuSzBIakIyUV9CWmJqUXpPQ1Jpa2pCWnFMbGJHV3gyNTkzZ3pOUFZGSlV1cE5pUmxmYXBhM19laXN1MFNYcFh6S0ZMd3hpYUhlZVE0NTVBR25uU3o0T2RiVTZWdEZRWEtLQXFDU1Vn?oc=5": "2026-09-08T19:33:46.928056+00:00"
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZm5ZNmZOU1pMTVBNb2hMZTZCaVVuSzBIakIyUV9CWmJqUXpPQ1Jpa2pCWnFMbGJHV3gyNTkzZ3pOUFZGSlV1cE5pUmxmYXBhM19laXN1MFNYcFh6S0ZMd3hpYUhlZVE0NTVBR25uU3o0T2RiVTZWdEZRWEtLQXFDU1Vn?oc=5": "2026-09-08T19:33:46.928056+00:00",
+  "https://www.jonloomer.com/meta-advertising-control": "2026-09-08T22:46:45.029271+00:00",
+  "https://blog.hootsuite.com/internal-policies-for-brand-safety": "2026-09-08T22:46:45.029271+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZVdHUndpWUNyT3pocWZJYUZmbFJDdW9INnFMTndXai11dlRrNDZLOU5UZHNTZXlOUHBIZms1bFJDTm5KQTk2blN0UkV6VXpGalB1aVRiaDB6R3RFbXBaQVJKTHFLSkpBSVhUWEdYeWhXdEc2aDNUYUVpN3pjeDJFV0FBdy11UzZFNkNVWW1ILS0?oc=5": "2026-09-08T22:46:45.029271+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40NldPTnctZjU0OTcwSHBLaWpIQjVnUDJYWUphSFlTLW9FR2hEUFd1MHNvVnhEZHNKdzRzLVFUbjV6cHNQckkzbk9tNFZwZXhybTJOT3cyU1Z4Y09rXzYzN1M0RQ?oc=5": "2026-09-08T22:46:45.029271+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YTEc3T2tsZUh6UTFJQTFHVnFvOE5FOGtMOGVZdGhUbGZtU3pxZWRvejJfd3JlM0YxUGJPWGFnUGhTYXNqVlFKYXZhbUpWczNKY2k5eVEzLXpDMlk?oc=5": "2026-09-08T22:46:45.029271+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRY21ENjAxNkNPaVFyYnhHU3VYOHp2M1Y4cVZmTXBLaFJBbEZNNHlxbUhOR0NHRlhMZmhFQzNsTXk5bzIxM3JpdjdWd2FZVTBpeHJ5QVBTcUFYVnprUWc?oc=5": "2026-09-08T22:46:45.029271+00:00"
  },
  "events": [
   {
