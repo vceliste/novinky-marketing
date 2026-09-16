@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-16T19:38:27.396484+00:00",
+ "last_run": "2026-09-16T23:10:03.788242+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -88,38 +88,38 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 4
+   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
    "feed": "https://feeds.feedburner.com/blogspot/amDG",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Semrush blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -178,7 +178,7 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
    "new": 0
   },
   {
@@ -196,14 +196,14 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7facce1ff4a0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Microsoft Advertising blog",
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -262,7 +262,7 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "status": "chyba: empty feed (HTTP 404, text/html)",
    "new": 0
   },
   {
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
@@ -299,12 +299,12 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -395,7 +395,7 @@
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   }
  ],
  "feed_overrides": {
@@ -3837,13 +3837,394 @@
   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UUWVvMGVwcHZJOW01dWhGOGlPRUxqa3pXTHZSTmJmbGNZOWwzenlVZmlWUGJOOHNydUNHU3VkbW41N2luVHdsbGdXcHp2T3NVUHlTaGloWUxuZ0U?oc=5": "2026-09-16T19:38:27.396484+00:00",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5": "2026-09-16T19:38:27.396484+00:00",
   "https://blog.hootsuite.com/ai-marketing-examples": "2026-09-16T19:38:27.396484+00:00",
-  "https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers": "2026-09-16T19:38:27.396484+00:00"
+  "https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers": "2026-09-16T19:38:27.396484+00:00",
+  "https://www.mediaguru.cz/zradci-miri-na-zive-finale-do-o2-areny-na-startu-vyprodali-kongresove-centrum": "2026-09-16T23:10:03.788242+00:00",
+  "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713": "2026-09-16T23:10:03.788242+00:00",
+  "https://www.seroundtable.com/google-search-profile-badge-42106.html": "2026-09-16T23:10:03.788242+00:00"
  },
  "events": [
   {
-   "id": "bc57d2a870",
-   "created": "2026-09-15T17:40:00+00:00",
+   "id": "8c00b3db24",
+   "created": "2026-09-16T11:21:00+00:00",
    "articles": [
+    {
+     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
+     "title": "Bing Tests Shopping Filters On Left Sidebar",
+     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:21:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
+     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
+     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:41:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Google a Bing testují změny v zobrazování produktových výsledků",
+   "updated": "2026-09-16T23:11:45.065932+00:00",
+   "what": "Google testuje přímé odkazy z produktových výsledků ve vyhledávání rovnou na weby obchodníků, místo otevírání postranního panelu s detaily produktu. Microsoft Bing zároveň testuje přidání produktových filtrů do levého postranního panelu vyhledávání, čímž se více přibližuje vzhledu Googlu.",
+   "why": "Obě změny mohou ovlivnit, jak uživatelé procházejí z vyhledávačů na e-shopy. Přímé odkazy u Googlu mohou zvýšit návštěvnost obchodů z organických výsledků, zatímco změna u Bingu může zlepšit filtrování produktů pro uživatele tohoto vyhledávače.",
+   "takeaway": "Sledujte metriky návštěvnosti a konverzí z Google Shopping a organického vyhledávání v následujících týdnech – pokud Google změnu nasadí plošně, může se změnit chování uživatelů. U Bingu jde zatím o test s menším dopadem pro český trh.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "dd6fd203e1",
+   "created": "2026-09-14T21:45:30+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-shares-tips-on-thought-leader-ads/830359",
+     "title": "LinkedIn shares tips on Thought Leader ads",
+     "summary": "The platform allows marketers to boost positive user-generated content as a way to promote brand awareness via individual endorsements.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-14T21:45:30+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/reddit-shares-holiday-shopping-insights/830363",
+     "title": "Reddit shares holiday shopping insights",
+     "summary": "The app has become a key source of engagement for user-generated product reviews as well as artificial intelligence citations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-14T23:11:45+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news",
+     "title": "Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News",
+     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Get email subscribers from Instagram More business from YouTube without ads 🗞️ Industry news from Instagram, YouTube, and more The 24-Hour Reset [&#8230;] The post Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-09-15T09:30:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai",
+     "title": "Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out",
+     "summary": "We're introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses. The post Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-15T15:00:59+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/presentation-de-meta-one-un-service-dabonnement-offrant-davantage-de-fonctionnalites-et-dia-pour-creer-se-connecter-et-se-demarquer",
+     "title": "Présentation de Meta One : Un service d’abonnement offrant davantage de fonctionnalités et d’IA pour créer, se connecter et se démarquer",
+     "summary": "À retenir Nous lançons Meta One, un nouveau service d’abonnement sur nos applications qui offre un usage accru de l’IA et des fonctionnalités d’expression enrichies, ainsi que des outils professionnels pour les créateurs et les entreprises. Les offres Meta One sont déployées progressivement, avec plus de 50 fonctionnalités lancées et 15 millions d’abonnements et d’essais à ce jour. L’expérience principale sur nos applications et Meta AI restera gratuite. Aujourd’hui, nous lançons Meta One, un nouveau service d’abonnement qui apporte davantage de valeur aux applications et aux expériences que d",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-15T15:25:57+00:00",
+     "score": 66
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-launches-meta-one-for-business-add-on-packages/830469",
+     "title": "Meta launches Meta One for Business add-on packages",
+     "summary": "The company&rsquo;s latest subscription bundles offer paid users access to artificial intelligence-powered tools and advanced custom insights. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-15T19:30:56+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-adds-more-creator-partnership-tools/830480",
+     "title": "Meta adds more creator partnership tools",
+     "summary": "The company&rsquo;s refreshed Creator Marketing hub will offer expanded access to additional discovery and outreach features to facilitate promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-15T20:48:52+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUWgtcUtTMWxtVFZQLVBSZThHNkJ0TkIwMFRTRlc2ZWdzQnA4UWN3bTJqWGlVbEZ2cUhRX3Zjd3RuWDRVWVB1YXI5LVUwZC1RX1Q2aVZRb1I5OFRXLXB2Nmh1OGc0WU1PczM3RUY1MTVVTDY4TE05M19qUzJ1S0tUSnBBb3g5c05pSUZiQk5SUmxtQzF4X2N6NUZtclB6RjA1S25QYjAybm9WSEk?oc=5",
+     "title": "Helping people spot and understand AI-generated content on TikTok",
+     "summary": "Helping people spot and understand AI-generated content on TikTok &nbsp;&nbsp; newsroom.tiktok.com",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-09-16T00:11:54+00:00",
+     "score": 66
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 62,
+   "title": "Meta spouští předplatné Meta One s AI nástroji pro firmy",
+   "updated": "2026-09-16T23:11:34.910325+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Meta představila novou předplacenou službu Meta One, která nabízí rozšířené využití AI nástrojů, pokročilé analytické funkce a nástroje pro tvůrce a firmy napříč Facebookem, Instagramem, WhatsAppem a Meta AI. Služba se zavádí postupně, dosud bylo zaznamenáno 15 milionů předplatných a zkušebních verzí. Základní verze aplikací zůstává zdarma.",
+   "why": "Pro marketingové manažery jde o novou položku v rozpočtu – placené funkce mohou nabídnout konkurenční výhodu v oblasti AI nástrojů pro tvorbu obsahu, pokročilé analytiky a partnerství s tvůrci. Zároveň to signalizuje dlouhodobý trend Meta směrem k platbám za prémiové funkce, což může ovlivnit budoucí strategii na těchto platformách.",
+   "takeaway": "Sledujte detaily Meta One balíčků pro firmy, až budou dostupné v ČR – může jít o zajímavé nástroje pro automatizaci a analytiku. Prozatím s investicí počkejte, dokud nebude jasné, jaké konkrétní funkce služba přinese a zda odpovídají vašim potřebám. Základní marketing na Meta platformách zůstává nadále zdarma.",
+   "image": "img/d69ce8689f.jpg",
+   "image_from": "about.fb.com"
+  },
+  {
+   "id": "50a1ae1f7f",
+   "created": "2026-09-16T09:01:04+00:00",
+   "articles": [
+    {
+     "url": "https://ahrefs.com/blog/ai-marketing-trends",
+     "title": "8 AI Marketing Trends I’ve Seen Firsthand in 2026 (Backed by Data)",
+     "summary": "The buyer’s journey looks different, because people now research and increasingly buy through AI tools instead of a page of blue links. The tools and processes we use to do marketing work have changed, because so much of it can &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-09-16T09:01:04+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.searchenginejournal.com/mit-anthropic-openai-sent-the-same-warning-get-your-evidence-house-in-order-now/589249",
+     "title": "MIT, Anthropic & OpenAI Sent The Same Warning, Get Your Evidence House In Order Now via @sejournal, @gregjarboe",
+     "summary": "Three AI warnings landed in five days. Nicholas Carr described the pattern in 2008, and it changes how you plan next quarter. The post MIT, Anthropic &#038; OpenAI Sent The Same Warning, Get Your Evidence House In Order Now appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-16T14:30:54+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ai",
+   "importance": 75,
+   "title": "AI nástroje mění nákupní cestu – kupující hledají přímo v ChatGPT, ne v Google",
+   "updated": "2026-09-16T23:11:22.833711+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/50a1ae1f7f.jpg",
+   "image_from": "ahrefs.com",
+   "what": "Podle aktuálních dat se mění způsob, jakým lidé vyhledávají a nakupují – čím dál víc používají AI nástroje (ChatGPT, Perplexity) místo klasického vyhledávání přes Google. Zároveň tři významné AI instituce (MIT, Anthropic, OpenAI) nezávisle na sobě vydaly varování týkající se nutnosti mít 'důkazní materiály v pořádku' – tedy strukturovaná data a ověřitelné zdroje informací.",
+   "why": "Pokud vaši potenciální zákazníci přestávají procházet klasické výsledky vyhledávání a místo toho se ptají AI asistentů, váš obsah a produkt se jim nemusí vůbec zobrazit. Zároveň AI systémy upřednostňují zdroje s ověřitelnými fakty a strukturovanými daty – weby bez nich budou v odpovědích AI chybět.",
+   "takeaway": "Zkontrolujte, jestli váš web má strukturovaná data (schema.org), jasné faktické informace a citovatelné zdroje. Sledujte, jak se vaše značka a produkty zobrazují v odpovědích ChatGPT a podobných nástrojů. Do marketingové strategie zahrňte optimalizaci nejen pro Google, ale i pro AI asistenty – jinak vám unikne rostoucí část zákazníků."
+  },
+  {
+   "id": "854d797d5e",
+   "created": "2026-09-15T15:26:48+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/heureka-se-chce-dostat-lidem-do-prohlizecu-spousti-v-nich-hlidac-cen-jako-rozsireni",
+     "title": "Heureka se chce dostat lidem do prohlížečů, spouští v nich Hlídač cen jako rozšíření",
+     "summary": "Nákupní srovnávač Heureka spou&#353;tí roz&#353;íření do webových prohlížečů s názvem Hlídač cen, který rovnou při náv&#353;těvě e-shopu porovná produkt s dal&#353;ími nabídkami na Heurece. Podle firmy produkt na stránce e-shopu rozpozná a případně ukáže až tři alternativy.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-15T15:26:48+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://cc.cz/heureka-chce-upozornit-na-realne-ceny-nove-ukaze-kolik-zbozi-stoji-u-konkurence-i-co-jsou-slevy-a-akce",
+     "title": "Chtějí upozornit na reálné ceny e-shopů. Nově ukážou, kolik zboží stojí u konkurence i co jsou slevy a akce",
+     "summary": "Bezplatné rozšíření od Heureky do prohlížečů automaticky porovná produkt s nabídkami u ostatních obchodníků. Článek Chtějí upozornit na reálné ceny e-shopů. Nově ukážou, kolik zboží stojí u konkurence i co jsou slevy a akce se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-09-16T11:33:10+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/nepiste-svou-recenzi-nam-nadiktujte-vyzyva-zbozi-cz-umela-inteligence-pry-lidi-pochopi",
+     "title": "Nepište. Svou recenzi nám nadiktujte, vyzývá Zboží.cz. Umělá inteligence prý lidi pochopí",
+     "summary": "Seznam otevřel zákazníkům Zboží.cz jazykový model, který vyvíjí, pro recenze jejich nákupů. Místo sepisování dojmů jim umožňuje je zkrátka nadiktovat. Vyzývá je, aby o nich hovořili tak, &#8222;jak by o své zku&#353;enosti vyprávěli kamarádovi&#8220;. Nemusí přitom ře&#353;it, jak strukturovaně informace podávají &#8211; AI projev zpracuje, vytěží z něj klady, zápory i stručné shrnutí, které rovnou roztřídí a vyplní do formuláře.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-16T13:46:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 75,
+   "title": "Heureka spouští rozšíření Hlídač cen, konkuruje přímo v e-shopech",
+   "updated": "2026-09-16T23:11:14.032040+00:00",
+   "what": "Heureka uvedla nové rozšíření do webových prohlížečů s názvem Hlídač cen. Rozšíření automaticky rozpozná produkt při návštěvě e-shopu a zobrazí až tři alternativní nabídky z Heureky včetně porovnání cen.",
+   "why": "Heureka se tak dostává přímo do nákupního procesu zákazníků ještě před dokončením transakce v e-shopu. Rozšíření může odlákat zákazníky k levnějším konkurentům právě ve chvíli, kdy jsou na webu prodejce připraveni nakoupit.",
+   "takeaway": "Pokud provozujete e-shop, počítejte s tím, že část návštěvníků uvidí přímo ve vašem obchodě konkurenční nabídky. Zaměřte se na diferenciaci přidanou hodnotou (služby, doprava zdarma, věrnostní program), nejen cenou. Sledujte dopad na konverzní poměr.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/854d797d5e.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "b260e0abf9",
+   "created": "2026-09-14T13:35:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd1lrdEItOS16RU1Ccy0zdWJxRnFoUEV2LWR6cUZoLTI2a3NWeVpBSVZ1LXQwUVVxcFNONzZxYzR6YnRlWnQ1SzltUUFLSC1Jb2k1eV9RMklLZUIxV2ZCUEJPUWhpcTdSSExQVXR4MHl3b2tENXQ0MmViYmxxMm5HLUc0OWlhSnRVbGs4Qkdn?oc=5",
+     "title": "Google Business Profiles rolls out Collected Info",
+     "summary": "Google Business Profiles rolls out Collected Info &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T13:35:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-search-profiles-10000-followers/589635",
+     "title": "Google Search Profiles Now Available At 10,000 Followers via @sejournal, @MattGSouthern",
+     "summary": "Google lowers Search profile eligibility to 10,000 followers for U.S. websites and creators, with new account tools and updated article displays. The post Google Search Profiles Now Available At 10,000 Followers appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-16T16:00:15+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXRIUy1DYnY5NHdqcVd1RC0wME9LZXVPeTdzX283bFYyemF3cm9MWll1aUl2bmNtcy1kcHNPMVZJdWwwSkpFVVA0REhlYjN1Nll4VUJGazZ3aVlEY1JyeE9pSGlhOTdUMDdkTjNJMW9MTjF2MnBpaFEzSm9FSmRGREhUNkM3aExHbDlYUzFZVTFDMVJWaXVRS1RBQ295RTNZQXY2aFhIclVGNE9QSkJFeVJBTDZOWVJxS1R6UmFOUTI1LVRBM2hGazdCTDU?oc=5",
+     "title": "Google updates Search profiles with design update, lower subscriber requirements and single login",
+     "summary": "Google updates Search profiles with design update, lower subscriber requirements and single login &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T16:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-profiles-updates-42098.html",
+     "title": "Google Search Profiles Article Design, Less Followers & Easier Login",
+     "summary": "Google has updated the Search profiles with a new article design, a single login to manage multiple Search profiles and only 10,000 followers on social platforms are required.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T16:00:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "seo",
+   "importance": 52,
+   "title": "Google snížil vstupní práh pro Search Profiles na 10 000 followerů",
+   "updated": "2026-09-16T23:11:03.487803+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/b260e0abf9.jpg",
+   "image_from": "searchengineland.com",
+   "what": "Google zpřístupnil Search Profiles (profily ve vyhledávání) tvůrcům a webům s minimálně 10 000 followery na sociálních sítích, dříve byl limit vyšší. Zároveň přidal nový design zobrazení článků, možnost spravovat více profilů z jednoho přihlášení a v Business Profiles nově sbírá informace od uživatelů (Collected Info).",
+   "why": "Nižší práh umožňuje menším tvůrcům obsahu a lokálním webům získat vlastní profil přímo ve výsledcích vyhledávání, což může zvýšit viditelnost a klikatelnost. Pro firmy s Google Business Profile přibývá nový kanál interakce s uživateli.",
+   "takeaway": "Pokud máte web nebo brand s 10 000+ followery na sociálních sítích (YouTube, Instagram, TikTok aj.), zkontrolujte, zda vám Google nenabízí aktivaci Search Profile – může vám přinést lepší prezentaci ve vyhledávání. Majitelé Business Profiles sledujte nové funkce v dashboardu."
+  },
+  {
+   "id": "052c1b5310",
+   "created": "2026-09-16T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
+     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
+     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:05:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
+     "title": "AI Overviews Cut CTR by 23.1% in France",
+     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-09-16T16:04:30+00:00",
+     "score": 75
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "AI Overviews ve Francii snížily CTR o 23 %, Google chystá změny reportingu",
+   "updated": "2026-09-16T23:10:50.749166+00:00",
+   "what": "Ahrefs analyzoval dopad AI Overviews ve Francii (spuštěno 22. července 2026) na 963 doménách – domény s nejvyšší expozicí AI přehledům ztratily 23,1 % CTR během 9 dní po spuštění. Současně Google prostřednictvím Johna Muellera avizuje, že reportování pozic a impresí pro AI Mode a AI Overviews v Search Console se bude v čase vyvíjet společně s vývojem těchto funkcí.",
+   "why": "AI Overviews postupně expandují do Evropy (Francie je blízký trh) a data z Francie ukazují měřitelný propad organické návštěvnosti u dotčených webů. Změny v GSC reportingu znamenají, že současné metriky pozic a impresí nemusí být stabilní ani plně srovnatelné – pro SEO manažery to ztěžuje vyhodnocení skutečného dopadu AI na výkon.",
+   "takeaway": "Sledujte CTR a impressions v GSC u klíčových stránek a dotazů – pokud AI Overviews dorazí do ČR (nebo už se zobrazují), očekávejte pokles kliknutelnosti podobný francouzskému trhu. Připravte se na to, že metriky v GSC se mohou měnit a historická data nemusí být plně srovnatelná. Zvažte optimalizaci obsahu tak, aby měl šanci být citován v AI přehledech (structured data, jasné odpovědi na otázky).",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/43c1215526.jpg",
+   "image_from": "ahrefs.com"
+  },
+  {
+   "id": "2877daf990",
+   "created": "2026-09-15T07:45:08+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/local-services-ads-to-performance-max-what-to-audit-before-migration-recap/588906",
+     "title": "Local Services Ads To Performance Max: What To Audit Before Migration via @sejournal, @hethr_campbell",
+     "summary": "CallRail’s Meagan McLoughlin explains what to audit before/after Local Services Ads migrate into Google Ads, from historical reports to tracking numbers and lead quality. The post Local Services Ads To Performance Max: What To Audit Before Migration appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T07:45:08+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-pmax-options-42087.html",
+     "title": "Google Ads PMax: Where Should People Go After Clicking Your Ads?",
+     "summary": "Google Ads added a new option within your Performance Max campaigns to select \"Where should people go after clicking your ads?\" The two available options for that question are (1) Your website and (2) Google Business Profile (optimized for ads).",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-15T11:31:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOEgxc204NUJKRUVlUnlKWGFydmFKUE1Rc1YxamRLTlhQVTNpelN1cUZsWU9RejdPRkg5Q1UwdzM4LW1rN1VxcTduVU9rM1JOejJWaVpXTEZoOTB1VEdWNXBaS1Qtbk9zT3BWWk1sWUdubDJUamVENnR5bUxub2NpbVV3eVU0dGpUeWlJQ3ZJSHZUcEdGUnBv?oc=5",
+     "title": "AI Overviews and paid search: When to fight, influence, or generate demand",
+     "summary": "AI Overviews and paid search: When to fight, influence, or generate demand &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-15T12:00:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-expands-conversational-attribute-specs",
+     "title": "Merchant Center Expands Conversational Attribute Specs",
+     "summary": "Google Merchant Center has enhanced its product data specifications by adding detailed formatting guidelines for its newer conversational attributes. These updates provide clarity with technical names and file-format examples, enabling more precise data submissions. A TSV template for these attributes has also been published, assisting advertisers in streamlining their feed work. Key attributes like document link , question and answer , popularity rank , and variant option now have specific technical names and file format examples listed. This documentation ensures that these elements are unde",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-16T07:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-multi-source-conversions-42080.html",
+     "title": "New Information On Google Ads Multi-Source Conversions Beta",
+     "summary": "Google posted another new help document on multi-source conversions (beta). Last month, Google reportedly renamed conversions with multiple data sources to multi-source conversions, but now there is this new help document as well.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:31:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713",
+     "title": "Google UCP Update Lets Merchants Enable Cart Transfer To Site via @sejournal, @MattGSouthern",
+     "summary": "Google is rolling out cart transfer and checkout testing in the Merchant Center UCP hub, plus a YouTube ads beta and wider AI insights. The post Google UCP Update Lets Merchants Enable Cart Transfer To Site appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-16T20:35:52+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Performance Max: nová volba, kam směřovat kliknutí – web nebo profil firmy",
+   "updated": "2026-09-16T23:10:42.130416+00:00",
+   "what": "Google Ads přidal do Performance Max kampaní novou možnost volby, kam mají uživatelé po kliknutí na reklamu směřovat. Inzerenti si nyní mohou vybrat mezi vlastním webem nebo profilem Google Business Profile optimalizovaným pro reklamy.",
+   "why": "Jde o významnou změnu v nastavení PMax kampaní – možnost směřovat na GBP profil může být užitečná zejména pro lokální byznisy (restaurace, služby), které chtějí zvýraznit mapu, hodnocení a kontakty namísto webu. Pro e-shopy a většinu B2B firem zůstane prioritou vlastní web s konverzními cestami.",
+   "takeaway": "Zkontrolujte nastavení svých Performance Max kampaní – pokud provozujete lokální služby s kvalitně vyplněným GBP profilem, otestujte novou možnost směrování na profil. Pro e-commerce a leadové kampaně zůstává primární volbou vlastní web.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/2877daf990.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "f308ad896d",
+   "created": "2026-09-14T14:30:08+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/ai-isnt-delivering-marketing-efficiency-its-repeating-programmatics-broken-promise/588722",
+     "title": "AI Isn’t Delivering Marketing Efficiency, It’s Repeating Programmatic’s Broken Promise via @sejournal, @gregjarboe",
+     "summary": "Count AI marketing's hidden rework and maintenance costs before claiming efficiency gains, or risk repeating programmatic's mistake and starving long-term strategy. The post AI Isn&#8217;t Delivering Marketing Efficiency, It&#8217;s Repeating Programmatic&#8217;s Broken Promise appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-14T14:30:08+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2JKeGZ3c1l4My1RVGI5TmhxcDY0Ny1jajlnZ29KT2FuRWtQcVg3Xzl0ckFGcUNrLUhHUkt3aXk1X1pNakI1M1ZfWHA2VW44b0YzZmo2dUpzbEJzc29yOS11elNSQkY5NXd6bXZrbWUtSXRsTWczTm02QlM1TXU4dzY4S1V5M0dZWFlwWVExSGxHczRpUGtRcUZXaXc2Zw?oc=5",
+     "title": "The AI performance shake-up: What’s really driving results across channels now",
+     "summary": "The AI performance shake-up: What’s really driving results across channels now &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-14T18:28:03+00:00",
+     "score": 52
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMFdudW5ta25GQU1YRVh3WVEzblE0SmJwdTFJSV9OY21HTW5IeUJtaXdjSFY2SmdvNnlyRVlFZ1QyNXdfMVBVM0NxM0pRRTdqMWhVNGVrY0hKQjkyLWVGMFUxbzVJTjQ3S0E3STRaQ25maXk1Z2VtSzJidVhPd0xWVks4ZzI3Y3lIejJKNlVPZklpTERvN1YzdW9JVlB1enREeVFKQ01iQ1N2VjZLcDZma1ZnNDBfTDVYU28w?oc=5",
      "title": "Matt Van Wagner shares what’s changed, what disappeared and what PPC still gets wrong",
@@ -3872,17 +4253,41 @@
      "score": 53
     }
    ],
-   "category": "ppc",
+   "category": "ai",
    "importance": 65,
-   "title": "Google Ads AI potřebuje kontrolu, ne slepou důvěru, varuje expert",
-   "updated": "2026-09-16T19:39:48.181135+00:00",
-   "what": "Mike Ryan v rozhovoru pro Search Engine Land upozorňuje, že automatizace a AI v Google Ads vyžaduje aktivní dohled a nastavení limitů, nikoli pasivní přístup. Zároveň Matt Van Wagner v historickém přehledu PPC zdůrazňuje, že i po letech odvětví opakuje některé chyby – zejména přílišné spoléhání se na automatizaci bez kontroly.",
-   "why": "Pro marketingové manažery jde o připomínku, že slepá důvěra v automatické nabídkové strategie a AI doporučení Google Ads může vést ke ztrátě kontroly nad rozpočtem a výkonností kampaní. Automatizace je nástroj, ale bez vlastního dohledu a nastavených mantinelů riskujete plýtvání penězi.",
-   "takeaway": "Pravidelně kontrolujte výkon automatických kampaní a nastavte si limity (např. max. CPA, denní rozpočty). Nespoléhejte se na AI od Googlu jako na autopilota – musíte ji řídit a hlídat, kam jdou peníze.",
+   "title": "AI v marketingu neplní sliby o efektivitě, varují odborníci",
+   "updated": "2026-09-16T23:10:31.664955+00:00",
+   "what": "Podle analýzy Search Engine Journal AI nástroje v marketingu zatím nedodávají slibované úspory – namísto toho vytvářejí skryté náklady na opravu chyb, údržbu a kontrolu výstupů. Situace připomíná programmatic reklamu, která rovněž slibovala automatizaci a efektivitu, ale přinesla nové problémy a erozi dlouhodobé strategie.",
+   "why": "Marketingoví manažeři riskují, že při implementaci AI přehlédnou reálné náklady na rework a dohled, což může vést k omezení rozpočtu na strategické aktivity. Pokud AI nedodává skutečnou úsporu času a peněz, investice do ní odčerpává zdroje z dlouhodobého růstu.",
+   "takeaway": "Než rozšíříte AI nástroje, změřte skutečné náklady včetně oprav, kontroly a údržby výstupů. Pokud AI vyžaduje více práce než ušetří, přehodnoťte nasazení a chraňte rozpočet na strategický marketing a týmové kapacity.",
    "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/bc57d2a870.jpg",
-   "image_from": "searchengineland.com"
+   "multi_source": true,
+   "image": "img/f308ad896d.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "fee03ecdee",
+   "created": "2026-09-16T18:59:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-profile-badge-42106.html",
+     "title": "Google Search Profile Badge - How To Add It To Your Site",
+     "summary": "Google left one thing out of the announcement around the new Search profiles features announced today, you can now add a Search profile badge to your website. This allows users/searchers to follow you directly from your website.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T18:59:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Google umožňuje přidat na web odznak profilu z Google Search",
+   "updated": "2026-09-16T23:10:03.788242+00:00",
+   "what": "Google vydal novou funkci Search Profile Badge – snippet kódu, který lze vložit na web a umožňuje návštěvníkům přímo sledovat daný profil v Google Search. Jde o doplněk k nedávno oznámeným profilům ve vyhledávání.",
+   "why": "Funkce umožňuje majitelům webů budovat vlastní publikum přímo ve vyhledávači Google – uživatelé, kteří profil sledují, mohou pak snadněji nacházet nový obsah od daného autora nebo značky. Jde o nový kanál pro zvyšování viditelnosti v organickém vyhledávání, aniž by byl nutný dodatečný rozpočet.",
+   "takeaway": "Pokud máte profil v Google Search (zejména pro autory nebo edukační obsah), zvažte přidání Search Profile Badge na web – může vám pomoci budovat followery a zlepšit viditelnost nového obsahu ve vyhledávání. Sledujte, zda funkce bude dostupná i v českém prostředí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "f21ff18c9e",
@@ -3963,68 +4368,6 @@
    "what": "Google aktivoval v evropských zemích tzv. Ecosystem carousel – nové formáty výsledků pro počasí, překlady a další vertikální služby. Jde o reakci na požadavky Digital Markets Act (DMA), který vyžaduje, aby Google propagoval i konkurenční vyhledávací služby.",
    "why": "DMA výrazně mění podobu výsledků vyhledávání v EU a může ovlivnit viditelnost webů v organických výsledcích. Karusely s vertikálními službami (včetně těch konkurenčních) budou zabírat místo ve výsledcích a mohou snížit CTR na běžné organické výsledky.",
    "takeaway": "Sledujte změny pozic a CTR v Google Search Console pro EU trhy. Pokud vaše stránky cílí na query spojené s počasím, překlady nebo jiné vertikální služby, počítejte s možným poklesem prokliku kvůli novým karuselům."
-  },
-  {
-   "id": "2877daf990",
-   "created": "2026-09-15T07:45:08+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/local-services-ads-to-performance-max-what-to-audit-before-migration-recap/588906",
-     "title": "Local Services Ads To Performance Max: What To Audit Before Migration via @sejournal, @hethr_campbell",
-     "summary": "CallRail’s Meagan McLoughlin explains what to audit before/after Local Services Ads migrate into Google Ads, from historical reports to tracking numbers and lead quality. The post Local Services Ads To Performance Max: What To Audit Before Migration appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T07:45:08+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-pmax-options-42087.html",
-     "title": "Google Ads PMax: Where Should People Go After Clicking Your Ads?",
-     "summary": "Google Ads added a new option within your Performance Max campaigns to select \"Where should people go after clicking your ads?\" The two available options for that question are (1) Your website and (2) Google Business Profile (optimized for ads).",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-15T11:31:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOEgxc204NUJKRUVlUnlKWGFydmFKUE1Rc1YxamRLTlhQVTNpelN1cUZsWU9RejdPRkg5Q1UwdzM4LW1rN1VxcTduVU9rM1JOejJWaVpXTEZoOTB1VEdWNXBaS1Qtbk9zT3BWWk1sWUdubDJUamVENnR5bUxub2NpbVV3eVU0dGpUeWlJQ3ZJSHZUcEdGUnBv?oc=5",
-     "title": "AI Overviews and paid search: When to fight, influence, or generate demand",
-     "summary": "AI Overviews and paid search: When to fight, influence, or generate demand &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-15T12:00:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-expands-conversational-attribute-specs",
-     "title": "Merchant Center Expands Conversational Attribute Specs",
-     "summary": "Google Merchant Center has enhanced its product data specifications by adding detailed formatting guidelines for its newer conversational attributes. These updates provide clarity with technical names and file-format examples, enabling more precise data submissions. A TSV template for these attributes has also been published, assisting advertisers in streamlining their feed work. Key attributes like document link , question and answer , popularity rank , and variant option now have specific technical names and file format examples listed. This documentation ensures that these elements are unde",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-16T07:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-multi-source-conversions-42080.html",
-     "title": "New Information On Google Ads Multi-Source Conversions Beta",
-     "summary": "Google posted another new help document on multi-source conversions (beta). Last month, Google reportedly renamed conversions with multiple data sources to multi-source conversions, but now there is this new help document as well.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:31:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Performance Max: nová volba, kam směřovat kliknutí – web nebo profil firmy",
-   "updated": "2026-09-16T19:39:30.727685+00:00",
-   "what": "Google Ads přidal do Performance Max kampaní novou možnost volby, kam mají uživatelé po kliknutí na reklamu směřovat. Inzerenti si nyní mohou vybrat mezi vlastním webem nebo profilem Google Business Profile optimalizovaným pro reklamy.",
-   "why": "Jde o významnou změnu v nastavení PMax kampaní – možnost směřovat na GBP profil může být užitečná zejména pro lokální byznisy (restaurace, služby), které chtějí zvýraznit mapu, hodnocení a kontakty namísto webu. Pro e-shopy a většinu B2B firem zůstane prioritou vlastní web s konverzními cestami.",
-   "takeaway": "Zkontrolujte nastavení svých Performance Max kampaní – pokud provozujete lokální služby s kvalitně vyplněným GBP profilem, otestujte novou možnost směrování na profil. Pro e-commerce a leadové kampaně zůstává primární volbou vlastní web.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/2877daf990.jpg",
-   "image_from": "searchenginejournal.com"
   },
   {
    "id": "6537a84437",
@@ -4331,74 +4674,6 @@
    "image_from": "seroundtable.com"
   },
   {
-   "id": "43c1215526",
-   "created": "2026-09-16T16:04:30+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
-     "title": "AI Overviews Cut CTR by 23.1% in France",
-     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-16T16:04:30+00:00",
-     "score": 75
-    }
-   ],
-   "category": "seo",
-   "importance": 75,
-   "title": "AI Overviews ve Francii snížily CTR o 23 % – hrozba i pro ČR",
-   "updated": "2026-09-16T19:38:27.396484+00:00",
-   "what": "Google spustil 22. července 2024 ve Francii AI Overviews (AI souhrny ve výsledcích vyhledávání). Ahrefs analyzoval data z Google Search Console pro 963 domén, 28 dní před a 9 dní po spuštění. Weby s nejvyšší expozicí AI Overviews zaznamenaly pokles CTR o 23,1 %.",
-   "why": "Francie je prvním velkým evropským trhem s AI Overviews. Pokles CTR o pětinu u nejexponovanějších webů ukazuje reálný dopad na organickou návštěvnost. Google pravděpodobně AI souhrny rozšíří i do dalších zemí EU včetně ČR –manažeři by měli počítat s tím, že část kliků z vyhledávání může zmizet, což ovlivní SEO strategie a plánované rozpočty.",
-   "takeaway": "Sledujte vývoj AI Overviews v EU a připravte se na možný pokles organické návštěvnosti z Googlu v ČR. Diverzifikujte zdroje návštěvnosti (PPC, direct, sociální sítě, e-mailing) a investujte do kvalitního obsahu, který AI nedokáže plně nahradit (analýzy, návody, osobní zkušenosti). Monitorujte CTR v GSC a identifikujte dotazy, u kterých se AI souhrny objevují.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/43c1215526.jpg",
-   "image_from": "ahrefs.com"
-  },
-  {
-   "id": "43f21e36f9",
-   "created": "2026-09-16T16:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-search-profiles-10000-followers/589635",
-     "title": "Google Search Profiles Now Available At 10,000 Followers via @sejournal, @MattGSouthern",
-     "summary": "Google lowers Search profile eligibility to 10,000 followers for U.S. websites and creators, with new account tools and updated article displays. The post Google Search Profiles Now Available At 10,000 Followers appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-16T16:00:15+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXRIUy1DYnY5NHdqcVd1RC0wME9LZXVPeTdzX283bFYyemF3cm9MWll1aUl2bmNtcy1kcHNPMVZJdWwwSkpFVVA0REhlYjN1Nll4VUJGazZ3aVlEY1JyeE9pSGlhOTdUMDdkTjNJMW9MTjF2MnBpaFEzSm9FSmRGREhUNkM3aExHbDlYUzFZVTFDMVJWaXVRS1RBQ295RTNZQXY2aFhIclVGNE9QSkJFeVJBTDZOWVJxS1R6UmFOUTI1LVRBM2hGazdCTDU?oc=5",
-     "title": "Google updates Search profiles with design update, lower subscriber requirements and single login",
-     "summary": "Google updates Search profiles with design update, lower subscriber requirements and single login &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T16:00:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-profiles-updates-42098.html",
-     "title": "Google Search Profiles Article Design, Less Followers & Easier Login",
-     "summary": "Google has updated the Search profiles with a new article design, a single login to manage multiple Search profiles and only 10,000 followers on social platforms are required.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T16:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Google snížil limit pro Search Profily na 10 000 followerů",
-   "updated": "2026-09-16T19:38:27.396484+00:00",
-   "what": "Google snížil požadavek na počet followerů pro získání Search Profilu z předchozí vyšší hodnoty na 10 000 followerů na sociálních sítích. Změna platí zatím pro weby a tvůrce obsahu v USA. Zároveň přišel s redesignem zobrazení článků a možností spravovat více profilů z jednoho účtu.",
-   "why": "Search Profily umožňují autorům a webům vytvořit veřejný profil ve vyhledávání Google, který může zlepšit viditelnost a důvěryhodnost. Nižší vstupní práh zpřístupňuje tuto funkci širšímu okruhu tvůrců obsahu.",
-   "takeaway": "Pokud vaše firma neboContentTeam má na sociálních sítích alespoň 10 000 followerů, zkontrolujte, zda máte nárok na Google Search Profil – může posílit autoritu vašeho obsahu ve vyhledávání. Zatím jde o funkci dostupnou v USA, sledujte případné rozšíření do ČR.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
    "id": "2a4fd49ea5",
    "created": "2026-09-16T15:00:00+00:00",
    "articles": [
@@ -4421,41 +4696,6 @@
    "takeaway": "Sledujte vývoj GEO jako doplněk SEO. Strukturujte obsah jasně a logicky pro AI zpracování, budujte konzistentní zmínky značky napříč weby a připravte se na scénář, kdy AI asistenti budou srovnávat produkty a doporučovat nákupy místo uživatelů.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "854d797d5e",
-   "created": "2026-09-15T15:26:48+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/heureka-se-chce-dostat-lidem-do-prohlizecu-spousti-v-nich-hlidac-cen-jako-rozsireni",
-     "title": "Heureka se chce dostat lidem do prohlížečů, spouští v nich Hlídač cen jako rozšíření",
-     "summary": "Nákupní srovnávač Heureka spou&#353;tí roz&#353;íření do webových prohlížečů s názvem Hlídač cen, který rovnou při náv&#353;těvě e-shopu porovná produkt s dal&#353;ími nabídkami na Heurece. Podle firmy produkt na stránce e-shopu rozpozná a případně ukáže až tři alternativy.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-15T15:26:48+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://cc.cz/heureka-chce-upozornit-na-realne-ceny-nove-ukaze-kolik-zbozi-stoji-u-konkurence-i-co-jsou-slevy-a-akce",
-     "title": "Chtějí upozornit na reálné ceny e-shopů. Nově ukážou, kolik zboží stojí u konkurence i co jsou slevy a akce",
-     "summary": "Bezplatné rozšíření od Heureky do prohlížečů automaticky porovná produkt s nabídkami u ostatních obchodníků. Článek Chtějí upozornit na reálné ceny e-shopů. Nově ukážou, kolik zboží stojí u konkurence i co jsou slevy a akce se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-09-16T11:33:10+00:00",
-     "score": 72
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 72,
-   "title": "Heureka spouští rozšíření do prohlížeče, které srovnává ceny přímo v e-shopech",
-   "updated": "2026-09-16T15:07:06.984086+00:00",
-   "what": "Heureka uvádí na trh rozšíření do webových prohlížečů s názvem Hlídač cen. Rozšíření automaticky rozpozná produkt při návštěvě e-shopu a zobrazí až tři alternativní nabídky z Heureky, včetně cen u konkurence.",
-   "why": "Jde o přímý zásah do nákupní cesty zákazníka – Heureka se dostává přímo do prohlížečů uživatelů a srovnává nabídku e-shopů v reálném čase. Pro provozovatele e-shopů to znamená zvýšenou cenovou transparentnost a tlak na konkurenceschopnost přímo na produktových stránkách.",
-   "takeaway": "Pokud provozujete e-shop, počítejte s tím, že část zákazníků bude mít nainstalované rozšíření, které jim ukáže levnější nabídky konkurence. Zkontrolujte svou cenovou strategii a ujistěte se, že vaše ceny na Heurece odpovídají těm na webu. Pro PPC a měření konverzí může jít o další kanál 'úniku' zákazníků před dokončením nákupu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/854d797d5e.jpg",
-   "image_from": "lupa.cz"
   },
   {
    "id": "fbb3e8cbb2",
@@ -4491,56 +4731,6 @@
    "multi_source": true,
    "image": "img/fbb3e8cbb2.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "4b173bfe13",
-   "created": "2026-09-16T14:30:54+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/mit-anthropic-openai-sent-the-same-warning-get-your-evidence-house-in-order-now/589249",
-     "title": "MIT, Anthropic & OpenAI Sent The Same Warning, Get Your Evidence House In Order Now via @sejournal, @gregjarboe",
-     "summary": "Three AI warnings landed in five days. Nicholas Carr described the pattern in 2008, and it changes how you plan next quarter. The post MIT, Anthropic &#038; OpenAI Sent The Same Warning, Get Your Evidence House In Order Now appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-16T14:30:54+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ai",
-   "importance": 68,
-   "title": "MIT, Anthropic i OpenAI varují: AI nevytváří spolehlivé důkazy",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "V průběhu pěti dnů vydaly tři nezávislé instituce (MIT, Anthropic a OpenAI) varování před spoléháním se na AI při tvorbě faktických důkazů a podkladů. Upozorňují, že AI modely mohou generovat nespolehlivé informace, což navazuje na vzorec popsaný již v roce 2008 Nicholasem Carrem.",
-   "why": "Pro marketingové manažery, kteří začínají využívat AI na tvorbu obsahů, analýz nebo reportů, jde o zásadní upozornění. Spoléhání se na AI-generované údaje bez ověření může vést k chybným rozhodnutím o rozpočtech, strategii nebo reportování výsledků.",
-   "takeaway": "Pokud ve firmě používáte AI na tvorbu obsahů, analýz nebo podkladů pro rozhodování, zavedete systematic ověřování všech faktických tvrzení a čísel z lidských zdrojů. Neplánujte plně automatizované AI procesy bez kontroly a revize.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/4b173bfe13.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "ad45f14f9f",
-   "created": "2026-09-16T13:46:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/nepiste-svou-recenzi-nam-nadiktujte-vyzyva-zbozi-cz-umela-inteligence-pry-lidi-pochopi",
-     "title": "Nepište. Svou recenzi nám nadiktujte, vyzývá Zboží.cz. Umělá inteligence prý lidi pochopí",
-     "summary": "Seznam otevřel zákazníkům Zboží.cz jazykový model, který vyvíjí, pro recenze jejich nákupů. Místo sepisování dojmů jim umožňuje je zkrátka nadiktovat. Vyzývá je, aby o nich hovořili tak, &#8222;jak by o své zku&#353;enosti vyprávěli kamarádovi&#8220;. Nemusí přitom ře&#353;it, jak strukturovaně informace podávají &#8211; AI projev zpracuje, vytěží z něj klady, zápory i stručné shrnutí, které rovnou roztřídí a vyplní do formuláře.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-16T13:46:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Zboží.cz spustilo diktování recenzí pomocí AI",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "Seznam.cz umožnil na Zboží.cz zákazníkům nadiktovat recenze produktů místo jejich psaní. AI model zpracuje mluvený projev, vytěží z něj klady, zápory a shrnutí a automaticky vyplní strukturovaný formulář recenze.",
-   "why": "Jde o konkrétní implementaci AI na českém trhu, která může zvýšit počet recenzí na Zboží.cz – důležitém srovnávači pro e-shopy. Více recenzí ovlivňuje viditelnost a konverze produktů.",
-   "takeaway": "Pokud prodáváte přes Zboží.cz, sledujte, zda nová funkce zvýší množství recenzí vašich produktů. Více a kvalitnějších recenzí může zlepšit pozice v porovnávači a ovlivnit rozhodování zákazníků.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "857c4e5c57",
@@ -4591,78 +4781,6 @@
    "multi_source": false
   },
   {
-   "id": "02a4fe856d",
-   "created": "2026-09-16T11:41:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
-     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
-     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:41:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google testuje přímé odkazy na e-shopy z výsledků vyhledávání",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "Google testuje v produktových výsledcích ve vyhledávání přímé odkazy na stránky obchodníků, místo aby se otevíral boční panel s detaily produktu.",
-   "why": "Pokud se změna prosadí, může zvýšit přímou návštěvnost e-shopů z organických výsledků a snížit závislo­st na Google Shopping panelech. Pro e-shopy to znamená potenciálně více kvalitní­ho trafiku, ale i větší konkurenční tlak na přímé organické umístění.",
-   "takeaway": "Sledujte výkon produktových stránek ve Search Console a organické umístění produktů. Pokud se test rozšíří, může to ovlivnit poměr trafiku z organického vyhledávání vs. Google Shopping.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "8c00b3db24",
-   "created": "2026-09-16T11:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
-     "title": "Bing Tests Shopping Filters On Left Sidebar",
-     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:21:00+00:00",
-     "score": 51
-    }
-   ],
-   "category": "seo",
-   "importance": 15,
-   "title": "Bing testuje produktové filtry v levém panelu vyhledávání",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "Microsoft Bing testuje přidání filtrů souvisejících s produkty a nákupy do levého postranního panelu vyhledávání. Při vyhledávání produktových dotazů se tak Bing více přibližuje vzhledu Googlu.",
-   "why": "Jde o kosmetickou změnu rozhraní Bingu, která nijak neovlivňuje SEO strategie ani práci s reklamními formáty. Pro českou cílovku má minimální význam, protože Bing má v ČR zanedbatelný podíl na trhu vyhledávání.",
-   "takeaway": "Změna nevyžaduje žádnou akci. Pokud aktivně pracujete s Bing Ads nebo SEO pro Bing, sledujte, zda se filtry objeví i ve vašem účtu, ale žádný dopad na výkon neočekávejte.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "052c1b5310",
-   "created": "2026-09-16T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
-     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
-     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:05:00+00:00",
-     "score": 65
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google: reporty pozic v AI módech se budou měnit spolu s vývojem AI",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "John Mueller z Googlu uvedl, že způsob reportování pozic a impresí pro AI Mode a AI Overviews v Google Search Console se bude v čase vyvíjet, jak se budou měnit a vyvíjet samotné funkce vyhledávání.",
-   "why": "Pro SEO specialisty a marketéry to znamená, že metriky pozic a návštěvnosti z AI-výsledků nebudou statické a bude třeba počítat s tím, že se způsob měření a interpretace dat může měnit.",
-   "takeaway": "Nespoléhejte se zatím na stabilní historická data z AI reportů v GSC. Sledujte změny v reportingu a připravte se na úpravu způsobu vyhodnocování SEO výkonnosti, jak se AI prvky ve vyhledávání budou rozšiřovat.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "241158e286",
    "created": "2026-09-16T09:45:43+00:00",
    "articles": [
@@ -4687,65 +4805,6 @@
    "multi_source": false,
    "image": "img/241158e286.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "81a1258e2d",
-   "created": "2026-09-15T20:48:52+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-adds-more-creator-partnership-tools/830480",
-     "title": "Meta adds more creator partnership tools",
-     "summary": "The company&rsquo;s refreshed Creator Marketing hub will offer expanded access to additional discovery and outreach features to facilitate promotions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-15T20:48:52+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUWgtcUtTMWxtVFZQLVBSZThHNkJ0TkIwMFRTRlc2ZWdzQnA4UWN3bTJqWGlVbEZ2cUhRX3Zjd3RuWDRVWVB1YXI5LVUwZC1RX1Q2aVZRb1I5OFRXLXB2Nmh1OGc0WU1PczM3RUY1MTVVTDY4TE05M19qUzJ1S0tUSnBBb3g5c05pSUZiQk5SUmxtQzF4X2N6NUZtclB6RjA1S25QYjAybm9WSEk?oc=5",
-     "title": "Helping people spot and understand AI-generated content on TikTok",
-     "summary": "Helping people spot and understand AI-generated content on TikTok &nbsp;&nbsp; newsroom.tiktok.com",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-09-16T00:11:54+00:00",
-     "score": 66
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 52,
-   "title": "Meta rozšiřuje nástroje pro spolupráci s tvůrci, TikTok označuje AI obsah",
-   "updated": "2026-09-16T09:29:02.260636+00:00",
-   "what": "Meta aktualizovala své Creator Marketing centrum a přidala nové funkce pro vyhledávání tvůrců a komunikaci s nimi při placených spolupracích. TikTok představil systém pro označování a rozpoznávání AI-generovaného obsahu na platformě.",
-   "why": "Jde o dvě nezávislé novinky na sociálních sítích. Meta usnadňuje brandům najít a oslovit influencery pro kampaně. TikTok reaguje na nárůst AI obsahu a zavádí transparentnější označování, což může ovlivnit důvěryhodnost a výkon kampaní.",
-   "takeaway": "Pokud spolupracujete s influencery na Metě, zkontrolujte nové funkce v Creator Marketing hubu – mohou zrychlit výběr partnerů. Na TikToku sledujte, jak označování AI obsahu ovlivní engagement vašich kampaní, případně upravte kreativu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "50a1ae1f7f",
-   "created": "2026-09-16T09:01:04+00:00",
-   "articles": [
-    {
-     "url": "https://ahrefs.com/blog/ai-marketing-trends",
-     "title": "8 AI Marketing Trends I’ve Seen Firsthand in 2026 (Backed by Data)",
-     "summary": "The buyer’s journey looks different, because people now research and increasingly buy through AI tools instead of a page of blue links. The tools and processes we use to do marketing work have changed, because so much of it can &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-16T09:01:04+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ai",
-   "importance": 68,
-   "title": "Ahrefs: AI mění nákupní cestu – lidé vyhledávají přes AI nástroje místo Googlu",
-   "updated": "2026-09-16T09:27:46.308278+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/50a1ae1f7f.jpg",
-   "image_from": "ahrefs.com",
-   "what": "Ahrefs identifikoval 8 AI trendů v marketingu pro rok 2026. Klíčová změna: uživatelé stále častěji vyhledávají informace a dokonce nakupují přes AI nástroje (ChatGPT, Perplexity aj.) místo klasického vyhledávání přes Google. Mění se také pracovní postupy – část marketingové práce lze automatizovat pomocí AI.",
-   "why": "Pokud část potenciálních zákazníků míjí klasické vyhledávače a nenajde váš web v SERP, ale dostane odpověď přímo z AI, můžete přicházet o provoz a konverze. Zároveň se otevírají příležitosti optimalizovat obsah pro AI odpovědi a automatizovat rutinní úkoly.",
-   "takeaway": "Sledujte, zda váš obsah citují AI nástroje (např. přes brand mentions monitoring). Zvažte úpravu contentu tak, aby byl pro AI lépe zpracovatelný (strukturované odpovědi, jasná fakta). Testujte, které marketingové úkoly lze efektivně automatizovat AI."
   },
   {
    "id": "3a657babe6",
@@ -6926,77 +6985,6 @@
    "multi_source": true,
    "image": "img/f2094c4077.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "dd6fd203e1",
-   "created": "2026-09-14T21:45:30+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-shares-tips-on-thought-leader-ads/830359",
-     "title": "LinkedIn shares tips on Thought Leader ads",
-     "summary": "The platform allows marketers to boost positive user-generated content as a way to promote brand awareness via individual endorsements.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-14T21:45:30+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/reddit-shares-holiday-shopping-insights/830363",
-     "title": "Reddit shares holiday shopping insights",
-     "summary": "The app has become a key source of engagement for user-generated product reviews as well as artificial intelligence citations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-14T23:11:45+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news",
-     "title": "Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News",
-     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Get email subscribers from Instagram More business from YouTube without ads 🗞️ Industry news from Instagram, YouTube, and more The 24-Hour Reset [&#8230;] The post Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-09-15T09:30:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai",
-     "title": "Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out",
-     "summary": "We're introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses. The post Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-15T15:00:59+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://about.fb.com/news/2026/09/presentation-de-meta-one-un-service-dabonnement-offrant-davantage-de-fonctionnalites-et-dia-pour-creer-se-connecter-et-se-demarquer",
-     "title": "Présentation de Meta One : Un service d’abonnement offrant davantage de fonctionnalités et d’IA pour créer, se connecter et se démarquer",
-     "summary": "À retenir Nous lançons Meta One, un nouveau service d’abonnement sur nos applications qui offre un usage accru de l’IA et des fonctionnalités d’expression enrichies, ainsi que des outils professionnels pour les créateurs et les entreprises. Les offres Meta One sont déployées progressivement, avec plus de 50 fonctionnalités lancées et 15 millions d’abonnements et d’essais à ce jour. L’expérience principale sur nos applications et Meta AI restera gratuite. Aujourd’hui, nous lançons Meta One, un nouveau service d’abonnement qui apporte davantage de valeur aux applications et aux expériences que d",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-15T15:25:57+00:00",
-     "score": 66
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-launches-meta-one-for-business-add-on-packages/830469",
-     "title": "Meta launches Meta One for Business add-on packages",
-     "summary": "The company&rsquo;s latest subscription bundles offer paid users access to artificial intelligence-powered tools and advanced custom insights. &nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-15T19:30:56+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta spouští předplatné Meta One – příplatek za AI a pokročilé nástroje",
-   "updated": "2026-09-15T22:59:20.581212+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Meta oznámila novou předplacenou službu Meta One, která nabízí rozšířené využití AI, vylepšené kreativní nástroje a pokročilé funkce pro tvůrce a firmy na Facebooku, Instagramu, WhatsAppu a v Meta AI. Služba je postupně zaváděna a dosud má 15 milionů předplatitelů a zkušebních uživatelů. Základní verze aplikací zůstává zdarma.",
-   "why": "Pro marketéry a firmy to znamená nový model monetizace Mety – pokročilé nástroje a AI přestanou být dostupné zdarma. Kdo chce využívat AI v plném rozsahu nebo získat hlubší analytiku a vlastní insights, bude muset platit. Jde o posun v přístupu k nástrojům, které dosud byly součástí standardní nabídky.",
-   "takeaway": "Sledujte, jaké konkrétní funkce Meta přesune pod předplatné Meta One (např. pokročilá analytika, AI nástroje pro tvorbu obsahu) a zhodnoťte, zda jsou pro vaši firmu nezbytné. Pokud ano, počítejte s novým nákladem v rozpočtu na sociální sítě. Základní správa firemních profilů zůstává zdarma.",
-   "image": "img/d69ce8689f.jpg",
-   "image_from": "about.fb.com"
   },
   {
    "id": "7a602bd952",
@@ -9223,41 +9211,6 @@
    "image_from": "digichef.cz"
   },
   {
-   "id": "f308ad896d",
-   "created": "2026-09-14T14:30:08+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/ai-isnt-delivering-marketing-efficiency-its-repeating-programmatics-broken-promise/588722",
-     "title": "AI Isn’t Delivering Marketing Efficiency, It’s Repeating Programmatic’s Broken Promise via @sejournal, @gregjarboe",
-     "summary": "Count AI marketing's hidden rework and maintenance costs before claiming efficiency gains, or risk repeating programmatic's mistake and starving long-term strategy. The post AI Isn&#8217;t Delivering Marketing Efficiency, It&#8217;s Repeating Programmatic&#8217;s Broken Promise appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-14T14:30:08+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2JKeGZ3c1l4My1RVGI5TmhxcDY0Ny1jajlnZ29KT2FuRWtQcVg3Xzl0ckFGcUNrLUhHUkt3aXk1X1pNakI1M1ZfWHA2VW44b0YzZmo2dUpzbEJzc29yOS11elNSQkY5NXd6bXZrbWUtSXRsTWczTm02QlM1TXU4dzY4S1V5M0dZWFlwWVExSGxHczRpUGtRcUZXaXc2Zw?oc=5",
-     "title": "The AI performance shake-up: What’s really driving results across channels now",
-     "summary": "The AI performance shake-up: What’s really driving results across channels now &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-14T18:28:03+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ai",
-   "importance": 65,
-   "title": "AI v marketingu neplní sliby o efektivitě, varují odborníci",
-   "updated": "2026-09-14T21:56:00.637221+00:00",
-   "what": "Podle analýzy Search Engine Journal AI nástroje v marketingu zatím nedodávají slibované úspory – namísto toho vytvářejí skryté náklady na opravu chyb, údržbu a kontrolu výstupů. Situace připomíná programmatic reklamu, která rovněž slibovala automatizaci a efektivitu, ale přinesla nové problémy a erozi dlouhodobé strategie.",
-   "why": "Marketingoví manažeři riskují, že při implementaci AI přehlédnou reálné náklady na rework a dohled, což může vést k omezení rozpočtu na strategické aktivity. Pokud AI nedodává skutečnou úsporu času a peněz, investice do ní odčerpává zdroje z dlouhodobého růstu.",
-   "takeaway": "Než rozšíříte AI nástroje, změřte skutečné náklady včetně oprav, kontroly a údržby výstupů. Pokud AI vyžaduje více práce než ušetří, přehodnoťte nasazení a chraňte rozpočet na strategický marketing a týmové kapacity.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f308ad896d.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
    "id": "902935d8ce",
    "created": "2026-09-14T16:45:00+00:00",
    "articles": [
@@ -9282,32 +9235,6 @@
    "multi_source": false,
    "image": "img/902935d8ce.jpg",
    "image_from": "searchengineland.com"
-  },
-  {
-   "id": "b260e0abf9",
-   "created": "2026-09-14T13:35:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd1lrdEItOS16RU1Ccy0zdWJxRnFoUEV2LWR6cUZoLTI2a3NWeVpBSVZ1LXQwUVVxcFNONzZxYzR6YnRlWnQ1SzltUUFLSC1Jb2k1eV9RMklLZUIxV2ZCUEJPUWhpcTdSSExQVXR4MHl3b2tENXQ0MmViYmxxMm5HLUc0OWlhSnRVbGs4Qkdn?oc=5",
-     "title": "Google Business Profiles rolls out Collected Info",
-     "summary": "Google Business Profiles rolls out Collected Info &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T13:35:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "seo",
-   "importance": 62,
-   "title": "Google Business Profile zavádí funkci Collected Info",
-   "updated": "2026-09-14T16:26:04.588546+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/b260e0abf9.jpg",
-   "image_from": "searchengineland.com",
-   "what": "Google nasazuje do Google Business Profile novou funkci \"Collected Info\", která umožňuje firmám lépe organizovat a zobrazovat důležité informace pro zákazníky.",
-   "why": "Pro české firmy s fyzickým provozem nebo lokální službou jde o další nástroj pro zlepšení viditelnosti v mapách Google a lokálním vyhledávání, kde konkurují zejména na základě úplnosti a kvality profilu.",
-   "takeaway": "Zkontrolujte, zda se funkce objevila ve vašem Google Business Profile, a průběžně sledujte, jaké údaje můžete prostřednictvím Collected Info doplnit – úplnější profil zlepšuje pozici v lokálních výsledcích."
   },
   {
    "id": "988aa0f080",
