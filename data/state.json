@@ -1,23 +1,23 @@
 {
- "last_run": "2026-09-17T15:08:09.438340+00:00",
+ "last_run": "2026-09-17T19:51:40.450606+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -29,19 +29,19 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 3
   },
   {
    "name": "Collabim blog",
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 6
+   "new": 4
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -137,12 +137,12 @@
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f52cf2c9d30>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -209,7 +209,7 @@
    "name": "Microsoft Advertising blog",
    "feed": "https://about.ads.microsoft.com/en/blog/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Hero",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.smartemailing.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -281,19 +281,19 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Meta Newsroom",
@@ -310,8 +310,8 @@
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -323,7 +323,7 @@
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Simo Ahava",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -3904,9 +3904,283 @@
   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UUGNnaE1wcUM1MW1TTFl3T3F4YXozdmsxcmdFU2dWZWRvMEVuMEhQQXE1dmxKWVhFSTlqUTF2NGY4dW5sMEpGUWtnei1qUGwyUWtrQUlNZ2FhVkY1?oc=5": "2026-09-17T15:08:09.438340+00:00",
   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaDhoQmNVbEctTGNYYjRFUGczZjhLeHFDRzZNTkNSdndSeExNZWRQMG9GUDlKeERINWJaVy1GNHEyYXdnaHRUY1hQbnI5ejRVODVfSDlGMFlvRFN4QldhNmhGdkFJVEwxTHQ1NXItTUVnOUNjeFZpVE5WZ1lPN0hQSzV2MG9ZdllDSUEzYmxOdWJSb1hMeXVGaGRnN3F3QldzdXRKWm1FYzU5dw?oc=5": "2026-09-17T15:08:09.438340+00:00",
   "https://news.google.com/rss/articles/CBMicEFVX3lxTE15ZTZpM2RqS19feWlvdjc2c2gtZjA5NGxNcUVDdU5hejRBTVVfLVBiTXVhMXBucDhTU3dLcVpnMDd3enlKVEJHSHlTSGl5Z3pzV1J0YzBDYXFiRmdYSHhsSlFLZDkzckg0WVJaRkUxUVM?oc=5": "2026-09-17T15:08:09.438340+00:00",
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUWZGQTdwU3VELXBraEpaV3g1ck44amtQaUV4LVViMTQ0MVVSVVgwMjVfcEFkQ3p2a1NOa21LZkQzc3VBRllkeFQtU1RBYUJnNXVsVDlDdHRtMVlmNzIyZHI3czJxZTR2UHlNQ01jSG1tWG15SVVNRTBYNUFOUFViV2lUNDJnSXlNSXFzX3RZdU1Odw?oc=5": "2026-09-17T15:08:09.438340+00:00"
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUWZGQTdwU3VELXBraEpaV3g1ck44amtQaUV4LVViMTQ0MVVSVVgwMjVfcEFkQ3p2a1NOa21LZkQzc3VBRllkeFQtU1RBYUJnNXVsVDlDdHRtMVlmNzIyZHI3czJxZTR2UHlNQ01jSG1tWG15SVVNRTBYNUFOUFViV2lUNDJnSXlNSXFzX3RZdU1Odw?oc=5": "2026-09-17T15:08:09.438340+00:00",
+  "https://www.searchenginejournal.com/i-made-my-website-charge-ai-agents-a-penny-per-page-then-i-watched-claude-pay-it/589447": "2026-09-17T19:51:40.450606+00:00",
+  "https://blog.hootsuite.com/beginners-guide-to-content-curation": "2026-09-17T19:51:40.450606+00:00",
+  "https://blog.youtube/news-and-events/launching-senate-creators-caucus": "2026-09-17T19:51:40.450606+00:00",
+  "https://cc.cz/behem-23-hodin-vyprodali-dluhopisy-za-750-milionu-a-rikaji-ani-ty-penize-nepotrebujeme-slo-o-test": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbVM1aF9JS1cwSmhHcDU4NmFqMjNMX1c1NTJyMkl6MWl2VnpfZktHVmd3QUpLcUdNc01iU1F5X2NFTHQyeUk0eWpDNENMLXJjcTEyZGtna1NJQTFabHp3MF93?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.marketingbrew.com/stories/sharpie-nfl-marketing-strategy": "2026-09-17T19:51:40.450606+00:00",
+  "https://blog.hootsuite.com/social-media-for-business": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.lupa.cz/aktuality/vysilaci-rada-posoudi-licence-barrandova-zvlast-pozadal-o-to-insolvencni-spravce": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.lupa.cz/aktuality/cvut-ma-milion-pro-spickove-vedce-ze-zahranici-vytvori-pozici-inspirovanou-mit-nebo-harvardem-pomuze-bakala-foundation": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.searchenginejournal.com/reddit-ai-search-picks-already-popular-comments-audit-finds/589771": "2026-09-17T19:51:40.450606+00:00",
+  "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKcGE0b3ZmR0VnX2FXMEZCcVFfR1ZKM1JyUkJhMHFDWXo5SzZOanFaeG9YbjlZTHlBVGtqYWxBWWQybmQ5SUFJdDhSRWE0RUw0NlJvbklPc1g2Zk0?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://blog.hootsuite.com/gen-alpha-marketing": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUNYdTFoVkNYTVNvT005S0NZeF9vQ0xzSzROOWdGSms4c1RJbkQwclRfYmpsRng5TWZDVnBjQklmdUhqUUlsUDVOaGswNGgzaXJOMUxzSV9kRlBiSXJ4aWg5SnlTRm5BUEhSaFMzbWRqWVJ4bGZmMVlGSDJ3NThKUE9SYms0Q19kSmh4cTVvODdvZ1FOWHpScUlfMnpqQ1JpZ0NZbg?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUREWU5laml1Sk95OWExOGR5ZG5KblhLNUZCQVdlR1J3TE9LNFZsRGk5dmdTcl96d0hmY1Nid1BfOVNqaWFaMmJzWTd5YlNYRHFOQkxmRDg5VnlxMGoxZG11UmZjUENQb0psU1dmYVpiMnZIUUN3RDVNNXBhdG5CaXRRTkdpRXNnZ2gwejVGdEl6NnhkcDZwUXNBOURWRTlxVy1WSkRYamJXMWxaUmE5Qlc4T3Ryd0ZYTDROSUloMnRLQzFXV3c?oc=5": "2026-09-17T19:51:40.450606+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiSFlGMXEtN2ZYUTl6RE5LT2pBaE5kcHpnYmNmM193NUVydzFodmVlNllhcERPUWFycDJ0YUJKdEdJMm1nZWxRM3pnejcydzgwdUFEY0s3ZjjSAV5BVV95cUxPQUlab2FpVVF6U1g1UFVPRXNvZXU5Y3BLUVdvM0VUbTNTX294bGx3SGx5N1RjVVR0aFJHZUx2XzRTaW9zbjNvNjdtQnpFZURxTjdreEQzNkQ1NjlMMzh3?oc=5": "2026-09-17T19:51:40.450606+00:00"
  },
  "events": [
+  {
+   "id": "7d51084613",
+   "created": "2026-09-17T17:02:58+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806",
+     "title": "AI Citation Test Finds Source Order Matters Less Than It Looks via @sejournal, @MattGSouthern",
+     "summary": "A controlled AI citation test found source order mattered less than raw data suggested, while structured rewrites shifted how citation credit was distributed. The post AI Citation Test Finds Source Order Matters Less Than It Looks appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-17T17:02:58+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.searchenginejournal.com/i-made-my-website-charge-ai-agents-a-penny-per-page-then-i-watched-claude-pay-it/589447",
+     "title": "I Made My Website Charge AI Agents A Penny Per Page, Then I Watched Claude Pay It via @sejournal, @suganthan",
+     "summary": "GPTBot, ClaudeBot, and Googlebot won't pay your price yet. Charge now and you lose citations. Here's what to decide before the dashboard toggle arrives. The post I Made My Website Charge AI Agents A Penny Per Page, Then I Watched Claude Pay It appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-17T19:00:29+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Test: pořadí zdrojů v AI odpovědích má menší vliv, než se zdálo",
+   "updated": "2026-09-17T19:53:20.248536+00:00",
+   "what": "Kontrolovaný experiment ukázal, že pořadí zdrojů poskytnutých AI má na citace menší vliv, než naznačovala předchozí pozorování. Zároveň proběhl test zpoplatnění přístupu AI agentů na web – Claude za stránku zaplatil, GPTBot a Googlebot ne. Publikování za paywallem pro AI znamená ztrátu citací v AI odpovědích.",
+   "why": "Pro weby závislé na organické návštěvnosti z vyhledávání může být relevantní, jak AI nástroje citují zdroje a zda v budoucnu půjde jejich crawling zpoplatnit. Zatím platí: kdo AI agenty zablokuje nebo zpoplatní, ten přijde o viditelnost v AI odpovědích.",
+   "takeaway": "Pokud uvažujete o blokování AI crawlerů (robots.txt), počítejte s tím, že váš obsah nebude v AI odpovědích citován. Zatím není důvod předpokládat, že pořadí ve výsledcích AI lze přímo ovlivnit pozicí zdroje – důležitější je relevance a struktura obsahu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "037ab2ee2d",
+   "created": "2026-09-17T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
+     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
+     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T14:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
+     "title": "Four foundations to get your brand AI-ready for the holidays",
+     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-09-17T15:06:57.866579+00:00",
+     "score": 69
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Advertising se propojil s HubSpotem pro lepší měření kampaní",
+   "updated": "2026-09-17T19:53:12.437727+00:00",
+   "what": "Microsoft Advertising spustil integraci s CRM platformou HubSpot. Inzerentům umožňuje sledovat kliky a konverze z reklam přímo v HubSpotu, propojit více účtů Microsoft Advertising najednou, vytvářet remarketingová publika z kontaktních seznamů v HubSpotu a měřit aktivitu na webu pomocí UET tagu.",
+   "why": "Pro firmy používající HubSpot jako CRM jde o zjednodušení práce – místo více nástrojů mohou řídit a vyhodnocovat Microsoft Advertising kampaně na jednom místě, lépe napojit reklamu na životní cyklus zákazníka a automatizovat synchronizaci publik.",
+   "takeaway": "Pokud využíváte HubSpot i Microsoft Advertising (Sklik nedisponuje takovou integrací), stojí za to propojení otestovat – ušetříte čas při reportingu a zlepšíte targetování remarketingu podle dat z CRM.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "dc36fec3e9",
+   "created": "2026-09-14T04:30:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/clanky/chcete-prodavat-zbozi-do-eu-pripravte-si-ctvrt-milionu-rocne-nez-poslete-prvni-balik-nova-pravidla-zaviraji-zdejsi-e-shopy",
+     "title": "Chcete prodávat zboží do EU? Připravte si čtvrt milionu ročně, než pošlete první balík. Nová pravidla zavírají zdejší e-shopy",
+     "summary": "Nové evropské nařízení začalo platit zhruba před měsícem a řada mikropodnikatelů i menších e-shopů už kvůli němu část podnikání vzdala. Cílem bylo původně sjednotit chaos kolem obalů a odpadů, místo toho vznikl zmatek vyvolaný požadavkem, který se sama Evropa jako jeho původce pokusila zarazit. Neúspěšně.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-14T04:30:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://blog.shoptet.cz/ppwr-epr-eshopy",
+     "title": "Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy",
+     "summary": "Evropská unie mění pravidla pro obaly. Nové nařízení PPWR se dotkne celého jejich životního cyklu – od návrhu a výroby přes používání až po třídění a recyklaci. Pro e-shopy ale nejde jen o to, z čeho je vyrobená krabice nebo kolik v ní zůstává prázdného místa. Zvlášť při prodeji do zahraničí mohou přibýt také registrační, evidenční a finanční povinnosti. Příspěvek Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy pochází z Shoptet Blog",
+     "source": "Shoptet blog",
+     "domain": "blog.shoptet.cz",
+     "published": "2026-09-17T10:25:24+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/evropa-pritvrzuje-proti-temu-a-shein-schvalila-novy-poplatek-a-na-trziste-prenasi-odpovednost-za-zbozi",
+     "title": "Evropa přitvrzuje proti Temu a Shein, schválila nový poplatek a na tržiště přenáší odpovědnost za zboží",
+     "summary": "Evropský parlament schválil velkou reformu celních pravidel, která má změnit způsob, v jaké míře se do Evropské unie dostává zboží z asijských e-shopů a trži&#353;ť a kdo zodpovídá za jejich kvalitu a bezpečnost. Platformy, které posílají zboží přímo zákazníkům v EU, podle nových pravidel ponesou odpovědnost dovozce. K tomu od listopadu přibude poplatek za zpracování malých zásilek. Jeho vý&#353;e zatím ale není stanovená.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-17T10:25:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 85,
+   "title": "EU zpřísňuje pravidla pro e-shopy: nové povinnosti k obalům a dovozům",
+   "updated": "2026-09-17T19:53:00.976094+00:00",
+   "what": "Evropská unie zavedla dvě zásadní změny pro e-commerce: nařízení PPWR a EPR ukládá e-shopům prodávajícím do EU registrační, evidenční a finanční povinnosti ohledně obalů (náklady odhadovány na čtvrt milionu Kč ročně), což už donutilo část menších e-shopů vzdát se zahraničního prodeje. Zároveň parlament schválil reformu celních pravidel, která přenáší odpovědnost za kvalitu a bezpečnost zboží z asijských tržišť (Temu, Shein) na samotné platformy a od listopadu zavádí poplatek za zpracování malých zásilek.",
+   "why": "Obě regulace výrazně zvyšují náklady a administrativní zátěž e-shopů. PPWR/EPR fakticky znemožňuje menším hráčům prodej do EU, reforma celních pravidel pak mění konkurenční prostředí vůči asijským tržištím. Pro české e-shopy jde o přímý dopad na rozhodování o zahraničních trzích a kalkulaci nákladů.",
+   "takeaway": "Pokud prodáváte nebo plánujete prodávat do EU, okamžitě si zjistěte registrační a platební povinnosti podle PPWR/EPR v cílových zemích a zahrňte je do rozpočtu. Sledujte vývoj poplatků za malé zásilky (detaily zatím nejsou definitivní). Zvažte, zda se vám zahraniční expanze stále vyplatí, nebo zda ji omezit jen na vybrané trhy.",
+   "importance_label": "zásadní",
+   "multi_source": true,
+   "image": "img/dc36fec3e9.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "26f629421f",
+   "created": "2026-09-17T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-explains-how-update-product-videos-faster",
+     "title": "Merchant Center Explains How to Update Product Videos Faster",
+     "summary": "Google Merchant Center has updated its guidelines to help advertisers replace product videos more efficiently. The help page now emphasizes that using a new unique URL for video updates prompts a quicker recrawl, typically within 24-72 hours . In contrast, keeping the same URL could delay updates by up to six weeks . Additionally, a new section on Shopping policy compliance has been added, enforcing that all video assets must adhere to Google's advertising and content guidelines. Products with updated URLs will be listed as \" Under Review \" until processed, while older video content continues ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T12:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://digichef.cz/konverzacni-atributy-v-gmc",
+     "title": "Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru",
+     "summary": "Google Merchant Center teď nabízí obchodníkům víc než jen základní produktová data. Takzvané konverzační atributy dokážou Googlu prozradit, co by jinak zákazník zjistil až od zkušeného prodejce v obchodě. Jak přesně tahle nová vrstva informací funguje a proč může znamenat výhodu pro váš e-shop, se dočtete v článku. Standardní produktový feed Googlu obvykle sděluje, co... The post Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-09-17T14:52:46+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google Merchant Center: nové konverzační atributy a rychlejší aktualizace videí",
+   "updated": "2026-09-17T19:52:49.853721+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/26f629421f.jpg",
+   "image_from": "ppcnewsfeed.com",
+   "what": "Google Merchant Center přidal dva updaty pro obchodníky. První je možnost využít takzvané konverzační atributy – rozšířená produktová data, která simulují informace, které by zákazník získal od prodejce v kamenném obchodě. Druhý update se týká videí: změna URL videa nyní urychlí jeho přeindexování na 24–72 hodin, zatímco ponechání původní URL může trvat až 6 týdnů. Zároveň byla doplněna sekce o dodržování pravidel Google Shopping u všech video assetů.",
+   "why": "Pro české e-shopy a PPC specialisty to znamená možnost lépe strukturovat produktová data (konverzační atributy mohou zlepšit relevanci a CTR inzerátů v Google Shopping) a zrychlit technický workflow při práci s video obsahem v kampaních. Obě změny mohou přímou optimalizací snížit náklady nebo zvýšit výkon kampaní.",
+   "takeaway": "Pokud spravujete Google Merchant Center, zvažte doplnění konverzačních atributů do feedu – pomohou Googlu lépe pochopit kontext produktů a mohou zlepšit výkon Shopping kampaní. Při aktualizaci produktových videí používejte nové URL, abyste zkrátili čekání na přeindexování z týdnů na dny. Zkontrolujte, že všechna videa splňují aktuální pravidla Google pro reklamu a obsah."
+  },
+  {
+   "id": "a1413ec0c2",
+   "created": "2026-09-17T17:44:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5",
+     "title": "Google Ads tests Product Value Optimization for AI bidding",
+     "summary": "Google Ads tests Product Value Optimization for AI bidding &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:44:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "Google Ads testuje Product Value Optimization pro automatické nabídkové strategie",
+   "updated": "2026-09-17T19:51:40.450606+00:00",
+   "what": "Google Ads spustil testování nové funkce Product Value Optimization (Optimalizace hodnoty produktů) pro automatické nabídkové strategie s umělou inteligencí. Jde o rozšíření možností AI biddingu v platformě.",
+   "why": "Pro e-shopy používající automatické nabídkové strategie v Google Ads může jít o nový způsob, jak lépe zohlednit hodnotu jednotlivých produktů při nastavování nabídek. Může to ovlivnit nastavení kampaní a jejich výkonnost.",
+   "takeaway": "Sledujte, zda se funkce objeví ve vašem účtu Google Ads. Pokud ano, vyhodnoťte, zda má smysl ji otestovat na vybrané kampani s produktovým feedem – může ovlivnit, jak AI rozděluje rozpočet mezi produkty různé hodnoty.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/a1413ec0c2.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "fa76451992",
+   "created": "2026-09-17T16:24:19+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5",
+     "title": "Pinterest turns visual search into a new ad opportunity",
+     "summary": "Pinterest turns visual search into a new ad opportunity &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:14:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools",
+     "title": "Pinterest amps up performance tools, including a visual search product",
+     "summary": "“I’m proud to say that Pinterest is now a performance platform,” Bill Ready, Pinterest CEO, said at an advertising event this week.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-17T16:24:19+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Pinterest spouští reklamy ve vizuálním vyhledávání",
+   "updated": "2026-09-17T19:51:40.450606+00:00",
+   "what": "Pinterest představil nový reklamní formát, který umožňuje inzerentům umísťovat reklamy přímo do výsledků vizuálního vyhledávání. CEO Bill Ready uvedl, že Pinterest je nyní plnohodnotnou performance platformou.",
+   "why": "Jde o nový reklamní formát na platformě, která má silné vizuální zaměření. Pro inzerenty to znamená další možnost, jak oslovit uživatele v momentě, kdy aktivně hledají vizuální inspiraci nebo produkty – což je potenciálně hodnotnější než běžné prohlížení feedu.",
+   "takeaway": "Pokud vaše produkty jsou vizuálně atraktivní (móda, domácnost, design) a máte kvalitní fotografie, sledujte dostupnost tohoto formátu v ČR. Pinterest může být zajímavou alternativou k Meta a Google nákupním reklamám, zvlášť u konverzí v pozdější fázi nákupního procesu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "4daeb9063f",
+   "created": "2026-09-17T15:28:52+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti",
+     "title": "Do 13 let vůbec, od 15 omezeně. Komise představila návrh regulace sociálních sítí pro děti",
+     "summary": "Evropská komise (EK) představila očekávaný návrh nařízení, které má v celé Evropské unii nastavit jednotná pravidla, jak mohou děti používat sociální sítě, servery na sdílení videí a dal&#353;í služby. EU Kids Act má podle ní ochránit děti před negativními vlivy těchto digitálních služeb.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-17T15:28:52+00:00",
+     "score": 75
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 75,
+   "title": "EU Kids Act: sociální sítě až od 13 let, od 15 s omezeními",
+   "updated": "2026-09-17T19:51:40.450606+00:00",
+   "what": "Evropská komise představila návrh nařízení EU Kids Act, které má v celé EU jednotně regulovat přístup dětí k sociálním sítím a video platformám. Děti do 13 let by podle návrhu neměly mít přístup vůbec, od 15 let jen s omezeními.",
+   "why": "Pokud projde schvalovacím procesem, bude nařízení přímo závazné ve všech členských státech EU včetně ČR. Pro marketéry jde o potenciálně zásadní změnu cílení a dosahu kampaní – celá věková skupina do 13 let zmizí z platforem, skupina 15–18 let bude mít omezený přístup.",
+   "takeaway": "Sledujte legislativní proces a termíny účinnosti nařízení. Připravte se na úpravu strategie cílení kampaní – pokud nyní oslovujete mladé uživatele nebo jejich rodiče přes sociální sítě, bude nutné hledat alternativní kanály nebo přizpůsobit komunikaci novým pravidlům.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/4daeb9063f.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "6b032b3de8",
+   "created": "2026-09-15T18:00:56+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiSFlGMXEtN2ZYUTl6RE5LT2pBaE5kcHpnYmNmM193NUVydzFodmVlNllhcERPUWFycDJ0YUJKdEdJMm1nZWxRM3pnejcydzgwdUFEY0s3ZjjSAV5BVV95cUxPQUlab2FpVVF6U1g1UFVPRXNvZXU5Y3BLUVdvM0VUbTNTX294bGx3SGx5N1RjVVR0aFJHZUx2XzRTaW9zbjNvNjdtQnpFZURxTjdreEQzNkQ1NjlMMzh3?oc=5",
+     "title": "What I Built With Muse, Meta’s New AI Agent",
+     "summary": "What I Built With Muse, Meta’s New AI Agent &nbsp;&nbsp; Jon Loomer Digital",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-09-15T18:00:56+00:00",
+     "score": 50
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Meta spustila AI agenta Muse – pomáhá s tvorbou reklam",
+   "updated": "2026-09-17T19:51:40.450606+00:00",
+   "what": "Meta uvedla nový AI nástroj Muse, který pomáhá při tvorbě a správě reklam na Facebooku a Instagramu. Jde o AI agenta, který dokáže vytvářet reklamní kreativy a asistovat při nastavování kampaní.",
+   "why": "Může zjednodušit přípravu reklamních kampaní na Meta platformách a ušetřit čas při tvorbě variant reklam. Pro menší týmy nebo freelancery jde o potenciálně užitečný nástroj pro rychlejší testování kreativ.",
+   "takeaway": "Sledujte dostupnost Muse v ČR a vyzkoušejte ho na testovacích kampaních – může urychlit tvorbu ad variant. Zatím není jasné, zda je nástroj plně dostupný v češtině a pro český trh.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "6537a84437",
    "created": "2026-09-07T08:48:00+00:00",
@@ -4292,89 +4566,6 @@
    "image_from": "ahrefs.com"
   },
   {
-   "id": "dc36fec3e9",
-   "created": "2026-09-14T04:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/clanky/chcete-prodavat-zbozi-do-eu-pripravte-si-ctvrt-milionu-rocne-nez-poslete-prvni-balik-nova-pravidla-zaviraji-zdejsi-e-shopy",
-     "title": "Chcete prodávat zboží do EU? Připravte si čtvrt milionu ročně, než pošlete první balík. Nová pravidla zavírají zdejší e-shopy",
-     "summary": "Nové evropské nařízení začalo platit zhruba před měsícem a řada mikropodnikatelů i menších e-shopů už kvůli němu část podnikání vzdala. Cílem bylo původně sjednotit chaos kolem obalů a odpadů, místo toho vznikl zmatek vyvolaný požadavkem, který se sama Evropa jako jeho původce pokusila zarazit. Neúspěšně.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-14T04:30:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://blog.shoptet.cz/ppwr-epr-eshopy",
-     "title": "Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy",
-     "summary": "Evropská unie mění pravidla pro obaly. Nové nařízení PPWR se dotkne celého jejich životního cyklu – od návrhu a výroby přes používání až po třídění a recyklaci. Pro e-shopy ale nejde jen o to, z čeho je vyrobená krabice nebo kolik v ní zůstává prázdného místa. Zvlášť při prodeji do zahraničí mohou přibýt také registrační, evidenční a finanční povinnosti. Příspěvek Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy pochází z Shoptet Blog",
-     "source": "Shoptet blog",
-     "domain": "blog.shoptet.cz",
-     "published": "2026-09-17T10:25:24+00:00",
-     "score": 72
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 85,
-   "title": "Nová EU pravidla pro obaly: registrace v každé zemi, čtvrt milionu ročně",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Od ledna 2025 platí evropské nařízení o obalech PPWR a rozšířená odpovědnost výrobců (EPR). E-shopy prodávající do jiných zemí EU se musí registrovat v systému EPR v každém cílovém státě zvlášť a platit poplatky za nakládání s obalovými odpady. Náklady na registrace a poplatky mohou dosáhnout řádově statisíců korun ročně ještě před odesláním první zásilky.",
-   "why": "Řada menších e-shopů a mikropodnikatelů kvůli administrativní i finanční zátěži už část svého zahraniční podnikání vzdala. Původně zamýšlené sjednocení pravidel pro obaly paradoxně vytvořilo další bariéru pro přeshraniční prodej, kterou se ani samotná EU neúspěšně pokusila zmírnit.",
-   "takeaway": "Pokud váš e-shop prodává do EU, urgentně prověřte, zda máte registraci EPR v cílových zemích (je povinná i při první zásilce) a počítejte s novými ročními náklady ve statisících. Zvažte, zda zahraniční trhy stojí za tyto náklady, nebo omezit prodej jen na ČR.",
-   "importance_label": "zásadní",
-   "multi_source": true,
-   "image": "img/dc36fec3e9.jpg",
-   "image_from": "lupa.cz"
-  },
-  {
-   "id": "b77732579e",
-   "created": "2026-09-17T15:06:57.866579+00:00",
-   "articles": [
-    {
-     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
-     "title": "Four foundations to get your brand AI-ready for the holidays",
-     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
-     "source": "Microsoft Advertising blog",
-     "domain": "about.ads.microsoft.com",
-     "published": "2026-09-17T15:06:57.866579+00:00",
-     "score": 69
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Microsoft Advertising: 4 kroky k přípravě na vánoční AI nákupy",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Microsoft Advertising vydal doporučení, jak připravit e-shopy na vánoční sezónu v éře AI nákupních asistentů. Radí zaměřit se na čtyři oblasti: kvalitu produktových feedů, nastavení měření konverzí, optimalizaci kampaní a viditelnost v AI nástrojích.",
-   "why": "Zákazníci stále častěji používají AI asistenty (Copilot, ChatGPT) k vyhledávání a porovnávání produktů. Kvalitní data a správné nastavení kampaní zvyšují šanci, že váš e-shop AI nástroje doporučí.",
-   "takeaway": "Před vánoční sezonou zkontrolujte aktuálnost a úplnost produktových feedů (ceny, dostupnost, atributy), nastavení konverzního sledování a strukturu kampaní. V ČR to platí zejména pro Microsoft Shopping kampaně a obecně pro přípravu na AI-driven vyhledávání.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "a43419eb2b",
-   "created": "2026-09-17T14:52:46+00:00",
-   "articles": [
-    {
-     "url": "https://digichef.cz/konverzacni-atributy-v-gmc",
-     "title": "Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru",
-     "summary": "Google Merchant Center teď nabízí obchodníkům víc než jen základní produktová data. Takzvané konverzační atributy dokážou Googlu prozradit, co by jinak zákazník zjistil až od zkušeného prodejce v obchodě. Jak přesně tahle nová vrstva informací funguje a proč může znamenat výhodu pro váš e-shop, se dočtete v článku. Standardní produktový feed Googlu obvykle sděluje, co... The post Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-09-17T14:52:46+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Merchant Center: Konverzační atributy k produktům",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Google Merchant Center umožňuje obchodníkům přidávat do feedů takzvané konverzační atributy – rozšířenou vrstvu informací o produktech, kterou by zákazník běžně získal od prodejce v kamenné prodejně.",
-   "why": "Jde o možnost lépe popsat produkt nad rámec základních parametrů. Pro e-shopy to může být konkurenční výhoda, protože Google díky těmto datům lépe rozumí nabídce a může ji zákazníkům lépe doporučit.",
-   "takeaway": "Zkontrolujte, zda už využíváte konverzační atributy ve svém GMC feedu. Pokud ne, zvažte jejich doplnění – zejména pokud prodáváte produkty, u nichž zákazníci potřebují upřesnění nebo radu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "e1fd00bfd3",
    "created": "2026-09-17T14:30:32+00:00",
    "articles": [
@@ -4423,30 +4614,6 @@
    "multi_source": false,
    "image": "img/e924c962e2.jpg",
    "image_from": "searchengineland.com"
-  },
-  {
-   "id": "037ab2ee2d",
-   "created": "2026-09-17T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
-     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
-     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T14:00:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Microsoft Advertising přidal integraci s HubSpot CRM",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Microsoft Advertising spustil přímou integraci s HubSpot CRM. Umožňuje propojit reklamní aktivity s kontaktními daty v CRM, sledovat kliky a konverze, nasadit UET tag přes HubSpot a vytvářet cílové skupiny z kontaktních seznamů.",
-   "why": "Firmy používající HubSpot získají lepší přehled o výkonnosti reklam a možnost cílit na konkrétní fáze životního cyklu zákazníka přímo z CRM. Zjednodušuje to měření návratnosti investic do Microsoft Ads.",
-   "takeaway": "Pokud používáte HubSpot a Microsoft Advertising, zkontrolujte možnosti propojení účtů – usnadní vám sledování konverzí a segmentaci publika podle dat z CRM.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "71e6f0b905",
@@ -4520,11 +4687,14 @@
     }
    ],
    "category": "analytika",
-   "importance": 67,
-   "title": "Why you need to know the ‘nones’ of your business",
+   "importance": 65,
+   "title": "Rostoucí podíl nepřiřaditelných konverzí vyžaduje změnu přístupu k atribuci",
    "updated": "2026-09-17T15:08:09.438340+00:00",
    "importance_label": "důležité",
-   "multi_source": false
+   "multi_source": false,
+   "what": "Článek upozorňuje na rostoucí skupinu zákazníků, jejichž konverze nelze přiřadit žádnému marketingovému kanálu (tzv. 'nones'). Místo aby marketéři tyto nepřiřaditelné konverze ignorovali jako šum, měli by aktivně zkoumat, co tyto zákazníky přivedlo.",
+   "why": "S rostoucími omezeními sledování (cookieless web, consent, iOS tracking) roste podíl konverzí bez jasné atribuce. Pokud marketéři tuto skupinu ignorují, ztrácejí přehled o skutečné účinnosti kanálů a mohou špatně alokovat rozpočty.",
+   "takeaway": "Analyzujte podíl nepřiřaditelných konverzí ve vašich datech (GA4, e-shopy). Místo jejich ignorování zjišťujte, jaké další zdroje (organický přímý provoz, word-of-mouth, offline aktivity) mohou být za konverzemi. Upravte modely atribuce tak, aby zohledňovaly tuto skupinu."
   },
   {
    "id": "9df2590ec1",
@@ -4547,53 +4717,6 @@
    "what": "Podle předpovědi Duane Forrestera ze Search Engine Journal dochází k oddělení toho, co Google rankuje, od toho, co skutečně zobrazuje uživatelům. Článek obsahuje tři predikce vývoje Googlu do roku 2027, přičemž klíčové je, že tyto změny možná ani nebudete schopni ověřit tradičními metodami sledování.",
    "why": "Pokud se predikce naplní, klasické metriky jako pozice ve výsledcích vyhledávání ztratí vypovídací hodnotu – Google může zobrazovat uživatelům jiný obsah, než který skutečně rankuje. To zásadně mění způsob, jak SEO specialisté a marketingoví manažeři měří úspěšnost.",
    "takeaway": "Připravte se na posun od sledování pozic k měření skutečného dopadu – organické návštěvnosti, konverzí a obchodních výsledků. Diversifikujte zdroje návštěvnosti, abyste nebyli závislí pouze na organickém vyhledávání.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "26f629421f",
-   "created": "2026-09-17T12:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-explains-how-update-product-videos-faster",
-     "title": "Merchant Center Explains How to Update Product Videos Faster",
-     "summary": "Google Merchant Center has updated its guidelines to help advertisers replace product videos more efficiently. The help page now emphasizes that using a new unique URL for video updates prompts a quicker recrawl, typically within 24-72 hours . In contrast, keeping the same URL could delay updates by up to six weeks . Additionally, a new section on Shopping policy compliance has been added, enforcing that all video assets must adhere to Google's advertising and content guidelines. Products with updated URLs will be listed as \" Under Review \" until processed, while older video content continues ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T12:00:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 70,
-   "title": "Merchant Center Explains How to Update Product Videos Faster",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/26f629421f.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "770b88aa5c",
-   "created": "2026-09-17T10:25:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/evropa-pritvrzuje-proti-temu-a-shein-schvalila-novy-poplatek-a-na-trziste-prenasi-odpovednost-za-zbozi",
-     "title": "Evropa přitvrzuje proti Temu a Shein, schválila nový poplatek a na tržiště přenáší odpovědnost za zboží",
-     "summary": "Evropský parlament schválil velkou reformu celních pravidel, která má změnit způsob, v jaké míře se do Evropské unie dostává zboží z asijských e-shopů a trži&#353;ť a kdo zodpovídá za jejich kvalitu a bezpečnost. Platformy, které posílají zboží přímo zákazníkům v EU, podle nových pravidel ponesou odpovědnost dovozce. K tomu od listopadu přibude poplatek za zpracování malých zásilek. Jeho vý&#353;e zatím ale není stanovená.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-17T10:25:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "EU přesouvá odpovědnost za zboží z Číny na platformy, od listopadu nový poplatek",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Evropský parlament schválil reformu celních pravidel. Platformy jako Temu a Shein budou nově nést odpovědnost dovozce za kvalitu a bezpečnost zboží zasílaného přímo zákazníkům v EU. Od listopadu 2025 se zavádí poplatek za zpracování malých zásilek, jehož výše zatím není stanovena.",
-   "why": "Změna přesouvá právní a finanční riziko na platformy, které prodávají zboží z Asie do EU. Pro marketéry sledující konkurenci nebo prodávající přes tržiště to může znamenat vyšší náklady prodejců, změny v cenách konkurence nebo omezení dostupnosti některého zboží.",
-   "takeaway": "Pokud sledujete cenovou konkurenci Temu/Shein nebo prodáváte přes zahraniční tržiště, sledujte vývoj výše nového poplatku a případné dopady na ceny konkurence. Změna může posílit pozici tuzemských e-shopů v cenovém srovnání.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
