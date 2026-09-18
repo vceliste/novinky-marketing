@@ -1,11 +1,11 @@
 {
- "last_run": "2026-09-18T14:37:57.846988+00:00",
+ "last_run": "2026-09-18T19:06:32.264790+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 4
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 9
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,14 +196,14 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f98c5abe3f0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
    "feed": "https://blog.google/products/ads-commerce/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Microsoft Advertising blog",
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -299,7 +299,7 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
@@ -334,8 +334,8 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "new": 1
   },
   {
    "name": "MeasureSchool",
@@ -376,20 +376,20 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "new": 4
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -4007,43 +4007,208 @@
   "https://cc.cz/zapasit-se-u-nej-uci-byznysmeni-i-ben-cristovao-ted-se-po-letech-stehuje-do-sklepa-plneho-medaili": "2026-09-18T14:37:57.846988+00:00",
   "https://www.mediar.cz/galerie-reklamy/kajak-na-koleckach-psi-sprezeni-prace-s-lopatou-hradilek-sportoval-bez-vody": "2026-09-18T14:37:57.846988+00:00",
   "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcENWZkNpdnBPZk9hanI2cHA3U0RjTjJQTi00WWp1eWl2cm9fUWVXM0g3bk9FMFI1Q0ZPdUFVUWNzYW01TVZ4SkVOTGlMUlBGb1otUGtJS3ZLNWZlanIzZDI4Znk3d2xGNHNYWjZPWFdRSEZEVnlhako2aW9zSm5ER2xxX3FZbGJMeTQzRHF2b3BWQjZjaDhVYWhDSWRNYkN4SERJWHBCUDFVUF9yUk9BaG5WTTZzVm1YRVk0NUc3b2p2cDhDTU9IcjA2WEc3QmFrcTluZWxkcw?oc=5": "2026-09-18T14:37:57.846988+00:00",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaVBrZlBRdzZ2em1OZFo2ZXdIS3h3OW9yOW96Qm14ZkVVcGxuaW1MNllrUnV1MnZTcURHaDlZRlhTNWRDMjQteVJPeGkwb0NZUWkyRUR1dXNqeHZUMk52Q0lESURPWE9WYzlPbGJRejFNRXhIdjFQSUt3RWs3bEFzMkJYQ2ltUkdoWTZPZjU5MExuN0FhbUhXeTBxdEtmNzJnaU4xV09odXBJU3U3aTBtTUFZZjBGb3E3RnlEY3pGT0tNWmVsNy1JNjZ6VQ?oc=5": "2026-09-18T14:37:57.846988+00:00"
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaVBrZlBRdzZ2em1OZFo2ZXdIS3h3OW9yOW96Qm14ZkVVcGxuaW1MNllrUnV1MnZTcURHaDlZRlhTNWRDMjQteVJPeGkwb0NZUWkyRUR1dXNqeHZUMk52Q0lESURPWE9WYzlPbGJRejFNRXhIdjFQSUt3RWs3bEFzMkJYQ2ltUkdoWTZPZjU5MExuN0FhbUhXeTBxdEtmNzJnaU4xV09odXBJU3U3aTBtTUFZZjBGb3E3RnlEY3pGT0tNWmVsNy1JNjZ6VQ?oc=5": "2026-09-18T14:37:57.846988+00:00",
+  "https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284": "2026-09-18T19:06:32.264790+00:00",
+  "https://blog.hootsuite.com/instagram-tools": "2026-09-18T19:06:32.264790+00:00",
+  "https://cc.cz/ai-firmy-samy-zadaji-bezpecnostni-brzdu-muze-z-ni-vyrust-jejich-nejlepsi-ochrana-pred-konkurenci": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.searchenginejournal.com/google-adds-local-businesses-to-eea-search-result-units/589955": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIc1pMM1J4bmJsODZPUDI0UGFOeDdiVWw4R25tVlB4RmRLTUlvZlpVZVdudzVtb3AtZFotSUY1R0pGeURDVHZhcXV3NWxOT1l0WTdTQmZpOEJPMVZyODh3T2FnUjhWZVR3d3ZsbU1IQmRPZzhYbEE?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.searchenginejournal.com/your-brand-needs-an-ai-accountability-document-a-school-district-beat-big-tech-to-it/589240": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.lupa.cz/aktuality/allegro-v-cesku-pritahlo-o-tretinu-vic-obchodniku-v-regionu-uz-na-trzisti-nakupuje-kazdy-ctvrty": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.mediaguru.cz/tesco-mobile-vraci-virtualni-surikaty-do-vysilani-ct-sport": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.mediar.cz/jana-ciglerova-s-janem-kalibou-podcastuji-o-usa-pro-cesky-rozhlas-plus": "2026-09-18T19:06:32.264790+00:00",
+  "https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2xHUk9ZbUJJT2pPT0c2M2JfdEpnWmdEZFVCa0lFNVlaMFNTbElOT1VZUVl4bXlJc0FjTVFzRndsVDd4cEpJZTdGeVhQWk9QLWJlY2lScms4RElfek9sUzNqXzlTb2IxRFgtRmotZU9odTREdEdFOVVPS1BGdTQzSUNSMGo5R0pGeTBWOHplR0NyaEJYNm5iN0xLYw?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1FUUU85cDMxR2xuTmtCM2ZzRXhMTjlnS0MyVnFyeXhzN3N3RGFXX3k4ZWo0eUV1djNibFBSOC1zU0dMMDB2eUNnZ1BPaHdVZng1a3QxZXY1eXRhWGdha0UzZ09ianRsekdEMjRUTF9peTR1TnBBOVlxelJheUNQUE5UNlhfdjNnTFFyNXdFbmNBS2c?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3dTVrUHRBS2lDa0x0b3UzZVJzTXZ6UzA2NENHNnIwWXZjOUtHUHViYTRIdlhrVGhSaXlWZnNFSnlYTmFOTW4wanRNRUE3ckJzOFdpODg0SEtWdUlyNnFtV2d1WnVaVWFCSkY3dEV3NTJEOXpsSm9R?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.semrush.com/blog/agentic-seo": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.semrush.com/blog/semrush-mcp-use-case": "2026-09-18T19:06:32.264790+00:00",
+  "https://www.seroundtable.com/recap-09-18-2026-42117.html": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WdEVyakpDaFM4VUJNenJKMHRJZmVLSlllTmlMV1VUQU5nWUlMdkJqakh5a3dpazVKLVp0VTJEUTZOdGJGVy1uaFpDVmw0SE8yblp4NGlZc2JsdlQzdldjdkNPSEhEcjVCSWFoOGRXNHhuNHNUVHNNVmtR?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE11UkNVcUtZc2J2Qk42WmVBNlY1elJHTjY5bHcxeHlnd25qaDhfMWRyanA0TXcxbURZWG1SMzBjTDhhZnZvWHFvY05MVUo0MlVrWm9Zc2k3bU5EcEhfd0JaNGJUTkdMbnFROXJVZ3d4UFdUd2xuamlCWg?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yQWxqQnMyY21Nc1VPYXVLek9wcGpUaFJmaVdZeHdMVDJpYjVJM1hfWVoyZGlza0RYVDZxZi1ESUxoWnR3RTl6c2QyMExxeW5MQjVldlh0eFZRWjNBRlBOaFRGNmxtbkJoMUdRVjRPRGdlVEk?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX1owTWlmYUhlT21acXFrT1hJaDgxMGZNenRkVUs0TzN4YmxZRGNGQUQwekluOTZLLWlKZmNUYXNqdU5ycUtGdWhOT2I3aTVKQ3EycjFES05vaHdPbzJSc0ZyS1VjdmVFa3JSZzFzcm1COXNKS0Yzb1JOQlpKbkZCQ2prUGNySVBZbHVfcVpya284YkV6Z3FmLXllM0xhYmNsWWVjYnNENDVWUzIxLXhXZDBmS3pmYlQ1M0dkaHYzYkI?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxObzExTnViVXA2Y25aMU1EdkQzbEhnSlVUZzNyUFRBdlhNaTF2ZjZnaXRteXNvN1JyS0NOdmthamlweDRtemRJV0w0TUoydlpZTS1sYjZ0NmtGbEwySFY0UWJFX3JUSUF2SExvN2RSRF9ERW83d1ZUck56dTA4dC1mOFdnS09mU2tkN3h0ZEQ1Qk9WZ3JGYzNQTklZb2sxLTYyQTdwaHZZVENLSjRELWZn?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxONG04ZjVrTkpIME1IMHlsSkp0UVdQSzZLWnFMTVNxU1pSUXFiLVprT01abHdra3M2VUZaSXZrb3pYTS0waHB6bWZ4UVlaMjVnMzZvcEVINGNKMkRiT25ydUZKZlZzVlVhQk1GUVYxd3FjcHJyTlVIaU5hMF82Q0dmLWl5QVZPb2dlRWxIRw?oc=5": "2026-09-18T19:06:32.264790+00:00",
+  "https://business.google.com/us/think/consumer-insights/cyber-week-marketing-checklist-ai-powered-shopping": "2026-09-18T19:06:32.264790+00:00"
  },
  "events": [
   {
-   "id": "6ddc16a8ff",
-   "created": "2026-09-18T11:55:00+00:00",
+   "id": "08a8f9dfd1",
+   "created": "2026-09-17T00:00:00+00:00",
    "articles": [
     {
-     "url": "https://www.seroundtable.com/google-blocking-scrapers-and-tracking-tools-42118.html",
-     "title": "Google May Be More Successful In Blocking Scrapers & Tracking Tools",
-     "summary": "Google may be more successful in blocking AI scrapers, search scrapers and third-party tracking tools since around September 13th or so. This coincides with the September 4th and September 12th reversals we reported, and it also aligns with the methods Google has been using to block non-human behavior in its search results recently.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:55:00+00:00",
-     "score": 63
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-adds-invalid-leads-prevention-guide",
+     "title": "Google Adds Invalid Leads Prevention Guide",
+     "summary": "Google has introduced a new guide for lead generation advertisers aimed at preventing invalid leads . This help page details how Google's invalid traffic filters are insufficient for stopping fake or low-quality leads and emphasizes that maintaining high lead quality is a shared responsibility. Among the preventive measures listed, advertisers are encouraged to integrate reCAPTCHA on web forms, set up double opt-in procedures, and employ server-side validation for emails and phone numbers. Additionally, advertisers should focus on lead-specific goals and utilize first-party data to maintain le",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T00:00:00+00:00",
+     "score": 70
     },
     {
-     "url": "https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636",
-     "title": "Google’s AI Payment Pilot Vs. Cloudflare & Microsoft Models via @sejournal, @MattGSouthern",
-     "summary": "Google, Cloudflare, and Microsoft are testing different models for paying publishers when AI systems access or use their content. The post Google&#8217;s AI Payment Pilot Vs. Cloudflare &#038; Microsoft Models appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T12:00:41+00:00",
-     "score": 72
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/video-dubbing-tool-available-asset-studio",
+     "title": "Video Dubbing Tool Available in Asset Studio",
+     "summary": "A new feature, Video Ads Dubbing , has been introduced in Google Ads' Asset Studio . This AI-powered tool enables the dubbing of video ads in 33 languages and locales .&nbsp; First spotted in October 2025 as internal feature, now it's&nbsp; available for free to select users . It allows advertisers to scale their video content across multiple countries without having to reshoot videos in each language.&nbsp; This update was shared by Jyll Saskin Gales . The post Video Dubbing Tool Available in Asset Studio appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T03:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tNkYzM25JNHozeEh1dk9nM3pPSVowS09yMVh5OUxIOWt3RGZXVjkzNGJJS3V1UkoyWnpTclRiMDlfdzY5dWFPc0lzTTRyQTd6N1dRYjA3YkJQQXpSX3gzVnpCRERkZw?oc=5",
+     "title": "How to tell which Google Ads controls actually control anything",
+     "summary": "How to tell which Google Ads controls actually control anything &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T13:00:00+00:00",
+     "score": 58
     }
    ],
-   "category": "seo",
+   "category": "ppc",
    "importance": 65,
-   "title": "Google zablokoval část scrapovacích nástrojů a SEO trackerů",
-   "updated": "2026-09-18T14:41:29.395059+00:00",
-   "what": "Google od poloviny září úspěšněji blokuje AI scrapery, vyhledávací scrapery a nástroje třetích stran pro sledování pozic. Změna koinciduje se zvraty v algoritmech z 4. a 12. září a je součástí Google snahy omezit nelidské chování ve výsledcích vyhledávání.",
-   "why": "Některé nástroje pro sledování SEO pozic a konkurence mohou přestat fungovat nebo dodávat neúplná data. To ovlivňuje reporting a rozhodování založené na denních datech o pozicích.",
-   "takeaway": "Zkontrolujte, zda vaše SEO nástroje (např. pro sledování pozic nebo konkurence) stále poskytují spolehlivá data. Pokud data chybí nebo jsou neúplná, zvažte alternativní zdroje dat nebo oficiální Google Search Console jako primární zdroj pro sledování výkonu.",
+   "title": "Google vydal návod na prevenci neplatných leadů v PPC kampaních",
+   "updated": "2026-09-18T19:09:30.833280+00:00",
+   "what": "Google zveřejnil novou příručku pro inzerenty zaměřené na generování leadů, která vysvětluje, jak předcházet neplatným a nekvalitním leadům. Dokument zdůrazňuje, že vestavěné filtry neplatné návštěvnosti nestačí a udržení kvality leadů je sdílená odpovědnost. Mezi doporučenými opatřeními je integrace reCAPTCHA do webových formulářů, nastavení dvojího opt-inu a validace e-mailů a telefonních čísel na straně serveru.",
+   "why": "Pro české marketingové manažery jde o praktický nástroj, jak snížit plýtvání rozpočtem na neplatné leady – problém, který zasahuje všechny trhy včetně ČR. Implementace těchto opatření může zlepšit kvalitu leadů a ROI kampaní zaměřených na konverze.",
+   "takeaway": "Zkontrolujte svoje lead formuláře – přidejte reCAPTCHA, nastavte dvojí opt-in a ověřování kontaktů na serveru. Zaměřte se v Google Ads na cíle specifické pro leady a využívejte first-party data k lepšímu targetování.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/6ddc16a8ff.jpg",
-   "image_from": "searchenginejournal.com"
+   "image": "img/08a8f9dfd1.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "5498f20251",
+   "created": "2026-09-14T06:57:30+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFh5SXI1UUowOUFjcDA5VHR0MDBxSDFvemJKWkJtVmswODRlZHZld0hVZk9GTnZVSjYwMXJycnA5OG01YUFlcEtvelpMaG9EaWs0RWNRY3BCSnhRWWFkaWlpM1ZJRnlRcGFhSTk1b2F4OFBsZHp4NGRpNUFGVUNOeUlUbGMtVF9Hbm93Y1hlN3FlLVk?oc=5",
+     "title": "Google Ads API Introduces New Onboarding Experience",
+     "summary": "Google Ads API Introduces New Onboarding Experience &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-14T06:57:30+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUFk3Ty1SNlgxcWtacWFwcHhXWEFWQVBsVzlkTWhKY0QxOHVGSmhYYWdyWmFWRjFLcGdTM0VjMGJtRXkyZFkzSTlYYkNVNnlyTkg5RUptX2xSbjV4Z3NLM0EtcGc3S3pnQ0hhSHA3NGVvN05DdTNXZXdRT2IxX183LWNNNHJpajVsUlRBSGVWV3g0MVBsZW1ob3JSTkZpYVBlU2NwdmNR?oc=5",
+     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
+     "summary": "Microsoft Advertising Publishes AI Content Transparency Rules &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-14T15:54:53+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-expands-customer-match-cdp-partners",
+     "title": "Microsoft Expands Customer Match CDP Partners",
+     "summary": "Microsoft Advertising has expanded its Customer Match partner list, now including several new customer data platforms (CDPs). This expansion effectively doubles the number of available partners to 20, giving advertisers more options for syncing customer data. Among the additions are Adobe Real Time CDP, Amperity, and Emarsys (SAP), while Salesforce is no longer listed. Read the official help page found by Hana Kobzová &nbsp;here: Customer match: Use your own data to find customers . The post Microsoft Expands Customer Match CDP Partners appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-15T12:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
+     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
+     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T14:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
+     "title": "Four foundations to get your brand AI-ready for the holidays",
+     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-09-17T15:06:57.866579+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://www.seroundtable.com/google-discover-on-desktop-not-found-42103.html",
+     "title": "What Ever Happened To Google Discover On Desktop",
+     "summary": "Last year, Google began to roll out Google Discover on the desktop interface of Google.com. But now, for the past several months, Discover on desktop is not been found. Google tested Discover on Desktop in 2023 and then, in 2025, said it was coming; it even started to roll it out, but again, it didn't last - Discover on Google.com desktop just does not exist.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:51:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2pVdHdEYkVkeVFDTEFoU3haS3JDZ3pwMUU3VGo3X3o0T2Y3TURSaTBnSzZhQ0RzQ0FNb0JjcUZ4SS1wMGpNU0s4d2h6QkdSWXpqY1JhUl9tbGpsdGMyeEpYQm14bklLZjhQUzQzdXBzcWF4bldjVVBpcEdrcGFqel9zenlQRzdSelIySUZCcHdObk11Vm54QmxnWmdmeERuWTk3c1FETUs?oc=5",
+     "title": "Google Ads’ Smart Bidding update appears to have ended bid suppression",
+     "summary": "Google Ads’ Smart Bidding update appears to have ended bid suppression &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T19:58:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Microsoft Advertising integruje HubSpot CRM pro uzavřený marketingový cyklus",
+   "updated": "2026-09-18T19:09:21.501334+00:00",
+   "what": "Microsoft Advertising spustil novou integraci s HubSpotem, která propojuje reklamní aktivitu s CRM daty. Inzerenti mohou v HubSpotu sledovat kliky a konverze z Microsoft Ads, přidávat UET tag pro měření, a vytvářet publikum pro cílení z kontaktních listů HubSpotu.",
+   "why": "Integrace umožňuje propojit reklamní výdaje přímo s obchodními výsledky v CRM, což zjednodušuje měření ROI a optimalizaci kampaní podle fází zákaznického cyklu. Pro firmy používající HubSpot to znamená možnost automatizovaného remarketingu a přesnějšího vyhodnocení efektivity Microsoft Ads.",
+   "takeaway": "Pokud používáte HubSpot jako CRM, propojen Microsoft Advertising účtu vám umožní lépe vyhodnocovat skutečnou hodnotu kampaní a automaticky cílit na kontakty podle jejich stadia v nákupním procesu. Zvažte nastavení integrace před Q4, abyste měli data pro optimalizaci vánoční sezóny.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/14c00923b3.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "2e6af52495",
+   "created": "2026-09-17T11:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/bing-product-carousel-labels-42092.html",
+     "title": "Bing Product Carousels With Top Picks, Sale, Price Drop, Views & More Labels",
+     "summary": "Microsoft is testing adding new labels to the Bing Search product carousels. Labels include Top Picks, Price Drop, Sale and likely other labels on the Bing Search product listings, within the carousels.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:21:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5",
+     "title": "Pinterest turns visual search into a new ad opportunity",
+     "summary": "Pinterest turns visual search into a new ad opportunity &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:14:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools",
+     "title": "Pinterest amps up performance tools, including a visual search product",
+     "summary": "“I’m proud to say that Pinterest is now a performance platform,” Bill Ready, Pinterest CEO, said at an advertising event this week.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-17T16:24:19+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
+     "title": "Pinterest announces visual search ads and an AI restyle feature",
+     "summary": "At the company&rsquo;s annual Pinterest presents event, it unveiled new promotional options, artificial intelligence room redecorating and the second season of its CTV show.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-17T20:02:16+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Pinterest spouští reklamy ve vizuálním vyhledávání",
+   "updated": "2026-09-18T19:09:12.852489+00:00",
+   "what": "Pinterest představil nový reklamní formát umožňující inzerovat přímo ve výsledcích vizuálního vyhledávání. CEO Bill Ready prohlásil, že Pinterest je nyní plnohodnotná performance platforma. Součástí oznámení je také AI funkce pro redesign interiérů.",
+   "why": "Jde o první velkou platformu, která otevírá vizuální vyhledávání pro performance reklamu. Pro marketéry to znamená nový způsob, jak zasáhnout uživatele v okamžiku nákupního záměru – v momentě, kdy hledají produkt pomocí obrázku, ne textu.",
+   "takeaway": "Sledujte, zda a kdy Pinterest Visual Search Ads dorazí do ČR/EU. Pokud prodáváte vizuálně atraktivní produkty (móda, interiér, dekorace), připravte si kvalitní produktové fotky a zvažte testovací rozpočet na Pinterest, jakmile bude formát dostupný.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/2e6af52495.jpg",
+   "image_from": "seroundtable.com"
   },
   {
    "id": "fbb3e8cbb2",
@@ -4075,19 +4240,408 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-09-18T12:00:00+00:00",
      "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
+     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
+     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:11:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
+     "title": "Google Ads is showing advertisers how their spending compares with peers",
+     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T14:50:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report",
+     "title": "Google Ads Introduces Spend Benchmarks Report",
+     "summary": "Google Ads is now offering a new Spend Benchmarks report that allows advertisers to compare their account data against similar businesses. It offers insights based on industry and advertising regions. This feature is visible in the account Overview section. The report provides metrics such as weekly spend and clicks received, demonstrating how an account's performance stacks up against its peers.&nbsp; This update was discovered by Thomas Eccel . The post Google Ads Introduces Spend Benchmarks Report appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T03:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.seroundtable.com/google-drops-free-product-listings-eea-42113.html",
+     "title": "Google Search Drops Free Product Listings From European Economic Area",
+     "summary": "Google Search has dropped the free product listings and carousel formats from the European Economic Area (EEA). This change is part of what the European Commission forced Google to do in these regions under the Digital Markets Act.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:11:00+00:00",
+     "score": 85
     }
    ],
    "category": "ppc",
    "importance": 72,
-   "title": "Google prodlužuje schvalování reklam u Demand Gen kampaní na 3–5 dnů",
-   "updated": "2026-09-18T14:41:21.462309+00:00",
-   "what": "Google aktualizoval nápovědu ke schvalovacím procesům reklam. Standardní přezkoumání u Demand Gen a Discovery kampaní nyní trvá 3–5 pracovních dnů, složitější formáty až 7 dnů. Většina ostatních typů kampaní je schválena do jednoho dne.",
-   "why": "Prodloužení schvalování u Demand Gen kampaní přímo ovlivňuje rychlost spuštění a testování nových kreativ. Jakákoliv úprava (rozpočet, bidding, text reklamy) proces restartuje – plánování kampaní a iterace kreativ tak trvá výrazně déle.",
-   "takeaway": "Pokud plánujete Demand Gen kampaně, počítejte s prodlevou až týden od nahrání kreativy. Vyvarujte se úprav rozpočtu nebo textu během schvalování. U urgentních kampaní volte jiné typy (Search, Performance Max), kde je schválení do 1 dne.",
+   "title": "Google zpomalil schvalování reklam v Demand Gen kampaních na 3–5 dnů",
+   "updated": "2026-09-18T19:09:04.246884+00:00",
+   "what": "Google aktualizoval oficiální nápovědu k délce schvalování reklam. Standardní review pro Demand Gen a Discovery kampaně nyní trvá 3–5 pracovních dnů, složitější formáty až 7 dní. Jakákoliv úprava (rozpočet, bidding, text) v době schvalování proces restartuje od začátku.",
+   "why": "Pro inzerenty znamená delší schvalovací proces pomalejší start kampaní a omezení flexibility při optimalizaci. Úpravy rozpočtu nebo biddingu v běžící kampani mohou nechtěně zablokovat zobrazování reklam na několik dní.",
+   "takeaway": "Pokud spouštíte Demand Gen kampaně, počítejte s až týdenním časem na schválení. Během review se vyhněte editaci rozpočtů, strategií nebo kreativ – jinak se proces vynuluje. Plánujte načasování kampaní s rezervou.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/fbb3e8cbb2.jpg",
    "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "e0fc43a4dd",
+   "created": "2026-09-18T11:15:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-adult-products-labels-42116.html",
+     "title": "Google Now Requires You Label Adult Products In Ecommerce Feeds",
+     "summary": "Google has updated its guidelines for sites with explicit content to now specify that ecommerce sites must \"label adult products in ecommerce feeds or markup.\" There is also a new section at the bottom of the help document titled, \"For Google Shopping features.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:15:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-responds-to-cross-domain-canonical-de-indexing-report/589917",
+     "title": "Google Responds To Cross-Domain Canonical De-Indexing Report via @sejournal, @martinibuster",
+     "summary": "Google's John Mueller explains how publishers can catch site problems before they become an indexing crisis. The post Google Responds To Cross-Domain Canonical De-Indexing Report appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T11:39:51+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google vyžaduje označení produktů pro dospělé ve feedech pro Shopping",
+   "updated": "2026-09-18T19:08:57.225984+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e0fc43a4dd.jpg",
+   "image_from": "seroundtable.com",
+   "what": "Google aktualizoval pokyny pro weby s explicitním obsahem. E-shopy nyní musí označovat produkty pro dospělé přímo ve feedech nebo pomocí strukturovaných dat. V nápovědě přibyla nová sekce věnovaná Google Shopping funkcím.",
+   "why": "Týká se e-shopů v ČR, které prodávají produkty kategorie 18+ a využívají Google Shopping / Merchant Center. Nesprávné nebo chybějící označení může vést k zamítnutí produktů nebo celého feedu.",
+   "takeaway": "Pokud prodáváte produkty pro dospělé, zkontrolujte své produktové feedy v Merchant Center a doplňte povinné labely podle nových požadavků. V případě problémů může Google produkty odmítnout zobrazovat."
+  },
+  {
+   "id": "2a4fd49ea5",
+   "created": "2026-09-16T15:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UUWVvMGVwcHZJOW01dWhGOGlPRUxqa3pXTHZSTmJmbGNZOWwzenlVZmlWUGJOOHNydUNHU3VkbW41N2luVHdsbGdXcHp2T3NVUHlTaGloWUxuZ0U?oc=5",
+     "title": "3 GEO pillars: LLM readability, brand context, agentic commerce",
+     "summary": "3 GEO pillars: LLM readability, brand context, agentic commerce &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T15:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlZrY2E4eTk3U18yemZ5VTczdnZubTh2UnZVWnlPZE0wOEMzWWdxc19nQ0s0OTcxQTIzeFBrb01KY0lNcm1kV0tkSktBTnZjcS13bDJaNF9GZjVqWFU0Z0dwOV8yaVB3cm0wcmhJOGNhRHpValpBU1ZmQVNGeVAtLVFPN2ltQQ?oc=5",
+     "title": "Schema for AI search: Turning entity gaps into organic growth",
+     "summary": "Schema for AI search: Turning entity gaps into organic growth &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-18T13:00:00+00:00",
+     "score": 63
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Tři pilíře GEO: čitelnost pro AI, kontext značky a agentní obchod",
+   "updated": "2026-09-18T19:08:46.281338+00:00",
+   "what": "Search Engine Land identifikuje tři klíčové oblasti Generative Engine Optimization (GEO): optimalizaci obsahu pro čitelnost velkých jazykových modelů (LLM), budování kontextu značky v AI odpovědích a přípravu na agentní obchod, kde AI asistenti nakupují za uživatele.",
+   "why": "S růstem AI vyhledávání (ChatGPT Search, Google AI Overviews, Perplexity) se mění způsob, jak uživatelé hledají informace a produkty. Tradiční SEO optimalizace pro klasické vyhledávače nemusí stačit – obsah musí být srozumitelný i pro AI modely a značky musí být v AI odpovědích viditelné.",
+   "takeaway": "Sledujte vývoj GEO jako doplněk SEO. Strukturujte obsah jasně a logicky pro AI zpracování, budujte konzistentní zmínky značky napříč weby a připravte se na scénář, kdy AI asistenti budou srovnávat produkty a doporučovat nákupy místo uživatelů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "b7fa0b47c3",
+   "created": "2026-09-15T21:29:41+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559",
+     "title": "Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot via @sejournal, @MattGSouthern",
+     "summary": "Cloudflare's Disallow AI Training keeps mixed-use crawlers available for search. Google and Apple honor training opt-outs; Bing robots.txt support is pending. The post Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T21:29:41+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262",
+     "title": "Cloudflare Will Write Your Robots.txt, And It Has A Point via @sejournal, @slobodanmanic",
+     "summary": "Bot Preference Sync sets AI crawler policy per category, not per crawler. Allow GPTBot and block Bytespider, and no setting describes what you do. The post Cloudflare Will Write Your Robots.txt, And It Has A Point appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T14:30:00+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://www.semrush.com/blog/cloudfare-blocks-ai-training",
+     "title": "Cloudflare's AI training block now spares Googlebot",
+     "summary": "Cloudflare‘s Disallow AI Training setting blocks AI training crawlers but not Googlebot. Bing won‘t honor it until early 2027.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-09-18T14:04:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284",
+     "title": "Checking A Page Is Part Of A Retrieval Pipeline For AI via @sejournal, @chrisgreenseo",
+     "summary": "No GSC for ChatGPT? Paste a distinctive snippet into a chatbot and ask for exact matches. If your URL comes back, retrieval isn't your problem. The post Checking A Page Is Part Of A Retrieval Pipeline For AI appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T19:00:53+00:00",
+     "score": 47
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "Cloudflare umožňuje blokovat AI trénink, ale nechat Googlebot pro indexaci",
+   "updated": "2026-09-18T19:08:37.080601+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/b7fa0b47c3.jpg",
+   "image_from": "searchenginejournal.com",
+   "what": "Cloudflare spustil funkci 'Disallow AI Training', která blokuje crawlery trénující AI modely, ale ponechává přístup pro Googlebot a další vyhledávače. Google a Apple toto nastavení respektují. Bing zatím nepodporuje – plná podpora přijde až začátkem 2027.",
+   "why": "Řeší dilema provozovatelů webů: chtějí být v Google výsledcích, ale nechtějí, aby jejich obsah trénoval AI modely konkurence. Dosud museli buď povolit vše, nebo blokovat i vyhledávače. Cloudflare nabízí granulární kontrolu per kategorie crawlerů, ne jen per jednotlivé boty.",
+   "takeaway": "Pokud vaše stránka běží přes Cloudflare a zajímá vás kontrola nad AI trénováním, zapněte 'Disallow AI Training'. Budete nadále v Googlu, ale zablokujete většinu AI crawlerů. Počítejte s tím, že Bing toto nastavení nebude plně respektovat ještě dva roky."
+  },
+  {
+   "id": "052c1b5310",
+   "created": "2026-09-16T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
+     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
+     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:05:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
+     "title": "AI Overviews Cut CTR by 23.1% in France",
+     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-09-16T16:04:30+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
+     "title": "Bing Tests Shopping Filters On Left Sidebar",
+     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:21:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
+     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
+     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:41:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.jirkont.cz/online-marketing-cervenec-srpen-2026",
+     "title": "Červenec a srpen 2026: Data z AI Overviews, ChatGPT Ads v Evropě a Cloudflare může odstřihnout Googlebota",
+     "summary": "Vítejte zpátky po prázdninách. Novinky jsme přes léto vynechali, tak si to teď vynahradíme jedním článkem za červenec i srpen 2026 dohromady. Září je čas, kdy se plánují vánoční kampaně. Rozpočty, kreativa i feedy se připravují teď, v listopadu už bude pozdě. Projděte si letošní data, nastavte si termíny a nenechávejte přípravu na poslední chvíli. [&#8230;]",
+     "source": "Jirkont",
+     "domain": "jirkont.cz",
+     "published": "2026-09-17T05:55:04+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-images-suggested-by-al-42096.html",
+     "title": "Google Image Search Collections Save To Suggested By Al",
+     "summary": "Google Image Search lets you save images to collections and folders. Well, now Google will suggest new folders or collections using AI - it says \"suggested by AI\" with a Gemini icon over a folder.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:51:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://www.seroundtable.com/google-local-knowledge-panel-ai-overview-42105.html",
+     "title": "Google Local Knowledge Panel As An AI Overview",
+     "summary": "Google is turning the local knowledge panels, your Google Business Profile, into an AI Overview listing. At the top of the local listing it says \"AI Overview\" and then there is a \"Show more\" button to expand, which brings you into the follow up AI Mode style chat interface.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:31:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-bar-testing-ai-mode-button-42110.html",
+     "title": "Google Search Bar Results Page Testing AI Mode Button",
+     "summary": "Google is now testing adding the AI Mode button to the search bar when you are inside the search results page. Google has the AI Mode button almost everywhere else, but now we are seeing it added to the search bar, within the search results page, not just the home page.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:51:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "seo",
+   "importance": 75,
+   "title": "AI Overviews snižují CTR o 23 % – francouzská data potvrzují dopad na organiku",
+   "updated": "2026-09-18T19:08:23.345250+00:00",
+   "what": "Ahrefs analyzoval 963 domén přes Google Search Console 28 dní před spuštěním AI Overviews ve Francii (22. 7. 2026) a 9 dní po něm. Domény nejvíce exponované AI výsledkům ztratily v průměru 23,1 % z CTR. Současně Google testuje přímé odkazy z produktových výsledků na stránky obchodníků a rozšiřuje AI režim do dalších částí rozhraní (vyhledávací lišta, lokální panely). John Mueller zmiňuje, že reportování pozic a impresí pro AI Mode a AI Overviews v Search Console se bude v čase měnit společně s vývojem těchto prvků.",
+   "why": "Pokles CTR o pětinu u nejexponovanějších domén je zásadní pro plánování organického výkonu a rozpočtů. Pokud Google AI OverviewsExpanduje do ČR (nebo do dalších EU zemí včetně rozšíření lokálních AI panelů), organická návštěvnost může klesnout obdobně. Zároveň změny v reportingu GSC znamenají, že současné metriky pozic a impresí nemusí zůstat stabilní – sledování výkonnosti bude vyžadovat nové postupy.",
+   "takeaway": "Sledujte data z GSC u klíčových stránek a připravte scénář pro pokles organické návštěvnosti o 15–25 %, pokud se AI Overviews objeví v ČR. Prozatím počítejte s tím, že GSC metriky pro AI prvky se budou měnit – nespoléhejte se jen na historická čísla pozic. Testujte další kanály (PPC, direct, newsletter) jako pojistku proti poklesu SEO návštěvnosti.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/43c1215526.jpg",
+   "image_from": "ahrefs.com"
+  },
+  {
+   "id": "2877daf990",
+   "created": "2026-09-15T07:45:08+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/local-services-ads-to-performance-max-what-to-audit-before-migration-recap/588906",
+     "title": "Local Services Ads To Performance Max: What To Audit Before Migration via @sejournal, @hethr_campbell",
+     "summary": "CallRail’s Meagan McLoughlin explains what to audit before/after Local Services Ads migrate into Google Ads, from historical reports to tracking numbers and lead quality. The post Local Services Ads To Performance Max: What To Audit Before Migration appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T07:45:08+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-pmax-options-42087.html",
+     "title": "Google Ads PMax: Where Should People Go After Clicking Your Ads?",
+     "summary": "Google Ads added a new option within your Performance Max campaigns to select \"Where should people go after clicking your ads?\" The two available options for that question are (1) Your website and (2) Google Business Profile (optimized for ads).",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-15T11:31:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOEgxc204NUJKRUVlUnlKWGFydmFKUE1Rc1YxamRLTlhQVTNpelN1cUZsWU9RejdPRkg5Q1UwdzM4LW1rN1VxcTduVU9rM1JOejJWaVpXTEZoOTB1VEdWNXBaS1Qtbk9zT3BWWk1sWUdubDJUamVENnR5bUxub2NpbVV3eVU0dGpUeWlJQ3ZJSHZUcEdGUnBv?oc=5",
+     "title": "AI Overviews and paid search: When to fight, influence, or generate demand",
+     "summary": "AI Overviews and paid search: When to fight, influence, or generate demand &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-15T12:00:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-expands-conversational-attribute-specs",
+     "title": "Merchant Center Expands Conversational Attribute Specs",
+     "summary": "Google Merchant Center has enhanced its product data specifications by adding detailed formatting guidelines for its newer conversational attributes. These updates provide clarity with technical names and file-format examples, enabling more precise data submissions. A TSV template for these attributes has also been published, assisting advertisers in streamlining their feed work. Key attributes like document link , question and answer , popularity rank , and variant option now have specific technical names and file format examples listed. This documentation ensures that these elements are unde",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-16T07:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-multi-source-conversions-42080.html",
+     "title": "New Information On Google Ads Multi-Source Conversions Beta",
+     "summary": "Google posted another new help document on multi-source conversions (beta). Last month, Google reportedly renamed conversions with multiple data sources to multi-source conversions, but now there is this new help document as well.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:31:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713",
+     "title": "Google UCP Update Lets Merchants Enable Cart Transfer To Site via @sejournal, @MattGSouthern",
+     "summary": "Google is rolling out cart transfer and checkout testing in the Merchant Center UCP hub, plus a YouTube ads beta and wider AI insights. The post Google UCP Update Lets Merchants Enable Cart Transfer To Site appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-16T20:35:52+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/performance-max-adds-google-business-profile-landing-option",
+     "title": "Performance Max Adds “Google Business Profile” Landing Option",
+     "summary": "Google Ads' Performance Max campaigns now feature two distinct landing page options :&nbsp; \"Your website\" \"Google Business Profile (optimized for ads)\" Advertisers can direct clicks to a Google-hosted page linked to their business profile, which includes built-in conversion tracking methods. This option is particularly beneficial for small local businesses without a robust website, as it enables quicker campaign launches focused on local actions like calls and directions. However, it may limit control over the user experience, content testing, and lead tracking compared to traditional landing",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T01:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-merchant-center-store-renaming-no-longer-affects",
+     "title": "Microsoft Merchant Center Store Renaming No Longer Affects Shopping Ads",
+     "summary": "Renaming a Microsoft Merchant Center store no longer disrupts Shopping ads. When a store name is updated, the new name goes Under review while ads continue displaying the previously approved name .&nbsp; If the new name is rejected, the original store name remains active, and the rejection reason is shown in Store Issues . This practical change helps businesses rebrand without fearing an interruption in ad delivery.&nbsp; Read the official help page found by Hana Kobzová : Create a Microsoft Merchant Center store . The post Microsoft Merchant Center Store Renaming No Longer Affects Shopping Ad",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-15T14:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-explains-how-update-product-videos-faster",
+     "title": "Merchant Center Explains How to Update Product Videos Faster",
+     "summary": "Google Merchant Center has updated its guidelines to help advertisers replace product videos more efficiently. The help page now emphasizes that using a new unique URL for video updates prompts a quicker recrawl, typically within 24-72 hours . In contrast, keeping the same URL could delay updates by up to six weeks . Additionally, a new section on Shopping policy compliance has been added, enforcing that all video assets must adhere to Google's advertising and content guidelines. Products with updated URLs will be listed as \" Under Review \" until processed, while older video content continues ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T12:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://digichef.cz/konverzacni-atributy-v-gmc",
+     "title": "Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru",
+     "summary": "Google Merchant Center teď nabízí obchodníkům víc než jen základní produktová data. Takzvané konverzační atributy dokážou Googlu prozradit, co by jinak zákazník zjistil až od zkušeného prodejce v obchodě. Jak přesně tahle nová vrstva informací funguje a proč může znamenat výhodu pro váš e-shop, se dočtete v článku. Standardní produktový feed Googlu obvykle sděluje, co... The post Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-09-17T14:52:46+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5",
+     "title": "Google Ads tests Product Value Optimization for AI bidding",
+     "summary": "Google Ads tests Product Value Optimization for AI bidding &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:44:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/expandable-google-sponsored-places-42081.html",
+     "title": "Google Sponsored Places That Expand On Hover",
+     "summary": "Google is testing the Sponsored Places ads that expand when you hover over the ads within Google Search. Google has been testing expandable ads on hover for a while, but here is one with the Sponsored Places ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:11:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-local-business-query-units-42115.html",
+     "title": "Google Supports Local Business Queries In Aggregator & Supplier Search Units",
+     "summary": "Google has added local business query support to the aggregator and supplier units within Google Search. Google updated both the aggregator unit and supplier unit documentation to add \"and local businesses\" sprinkled throughout those documents.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:05:00+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-adds-local-businesses-to-eea-search-result-units/589955",
+     "title": "Google Adds Local Businesses To EEA Search Result Units via @sejournal, @MattGSouthern",
+     "summary": "Google updated its Search documentation to add local business queries to the two result units rolled out in the EEA for directories and direct providers. The post Google Adds Local Businesses To EEA Search Result Units appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T17:51:12+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Performance Max umí směrovat na Google Business profil místo webu",
+   "updated": "2026-09-18T19:08:15.130384+00:00",
+   "what": "Google Ads přidal do Performance Max kampaní novou možnost výběru cíle po kliknutí na reklamu. Inzerenti teď mohou zvolit buď vlastní web, nebo Google Business profil optimalizovaný pro reklamy. U druhé varianty jde o stránku hostovanou Googlem s vestavěným sledováním konverzí (volání, navigace).",
+   "why": "Pro malé lokální firmy bez robustního webu to znamená rychlejší spuštění kampaně zaměřené na lokální akce. Na druhou stranu přináší omezenou kontrolu nad uživatelskou zkušeností, obsahem a testováním variant oproti klasickému landing page.",
+   "takeaway": "Pokud provozujete lokální službu s jednoduchým webem, zvažte využití Google Business profilu v PMax pro rychlejší start a automatické trackování. Firmy s vlastní infrasturkturou pro měření a optimalizaci landing pages by měly zůstat u běžné varianty.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/2877daf990.jpg",
+   "image_from": "searchenginejournal.com"
   },
   {
    "id": "b260e0abf9",
@@ -4209,19 +4763,203 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-09-16T12:00:00+00:00",
      "score": 64
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-publishes-store-ratings-requirements-100-reviews-3-5-stars-24-months",
+     "title": "Store Ratings Requirements Updated: 100 Reviews, 3.5 Stars, 24 Months",
+     "summary": "Google has updated its store ratings overview for merchants, detailing specific eligibility requirements that include having around 100 eligible reviews. Advertisers must maintain a star rating of at least 3.5 stars out of 5 for these ratings to appear on paid text and Shopping ads . The requirements specify that reviews must be from the past 24 months to ensure ratings reflect current service quality. Ratings are calculated separately per country, with reviews counting only within their origin country. Read the official help page here: Google store ratings: An overview for Merchants . This up",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T07:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-api-supports-product-reviews-42101.html",
+     "title": "Google Merchant Center API Now Supports Product Reviews",
+     "summary": "Google updated the upload a product reviews data source to Merchant Center help document to now say that you can do this via the Merchant Center API. Previously, the document said, \"API isn't currently supported for product reviews data sources.\" Now it says, \"Add product reviews using API.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:21:00+00:00",
+     "score": 78
     }
    ],
    "category": "seo",
-   "importance": 45,
+   "importance": 72,
    "title": "Google snižuje práh pro Search profily na 10 000 followerů",
-   "updated": "2026-09-18T14:41:11.868238+00:00",
-   "importance_label": "stojí za pozornost",
+   "updated": "2026-09-18T19:08:04.161522+00:00",
+   "importance_label": "důležité",
    "multi_source": true,
    "image": "img/b260e0abf9.jpg",
    "image_from": "searchengineland.com",
    "what": "Google zpřístupnil Search profily tvůrcům a webům s alespoň 10 000 sledujícími na sociálních sítích (původně byly dostupné jen pro větší účty). Zároveň přidal nový design článků, zjednodušené přihlášení pro správu více profilů a možnost přidat na web badge pro získávání odběratelů přímo z webu.",
    "why": "Search profily umožňují uživatelům odebírat obsah tvůrců přímo ve vyhledávání Google. Pro české weby a tvůrce to otevírá nový kanál na získávání publika mimo sociální sítě – relevantní především pro ty, kdo mají alespoň 10 000 followerů na platformách jako Instagram, YouTube nebo TikTok.",
    "takeaway": "Pokud máte nad 10 000 sledujících na sociálních sítích, zvažte vytvoření Search profilu a přidání odběratelského badge na web – může vám přinést další zdroj pravidelné návštěvnosti mimo placené kanály. Pro menší weby zatím není relevantní."
+  },
+  {
+   "id": "6ddc16a8ff",
+   "created": "2026-09-18T11:55:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-blocking-scrapers-and-tracking-tools-42118.html",
+     "title": "Google May Be More Successful In Blocking Scrapers & Tracking Tools",
+     "summary": "Google may be more successful in blocking AI scrapers, search scrapers and third-party tracking tools since around September 13th or so. This coincides with the September 4th and September 12th reversals we reported, and it also aligns with the methods Google has been using to block non-human behavior in its search results recently.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:55:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636",
+     "title": "Google’s AI Payment Pilot Vs. Cloudflare & Microsoft Models via @sejournal, @MattGSouthern",
+     "summary": "Google, Cloudflare, and Microsoft are testing different models for paying publishers when AI systems access or use their content. The post Google&#8217;s AI Payment Pilot Vs. Cloudflare &#038; Microsoft Models appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T12:00:41+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/video-09-18-2026-42112.html",
+     "title": "Search News Buzz Video Recap: Unusual Google Search Ranking Volatility, Ad Tech Monopoly Remedies, AI Contribution Publisher Payouts & More",
+     "summary": "This week we covered the first week or so of Google's unusual ranking volatility only to see things spike up in a big way this week as well - something is up. Google's remedies are out for its ad tech monopoly ruling. Google has an AI contribution pilot for paying publishers...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T12:01:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Google zpřísňuje blokování scraperů a platí vydavatelům za AI obsah",
+   "updated": "2026-09-18T19:07:42.782366+00:00",
+   "what": "Google od poloviny září výrazněji blokuje AI scrapery, nástroje pro sledování výsledků vyhledávání a third-party tracking nástroje. Změna souvisí s víceméně nevysvětlenými výkyvy v žebříčcích (reversals) ze začátku září a s Google metodami pro detekci nehuman behavior. Zároveň Google spouští pilotní program kompenzací pro vydavatele, jejichž obsah využívají AI systémy – podobné modely testují i Cloudflare a Microsoft.",
+   "why": "Blokování scraperů přímo ovlivňuje nástroje pro SERP monitoring a rank tracking (např. SE Ranking, Ahrefs, Semrush), na které se spoléhají SEO specialisté i manažeři pro sledování pozic a konkurence. Bez spolehlivých dat o pozicích je těžší vyhodnocovat efektivitu SEO a alokovat rozpočet. Pilotní platby vydavatelům zatím nemají přímý dopad na české firmy, ale signalizují posun v tom, jak Google bude AI přístupy k obsahu řešit – což může v budoucnu ovlivnit práci s vlastním obsahem.",
+   "takeaway": "Zkontrolujte, zda váš rank tracking nástroj funguje spolehlivě – případně ověřte data i ručním kontrolním vyhledáváním nebo u více nástrojů zároveň. Sledujte, jak se bude vyvíjet model placení za AI obsah – může to mít vliv na to, jak vyhledávače k vašemu webu přistupují a zda se vyplatí některé typy obsahu chránit nebo naopak zpřístupnit.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/6ddc16a8ff.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "51d2a2fdc6",
+   "created": "2026-09-18T14:33:30+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product",
+     "title": "AI is telling consumers not to buy your product",
+     "summary": "Nearly 81% of consumers who use chatbots for online shopping have decided against a purchase based on AI guidance. The post AI is telling consumers not to buy your product appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-18T14:33:30+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ai",
+   "importance": 65,
+   "title": "81 % spotřebitelů odmítlo nákup na základě doporučení AI chatbota",
+   "updated": "2026-09-18T19:06:32.264790+00:00",
+   "what": "Podle průzkumu zmíněného na MarTech se téměř 81 % spotřebitelů, kteří používají chatboty při online nakupování, rozhodlo neuskutečnit nákup na základě doporučení od umělé inteligence.",
+   "why": "Ukazuje to novou realitu e-commerce: AI asistenti a chatboty aktivně ovlivňují nákupní rozhodnutí zákazníků a mohou produkty odradit, i když je zákazník původně zvažoval. Pro marketéry to znamená ztrátu kontroly nad rozhodovacím procesem těsně před konverzí.",
+   "takeaway": "Pokud vaši zákazníci používají AI nástroje při rozhodování, vaše produkty musí obstát nejen v klasickém porovnání, ale i v kontextu, který AI vyhodnocuje (recenze, parametry, cena/hodnota). Sledujte, co AI nástroje o vašich produktech říkají, a optimalizujte dostupné informace tak, aby AI měla kvalitní podklady pro doporučení.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "69ff025533",
+   "created": "2026-09-18T16:54:27+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/allegro-v-cesku-pritahlo-o-tretinu-vic-obchodniku-v-regionu-uz-na-trzisti-nakupuje-kazdy-ctvrty",
+     "title": "Allegro v Česku přitáhlo o třetinu víc obchodníků, v regionu už na tržišti nakupuje každý čtvrtý",
+     "summary": "Polské online trži&#353;tě Allegro v Česku zrychlilo, počet nabídek od zdej&#353;ích obchodníků na platformě vyrostl ve druhém čtvrtletí meziročně zhruba o třetinu. Značku už zná v rámci podpořené znalosti devět z deseti tuzemských e-commerce zákazníků, uvádí firma v tiskové zprávě. Česko je pro Allegro největ&#353;ím trhem po domovském Polsku.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-18T16:54:27+00:00",
+     "score": 65
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 55,
+   "title": "Allegro v ČR roste: +33 % prodejců, 90% znalost značky, každý čtvrtý nakupuje",
+   "updated": "2026-09-18T19:06:32.264790+00:00",
+   "what": "Polské online tržiště Allegro zaznamenalo v Česku ve 2. čtvrtletí meziroční růst počtu nabídek od českých obchodníků o přibližně třetinu. Podpořená znalost značky u českých e-commerce zákazníků dosáhla 90 %, v regionu střední Evropy už na Allegro nakupuje každý čtvrtý zákazník. Česko je pro Allegro největším trhem po domácím Polsku.",
+   "why": "Allegro se stává důležitou prodejní platformou vedle Zboží.cz a českých e-shopů – rychlý růst počtu prodejců a vysoká znalost značky naznačují, že už není okrajovým hráčem. Pro české e-shopy a marketplace prodejce je Allegro další kanál, který může generovat obrat, zejména při expanzi do regionu střední Evropy.",
+   "takeaway": "Zvažte testování Allegro jako dalšího prodejního kanálu – platforma již má v ČR vysokou znalost a roste rychleji než místní konkurence. Pokud prodáváte i do Polska nebo regionu, může jít o efektivní cestu růstu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "54e7f01ec2",
+   "created": "2026-09-18T14:55:13+00:00",
+   "articles": [
+    {
+     "url": "https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce",
+     "title": "Prostujemy: fakty o walce z oszukańczymi reklamami w Polsce",
+     "summary": "Na początku tego tygodnia fundacja Instrat opublikowała raport dotyczący jednego z najtrudniejszych wyzwań, z jakimi mierzy się cała branża &#8211; reklam o charakterze oszukańczym. To poważne i złożone wyzwanie, które dotyczy firm technologicznych, banków i całego społeczeństwa. Ciężko pracujemy, by przeciwdziałać działaniom wyrafinowanych i zdeterminowanych przestępców wykorzystują zaawansowane systemy sztucznej inteligencji, narzędzia chroniące użytkowników oraz współpracując z organami ścigania i partnerami z branży. Rozliczanie nas z naszych działań jest w pełni uzasadnione, ale ten rapor",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-18T14:55:13+00:00",
+     "score": 54
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Meta reaguje na polský report o podvodných reklamách",
+   "updated": "2026-09-18T19:06:32.264790+00:00",
+   "what": "Meta (Facebook) zveřejnila reakci na report polské nadace Instrat o podvodných reklamách. Podle Mety jde o složitý problém, s nímž se potýká celá branžě, a společnost aktivně pracuje na ochraně uživatelů pomocí AI systémů a spolupráce s úřady.",
+   "why": "Podvodné reklamy jsou celoevropský problém (včetně ČR) – týkají se podobných platforem a metod útoku. Reakce Mety ukazuje veřejný tlak na platformy řešit tento problém a naznačuje, jaké nástroje dnes platformy deklarují používat.",
+   "takeaway": "Sleduj vývoj podobných kauz i v ČR a debatu o zodpovědnosti platforem. Kontroluj pravidelně vlastní Meta kampaně, zda nejsou spojené s podvodnými doménami (může poškodit reputaci značky). Pokud řešíš prevenci podvodů, zvyš bdělost u inzerátů s lákavými nabídkami.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "0ac199de9c",
+   "created": "2026-09-18T14:52:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2xHUk9ZbUJJT2pPT0c2M2JfdEpnWmdEZFVCa0lFNVlaMFNTbElOT1VZUVl4bXlJc0FjTVFzRndsVDd4cEpJZTdGeVhQWk9QLWJlY2lScms4RElfek9sUzNqXzlTb2IxRFgtRmotZU9odTREdEdFOVVPS1BGdTQzSUNSMGo5R0pGeTBWOHplR0NyaEJYNm5iN0xLYw?oc=5",
+     "title": "Google Merchant Center adds API support for product reviews",
+     "summary": "Google Merchant Center adds API support for product reviews &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-18T14:52:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Merchant Center nabízí API pro práci s recenzemi produktů",
+   "updated": "2026-09-18T19:06:32.264790+00:00",
+   "what": "Google Merchant Center nově podporuje API pro správu recenzí produktů. Umožňuje programově nahrávat, aktualizovat a spravovat recenze zobrazované v nákupních výsledcích Google.",
+   "why": "Pro e-shopy to znamená automatizaci práce s hodnoceními, která ovlivňují viditelnost a důvěryhodnost produktů v Google nákupním vyhledávání a reklamách. Dosud se recenze nahrávaly ručně nebo prostřednictvím feedů.",
+   "takeaway": "Pokud provozujete e-shop a sbíráte hodnocení (Heureka, vlastní systém), zvažte napojení na nové API – může zlepšit prezentaci produktů v Google a ušetřit čas vašemu týmu nebo dodavateli feedů.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/0ac199de9c.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "e6292103c3",
+   "created": "2026-09-18T14:43:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1FUUU85cDMxR2xuTmtCM2ZzRXhMTjlnS0MyVnFyeXhzN3N3RGFXX3k4ZWo0eUV1djNibFBSOC1zU0dMMDB2eUNnZ1BPaHdVZng1a3QxZXY1eXRhWGdha0UzZ09ianRsekdEMjRUTF9peTR1TnBBOVlxelJheUNQUE5UNlhfdjNnTFFyNXdFbmNBS2c?oc=5",
+     "title": "Google Ads rolls out AI video dubbing in Asset Studio",
+     "summary": "Google Ads rolls out AI video dubbing in Asset Studio &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-18T14:43:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads spouští AI dabbing videa v Asset Studiu",
+   "updated": "2026-09-18T19:06:32.264790+00:00",
+   "what": "Google Ads zavádí do Asset Studia funkci automatického dabování videí pomocí AI. Nástroj umožňuje generovat hlasové verze videoreklam v různých jazycích.",
+   "why": "Pro marketéry spravující kampaně v Google Ads to znamená možnost vytvářet lokalizované video reklamy rychleji a levněji než dosud. Relevantní zejména pro firmy, které chtějí oslovit zahraničí nebo různé jazykové skupiny bez nákladů na profesionální dabing.",
+   "takeaway": "Pokud děláte video kampaně v Google Ads a testujete cizí trhy, vyzkoušejte novou funkci dabingu v Asset Studiu – může ušetřit náklady na produkci lokalizovaných verzí. Pro čistě český trh zatím nižší přínos.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "c1689f44c5",
@@ -4255,317 +4993,6 @@
    "takeaway": "Pokud používáte LinkedIn Ads pro B2B cílení, prohlédněte si nový Companies Hub v Campaign Manageru a vyhodnoťte, které firmy reagují na váš obsah – tyto údaje využijte pro přesnější nastavení cílení placených kampaní.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "09c836750b",
-   "created": "2026-09-18T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-publishes-store-ratings-requirements-100-reviews-3-5-stars-24-months",
-     "title": "Store Ratings Requirements Updated: 100 Reviews, 3.5 Stars, 24 Months",
-     "summary": "Google has updated its store ratings overview for merchants, detailing specific eligibility requirements that include having around 100 eligible reviews. Advertisers must maintain a star rating of at least 3.5 stars out of 5 for these ratings to appear on paid text and Shopping ads . The requirements specify that reviews must be from the past 24 months to ensure ratings reflect current service quality. Ratings are calculated separately per country, with reviews counting only within their origin country. Read the official help page here: Google store ratings: An overview for Merchants . This up",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-18T07:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-api-supports-product-reviews-42101.html",
-     "title": "Google Merchant Center API Now Supports Product Reviews",
-     "summary": "Google updated the upload a product reviews data source to Merchant Center help document to now say that you can do this via the Merchant Center API. Previously, the document said, \"API isn't currently supported for product reviews data sources.\" Now it says, \"Add product reviews using API.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:21:00+00:00",
-     "score": 78
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google zpřísnil kritéria pro hodnocení obchodů: 100 recenzí a 3,5 hvězdičky",
-   "updated": "2026-09-18T14:40:54.733299+00:00",
-   "what": "Google aktualizoval požadavky pro zobrazování hodnocení obchodů (store ratings) v textových a nákupních reklamách. Pro zobrazení je nově potřeba cca 100 oprávněných recenzí, průměrné hodnocení minimálně 3,5 hvězdičky z 5 a recenze nesmí být starší než 24 měsíců. Hodnocení se počítají odděleně pro každou zemi. Zároveň Google zpřístupnil nahrávání produktových recenzí přes Merchant Center API, což dříve nebylo možné.",
-   "why": "Pro e-shopy inzerující v Google Ads to znamená jasnější pravidla i vyšší laťku – bez alespoň stovky čerstvých recenzí a solidního hodnocení se hvězdičky v reklamách neobjeví. To ovlivňuje CTR a konkurenceschopnost. Možnost nahrávat produktové recenze přes API zjednodušuje automatizaci pro větší e-shopy a zlepšuje prezentaci produktů v rámci nákupních kampaní.",
-   "takeaway": "Zkontrolujte, zda váš e-shop splňuje nová kritéria (počet a stáří recenzí, průměrné hodnocení). Pokud máte produktové recenze, zvažte jejich automatizované nahrávání přes Merchant Center API – může to zlepšit viditelnost produktů v Google nákupních reklamách. Myslete na to, že hodnocení funguje per země – české recenze platí jen v ČR.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/09c836750b.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "5498f20251",
-   "created": "2026-09-14T06:57:30+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFh5SXI1UUowOUFjcDA5VHR0MDBxSDFvemJKWkJtVmswODRlZHZld0hVZk9GTnZVSjYwMXJycnA5OG01YUFlcEtvelpMaG9EaWs0RWNRY3BCSnhRWWFkaWlpM1ZJRnlRcGFhSTk1b2F4OFBsZHp4NGRpNUFGVUNOeUlUbGMtVF9Hbm93Y1hlN3FlLVk?oc=5",
-     "title": "Google Ads API Introduces New Onboarding Experience",
-     "summary": "Google Ads API Introduces New Onboarding Experience &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-14T06:57:30+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUFk3Ty1SNlgxcWtacWFwcHhXWEFWQVBsVzlkTWhKY0QxOHVGSmhYYWdyWmFWRjFLcGdTM0VjMGJtRXkyZFkzSTlYYkNVNnlyTkg5RUptX2xSbjV4Z3NLM0EtcGc3S3pnQ0hhSHA3NGVvN05DdTNXZXdRT2IxX183LWNNNHJpajVsUlRBSGVWV3g0MVBsZW1ob3JSTkZpYVBlU2NwdmNR?oc=5",
-     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
-     "summary": "Microsoft Advertising Publishes AI Content Transparency Rules &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-14T15:54:53+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-expands-customer-match-cdp-partners",
-     "title": "Microsoft Expands Customer Match CDP Partners",
-     "summary": "Microsoft Advertising has expanded its Customer Match partner list, now including several new customer data platforms (CDPs). This expansion effectively doubles the number of available partners to 20, giving advertisers more options for syncing customer data. Among the additions are Adobe Real Time CDP, Amperity, and Emarsys (SAP), while Salesforce is no longer listed. Read the official help page found by Hana Kobzová &nbsp;here: Customer match: Use your own data to find customers . The post Microsoft Expands Customer Match CDP Partners appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-15T12:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
-     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
-     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T14:00:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
-     "title": "Four foundations to get your brand AI-ready for the holidays",
-     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
-     "source": "Microsoft Advertising blog",
-     "domain": "about.ads.microsoft.com",
-     "published": "2026-09-17T15:06:57.866579+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://www.seroundtable.com/google-discover-on-desktop-not-found-42103.html",
-     "title": "What Ever Happened To Google Discover On Desktop",
-     "summary": "Last year, Google began to roll out Google Discover on the desktop interface of Google.com. But now, for the past several months, Discover on desktop is not been found. Google tested Discover on Desktop in 2023 and then, in 2025, said it was coming; it even started to roll it out, but again, it didn't last - Discover on Google.com desktop just does not exist.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-17T11:51:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Microsoft Advertising propojil PPC kampaně s HubSpot CRM",
-   "updated": "2026-09-18T14:40:45.619163+00:00",
-   "what": "Microsoft Advertising představil integraci s HubSpot CRM, která propojuje reklamní aktivity s daty o zákaznících a umožňuje uzavřený marketingový cyklus. Uživatelé HubSpot mohou trackovat kliky a konverze z Microsoft Ads, přidávat UET tag přes HubSpot a vytvářet cílové skupiny přímo z kontaktních listů synchronizovaných podle životního cyklu zákazníka.",
-   "why": "Jde o praktické propojení PPC a CRM dat pro firmy používající HubSpot – umožňuje lepší měření ROI kampaní a cílení podle skutečného chování zákazníků v sales pipeline. Pro marketingové manažery to znamená jednodušší práci s daty bez nutnosti exportů a manuálního párování.",
-   "takeaway": "Pokud používáte HubSpot a zároveň Microsoft Ads, ověřte si novou integraci – ušetří čas při reportingu a umožní přesnější retargeting podle fází nákupního procesu. Zvažte sjednocení měření konverzí napříč PPC a CRM.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/14c00923b3.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "2877daf990",
-   "created": "2026-09-15T07:45:08+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/local-services-ads-to-performance-max-what-to-audit-before-migration-recap/588906",
-     "title": "Local Services Ads To Performance Max: What To Audit Before Migration via @sejournal, @hethr_campbell",
-     "summary": "CallRail’s Meagan McLoughlin explains what to audit before/after Local Services Ads migrate into Google Ads, from historical reports to tracking numbers and lead quality. The post Local Services Ads To Performance Max: What To Audit Before Migration appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T07:45:08+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-pmax-options-42087.html",
-     "title": "Google Ads PMax: Where Should People Go After Clicking Your Ads?",
-     "summary": "Google Ads added a new option within your Performance Max campaigns to select \"Where should people go after clicking your ads?\" The two available options for that question are (1) Your website and (2) Google Business Profile (optimized for ads).",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-15T11:31:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOEgxc204NUJKRUVlUnlKWGFydmFKUE1Rc1YxamRLTlhQVTNpelN1cUZsWU9RejdPRkg5Q1UwdzM4LW1rN1VxcTduVU9rM1JOejJWaVpXTEZoOTB1VEdWNXBaS1Qtbk9zT3BWWk1sWUdubDJUamVENnR5bUxub2NpbVV3eVU0dGpUeWlJQ3ZJSHZUcEdGUnBv?oc=5",
-     "title": "AI Overviews and paid search: When to fight, influence, or generate demand",
-     "summary": "AI Overviews and paid search: When to fight, influence, or generate demand &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-15T12:00:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-expands-conversational-attribute-specs",
-     "title": "Merchant Center Expands Conversational Attribute Specs",
-     "summary": "Google Merchant Center has enhanced its product data specifications by adding detailed formatting guidelines for its newer conversational attributes. These updates provide clarity with technical names and file-format examples, enabling more precise data submissions. A TSV template for these attributes has also been published, assisting advertisers in streamlining their feed work. Key attributes like document link , question and answer , popularity rank , and variant option now have specific technical names and file format examples listed. This documentation ensures that these elements are unde",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-16T07:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-multi-source-conversions-42080.html",
-     "title": "New Information On Google Ads Multi-Source Conversions Beta",
-     "summary": "Google posted another new help document on multi-source conversions (beta). Last month, Google reportedly renamed conversions with multiple data sources to multi-source conversions, but now there is this new help document as well.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:31:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713",
-     "title": "Google UCP Update Lets Merchants Enable Cart Transfer To Site via @sejournal, @MattGSouthern",
-     "summary": "Google is rolling out cart transfer and checkout testing in the Merchant Center UCP hub, plus a YouTube ads beta and wider AI insights. The post Google UCP Update Lets Merchants Enable Cart Transfer To Site appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-16T20:35:52+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/performance-max-adds-google-business-profile-landing-option",
-     "title": "Performance Max Adds “Google Business Profile” Landing Option",
-     "summary": "Google Ads' Performance Max campaigns now feature two distinct landing page options :&nbsp; \"Your website\" \"Google Business Profile (optimized for ads)\" Advertisers can direct clicks to a Google-hosted page linked to their business profile, which includes built-in conversion tracking methods. This option is particularly beneficial for small local businesses without a robust website, as it enables quicker campaign launches focused on local actions like calls and directions. However, it may limit control over the user experience, content testing, and lead tracking compared to traditional landing",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T01:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-merchant-center-store-renaming-no-longer-affects",
-     "title": "Microsoft Merchant Center Store Renaming No Longer Affects Shopping Ads",
-     "summary": "Renaming a Microsoft Merchant Center store no longer disrupts Shopping ads. When a store name is updated, the new name goes Under review while ads continue displaying the previously approved name .&nbsp; If the new name is rejected, the original store name remains active, and the rejection reason is shown in Store Issues . This practical change helps businesses rebrand without fearing an interruption in ad delivery.&nbsp; Read the official help page found by Hana Kobzová : Create a Microsoft Merchant Center store . The post Microsoft Merchant Center Store Renaming No Longer Affects Shopping Ad",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-15T14:00:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/merchant-center-explains-how-update-product-videos-faster",
-     "title": "Merchant Center Explains How to Update Product Videos Faster",
-     "summary": "Google Merchant Center has updated its guidelines to help advertisers replace product videos more efficiently. The help page now emphasizes that using a new unique URL for video updates prompts a quicker recrawl, typically within 24-72 hours . In contrast, keeping the same URL could delay updates by up to six weeks . Additionally, a new section on Shopping policy compliance has been added, enforcing that all video assets must adhere to Google's advertising and content guidelines. Products with updated URLs will be listed as \" Under Review \" until processed, while older video content continues ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T12:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://digichef.cz/konverzacni-atributy-v-gmc",
-     "title": "Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru",
-     "summary": "Google Merchant Center teď nabízí obchodníkům víc než jen základní produktová data. Takzvané konverzační atributy dokážou Googlu prozradit, co by jinak zákazník zjistil až od zkušeného prodejce v obchodě. Jak přesně tahle nová vrstva informací funguje a proč může znamenat výhodu pro váš e-shop, se dočtete v článku. Standardní produktový feed Googlu obvykle sděluje, co... The post Tipy, jak pracovat s konverzačními atributy v Google Merchant Centeru appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-09-17T14:52:46+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5",
-     "title": "Google Ads tests Product Value Optimization for AI bidding",
-     "summary": "Google Ads tests Product Value Optimization for AI bidding &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T17:44:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/expandable-google-sponsored-places-42081.html",
-     "title": "Google Sponsored Places That Expand On Hover",
-     "summary": "Google is testing the Sponsored Places ads that expand when you hover over the ads within Google Search. Google has been testing expandable ads on hover for a while, but here is one with the Sponsored Places ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-17T11:11:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Performance Max nově umožňuje směrovat návštěvníky na Google Business profil",
-   "updated": "2026-09-18T14:40:37.246192+00:00",
-   "what": "Google Ads přidal do Performance Max kampaní novou možnost vybrat, kam mají návštěvníci po kliknutí na reklamu přejít – buď na vlastní web, nebo na Google Business Profile optimalizovaný pro reklamy. Tato Google-hostovaná stránka spojená s firemním profilem zahrnuje integrované sledování konverzí.",
-   "why": "Novinku ocení především menší lokální firmy bez robustního webu – umožní jim rychleji spustit kampaně zaměřené na místní akce jako hovory a navigaci. Na druhou stranu varianta bez vlastního webu omezuje kontrolu nad uživatelskou zkušeností, A/B testováním obsahu a sledováním leadů oproti klasickým landing pages.",
-   "takeaway": "Pokud vaše firma má silný web, zůstaňte u klasického směrování na landing page. Menším lokálním podnikům v portfoliu (pobočky, franšízy) může varianta s Google Business Profile zrychlit start lokálních kampaní, ale buďte připraveni na menší kontrolu nad konverzním trychtýřem.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/2877daf990.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "052c1b5310",
-   "created": "2026-09-16T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
-     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
-     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:05:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
-     "title": "AI Overviews Cut CTR by 23.1% in France",
-     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-16T16:04:30+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
-     "title": "Bing Tests Shopping Filters On Left Sidebar",
-     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:21:00+00:00",
-     "score": 51
-    },
-    {
-     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
-     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
-     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:41:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.jirkont.cz/online-marketing-cervenec-srpen-2026",
-     "title": "Červenec a srpen 2026: Data z AI Overviews, ChatGPT Ads v Evropě a Cloudflare může odstřihnout Googlebota",
-     "summary": "Vítejte zpátky po prázdninách. Novinky jsme přes léto vynechali, tak si to teď vynahradíme jedním článkem za červenec i srpen 2026 dohromady. Září je čas, kdy se plánují vánoční kampaně. Rozpočty, kreativa i feedy se připravují teď, v listopadu už bude pozdě. Projděte si letošní data, nastavte si termíny a nenechávejte přípravu na poslední chvíli. [&#8230;]",
-     "source": "Jirkont",
-     "domain": "jirkont.cz",
-     "published": "2026-09-17T05:55:04+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/google-images-suggested-by-al-42096.html",
-     "title": "Google Image Search Collections Save To Suggested By Al",
-     "summary": "Google Image Search lets you save images to collections and folders. Well, now Google will suggest new folders or collections using AI - it says \"suggested by AI\" with a Gemini icon over a folder.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:51:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.seroundtable.com/google-local-knowledge-panel-ai-overview-42105.html",
-     "title": "Google Local Knowledge Panel As An AI Overview",
-     "summary": "Google is turning the local knowledge panels, your Google Business Profile, into an AI Overview listing. At the top of the local listing it says \"AI Overview\" and then there is a \"Show more\" button to expand, which brings you into the follow up AI Mode style chat interface.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-17T11:31:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 78,
-   "title": "AI Overviews ve Francii snížily CTR o 23 %, Google testuje přímé linky v produktech",
-   "updated": "2026-09-18T14:40:25.162333+00:00",
-   "what": "Studie Ahrefs sledovala 963 domén ve Francii 28 dní před spuštěním AI Overviews (22. července 2026) a 9 dní po něm. Domény nejvíce zasažené AI Overviews ztratily 23,1 % CTR. Paralelně Google testuje odkazy v produktových výsledcích přímo na weby obchodníků místo otevírání postranního panelu. John Mueller zároveň uvedl, že reportování pozic a impresí pro AI Mode a AI Overviews v Search Console se bude v čase vyvíjet.",
-   "why": "AI Overviews se šíří do Evropy (Francie je první konkrétní číslo) a jejich dopad na organickou návštěvnost je měřitelný a výrazný – domény s vysokou expozicí AI Overviews ztratily téměř čtvrtinu kliknutí. Pokud Google současně zkracuje cestu k nákupu (přímé linky na e-shopy), mění se způsob, jak uživatelé procházejí vyhledávání a jak se měří výkon v GSC.",
-   "takeaway": "Sledujte data v Google Search Console pro queries, kde se zobrazují AI Overviews – pokles CTR může být masivní. Připravte se na změny v reportování pozic a impresí. U produktových kampaní a feedů počítejte s tím, že Google může začít linkovat přímo na produktové stránky – ujistěte se, že landing pages jsou optimalizované na konverze bez nutnosti dalšího proklikávání.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/43c1215526.jpg",
-   "image_from": "ahrefs.com"
   },
   {
    "id": "dd6fd203e1",
@@ -4702,146 +5129,6 @@
    "image_from": "about.fb.com"
   },
   {
-   "id": "b7fa0b47c3",
-   "created": "2026-09-15T21:29:41+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559",
-     "title": "Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot via @sejournal, @MattGSouthern",
-     "summary": "Cloudflare's Disallow AI Training keeps mixed-use crawlers available for search. Google and Apple honor training opt-outs; Bing robots.txt support is pending. The post Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T21:29:41+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262",
-     "title": "Cloudflare Will Write Your Robots.txt, And It Has A Point via @sejournal, @slobodanmanic",
-     "summary": "Bot Preference Sync sets AI crawler policy per category, not per crawler. Allow GPTBot and block Bytespider, and no setting describes what you do. The post Cloudflare Will Write Your Robots.txt, And It Has A Point appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T14:30:00+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://www.semrush.com/blog/cloudfare-blocks-ai-training",
-     "title": "Cloudflare's AI training block now spares Googlebot",
-     "summary": "Cloudflare‘s Disallow AI Training setting blocks AI training crawlers but not Googlebot. Bing won‘t honor it until early 2027.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-09-18T14:04:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Cloudflare umožňuje blokovat AI trénink, ale nechat Googlebot pro indexaci",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/b7fa0b47c3.jpg",
-   "image_from": "searchenginejournal.com",
-   "what": "Cloudflare spustil funkci 'Disallow AI Training', která blokuje crawlery trénující AI modely, ale ponechává přístup pro Googlebot a další vyhledávače. Google a Apple toto nastavení respektují. Bing zatím nepodporuje – plná podpora přijde až začátkem 2027.",
-   "why": "Řeší dilema provozovatelů webů: chtějí být v Google výsledcích, ale nechtějí, aby jejich obsah trénoval AI modely konkurence. Dosud museli buď povolit vše, nebo blokovat i vyhledávače. Cloudflare nabízí granulární kontrolu per kategorie crawlerů, ne jen per jednotlivé boty.",
-   "takeaway": "Pokud vaše stránka běží přes Cloudflare a zajímá vás kontrola nad AI trénováním, zapněte 'Disallow AI Training'. Budete nadále v Googlu, ale zablokujete většinu AI crawlerů. Počítejte s tím, že Bing toto nastavení nebude plně respektovat ještě dva roky."
-  },
-  {
-   "id": "51d2a2fdc6",
-   "created": "2026-09-18T14:33:30+00:00",
-   "articles": [
-    {
-     "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product",
-     "title": "AI is telling consumers not to buy your product",
-     "summary": "Nearly 81% of consumers who use chatbots for online shopping have decided against a purchase based on AI guidance. The post AI is telling consumers not to buy your product appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-18T14:33:30+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ai",
-   "importance": 62,
-   "title": "81 % nakupujících odmítlo nákup kvůli doporučení chatbota",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Americký průzkum (MarTech) ukázal, že téměř 81 % spotřebitelů, kteří používají AI chatboty při online nakupování, se na základě doporučení umělé inteligence rozhodlo produkt nekoupit.",
-   "why": "Jde o varování pro e-shopy: AI asistenti a chatboti se stávají novým gatekeeperem – mohou aktivně odrazovat od nákupu. Zatímco firmy nasazují chatboty pro zvýšení konverzí, ve skutečnosti může AI zákazníky odrazovat, pokud produkt nesplňuje jejich kritéria nebo jde o nevhodný poměr cena/hodnota.",
-   "takeaway": "Pokud váš e-shop používá chatbota (nebo AI poradce), prověřte, jaká doporučení skutečně dává – může sabotovat konverze. Zároveň očekávejte, že zákazníci budou používat externí AI (ChatGPT, Gemini) pro posouzení vašich produktů – budete muset mít excelentní produktová data, recenze a value proposition, protože AI bude vaše produkty porovnávat a hodnotit.",
-   "importance_label": "důležité",
-   "multi_source": false
-  },
-  {
-   "id": "236962c1a0",
-   "created": "2026-09-18T13:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlZrY2E4eTk3U18yemZ5VTczdnZubTh2UnZVWnlPZE0wOEMzWWdxc19nQ0s0OTcxQTIzeFBrb01KY0lNcm1kV0tkSktBTnZjcS13bDJaNF9GZjVqWFU0Z0dwOV8yaVB3cm0wcmhJOGNhRHpValpBU1ZmQVNGeVAtLVFPN2ltQQ?oc=5",
-     "title": "Schema for AI search: Turning entity gaps into organic growth",
-     "summary": "Schema for AI search: Turning entity gaps into organic growth &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-18T13:00:00+00:00",
-     "score": 63
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Schéma pro AI vyhledávání: jak najít a zaplnit mezery v entitách",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Search Engine Land publikoval článek o využití strukturovaných dat (schema markup) specificky pro AI vyhledávače. Zaměřuje se na identifikaci mezer v entitách a jejich transformaci na příležitost pro organický růst.",
-   "why": "Pro SEO specialisty a marketingové manažery jde o nový pohled na strukturovaná data – ne jen pro klasické vyhledávače (Google, Seznam), ale i pro AI nástroje, které stále častěji zprostředkovávají odpovědi uživatelům. Správně implementované schéma může zvýšit viditelnost v AI odpovědích a generativních výsledcích.",
-   "takeaway": "Sledujte, jak vaše konkurence používá strukturovaná data, a identifikujte mezery v pokrytí entit ve vašem odvětví. Investice do schema markup může přinést výhodu v AI vyhledávání, které roste. Pokud máte SEO specialistu nebo agenturu, konzultujte s nimi audit strukturovaných dat s ohledem na AI.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "3f76fd799c",
-   "created": "2026-09-18T12:01:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/video-09-18-2026-42112.html",
-     "title": "Search News Buzz Video Recap: Unusual Google Search Ranking Volatility, Ad Tech Monopoly Remedies, AI Contribution Publisher Payouts & More",
-     "summary": "This week we covered the first week or so of Google's unusual ranking volatility only to see things spike up in a big way this week as well - something is up. Google's remedies are out for its ad tech monopoly ruling. Google has an AI contribution pilot for paying publishers...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T12:01:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Google vykazuje neobvyklou volatilitu ve výsledcích vyhledávání",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google zaznamenal první týdny neobvyklé volatility v pořadí ve vyhledávání, která tento týden ještě výrazně narostla. Současně Google představil návrhy nápravných opatření po antimonopolním rozhodnutí v oblasti reklamních technologií a spustil pilotní program odměňování vydavatelů za AI obsah.",
-   "why": "Neobvyklá volatilita ve výsledcích Googlu může znamenat významné změny v pozicích webů našich klientů či konkurence. Změny v Google Ads ekosystému kvůli antimonopolnímu řízení mohou ovlivnit fungování a ceny PPC kampaní.",
-   "takeaway": "Sledujte pozice klíčových stránek v Google Search Console a analytických nástrojích. Připravte se na potenciální změny v Google Ads platformě. Pokud produkujete kvalitní obsah, může být relevantní sledovat vývoj programu odměňování vydavatelů.",
-   "importance_label": "důležité",
-   "multi_source": false
-  },
-  {
-   "id": "39cf37dc02",
-   "created": "2026-09-18T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-bar-testing-ai-mode-button-42110.html",
-     "title": "Google Search Bar Results Page Testing AI Mode Button",
-     "summary": "Google is now testing adding the AI Mode button to the search bar when you are inside the search results page. Google has the AI Mode button almost everywhere else, but now we are seeing it added to the search bar, within the search results page, not just the home page.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:51:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google testuje tlačítko AI Mode přímo ve výsledcích vyhledávání",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google začal testovat umístění tlačítka AI Mode do vyhledávacího pole přímo na stránce s výsledky vyhledávání. Dosud bylo tlačítko dostupné především na domovské stránce a v dalších částech rozhraní.",
-   "why": "Pokud se tato změna rozšíří globálně, může zvýšit podíl dotazů zpracovaných přes AI přehled namísto klasických organických výsledků, což může snížit viditelnost a klikatelnost běžných SEO pozic.",
-   "takeaway": "Sledujte metriky organické návštěvnosti a CTR v Google Search Console. Pokud Google AI Mode rozšíří, zvažte optimalizaci obsahu pro featured snippets a strukturovaná data, aby váš obsah měl šanci být zahrnut do AI odpovědí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "1a666a1e90",
    "created": "2026-09-18T11:41:00+00:00",
    "articles": [
@@ -4866,32 +5153,6 @@
    "multi_source": false
   },
   {
-   "id": "d38b693fa4",
-   "created": "2026-09-18T11:39:51+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-responds-to-cross-domain-canonical-de-indexing-report/589917",
-     "title": "Google Responds To Cross-Domain Canonical De-Indexing Report via @sejournal, @martinibuster",
-     "summary": "Google's John Mueller explains how publishers can catch site problems before they become an indexing crisis. The post Google Responds To Cross-Domain Canonical De-Indexing Report appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T11:39:51+00:00",
-     "score": 67
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google vysvětlil příčinu masivního vyřazení stránek z indexu kvůli kanonickým odkazům",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google prostřednictvím Johna Muellera reagoval na hlášení o problému, kdy stránky byly hromadně vyřazovány z indexu kvůli chybně nastaveným kanonickým odkazům směřujícím na jinou doménu (cross-domain canonical). Mueller vysvětlil, jak mohou správci webů takové problémy odhalit dříve, než se stanou krizí v indexaci.",
-   "why": "Chybně nastavený kanonický odkaz může způsobit, že Google přestane indexovat stránky vašeho webu, což vede k výraznému poklesu organické návštěvnosti a ztrátě příjmů. Jde o technickou chybu s potenciálně zásadním dopadem na viditelnost.",
-   "takeaway": "Zkontrolujte nastavení kanonických odkazů na vašem webu – zejména pokud používáte CDN nebo více domén. Pravidelně monitorujte počet indexovaných stránek v Google Search Console a reagujte na náhlé poklesy. Ujistěte se, že kanonické odkazy směřují na správnou doménu.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/d38b693fa4.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
    "id": "8354c05bed",
    "created": "2026-09-18T11:31:00+00:00",
    "articles": [
@@ -4914,121 +5175,6 @@
    "takeaway": "Pokud provozujete marketplace nebo jste brand prodávající přes partnery, sledujte dostupnost této funkce v ČR a zvažte, zda vám sdílení audiences nepřinese lepší výkon kampaní nebo nové příjmy z dat.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "e0fc43a4dd",
-   "created": "2026-09-18T11:15:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-adult-products-labels-42116.html",
-     "title": "Google Now Requires You Label Adult Products In Ecommerce Feeds",
-     "summary": "Google has updated its guidelines for sites with explicit content to now specify that ecommerce sites must \"label adult products in ecommerce feeds or markup.\" There is also a new section at the bottom of the help document titled, \"For Google Shopping features.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:15:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "seo",
-   "importance": 71,
-   "title": "Google Now Requires You Label Adult Products In Ecommerce Feeds",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/e0fc43a4dd.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "446111b10f",
-   "created": "2026-09-18T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-drops-free-product-listings-eea-42113.html",
-     "title": "Google Search Drops Free Product Listings From European Economic Area",
-     "summary": "Google Search has dropped the free product listings and carousel formats from the European Economic Area (EEA). This change is part of what the European Commission forced Google to do in these regions under the Digital Markets Act.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:11:00+00:00",
-     "score": 85
-    }
-   ],
-   "category": "ppc",
-   "importance": 85,
-   "title": "Google ruší bezplatné produktové výpisy v EU – dopad na český e-commerce",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google odstranil bezplatné produktové výpisy (free product listings) a karuselové formáty z vyhledávání v zemích Evropského hospodářského prostoru (EEA), kam patří i Česko. Změna je důsledkem nařízení Evropské komise v rámci zákona o digitálních trzích (Digital Markets Act).",
-   "why": "Pro české e-shopy to znamená ztrátu bezplatné viditelnosti produktů přímo ve vyhledávání Google. Produkty se budou zobrazovat pouze přes placené Google Shopping kampaně, což může zvýšit náklady na akvizici zákazníků, zejména pro menší e-shopy, které využívaly free listings jako nákladově efektivní kanál.",
-   "takeaway": "Zkontrolujte, zda vaše produkty mizí z organických výsledků Google Search. Připravte se na nutnost navýšit rozpočet na Google Shopping kampaně, nebo hledejte alternativní kanály viditelnosti (Zboží.cz, Heureka, SEO na kategorie). Vyhodnoťte dopad na konverze a ROI z Google Shopping.",
-   "importance_label": "zásadní",
-   "multi_source": false,
-   "image": "img/446111b10f.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "02d88efb03",
-   "created": "2026-09-18T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-local-business-query-units-42115.html",
-     "title": "Google Supports Local Business Queries In Aggregator & Supplier Search Units",
-     "summary": "Google has added local business query support to the aggregator and supplier units within Google Search. Google updated both the aggregator unit and supplier unit documentation to add \"and local businesses\" sprinkled throughout those documents.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:05:00+00:00",
-     "score": 64
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google rozšířil vyhledávání agregátorů a dodavatelů o lokální firmy",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google přidal podporu pro dotazy na lokální firmy do speciálních výsledků pro agregátory a dodavatele ve vyhledávání. Tuto změnu dokumentoval aktualizací oficiální dokumentace, kde doplnil zmínky o \"local businesses\" do obou typů jednotek.",
-   "why": "Pro firmy s kamennou prodejnou nebo lokálními službami se otevírá nová možnost zobrazení ve speciálních výsledcích vyhledávání, které dříve byly vyhrazeny především online agregátorům a e-shopům. Může to zvýšit viditelnost lokálních firem ve výsledcích.",
-   "takeaway": "Pokud máte lokální pobočky nebo poskytujete služby s místní dostupností, ověřte strukturovaná data pro lokální firmy (LocalBusiness schema) a sledujte, zda se vaše firma začne zobrazovat v těchto speciálních jednotkách. Změna je zatím dokumentovaná globálně, dopady na české vyhledávání budou zřejmé v následujících týdnech.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "fa76451992",
-   "created": "2026-09-17T16:24:19+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5",
-     "title": "Pinterest turns visual search into a new ad opportunity",
-     "summary": "Pinterest turns visual search into a new ad opportunity &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T17:14:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools",
-     "title": "Pinterest amps up performance tools, including a visual search product",
-     "summary": "“I’m proud to say that Pinterest is now a performance platform,” Bill Ready, Pinterest CEO, said at an advertising event this week.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-17T16:24:19+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
-     "title": "Pinterest announces visual search ads and an AI restyle feature",
-     "summary": "At the company&rsquo;s annual Pinterest presents event, it unveiled new promotional options, artificial intelligence room redecorating and the second season of its CTV show.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-17T20:02:16+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Pinterest spouští reklamy ve vizuálním vyhledávání a AI nástroje",
-   "updated": "2026-09-18T09:06:20.409571+00:00",
-   "what": "Pinterest představil nový reklamní formát založený na vizuálním vyhledávání – uživatelé mohou vyhledat předměty pomocí fotografie a inzerenti se mohou zobrazit v těchto výsledcích. CEO Bill Ready prohlásil, že Pinterest je nyní 'performance platforma'. Součástí oznámení jsou i AI nástroje pro přestylování místností a druhá série CTV pořadu.",
-   "why": "Vizuální vyhledávání představuje nový typ záměru uživatele – okamžitou inspiraci z fotografie. Pro e-commerce značky jde o možnost oslovit lidi právě ve chvíli, kdy hledají podobné produkty. Pinterest se tak otevřeně posouvá od inspirativní platformy k výkonnostnímu reklamnímu kanálu.",
-   "takeaway": "Sledujte dostupnost tohoto formátu v ČR/EU a otestujte jej, pokud prodáváte vizuálně atraktivní produkty (móda, nábytek, doplňky). Pinterest může být zajímavou alternativou k Google Shopping pro značky cílící na inspirativní nákupy. Vyhodnoťte, zda má smysl doplnit do media mixu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "4daeb9063f",
@@ -5101,50 +5247,6 @@
    "image_from": "searchengineland.com"
   },
   {
-   "id": "4c2f0f4db0",
-   "created": "2026-09-16T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
-     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
-     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:11:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
-     "title": "Google Ads is showing advertisers how their spending compares with peers",
-     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T14:50:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report",
-     "title": "Google Ads Introduces Spend Benchmarks Report",
-     "summary": "Google Ads is now offering a new Spend Benchmarks report that allows advertisers to compare their account data against similar businesses. It offers insights based on industry and advertising regions. This feature is visible in the account Overview section. The report provides metrics such as weekly spend and clicks received, demonstrating how an account's performance stacks up against its peers.&nbsp; This update was discovered by Thomas Eccel . The post Google Ads Introduces Spend Benchmarks Report appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-18T03:00:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads přidává Spend Benchmarks – porovnání výdajů s konkurencí",
-   "updated": "2026-09-18T09:06:20.409571+00:00",
-   "what": "Google Ads spouští novou funkci Spend Benchmarks report, která umožňuje inzerentům porovnat své výdaje a výkon s podobnými firmami ve stejném odvětví a regionu. Report zobrazuje metriky jako týdenní výdaje a počet kliknutí a ukazuje, zda utrácíte více, méně nebo stejně jako vaše konkurence. Funkce je dostupná v sekci Přehled účtu.",
-   "why": "Jde o nový nástroj pro rozhodování o PPC rozpočtu – umožňuje posoudit, zda je vaše investice do Google Ads adekvátní vzhledem k trhu, nebo zda podfinancováváte/přeplácíte kampaně oproti konkurenci ve vašem odvětví.",
-   "takeaway": "Zkontrolujte sekci Přehled ve svém Google Ads účtu a porovnejte své týdenní výdaje s benchmarky. Pokud výrazně zaostáváte za konkurencí, zvažte navýšení rozpočtu; pokud výrazně přeplácíte bez odpovídajících výsledků, vyhodnoťte efektivitu kampaní.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4c2f0f4db0.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "fac219d6b1",
    "created": "2026-09-15T05:00:00+00:00",
    "articles": [
@@ -5210,30 +5312,6 @@
    "why": "Jde o inovativní způsob zákaznické zkušenosti mířený na mladší generace (Gen Z), který mění tradiční formát autosalonů a online konfigurátorů. Pro marketingové manažery jde o příklad využití AR technologie v B2C segmentu.",
    "takeaway": "Sledujte, jak zákazníci reagují na AR formáty při výběru produktů – může to být inspirace pro interaktivní prezentaci vašich produktů nebo služeb, zejména pokud cílíte na mladší publikum.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "2e6af52495",
-   "created": "2026-09-17T11:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/bing-product-carousel-labels-42092.html",
-     "title": "Bing Product Carousels With Top Picks, Sale, Price Drop, Views & More Labels",
-     "summary": "Microsoft is testing adding new labels to the Bing Search product carousels. Labels include Top Picks, Price Drop, Sale and likely other labels on the Bing Search product listings, within the carousels.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-17T11:21:00+00:00",
-     "score": 51
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Bing testuje nové štítky v produktových karuselech (Top Picks, Sale, Price Drop)",
-   "updated": "2026-09-18T09:06:20.409571+00:00",
-   "what": "Microsoft testuje nové štítky v produktových karuselech ve vyhledávání Bing. Mezi testované štítky patří Top Picks (doporučené produkty), Price Drop (pokles ceny), Sale (výprodej) a pravděpodobně další označení zobrazovaná přímo u produktů v karuselech.",
-   "why": "Pro firmy používající Bing Shopping feed to může znamenat nové způsoby, jak zvýraznit své produkty (výprodeje, cenové slevy). Dopady na prokliky a konverze zatím nejsou známé, jde o test.",
-   "takeaway": "Sledujte, zda se tyto štítky objeví i ve vašich produktových kampaních na Bingu. Pokud ano, přizpůsobte cenovou strategii a zvýrazněte akční produkty ve feedu tak, aby na štítky mohly navázat.",
-   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -5338,32 +5416,6 @@
    "takeaway": "Pokud ve svém robots.txt blokujete nebo řídíte přístup crawleru Mediapartners-Google, zkontrolujte aktualizovanou dokumentaci a ujistěte se, že tím neomezujete legitimní crawlování Googlu mimo AdSense.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "ab1e6851a4",
-   "created": "2026-09-17T19:58:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2pVdHdEYkVkeVFDTEFoU3haS3JDZ3pwMUU3VGo3X3o0T2Y3TURSaTBnSzZhQ0RzQ0FNb0JjcUZ4SS1wMGpNU0s4d2h6QkdSWXpqY1JhUl9tbGpsdGMyeEpYQm14bklLZjhQUzQzdXBzcWF4bldjVVBpcEdrcGFqel9zenlQRzdSelIySUZCcHdObk11Vm54QmxnWmdmeERuWTk3c1FETUs?oc=5",
-     "title": "Google Ads’ Smart Bidding update appears to have ended bid suppression",
-     "summary": "Google Ads’ Smart Bidding update appears to have ended bid suppression &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T19:58:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads Smart Bidding pravděpodobně ukončil potlačování nabídek",
-   "updated": "2026-09-17T22:56:15.451345+00:00",
-   "what": "Google Ads provedl update Smart Biddingu, který zřejmě ukončil problém tzv. bid suppression – situaci, kdy systém uměle snižoval nabídky a omezoval výdaje kampaní pod nastavený rozpočet.",
-   "why": "Bid suppression vedl k tomu, že kampaně nevyužívaly celý rozpočet a ztrácely potenciální konverze. Pokud je problém skutečně vyřešen, kampaně by měly lépe využívat nastavené rozpočty a automatické strategie by měly fungovat efektivněji.",
-   "takeaway": "Zkontrolujte výkonnost kampaní se Smart Biddingem za poslední týdny – měli byste vidět lepší využití rozpočtu a potenciálně vyšší objem konverzí. Sledujte, zda se CPA drží v požadovaných mezích.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/ab1e6851a4.jpg",
-   "image_from": "searchengineland.com"
   },
   {
    "id": "7d51084613",
@@ -5686,41 +5738,6 @@
    "image_from": "semrush.com"
   },
   {
-   "id": "08a8f9dfd1",
-   "created": "2026-09-17T00:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-adds-invalid-leads-prevention-guide",
-     "title": "Google Adds Invalid Leads Prevention Guide",
-     "summary": "Google has introduced a new guide for lead generation advertisers aimed at preventing invalid leads . This help page details how Google's invalid traffic filters are insufficient for stopping fake or low-quality leads and emphasizes that maintaining high lead quality is a shared responsibility. Among the preventive measures listed, advertisers are encouraged to integrate reCAPTCHA on web forms, set up double opt-in procedures, and employ server-side validation for emails and phone numbers. Additionally, advertisers should focus on lead-specific goals and utilize first-party data to maintain le",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T00:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/video-dubbing-tool-available-asset-studio",
-     "title": "Video Dubbing Tool Available in Asset Studio",
-     "summary": "A new feature, Video Ads Dubbing , has been introduced in Google Ads' Asset Studio . This AI-powered tool enables the dubbing of video ads in 33 languages and locales .&nbsp; First spotted in October 2025 as internal feature, now it's&nbsp; available for free to select users . It allows advertisers to scale their video content across multiple countries without having to reshoot videos in each language.&nbsp; This update was shared by Jyll Saskin Gales . The post Video Dubbing Tool Available in Asset Studio appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T03:00:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google představil návod na prevenci nevalidních leadů v PPC kampaních",
-   "updated": "2026-09-17T15:10:34.731176+00:00",
-   "what": "Google publikoval nový návod pro inzerenty zaměřené na generování leadů, který se věnuje prevenci nevalidních a nekvalitních leadů. Dokument upozorňuje, že Googlí filtry nevalidního provozu nestačí a že udržení kvality leadů je společná odpovědnost inzerenta a platformy.",
-   "why": "Pro marketingové manažery řídící leadové PPC kampaně (např. formuláře, kontakty) jde o oficiální doporučení, jak snížit podíl falešných nebo bezcenných leadů, které zbytečně vynakládají rozpočet. Google explicitně přesouvá část odpovědnosti na inzerenty, což znamená, že bez vlastních opatření může růst podíl nevalidních konverzí a klesat ROI kampaní.",
-   "takeaway": "Zkontrolujte své leadové formuláře a implementujte doporučená opatření: přidejte reCAPTCHA, nastavte double opt-in pro e-mailové leady, zavedete server-side validaci e-mailů a telefonních čísel. Zaměřte se na cíle specifické pro leady (místo obecných konverzí) a využívejte first-party data k udržení kvality leadů. Bez těchto kroků riskujete vyšší podíl neplatných konverzí a plýtvání rozpočtem.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/08a8f9dfd1.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "e1fd00bfd3",
    "created": "2026-09-17T14:30:32+00:00",
    "articles": [
@@ -5776,30 +5793,6 @@
    "takeaway": "Sledujte vývoj Stream.cz jako potenciální placený kanál pro video reklamu a spolupráce s tvůrci. Změna přichází za 2 roky – čas na testování a vyhodnocení, až platforma spustí.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
-  },
-  {
-   "id": "f2fffff3a6",
-   "created": "2026-09-17T13:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tNkYzM25JNHozeEh1dk9nM3pPSVowS09yMVh5OUxIOWt3RGZXVjkzNGJJS3V1UkoyWnpTclRiMDlfdzY5dWFPc0lzTTRyQTd6N1dRYjA3YkJQQXpSX3gzVnpCRERkZw?oc=5",
-     "title": "How to tell which Google Ads controls actually control anything",
-     "summary": "How to tell which Google Ads controls actually control anything &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T13:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Jak poznat, která nastavení v Google Ads skutečně fungují",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Search Engine Land publikoval článek o tom, jak rozpoznat, která nastavení v Google Ads skutečně ovlivňují výsledky kampaní a která jsou pouze kosmetická.",
-   "why": "Google Ads nabízí desítky nastavení a přepínačů, ale ne všechny mají reálný dopad na výkon kampaní. S postupnou automatizací platformy někteří manuální kontroly fakticky ztrácejí svůj vliv.",
-   "takeaway": "Než investujete čas do jemného ladění kampaní, ověřte si, která nastavení skutečně ovlivňují výkon – zaměřte se na ty, které mění výdaje, cílení nebo co vidí uživatelé. U ostatních nepřeceňujte efekt.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "b90801f879",
@@ -6044,30 +6037,6 @@
    "multi_source": true,
    "image": "img/854d797d5e.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "2a4fd49ea5",
-   "created": "2026-09-16T15:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UUWVvMGVwcHZJOW01dWhGOGlPRUxqa3pXTHZSTmJmbGNZOWwzenlVZmlWUGJOOHNydUNHU3VkbW41N2luVHdsbGdXcHp2T3NVUHlTaGloWUxuZ0U?oc=5",
-     "title": "3 GEO pillars: LLM readability, brand context, agentic commerce",
-     "summary": "3 GEO pillars: LLM readability, brand context, agentic commerce &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T15:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Tři pilíře GEO: čitelnost pro AI, kontext značky a agentní obchod",
-   "updated": "2026-09-16T19:38:27.396484+00:00",
-   "what": "Search Engine Land identifikuje tři klíčové oblasti Generative Engine Optimization (GEO): optimalizaci obsahu pro čitelnost velkých jazykových modelů (LLM), budování kontextu značky v AI odpovědích a přípravu na agentní obchod, kde AI asistenti nakupují za uživatele.",
-   "why": "S růstem AI vyhledávání (ChatGPT Search, Google AI Overviews, Perplexity) se mění způsob, jak uživatelé hledají informace a produkty. Tradiční SEO optimalizace pro klasické vyhledávače nemusí stačit – obsah musí být srozumitelný i pro AI modely a značky musí být v AI odpovědích viditelné.",
-   "takeaway": "Sledujte vývoj GEO jako doplněk SEO. Strukturujte obsah jasně a logicky pro AI zpracování, budujte konzistentní zmínky značky napříč weby a připravte se na scénář, kdy AI asistenti budou srovnávat produkty a doporučovat nákupy místo uživatelů.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "857c4e5c57",
@@ -13655,80 +13624,6 @@
    "takeaway": "Pokud prodáváte chovatelské potřeby nebo kutilský sortiment, sledujte poptávku – růst těchto kategorií na Slovensku může signalizovat podobný trend i v ČR. U ostatních kategorií počítejte spíše s mírným růstem nebo stagnací.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "440457994a",
-   "created": "2026-08-14T17:22:46.098977+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/prilis-obecny-a-tedy-neustavni-francouzsky-ustavni-soud-odmitl-zakon-zakazujici-socialni-site-detem",
-     "title": "Příliš obecný a tedy neústavní. Francouzský ústavní soud odmítl zákon zakazující sociální sítě dětem",
-     "summary": "Zákon, který měl ve Francii už od září zakázat dětem mlad&#353;ím 15 let přístup na sociální sítě, narazil u francouzského ústavního soudu. Nejvy&#353;&#353;í soudí orgán v zemi (Ústavní rada) vyhověl námitce, kterou proti zákonu vznesla část francouzských poslanců a označil jeho klíčovou část za protiústavní.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-14T16:33:21+00:00",
-     "score": 55
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "Francouzský ústavní soud zrušil zákaz sociálních sítí pro děti do 15 let",
-   "updated": "2026-08-14T17:22:46.098977+00:00",
-   "what": "Francouzská Ústavní rada zamítla zákon, který měl od září zakázat dětem mladším 15 let přístup na sociální sítě. Soud vyhověl námitce části poslanců a klíčovou část zákona označil za protiústavní kvůli příliš obecné formulaci.",
-   "why": "Jde o signál, že plošné regulace sociálních sítí čelí právním překážkám i v EU. Pro marketéry to znamená, že dosah a cílení na mladší uživatele zatím v některých zemích zůstává beze změny, ale téma věkových omezení zůstává živé.",
-   "takeaway": "Sledujte vývoj podobných zákonů v EU – až budou přijaty jinak formulované předpisy, mohou omezit dosah vašich kampaní na mladší publikum. Prozatím však ve Francii platí status quo.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "f3083bda57",
-   "created": "2026-08-14T15:20:13.885678+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/the-biggest-ai-crawler-on-my-website-was-hunting-for-credentials/585159",
-     "title": "Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic In 5 Years via @sejournal, @slobodanmanic",
-     "summary": "One company measures the bot problem, frames it, and sells the fix. Cloudflare now owns both the meter and the valve. Check your own logs. The post Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic In 5 Years appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-08-14T14:30:22+00:00",
-     "score": 67
-    }
-   ],
-   "category": "analytika",
-   "importance": 55,
-   "title": "Cloudflare: strojový provoz může do 5 let převýšit lidský 1000×",
-   "updated": "2026-08-14T15:20:13.885678+00:00",
-   "what": "Cloudflare předpovídá, že strojový provoz na webu může v horizontu pěti let dosáhnout tisícinásobku lidské návštěvnosti. Jde o predikci firmy, která zároveň měří botový provoz a prodává řešení na jeho filtrování.",
-   "why": "Masivní nárůst strojového provozu (crawlery AI, scraping, útoky) zkresluje analytiku, zatěžuje servery a může skrývat bezpečnostní hrozby. Pro marketingového manažera je klíčové odlišit skutečné uživatele od botů, aby data pro rozhodování byla validní a rozpočty na hosting/infrastrukturu realistické.",
-   "takeaway": "Zkontroluj vlastní logy webu a podíl strojového provozu v GA4 nebo CDN reportech. Zvaž investici do bot managementu, pokud vidíš anomálie v datech nebo zatížení serveru – zejména u e-commerce a contentových projektů s vysokou návštěvností.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "54b9328481",
-   "created": "2026-08-14T15:20:13.885678+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/recap-08-14-2026-41875.html",
-     "title": "Daily Search Forum Recap: August 14, 2026",
-     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google Ads is removing the ability to manually set your language targeting next month...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-08-14T14:00:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Ads ruší ruční nastavení jazykového cílení od září 2026",
-   "updated": "2026-08-14T15:20:13.885678+00:00",
-   "what": "Google Ads od příštího měsíce (září 2026) odebírá možnost ručního nastavení jazykového cílení v kampaních. Jde o změnu v nastavení cílení, která ovlivní způsob, jakým inzerenti kontrolují jazykové preference své reklamy.",
-   "why": "Změna přímo zasahuje správu Google Ads kampaní a ovlivňuje kontrolu nad tím, komu se reklamy zobrazují. Pro české inzerenty může jít o problém zejména při cílení na česky mluvící uživatele nebo při mezinárodních kampaních s potřebou oddělení jazykových verzí.",
-   "takeaway": "Do konce srpna zkontrolujte jazykové nastavení všech aktivních Google Ads kampaní. Připravte se na to, že od září budete mít menší kontrolu nad jazykovým cílením – může být potřeba upravit strategie segmentace kampaní nebo klíčových slov, aby kompenzovaly ztrátu této možnosti nastavení.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/54b9328481.jpg",
-   "image_from": "seroundtable.com"
   }
  ],
  "persona_rescore_v2": true,
