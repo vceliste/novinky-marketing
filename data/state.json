@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-17T22:56:15.451345+00:00",
+ "last_run": "2026-09-18T09:06:20.409571+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 4
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
@@ -101,13 +101,13 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Google Search Central Blog",
@@ -130,7 +130,7 @@
   {
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='backlinko.com', port=443): Read timed out. (read timeout=15)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -269,13 +269,13 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hootsuite blog",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 13
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -3942,119 +3942,231 @@
   "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb2xDcHJTcEQwekRVM3hacjRUeUNhdnUxZDRyX2pkWEdTeVRaSC1vbjhWNlVEV0Uxa0d5Y3NfalFTUjZOeVI0b3hWR2lmNW96SlZjRTNCWXdzY215WDAtam96Zl92SFQybnJRTEozaVV1aDh0TjVOd2QwMUEtcnlNTg?oc=5": "2026-09-17T22:56:15.451345+00:00",
   "https://news.google.com/rss/articles/CBMickFVX3lxTE9SOElmZHN6bFlUOFZXalFQUXNPaEdScFVadDBicmhaSFZ1NTdNWHNpNnhldVZ3TzlzM2VYcmFudDlDLTEzQUhsOFBRbXg5QWphc2N5TkdHQWNFal9raVB0OFlhUjEyQmlnM1BKRVRHb3lEQQ?oc=5": "2026-09-17T22:56:15.451345+00:00",
   "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zVkRFSGJmMUtDQnpZQTd3X3BCMGhMTlh4aVlWaE5ZSnlhaFN5cXJvbFEyVThxR1FoaVpQdkRFRDR6RmJ1R0duYk1FeHNuUEhMVWc?oc=5": "2026-09-17T22:56:15.451345+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yWDBfcVJiV0NBOU9zMXR3ekM1U1JPeExMVWlhY1RGRFFENzN6YXp4OGkzUmZ4djVXOGxmYlpNcE85a1N0Q1o1bmJONUZNM09HU1lMajR6dDBmX0ExYkhtZTlhTDJZdWdFbkNoWW9LN3RoOEk?oc=5": "2026-09-17T22:56:15.451345+00:00"
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yWDBfcVJiV0NBOU9zMXR3ekM1U1JPeExMVWlhY1RGRFFENzN6YXp4OGkzUmZ4djVXOGxmYlpNcE85a1N0Q1o1bmJONUZNM09HU1lMajR6dDBmX0ExYkhtZTlhTDJZdWdFbkNoWW9LN3RoOEk?oc=5": "2026-09-17T22:56:15.451345+00:00",
+  "https://www.mediaguru.cz/eu-chce-omezit-socialni-site-detem-do-15-let-navrhuje-i-hodinovy-limit": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediar.cz/verejnopravni-ctk-zvysila-trzby-na-340-milionu-zisk-prekrocil-ctyri-miliony": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediaguru.cz/dve-tretiny-ctenarek-zena-in-cz-rozhoduji-o-nakupech": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediaguru.cz/serial-bozi-plan-opet-vyhral-ctvrtecni-vecer": "2026-09-18T09:06:20.409571+00:00",
+  "https://cc.cz/autosalony-pro-gen-z-krome-klikani-v-konfiguratoru-si-ted-muzou-skodu-v-meritku-11-zaparkovat-do-obyvaku": "2026-09-18T09:06:20.409571+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/google-publishes-store-ratings-requirements-100-reviews-3-5-stars-24-months": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediaguru.cz/primark-sjednocuje-sportovni-nabidku-pod-znacku-primark-form": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediaguru.cz/ct24-odvysila-o-vikendu-dny-nato-zive-z-ostravskeho-letiste": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediaguru.cz/triad-a-sparta-ovladly-direct-impact-czech-grand-prix-ma-bouracka-cz": "2026-09-18T09:06:20.409571+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-view-counts-shopping-tab": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.lupa.cz/clanky/do-aplikace-stahujeme-data-z-cnb-nebo-csu-pozor-na-past-api-muze-misto-chyby-odpovedet-verohodnym-nesmyslem": "2026-09-18T09:06:20.409571+00:00",
+  "https://cc.cz/na-bundu-za-tisic-eur-nemela-tak-si-podobnou-vytvorila-sama-dnes-jeji-znacka-utrzi-deset-milionu-rocne": "2026-09-18T09:06:20.409571+00:00",
+  "https://cc.cz/knihy-od-ai-budou-lepsi-nez-od-lidi-ctenari-uz-generuji-nove-dily-mych-serii-rika-cesky-autor-bestselleru": "2026-09-18T09:06:20.409571+00:00",
+  "https://cc.cz/v-kryptokauzach-zmizely-cechum-miliardy-tady-je-12-bodu-na-co-si-dat-pozor-a-nenaletet-radi-cnb": "2026-09-18T09:06:20.409571+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.mediar.cz/direct-impact-czech-ovladly-triad-a-sparta-grand-prix-ziskala-bouracka": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.socialmediatoday.com/news/reddit-offers-insights-from-its-health-summit-event/830742": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.socialmediatoday.com/news/meta-shares-holiday-2026-planning-guides/830741": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.socialmediatoday.com/news/reddit-smb-guide-offers-holiday-planning-tips/830738": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737": "2026-09-18T09:06:20.409571+00:00",
+  "https://sproutsocial.com/insights/employee-advocacy-stats": "2026-09-18T09:06:20.409571+00:00",
+  "https://sproutsocial.com/insights/social-media-discoverability": "2026-09-18T09:06:20.409571+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pMjBJOEl4bnAtTjNULUtqSUpjNmxEdXFaYzBIR2Mta0VXTDJJTTVBMFFSMVliM2F3dndUM0VpOEQtaEwtdTN5cTJIMXYwOUx2b1ZmdXZsdnFtM1kwQnJDZHVFcw?oc=5": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/recap-09-17-2026-42108.html": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/google-discover-on-desktop-not-found-42103.html": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/google-ad-tech-monopoly-remedies-42107.html": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/google-local-knowledge-panel-ai-overview-42105.html": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/bing-product-carousel-labels-42092.html": "2026-09-18T09:06:20.409571+00:00",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxQMENJNmY5TV8xeFNmOU9uUENZM05mOWxwQi0xbE45cW90LVhsdEdScDUydGxGR3V1ZWJDelFDYVZ1LVpfTFN5STNHd1JXYnpoQk9TWkgzMXp3NEUySzhCajhPczJFdWEzcWJaMTg2RWR3a2FzYWtkQ2gtbEl0T05kbGNwTVZuenU5cURvU1BubVl5SlhaYm5NaTJOVlhLZw?oc=5": "2026-09-18T09:06:20.409571+00:00",
+  "https://www.seroundtable.com/expandable-google-sponsored-places-42081.html": "2026-09-18T09:06:20.409571+00:00"
  },
  "events": [
   {
-   "id": "dc36fec3e9",
-   "created": "2026-09-14T04:30:00+00:00",
+   "id": "7395f43696",
+   "created": "2026-09-17T21:27:37+00:00",
    "articles": [
     {
-     "url": "https://www.lupa.cz/clanky/chcete-prodavat-zbozi-do-eu-pripravte-si-ctvrt-milionu-rocne-nez-poslete-prvni-balik-nova-pravidla-zaviraji-zdejsi-e-shopy",
-     "title": "Chcete prodávat zboží do EU? Připravte si čtvrt milionu ročně, než pošlete první balík. Nová pravidla zavírají zdejší e-shopy",
-     "summary": "Nové evropské nařízení začalo platit zhruba před měsícem a řada mikropodnikatelů i menších e-shopů už kvůli němu část podnikání vzdala. Cílem bylo původně sjednotit chaos kolem obalů a odpadů, místo toho vznikl zmatek vyvolaný požadavkem, který se sama Evropa jako jeho původce pokusila zarazit. Neúspěšně.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-14T04:30:00+00:00",
-     "score": 72
+     "url": "https://www.socialmediatoday.com/news/meta-shares-holiday-2026-planning-guides/830741",
+     "title": "Meta shares holiday 2026 planning guides",
+     "summary": "The company offered a range of resources for brands and marketers, including an artificial intelligence overview and an SMB playbook covering in-app gift research.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-17T21:27:37+00:00",
+     "score": 52
     },
     {
-     "url": "https://blog.shoptet.cz/ppwr-epr-eshopy",
-     "title": "Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy",
-     "summary": "Evropská unie mění pravidla pro obaly. Nové nařízení PPWR se dotkne celého jejich životního cyklu – od návrhu a výroby přes používání až po třídění a recyklaci. Pro e-shopy ale nejde jen o to, z čeho je vyrobená krabice nebo kolik v ní zůstává prázdného místa. Zvlášť při prodeji do zahraničí mohou přibýt také registrační, evidenční a finanční povinnosti. Příspěvek Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy pochází z Shoptet Blog",
-     "source": "Shoptet blog",
-     "domain": "blog.shoptet.cz",
-     "published": "2026-09-17T10:25:24+00:00",
-     "score": 72
+     "url": "https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743",
+     "title": "Facebook Pages get charged for link posts",
+     "summary": "After Meta One for Business launched its subscription packages, some managers said their accounts were being limited to two link posts per month.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-17T21:48:59+00:00",
+     "score": 62
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 75,
+   "title": "Meta omezuje linkové příspěvky na Facebooku – nově jen 2 měsíčně zdarma",
+   "updated": "2026-09-18T09:09:01.051135+00:00",
+   "what": "Meta po spuštění předplatného Meta One for Business začala některým správcům stránek omezovat možnost sdílet odkazy – zdarma pouze dva linkové posty měsíčně. Jde o změnu spojenou s novými placenými balíčky.",
+   "why": "Pokud firma provozuje Facebook stránku a sdílí odkazy na weby, e-shopy nebo články, může ji to nově stát peníze nebo nutit k přechodu na placené Meta One. Dopad na organický reach a návštěvnost webu může být výrazný.",
+   "takeaway": "Ověřte, zda je vaše stránka omezena, a vyhodnoťte, zda se vyplatí předplatné Meta One nebo změna strategie (např. více native obsahu místo odkazů). Sledujte, zda se omezení rozšíří na další účty.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/7395f43696.jpg",
+   "image_from": "socialmediatoday.com"
+  },
+  {
+   "id": "052c1b5310",
+   "created": "2026-09-16T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
+     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
+     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:05:00+00:00",
+     "score": 65
     },
     {
-     "url": "https://www.lupa.cz/aktuality/evropa-pritvrzuje-proti-temu-a-shein-schvalila-novy-poplatek-a-na-trziste-prenasi-odpovednost-za-zbozi",
-     "title": "Evropa přitvrzuje proti Temu a Shein, schválila nový poplatek a na tržiště přenáší odpovědnost za zboží",
-     "summary": "Evropský parlament schválil velkou reformu celních pravidel, která má změnit způsob, v jaké míře se do Evropské unie dostává zboží z asijských e-shopů a trži&#353;ť a kdo zodpovídá za jejich kvalitu a bezpečnost. Platformy, které posílají zboží přímo zákazníkům v EU, podle nových pravidel ponesou odpovědnost dovozce. K tomu od listopadu přibude poplatek za zpracování malých zásilek. Jeho vý&#353;e zatím ale není stanovená.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-17T10:25:00+00:00",
+     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
+     "title": "AI Overviews Cut CTR by 23.1% in France",
+     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-09-16T16:04:30+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
+     "title": "Bing Tests Shopping Filters On Left Sidebar",
+     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:21:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
+     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
+     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:41:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.jirkont.cz/online-marketing-cervenec-srpen-2026",
+     "title": "Červenec a srpen 2026: Data z AI Overviews, ChatGPT Ads v Evropě a Cloudflare může odstřihnout Googlebota",
+     "summary": "Vítejte zpátky po prázdninách. Novinky jsme přes léto vynechali, tak si to teď vynahradíme jedním článkem za červenec i srpen 2026 dohromady. Září je čas, kdy se plánují vánoční kampaně. Rozpočty, kreativa i feedy se připravují teď, v listopadu už bude pozdě. Projděte si letošní data, nastavte si termíny a nenechávejte přípravu na poslední chvíli. [&#8230;]",
+     "source": "Jirkont",
+     "domain": "jirkont.cz",
+     "published": "2026-09-17T05:55:04+00:00",
      "score": 68
     },
     {
-     "url": "https://www.lupa.cz/aktuality/jak-chranit-deti-pred-online-riziky-ci-jaka-prava-mame-vuci-ai-ctu-spustil-digitalni-majak",
-     "title": "Jak chránit děti před online riziky či jaká práva máme vůči AI. ČTÚ spustil Digitální maják",
-     "summary": "Český telekomunikační úřad (ČTÚ) spustil nový portál, který má poskytovat informace o nástrahách digitálního světa. Web nazvaný Digitální maják se soustředí na oblasti, ve kterých má úřad regulační pravomoci: ochrana uživatelů podle nařízení o digitálních službách (Digital Services Act, DSA) a dohled nad umělou inteligencí podle nařízení o AI (AI Akt). K těmto dvěma tématům ČTÚ přidává ochranu dětí online, které se dlouhodobě věnuje.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-16T09:45:43+00:00",
-     "score": 70
+     "url": "https://www.seroundtable.com/google-images-suggested-by-al-42096.html",
+     "title": "Google Image Search Collections Save To Suggested By Al",
+     "summary": "Google Image Search lets you save images to collections and folders. Well, now Google will suggest new folders or collections using AI - it says \"suggested by AI\" with a Gemini icon over a folder.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:51:00+00:00",
+     "score": 48
     }
    ],
-   "category": "cesky-marketing",
-   "importance": 85,
-   "title": "Nová EU pravidla pro obaly a odpovědnost e-shopů: náklady i povinnosti",
-   "updated": "2026-09-17T22:57:07.068516+00:00",
-   "what": "Evropská unie zavedla nové nařízení PPWR (o obalech a obalových odpadech) a reformu celních pravidel. PPWR reguluje celý životní cyklus obalů a pro e-shopy prodávající do EU přináší registrační, evidenční a finanční povinnosti ve formě systému rozšířené odpovědnosti výrobců (EPR) – odhadované náklady činí až čtvrt milionu korun ročně ještě před prvním balíkem. Reforma celních pravidel dále přenáší na online platformy odpovědnost dovozce a od listopadu zavádí poplatek za zpracování malých zásilek.",
-   "why": "Nová pravidla výrazně zvyšují náklady a administrativní zátěž pro e-shopy prodávající do zahraničí. Podle zdrojů již část mikropodnikatelů a menších e-shopů kvůli tomu ukončila zahraniční prodej. Pro české e-shopy to znamená buď omezení expanze do EU, nebo nutnost alokovat značný rozpočet na compliance a poplatky, což mění ekonomiku přeshraničního prodeje.",
-   "takeaway": "Pokud prodáváte nebo plánujete prodávat do EU, urgentně zjistěte, jak se vás EPR povinnosti týkají v jednotlivých zemích a jaké registrace a poplatky musíte zařídit. Zhodnoťte, zda je pro vás zahraniční prodej stále rentabilní s novými náklady čtvrt milionu+ ročně. Sledujte implementaci nového celního poplatku od listopadu.",
-   "importance_label": "zásadní",
-   "multi_source": true,
-   "image": "img/dc36fec3e9.jpg",
-   "image_from": "lupa.cz"
-  },
-  {
-   "id": "14c00923b3",
-   "created": "2026-09-14T15:54:53+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUFk3Ty1SNlgxcWtacWFwcHhXWEFWQVBsVzlkTWhKY0QxOHVGSmhYYWdyWmFWRjFLcGdTM0VjMGJtRXkyZFkzSTlYYkNVNnlyTkg5RUptX2xSbjV4Z3NLM0EtcGc3S3pnQ0hhSHA3NGVvN05DdTNXZXdRT2IxX183LWNNNHJpajVsUlRBSGVWV3g0MVBsZW1ob3JSTkZpYVBlU2NwdmNR?oc=5",
-     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
-     "summary": "Microsoft Advertising Publishes AI Content Transparency Rules &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-14T15:54:53+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-expands-customer-match-cdp-partners",
-     "title": "Microsoft Expands Customer Match CDP Partners",
-     "summary": "Microsoft Advertising has expanded its Customer Match partner list, now including several new customer data platforms (CDPs). This expansion effectively doubles the number of available partners to 20, giving advertisers more options for syncing customer data. Among the additions are Adobe Real Time CDP, Amperity, and Emarsys (SAP), while Salesforce is no longer listed. Read the official help page found by Hana Kobzová &nbsp;here: Customer match: Use your own data to find customers . The post Microsoft Expands Customer Match CDP Partners appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-15T12:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
-     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
-     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T14:00:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
-     "title": "Four foundations to get your brand AI-ready for the holidays",
-     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
-     "source": "Microsoft Advertising blog",
-     "domain": "about.ads.microsoft.com",
-     "published": "2026-09-17T15:06:57.866579+00:00",
-     "score": 69
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Microsoft Advertising se integruje s HubSpotem a rozšiřuje Customer Match partnery",
-   "updated": "2026-09-17T22:56:57.243490+00:00",
-   "what": "Microsoft Advertising spustil integraci s HubSpotem, která propojuje reklamní data s CRM a umožňuje closed-loop marketing – sledování konverzí, tvorbu audiencí z HubSpot kontaktů a reportování přímo v CRM. Zároveň zdvojnásobil počet partnerů pro Customer Match na 20 CDP platforem, mezi nově přidané patří Adobe Real Time CDP, Amperity a Emarsys (SAP); Salesforce již není v seznamu.",
-   "why": "Pro firmy používající HubSpot jako CRM jde o praktické zjednodušení – mohou měřit efektivitu Microsoft Ads kampaní přímo v prostředí, které denně používají, a synchronizovat cílení s lifecycle fázemi zákazníků. Rozšíření Customer Match partnerů dává větší volnost v synchronizaci zákaznických dat pro remarketingové kampaně.",
-   "takeaway": "Pokud vaše firma používá HubSpot, prozkoumejte novou integraci – ušetří čas při reportování a umožní přesnější cílení na základě CRM dat. Pokud pracujete s jinou CDP (Adobe, Amperity, Emarsys), ověřte, zda je už podporovaná pro Customer Match v Microsoft Ads.",
+   "category": "seo",
+   "importance": 72,
+   "title": "AI Overviews ve Francii snížily CTR o 23 %, Google mění způsob reportingu",
+   "updated": "2026-09-18T09:08:50.557764+00:00",
+   "what": "Studie Ahrefs na 963 doménách ve Francii ukázala, že zavedení AI Overviews (22. července 2026) snížilo CTR u nejvíce zasažených webů o 23,1 % během 9 dní po spuštění. Zároveň John Mueller z Googlu oznámil, že reporting pozic a impresí pro AI Mode a AI Overviews v Google Search Console se bude postupně vyvíjet spolu s těmito funkcemi.",
+   "why": "AI Overviews postupně dorazí i do dalších jazykových mutací Googlu včetně češtiny. Studie z Francie ukazuje reálný propad organické návštěvnosti u webů, které se v AI Overviews zobrazují. Zároveň se mění způsob měření výkonu v GSC, což ztíží porovnání dat před a po změnách.",
+   "takeaway": "Sledujte data z GSC – pokud AI Overviews dorazí do ČR, připravte se na potenciální propad CTR u dotazů, kde se zobrazují. Pravidelně kontrolujte změny v reportingu pozic v GSC a adjustujte měření SEO výkonnosti. Zvažte diverzifikaci zdrojů návštěvnosti mimo organické vyhledávání.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/14c00923b3.jpg",
-   "image_from": "ppcnewsfeed.com"
+   "image": "img/43c1215526.jpg",
+   "image_from": "ahrefs.com"
   },
   {
-   "id": "6b032b3de8",
-   "created": "2026-09-15T18:00:56+00:00",
+   "id": "dd6fd203e1",
+   "created": "2026-09-14T21:45:30+00:00",
    "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-shares-tips-on-thought-leader-ads/830359",
+     "title": "LinkedIn shares tips on Thought Leader ads",
+     "summary": "The platform allows marketers to boost positive user-generated content as a way to promote brand awareness via individual endorsements.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-14T21:45:30+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/reddit-shares-holiday-shopping-insights/830363",
+     "title": "Reddit shares holiday shopping insights",
+     "summary": "The app has become a key source of engagement for user-generated product reviews as well as artificial intelligence citations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-14T23:11:45+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news",
+     "title": "Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News",
+     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Get email subscribers from Instagram More business from YouTube without ads 🗞️ Industry news from Instagram, YouTube, and more The 24-Hour Reset [&#8230;] The post Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-09-15T09:30:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai",
+     "title": "Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out",
+     "summary": "We're introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses. The post Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-15T15:00:59+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/presentation-de-meta-one-un-service-dabonnement-offrant-davantage-de-fonctionnalites-et-dia-pour-creer-se-connecter-et-se-demarquer",
+     "title": "Présentation de Meta One : Un service d’abonnement offrant davantage de fonctionnalités et d’IA pour créer, se connecter et se démarquer",
+     "summary": "À retenir Nous lançons Meta One, un nouveau service d’abonnement sur nos applications qui offre un usage accru de l’IA et des fonctionnalités d’expression enrichies, ainsi que des outils professionnels pour les créateurs et les entreprises. Les offres Meta One sont déployées progressivement, avec plus de 50 fonctionnalités lancées et 15 millions d’abonnements et d’essais à ce jour. L’expérience principale sur nos applications et Meta AI restera gratuite. Aujourd’hui, nous lançons Meta One, un nouveau service d’abonnement qui apporte davantage de valeur aux applications et aux expériences que d",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-15T15:25:57+00:00",
+     "score": 66
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-launches-meta-one-for-business-add-on-packages/830469",
+     "title": "Meta launches Meta One for Business add-on packages",
+     "summary": "The company&rsquo;s latest subscription bundles offer paid users access to artificial intelligence-powered tools and advanced custom insights. &nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-15T19:30:56+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-adds-more-creator-partnership-tools/830480",
+     "title": "Meta adds more creator partnership tools",
+     "summary": "The company&rsquo;s refreshed Creator Marketing hub will offer expanded access to additional discovery and outreach features to facilitate promotions.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-15T20:48:52+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUWgtcUtTMWxtVFZQLVBSZThHNkJ0TkIwMFRTRlc2ZWdzQnA4UWN3bTJqWGlVbEZ2cUhRX3Zjd3RuWDRVWVB1YXI5LVUwZC1RX1Q2aVZRb1I5OFRXLXB2Nmh1OGc0WU1PczM3RUY1MTVVTDY4TE05M19qUzJ1S0tUSnBBb3g5c05pSUZiQk5SUmxtQzF4X2N6NUZtclB6RjA1S25QYjAybm9WSEk?oc=5",
+     "title": "Helping people spot and understand AI-generated content on TikTok",
+     "summary": "Helping people spot and understand AI-generated content on TikTok &nbsp;&nbsp; newsroom.tiktok.com",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-09-16T00:11:54+00:00",
+     "score": 66
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-adds-simplified-third-party-ai-support-to-whatsapp/830617",
+     "title": "Meta adds simplified third-party AI support to WhatsApp",
+     "summary": "The update will help brands set up their preferred agent profiles and responses without requiring in-depth coding knowledge.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-16T21:47:13+00:00",
+     "score": 54
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiSFlGMXEtN2ZYUTl6RE5LT2pBaE5kcHpnYmNmM193NUVydzFodmVlNllhcERPUWFycDJ0YUJKdEdJMm1nZWxRM3pnejcydzgwdUFEY0s3ZjjSAV5BVV95cUxPQUlab2FpVVF6U1g1UFVPRXNvZXU5Y3BLUVdvM0VUbTNTX294bGx3SGx5N1RjVVR0aFJHZUx2XzRTaW9zbjNvNjdtQnpFZURxTjdreEQzNkQ1NjlMMzh3?oc=5",
      "title": "What I Built With Muse, Meta’s New AI Agent",
@@ -4075,16 +4187,16 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta představila AI agenta Muse pro správu reklam na Facebooku a Instagramu",
-   "updated": "2026-09-17T22:56:49.374607+00:00",
-   "what": "Meta spustila nového AI agenta s názvem Muse, který má pomáhat s automatizací správy reklamních kampaní na Facebooku a Instagramu. Jde o nové AI nástroje a změny algoritmů, které mají ovlivnit náklady na reklamu a kvalitu leadů.",
-   "why": "Rozšiřování AI automatizace v Meta platformách může významně změnit způsob, jakým firmy v ČR spravují své kampaně na Facebooku a Instagramu. Meta nabízí převzít větší část rozhodování o kampani, což může ovlivnit kontrolu nad rozpočtem a výsledky.",
-   "takeaway": "Sledujte dostupnost Muse v ČR a testujte nové AI funkce Meta opatrně – začněte na menších kampaniích, abyste zjistili, zda AI opravdu snižuje náklady a zlepšuje kvalitu leadů, než svěříte automatizaci celý rozpočet.",
-   "importance_label": "důležité",
+   "importance": 55,
+   "title": "Meta spouští placené předplatné Meta One s AI funkcemi a nástroji pro firmy",
+   "updated": "2026-09-18T09:08:40.541370+00:00",
+   "importance_label": "stojí za pozornost",
    "multi_source": true,
-   "image": "img/468f6e9127.jpg",
-   "image_from": "socialmediaexaminer.com"
+   "what": "Meta oznámila novou předplatnou službu Meta One pro Facebook, Instagram, WhatsApp a Meta AI. Nabízí rozšířené využití AI, pokročilé analytické nástroje a funkce pro tvůrce obsahu a firmy. Služba se zavádí postupně, dosud má 15 milionů předplatitelů a zkušebních verzí. Základní používání aplikací zůstává zdarma.",
+   "why": "Jde o změnu modelu monetizace Mety, která může ovlivnit dostupnost funkcí pro firmy. Pokud budou pokročilé nástroje pro správu stránek, měření nebo AI jen za předplatné, může to znamenat nový náklad pro české firmy aktivní na Meta platformách. Zatím není jasné, které konkrétní funkce budou placené.",
+   "takeaway": "Sledujte, jaké konkrétní funkce Meta zařadí do placeného balíčku Meta One a zda ovlivní vaše současné nástroje pro správu stránek nebo reklamy. Zatím není nutná okamžitá akce, ale počítejte s tím, že Meta testuje placený model i pro byznys nástroje.",
+   "image": "img/d69ce8689f.jpg",
+   "image_from": "about.fb.com"
   },
   {
    "id": "2877daf990",
@@ -4179,12 +4291,21 @@
      "domain": "digichef.cz",
      "published": "2026-09-17T14:52:46+00:00",
      "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5",
+     "title": "Google Ads tests Product Value Optimization for AI bidding",
+     "summary": "Google Ads tests Product Value Optimization for AI bidding &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:44:00+00:00",
+     "score": 73
     }
    ],
    "category": "ppc",
    "importance": 68,
    "title": "Performance Max nově umožňuje cílit kliknutí na Google Business Profil místo webu",
-   "updated": "2026-09-17T22:56:40.473918+00:00",
+   "updated": "2026-09-18T09:08:30.999901+00:00",
    "what": "Google Ads přidal do Performance Max kampaní novou volbu destinace po kliknutí na reklamu. Inzerenti si nyní mohou vybrat mezi klasickým webem a Google Business Profile optimizovaným pro reklamy. Při volbě GBP uživatelé míří na stránku hostovanou Googlem s informacemi z firemního profilu včetně sledování konverzí.",
    "why": "Změna přináší alternativu zejména pro místní firmy bez kvalitního webu – mohou spustit PMax kampaně rychleji a zaměřit se na lokální akce (telefonáty, navigace). Na druhou stranu ztrácejí kontrolu nad obsahem, možnost A/B testování landing page a detailnější sledování leadů oproti vlastnímu webu.",
    "takeaway": "Pokud máte slabší web nebo chcete rychle testovat PMax pro pobočky, zkuste novou volbu GBP. Firmy s fungujícím webem a sledováním konverzí ale pravděpodobně zůstanou u klasické destinace kvůli větší kontrole a možnosti optimalizace.",
@@ -4192,6 +4313,488 @@
    "multi_source": true,
    "image": "img/2877daf990.jpg",
    "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "5498f20251",
+   "created": "2026-09-14T06:57:30+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFh5SXI1UUowOUFjcDA5VHR0MDBxSDFvemJKWkJtVmswODRlZHZld0hVZk9GTnZVSjYwMXJycnA5OG01YUFlcEtvelpMaG9EaWs0RWNRY3BCSnhRWWFkaWlpM1ZJRnlRcGFhSTk1b2F4OFBsZHp4NGRpNUFGVUNOeUlUbGMtVF9Hbm93Y1hlN3FlLVk?oc=5",
+     "title": "Google Ads API Introduces New Onboarding Experience",
+     "summary": "Google Ads API Introduces New Onboarding Experience &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-14T06:57:30+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUFk3Ty1SNlgxcWtacWFwcHhXWEFWQVBsVzlkTWhKY0QxOHVGSmhYYWdyWmFWRjFLcGdTM0VjMGJtRXkyZFkzSTlYYkNVNnlyTkg5RUptX2xSbjV4Z3NLM0EtcGc3S3pnQ0hhSHA3NGVvN05DdTNXZXdRT2IxX183LWNNNHJpajVsUlRBSGVWV3g0MVBsZW1ob3JSTkZpYVBlU2NwdmNR?oc=5",
+     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
+     "summary": "Microsoft Advertising Publishes AI Content Transparency Rules &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-14T15:54:53+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-expands-customer-match-cdp-partners",
+     "title": "Microsoft Expands Customer Match CDP Partners",
+     "summary": "Microsoft Advertising has expanded its Customer Match partner list, now including several new customer data platforms (CDPs). This expansion effectively doubles the number of available partners to 20, giving advertisers more options for syncing customer data. Among the additions are Adobe Real Time CDP, Amperity, and Emarsys (SAP), while Salesforce is no longer listed. Read the official help page found by Hana Kobzová &nbsp;here: Customer match: Use your own data to find customers . The post Microsoft Expands Customer Match CDP Partners appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-15T12:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-integrates-with-hubspot",
+     "title": "Microsoft Advertising Integrates with HubSpot for Enhanced CRM",
+     "summary": "Microsoft Advertising has announced a HubSpot integration designed to connect advertising activity with CRM data and enable closed loop marketing. Advertisers can track, measure, optimize, and report on Microsoft Advertising activity within HubSpot. The integration offers several possibilities for HubSpot users: Connect multiple Microsoft Advertising accounts and automatically track ad clicks and conversions Add Microsoft UET to HubSpot to track website activity and measure ads Turn HubSpot contact lists into Microsoft Advertising audiences and keep targeting aligned with lifecycle stages Excl",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T14:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://about.ads.microsoft.com/en/blog/post/september-2026/four-foundations-to-get-your-brand-ai-ready-for-the-holidays",
+     "title": "Four foundations to get your brand AI-ready for the holidays",
+     "summary": "Prepare your brand for AI-driven holiday shopping by strengthening four foundations: product feeds, measurement, campaign performance, and AI visibility.",
+     "source": "Microsoft Advertising blog",
+     "domain": "about.ads.microsoft.com",
+     "published": "2026-09-17T15:06:57.866579+00:00",
+     "score": 69
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Microsoft Advertising: integrace s HubSpot a rozšíření Customer Match partnerů",
+   "updated": "2026-09-18T09:08:21.639394+00:00",
+   "what": "Microsoft Advertising oznámil integraci s HubSpot CRM, která umožňuje propojit reklamní aktivitu s CRM daty a sledovat výkonnost kampaní přímo v HubSpot. Zároveň rozšířil seznam partnerů pro Customer Match z 10 na 20 CDP platforem, včetně Adobe Real Time CDP, Amperity a Emarsys (SAP); Salesforce z列表u vypadl.",
+   "why": "Pro firmy používající HubSpot znamená nová integrace možnost sledovat konverze z Microsoft Ads přímo v CRM a vytvářet cílené kampaně podle lifecycle fází kontaktů. Rozšíření CDP partnerů dává větší flexibilitu při práci s vlastními zákaznickými daty.",
+   "takeaway": "Pokud používáte HubSpot, zvažte připojení Microsoft Ads účtů pro lepší měření ROI a automatickou synchronizaci cílových skupin. Pokud pracujete s CDP platformou, ověřte, zda je mezi novými partnery – můžete rozšířit Customer Match kampaně.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/14c00923b3.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "fa76451992",
+   "created": "2026-09-17T16:24:19+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5",
+     "title": "Pinterest turns visual search into a new ad opportunity",
+     "summary": "Pinterest turns visual search into a new ad opportunity &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:14:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools",
+     "title": "Pinterest amps up performance tools, including a visual search product",
+     "summary": "“I’m proud to say that Pinterest is now a performance platform,” Bill Ready, Pinterest CEO, said at an advertising event this week.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-17T16:24:19+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
+     "title": "Pinterest announces visual search ads and an AI restyle feature",
+     "summary": "At the company&rsquo;s annual Pinterest presents event, it unveiled new promotional options, artificial intelligence room redecorating and the second season of its CTV show.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-17T20:02:16+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Pinterest spouští reklamy ve vizuálním vyhledávání a AI nástroje",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Pinterest představil nový reklamní formát založený na vizuálním vyhledávání – uživatelé mohou vyhledat předměty pomocí fotografie a inzerenti se mohou zobrazit v těchto výsledcích. CEO Bill Ready prohlásil, že Pinterest je nyní 'performance platforma'. Součástí oznámení jsou i AI nástroje pro přestylování místností a druhá série CTV pořadu.",
+   "why": "Vizuální vyhledávání představuje nový typ záměru uživatele – okamžitou inspiraci z fotografie. Pro e-commerce značky jde o možnost oslovit lidi právě ve chvíli, kdy hledají podobné produkty. Pinterest se tak otevřeně posouvá od inspirativní platformy k výkonnostnímu reklamnímu kanálu.",
+   "takeaway": "Sledujte dostupnost tohoto formátu v ČR/EU a otestujte jej, pokud prodáváte vizuálně atraktivní produkty (móda, nábytek, doplňky). Pinterest může být zajímavou alternativou k Google Shopping pro značky cílící na inspirativní nákupy. Vyhodnoťte, zda má smysl doplnit do media mixu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
+  },
+  {
+   "id": "4daeb9063f",
+   "created": "2026-09-17T15:28:52+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti",
+     "title": "Do 13 let vůbec, od 15 omezeně. Komise představila návrh regulace sociálních sítí pro děti",
+     "summary": "Evropská komise (EK) představila očekávaný návrh nařízení, které má v celé Evropské unii nastavit jednotná pravidla, jak mohou děti používat sociální sítě, servery na sdílení videí a dal&#353;í služby. EU Kids Act má podle ní ochránit děti před negativními vlivy těchto digitálních služeb.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-17T15:28:52+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.mediaguru.cz/eu-chce-omezit-socialni-site-detem-do-15-let-navrhuje-i-hodinovy-limit",
+     "title": "EU chce omezit sociální sítě dětem do 15 let, navrhuje i hodinový limit",
+     "summary": "Evropská komise navrhuje společná pravidla pro používání sociálních sítí a dalších online služeb dětmi. Do 13 let by byl přístup zakázán, uživatelé ve věku 13 až 15 let by mohli služby využívat nejvýše hodinu denně.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-18T08:40:00+00:00",
+     "score": 77
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 75,
+   "title": "EU Kids Act: zákaz soc. sítí do 13 let, od 15 max. hodinu denně",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Evropská komise představila návrh nařízení EU Kids Act, který má v celé EU jednotně regulovat přístup dětí k sociálním sítím a videosharingovým službám. Děti do 13 let by měly mít přístup zakázán úplně, uživatelé ve věku 13–15 let by mohli platformy využívat maximálně hodinu denně.",
+   "why": "Pokud návrh projde, ovlivní toTargetování kampaní a možnosti oslovení mladých uživatelů na Meta, TikToku a dalších platformách. Firmy cílící na mladší publikum (školy, e-shopy s oblečením, zábava) budou muset změnit strategie a komunikaci směřovat na starší skupiny nebo rodiče.",
+   "takeaway": "Sleduj legislativní proces a termíny, kdy bude nařízení platné. Připrav se na možné omezení cílení na mladé uživatele a přesuň rozpočty nebo kreativy směrem k rodičům či starším kohortám, pokud je tato skupina pro tebe klíčová.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/4daeb9063f.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "e924c962e2",
+   "created": "2026-09-17T14:30:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVAwenZZTkpRQzE3dGZPbU1XV29CVXJmUFFkZzlkNk5HT05ILTVNMWxNbXh4bFVVVDl0bXNsYTcxVGQ3OXF1aFZjQjFCdndJRTBRRkdCU1VsVXRCd2M3QjJ4LVhLcFV1TzdkZjk5RmVuTUtLdDdQOElSbmx1U0FXSXVEaFVRdFhFSm43czBR?oc=5",
+     "title": "Google faces six years of court oversight in ad tech antitrust case",
+     "summary": "Google faces six years of court oversight in ad tech antitrust case &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T14:30:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ad-tech-monopoly-remedies-42107.html",
+     "title": "Google Ad Tech Monopoly Remedies: Behavioral Changes With Oversight",
+     "summary": "Earlier this month, we learned a judge ruled that Google won't be broken up over its monopoly ruling in its ad tech case. And now we have the full memo with the judge's proposed remedies, including Google making behavioral changes.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:41:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google čeká 6 let soudního dohledu kvůli monopolu v reklamní technologii",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Americký soudce rozhodl, že Google nebude rozdělen kvůli monopolnímu postavení v ad tech, ale musí po šest let dodržovat behaviorální opatření pod soudním dohledem. Jde o reakci na rozsudek, který Googlu prokázal monopolní praktiky v oblasti reklamních technologií.",
+   "why": "Pro české marketéry je relevantní, že Google bude nucen měnit své chování v oblasti ad tech systémů, což může časem ovlivnit i fungování Google Ads v EU. Soudní dohled může vést ke změnám v aukcích, cenotvorbě nebo podmínkách platformy.",
+   "takeaway": "Sledujte v následujících měsících případné změny v podmínkách Google Ads a chování platformy – regulatorní tlak v USA často předchází podobným krokům v EU. Zatím není důvod k okamžitým změnám v nastavení kampaní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/e924c962e2.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "4c2f0f4db0",
+   "created": "2026-09-16T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
+     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
+     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:11:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
+     "title": "Google Ads is showing advertisers how their spending compares with peers",
+     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T14:50:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report",
+     "title": "Google Ads Introduces Spend Benchmarks Report",
+     "summary": "Google Ads is now offering a new Spend Benchmarks report that allows advertisers to compare their account data against similar businesses. It offers insights based on industry and advertising regions. This feature is visible in the account Overview section. The report provides metrics such as weekly spend and clicks received, demonstrating how an account's performance stacks up against its peers.&nbsp; This update was discovered by Thomas Eccel . The post Google Ads Introduces Spend Benchmarks Report appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T03:00:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google Ads přidává Spend Benchmarks – porovnání výdajů s konkurencí",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Google Ads spouští novou funkci Spend Benchmarks report, která umožňuje inzerentům porovnat své výdaje a výkon s podobnými firmami ve stejném odvětví a regionu. Report zobrazuje metriky jako týdenní výdaje a počet kliknutí a ukazuje, zda utrácíte více, méně nebo stejně jako vaše konkurence. Funkce je dostupná v sekci Přehled účtu.",
+   "why": "Jde o nový nástroj pro rozhodování o PPC rozpočtu – umožňuje posoudit, zda je vaše investice do Google Ads adekvátní vzhledem k trhu, nebo zda podfinancováváte/přeplácíte kampaně oproti konkurenci ve vašem odvětví.",
+   "takeaway": "Zkontrolujte sekci Přehled ve svém Google Ads účtu a porovnejte své týdenní výdaje s benchmarky. Pokud výrazně zaostáváte za konkurencí, zvažte navýšení rozpočtu; pokud výrazně přeplácíte bez odpovídajících výsledků, vyhodnoťte efektivitu kampaní.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/4c2f0f4db0.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "fac219d6b1",
+   "created": "2026-09-15T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/zeny-40-jsou-silnou-skupinou-ceskeho-internetu-ovlivnuji-nakupy",
+     "title": "Ženy 40+ jsou silnou skupinou českého internetu, ovlivňují nákupy",
+     "summary": "Ženy ve věku 40–59 let jsou jednou z nejsilnějších skupin českého internetu. Na nákupní rozhodování rodin mají naprosto zásadní vliv, ukazují data Seznam.cz.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-15T05:00:00+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://blog.seznam.cz/2026/09/seznam-brand-gallery-novy-format-vypravi-obrazem",
+     "title": "Seznam Brand Gallery: Nový formát vypráví obrazem",
+     "summary": "Seznam Brand Gallery je nový nativní formát z nabídky Seznam Brand Studia, který staví především na vizuálním storytellingu. Čtenářům umožňuje nahlédnout do zákulisí produkce konkrétních značek a objevovat řemeslo, postupy i detaily, které stojí za jejich produkty. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-09-15T07:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.mediaguru.cz/dve-tretiny-ctenarek-zena-in-cz-rozhoduji-o-nakupech",
+     "title": "Dvě třetiny čtenářek Žena-in.cz rozhodují o nákupech",
+     "summary": "Podle průzkumů webu Žena-in.cz rozhodují dvě třetiny jeho čtenářek o domácích nákupech samy nebo spíše samy. Téměř polovina má zároveň zájem o testování produktů a služeb, 70 % už si podle obsahu webu něco koupilo.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-18T08:10:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 68,
+   "title": "Data Seznam.cz: Ženy 40+ rozhodují o rodinných nákupech, nový formát Brand Gallery",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Seznam.cz zveřejnil data potvrzující, že ženy ve věku 40–59 let patří mezi nejsilnější skupiny českého internetu a mají zásadní vliv na nákupní rozhodování rodin. Zároveň představil nový nativní reklamní formát Seznam Brand Gallery zaměřený na vizuální storytelling a zákulisí výroby produktů.",
+   "why": "Jde o konkrétní data o chování cílové skupiny s vysokou kupní silou na českém trhu. Nový formát rozšiřuje možnosti obsahového marketingu na jedné z největších českých platforem.",
+   "takeaway": "Pokud cílíte na rozhodující nákupčí v domácnostech, zaměřte kampaně na ženy 40+. Zvažte otestování formátu Brand Gallery pro produkty, kde má smysl ukazovat výrobu a zákulisí – hodí se zejména pro prémiové značky a řemeslné produkty.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/fac219d6b1.jpg",
+   "image_from": "mediaguru.cz"
+  },
+  {
+   "id": "ea1c31f4bd",
+   "created": "2026-09-18T07:59:18+00:00",
+   "articles": [
+    {
+     "url": "https://cc.cz/autosalony-pro-gen-z-krome-klikani-v-konfiguratoru-si-ted-muzou-skodu-v-meritku-11-zaparkovat-do-obyvaku",
+     "title": "Autosalony pro Gen Z? Kromě klikání v konfigurátoru si teď můžou Škodu v měřítku 1:1 zaparkovat do obýváku",
+     "summary": "Budoucnost objevování automobilů se odehrává ve smíšené realitě. Otevřete kufr a změňte barvu interiéru dřív, než auto vůbec sjede z výrobní linky. Článek Autosalony pro Gen Z? Kromě klikání v konfigurátoru si teď můžou Škodu v měřítku 1:1 zaparkovat do obýváku se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-09-18T07:59:18+00:00",
+     "score": 55
+    }
+   ],
+   "category": "obsah",
+   "importance": 45,
+   "title": "Škoda Auto spustila AR konfigurátor – model auta v měřítku 1:1 v obýváku",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Škoda Auto představila nový konfigurátor využívající rozšířenou realitu (AR), který umožňuje zákazníkům zobrazit si model automobilu v reálné velikosti přímo ve svém obýváku. Uživatelé mohou měnit barvy interiéru nebo otevřít kufr ještě před výrobou vozu.",
+   "why": "Jde o inovativní způsob zákaznické zkušenosti mířený na mladší generace (Gen Z), který mění tradiční formát autosalonů a online konfigurátorů. Pro marketingové manažery jde o příklad využití AR technologie v B2C segmentu.",
+   "takeaway": "Sledujte, jak zákazníci reagují na AR formáty při výběru produktů – může to být inspirace pro interaktivní prezentaci vašich produktů nebo služeb, zejména pokud cílíte na mladší publikum.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "09c836750b",
+   "created": "2026-09-18T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-publishes-store-ratings-requirements-100-reviews-3-5-stars-24-months",
+     "title": "Store Ratings Requirements Updated: 100 Reviews, 3.5 Stars, 24 Months",
+     "summary": "Google has updated its store ratings overview for merchants, detailing specific eligibility requirements that include having around 100 eligible reviews. Advertisers must maintain a star rating of at least 3.5 stars out of 5 for these ratings to appear on paid text and Shopping ads . The requirements specify that reviews must be from the past 24 months to ensure ratings reflect current service quality. Ratings are calculated separately per country, with reviews counting only within their origin country. Read the official help page here: Google store ratings: An overview for Merchants . This up",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T07:00:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "Google zpřísnil požadavky na hodnocení obchodů v reklamách",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Google aktualizoval požadavky na zobrazování hodnocení obchodů (store ratings) v textových reklamách a Shopping kampaních. Aby se hvězdičky zobrazovaly, musí mít obchod nyní přibližně 100 kvalifikovaných recenzí z posledních 24 měsíců a udržovat průměrné hodnocení minimálně 3,5 z 5 hvězdiček. Hodnocení se počítá zvlášť pro každou zemi, recenze platí pouze v zemi původu.",
+   "why": "Store ratings zvyšují důvěryhodnost reklam a mohou zlepšit prokliky. Zpřísnění požadavků znamená, že menší nebo nové e-shopy nemusí mít dostatek recenzí na zobrazení hodnocení, což je může znevýhodnit proti větší konkurenci. Pro aktivní obchody jde o signál, že musí systematicky sbírat a udržovat kvalitní recenze.",
+   "takeaway": "Zkontrolujte, zda váš e-shop splňuje nové požadavky – 100 recenzí z posledních 24 měsíců a průměr min. 3,5 hvězdičky. Pokud ne, nastavte nebo zintenzivněte sběr zákaznických recenzí přes Google Customer Reviews nebo integrované platformy. Sledujte hodnocení v Google Merchant Center.",
+   "importance_label": "důležité",
+   "multi_source": false
+  },
+  {
+   "id": "8d522b269e",
+   "created": "2026-09-17T21:09:55+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/reddit-smb-guide-offers-holiday-planning-tips/830738",
+     "title": "Reddit SMB guide offers holiday planning tips",
+     "summary": "The handbook examines discovery behavior and includes an overview of the app&rsquo;s most-searched product categories.&nbsp;&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-17T21:09:55+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 35,
+   "title": "Reddit vydal průvodce pro plánování svateb a velkých událostí",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Reddit publikoval příručku pro malé a střední firmy zaměřenou na plánování svátků a velkých událostí. Dokument analyzuje chování uživatelů při vyhledávání a obsahuje přehled nejhledanějších produktových kategorií na platformě.",
+   "why": "Pro marketingové manažery, kteří zvažují Reddit jako reklamní kanál, poskytuje data o tom, jaké produkty a kategorie uživatelé na platformě aktivně vyhledávají a jak přistupují k plánování nákupů.",
+   "takeaway": "Pokud vaše firma cílí na produkty či služby spojené s plánováním událostí nebo sezónními nákupy, stáhněte si průvodce a vyhodnoťte, zda Reddit může doplnitваš reklamní mix – zejména pro dosah na specifické komunity.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "5711abd1c2",
+   "created": "2026-09-17T11:51:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-discover-on-desktop-not-found-42103.html",
+     "title": "What Ever Happened To Google Discover On Desktop",
+     "summary": "Last year, Google began to roll out Google Discover on the desktop interface of Google.com. But now, for the past several months, Discover on desktop is not been found. Google tested Discover on Desktop in 2023 and then, in 2025, said it was coming; it even started to roll it out, but again, it didn't last - Discover on Google.com desktop just does not exist.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:51:00+00:00",
+     "score": 53
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Google Discover na desktopu zmizel, po roce testování zase není k dispozici",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Google v roce 2024 začal nasazovat funkci Discover (personalizovaný feed s doporučeným obsahem) na desktopovou verzi Google.com. Po několika měsících však Discover na desktopu opět zmizel a není dostupný. Google funkci testoval již v roce 2023, v roce 2025 oznámil její příchod a začal ji zavádět, ale nakonec ji stáhl.",
+   "why": "Discover je významný zdroj organické návštěvnosti zejména pro contentové weby – objevuje se v něm obsah na základě zájmů uživatele, nikoli vyhledávání. Jeho dostupnost na desktopu mohla rozšířit dosah tohoto kanálu. Zmizení funkce znamená, že tento traffic zůstává omezen jen na mobilní zařízení.",
+   "takeaway": "Pokud počítáte s traffic z Google Discover, nadále se soustřeďte výhradně na mobilní optimalizaci – desktopová verze se v dohledné době zjevně nevrátí. Sledujte metriky Discover jen v mobilní Search Console.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d24c17c808",
+   "created": "2026-09-17T11:31:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-local-knowledge-panel-ai-overview-42105.html",
+     "title": "Google Local Knowledge Panel As An AI Overview",
+     "summary": "Google is turning the local knowledge panels, your Google Business Profile, into an AI Overview listing. At the top of the local listing it says \"AI Overview\" and then there is a \"Show more\" button to expand, which brings you into the follow up AI Mode style chat interface.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:31:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Google Local Knowledge Panel As An AI Overview",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/d24c17c808.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "2e6af52495",
+   "created": "2026-09-17T11:21:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/bing-product-carousel-labels-42092.html",
+     "title": "Bing Product Carousels With Top Picks, Sale, Price Drop, Views & More Labels",
+     "summary": "Microsoft is testing adding new labels to the Bing Search product carousels. Labels include Top Picks, Price Drop, Sale and likely other labels on the Bing Search product listings, within the carousels.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:21:00+00:00",
+     "score": 51
+    }
+   ],
+   "category": "ppc",
+   "importance": 35,
+   "title": "Bing testuje nové štítky v produktových karuselech (Top Picks, Sale, Price Drop)",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Microsoft testuje nové štítky v produktových karuselech ve vyhledávání Bing. Mezi testované štítky patří Top Picks (doporučené produkty), Price Drop (pokles ceny), Sale (výprodej) a pravděpodobně další označení zobrazovaná přímo u produktů v karuselech.",
+   "why": "Pro firmy používající Bing Shopping feed to může znamenat nové způsoby, jak zvýraznit své produkty (výprodeje, cenové slevy). Dopady na prokliky a konverze zatím nejsou známé, jde o test.",
+   "takeaway": "Sledujte, zda se tyto štítky objeví i ve vašich produktových kampaních na Bingu. Pokud ano, přizpůsobte cenovou strategii a zvýrazněte akční produkty ve feedu tak, aby na štítky mohly navázat.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "a1a01571bb",
+   "created": "2026-09-17T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/expandable-google-sponsored-places-42081.html",
+     "title": "Google Sponsored Places That Expand On Hover",
+     "summary": "Google is testing the Sponsored Places ads that expand when you hover over the ads within Google Search. Google has been testing expandable ads on hover for a while, but here is one with the Sponsored Places ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:11:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google testuje rozbalovací Sponsored Places reklamy při najetí myší",
+   "updated": "2026-09-18T09:06:20.409571+00:00",
+   "what": "Google v USA testuje formát Sponsored Places reklam, které se po najetí kurzorem myši automaticky rozbalí a zobrazí více informací. Jde o pokračování experimentů s rozbalovacími reklamami ve vyhledávání, tentokrát zaměřené na místní placené výsledky.",
+   "why": "Pro české PPC specialisty a majitele lokálních provozoven je to signál směru, kterým se ubírají reklamní formáty v Google Ads. Pokud se formát osvědčí v USA, může být postupně zaveden i v ČR a změnit způsob, jak uživatelé interagují s místními reklamami.",
+   "takeaway": "Sledujte vývoj formátu – v případě zavedení v ČR bude důležité přizpůsobit textace a rozšíření tak, aby rozbalený stav poskytoval максimální hodnotu. Zatím jde o test bez dopadu na českou praxi.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "dc36fec3e9",
+   "created": "2026-09-14T04:30:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/clanky/chcete-prodavat-zbozi-do-eu-pripravte-si-ctvrt-milionu-rocne-nez-poslete-prvni-balik-nova-pravidla-zaviraji-zdejsi-e-shopy",
+     "title": "Chcete prodávat zboží do EU? Připravte si čtvrt milionu ročně, než pošlete první balík. Nová pravidla zavírají zdejší e-shopy",
+     "summary": "Nové evropské nařízení začalo platit zhruba před měsícem a řada mikropodnikatelů i menších e-shopů už kvůli němu část podnikání vzdala. Cílem bylo původně sjednotit chaos kolem obalů a odpadů, místo toho vznikl zmatek vyvolaný požadavkem, který se sama Evropa jako jeho původce pokusila zarazit. Neúspěšně.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-14T04:30:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://blog.shoptet.cz/ppwr-epr-eshopy",
+     "title": "Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy",
+     "summary": "Evropská unie mění pravidla pro obaly. Nové nařízení PPWR se dotkne celého jejich životního cyklu – od návrhu a výroby přes používání až po třídění a recyklaci. Pro e-shopy ale nejde jen o to, z čeho je vyrobená krabice nebo kolik v ní zůstává prázdného místa. Zvlášť při prodeji do zahraničí mohou přibýt také registrační, evidenční a finanční povinnosti. Příspěvek Nová pravidla pro obaly: Co znamenají PPWR a EPR pro e-shopy pochází z Shoptet Blog",
+     "source": "Shoptet blog",
+     "domain": "blog.shoptet.cz",
+     "published": "2026-09-17T10:25:24+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/evropa-pritvrzuje-proti-temu-a-shein-schvalila-novy-poplatek-a-na-trziste-prenasi-odpovednost-za-zbozi",
+     "title": "Evropa přitvrzuje proti Temu a Shein, schválila nový poplatek a na tržiště přenáší odpovědnost za zboží",
+     "summary": "Evropský parlament schválil velkou reformu celních pravidel, která má změnit způsob, v jaké míře se do Evropské unie dostává zboží z asijských e-shopů a trži&#353;ť a kdo zodpovídá za jejich kvalitu a bezpečnost. Platformy, které posílají zboží přímo zákazníkům v EU, podle nových pravidel ponesou odpovědnost dovozce. K tomu od listopadu přibude poplatek za zpracování malých zásilek. Jeho vý&#353;e zatím ale není stanovená.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-17T10:25:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/jak-chranit-deti-pred-online-riziky-ci-jaka-prava-mame-vuci-ai-ctu-spustil-digitalni-majak",
+     "title": "Jak chránit děti před online riziky či jaká práva máme vůči AI. ČTÚ spustil Digitální maják",
+     "summary": "Český telekomunikační úřad (ČTÚ) spustil nový portál, který má poskytovat informace o nástrahách digitálního světa. Web nazvaný Digitální maják se soustředí na oblasti, ve kterých má úřad regulační pravomoci: ochrana uživatelů podle nařízení o digitálních službách (Digital Services Act, DSA) a dohled nad umělou inteligencí podle nařízení o AI (AI Akt). K těmto dvěma tématům ČTÚ přidává ochranu dětí online, které se dlouhodobě věnuje.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-16T09:45:43+00:00",
+     "score": 70
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 85,
+   "title": "Nová EU pravidla pro obaly a odpovědnost e-shopů: náklady i povinnosti",
+   "updated": "2026-09-17T22:57:07.068516+00:00",
+   "what": "Evropská unie zavedla nové nařízení PPWR (o obalech a obalových odpadech) a reformu celních pravidel. PPWR reguluje celý životní cyklus obalů a pro e-shopy prodávající do EU přináší registrační, evidenční a finanční povinnosti ve formě systému rozšířené odpovědnosti výrobců (EPR) – odhadované náklady činí až čtvrt milionu korun ročně ještě před prvním balíkem. Reforma celních pravidel dále přenáší na online platformy odpovědnost dovozce a od listopadu zavádí poplatek za zpracování malých zásilek.",
+   "why": "Nová pravidla výrazně zvyšují náklady a administrativní zátěž pro e-shopy prodávající do zahraničí. Podle zdrojů již část mikropodnikatelů a menších e-shopů kvůli tomu ukončila zahraniční prodej. Pro české e-shopy to znamená buď omezení expanze do EU, nebo nutnost alokovat značný rozpočet na compliance a poplatky, což mění ekonomiku přeshraničního prodeje.",
+   "takeaway": "Pokud prodáváte nebo plánujete prodávat do EU, urgentně zjistěte, jak se vás EPR povinnosti týkají v jednotlivých zemích a jaké registrace a poplatky musíte zařídit. Zhodnoťte, zda je pro vás zahraniční prodej stále rentabilní s novými náklady čtvrt milionu+ ročně. Sledujte implementaci nového celního poplatku od listopadu.",
+   "importance_label": "zásadní",
+   "multi_source": true,
+   "image": "img/dc36fec3e9.jpg",
+   "image_from": "lupa.cz"
   },
   {
    "id": "0c88c9597d",
@@ -4301,91 +4904,6 @@
    "takeaway": "Pokud uvažujete o blokování AI crawlerů (robots.txt), počítejte s tím, že váš obsah nebude v AI odpovědích citován. Zatím není důvod předpokládat, že pořadí ve výsledcích AI lze přímo ovlivnit pozicí zdroje – důležitější je relevance a struktura obsahu.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "a1413ec0c2",
-   "created": "2026-09-17T17:44:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYng1cXlESzU4NHlHNTlqN2J5T3p4akVLaWl2U21UcVhfVHc3VklPbURDNmstZHN6c0plM04xdXo1VWpLSFBETHdoVWg1LU8xQkJYYTFQb3FUa3R2dEs2S3ZlWmJQQTk4VEhjdlBDdGtaSjVDQlMxUHJpM1J1VGxSS2tCWkV2TFh2Y1hGSjRTbUVCOVg0emdzcUNn?oc=5",
-     "title": "Google Ads tests Product Value Optimization for AI bidding",
-     "summary": "Google Ads tests Product Value Optimization for AI bidding &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T17:44:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Google Ads testuje Product Value Optimization pro automatické nabídkové strategie",
-   "updated": "2026-09-17T19:51:40.450606+00:00",
-   "what": "Google Ads spustil testování nové funkce Product Value Optimization (Optimalizace hodnoty produktů) pro automatické nabídkové strategie s umělou inteligencí. Jde o rozšíření možností AI biddingu v platformě.",
-   "why": "Pro e-shopy používající automatické nabídkové strategie v Google Ads může jít o nový způsob, jak lépe zohlednit hodnotu jednotlivých produktů při nastavování nabídek. Může to ovlivnit nastavení kampaní a jejich výkonnost.",
-   "takeaway": "Sledujte, zda se funkce objeví ve vašem účtu Google Ads. Pokud ano, vyhodnoťte, zda má smysl ji otestovat na vybrané kampani s produktovým feedem – může ovlivnit, jak AI rozděluje rozpočet mezi produkty různé hodnoty.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/a1413ec0c2.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "fa76451992",
-   "created": "2026-09-17T16:24:19+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkgyMGZzNDE2YzhjSTRxejB1ZzlmaFFfX1RjRlhTRWJBZWtSbEgxZnVrclhrTGtuN01aWjlKRkpJOXpuRGMzZHdaS1hlT09pUEkwT0RsMnFFeGMtNEZkMXROZ2dITjBYcjJVbWl5SWNkSnBQOXp1akJEbVdHOFJHdThnNmdKbmFHbkFPOUNxclBrYk1CaWc?oc=5",
-     "title": "Pinterest turns visual search into a new ad opportunity",
-     "summary": "Pinterest turns visual search into a new ad opportunity &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T17:14:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/pinterest-visual-search-performance-marketing-tools",
-     "title": "Pinterest amps up performance tools, including a visual search product",
-     "summary": "“I’m proud to say that Pinterest is now a performance platform,” Bill Ready, Pinterest CEO, said at an advertising event this week.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-17T16:24:19+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Pinterest spouští reklamy ve vizuálním vyhledávání",
-   "updated": "2026-09-17T19:51:40.450606+00:00",
-   "what": "Pinterest představil nový reklamní formát, který umožňuje inzerentům umísťovat reklamy přímo do výsledků vizuálního vyhledávání. CEO Bill Ready uvedl, že Pinterest je nyní plnohodnotnou performance platformou.",
-   "why": "Jde o nový reklamní formát na platformě, která má silné vizuální zaměření. Pro inzerenty to znamená další možnost, jak oslovit uživatele v momentě, kdy aktivně hledají vizuální inspiraci nebo produkty – což je potenciálně hodnotnější než běžné prohlížení feedu.",
-   "takeaway": "Pokud vaše produkty jsou vizuálně atraktivní (móda, domácnost, design) a máte kvalitní fotografie, sledujte dostupnost tohoto formátu v ČR. Pinterest může být zajímavou alternativou k Meta a Google nákupním reklamám, zvlášť u konverzí v pozdější fázi nákupního procesu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "4daeb9063f",
-   "created": "2026-09-17T15:28:52+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti",
-     "title": "Do 13 let vůbec, od 15 omezeně. Komise představila návrh regulace sociálních sítí pro děti",
-     "summary": "Evropská komise (EK) představila očekávaný návrh nařízení, které má v celé Evropské unii nastavit jednotná pravidla, jak mohou děti používat sociální sítě, servery na sdílení videí a dal&#353;í služby. EU Kids Act má podle ní ochránit děti před negativními vlivy těchto digitálních služeb.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-17T15:28:52+00:00",
-     "score": 75
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 75,
-   "title": "EU Kids Act: sociální sítě až od 13 let, od 15 s omezeními",
-   "updated": "2026-09-17T19:51:40.450606+00:00",
-   "what": "Evropská komise představila návrh nařízení EU Kids Act, které má v celé EU jednotně regulovat přístup dětí k sociálním sítím a video platformám. Děti do 13 let by podle návrhu neměly mít přístup vůbec, od 15 let jen s omezeními.",
-   "why": "Pokud projde schvalovacím procesem, bude nařízení přímo závazné ve všech členských státech EU včetně ČR. Pro marketéry jde o potenciálně zásadní změnu cílení a dosahu kampaní – celá věková skupina do 13 let zmizí z platforem, skupina 15–18 let bude mít omezený přístup.",
-   "takeaway": "Sledujte legislativní proces a termíny účinnosti nařízení. Připravte se na úpravu strategie cílení kampaní – pokud nyní oslovujete mladé uživatele nebo jejich rodiče přes sociální sítě, bude nutné hledat alternativní kanály nebo přizpůsobit komunikaci novým pravidlům.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/4daeb9063f.jpg",
-   "image_from": "lupa.cz"
   },
   {
    "id": "6537a84437",
@@ -4710,68 +5228,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "052c1b5310",
-   "created": "2026-09-16T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html",
-     "title": "Google: Google Search Console AI Position Reporting Will Evolve Over Time",
-     "summary": "Google's John Mueller said that he expects the position and impression tracking for AI Mode, AI Overviews and Google Search to \"evolve over time\" as Google Search, AI Mode and AI Overviews \"evolve too,\" he wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:05:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://ahrefs.com/blog/ai-overviews-france-impact",
-     "title": "AI Overviews Cut CTR by 23.1% in France",
-     "summary": "France got AI Overviews on July 22, 2026. We tracked 963 domains in GSC, 28 days before and 9 days after. The most exposed lost 23.1% of their CTR. Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-16T16:04:30+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html",
-     "title": "Bing Tests Shopping Filters On Left Sidebar",
-     "summary": "Microsoft Bing is testing adding product/shopping related filters on the left sidebar of the search results. This makes the Bing all search tab look more like Google's all tab, when you search for product or shopping related queries.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:21:00+00:00",
-     "score": 51
-    },
-    {
-     "url": "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html",
-     "title": "Google Search Product Listings Tests Linking Directly To Merchant Site",
-     "summary": "Google is now testing linking the product and shopping results within Google Search directly to the merchant or retailer website. This is instead of Google opening the side panel with more details about the product.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:41:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.jirkont.cz/online-marketing-cervenec-srpen-2026",
-     "title": "Červenec a srpen 2026: Data z AI Overviews, ChatGPT Ads v Evropě a Cloudflare může odstřihnout Googlebota",
-     "summary": "Vítejte zpátky po prázdninách. Novinky jsme přes léto vynechali, tak si to teď vynahradíme jedním článkem za červenec i srpen 2026 dohromady. Září je čas, kdy se plánují vánoční kampaně. Rozpočty, kreativa i feedy se připravují teď, v listopadu už bude pozdě. Projděte si letošní data, nastavte si termíny a nenechávejte přípravu na poslední chvíli. [&#8230;]",
-     "source": "Jirkont",
-     "domain": "jirkont.cz",
-     "published": "2026-09-17T05:55:04+00:00",
-     "score": 68
-    }
-   ],
-   "category": "seo",
-   "importance": 75,
-   "title": "AI Overviews ve Francii snížily CTR o 23 %, Google mění reportování pozic v GSC",
-   "updated": "2026-09-17T15:10:21.134712+00:00",
-   "what": "Google potvrdil, že reportování pozic a impresí pro AI Mode a AI Overviews v Search Console se bude v čase měnit spolu s vývojem těchto funkcí. Studie Ahrefs z Francie (963 domén, 28 dní před a 9 dní po spuštění AI Overviews 22. 7. 2024) ukázala, že nejvíce zasažené weby ztratily 23,1 % CTR. Google také testuje přímé propojení produktových výsledků na weby obchodníků místo otevírání postranního panelu.",
-   "why": "AI Overviews mění způsob, jakým uživatelé interagují s výsledky vyhledávání – méně klikají na organické odkazy. Pro české weby s významným podílem trafficu z Googlu to může znamenat výrazný pokles návštěvnosti, jakmile se funkce plně rozšíří do ČR. Zároveň Google upravuje metriky v GSC, což ztěžuje predikci dopadů a srovnání výkonnosti v čase.",
-   "takeaway": "Sledujte data v GSC – pokud vidíte nové pozice či impressions označené jako AI Overview nebo AI Mode, počítejte s tím, že jejich definice se může měnit. Připravte se na potenciální pokles organického CTR z Googlu (řádově o desítky procent u dotazů s AI odpověďmi). Zvažte diverzifikaci zdrojů návštěvnosti a optimalizaci obsahu tak, aby byl citovatelný v AI přehledech.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/43c1215526.jpg",
-   "image_from": "ahrefs.com"
-  },
-  {
    "id": "e1fd00bfd3",
    "created": "2026-09-17T14:30:32+00:00",
    "articles": [
@@ -4794,32 +5250,6 @@
    "takeaway": "Nepodceňujte textové popisy produktů jen proto, že máte v pořádku schema markup a XML feedy. Investujte do kvalitního, důvěryhodného copywritingu, který doplňuje strukturovaná data a přesvědčuje zákazníky o nákupu.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "e924c962e2",
-   "created": "2026-09-17T14:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVAwenZZTkpRQzE3dGZPbU1XV29CVXJmUFFkZzlkNk5HT05ILTVNMWxNbXh4bFVVVDl0bXNsYTcxVGQ3OXF1aFZjQjFCdndJRTBRRkdCU1VsVXRCd2M3QjJ4LVhLcFV1TzdkZjk5RmVuTUtLdDdQOElSbmx1U0FXSXVEaFVRdFhFSm43czBR?oc=5",
-     "title": "Google faces six years of court oversight in ad tech antitrust case",
-     "summary": "Google faces six years of court oversight in ad tech antitrust case &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T14:30:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google bude šest let pod soudním dohledem kvůli ad tech monopolu",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Americký soud nařídil Google šest let dohledu po prohraném antimonopolním sporu v oblasti reklamních technologií. Jde o následek procesu, kde byl Google uznán vinným ze zneužití dominantního postavení v ad tech infrastruktuře.",
-   "why": "Rozsudek může ovlivnit chování Google na reklamním trhu globálně, což se v dlouhodobém horizontu dotkne i dostupnosti nástrojů, cen a podmínek programatické reklamy, které využívají i čeští inzerenti.",
-   "takeaway": "Sledujte případné změny v podmínkách Google Ads a Google Ad Manageru v příštích letech – soudní dohled může vést k otevření trhu nebo úpravám pravidel, které ovlivní i vaše kampaně a náklady.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/e924c962e2.jpg",
-   "image_from": "searchengineland.com"
   },
   {
    "id": "71e6f0b905",
@@ -4949,104 +5379,6 @@
    "takeaway": "Pokud vás změny v Googlu zasáhly a PPC kampaně nepřinášejí výsledky, zvažte jejich pozastavení a investici do organického růstu, rozšíření cílové skupiny nebo AI řešení. Sledujte příklad z článku pro inspiraci.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "dd6fd203e1",
-   "created": "2026-09-14T21:45:30+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-shares-tips-on-thought-leader-ads/830359",
-     "title": "LinkedIn shares tips on Thought Leader ads",
-     "summary": "The platform allows marketers to boost positive user-generated content as a way to promote brand awareness via individual endorsements.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-14T21:45:30+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/reddit-shares-holiday-shopping-insights/830363",
-     "title": "Reddit shares holiday shopping insights",
-     "summary": "The app has become a key source of engagement for user-generated product reviews as well as artificial intelligence citations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-14T23:11:45+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news",
-     "title": "Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News",
-     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Get email subscribers from Instagram More business from YouTube without ads 🗞️ Industry news from Instagram, YouTube, and more The 24-Hour Reset [&#8230;] The post Instagram Email Subscriber Tactic, No-Ad YouTube Strategy, and Industry News appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-09-15T09:30:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai",
-     "title": "Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out",
-     "summary": "We're introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses. The post Introducing Meta One: A Subscription Service With More Features and AI to Create, Connect, and Stand Out appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-15T15:00:59+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://about.fb.com/news/2026/09/presentation-de-meta-one-un-service-dabonnement-offrant-davantage-de-fonctionnalites-et-dia-pour-creer-se-connecter-et-se-demarquer",
-     "title": "Présentation de Meta One : Un service d’abonnement offrant davantage de fonctionnalités et d’IA pour créer, se connecter et se démarquer",
-     "summary": "À retenir Nous lançons Meta One, un nouveau service d’abonnement sur nos applications qui offre un usage accru de l’IA et des fonctionnalités d’expression enrichies, ainsi que des outils professionnels pour les créateurs et les entreprises. Les offres Meta One sont déployées progressivement, avec plus de 50 fonctionnalités lancées et 15 millions d’abonnements et d’essais à ce jour. L’expérience principale sur nos applications et Meta AI restera gratuite. Aujourd’hui, nous lançons Meta One, un nouveau service d’abonnement qui apporte davantage de valeur aux applications et aux expériences que d",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-15T15:25:57+00:00",
-     "score": 66
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-launches-meta-one-for-business-add-on-packages/830469",
-     "title": "Meta launches Meta One for Business add-on packages",
-     "summary": "The company&rsquo;s latest subscription bundles offer paid users access to artificial intelligence-powered tools and advanced custom insights. &nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-15T19:30:56+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-adds-more-creator-partnership-tools/830480",
-     "title": "Meta adds more creator partnership tools",
-     "summary": "The company&rsquo;s refreshed Creator Marketing hub will offer expanded access to additional discovery and outreach features to facilitate promotions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-15T20:48:52+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUWgtcUtTMWxtVFZQLVBSZThHNkJ0TkIwMFRTRlc2ZWdzQnA4UWN3bTJqWGlVbEZ2cUhRX3Zjd3RuWDRVWVB1YXI5LVUwZC1RX1Q2aVZRb1I5OFRXLXB2Nmh1OGc0WU1PczM3RUY1MTVVTDY4TE05M19qUzJ1S0tUSnBBb3g5c05pSUZiQk5SUmxtQzF4X2N6NUZtclB6RjA1S25QYjAybm9WSEk?oc=5",
-     "title": "Helping people spot and understand AI-generated content on TikTok",
-     "summary": "Helping people spot and understand AI-generated content on TikTok &nbsp;&nbsp; newsroom.tiktok.com",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-09-16T00:11:54+00:00",
-     "score": 66
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-adds-simplified-third-party-ai-support-to-whatsapp/830617",
-     "title": "Meta adds simplified third-party AI support to WhatsApp",
-     "summary": "The update will help brands set up their preferred agent profiles and responses without requiring in-depth coding knowledge.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-16T21:47:13+00:00",
-     "score": 54
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "Meta spouští předplatné Meta One s AI a nástroji pro firmy",
-   "updated": "2026-09-17T09:35:24.776057+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Meta představila novou předplacenou službu Meta One, která nabízí rozšířené použití AI (Meta AI), pokročilé analytické nástroje a další funkce pro tvůrce a firmy na Facebooku, Instagramu, WhatsAppu. Podle Mety je již služba v testování s přes 15 miliony předplatitelů a zkušebních přístupů, základní verze aplikací zůstává zdarma. Součástí jsou i balíčky Meta One for Business s AI nástroji a pokročilými analytickými přehledy.",
-   "why": "Jde o placený model, který může ovlivnit dosah a funkce firemních profilů na Meta platformách. Pokud Meta bude rozšiřovat AI funkce a analytiku hlavně pro předplatitele, firmy bez předplatného mohou být znevýhodněny – například při tvorbě obsahu, měření výkonu nebo správě kampaní. Důležité je sledovat, jaké konkrétní funkce zůstanou zdarma a jaké budou vázány na předplatné.",
-   "takeaway": "Sledujte, jaké funkce Meta One for Business nabídne v EU a ČR a zda omezí dosavadní bezplatné nástroje (např. přístup k analytice nebo AI asistentům pro správu kampaní). Pokud používáte Meta Ads Manager nebo Creator Studio intenzivně, vyčkejte na konkrétní ceník a porovnejte s přínosem před rozhodnutím o předplatném.",
-   "image": "img/d69ce8689f.jpg",
-   "image_from": "about.fb.com"
   },
   {
    "id": "f308ad896d",
@@ -5396,41 +5728,6 @@
    "takeaway": "Sledujte změny pozic a CTR v Google Search Console pro EU trhy. Pokud vaše stránky cílí na query spojené s počasím, překlady nebo jiné vertikální služby, počítejte s možným poklesem prokliku kvůli novým karuselům."
   },
   {
-   "id": "4c2f0f4db0",
-   "created": "2026-09-16T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
-     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
-     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:11:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
-     "title": "Google Ads is showing advertisers how their spending compares with peers",
-     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T14:50:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads ukazuje srovnání vašeho rozpočtu s konkurencí",
-   "updated": "2026-09-16T19:38:27.396484+00:00",
-   "what": "Google Ads přidává do reportu Spend benchmarks novou funkci, která srovnává výdaje inzerenta s podobnými firmami. Report nyní ukazuje, zda utrácíte více, méně nebo stejně jako vaši konkurenti.",
-   "why": "Přináší přímé srovnání s trhem a může odhalit, jestli je váš rozpočet konkurenceschopný nebo naopak zbytečně vysoký. Může sloužit jako argument při vyjednávání o marketingovém rozpočtu.",
-   "takeaway": "Zkontrolujte nový report Spend benchmarks v Google Ads – může vám pomoct obhájit navýšení rozpočtu nebo odhalit, že přeplácíte oproti podobným firmám.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4c2f0f4db0.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "2a4fd49ea5",
    "created": "2026-09-16T15:00:00+00:00",
    "articles": [
@@ -5510,30 +5807,6 @@
    "what": "IAB Tech Lab představil návrh nových pravidel pro programatický nákup reklamy. Cílem je zpřesnit a sjednotit používání stávajících standardů a snížit tření při transakcích mezi kupujícími a prodávajícími reklamního inventáře.",
    "why": "Pro inzerenty a agentury může sjednocení standardů znamenat hladší proces nákupu programatické reklamy a potenciálně lepší efektivitu kampaní. Jde ale zatím jen o návrh bez konkrétních detailů implementace.",
    "takeaway": "Pokud nakupujete programatickou reklamu (display, video), sledujte vývoj těchto pravidel – jejich zavedení může časem ovlivnit nastavení kampaní a reporting. Zatím není potřeba žádná akce.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "525a40c0a8",
-   "created": "2026-09-16T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-images-suggested-by-al-42096.html",
-     "title": "Google Image Search Collections Save To Suggested By Al",
-     "summary": "Google Image Search lets you save images to collections and folders. Well, now Google will suggest new folders or collections using AI - it says \"suggested by AI\" with a Gemini icon over a folder.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:51:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "seo",
-   "importance": 25,
-   "title": "Google Obrázky navrhují kolekce pomocí AI",
-   "updated": "2026-09-16T15:04:13.639386+00:00",
-   "what": "Google Image Search dostal novou funkci – při ukládání obrázků do kolekcí a složek nyní systém pomocí umělé inteligence (Gemini) automaticky navrhuje vhodné složky, což je označeno textem \"suggested by AI\" a ikonou Gemini.",
-   "why": "Jde o evoluci vyhledávání obrázků, která ukazuje rostoucí roli AI v běžných nástrojích Google. Pro marketéry zatím bez přímého dopadu na práci, spíše signál kam Google směřuje uživatelskou zkušenost.",
-   "takeaway": "Zatím jen marginální novinka bez vlivu na SEO nebo marketingovou praxi. Sleduj, jak se AI integruje do dalších Google nástrojů – může to ovlivnit budoucí vyhledávání a práci s obsahem.",
    "importance_label": "kontext",
    "multi_source": false
   },
@@ -7779,30 +8052,6 @@
    "multi_source": false
   },
   {
-   "id": "5498f20251",
-   "created": "2026-09-14T06:57:30+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFh5SXI1UUowOUFjcDA5VHR0MDBxSDFvemJKWkJtVmswODRlZHZld0hVZk9GTnZVSjYwMXJycnA5OG01YUFlcEtvelpMaG9EaWs0RWNRY3BCSnhRWWFkaWlpM1ZJRnlRcGFhSTk1b2F4OFBsZHp4NGRpNUFGVUNOeUlUbGMtVF9Hbm93Y1hlN3FlLVk?oc=5",
-     "title": "Google Ads API Introduces New Onboarding Experience",
-     "summary": "Google Ads API Introduces New Onboarding Experience &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-14T06:57:30+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Ads API spouští nový onboarding pro vývojáře",
-   "updated": "2026-09-15T19:46:29.490277+00:00",
-   "what": "Google představil novou onboardingovou zkušenost pro vývojáře pracující s Google Ads API. Změna má usnadnit začátečníkům vstup do práce s API a zjednodušit proces prvotního nastavení.",
-   "why": "Pro české firmy a agentury, které vyvíjejí vlastní nástroje pro správu PPC kampaní nebo integrují Google Ads s interními systémy, může nový onboarding zjednodušit a zrychlit implementaci API řešení.",
-   "takeaway": "Pokud vaše firma nebo dodavatel plánuje práci s Google Ads API (například pro automatizaci reportingu nebo bid managementu), nový onboarding může snížit čas potřebný na implementaci. Konzultujte s vývojáři, zda změna ovlivní rozpracované projekty.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "c79f2a0f43",
    "created": "2026-09-13T14:56:56+00:00",
    "articles": [
@@ -7875,41 +8124,6 @@
    "takeaway": "Pokud pracujete v Google Ads, počítejte s mírně upraveným rozhraním v sekci úkolů. Funkčnost zůstává stejná, nemění se žádná pravidla ani nastavení kampaní.",
    "importance_label": "kontext",
    "multi_source": false
-  },
-  {
-   "id": "fac219d6b1",
-   "created": "2026-09-15T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/zeny-40-jsou-silnou-skupinou-ceskeho-internetu-ovlivnuji-nakupy",
-     "title": "Ženy 40+ jsou silnou skupinou českého internetu, ovlivňují nákupy",
-     "summary": "Ženy ve věku 40–59 let jsou jednou z nejsilnějších skupin českého internetu. Na nákupní rozhodování rodin mají naprosto zásadní vliv, ukazují data Seznam.cz.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-15T05:00:00+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://blog.seznam.cz/2026/09/seznam-brand-gallery-novy-format-vypravi-obrazem",
-     "title": "Seznam Brand Gallery: Nový formát vypráví obrazem",
-     "summary": "Seznam Brand Gallery je nový nativní formát z nabídky Seznam Brand Studia, který staví především na vizuálním storytellingu. Čtenářům umožňuje nahlédnout do zákulisí produkce konkrétních značek a objevovat řemeslo, postupy i detaily, které stojí za jejich produkty. Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-09-15T07:00:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 68,
-   "title": "Seznam: ženy 40+ mají zásadní vliv na nákupy rodin",
-   "updated": "2026-09-15T15:09:38.785387+00:00",
-   "what": "Seznam.cz zveřejnil data ukazující, že ženy ve věku 40–59 let patří k nejsilnějším skupinám českého internetu a mají klíčový vliv na nákupní rozhodování v rodinách. Současně spustil nový nativní formát Seznam Brand Gallery zaměřený na vizuální storytelling a zákulisí výroby produktů značek.",
-   "why": "Pro marketingové manažery jde o konkrétní data o české cílové skupině s vysokou kupní silou a rozhodovacím vlivem. Nový nativní formát pak nabízí další možnost, jak oslovit tuto skupinu pomocí obsahového marketingu na jedné z největších českých platforem.",
-   "takeaway": "Při plánování kampaní a obsahové strategie zvažte cílení na ženy 40–59 let – mají velký vliv na rodinné nákupy. Pokud máte produkt s příběhem výroby nebo řemeslným pozadím, otestujte Seznam Brand Gallery jako kanál pro vizuální storytelling.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/fac219d6b1.jpg",
-   "image_from": "mediaguru.cz"
   },
   {
    "id": "7cd9f12267",
