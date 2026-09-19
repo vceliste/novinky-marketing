@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-18T22:44:10.424055+00:00",
+ "last_run": "2026-09-19T08:53:30.668738+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f8c3c76f4d0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Jon Loomer",
@@ -335,7 +335,7 @@
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MeasureSchool",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -4037,43 +4037,155 @@
   "https://martech.org/how-to-evaluate-composable-versus-packaged-cdp": "2026-09-18T22:44:10.424055+00:00",
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcDE3Ukh6U29uU3JZM29ZQjU0ajZLS2VBWDRianRzWVJVal9obHNYRTZQVHBhM1lNLVQ3OUl2SkVhSmlNb3lmNmlCRXFrR0Q3VXBaXzZYVlc5OWNybVR2dHFwU1FuanNYaDdwaVNuLXozUi1jOXBMNGJFa3dET1V6OFRRWERtQW9RSzY0RFo2dUU5SDd2cFBVeFM3U2hKRmZpemQ0b3Fad2QtNThFVnRGT0Y2TEtfeF94M3c?oc=5": "2026-09-18T22:44:10.424055+00:00",
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd0IxZFI2UzZhYnptajJqYi1OSldpUmM2cUR4bjFQaDVXYjdUbjFzbW13RUc2ZEFUWlNCcFdpUHhCNF9fTTM3UXpQMnJ3S3Rsem5QMF9oRmgwNGlRbmR5LXBWbWdyVzA4QldidVkzSkxncU9sal9KNjI2Mmk3VHBYdE9yWQ?oc=5": "2026-09-18T22:44:10.424055+00:00",
-  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aRmY2amFqZENvTjJGYmVBT1NZdXNjeUI2eG42WmVUdXRNWjlwdmhMUC03eV9fbmVBRHdkSmN5M3lONU1YMEZybS1PS2FacE9wSkQxeUxNelNvemI1SXlv?oc=5": "2026-09-18T22:44:10.424055+00:00"
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aRmY2amFqZENvTjJGYmVBT1NZdXNjeUI2eG42WmVUdXRNWjlwdmhMUC03eV9fbmVBRHdkSmN5M3lONU1YMEZybS1PS2FacE9wSkQxeUxNelNvemI1SXlv?oc=5": "2026-09-18T22:44:10.424055+00:00",
+  "https://www.mediar.cz/v-televizi-nova-skoncila-vedouci-publicistiky-ve-funkci-byla-par-tydnu": "2026-09-19T08:53:30.668738+00:00",
+  "https://www.mediaguru.cz/patecni-vecer-vysel-komedii-jak-se-nam-to-mohlo-stat": "2026-09-19T08:53:30.668738+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-new-captcha-before-search-results": "2026-09-19T08:53:30.668738+00:00",
+  "https://www.mediaguru.cz/rust-medialniho-byznysu-na-slovensku-zpomalil": "2026-09-19T08:53:30.668738+00:00",
+  "https://www.mediaguru.cz/svet-karavanu-otevrel-v-bavoryni-svou-nejvetsi-prodejnu": "2026-09-19T08:53:30.668738+00:00",
+  "https://cc.cz/marketingovy-prestup-roku-hvezdny-mbappe-se-po-20-letech-louci-s-nike-ve-svych-radach-ho-vita-federer": "2026-09-19T08:53:30.668738+00:00",
+  "https://cc.cz/vubec-nestudoval-obor-ktery-ted-s-ai-meni-jeho-firma-ma-uz-po-trech-letech-cenu-118-miliard": "2026-09-19T08:53:30.668738+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-sponsored-places-as-vertical-cards": "2026-09-19T08:53:30.668738+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM21OczQ0Sk44bHRxSDNRc2luRU5OczdlRkxWQzlXM2c3YkpHTkpCczRWSnRjbHVQaXVSa3ZpdVhMZk92ZFhURGN4OXhzVGhuX2t0eVo4LXlLV3phS2JRMzdXRnJxWWliUVJBMmRsM2FVZFZVeTU2Q01Mcm5qQnV3UGhfcw?oc=5": "2026-09-19T08:53:30.668738+00:00",
+  "https://www.mediar.cz/dny-nato-zive-na-ct24-armada-predstavi-letoun-embraer-c-390-millennium": "2026-09-19T08:53:30.668738+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRGZ4ekhWMUZJTjI4TlYtT3c0UGR0LTIzbW5jWFpJWGY3SmZEc1BkNmJsa0ZGRGNUS0RTYTZuOW5CZVBtTURKRk0xblNQdWNfTmtwMXItc0dKb2RoNDY2bHRGS2JnLUJaUjBkUnJoaUplMVpqaXVlRHRZUUd1VUgxWmhHOGlRODBORmp5MTZzRi1yTlU2MUFCZFlWVlQyUW0zdldFak1WUUR5VVg4amlkaENLM3NtbDYtdUlyUXlxTEo?oc=5": "2026-09-19T08:53:30.668738+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PZkZqN1h4dG5pSkJmWDBNY3hoWnJvV0sxVVFTRGlnTVQtU1lzc0dOSWQzSTZXcV9Bc1lBYm9aUnhYcVhRZHcxelByV205cng1VEkyR1k0Tkgxclk?oc=5": "2026-09-19T08:53:30.668738+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnbzRWOUN0cUJWNWpRLS1uSExmRW90RUE0VDNEQlowMHEtVXdOdVl6Q2VyUXBoUmtlSlpPVW1qUmlKZzBZNWdxM01xVk8tdHE0dWRZYUJyaw?oc=5": "2026-09-19T08:53:30.668738+00:00"
  },
  "events": [
   {
-   "id": "902935d8ce",
-   "created": "2026-09-14T16:45:00+00:00",
+   "id": "4edd87b20d",
+   "created": "2026-09-08T09:30:00+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEZaQWNraG1nMVI4dm53Y2ZqTDVIT05iZXRRQXpyeS1GWHJaYlRUd3hjOG93cm5LVjZwLVhpdWxhc2E3by0wX1ZJTV9yNVU3RjlRczNaZHdqckF5RDdOOC1xQ0RTU2QxdmpRRWkxZTJ0SnAzcEdORFZULV8zZjMtVGVJNVRVUmxyMkVwajBKbFpUUWNxR0FPVmc5cV8yZElJZ2xMRVJHMkFYUQ?oc=5",
-     "title": "Facebook ad costs fall as traffic and lead performance improves: Report",
-     "summary": "Facebook ad costs fall as traffic and lead performance improves: Report &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T16:45:00+00:00",
-     "score": 68
+     "url": "https://www.socialmediaexaminer.com/instagram-content-strategy-tiktok-ads-tools-and-industry-news",
+     "title": "Instagram Content Strategy, TikTok Ads Tools, and Industry News",
+     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Turn Instagram's search bar into your content strategy engine How TikTok's new AI tools could transform your ad strategy 🗞️ Industry news [&#8230;] The post Instagram Content Strategy, TikTok Ads Tools, and Industry News appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-09-08T09:30:00+00:00",
+     "score": 65
     },
     {
-     "url": "https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce",
-     "title": "Prostujemy: fakty o walce z oszukańczymi reklamami w Polsce",
-     "summary": "Na początku tego tygodnia fundacja Instrat opublikowała raport dotyczący jednego z najtrudniejszych wyzwań, z jakimi mierzy się cała branża &#8211; reklam o charakterze oszukańczym. To poważne i złożone wyzwanie, które dotyczy firm technologicznych, banków i całego społeczeństwa. Ciężko pracujemy, by przeciwdziałać działaniom wyrafinowanych i zdeterminowanych przestępców wykorzystują zaawansowane systemy sztucznej inteligencji, narzędzia chroniące użytkowników oraz współpracując z organami ścigania i partnerami z branży. Rozliczanie nas z naszych działań jest w pełni uzasadnione, ale ten rapor",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-18T14:55:13+00:00",
+     "url": "https://www.socialmediatoday.com/news/australia-moves-to-enable-algorithm-opt-outs/829863",
+     "title": "Australia moves to enable algorithm opt-outs",
+     "summary": "New regulations will require social platforms to allow users to set chronological feeds as the default.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-08T21:01:14+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/will-removing-algorithmic-sorting-improve-social-media/829868",
+     "title": "Will removing algorithmic sorting improve social media?",
+     "summary": "A move by Australia&rsquo;s government to switch feeds to chronological defaults may prove to be a kind of trial balloon for other markets to gauge impact and effectiveness.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-08T21:48:14+00:00",
      "score": 54
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/pinterest-renames-campaign-objectives-to-simplify-ad-focus/829869",
+     "title": "Pinterest renames campaign objectives to simplify ad focus",
+     "summary": "The updated terminology aims to clarify the purpose of each campaign type.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-08T21:54:53+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/instagram-chief-warns-against-eliminating-algorithms/830130",
+     "title": "Instagram Chief warns against eliminating algorithms",
+     "summary": "Adam Mosseri told reporters in Australia that eliminating the algorithmic feed would create a less engaging experience for users.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-10T23:56:22+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.searchenginejournal.com/youtube-gives-you-feedback-on-shorts-before-publishing/589088",
+     "title": "YouTube Gives You Feedback On Shorts Before Publishing via @sejournal, @MattGSouthern",
+     "summary": "YouTube is expanding Get Feedback, a tool that reviews a Shorts before publishing, to U.S. users The post YouTube Gives You Feedback On Shorts Before Publishing appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-10T13:55:02+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://sproutsocial.com/insights/social-media-ban",
+     "title": "Will social media bans reshape the future of marketing?",
+     "summary": "Conditions online can be harrowing. All of us are susceptible to doom-scrolling—absorbing the intensity of global political, humanitarian and climate crises with the flick Read more... The post Will social media bans reshape the future of marketing? appeared first on Sprout Social .",
+     "source": "Sprout Social",
+     "domain": "sproutsocial.com",
+     "published": "2026-09-10T14:00:46+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/snapchat-expands-dynamic-product-ads-to-sponsored-snaps/830124",
+     "title": "Snapchat expands Dynamic Product Ads to Sponsored Snaps",
+     "summary": "The platform updated its commerce tools for retail advertisers ahead of the holiday promotional season, allowing brands to showcase products via Snap DMs.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-10T21:24:45+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/instagram-lets-users-add-tagged-posts-to-profile-grids/830126",
+     "title": "Instagram lets users add tagged posts to profile grids",
+     "summary": "When a user is tagged in a post, they will now be able to display that post on their grid in-stream, facilitating collaborations.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-10T21:44:56+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-rolls-out-number-code-access-for-dms/830129",
+     "title": "X rolls out number code access for DMs",
+     "summary": "The feature will let users generate unique, private 10-digit contact numbers to facilitate DMs with users they&rsquo;re not connected to.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-10T23:50:19+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.mediaguru.cz/australie-chce-dat-uzivatelum-vetsi-kontrolu-nad-socialnimi-sitemi",
+     "title": "Austrálie chce dát uživatelům větší kontrolu nad sociálními sítěmi",
+     "summary": "Austrálie připravuje novou regulaci sociálních sítí, která má uživatelům umožnit vypnout algoritmické doporučování obsahu a zobrazovat pouze příspěvky od vybraných účtů. Součástí návrhu jsou také přísnější povinnosti platforem při ochraně dětí před škodlivým obsahem.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-13T07:45:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti",
+     "title": "Do 13 let vůbec, od 15 omezeně. Komise představila návrh regulace sociálních sítí pro děti",
+     "summary": "Evropská komise (EK) představila očekávaný návrh nařízení, které má v celé Evropské unii nastavit jednotná pravidla, jak mohou děti používat sociální sítě, servery na sdílení videí a dal&#353;í služby. EU Kids Act má podle ní ochránit děti před negativními vlivy těchto digitálních služeb.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-17T15:28:52+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.mediaguru.cz/eu-chce-omezit-socialni-site-detem-do-15-let-navrhuje-i-hodinovy-limit",
+     "title": "EU chce omezit sociální sítě dětem do 15 let, navrhuje i hodinový limit",
+     "summary": "Evropská komise navrhuje společná pravidla pro používání sociálních sítí a dalších online služeb dětmi. Do 13 let by byl přístup zakázán, uživatelé ve věku 13 až 15 let by mohli služby využívat nejvýše hodinu denně.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-18T08:40:00+00:00",
+     "score": 77
     }
    ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Facebook: cena reklam klesá, výkon kampaní na provoz a leady roste",
-   "updated": "2026-09-18T22:45:18.645792+00:00",
-   "what": "Podle reportu Search Engine Land klesly náklady na Facebook reklamy, zatímco výkon kampaní zaměřených na návštěvnost a generování leadů se zlepšil. Meta zároveň zveřejnila prohlášení k polské zprávě o boji proti podvodným reklamám, kde popisuje své snahy čelit této výzvě prostřednictvím AI systémů, nástrojů na ochranu uživatelů a spolupráce s orgány činnými v trestním řízení.",
-   "why": "Pokles nákladů při současném zlepšení výkonu znamená pro marketingové manažery lepší ROI kampaní na Facebooku – za stejný nebo nižší rozpočet mohou získat více návštěv webu a kvalifikovaných leadů. Téma podvodných reklam je relevantní pro důvěryhodnost celé platformy a může ovlivnit vnímání značek inzerujících na Facebooku.",
-   "takeaway": "Sledujte vývoj CPC a CPL na vašich Facebook kampaních – pokud trend platí i pro český trh, můžete získat lepší výsledky při současných nebo nižších nákladech. Zároveň dávejte pozor na brand safety a sledujte, jak Meta řeší problematiku podvodných reklam, která může ovlivnit důvěru uživatelů v platformu.",
-   "importance_label": "důležité",
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "Austrálie chce povolit vypnutí algoritmických feedů na sociálních sítích",
+   "updated": "2026-09-19T08:54:43.093037+00:00",
+   "what": "Australská vláda připravuje regulaci, která přinutí sociální platformy umožnit uživatelům nastavit chronologické řazení příspěvků jako výchozí místo algoritmického feedu. Šéf Instagramu Adam Mosseri varoval, že odstranění algoritmů povede k méně zajímavé uživatelské zkušenosti.",
+   "why": "Jde o první pokus velké západní ekonomiky omezit algoritmické řazení obsahu na sociálních sítích, který může být testovacím balonem pro další trhy včetně EU. Pokud se podobná regulace rozšíří, změní to výrazně organický dosah a strategie brandů na sociálních sítích.",
+   "takeaway": "Sledujte vývoj australské regulace – pokud projde a ukáže se funkční, může inspirovat podobné kroky v EU. V takovém případě bude třeba přehodnotit organickou strategii na sociálních sítích a více investovat do placeného dosahu.",
+   "importance_label": "stojí za pozornost",
    "multi_source": true,
-   "image": "img/902935d8ce.jpg",
-   "image_from": "searchengineland.com"
+   "image": "img/4edd87b20d.jpg",
+   "image_from": "socialmediaexaminer.com"
   },
   {
    "id": "b7fa0b47c3",
@@ -4141,12 +4253,21 @@
      "domain": "seroundtable.com",
      "published": "2026-09-18T12:01:00+00:00",
      "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-updates-mediapartners-google-crawler-guidance-less-about-adsense/589821",
+     "title": "Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense via @sejournal, @martinibuster",
+     "summary": "Google expanded their Mediapartners-Google guidance to make it about more than just AdSense. The post Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-17T20:51:57+00:00",
+     "score": 57
     }
    ],
    "category": "seo",
    "importance": 68,
    "title": "Cloudflare umožňuje blokovat AI trénink, ale nechat Googlebot pro indexaci",
-   "updated": "2026-09-18T22:45:08.118128+00:00",
+   "updated": "2026-09-19T08:54:31.322589+00:00",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/b7fa0b47c3.jpg",
@@ -4154,6 +4275,175 @@
    "what": "Cloudflare spustil funkci 'Disallow AI Training', která blokuje crawlery trénující AI modely, ale ponechává přístup pro Googlebot a další vyhledávače. Google a Apple toto nastavení respektují. Bing zatím nepodporuje – plná podpora přijde až začátkem 2027.",
    "why": "Řeší dilema provozovatelů webů: chtějí být v Google výsledcích, ale nechtějí, aby jejich obsah trénoval AI modely konkurence. Dosud museli buď povolit vše, nebo blokovat i vyhledávače. Cloudflare nabízí granulární kontrolu per kategorie crawlerů, ne jen per jednotlivé boty.",
    "takeaway": "Pokud vaše stránka běží přes Cloudflare a zajímá vás kontrola nad AI trénováním, zapněte 'Disallow AI Training'. Budete nadále v Googlu, ale zablokujete většinu AI crawlerů. Počítejte s tím, že Bing toto nastavení nebude plně respektovat ještě dva roky."
+  },
+  {
+   "id": "fbb3e8cbb2",
+   "created": "2026-09-16T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/demand-gen-ad-reviews-three-to-five-days",
+     "title": "Demand Gen Ad Reviews Can Take 3-5 Business Days, Edits Reset the Clock",
+     "summary": "Google has updated its help page to specify ad review times for different campaign types. Most reviews are completed within one business day, but standard reviews for Demand Gen and Discovery campaigns now take 3-5 business days , with complex formats potentially requiring up to 7 days. Advertisers are advised to avoid making edits to budgets, bid strategies, or ad text while an ad is under review, as any modification resets the review clock. If the review status hasn't changed after 7 business days, a minor edit can trigger the review process again. These changes highlight the need for advert",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-16T05:00:00+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-ai-updates-42095.html",
+     "title": "Google Merchant Center AI Reports Live, Easier UCP & UCP Analytics",
+     "summary": "Google has announced a number of updates to Google Merchant Center including the AI performance insights generally available, it has simplified Universal Commerce Protocol integration, and Google highlighted how using conversational and video attributes can help.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T14:00:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-ai-label-youtube-shorts-ads",
+     "title": "Google Shows AI Label on YouTube Shorts Ads",
+     "summary": "Google appears to be testing an AI label on ads shown within YouTube Shorts . The label is displayed as a small AI icon next to the sponsored ad information, giving viewers an additional indicator that AI may have been used in the ad. This update was spotted by Arpan Banerjee . The post Google Shows AI Label on YouTube Shorts Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T12:00:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
+     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
+     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T11:11:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
+     "title": "Google Ads is showing advertisers how their spending compares with peers",
+     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T14:50:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report",
+     "title": "Google Ads Introduces Spend Benchmarks Report",
+     "summary": "Google Ads is now offering a new Spend Benchmarks report that allows advertisers to compare their account data against similar businesses. It offers insights based on industry and advertising regions. This feature is visible in the account Overview section. The report provides metrics such as weekly spend and clicks received, demonstrating how an account's performance stacks up against its peers.&nbsp; This update was discovered by Thomas Eccel . The post Google Ads Introduces Spend Benchmarks Report appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-18T03:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.seroundtable.com/google-drops-free-product-listings-eea-42113.html",
+     "title": "Google Search Drops Free Product Listings From European Economic Area",
+     "summary": "Google Search has dropped the free product listings and carousel formats from the European Economic Area (EEA). This change is part of what the European Commission forced Google to do in these regions under the Digital Markets Act.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:11:00+00:00",
+     "score": 85
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-adds-invalid-leads-prevention-guide",
+     "title": "Google Adds Invalid Leads Prevention Guide",
+     "summary": "Google has introduced a new guide for lead generation advertisers aimed at preventing invalid leads . This help page details how Google's invalid traffic filters are insufficient for stopping fake or low-quality leads and emphasizes that maintaining high lead quality is a shared responsibility. Among the preventive measures listed, advertisers are encouraged to integrate reCAPTCHA on web forms, set up double opt-in procedures, and employ server-side validation for emails and phone numbers. Additionally, advertisers should focus on lead-specific goals and utilize first-party data to maintain le",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T00:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/video-dubbing-tool-available-asset-studio",
+     "title": "Video Dubbing Tool Available in Asset Studio",
+     "summary": "A new feature, Video Ads Dubbing , has been introduced in Google Ads' Asset Studio . This AI-powered tool enables the dubbing of video ads in 33 languages and locales .&nbsp; First spotted in October 2025 as internal feature, now it's&nbsp; available for free to select users . It allows advertisers to scale their video content across multiple countries without having to reshoot videos in each language.&nbsp; This update was shared by Jyll Saskin Gales . The post Video Dubbing Tool Available in Asset Studio appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T03:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tNkYzM25JNHozeEh1dk9nM3pPSVowS09yMVh5OUxIOWt3RGZXVjkzNGJJS3V1UkoyWnpTclRiMDlfdzY5dWFPc0lzTTRyQTd6N1dRYjA3YkJQQXpSX3gzVnpCRERkZw?oc=5",
+     "title": "How to tell which Google Ads controls actually control anything",
+     "summary": "How to tell which Google Ads controls actually control anything &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T13:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1FUUU85cDMxR2xuTmtCM2ZzRXhMTjlnS0MyVnFyeXhzN3N3RGFXX3k4ZWo0eUV1djNibFBSOC1zU0dMMDB2eUNnZ1BPaHdVZng1a3QxZXY1eXRhWGdha0UzZ09ianRsekdEMjRUTF9peTR1TnBBOVlxelJheUNQUE5UNlhfdjNnTFFyNXdFbmNBS2c?oc=5",
+     "title": "Google Ads rolls out AI video dubbing in Asset Studio",
+     "summary": "Google Ads rolls out AI video dubbing in Asset Studio &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-18T14:43:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads: recenze Demand Gen kampaní trvají 3–5 dnů, úpravy resetují proces",
+   "updated": "2026-09-19T08:54:19.860214+00:00",
+   "what": "Google upřesnil doby schvalování reklam podle typu kampaně. Zatímco běžné recenze trvají 1 pracovní den, standardní schválení pro Demand Gen a Discovery kampaně nyní zabere 3–5 dnů, složitější formáty až 7 dnů. Jakákoli úprava rozpočtu, bid strategie nebo textu reklamy během recenze resetuje celý proces.",
+   "why": "Pro PPC manažery to znamená delší čekání na spuštění nových Demand Gen kampaní a nutnost počítat s prodlevou při změnách. Časté úpravy rozpočtů nebo textů mohou kampaň držet ve schvalovacím procesu týdny.",
+   "takeaway": "Při plánování Demand Gen kampaní počítejte s 3–5denním zpožděním před spuštěním. Během schvalování neměňte rozpočty ani texty – pokud musíte, připravte se na restart celého procesu. Pokud se stav po 7 dnech nezmění, drobná úprava může recenzi znovu nastartovat.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/fbb3e8cbb2.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "e0fc43a4dd",
+   "created": "2026-09-18T11:15:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-adult-products-labels-42116.html",
+     "title": "Google Now Requires You Label Adult Products In Ecommerce Feeds",
+     "summary": "Google has updated its guidelines for sites with explicit content to now specify that ecommerce sites must \"label adult products in ecommerce feeds or markup.\" There is also a new section at the bottom of the help document titled, \"For Google Shopping features.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:15:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-responds-to-cross-domain-canonical-de-indexing-report/589917",
+     "title": "Google Responds To Cross-Domain Canonical De-Indexing Report via @sejournal, @martinibuster",
+     "summary": "Google's John Mueller explains how publishers can catch site problems before they become an indexing crisis. The post Google Responds To Cross-Domain Canonical De-Indexing Report appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T11:39:51+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2xHUk9ZbUJJT2pPT0c2M2JfdEpnWmdEZFVCa0lFNVlaMFNTbElOT1VZUVl4bXlJc0FjTVFzRndsVDd4cEpJZTdGeVhQWk9QLWJlY2lScms4RElfek9sUzNqXzlTb2IxRFgtRmotZU9odTREdEdFOVVPS1BGdTQzSUNSMGo5R0pGeTBWOHplR0NyaEJYNm5iN0xLYw?oc=5",
+     "title": "Google Merchant Center adds API support for product reviews",
+     "summary": "Google Merchant Center adds API support for product reviews &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-18T14:52:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-commerce-audience-sharing-42109.html",
+     "title": "Google Ads Commerce Audience Sharing Help Document",
+     "summary": "Google has posted a new help document in the Google Ads help area named About commerce audience sharing through Google Ads. It explains that \"Commerce audience sharing allows commerce partners, such as retailers or marketplaces, to share first-party data segments with their advertising partners, such as brands or sellers.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:31:00+00:00",
+     "score": 75
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google nově vyžaduje označení produktů pro dospělé v produktových feedech",
+   "updated": "2026-09-19T08:54:12.534105+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/e0fc43a4dd.jpg",
+   "image_from": "seroundtable.com",
+   "what": "Google aktualizoval pravidla pro weby s explicitním obsahem. E-shopy nyní musí v produktových feedech nebo pomocí značkování (markup) označit produkty pro dospělé. Do help dokumentace přibyla nová sekce určená přímo pro Google Shopping funkce.",
+   "why": "Pokud e-shop prodává produkty kategorie 18+ a neoznačí je správně ve feedu pro Google Merchant Center, riskuje odmítnutí produktů nebo celého feedu. Změna se týká všech e-shopů s takovou nabídkou, které inzerují přes Google Shopping.",
+   "takeaway": "Zkontroluj produktový feed – pokud prodáváš jakékoli zboží pro dospělé, doplň do feedu příslušné označení podle aktualizované dokumentace Google Merchant Center. Jinak ti hrozí zamítnutí produktů."
   },
   {
    "id": "052c1b5310",
@@ -4248,12 +4538,30 @@
      "domain": "searchengineland.com",
      "published": "2026-09-18T13:00:00+00:00",
      "score": 63
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-discover-test-adds-topic-overviews-starting-with-videos/589963",
+     "title": "Google Discover Test Adds Topic Overviews, Starting With Videos via @sejournal, @MattGSouthern",
+     "summary": "Google is testing a \"Dive deeper\" button in Discover, starting with videos. The post Google Discover Test Adds Topic Overviews, Starting With Videos appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T22:24:26+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-discover-dive-deeper-42119.html",
+     "title": "Google Discover Tests Dive Deeper Feature",
+     "summary": "Google is testing a new feature in Google Discover named \"Dive deeper.\" When you click on it, it does not take you to a publisher's article, instead, it takes you to an AI-generated short topic overview with links to some other articles (which do take you to the publisher) and community reaction.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T20:22:00+00:00",
+     "score": 61
     }
    ],
    "category": "seo",
    "importance": 75,
    "title": "AI Overviews snižují CTR o 23 % – francouzská data potvrzují dopad na organiku",
-   "updated": "2026-09-18T22:44:54.360747+00:00",
+   "updated": "2026-09-19T08:53:57.266068+00:00",
    "what": "Ahrefs analyzoval 963 domén přes Google Search Console 28 dní před spuštěním AI Overviews ve Francii (22. 7. 2026) a 9 dní po něm. Domény nejvíce exponované AI výsledkům ztratily v průměru 23,1 % z CTR. Současně Google testuje přímé odkazy z produktových výsledků na stránky obchodníků a rozšiřuje AI režim do dalších částí rozhraní (vyhledávací lišta, lokální panely). John Mueller zmiňuje, že reportování pozic a impresí pro AI Mode a AI Overviews v Search Console se bude v čase měnit společně s vývojem těchto prvků.",
    "why": "Pokles CTR o pětinu u nejexponovanějších domén je zásadní pro plánování organického výkonu a rozpočtů. Pokud Google AI OverviewsExpanduje do ČR (nebo do dalších EU zemí včetně rozšíření lokálních AI panelů), organická návštěvnost může klesnout obdobně. Zároveň změny v reportingu GSC znamenají, že současné metriky pozic a impresí nemusí zůstat stabilní – sledování výkonnosti bude vyžadovat nové postupy.",
    "takeaway": "Sledujte data z GSC u klíčových stránek a připravte scénář pro pokles organické návštěvnosti o 15–25 %, pokud se AI Overviews objeví v ČR. Prozatím počítejte s tím, že GSC metriky pro AI prvky se budou měnit – nespoléhejte se jen na historická čísla pozic. Testujte další kanály (PPC, direct, newsletter) jako pojistku proti poklesu SEO návštěvnosti.",
@@ -4263,48 +4571,63 @@
    "image_from": "ahrefs.com"
   },
   {
-   "id": "e0fc43a4dd",
-   "created": "2026-09-18T11:15:00+00:00",
+   "id": "667bf63daa",
+   "created": "2026-09-19T05:00:00+00:00",
    "articles": [
     {
-     "url": "https://www.seroundtable.com/google-adult-products-labels-42116.html",
-     "title": "Google Now Requires You Label Adult Products In Ecommerce Feeds",
-     "summary": "Google has updated its guidelines for sites with explicit content to now specify that ecommerce sites must \"label adult products in ecommerce feeds or markup.\" There is also a new section at the bottom of the help document titled, \"For Google Shopping features.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:15:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-responds-to-cross-domain-canonical-de-indexing-report/589917",
-     "title": "Google Responds To Cross-Domain Canonical De-Indexing Report via @sejournal, @martinibuster",
-     "summary": "Google's John Mueller explains how publishers can catch site problems before they become an indexing crisis. The post Google Responds To Cross-Domain Canonical De-Indexing Report appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T11:39:51+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2xHUk9ZbUJJT2pPT0c2M2JfdEpnWmdEZFVCa0lFNVlaMFNTbElOT1VZUVl4bXlJc0FjTVFzRndsVDd4cEpJZTdGeVhQWk9QLWJlY2lScms4RElfek9sUzNqXzlTb2IxRFgtRmotZU9odTREdEdFOVVPS1BGdTQzSUNSMGo5R0pGeTBWOHplR0NyaEJYNm5iN0xLYw?oc=5",
-     "title": "Google Merchant Center adds API support for product reviews",
-     "summary": "Google Merchant Center adds API support for product reviews &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-18T14:52:00+00:00",
-     "score": 65
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-sponsored-places-as-vertical-cards",
+     "title": "Google Tests ‘Sponsored Places’ as Vertical Cards",
+     "summary": "Google is testing a new Sponsored Places section design in its search results, showing businesses in vertical cards , offering expanded visibility for local businesses when users hover over the listings.&nbsp; In February, the same section was beeing tested as horizontal cards . This update was shared by Khushal Bherwani and Barry Schwartz . The post Google Tests &#8216;Sponsored Places&#8217; as Vertical Cards appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-19T05:00:00+00:00",
+     "score": 57
     }
    ],
    "category": "ppc",
-   "importance": 72,
-   "title": "Google Merchant Center: povinné značení produktů pro dospělé a nová API pro recenze",
-   "updated": "2026-09-18T22:44:43.614451+00:00",
+   "importance": 45,
+   "title": "Google testuje nový formát reklam 'Sponsored Places' ve vertikálních kartách",
+   "updated": "2026-09-19T08:53:30.668738+00:00",
+   "what": "Google testuje nový design sekce Sponsored Places ve výsledcích vyhledávání, kde se firmy zobrazují ve vertikálních kartách s rozšířenými informacemi při najetí myší. Stejná sekce byla v únoru testována v horizontálním formátu karet.",
+   "why": "Jde o další iteraci reklamního formátu pro lokální firmy v Google vyhledávání. Změna layoutu může ovlivnit viditelnost a výkon kampaní zaměřených na místní publikum.",
+   "takeaway": "Sledujte výkon svých lokálních kampaní – pokud Google rozšíří tento formát, může to změnit CTR a nutnost optimalizace reklamních textů a rozšíření pro větší plochu karet.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "902935d8ce",
+   "created": "2026-09-14T16:45:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEZaQWNraG1nMVI4dm53Y2ZqTDVIT05iZXRRQXpyeS1GWHJaYlRUd3hjOG93cm5LVjZwLVhpdWxhc2E3by0wX1ZJTV9yNVU3RjlRczNaZHdqckF5RDdOOC1xQ0RTU2QxdmpRRWkxZTJ0SnAzcEdORFZULV8zZjMtVGVJNVRVUmxyMkVwajBKbFpUUWNxR0FPVmc5cV8yZElJZ2xMRVJHMkFYUQ?oc=5",
+     "title": "Facebook ad costs fall as traffic and lead performance improves: Report",
+     "summary": "Facebook ad costs fall as traffic and lead performance improves: Report &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T16:45:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce",
+     "title": "Prostujemy: fakty o walce z oszukańczymi reklamami w Polsce",
+     "summary": "Na początku tego tygodnia fundacja Instrat opublikowała raport dotyczący jednego z najtrudniejszych wyzwań, z jakimi mierzy się cała branża &#8211; reklam o charakterze oszukańczym. To poważne i złożone wyzwanie, które dotyczy firm technologicznych, banków i całego społeczeństwa. Ciężko pracujemy, by przeciwdziałać działaniom wyrafinowanych i zdeterminowanych przestępców wykorzystują zaawansowane systemy sztucznej inteligencji, narzędzia chroniące użytkowników oraz współpracując z organami ścigania i partnerami z branży. Rozliczanie nas z naszych działań jest w pełni uzasadnione, ale ten rapor",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-18T14:55:13+00:00",
+     "score": 54
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Facebook: cena reklam klesá, výkon kampaní na provoz a leady roste",
+   "updated": "2026-09-18T22:45:18.645792+00:00",
+   "what": "Podle reportu Search Engine Land klesly náklady na Facebook reklamy, zatímco výkon kampaní zaměřených na návštěvnost a generování leadů se zlepšil. Meta zároveň zveřejnila prohlášení k polské zprávě o boji proti podvodným reklamám, kde popisuje své snahy čelit této výzvě prostřednictvím AI systémů, nástrojů na ochranu uživatelů a spolupráce s orgány činnými v trestním řízení.",
+   "why": "Pokles nákladů při současném zlepšení výkonu znamená pro marketingové manažery lepší ROI kampaní na Facebooku – za stejný nebo nižší rozpočet mohou získat více návštěv webu a kvalifikovaných leadů. Téma podvodných reklam je relevantní pro důvěryhodnost celé platformy a může ovlivnit vnímání značek inzerujících na Facebooku.",
+   "takeaway": "Sledujte vývoj CPC a CPL na vašich Facebook kampaních – pokud trend platí i pro český trh, můžete získat lepší výsledky při současných nebo nižších nákladech. Zároveň dávejte pozor na brand safety a sledujte, jak Meta řeší problematiku podvodných reklam, která může ovlivnit důvěru uživatelů v platformu.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/e0fc43a4dd.jpg",
-   "image_from": "seroundtable.com",
-   "what": "Google aktualizoval pravidla pro e-shopy s explicitním obsahem – od nynějška musí prodejci v produktových feedech označovat produkty pro dospělé (adult products). Změna se týká Google Shopping funkcí. Zároveň Google Merchant Center přidal API podporu pro produktové recenze.",
-   "why": "E-shopy s produkty pro dospělé musí upravit své produktové feedy (např. pro Google Nákupy/Shopping), jinak riskují zamítnutí produktů nebo vypnutí kampaní. Jde o povinnost, nikoliv doporučení. Nové API pro recenze může usnadnit automatizaci importu hodnocení produktů.",
-   "takeaway": "Pokud prodáváte produkty pro dospělé, zkontrolujte své feedy v Merchant Center a doplňte značení podle nových pravidel. Sledujte upozornění v Merchant Center účtu – Google může produkty bez správného označení zamítnout. Pro obchody pracující s recenzemi zvažte využití nového API."
+   "image": "img/902935d8ce.jpg",
+   "image_from": "searchengineland.com"
   },
   {
    "id": "5498f20251",
@@ -4511,145 +4834,6 @@
    "multi_source": true,
    "image": "img/14c00923b3.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "fbb3e8cbb2",
-   "created": "2026-09-16T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/demand-gen-ad-reviews-three-to-five-days",
-     "title": "Demand Gen Ad Reviews Can Take 3-5 Business Days, Edits Reset the Clock",
-     "summary": "Google has updated its help page to specify ad review times for different campaign types. Most reviews are completed within one business day, but standard reviews for Demand Gen and Discovery campaigns now take 3-5 business days , with complex formats potentially requiring up to 7 days. Advertisers are advised to avoid making edits to budgets, bid strategies, or ad text while an ad is under review, as any modification resets the review clock. If the review status hasn't changed after 7 business days, a minor edit can trigger the review process again. These changes highlight the need for advert",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-16T05:00:00+00:00",
-     "score": 80
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-ai-updates-42095.html",
-     "title": "Google Merchant Center AI Reports Live, Easier UCP & UCP Analytics",
-     "summary": "Google has announced a number of updates to Google Merchant Center including the AI performance insights generally available, it has simplified Universal Commerce Protocol integration, and Google highlighted how using conversational and video attributes can help.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T14:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-ai-label-youtube-shorts-ads",
-     "title": "Google Shows AI Label on YouTube Shorts Ads",
-     "summary": "Google appears to be testing an AI label on ads shown within YouTube Shorts . The label is displayed as a small AI icon next to the sponsored ad information, giving viewers an additional indicator that AI may have been used in the ad. This update was spotted by Arpan Banerjee . The post Google Shows AI Label on YouTube Shorts Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-18T12:00:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html",
-     "title": "Google Ads Spend Benchmarks Report Compares Your Competitors",
-     "summary": "Google Ads is rolling out an update to the Spend benchmarks report that now shows you how your spend is comparable to businesses like yours. In short, it shows you if you are spending more, less or the same as your competitors on Google Ads.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T11:11:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRW5RYlNuMnBCR3hSVXh2ajczM1NRdTlpRDRPc0VLZ09vQ0c1emFCY0dJVnlKRmRSaGRwaVhybGR1emFtd3pNOVpRUkZEY3RJLWRyRGE0bHNYMmJaMHl1ckVvbkxIMlVtbGJnVGhHWlBtTVV1X2VjQlJ2WnpzSkpvUVpLWFFKaWlLN2NGWXN2RU9YU1ZvVHBDc3I2Vko0QXFvc1A4SXRLcHRyaGN1?oc=5",
-     "title": "Google Ads is showing advertisers how their spending compares with peers",
-     "summary": "Google Ads is showing advertisers how their spending compares with peers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T14:50:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-introduces-spend-benchmarks-report",
-     "title": "Google Ads Introduces Spend Benchmarks Report",
-     "summary": "Google Ads is now offering a new Spend Benchmarks report that allows advertisers to compare their account data against similar businesses. It offers insights based on industry and advertising regions. This feature is visible in the account Overview section. The report provides metrics such as weekly spend and clicks received, demonstrating how an account's performance stacks up against its peers.&nbsp; This update was discovered by Thomas Eccel . The post Google Ads Introduces Spend Benchmarks Report appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-18T03:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.seroundtable.com/google-drops-free-product-listings-eea-42113.html",
-     "title": "Google Search Drops Free Product Listings From European Economic Area",
-     "summary": "Google Search has dropped the free product listings and carousel formats from the European Economic Area (EEA). This change is part of what the European Commission forced Google to do in these regions under the Digital Markets Act.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:11:00+00:00",
-     "score": 85
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-adds-invalid-leads-prevention-guide",
-     "title": "Google Adds Invalid Leads Prevention Guide",
-     "summary": "Google has introduced a new guide for lead generation advertisers aimed at preventing invalid leads . This help page details how Google's invalid traffic filters are insufficient for stopping fake or low-quality leads and emphasizes that maintaining high lead quality is a shared responsibility. Among the preventive measures listed, advertisers are encouraged to integrate reCAPTCHA on web forms, set up double opt-in procedures, and employ server-side validation for emails and phone numbers. Additionally, advertisers should focus on lead-specific goals and utilize first-party data to maintain le",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T00:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/video-dubbing-tool-available-asset-studio",
-     "title": "Video Dubbing Tool Available in Asset Studio",
-     "summary": "A new feature, Video Ads Dubbing , has been introduced in Google Ads' Asset Studio . This AI-powered tool enables the dubbing of video ads in 33 languages and locales .&nbsp; First spotted in October 2025 as internal feature, now it's&nbsp; available for free to select users . It allows advertisers to scale their video content across multiple countries without having to reshoot videos in each language.&nbsp; This update was shared by Jyll Saskin Gales . The post Video Dubbing Tool Available in Asset Studio appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T03:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tNkYzM25JNHozeEh1dk9nM3pPSVowS09yMVh5OUxIOWt3RGZXVjkzNGJJS3V1UkoyWnpTclRiMDlfdzY5dWFPc0lzTTRyQTd6N1dRYjA3YkJQQXpSX3gzVnpCRERkZw?oc=5",
-     "title": "How to tell which Google Ads controls actually control anything",
-     "summary": "How to tell which Google Ads controls actually control anything &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T13:00:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads prodlužuje review Demand Gen kampaní na 3–5 dní, úpravy proces restartují",
-   "updated": "2026-09-18T22:44:22.032896+00:00",
-   "what": "Google aktualizoval nápovědu k délce schvalování reklam: standardní review u Demand Gen a Discovery kampaní nyní trvá 3–5 pracovních dní, u složitějších formátů až 7 dní. Jakákoliv úprava (rozpočet, bidding, text) během kontroly proces restartuje od nuly.",
-   "why": "Změna prodlužuje dobu, než se nová Demand Gen kampaň spustí, a vyžaduje disciplinovanější plánování – spontánní úpravy mohou odložit start o další týden.",
-   "takeaway": "Při spouštění Demand Gen/Discovery kampaní počítejte s týdenní prodlevou a vyhněte se jakýmkoli úpravám během schvalování. Pokud se stav nezmění do 7 dnů, teprve pak proveďte drobnou úpravu jako trigger.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/fbb3e8cbb2.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "8669411eea",
-   "created": "2026-09-18T20:22:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-discover-test-adds-topic-overviews-starting-with-videos/589963",
-     "title": "Google Discover Test Adds Topic Overviews, Starting With Videos via @sejournal, @MattGSouthern",
-     "summary": "Google is testing a \"Dive deeper\" button in Discover, starting with videos. The post Google Discover Test Adds Topic Overviews, Starting With Videos appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T22:24:26+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-discover-dive-deeper-42119.html",
-     "title": "Google Discover Tests Dive Deeper Feature",
-     "summary": "Google is testing a new feature in Google Discover named \"Dive deeper.\" When you click on it, it does not take you to a publisher's article, instead, it takes you to an AI-generated short topic overview with links to some other articles (which do take you to the publisher) and community reaction.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T20:22:00+00:00",
-     "score": 61
-    }
-   ],
-   "category": "seo",
-   "importance": 61,
-   "title": "Google Discover Test Adds Topic Overviews, Starting With Videos via @sejournal, @MattGSouthern",
-   "updated": "2026-09-18T22:44:10.424055+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/8669411eea.jpg",
-   "image_from": "seroundtable.com"
   },
   {
    "id": "2e6af52495",
@@ -4905,30 +5089,6 @@
    "multi_source": false
   },
   {
-   "id": "e6292103c3",
-   "created": "2026-09-18T14:43:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1FUUU85cDMxR2xuTmtCM2ZzRXhMTjlnS0MyVnFyeXhzN3N3RGFXX3k4ZWo0eUV1djNibFBSOC1zU0dMMDB2eUNnZ1BPaHdVZng1a3QxZXY1eXRhWGdha0UzZ09ianRsekdEMjRUTF9peTR1TnBBOVlxelJheUNQUE5UNlhfdjNnTFFyNXdFbmNBS2c?oc=5",
-     "title": "Google Ads rolls out AI video dubbing in Asset Studio",
-     "summary": "Google Ads rolls out AI video dubbing in Asset Studio &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-18T14:43:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads spouští AI dabbing videa v Asset Studiu",
-   "updated": "2026-09-18T19:06:32.264790+00:00",
-   "what": "Google Ads zavádí do Asset Studia funkci automatického dabování videí pomocí AI. Nástroj umožňuje generovat hlasové verze videoreklam v různých jazycích.",
-   "why": "Pro marketéry spravující kampaně v Google Ads to znamená možnost vytvářet lokalizované video reklamy rychleji a levněji než dosud. Relevantní zejména pro firmy, které chtějí oslovit zahraničí nebo různé jazykové skupiny bez nákladů na profesionální dabing.",
-   "takeaway": "Pokud děláte video kampaně v Google Ads a testujete cizí trhy, vyzkoušejte novou funkci dabingu v Asset Studiu – může ušetřit náklady na produkci lokalizovaných verzí. Pro čistě český trh zatím nižší přínos.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "c1689f44c5",
    "created": "2026-09-16T21:33:03+00:00",
    "articles": [
@@ -5120,65 +5280,6 @@
    "multi_source": false
   },
   {
-   "id": "8354c05bed",
-   "created": "2026-09-18T11:31:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-commerce-audience-sharing-42109.html",
-     "title": "Google Ads Commerce Audience Sharing Help Document",
-     "summary": "Google has posted a new help document in the Google Ads help area named About commerce audience sharing through Google Ads. It explains that \"Commerce audience sharing allows commerce partners, such as retailers or marketplaces, to share first-party data segments with their advertising partners, such as brands or sellers.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:31:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads umožňuje sdílení Commerce Audiences mezi partnery",
-   "updated": "2026-09-18T14:37:57.846988+00:00",
-   "what": "Google Ads spustil novou funkci Commerce Audience Sharing, která umožňuje e-commerce platformám (marketplace, retailery) sdílet segmenty first-party dat se svými reklamními partnery – značkami nebo prodejci. Funkcionalita je popsána v nové help dokumentaci.",
-   "why": "Pro české e-shopy a marketplace může jít o nový způsob, jak nabídnout brandům lepší cílení v Google Ads na základě nákupního chování. Pro značky prodávající přes partnery to znamená potenciálně přesnější zacílení kampaní.",
-   "takeaway": "Pokud provozujete marketplace nebo jste brand prodávající přes partnery, sledujte dostupnost této funkce v ČR a zvažte, zda vám sdílení audiences nepřinese lepší výkon kampaní nebo nové příjmy z dat.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "4daeb9063f",
-   "created": "2026-09-17T15:28:52+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/do-13-let-vubec-od-15-jen-s-omezenim-komise-predstavila-navrh-regulace-socialnich-siti-pro-deti",
-     "title": "Do 13 let vůbec, od 15 omezeně. Komise představila návrh regulace sociálních sítí pro děti",
-     "summary": "Evropská komise (EK) představila očekávaný návrh nařízení, které má v celé Evropské unii nastavit jednotná pravidla, jak mohou děti používat sociální sítě, servery na sdílení videí a dal&#353;í služby. EU Kids Act má podle ní ochránit děti před negativními vlivy těchto digitálních služeb.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-17T15:28:52+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.mediaguru.cz/eu-chce-omezit-socialni-site-detem-do-15-let-navrhuje-i-hodinovy-limit",
-     "title": "EU chce omezit sociální sítě dětem do 15 let, navrhuje i hodinový limit",
-     "summary": "Evropská komise navrhuje společná pravidla pro používání sociálních sítí a dalších online služeb dětmi. Do 13 let by byl přístup zakázán, uživatelé ve věku 13 až 15 let by mohli služby využívat nejvýše hodinu denně.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-18T08:40:00+00:00",
-     "score": 77
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 75,
-   "title": "EU Kids Act: zákaz soc. sítí do 13 let, od 15 max. hodinu denně",
-   "updated": "2026-09-18T09:06:20.409571+00:00",
-   "what": "Evropská komise představila návrh nařízení EU Kids Act, který má v celé EU jednotně regulovat přístup dětí k sociálním sítím a videosharingovým službám. Děti do 13 let by měly mít přístup zakázán úplně, uživatelé ve věku 13–15 let by mohli platformy využívat maximálně hodinu denně.",
-   "why": "Pokud návrh projde, ovlivní toTargetování kampaní a možnosti oslovení mladých uživatelů na Meta, TikToku a dalších platformách. Firmy cílící na mladší publikum (školy, e-shopy s oblečením, zábava) budou muset změnit strategie a komunikaci směřovat na starší skupiny nebo rodiče.",
-   "takeaway": "Sleduj legislativní proces a termíny, kdy bude nařízení platné. Připrav se na možné omezení cílení na mladé uživatele a přesuň rozpočty nebo kreativy směrem k rodičům či starším kohortám, pokud je tato skupina pro tebe klíčová.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4daeb9063f.jpg",
-   "image_from": "lupa.cz"
-  },
-  {
    "id": "e924c962e2",
    "created": "2026-09-17T14:30:00+00:00",
    "articles": [
@@ -5359,30 +5460,6 @@
    "multi_source": false,
    "image": "img/0c88c9597d.jpg",
    "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "9f34df7534",
-   "created": "2026-09-17T20:51:57+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-updates-mediapartners-google-crawler-guidance-less-about-adsense/589821",
-     "title": "Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense via @sejournal, @martinibuster",
-     "summary": "Google expanded their Mediapartners-Google guidance to make it about more than just AdSense. The post Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-17T20:51:57+00:00",
-     "score": 57
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Google rozšířil dokumentaci k crawleru Mediapartners-Google",
-   "updated": "2026-09-17T22:56:15.451345+00:00",
-   "what": "Google aktualizoval dokumentaci k crawleru Mediapartners-Google. Tento crawler už není vázán pouze na AdSense, jak tomu bylo dříve, ale má širší použití.",
-   "why": "Jde o upřesnění technické dokumentace pro webmastery, kteří spravují robots.txt nebo chtějí rozumět tomu, jak Google crawluje jejich weby.",
-   "takeaway": "Pokud ve svém robots.txt blokujete nebo řídíte přístup crawleru Mediapartners-Google, zkontrolujte aktualizovanou dokumentaci a ujistěte se, že tím neomezujete legitimní crawlování Googlu mimo AdSense.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "7d51084613",
@@ -10836,122 +10913,6 @@
    "image_from": "socialmediatoday.com"
   },
   {
-   "id": "4edd87b20d",
-   "created": "2026-09-08T09:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediaexaminer.com/instagram-content-strategy-tiktok-ads-tools-and-industry-news",
-     "title": "Instagram Content Strategy, TikTok Ads Tools, and Industry News",
-     "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition: Turn Instagram's search bar into your content strategy engine How TikTok's new AI tools could transform your ad strategy 🗞️ Industry news [&#8230;] The post Instagram Content Strategy, TikTok Ads Tools, and Industry News appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-09-08T09:30:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/australia-moves-to-enable-algorithm-opt-outs/829863",
-     "title": "Australia moves to enable algorithm opt-outs",
-     "summary": "New regulations will require social platforms to allow users to set chronological feeds as the default.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-08T21:01:14+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/will-removing-algorithmic-sorting-improve-social-media/829868",
-     "title": "Will removing algorithmic sorting improve social media?",
-     "summary": "A move by Australia&rsquo;s government to switch feeds to chronological defaults may prove to be a kind of trial balloon for other markets to gauge impact and effectiveness.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-08T21:48:14+00:00",
-     "score": 54
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/pinterest-renames-campaign-objectives-to-simplify-ad-focus/829869",
-     "title": "Pinterest renames campaign objectives to simplify ad focus",
-     "summary": "The updated terminology aims to clarify the purpose of each campaign type.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-08T21:54:53+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/instagram-chief-warns-against-eliminating-algorithms/830130",
-     "title": "Instagram Chief warns against eliminating algorithms",
-     "summary": "Adam Mosseri told reporters in Australia that eliminating the algorithmic feed would create a less engaging experience for users.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-10T23:56:22+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.searchenginejournal.com/youtube-gives-you-feedback-on-shorts-before-publishing/589088",
-     "title": "YouTube Gives You Feedback On Shorts Before Publishing via @sejournal, @MattGSouthern",
-     "summary": "YouTube is expanding Get Feedback, a tool that reviews a Shorts before publishing, to U.S. users The post YouTube Gives You Feedback On Shorts Before Publishing appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-10T13:55:02+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://sproutsocial.com/insights/social-media-ban",
-     "title": "Will social media bans reshape the future of marketing?",
-     "summary": "Conditions online can be harrowing. All of us are susceptible to doom-scrolling—absorbing the intensity of global political, humanitarian and climate crises with the flick Read more... The post Will social media bans reshape the future of marketing? appeared first on Sprout Social .",
-     "source": "Sprout Social",
-     "domain": "sproutsocial.com",
-     "published": "2026-09-10T14:00:46+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/snapchat-expands-dynamic-product-ads-to-sponsored-snaps/830124",
-     "title": "Snapchat expands Dynamic Product Ads to Sponsored Snaps",
-     "summary": "The platform updated its commerce tools for retail advertisers ahead of the holiday promotional season, allowing brands to showcase products via Snap DMs.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-10T21:24:45+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/instagram-lets-users-add-tagged-posts-to-profile-grids/830126",
-     "title": "Instagram lets users add tagged posts to profile grids",
-     "summary": "When a user is tagged in a post, they will now be able to display that post on their grid in-stream, facilitating collaborations.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-10T21:44:56+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/x-rolls-out-number-code-access-for-dms/830129",
-     "title": "X rolls out number code access for DMs",
-     "summary": "The feature will let users generate unique, private 10-digit contact numbers to facilitate DMs with users they&rsquo;re not connected to.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-10T23:50:19+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.mediaguru.cz/australie-chce-dat-uzivatelum-vetsi-kontrolu-nad-socialnimi-sitemi",
-     "title": "Austrálie chce dát uživatelům větší kontrolu nad sociálními sítěmi",
-     "summary": "Austrálie připravuje novou regulaci sociálních sítí, která má uživatelům umožnit vypnout algoritmické doporučování obsahu a zobrazovat pouze příspěvky od vybraných účtů. Součástí návrhu jsou také přísnější povinnosti platforem při ochraně dětí před škodlivým obsahem.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-13T07:45:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 65,
-   "title": "Austrálie chce povinnou možnost chronologického feedu na sociálních sítích",
-   "updated": "2026-09-13T09:38:26.226830+00:00",
-   "what": "Australská vláda zavádí regulaci, která nařídí sociálním platformám umožnit uživatelům nastavit chronologický feed jako výchozí. Šéf Instagramu Adam Mosseri varuje, že odstranění algoritmického řazení vytvoří méně poutavý zážitek pro uživatele.",
-   "why": "Jde o potenciální precedens – Austrálie může sloužit jako testovací trh pro podobná opatření v EU. Pokud regulace projde a rozšíří se, dramaticky to změní fungování organického dosahu a engagement na sociálních sítích.",
-   "takeaway": "Sleduj vývoj australské regulace. Pokud se trend rozšíří do EU, bude nutné přehodnotit obsah strategii – chronologický feed zvýhodní pravidelné publikování a sníží význam virality a engagement-baitingu. Zaměř se na konzistenci a timing, ne jen na engagement.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/4edd87b20d.jpg",
-   "image_from": "socialmediaexaminer.com"
-  },
-  {
    "id": "373c0d996b",
    "created": "2026-07-28T08:36:13+00:00",
    "articles": [
@@ -13467,30 +13428,6 @@
    "multi_source": false,
    "image": "img/7ff058f41d.jpg",
    "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "852918a019",
-   "created": "2026-08-15T07:09:13.546531+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/navstevnost-slovenskych-webu-je-nad-tremi-miliony",
-     "title": "Návštěvnost slovenských webů je nad třemi milióny",
-     "summary": "Nejúspěšnějším provozovatelem slovenského internetu zůstává Ringier Slovakia, nejnavštěvovanějším webem Aktuality.sk. Přinášíme výsledky gemiusAudience za 1. pololetí 2026.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-15T05:30:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 35,
-   "title": "Ringier Slovakia vede návštěvnost slovenského internetu, Aktuality.sk je nejčtenější",
-   "updated": "2026-08-15T07:09:13.546531+00:00",
-   "what": "Podle měření gemiusAudience za první pololetí 2026 zůstává Ringier Slovakia nejúspěšnějším provozovatelem na slovenském internetu. Nejnavštěvovanějším jednotlivým webem je Aktuality.sk. Celková návštěvnost slovenských webů přesahuje tři miliony uživatelů.",
-   "why": "Data ukazují aktuální rozložení sil na slovenském trhu, který je pro české firmy často první zahraniční expanzí.",
-   "takeaway": "České značky plánující vstup na Slovensko by měly zvážit mediální spolupráci s Ringier Slovakia a portálem Aktuality.sk, které mají prokazatelně nejvyšší dosah. Slovenský trh s třemi miliony uživatelů představuje relevantní příležitost pro testování zahraničních kampaní.",
-   "importance_label": "kontext",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
