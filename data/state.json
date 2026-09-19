@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-19T17:25:13.290647+00:00",
+ "last_run": "2026-09-19T20:54:52.518421+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -196,8 +196,8 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd8d704c140>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)')))",
-   "new": 1
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fc1c830cfe0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)')))",
+   "new": 0
   },
   {
    "name": "Google Ads & Commerce Blog",
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.ppchero.com', port=443): Read timed out. (read timeout=15)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -225,8 +225,8 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "feed": "https://www.smartemailing.cz/blog/feed",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -376,7 +376,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -4060,9 +4060,37 @@
   "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwYlhaRW50STVfNzhBTDBJOGQ3T0ExV0dFejM1SUJfeWYwSWpVUHVDZTZaaTNlNERmLXRpWDhIdEVmNDRTWVl0eVNHRWVLSzRqaGZjVFpEQm1wbXRwQm9JTGFPWmMtbzhmV19QdEpCQQ?oc=5": "2026-09-19T13:58:44.746006+00:00",
   "https://cc.cz/takhle-vypadala-praha-pred-200-lety-langweiluv-model-hlavniho-mesta-si-konecne-prohlednete-ve-3d-online": "2026-09-19T17:25:13.290647+00:00",
   "https://cc.cz/byt-chytry-a-rozumet-emocim-uz-nestaci-je-tu-nova-vlastnost-bez-ktere-v-dobe-ai-mozna-neuspejete": "2026-09-19T17:25:13.290647+00:00",
-  "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XWWFiVUZaTU1NR2daaU5mdC1lZzlodGhXQTBFcUp4QXRSTWh6Y2hPZWlLcHQwVnpZOURCazRINkNrS29lT3prZEM3c2tWdzUtN2FPY2FkNEs2TFRqMU80NkpfYWJhYk9jNEFDdw?oc=5": "2026-09-19T17:25:13.290647+00:00"
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XWWFiVUZaTU1NR2daaU5mdC1lZzlodGhXQTBFcUp4QXRSTWh6Y2hPZWlLcHQwVnpZOURCazRINkNrS29lT3prZEM3c2tWdzUtN2FPY2FkNEs2TFRqMU80NkpfYWJhYk9jNEFDdw?oc=5": "2026-09-19T17:25:13.290647+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTnpvRFZyQTV1aVkzNHVaN3otUVJDZnlTa2FvQm90Qnl4ZkdFWmZ4Y0d5Qnl0aGxkbTd1eVBpRktQczNmRWJQcGdzNENrMWFVYW1DVkhjNHZWekNubTZaNnZJa0FvMnFjQ0xsQVFiRGNlZzQ0ZVg4TDRaZ1cxdl9Kc19veVJhc3JmaFBqYlVlSWI4Q0luVENTM0UwMTgtNTE4Q1lNSktYSWlVa2lNZ1o1SFVCaUpGd0JwY3UxTk1pbEQ?oc=5": "2026-09-19T20:54:52.518421+00:00",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWDRneGdoVzhTeGdwSnRhM3BSeF9PdFA3eW9IRzgtNVU5M2hPQVNxVWd0QllZSXlvcWhuLTA2bDg3MHpnY0hhMFZac05hZUJXMUU3cy1hOU05bGYtVTIzOVZPbHFVUU4xX2JhWk5KZTlpdXd4bXljS1pCWXZWY3RqR0VR?oc=5": "2026-09-19T20:54:52.518421+00:00",
+  "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWG83cVFucnBRSUkyVjQ3ZDJRak8wYXNuelF6V2VtOHRmWEM4V2lVQ0lEcEpCcXJ1M0FHR3ZMeF9lX2FrMEQ3U18xWUNPVHZacWxlaDdVa3VuaU95MXNzOU04V294VkxHakZMeEhtV1JMQ1VIWFhkX3QzNWktVU5UclJsU3R0SVpaS2d6YjBTQkVDWENRWXNSaGt6YTQzN2FtdXlUM3FZNlNBSGx6UEt0LWR0RXdaRUY2MlpYOHJYRElyc0oxNV9rakt4U0lKcms?oc=5": "2026-09-19T20:54:52.518421+00:00",
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VVEtrWDNTbjlMbDFOTUlfZ096bzBvYVd3enZ2QVlPMVhsVnNGSFhhU1V4dVJaTHI3dWVSZi1MN0p3R05sbnF0dFFoSllQdEVMRU1BQUdfSEVadXJseU1v?oc=5": "2026-09-19T20:54:52.518421+00:00"
  },
  "events": [
+  {
+   "id": "a04a099555",
+   "created": "2026-09-17T17:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VVEtrWDNTbjlMbDFOTUlfZ096bzBvYVd3enZ2QVlPMVhsVnNGSFhhU1V4dVJaTHI3dWVSZi1MN0p3R05sbnF0dFFoSllQdEVMRU1BQUdfSEVadXJseU1v?oc=5",
+     "title": "Video SEO: The complete playbook for 2026",
+     "summary": "Video SEO: The complete playbook for 2026 &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T17:00:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Video SEO: komplexní playbook pro rok 2026",
+   "updated": "2026-09-19T20:54:52.518421+00:00",
+   "what": "Search Engine Land publikoval ucelenou příručku pro video SEO zaměřenou na rok 2026. Jde o soubor doporučení a postupů pro optimalizaci video obsahu ve vyhledávačích.",
+   "why": "Video obsah roste na významu ve vyhledávání a playbook shrnuje aktuální best practice. Pro marketingové manažery je to praktický návod, jak zvýšit viditelnost video obsahu bez nutnosti procházet jednotlivé zdroje.",
+   "takeaway": "Pokud vaše firma vytváří video obsah (YouTube, sociální sítě, web), stojí za to si playbook projít a zkontrolovat, zda máte nastavené základní technické optimalizace (strukturovaná data, titulky, náhledy). Může to zlepšit organický dosah videí.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "141e5cf5e2",
    "created": "2026-09-14T05:20:00+00:00",
