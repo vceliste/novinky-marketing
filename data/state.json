@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-20T09:25:36.791444+00:00",
+ "last_run": "2026-09-20T14:19:43.145889+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Lupa.cz",
@@ -70,8 +70,8 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 2
   },
   {
    "name": "Seznam blog",
@@ -88,14 +88,14 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "feed nenalezen",
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
    "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "new": 16
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -178,14 +178,14 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -214,7 +214,7 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -262,8 +262,8 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "chyba: empty feed (HTTP 404, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
    "new": 0
   },
   {
@@ -376,7 +376,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "chyba: empty feed (HTTP 403, text/html)",
+   "status": "ok",
    "new": 0
   },
   {
@@ -4073,305 +4073,33 @@
   "https://www.mediaguru.cz/google-testuje-odmenovani-vydavatelu-za-vyuziti-obsahu-v-ai": "2026-09-20T09:25:36.791444+00:00",
   "https://www.mediaguru.cz/disney-zavadi-playlisty-konkurenci-kanalu-ve-skyshowtime": "2026-09-20T09:25:36.791444+00:00",
   "https://www.mediaguru.cz/cro-plus-uvadi-podcast-pres-atlantik-o-deni-ve-spojenych-statech": "2026-09-20T09:25:36.791444+00:00",
-  "https://cc.cz/odvracena-tvar-ai-muze-byt-jako-droga-je-to-nejnebezpecnejsi-hra-rikaji-muzi-kteri-s-ni-stavi-byznys": "2026-09-20T09:25:36.791444+00:00"
+  "https://cc.cz/odvracena-tvar-ai-muze-byt-jako-droga-je-to-nejnebezpecnejsi-hra-rikaji-muzi-kteri-s-ni-stavi-byznys": "2026-09-20T09:25:36.791444+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVzVTT3JnUTZJT000STBCa2hYSEdaYnVQLUdmZXBtQjhHeDBLYTlwcFVuV3dzVzhxeUdWa2FSS2x0a3Vrc0k2cW5jblg3aDB6T0hSTmtOSXYteWFqX0J3NEpneTNrUXQ5ZWk3YUdpWnhoQklidzdSaFRVQzJHOXpUaXozV1V3bDdObE8zSGRzYXpJUnhIUGVSTWVxTmw0ZFU?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWWdQUy1GbkVULW5PdGFsd19ScVplRFJQN1hXTXE4a2RBSDN0ZnJ0R0F2V256VmVVRzFpUlp5T2lZWE9YNncxMGl2LWpaVE0wbzJWWTEwM19xcHlqWUdBcUsyeUdyNGU2cWJ5Qk92c0c3N3BEWk1vZzY5XzVVRmZIVFNSbTVMV3I4Ykpoa3duZFA1T2thOVNxNF9VZ0htUDUzYXduZ2Nn?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORGRqMjJkb1Z1czJKQ3VMVXJVSklvTU0yNGVjZ0ozeml2VWhJUzlKRzl5X2R5VjZkS1g1QlpxSUNicmJvaTM0WHY0MFFWclpQdmgtcG9QYVpYdDlDcVp4WEhJc21IOGI2clJVRzlZMHE3bFBSSmtTQmpTcWxRYkRHSU9jZXlnQnhKblpLSXVfZVNKZXlMdUdOVC14WlV4c3Q3N0lidlJjemFUWkRGNWZxWFpHTl9TSnlFZ2M4?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOckY0LUFZQXhxMjI3ckFyT3pHUVY0N1FRQ1JhRkdoMkpZZDRUZkowX1d5bkVIaEtlMUFaYTVmQldrNWtXSEhMZUpoX0U2QUdlRnVvbllqX0JrQnViQU0tbk9LMG1rUzNjY25fVHlvWHRlRmFKVkQyTVRLRmVDUmN1dXBMM2hKUkR3RERyRHpCdUFaTTg0X0FieHJKQU8?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa1lZYWhuR3YxN0QyVmtCVTlJdVhVckdTVGpUVWVrU0hJelpnamtoQzlsYzRYb0FvQzlZaWU5VElyd0hRVmNwQTRJRjQ5cFBPdlFLd184NTVZek9SR2pVcmZmZkRQOHFGMDVSNDZPcFlLRXM1ZF9BODlkZm85TXA5dUFJT09lZTdGV0RvZWhJVXJtaEZlRmZ2LQ?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUU2Y0JQdnJRSHJEMWZIZXQ5Zmp0aVJBZFZqTW4tVkJ4cG40cDFkcjliTVFHYnNkQUl3RUVQb2FUSXNjTFFjYWxKVjRkc0dKS0pEQ2NJQ3g4cWJvODJjYVZmM2VmNGRYbmI0ci1WY0JxQnFwT2pHUm03MnRxRXlRQUR5eGlGa0dmN2VOc0Q3VTEyYUZTeEhVai1WdDE1cGVVRXc?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNl8zWEdHSUNYMGVuUjNPbUpKVG1zbTNJVl84RjZpelNlTVBZSG02OUcxdFNLUkRZeTlNM0hrT3dPLWRld1VMUlBmcDJhZVpTSnM1TVVkRU0wanE0SWJBakZlOFhTRTJmdlA0ajBNZ0FqWWRRYlF5V0NLSy0yTVZCenNwaHJvUjA3SWo1MnA1NFpTSTYxZ0hSU1Y2dG16Rmh4VHc?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxObU9qRmhtYi1tcHJUdVdoNXZyaGRNcy0wMmpwTmdaUDRpdU9wM0s2RkJDMVJ1ZmIzQ3pOUGVzaHp4djgzUjgtQU13MGdfeS1zSERidUtieDRSVHVIUkRZR0dFdndZcmNTajJwQW9NS2piQVZJOW9Tc3F5LXJXaUFmT3VLX2taRHpOWkREWlVST0tpQS13N0FzVEItaVFPZ0U?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ0tmMUNYZHV1R0JIaU9UR1dKWERNTDZHTEhyTXNtRDhObzV3d2RSMEdZZVhyYTVlY3o2b1UxbHZlX2t4am01cTRDT3ROUU9JLXJiMjMyTmotMzBiTEtHMzBhQnltRVV2dU9qN2FTZXpSSVllWUtiamlhNXdveVhaMjVRcFNjQzF1cU5ydTB4ejdFQmNacVU5VUE4dndFMDQ?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenEyaVI5ZFBEczZqLVFoeGYxY19BOGdUWTRDaFhsVXNKUXN4S2FHemdKeVJuQVc1UGFfTTBILTQ5T2NmVG1WdzNWckJCUUNYWDEzbVJSMVo2eVlSYjhCdExjaElpYksta0RjbXBCdWd1eS00ZldMd0JpUEEzSlRLRjlVYUdSSTdYeDQxVnJZd0dvTV9aVVQwUTM4d3VXWGVYVGxyZG1n?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQmZrUTJ2S3QtZlUxaHJfbDRQaEhyYm1veGRUNktNWWZkN0gwWl9lczdraWdwVy02UlJ5ZTFMMzdwZkkyZDZTZHlYS1pVcVpYTzZwejhtSlc0TVBBd0dZUEhjWGVkSjcteko0QmhXRWNndXNPODhmaFotRzlNOVg5ZzNrRWZkUEoySjFQeVhxV3dTQTB5RWtxRnpZbG9NMzFJWnRzUV85RGsyc2VuRklyTg?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaEVuaWRuOGVhU3pqVnlMNGFGZnpGdE82WkZiOE5VOVVyVnZpR3doQ3gtZTRhRjRkMjlrYkVxaGJrTFg4aDBrbXpjQ0wzbWVlU0RpSVdQVUtZelRtdHc5dEF2MU54eHMyOWRPQTNyX2Vvc2ZNMnlpNVhJa1hnb2ZYdEM3S1hhekdpTk16dWtrdV9pX3pHR0tlTnpR?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ0RsRHVOUFhWdThPTm52Y0JOdG8zb2RuenhPUDE1UTYzS1BDRlB2RmRiZV9xdUQ5UDVJMnl6UkNaYTMwZmNja0FoY1hRMnFuYTh2Q2VFZlE5TWJiT1pQa2ZVRktST3dXQjczSWdRS0JWRjktSV9JLVN1cjVmQkdLTG9LWkp2RnhYaE56cU56TmM3VUdlRDJjcl85ZTJIZGo2d0RsVXdmdG9DN1pFcUpwTV9uU1dmajdGdnc?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGZyQ0x6WXdINmxxMW9Bb1NaczFCRXhCR21CRnFGS2Z4YmlfVU9QMnRFZlo0bVpacHRQWWN2VVg1Q1FFYlpjdl9UNklPbkFWQ05kRHhNSFF1d2NjcDY0TDB5S0ZDY0FWWGoxelU0aWpzZTZNUDJTV3F0ZnExVUVjcWJjRFBjR2hWcV9RLW9McU1Od05rNTUycGFKZjhCNUFiVGZLdnpR?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlWT3AzRjV3WjhPM2pGSnhMUmFhai1pb3ktX0dPb1FrMEZCYzBLRkVhMEc0N1NTZ3VaLXV4a2xyU01pQVJTZDJVVE1lTUFLV19UeGI0ak1FWnFZU0IwUmxYUFk5V1JsZXlPblZQUmtUSU1MbWpTTEQwN0Ywci15b2x3dUVlWjNVdWlIVDgtVXplTXBEdlZEQ19MNml1TUpaZGVWMGFsUFhuOVB2aDFr?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://cc.cz/byval-tu-hrbitov-blaznu-architekti-ted-zachranili-kapli-kde-se-v-osmdesatkach-poradaly-ritualy": "2026-09-20T14:19:43.145889+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks": "2026-09-20T14:19:43.145889+00:00",
+  "https://www.seroundtable.com/google-search-console-crawl-stats-missing-42120.html": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZNVRvRUh2MkZ6c25HR3NlYzFrTkNyY1J0czJleXhlV0wxV2w0MlAzampPQ3N5UHR1MUMzTHByVlJWWGJKQUZjd01hd0ZOa3RrRmxNeVZuT1k4MjZaVlNsX21fa0l3djhPd3RUckdydEw?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiREFVX3lxTE1YWkFuUFd3TWxaNDFtNGxNRDZzRnM5bTJBaTMwaUxRc25rMXNsY3VESEIycGR3R0VnX2JLMUs0bF9CV1hU?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY3B4Yk54TUxDMEZXbGUzM2x0X0xxbHFRMTN2WnJnVWMteERZNXlvdHB3akR4bFB3WGFJWWVIREhYM2VMdkZQYjJwcDRGVnRjcnRidmFnaWxGUFlkcDhJWEFrdGJLOFd4SUJuWG5lY3NpZmlFTFIyOVJkZENrQ0hJb0tEbDNrc2ZrV1hiOGc4dUE1dW9oQk9TSzZDSjVEX3hERkZJX0pTNjlWeXZETzE5ZFNzWEk4TDc1UzJjQjBHOHNpbTJ5VVVsblVWSTltZDNsSkM4RGdiWQ?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://www.mediar.cz/galerie-reklamy/kazuo-cistota-a-hiro-zameta-horvath-s-tisportem-vzyvaji-japonske-mistry": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxObUZsV0k0MEdPdTQ0ZDRkUjB6ZFBEN2dMUnhzaTJlWmVvTkVPVDdoMUJpcWFJSU1UVC1RWEtwMmdRT3JidmFweDRZcmJidjY2R05fNl80dEJLNmJiNnZZWGR6ZG51NzB0RUlQMmRUR01qQ0E4REZ4cEQwSHk0Q2RwWWlPSUNjNzgzMldRVWFXOTk0b3MzSGdqcDdXUjc0cmpoMlFSQk14N0NFTXBzLWxtUkIyREMza25LZm5MUzk0S0h5QlN0SUM4?oc=5": "2026-09-20T14:19:43.145889+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vbkkwd2pFbjBhRnd1UmRxS1hjVDlfd24ybE1hN2tkeGdjaUZMajlqNlNuUDBydFMtT3NIU0Y4bWFodWIwRVlVaHdkb3RjRWZ2UUV3VGVUSTNDQQ?oc=5": "2026-09-20T14:19:43.145889+00:00"
  },
  "events": [
-  {
-   "id": "6537a84437",
-   "created": "2026-09-07T08:48:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying",
-     "title": "AI chatbots talked 57.5% of AI users out of buying",
-     "summary": "We surveyed 2,338 US consumers: 65% of AI users have replaced some product-related Google searches with chatbots, and 4 in 10 dislike chatbot ads.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-09-07T08:48:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNDJnVDFOdzN0S3h3OElVaFV1QnNSaDFHY1FWYzdIWHA1czh0Wml0VGxaa0VQQWxFS2RYTmV3OF9oZGJXQTB3N1lKTWdPNWVpZHZLeFFRY2ZMREpBbFFoRGxneXQtZlRwbUZmbU9CQ1hPcVM2OURrZmpNakJxVTVEQ2hiYVJ1S2pvRUNqbWZteFJTbU5zT043R0pWVFROQWFZNVA0ZmFYVU1BZW1BZkE2bGdDR1VYVzJHcUMtXzk1SFpnVFZldVREZzNHbFE0WlBabHNnMFhB?oc=5",
-     "title": "Češi chtějí od AI hlavně jistotu. Šest z deseti uživatelů pochybuje o pravdivosti výstupů",
-     "summary": "Češi chtějí od AI hlavně jistotu. Šest z deseti uživatelů pochybuje o pravdivosti výstupů &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-09T08:02:24+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mTFZ5VTdLNUEtWjRIemVTQzRWZ2pNN044Y0tPWm5Ydnd4ZUlKT3Y0MnktU0twR210emN2SG5QVmlMVFZleWdOSHV0RUprNHlwbllvUHlXclFIMDRZRU9jS2pMc2VNN2tDdHdPWWc4UjNnNEl5MUlsRFk1TnM?oc=5",
-     "title": "AI is putting marketing’s in-house model to the test",
-     "summary": "AI is putting marketing’s in-house model to the test &nbsp;&nbsp; martech.org",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-10T12:34:04+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3pVajIwYWZ3MmdnYmNoZVBETGxkb0xvdzAyTzk0eUhoZk9LZnRxd3JpbTdZOEJKMmdHTTRwdFRFaUpuc3BxdzNsUFNFQUM1WHlxdjhzYjB3ekpDMnNxVDVqdG5LX19XZGFQVDA0STYtRGN1Y3BZMlJTLWlpVE5GYVpOVXJwcUhxY1VSSTNjTkpBcnZZY2pjMERuaTRNdw?oc=5",
-     "title": "Your marketing agent is working. Can you see what informs its recommendations?",
-     "summary": "Your marketing agent is working. Can you see what informs its recommendations? &nbsp;&nbsp; martech.org",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-10T15:08:03+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.searchenginejournal.com/is-your-local-seo-strategy-ready-for-googles-next-ai-updates/589119",
-     "title": "Is Your Local SEO Strategy Ready For Google’s Next AI Updates? [Webinar] via @sejournal, @hethr_campbell",
-     "summary": "Google & Uberall go live on Sept 24, sharing what comes next in Google Search and five local marketing strategy fixes that get locations recommended. The post Is Your Local SEO Strategy Ready For Google&#8217;s Next AI Updates? [Webinar] appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-10T20:11:11+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV3ViZm1ER0lLc3QxM2VDc1B1U0Y1c0lkc3Vkby0teDRzZkR1Rl92b3Z4OTB0b0VGTmtYT0VLbC0wYnZtdGJGUjR5MWJ2LTc4RmcxOENDWHdPQkZpZXlXQ29id2tlRXpSOUtKWjFQWktVRTRhdDR1ZFRhTjE2Q3JiZkc2ZU9rM0dIS0dMZU5xZUw4bkJ4dExldW51WlRYOGV6em55LWoxa2ZUSlhwc2dsRl9LazZWNkxZ?oc=5",
-     "title": "OpenAI confirms conversion-focused ads are coming to ChatGPT - Search Engine Land",
-     "summary": "OpenAI confirms conversion-focused ads are coming to ChatGPT - Search Engine Land &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-13T21:12:45+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ldFcxbnVjVndzR0xJMEJZSTFsQ05rbXQ5MUJPVzNsd3dFZDAzV1NTSGQ2cUhNTjVuLWZ5cXEwMmtmSG01akRHS2kyUWo0LU9WVXJpazhxcWJvRWxHeDNoNG5kelJ3LTR1VHc?oc=5",
-     "title": "Why ChatGPT Ads deserve a place in your 2027 media plan",
-     "summary": "Why ChatGPT Ads deserve a place in your 2027 media plan &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T15:00:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.jonloomer.com/qvt/text-customization-chatgpt-ads-ai-enhancement",
-     "title": "Text Customization ChatGPT Ads AI Enhancement",
-     "summary": "AI is coming to ChatGPT ads&#8230; When creating a ChatGPT ads campaign, some advertisers are seeing this new toggle: Text Customization. Let&#8217;s take a closer look&#8230; What Is It? It’s on by default, and it reads: AI automatically generates personalized and translated versions of your ad’s headlines and descriptions, which may be shown without your... Read more &#187; The post Text Customization ChatGPT Ads AI Enhancement appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-09-14T13:30:07+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-publishes-ai-content-transparency-rules",
-     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
-     "summary": "Microsoft Advertisin g has introduced a dedicated help page outlining transparency rules for AI-generated and synthetic content . Advertisers are now required to disclose AI use in ads, preserve metadata, and avoid deepfakes, ensuring consumer trust. Read the official announcement spotted by Hana Kobzová &nbsp;here: AI-generated and synthetic content in advertising . The post Microsoft Advertising Publishes AI Content Transparency Rules appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-14T14:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNczA1LVEyTnlhRzJVVmNIZG1ZWG80TzFfeXBaaVBxcy1CZEVlcUc3ZVJ4azJsbWZxRUEwenl0V0NKQTFYQWFJOXJ6MG8xSHA4ZzhkX3BvTjFheDNBQ1dlYjBGNlNRM2NXQm45RFZadlBib1FiNVV3U2JCOHZ4bnFxRFA1ajFzenBseGhGN0RyX0IwTFk?oc=5",
-     "title": "Microsoft Advertising sets rules for AI-generated ads",
-     "summary": "Microsoft Advertising sets rules for AI-generated ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T15:54:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy",
-     "title": "ChatGPT Ads are a tactical bet, not a platform strategy",
-     "summary": "Marketers have a short-term opportunity to test inexpensive inventory while keeping most of their resources on Google. The post ChatGPT Ads are a tactical bet, not a platform strategy appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-15T12:08:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.searchenginejournal.com/chatgpt-ads-arent-paid-search-5-questions-to-answer-before-you-shift-budget/589256",
-     "title": "ChatGPT Ads Aren’t Paid Search – 5 Questions To Answer Before You Shift Budget via @sejournal, @brookeosmundson",
-     "summary": "Give ChatGPT Ads a clear role, budget source, and success criteria before pulling money from paid search campaigns that already perform. The post ChatGPT Ads Aren&#8217;t Paid Search – 5 Questions To Answer Before You Shift Budget appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T12:00:30+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONm1xVm43T2l0NU5Rem5QZF9pSU5uRmNFUXZoZW5vTlRUb2FKU3RFbzFsVWJDb1JtSDdhM2JKWE95dHBvNmpwTlhTbVR1dWtKcmJ4bkNiTVRKb0t1a1FzNVpjZWlrcDRXdHNkQ1RQUV9EcFNKOGRCcWVybnFOSWxPUTJlbE45aDZxWjk3UC1YcmJNQXFZ?oc=5",
-     "title": "Merchant Center Adds Product-Level Video Uploads",
-     "summary": "Merchant Center Adds Product-Level Video Uploads &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-13T16:24:57+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/google-updates-data-manager-platform/830234",
-     "title": "Google updates Data Manager platform",
-     "summary": "The company added tools designed to help create more targeted promotions and artificial intelligence agentic capabilities to assist with data audits.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-13T21:16:23+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXBjanpjbjdVY1VTYURTN01lbVFrd1ZMQjFJZGQ0YURIcDJVLVhhdDdmX1lyVnhCQ0lLZkJxOFBmeHVlRHRTcUlvaXRKM0JaR24yUHNBb2lZNDAzNXJLOXF3MF9MWTlsMGxHbXJ1MjdaRlQyeXNCR0xmeTh4b3djdVJCNWhPcUp3dktEcDdZNVNWbzNFODVrWVZIU2hiUmg4R2Q5X3MxNkVxc3dQYzc1SU9MMThYbUx5ckpLZmhETVU?oc=5",
-     "title": "Google tests paying publishers for using its content in AI Mode, AI Overviews and Gemini",
-     "summary": "Google tests paying publishers for using its content in AI Mode, AI Overviews and Gemini &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T12:45:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html",
-     "title": "Google Al Contribution Pilot - Paying Publishers For Use Of Content In AI",
-     "summary": "Google is doing a small test where it is paying publishers for using their content within the Google AI Overviews, AI Mode, Gemini and other AI search features. This is called the AI contribution pilot, something we actually spotted back in April 2026, but are now learning more about today.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T11:13:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/recap-09-14-2026-42078.html",
-     "title": "Daily Search Forum Recap: September 14, 2026",
-     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is testing a way to pay publishers for using their content in AI Mode...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T14:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414",
-     "title": "Google Tests Paying Publishers For AI Answers Via Search Console via @sejournal, @MattGSouthern",
-     "summary": "Google is testing a Search Console pilot that pays publishers when their content contributes to Gemini, AI Overviews, and AI Mode answers. The post Google Tests Paying Publishers For AI Answers Via Search Console appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-14T17:38:53+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-product-value-optimization-42071.html",
-     "title": "Google Ads Product Value Optimization Beta",
-     "summary": "Google Ads has a new beta named Product Value Optimization that allows advertisers to configure value adjustments to guide automated bidding to optimize for the products that matter for your business goals.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T11:21:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-mode-more-query-expansions-42074.html",
-     "title": "Google AI Mode More Query Expansion Interfaces",
-     "summary": "Google continues to test new query expansion methods in AI Mode, beyond standard follow-up questions. Now Google is testing questions with multi-selection tools, a query refinement option and those recent paginated responses.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T11:41:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.seroundtable.com/google-search-ranking-update-94-42079.html",
-     "title": "Google Search Update September 4th That Reverted September 13th?",
-     "summary": "I've been pretty quiet on posting reports Google updates recently, in fact, I have not posted about one since late August. But while most sites seem calm in the Google rankings, there was definitely some sort of ranking blip around September 4th, and in some cases, the September 4th impact reverted on September 13th. It is super weird.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T12:05:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXg1MTZyQUJ5WldjVXQzZElBMncxeDlwMnNtZDljbFJET2J4ZjlJbkNBZGhkT2JIbWZISXQ2d09lRmVtMDRuVkl2NzB1b2pLVnlzWjlsNkhuQlJMVmNoTXhGYlFlQ3ItdTFBemZwMUxqZHVGNU9IeTN3Tl9pV2RrUHYyQVBlMV9TWUNfcUtpTlJheWJucXdBb2lQaw?oc=5",
-     "title": "Two GEO experiments challenge conventional AI visibility advice",
-     "summary": "Two GEO experiments challenge conventional AI visibility advice &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-14T14:00:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.seroundtable.com/google-blue-more-link-in-shopping-results-42077.html",
-     "title": "Google Search Tests Blue More Link In Shopping Results",
-     "summary": "Google is testing a blue background color on the \"More\" link within the product results in Google Search. The link is normally just a basic \"more\" link with no prominence or color that calls it out but in this test, Google is using a blue highlight color for the link.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-14T11:51:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-mode-text-link-ads-42082.html",
-     "title": "Google AI Mode Tests Text Link Ads",
-     "summary": "Google is testing a text-based link format for ads within AI Mode. So the ads look like normal AI Mode responses, with normal looking text links with anchor text, but they are labeled as \"Sponsored\" above the AI-generated response.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-15T11:41:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://about.fb.com/news/2026/09/threads-introduces-parental-supervision-for-teens-in-apac",
-     "title": "Threads Introduces Parental Supervision for Teens in APAC",
-     "summary": "Teens in Asia Pacific APAC on Threads Get Added Protections with Parental Supervision The post Threads Introduces Parental Supervision for Teens in APAC appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-16T01:05:49+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html",
-     "title": "OpenAI Testing Sponsored Agents For ChatGPT Ads",
-     "summary": "OpenAI is testing a new ad format in ChatGPT named Sponsored Agents. Sponsored Agents \"let people start a conversation with a business-sponsored agent after clicking an ad in ChatGPT,\" OpenAI wrote.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-16T15:03:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEVQZFp6V0ZFUHk2TmdLc21SWXY5b0U4V3R2WlpxdGQyRURQNWJ0azRsVVE5YWZGaDBHdTdlOW4tbi05SzJzTXZsWkRCbEVnYVRMRFdYWnNZV2pabjd1OGZrWjRyaE9PTTBiTEtTcUcxMlhiQUVlWWp4cWtQRC1zUmR4bGxwd0RUdmt0Mw?oc=5",
-     "title": "OpenAI is turning ChatGPT ads into conversations",
-     "summary": "OpenAI is turning ChatGPT ads into conversations &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T15:01:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.jonloomer.com/muse-meta-ai-agent",
-     "title": "What I Built With Muse, Meta’s New AI Agent",
-     "summary": "Meta’s new Muse AI agent can research, build, and monitor. Here’s what I learned from using it and the tool I built in one evening. The post What I Built With Muse, Meta&#8217;s New AI Agent appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-09-15T11:30:21+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaWlQ3X2dhN1EwTG5lcGtvM2c1b21FT2VuR29NQ3JOSHJIY0xGUVJDX1dVbVAydC12OHFmTmF0OW9DbURNYmdZYlpTT2RKZDFtb3VxOWhyTXc2S2h6LWdKZG83QXpRTDItY19Yd0JRaGJsbGVBRHdLMXZn?oc=5",
-     "title": "FTC puts personalized pricing practices on notice",
-     "summary": "FTC puts personalized pricing practices on notice &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-11T12:48:05+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.lupa.cz/aktuality/trezor-varuje-pred-phishingovymi-e-maily-adresy-unikly-od-provozovatele-newsletteru",
-     "title": "Trezor varuje před phishingovými e-maily, adresy unikly od provozovatele newsletteru",
-     "summary": "Výrobce hardwarové kryptopeněženky Trezor, která spadá do portofolia české společnosti Satoshi Labs, vydal varování před bezpečnostním incidentem týkajícím se některých jeho zákazníků. V hlavní roli je služba Brevo, přes kterou Terzor rozesílá svůj newsletter.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-11T15:21:34+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/ai-mode-tests-text-anchor-ads-descriptions",
-     "title": "AI Mode Tests Text Anchor Ads With Descriptions",
-     "summary": "Google is testing new ways to display sponsored results in AI Mode. Ads have been spotted using text anchor based links that blend more closely with organic content , while another variation adds descriptions that give users more context about the advertiser before clicking . This update was shared by Sachin Patel and Barry Schwartz . The post AI Mode Tests Text Anchor Ads With Descriptions appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T07:00:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "OpenAI potvrdil příchod konverzních reklam do ChatGPT",
-   "updated": "2026-09-20T09:26:53.932150+00:00",
-   "what": "OpenAI oficiálně potvrdil, že do ChatGPT přidává reklamy zaměřené na konverze. Inzerenti už při tvorbě kampaní vidí novou funkci Text Customization, která je defaultně zapnutá – AI automaticky generuje personalizované a přeložené verze nadpisů a popisů reklam.",
-   "why": "ChatGPT roste jako alternativa k Googlu – 65 % jeho uživatelů už tam řeší některé produktové dotazy místo vyhledávání. Zároveň však studie ukazuje, že AI chatboty odradily 57,5 % uživatelů od nákupu a 4 z 10 lidí nemají rádi reklamy v chatbotech. Jde o nový placený kanál s nejistým výsledkem.",
-   "takeaway": "Sleduj vývoj ChatGPT reklam a měř jejich dopad na konverze – teprve praxe ukáže, jestli uživatelé klikají nebo je chatbot naopak odradí. Připrav se, že AI může měnit tvůj text bez schválení. Do širšího nasazení zatím vyčkej.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/6537a84437.jpg",
-   "image_from": "semrush.com"
-  },
   {
    "id": "fbb3e8cbb2",
    "created": "2026-09-16T05:00:00+00:00",
@@ -4519,12 +4247,30 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-09-20T07:00:00+00:00",
      "score": 64
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVAwenZZTkpRQzE3dGZPbU1XV29CVXJmUFFkZzlkNk5HT05ILTVNMWxNbXh4bFVVVDl0bXNsYTcxVGQ3OXF1aFZjQjFCdndJRTBRRkdCU1VsVXRCd2M3QjJ4LVhLcFV1TzdkZjk5RmVuTUtLdDdQOElSbmx1U0FXSXVEaFVRdFhFSm43czBR?oc=5",
+     "title": "Google faces six years of court oversight in ad tech antitrust case",
+     "summary": "Google faces six years of court oversight in ad tech antitrust case &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-17T14:30:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ad-tech-monopoly-remedies-42107.html",
+     "title": "Google Ad Tech Monopoly Remedies: Behavioral Changes With Oversight",
+     "summary": "Earlier this month, we learned a judge ruled that Google won't be broken up over its monopoly ruling in its ad tech case. And now we have the full memo with the judge's proposed remedies, including Google making behavioral changes.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-17T11:41:00+00:00",
+     "score": 75
     }
    ],
    "category": "ppc",
    "importance": 85,
    "title": "Google zrušil bezplatné produktové výpisy v EU kvůli Digital Markets Act",
-   "updated": "2026-09-20T09:26:42.858850+00:00",
+   "updated": "2026-09-20T14:20:16.576707+00:00",
    "what": "Google odstranil bezplatné produktové výpisy (free product listings) a karuselové formáty z vyhledávání v Evropském hospodářském prostoru (EEA). Změna je reakcí na nařízení Evropské komise v rámci zákona o digitálních trzích (Digital Markets Act).",
    "why": "Pro e-shopy v ČR a EU to znamená ztrátu organické viditelnosti produktů v Google vyhledávání. Dosud mohly produkty figurovat ve výsledcích zdarma vedle placených reklam, nyní zbývá jen placená cesta přes Google Ads.",
    "takeaway": "Počítejte s poklesem organického trafficu z Google Shopping. Pokud jste spoléhali na bezplatné výpisy, budete muset navýšit PPC rozpočet na Google Ads produktové kampaně, nebo hledat alternativní akvizici (Zboží.cz, Heureka, SEO).",
@@ -6786,19 +6532,371 @@
      "domain": "searchenginejournal.com",
      "published": "2026-09-19T12:30:42+00:00",
      "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-business-profile-api-application-delays-42085.html",
+     "title": "Google Business Profile API Application Delays",
+     "summary": "Google announced a delay in processing applications for access to the Google Business Profile API. This was posted by Victoria Kroll in multiple languages in the Google Business Profiles support forum.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-15T11:51:00+00:00",
+     "score": 58
     }
    ],
    "category": "ppc",
-   "importance": 75,
-   "title": "Google ruší manuální jazykové cílení v Search kampaních (září 2026)",
-   "updated": "2026-09-20T09:26:31.064826+00:00",
-   "what": "Google Ads od konce září 2026 zruší možnost ručního nastavení jazykového cílení u Search kampaní a Performance Max. Google místo toho bude automaticky párovat reklamy s uživateli na základě jazyka kreativy a landing page, nikoli podle nastavení kampani. Pokud uživatel rozumí více jazykům, reklamy se mu budou zobrazovat v obou.",
-   "why": "Jde o zásadní změnu v řízení vícejazyčných kampaní. Inzerenti ztrácejí kontrolu nad tím, v jakém jazyce se jejich reklamy zobrazí. Google slibuje, že vylepšená AI automaticky vybere nejvhodnější jazyk, pokud má inzerent reklamy ve více jazycích, ale detaily o dopadu na stávající struktury kampaní nejsou jasné.",
-   "takeaway": "Pokud máte kampaně pro český i slovenský trh nebo testujete různé jazykové verze reklam, připravte se na změnu v září. Zkontrolujte, zda máte konzistentní jazyk mezi reklamami a landing pages. Sledujte výkonnost po zavedení změny – může se stát, že se české reklamy začnou zobrazovat i slovenským uživatelům (nebo naopak) bez možnosti manuálního zásahu.",
-   "importance_label": "důležité",
+   "importance": 85,
+   "title": "Google ruší manuální jazykové cílení v Search a Performance Max kampáních",
+   "updated": "2026-09-20T14:20:03.930591+00:00",
+   "what": "Google Ads odstraňuje od konce září 2026 možnost manuálního nastavení jazyka na úrovni kampaní pro Search a Performance Max. Místo toho bude Google automaticky párovat reklamy podle jazyka kreativy, landing page a uživatelských preferencí. U uživatelů, kteří rozumí více jazykům, budou reklamy způsobilé v libovolném z těchto jazyků.",
+   "why": "Změna zásadně ovlivňuje správu vícejazyčných kampaní – inzerenti přicházejí o kontrolu nad tím, v jakém jazyce se jejich reklamy zobrazí. Pro české firmy to znamená riziko, že se reklamy v češtině mohou zobrazovat slovenským nebo německy mluvícím uživatelům (nebo naopak), pokud systém detekuje, že rozumí více jazykům. Dosavadní struktury kampaní podle jazyků ztratí hlavní smysl.",
+   "takeaway": "Zkontrolujte své vícejazyčné kampaně – ujistěte se, že kreativy a landing pages jasně odpovídají cílovému jazyku. Připravte se, že ztratíte možnost vyloučit určité jazyky na úrovni kampaně. Sledujte po zavedení změny výkonnost a jazykové rozložení konverzí, abyste odhalili případné problémy s nevhodným párováním jazyků.",
+   "importance_label": "zásadní",
    "multi_source": true,
    "image": "img/f2094c4077.jpg",
    "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "b45bb9ed90",
+   "created": "2026-09-20T12:18:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlWT3AzRjV3WjhPM2pGSnhMUmFhai1pb3ktX0dPb1FrMEZCYzBLRkVhMEc0N1NTZ3VaLXV4a2xyU01pQVJTZDJVVE1lTUFLV19UeGI0ak1FWnFZU0IwUmxYUFk5V1JsZXlPblZQUmtUSU1MbWpTTEQwN0Ywci15b2x3dUVlWjNVdWlIVDgtVXplTXBEdlZEQ19MNml1TUpaZGVWMGFsUFhuOVB2aDFr?oc=5",
+     "title": "Google testing “Dive deeper” for Google Discover – it’s not good for publishers",
+     "summary": "Google testing “Dive deeper” for Google Discover – it’s not good for publishers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-20T12:18:00+00:00",
+     "score": 58
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google testuje \"Dive deeper\" v Discover – hrozí pokles návštěvnosti webů",
+   "updated": "2026-09-20T14:19:43.145889+00:00",
+   "what": "Google v mobilním Discoveru testuje funkci \"Dive deeper\", která místo odkazu na původní článek nabídne uživateli AI-generované shrnutí nebo souhrn z více zdrojů. Uživatel tak může získat odpověď přímo v Googlu, aniž by navštívil web vydavatele.",
+   "why": "Pokud se funkce rozšíří, může výrazně snížit organickou návštěvnost webů z Google Discover, který je pro mnoho vydavatelů a obsahových projektů důležitým zdrojem trafficu. Uživatelé dostanou informace bez nutnosti kliknout na článek.",
+   "takeaway": "Sledujte metriky návštěvnosti z Google Discover v Google Analytics nebo Search Console. Pokud zaznamenáte pokles, zvažte diverzifikaci zdrojů návštěvnosti (newsletter, sociální sítě, direct) a přehodnoťte závislost na Googlu jako hlavním zdroji organického trafficu.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/b45bb9ed90.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "e251cb75d1",
+   "created": "2026-09-20T12:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks",
+     "title": "“More From Advertiser” Title Tested for Sitelinks",
+     "summary": "Google is testing a new sitelink headline showing advertiser's icon with \"More from Advertiser\" title, potentially affecting ad engagement and visibility. This update was shared by Sachin Patel . The post &#8220;More From Advertiser&#8221; Title Tested for Sitelinks appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T12:00:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ppc",
+   "importance": 47,
+   "title": "“More From Advertiser” Title Tested for Sitelinks",
+   "updated": "2026-09-20T14:19:43.145889+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "6537a84437",
+   "created": "2026-09-07T08:48:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying",
+     "title": "AI chatbots talked 57.5% of AI users out of buying",
+     "summary": "We surveyed 2,338 US consumers: 65% of AI users have replaced some product-related Google searches with chatbots, and 4 in 10 dislike chatbot ads.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-09-07T08:48:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNDJnVDFOdzN0S3h3OElVaFV1QnNSaDFHY1FWYzdIWHA1czh0Wml0VGxaa0VQQWxFS2RYTmV3OF9oZGJXQTB3N1lKTWdPNWVpZHZLeFFRY2ZMREpBbFFoRGxneXQtZlRwbUZmbU9CQ1hPcVM2OURrZmpNakJxVTVEQ2hiYVJ1S2pvRUNqbWZteFJTbU5zT043R0pWVFROQWFZNVA0ZmFYVU1BZW1BZkE2bGdDR1VYVzJHcUMtXzk1SFpnVFZldVREZzNHbFE0WlBabHNnMFhB?oc=5",
+     "title": "Češi chtějí od AI hlavně jistotu. Šest z deseti uživatelů pochybuje o pravdivosti výstupů",
+     "summary": "Češi chtějí od AI hlavně jistotu. Šest z deseti uživatelů pochybuje o pravdivosti výstupů &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-09-09T08:02:24+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mTFZ5VTdLNUEtWjRIemVTQzRWZ2pNN044Y0tPWm5Ydnd4ZUlKT3Y0MnktU0twR210emN2SG5QVmlMVFZleWdOSHV0RUprNHlwbllvUHlXclFIMDRZRU9jS2pMc2VNN2tDdHdPWWc4UjNnNEl5MUlsRFk1TnM?oc=5",
+     "title": "AI is putting marketing’s in-house model to the test",
+     "summary": "AI is putting marketing’s in-house model to the test &nbsp;&nbsp; martech.org",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-10T12:34:04+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3pVajIwYWZ3MmdnYmNoZVBETGxkb0xvdzAyTzk0eUhoZk9LZnRxd3JpbTdZOEJKMmdHTTRwdFRFaUpuc3BxdzNsUFNFQUM1WHlxdjhzYjB3ekpDMnNxVDVqdG5LX19XZGFQVDA0STYtRGN1Y3BZMlJTLWlpVE5GYVpOVXJwcUhxY1VSSTNjTkpBcnZZY2pjMERuaTRNdw?oc=5",
+     "title": "Your marketing agent is working. Can you see what informs its recommendations?",
+     "summary": "Your marketing agent is working. Can you see what informs its recommendations? &nbsp;&nbsp; martech.org",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-10T15:08:03+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.searchenginejournal.com/is-your-local-seo-strategy-ready-for-googles-next-ai-updates/589119",
+     "title": "Is Your Local SEO Strategy Ready For Google’s Next AI Updates? [Webinar] via @sejournal, @hethr_campbell",
+     "summary": "Google & Uberall go live on Sept 24, sharing what comes next in Google Search and five local marketing strategy fixes that get locations recommended. The post Is Your Local SEO Strategy Ready For Google&#8217;s Next AI Updates? [Webinar] appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-10T20:11:11+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV3ViZm1ER0lLc3QxM2VDc1B1U0Y1c0lkc3Vkby0teDRzZkR1Rl92b3Z4OTB0b0VGTmtYT0VLbC0wYnZtdGJGUjR5MWJ2LTc4RmcxOENDWHdPQkZpZXlXQ29id2tlRXpSOUtKWjFQWktVRTRhdDR1ZFRhTjE2Q3JiZkc2ZU9rM0dIS0dMZU5xZUw4bkJ4dExldW51WlRYOGV6em55LWoxa2ZUSlhwc2dsRl9LazZWNkxZ?oc=5",
+     "title": "OpenAI confirms conversion-focused ads are coming to ChatGPT - Search Engine Land",
+     "summary": "OpenAI confirms conversion-focused ads are coming to ChatGPT - Search Engine Land &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-13T21:12:45+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ldFcxbnVjVndzR0xJMEJZSTFsQ05rbXQ5MUJPVzNsd3dFZDAzV1NTSGQ2cUhNTjVuLWZ5cXEwMmtmSG01akRHS2kyUWo0LU9WVXJpazhxcWJvRWxHeDNoNG5kelJ3LTR1VHc?oc=5",
+     "title": "Why ChatGPT Ads deserve a place in your 2027 media plan",
+     "summary": "Why ChatGPT Ads deserve a place in your 2027 media plan &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T15:00:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.jonloomer.com/qvt/text-customization-chatgpt-ads-ai-enhancement",
+     "title": "Text Customization ChatGPT Ads AI Enhancement",
+     "summary": "AI is coming to ChatGPT ads&#8230; When creating a ChatGPT ads campaign, some advertisers are seeing this new toggle: Text Customization. Let&#8217;s take a closer look&#8230; What Is It? It’s on by default, and it reads: AI automatically generates personalized and translated versions of your ad’s headlines and descriptions, which may be shown without your... Read more &#187; The post Text Customization ChatGPT Ads AI Enhancement appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-09-14T13:30:07+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-publishes-ai-content-transparency-rules",
+     "title": "Microsoft Advertising Publishes AI Content Transparency Rules",
+     "summary": "Microsoft Advertisin g has introduced a dedicated help page outlining transparency rules for AI-generated and synthetic content . Advertisers are now required to disclose AI use in ads, preserve metadata, and avoid deepfakes, ensuring consumer trust. Read the official announcement spotted by Hana Kobzová &nbsp;here: AI-generated and synthetic content in advertising . The post Microsoft Advertising Publishes AI Content Transparency Rules appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-14T14:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNczA1LVEyTnlhRzJVVmNIZG1ZWG80TzFfeXBaaVBxcy1CZEVlcUc3ZVJ4azJsbWZxRUEwenl0V0NKQTFYQWFJOXJ6MG8xSHA4ZzhkX3BvTjFheDNBQ1dlYjBGNlNRM2NXQm45RFZadlBib1FiNVV3U2JCOHZ4bnFxRFA1ajFzenBseGhGN0RyX0IwTFk?oc=5",
+     "title": "Microsoft Advertising sets rules for AI-generated ads",
+     "summary": "Microsoft Advertising sets rules for AI-generated ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T15:54:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy",
+     "title": "ChatGPT Ads are a tactical bet, not a platform strategy",
+     "summary": "Marketers have a short-term opportunity to test inexpensive inventory while keeping most of their resources on Google. The post ChatGPT Ads are a tactical bet, not a platform strategy appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-15T12:08:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.searchenginejournal.com/chatgpt-ads-arent-paid-search-5-questions-to-answer-before-you-shift-budget/589256",
+     "title": "ChatGPT Ads Aren’t Paid Search – 5 Questions To Answer Before You Shift Budget via @sejournal, @brookeosmundson",
+     "summary": "Give ChatGPT Ads a clear role, budget source, and success criteria before pulling money from paid search campaigns that already perform. The post ChatGPT Ads Aren&#8217;t Paid Search – 5 Questions To Answer Before You Shift Budget appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T12:00:30+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONm1xVm43T2l0NU5Rem5QZF9pSU5uRmNFUXZoZW5vTlRUb2FKU3RFbzFsVWJDb1JtSDdhM2JKWE95dHBvNmpwTlhTbVR1dWtKcmJ4bkNiTVRKb0t1a1FzNVpjZWlrcDRXdHNkQ1RQUV9EcFNKOGRCcWVybnFOSWxPUTJlbE45aDZxWjk3UC1YcmJNQXFZ?oc=5",
+     "title": "Merchant Center Adds Product-Level Video Uploads",
+     "summary": "Merchant Center Adds Product-Level Video Uploads &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-13T16:24:57+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/google-updates-data-manager-platform/830234",
+     "title": "Google updates Data Manager platform",
+     "summary": "The company added tools designed to help create more targeted promotions and artificial intelligence agentic capabilities to assist with data audits.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-13T21:16:23+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXBjanpjbjdVY1VTYURTN01lbVFrd1ZMQjFJZGQ0YURIcDJVLVhhdDdmX1lyVnhCQ0lLZkJxOFBmeHVlRHRTcUlvaXRKM0JaR24yUHNBb2lZNDAzNXJLOXF3MF9MWTlsMGxHbXJ1MjdaRlQyeXNCR0xmeTh4b3djdVJCNWhPcUp3dktEcDdZNVNWbzNFODVrWVZIU2hiUmg4R2Q5X3MxNkVxc3dQYzc1SU9MMThYbUx5ckpLZmhETVU?oc=5",
+     "title": "Google tests paying publishers for using its content in AI Mode, AI Overviews and Gemini",
+     "summary": "Google tests paying publishers for using its content in AI Mode, AI Overviews and Gemini &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T12:45:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html",
+     "title": "Google Al Contribution Pilot - Paying Publishers For Use Of Content In AI",
+     "summary": "Google is doing a small test where it is paying publishers for using their content within the Google AI Overviews, AI Mode, Gemini and other AI search features. This is called the AI contribution pilot, something we actually spotted back in April 2026, but are now learning more about today.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T11:13:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/recap-09-14-2026-42078.html",
+     "title": "Daily Search Forum Recap: September 14, 2026",
+     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is testing a way to pay publishers for using their content in AI Mode...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T14:00:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414",
+     "title": "Google Tests Paying Publishers For AI Answers Via Search Console via @sejournal, @MattGSouthern",
+     "summary": "Google is testing a Search Console pilot that pays publishers when their content contributes to Gemini, AI Overviews, and AI Mode answers. The post Google Tests Paying Publishers For AI Answers Via Search Console appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-14T17:38:53+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-product-value-optimization-42071.html",
+     "title": "Google Ads Product Value Optimization Beta",
+     "summary": "Google Ads has a new beta named Product Value Optimization that allows advertisers to configure value adjustments to guide automated bidding to optimize for the products that matter for your business goals.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T11:21:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-mode-more-query-expansions-42074.html",
+     "title": "Google AI Mode More Query Expansion Interfaces",
+     "summary": "Google continues to test new query expansion methods in AI Mode, beyond standard follow-up questions. Now Google is testing questions with multi-selection tools, a query refinement option and those recent paginated responses.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T11:41:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.seroundtable.com/google-search-ranking-update-94-42079.html",
+     "title": "Google Search Update September 4th That Reverted September 13th?",
+     "summary": "I've been pretty quiet on posting reports Google updates recently, in fact, I have not posted about one since late August. But while most sites seem calm in the Google rankings, there was definitely some sort of ranking blip around September 4th, and in some cases, the September 4th impact reverted on September 13th. It is super weird.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T12:05:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXg1MTZyQUJ5WldjVXQzZElBMncxeDlwMnNtZDljbFJET2J4ZjlJbkNBZGhkT2JIbWZISXQ2d09lRmVtMDRuVkl2NzB1b2pLVnlzWjlsNkhuQlJMVmNoTXhGYlFlQ3ItdTFBemZwMUxqZHVGNU9IeTN3Tl9pV2RrUHYyQVBlMV9TWUNfcUtpTlJheWJucXdBb2lQaw?oc=5",
+     "title": "Two GEO experiments challenge conventional AI visibility advice",
+     "summary": "Two GEO experiments challenge conventional AI visibility advice &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-14T14:00:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://www.seroundtable.com/google-blue-more-link-in-shopping-results-42077.html",
+     "title": "Google Search Tests Blue More Link In Shopping Results",
+     "summary": "Google is testing a blue background color on the \"More\" link within the product results in Google Search. The link is normally just a basic \"more\" link with no prominence or color that calls it out but in this test, Google is using a blue highlight color for the link.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-14T11:51:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-mode-text-link-ads-42082.html",
+     "title": "Google AI Mode Tests Text Link Ads",
+     "summary": "Google is testing a text-based link format for ads within AI Mode. So the ads look like normal AI Mode responses, with normal looking text links with anchor text, but they are labeled as \"Sponsored\" above the AI-generated response.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-15T11:41:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://about.fb.com/news/2026/09/threads-introduces-parental-supervision-for-teens-in-apac",
+     "title": "Threads Introduces Parental Supervision for Teens in APAC",
+     "summary": "Teens in Asia Pacific APAC on Threads Get Added Protections with Parental Supervision The post Threads Introduces Parental Supervision for Teens in APAC appeared first on Meta Newsroom .",
+     "source": "Meta Newsroom",
+     "domain": "about.fb.com",
+     "published": "2026-09-16T01:05:49+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html",
+     "title": "OpenAI Testing Sponsored Agents For ChatGPT Ads",
+     "summary": "OpenAI is testing a new ad format in ChatGPT named Sponsored Agents. Sponsored Agents \"let people start a conversation with a business-sponsored agent after clicking an ad in ChatGPT,\" OpenAI wrote.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-16T15:03:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEVQZFp6V0ZFUHk2TmdLc21SWXY5b0U4V3R2WlpxdGQyRURQNWJ0azRsVVE5YWZGaDBHdTdlOW4tbi05SzJzTXZsWkRCbEVnYVRMRFdYWnNZV2pabjd1OGZrWjRyaE9PTTBiTEtTcUcxMlhiQUVlWWp4cWtQRC1zUmR4bGxwd0RUdmt0Mw?oc=5",
+     "title": "OpenAI is turning ChatGPT ads into conversations",
+     "summary": "OpenAI is turning ChatGPT ads into conversations &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-16T15:01:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.jonloomer.com/muse-meta-ai-agent",
+     "title": "What I Built With Muse, Meta’s New AI Agent",
+     "summary": "Meta’s new Muse AI agent can research, build, and monitor. Here’s what I learned from using it and the tool I built in one evening. The post What I Built With Muse, Meta&#8217;s New AI Agent appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-09-15T11:30:21+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaWlQ3X2dhN1EwTG5lcGtvM2c1b21FT2VuR29NQ3JOSHJIY0xGUVJDX1dVbVAydC12OHFmTmF0OW9DbURNYmdZYlpTT2RKZDFtb3VxOWhyTXc2S2h6LWdKZG83QXpRTDItY19Yd0JRaGJsbGVBRHdLMXZn?oc=5",
+     "title": "FTC puts personalized pricing practices on notice",
+     "summary": "FTC puts personalized pricing practices on notice &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-11T12:48:05+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/trezor-varuje-pred-phishingovymi-e-maily-adresy-unikly-od-provozovatele-newsletteru",
+     "title": "Trezor varuje před phishingovými e-maily, adresy unikly od provozovatele newsletteru",
+     "summary": "Výrobce hardwarové kryptopeněženky Trezor, která spadá do portofolia české společnosti Satoshi Labs, vydal varování před bezpečnostním incidentem týkajícím se některých jeho zákazníků. V hlavní roli je služba Brevo, přes kterou Terzor rozesílá svůj newsletter.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-11T15:21:34+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/ai-mode-tests-text-anchor-ads-descriptions",
+     "title": "AI Mode Tests Text Anchor Ads With Descriptions",
+     "summary": "Google is testing new ways to display sponsored results in AI Mode. Ads have been spotted using text anchor based links that blend more closely with organic content , while another variation adds descriptions that give users more context about the advertiser before clicking . This update was shared by Sachin Patel and Barry Schwartz . The post AI Mode Tests Text Anchor Ads With Descriptions appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T07:00:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 68,
+   "title": "OpenAI potvrdil příchod konverzních reklam do ChatGPT",
+   "updated": "2026-09-20T09:26:53.932150+00:00",
+   "what": "OpenAI oficiálně potvrdil, že do ChatGPT přidává reklamy zaměřené na konverze. Inzerenti už při tvorbě kampaní vidí novou funkci Text Customization, která je defaultně zapnutá – AI automaticky generuje personalizované a přeložené verze nadpisů a popisů reklam.",
+   "why": "ChatGPT roste jako alternativa k Googlu – 65 % jeho uživatelů už tam řeší některé produktové dotazy místo vyhledávání. Zároveň však studie ukazuje, že AI chatboty odradily 57,5 % uživatelů od nákupu a 4 z 10 lidí nemají rádi reklamy v chatbotech. Jde o nový placený kanál s nejistým výsledkem.",
+   "takeaway": "Sleduj vývoj ChatGPT reklam a měř jejich dopad na konverze – teprve praxe ukáže, jestli uživatelé klikají nebo je chatbot naopak odradí. Připrav se, že AI může měnit tvůj text bez schválení. Do širšího nasazení zatím vyčkej.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/6537a84437.jpg",
+   "image_from": "semrush.com"
   },
   {
    "id": "2e6af52495",
@@ -7782,41 +7880,6 @@
    "multi_source": false
   },
   {
-   "id": "e924c962e2",
-   "created": "2026-09-17T14:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVAwenZZTkpRQzE3dGZPbU1XV29CVXJmUFFkZzlkNk5HT05ILTVNMWxNbXh4bFVVVDl0bXNsYTcxVGQ3OXF1aFZjQjFCdndJRTBRRkdCU1VsVXRCd2M3QjJ4LVhLcFV1TzdkZjk5RmVuTUtLdDdQOElSbmx1U0FXSXVEaFVRdFhFSm43czBR?oc=5",
-     "title": "Google faces six years of court oversight in ad tech antitrust case",
-     "summary": "Google faces six years of court oversight in ad tech antitrust case &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-17T14:30:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ad-tech-monopoly-remedies-42107.html",
-     "title": "Google Ad Tech Monopoly Remedies: Behavioral Changes With Oversight",
-     "summary": "Earlier this month, we learned a judge ruled that Google won't be broken up over its monopoly ruling in its ad tech case. And now we have the full memo with the judge's proposed remedies, including Google making behavioral changes.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-17T11:41:00+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google čeká 6 let soudního dohledu kvůli monopolu v reklamní technologii",
-   "updated": "2026-09-18T09:06:20.409571+00:00",
-   "what": "Americký soudce rozhodl, že Google nebude rozdělen kvůli monopolnímu postavení v ad tech, ale musí po šest let dodržovat behaviorální opatření pod soudním dohledem. Jde o reakci na rozsudek, který Googlu prokázal monopolní praktiky v oblasti reklamních technologií.",
-   "why": "Pro české marketéry je relevantní, že Google bude nucen měnit své chování v oblasti ad tech systémů, což může časem ovlivnit i fungování Google Ads v EU. Soudní dohled může vést ke změnám v aukcích, cenotvorbě nebo podmínkách platformy.",
-   "takeaway": "Sledujte v následujících měsících případné změny v podmínkách Google Ads a chování platformy – regulatorní tlak v USA často předchází podobným krokům v EU. Zatím není důvod k okamžitým změnám v nastavení kampaní.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/e924c962e2.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
    "id": "fac219d6b1",
    "created": "2026-09-15T05:00:00+00:00",
    "articles": [
@@ -8309,30 +8372,6 @@
    "what": "Booking.com experimentuje s různými cenami v hotelových reklamách na Google podle typu zařízení, ze kterého uživatel vyhledává. Ceny se mohou lišit mezi mobilem, tabletem a desktopem.",
    "why": "Pro české hotely a ubytovací zařízení inzerující přes Google Hotel Ads to znamená možnou konkurenční nevýhodu, pokud platformy jako Booking upravují své nabídky podle zařízení. Může to ovlivnit, jak se jejich nabídky zobrazují v porovnání s velkými OTA.",
    "takeaway": "Sledujte, zda se tato praxe rozšíří, a pravidelně kontrolujte, jak se vaše hotelové reklamy zobrazují napříč zařízeními. Zvažte přizpůsobení vlastních nabídek a bid strategií podle typu zařízení v Google Ads.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "7cd9f12267",
-   "created": "2026-09-15T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-business-profile-api-application-delays-42085.html",
-     "title": "Google Business Profile API Application Delays",
-     "summary": "Google announced a delay in processing applications for access to the Google Business Profile API. This was posted by Victoria Kroll in multiple languages in the Google Business Profiles support forum.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-15T11:51:00+00:00",
-     "score": 58
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Google zpomalil vyřizování žádostí o přístup k Business Profile API",
-   "updated": "2026-09-15T15:07:08.760782+00:00",
-   "what": "Google oznámil zpoždění při zpracování žádostí o přístup k API pro správu firemních profilů (Google Business Profile). Informaci zveřejnila Victoria Kroll v oficiálním fóru podpory ve více jazycích.",
-   "why": "Týká se agentur a vývojářů, kteří potřebují API přístup pro správu firemních profilů klientů v Google vyhledávání a Mapách. Zpoždění může ovlivnit plánované projekty a automatizaci.",
-   "takeaway": "Pokud plánujete integraci s Google Business Profile API nebo čekáte na schválení přístupu, počítejte s delší čekací dobou. Alternativou zůstává manuální správa profilů.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
