@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-20T20:57:45.224296+00:00",
+ "last_run": "2026-09-21T10:05:08.358664+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 4
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Collabim blog",
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 521, ?))",
-   "new": 9
+   "status": "ok",
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 503, text/html))",
    "new": 0
   },
   {
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
@@ -358,7 +358,7 @@
   {
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='contentmarketinginstitute.com', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -376,7 +376,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
    "new": 0
   },
   {
@@ -4116,9 +4116,247 @@
   "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdWlpbmpENHltRmRVbTg4aUxDYUlaaWVTMTJMbnRneW0xeGJMNjhLcEtfaUNyWEVMQ0FxRzJ3eVNic0Y1Umx6UWt5ZGU1Q2IxazZPdXdwLW5UcUxIYTlHSDhFZDJDZ3RwdFZPNTlGb0xsY3lPM3AtTk5VamU0UTliZXcwYkQ3MGdtX0w2Vkt2SQ?oc=5": "2026-09-20T20:57:45.224296+00:00",
   "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdllKdXNjTzJNNTgyLUprMDJKWDh2eXlCTjJrdEt2bTZzVTZkSThSSzR3SnRQNElTeGtvWml6OHlyV3dnbmNaMHJadUdnV3BaQzk1N09zRmYwQ28tTnNUc1JlZmE2S2ZMcnAtbmZJd3hHVTg2SEhnSEt1S0dBNks2cXQ5QjFFUnpubVc3d0pLeGEzRjA?oc=5": "2026-09-20T20:57:45.224296+00:00",
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcXVCSFVLLXNwdHlFbUdBQWw2b0ZPQndScGpObVFVWWpqcTlsTGkyWjFMbmNld0NaQ2hmeUx6Ml9rRU0wNlh4REFmeUhGdUs2bV9KQkRQb3hSYUladWRBWXJETWx1bHA4eUV0c09OZXRGa1dUTnhQRFVDVUxHdWhsbFgwMA?oc=5": "2026-09-20T20:57:45.224296+00:00",
-  "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3aHQ2RzNvVEtDeS0zTURIbndFTVFMazZqQUtmT21lNG9LSG8wajZUTXFtYkNSdUdkYTB1VnhoS2hncXRqdTFmTmxGalZsTm1GTGRWVHlMM2xhb1RzSk0xdEZlaEZ6bTdBWndEeA?oc=5": "2026-09-20T20:57:45.224296+00:00"
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3aHQ2RzNvVEtDeS0zTURIbndFTVFMazZqQUtmT21lNG9LSG8wajZUTXFtYkNSdUdkYTB1VnhoS2hncXRqdTFmTmxGalZsTm1GTGRWVHlMM2xhb1RzSk0xdEZlaEZ6bTdBWndEeA?oc=5": "2026-09-20T20:57:45.224296+00:00",
+  "https://www.mediaguru.cz/penny-v-csr-kampani-podporuje-utulky-vyuziva-hlasy-znamych-osobnosti": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/aktuality/zakaznici-o2-maji-problemy-s-pevnym-pripojenim": "2026-09-21T10:05:08.358664+00:00",
+  "https://cc.cz/omyl-kvuli-stejnemu-jmenu-z-testu-utekla-uz-i-umela-inteligence-gemini-od-googlu-a-napadla-tri-firmy": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediaguru.cz/nedelnim-poradem-byl-znovu-docent-odstartovali-zradci": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/aktuality/nejvetsi-datacentrum-v-cesku-zna-dodavatele-optickeho-pripojeni-bude-jich-nekolik": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/aktuality/cesti-tvurci-hernich-hitu-dayz-a-arma-kupuji-podil-ve-firme-vyvijejici-polsky-minecraft": "2026-09-21T10:05:08.358664+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-tests-copilot-audience-generation": "2026-09-21T10:05:08.358664+00:00",
+  "https://blog.seznam.cz/2026/09/nejvyhledavanejsi-dispozice-bytu-na-pronajem-vitezi-2kk-nasledovane-21-a-3kk": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/aktuality/ceska-sluzba-mojeid-ma-nove-sifrovani-ma-odolat-utokum-skrze-kvantove-pocitace": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediaguru.cz/kdyz-nase-produkty-dojdou-doma-to-zjistite-okamzite": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediaguru.cz/soud-schvalil-a-11-reorganizacni-plan-provoz-televize-zustane-zachovan": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediaguru.cz/yello-v-podzimni-kampani-vyzdvihuje-jednoduchost-zmeny": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediaguru.cz/designblok-se-vraci-do-prumysloveho-palace-letosnim-tematem-bude-svetlo": "2026-09-21T10:05:08.358664+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2": "2026-09-21T10:05:08.358664+00:00",
+  "https://cc.cz/nez-jsem-zacal-s-vibe-codingem-mel-jsem-fomo-rika-braverman-ve-firmach-to-neni-tak-ruzove-jako-na-linkedinu": "2026-09-21T10:05:08.358664+00:00",
+  "https://cc.cz/rozjel-uz-ctyri-miliardove-firmy-jeho-roboti-ted-vyrazili-uklizet-a-stlat-postele-desitkam-lidi": "2026-09-21T10:05:08.358664+00:00",
+  "https://cc.cz/jsme-tragicka-firma-a-spatny-priklad-ale-udelame-miliardu-korun-cesi-vladnou-evrope-diky-kouzelnym-kartam": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/clanky/produkt-zahodit-firmu-zestihlit-a-preskladat-nove-technologie-nuti-firmy-zacit-znovu": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.lupa.cz/clanky/ct-planuje-zrusit-stovky-mist-rada-navic-usiluje-o-externi-personalni-audit": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-tests-network-tab-to-encourage-engagement-among-connections/830853": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.socialmediatoday.com/news/meta-expands-muse-agent-connections-launches-muse-for-mac/830852": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-ditches-post-enhancement-launches-post-proofreader/830851": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.socialmediatoday.com/news/youtube-executives-share-strategies-on-channel-pivoting/830850": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.socialmediatoday.com/news/x-shares-guidance-on-effective-promotions-in-the-app/830848": "2026-09-21T10:05:08.358664+00:00",
+  "https://www.mediar.cz/galerie-reklamy/kazuo-cistota-a-hiro-zameta-horvath-s-tipsportem-vzyvaji-japonske-mistry": "2026-09-21T10:05:08.358664+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTzQtOGlaX09Uekg2OW5oVjJlT2xBemJvUDR6T3plTUw3YUZKSUl1TXR4cGJHSzJvS0JXZTFBSDV6SzNpSVFJZGRXeW1fNzJPMURGSWRZZ3EzamZHVTRwQTJzQV90WlZVaFdpZGRndGRqVXZURVB5TzgxcGxFdzctLTZpa19kZmozTHB5RjFkX1V3OERwblZnVGpJQ1BWV0NrdjlkQzl6ZUVheFI1V2Z1eXE3VDBpVTJxUTJzZFZKcVQ?oc=5": "2026-09-21T10:05:08.358664+00:00"
  },
  "events": [
+  {
+   "id": "b52980d1cb",
+   "created": "2026-09-20T21:34:37+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-ditches-post-enhancement-launches-post-proofreader/830851",
+     "title": "LinkedIn ditches post enhancement, launches Post Proofreader",
+     "summary": "The move signals the platform&rsquo;s evolving approach to artificial intelligence tools and reflects a growing community backlash against AI slop.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T21:34:37+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-tests-network-tab-to-encourage-engagement-among-connections/830853",
+     "title": "LinkedIn tests Network tab to encourage engagement among connections",
+     "summary": "The latest engagement trial offers users an alternative feed made up entirely of direct follows and connections.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T21:58:36+00:00",
+     "score": 57
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "LinkedIn mění AI nástroje: ruší Post Enhancement, testuje záložku Network",
+   "updated": "2026-09-21T10:06:36.904171+00:00",
+   "what": "LinkedIn vypnul funkci Post Enhancement (AI vylepšování příspěvků) a nahradil ji skromnějším nástrojem Post Proofreader (korektura textu). Zároveň testuje novou záložku Network, která zobrazuje feed pouze z přímých kontaktů a sledovaných profilů.",
+   "why": "Změna AI nástrojů odráží negativní reakce uživatelů na automaticky generovaný obsah nízké kvality. Nová záložka Network může změnit způsob, jak se obsah dostává k cílové skupině – organický dosah může záviset více na přímých propojeních než na algoritmickém doporučování.",
+   "takeaway": "Při tvorbě LinkedIn obsahu sázejte na autenticitu místo AI vylepšení. Sledujte, zda se záložka Network rozšíří – pokud ano, může být klíčové budovat aktivní síť přímých kontaktů a povzbuzovat followery k přímému sledování firemního profilu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "0c88c9597d",
+   "created": "2026-09-17T21:30:15+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/blog/wix-cookie-banner-usercentrics",
+     "title": "Wix Cookie Banner Setup With Usercentrics in 6 Steps",
+     "summary": "If you run ads for a Wix site and went looking for Cookiebot , you already hit the first surprise: on Wix you don't install Cookiebot for Wix anymore . It was the case in the past, but now you install Usercentrics for Wix , a separate app built by the same company . Usercentrics states plainly that the two are different products with separate pricing. That is not a licensing quirk. It comes down to how Wix serves your site, and it decides whether your tags actually respect consent or only look like they do. This guide covers why a generic CMP script falls short on Wix, how to install and confi",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-17T21:30:15+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc0hrTm5SVmo4b3M5alRQaDk1Sl9VQ2k5UzFOU1FVVlJVeGR5dUJnMkhpUF9MVWsyc2lDZHBKNkJIUEJJdXdUY0w0cDg1bkdlZ0pZQ1M1UVh6YzNtaEN1UkEyQ1lZbHNOMF9lQWt5WG1IVndQVWhBUTVYa3V2NXRZaUVvaGllMmNkWTBGeA?oc=5",
+     "title": "AI Mode Tests Text Anchor Ads With Descriptions",
+     "summary": "AI Mode Tests Text Anchor Ads With Descriptions &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T08:23:35+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEJTSTM5aHdLdk5RT1l1UFF1eVVvTmNZVWEzTS1UczJZSERqUmNsWmJ1T3pRZEUyWDdYWWJpc0FnUXBTV2I5TW9rYU05ekR0RlZrSnMzbmFPWlh5TmoyMU5OQ0hpc1pwa2NaTHYxbkhDMGE2OUFrU0s1Xy1acFg4RDBreGRseHBVQURmei1fNi0zQQ?oc=5",
+     "title": "\"Descriptions for Ads\" Spotted in Google AI Mode",
+     "summary": "\"Descriptions for Ads\" Spotted in Google AI Mode &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-19T14:58:16+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Wix nyní vyžaduje Usercentrics místo Cookiebot kvůli cookies consent",
+   "updated": "2026-09-21T10:06:27.770164+00:00",
+   "what": "Na platformě Wix již nelze instalovat Cookiebot – nahradila jej samostatná aplikace Usercentrics for Wix od stejné společnosti. Usercentrics i Cookiebot jsou oddělené produkty s vlastním ceníkem. Důvodem změny je způsob, jakým Wix servíruje stránky, což rozhoduje o tom, zda tagy skutečně respektují souhlas návštěvníků, nebo pouze předstírají.",
+   "why": "Pro marketéry spravující PPC kampaně na Wix stránky je správné nastavení consent management platformy (CMP) klíčové pro soulad s GDPR a zajištění, že tracking návštěvníků probíhá v souladu se zákonem. Obecné CMP skripty na Wixu nefungují správně.",
+   "takeaway": "Pokud provozujete nebo spravujete reklamu pro weby na platformě Wix, zkontrolujte, zda máte správně nainstalovaný Usercentrics for Wix namísto starého Cookiebotu. Ujistěte se, že tracking a remarketing tagy skutečně respektují souhlas uživatelů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false,
+   "image": "img/0c88c9597d.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "2b2d0f0f1d",
+   "created": "2026-09-20T11:52:13+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHp0WEVISERMOFgwTjA2YVdmWF84UmZabXNrTnAyc091aFNXZ2t2dHNLN0o5UlJBemQ4YnR4SzRPaU5pU0FGdkVfVEh1aHRoQ2pKUE00Qk8yNkliVWlBR2ZON2JnWmpqVDF4eXVGemxGZElNdDY2UzNoamlLVnd4SEdHM0pCOF91Z2Z3?oc=5",
+     "title": "Agentic Commerce Updates for Holiday Shopping",
+     "summary": "Agentic Commerce Updates for Holiday Shopping &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T11:52:13+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks",
+     "title": "“More From Advertiser” Title Tested for Sitelinks",
+     "summary": "Google is testing a new sitelink headline showing advertiser's icon with \"More from Advertiser\" title, potentially affecting ad engagement and visibility. This update was shared by Sachin Patel . The post &#8220;More From Advertiser&#8221; Title Tested for Sitelinks appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T12:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-top-pick-label-sponsored-products",
+     "title": "Bing Tests “Top Pick” Label on Sponsored Products",
+     "summary": "Bing is testing a \"Top Pick\" label on its sponsored result product carousels , highlighting a potential new way for products to stand out in search results. The \"Top Pick\" label is prominently displayed in the product carousel, potentially drawing more eyes to specific listings. This update was shared by Khushal Bherwani . The post Bing Tests &#8220;Top Pick&#8221; Label on Sponsored Products appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T14:00:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ppc",
+   "importance": 47,
+   "title": "Google představil Agentic Commerce pro nákupy na konci roku",
+   "updated": "2026-09-21T10:06:18.566666+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false,
+   "what": "Google oznámil aktualizace tzv. Agentic Commerce – funkcí využívajících AI agenty k usnadnění online nakupování, připravených právě na vánoční sezónu. Detaily o konkrétních funkcích a jejich dostupnosti nejsou ve zdroji uvedeny.",
+   "why": "Pokud se jedná o nové reklamní formáty nebo nákupní funkce v Google Ads či Google Shopping, mohlo by to ovlivnit strategie kampaní v období nejdůležitější prodejní sezóny. Bez bližších informací o dostupnosti v ČR/EU a konkrétních funkcích však není jasný přímý dopad.",
+   "takeaway": "Sledujte oficiální komunikaci Google Ads, zda se Agentic Commerce objeví v českém prostředí, a jak může ovlivnit Shopping kampaně nebo organické nákupní výsledky. Zatím není důvod k okamžité akci."
+  },
+  {
+   "id": "e84d69df09",
+   "created": "2026-09-21T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-tests-copilot-audience-generation",
+     "title": "Microsoft Advertising Tests Copilot Audience Generation for Audience Campaigns",
+     "summary": "Microsoft Advertising is testing Copilot Audience Generation , a new feature available in a closed beta for Audience campaigns in the US, Canada, UK, and Australia . Advertisers can use natural language to describe their ideal customer, and Copilot will generate a custom AI-driven audience along with recommended segments. Among the key elements, the new help page outlines a workflow that involves entering the desired audience description in the 'Who's Your Target Audience?' section, reviewing AI-generated and recommended segments, refining the audience as needed, and saving the selections. The",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T07:00:00+00:00",
+     "score": 70
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Microsoft Advertising testuje AI vytváření publik v Copilotu",
+   "updated": "2026-09-21T10:05:08.358664+00:00",
+   "what": "Microsoft Advertising spustil uzavřenou beta verzi funkce Copilot Audience Generation pro Audience kampaně v USA, Kanadě, UK a Austrálii. Inzerenti mohou pomocí běžného jazyka popsat ideálního zákazníka a Copilot automaticky vygeneruje publikum a doporučí relevantní segmenty.",
+   "why": "Jde o zjednodušení práce s cílením publik v Microsoft Advertising pomocí AI – místo ručního sestavování segmentů stačí popsat cílovku slovy. Funkce zatím není dostupná v ČR ani EU.",
+   "takeaway": "Pro české inzerenty v Microsoft Ads zatím bez dopadu – funkce běží pouze v anglicky mluvících zemích. Sledujte, zda a kdy Microsoft rozšíří dostupnost do Evropy.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d1d55c3ffc",
+   "created": "2026-09-21T06:43:11+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/ceska-sluzba-mojeid-ma-nove-sifrovani-ma-odolat-utokum-skrze-kvantove-pocitace",
+     "title": "Česká služba MojeID má nové šifrování, má odolat útokům přes kvantové počítače",
+     "summary": "Služba digitální identity MojeID od CZ.NIC nasadila postkvantovou kryptografii (PQC), díky čemuž by měla být odolná vůči případným budoucím útokům skrze výpočetní sílů kvantových počítačů. PQC už se ře&#353;í nějakou dobu a vznikly první standardy NIST. Tento způsob &#353;ifrování doporučuje také Národní úřad pro kybernetickou a informační bezpečnost (NÚKIB).",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-21T06:43:11+00:00",
+     "score": 50
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 15,
+   "title": "MojeID nasadilo postkvantové šifrování pro ochranu před budoucími útoky",
+   "updated": "2026-09-21T10:05:08.358664+00:00",
+   "what": "Služba digitální identity MojeID od CZ.NIC implementovala postkvantovou kryptografii (PQC) podle standardů NIST. Jde o šifrování odolné vůči potenciálním útokům pomocí kvantových počítačů. Nasazení doporučuje i Národní úřad pro kybernetickou a informační bezpečnost (NÚKIB).",
+   "why": "Pro marketingové manažery jde o oborové technické zákulisí bez přímého dopadu na jejich práci. MojeID se používá spíše pro přihlašování k veřejným službám, nikoli jako běžný marketingový nástroj. Kvantové hrozby jsou navíc zatím budoucí téma.",
+   "takeaway": "Pokud vaše firma používá MojeID pro autentizaci zákazníků nebo zaměstnanců, aktualizace proběhla automaticky a nic nemusíte měnit. Jinak to pro běžnou marketingovou praxi nemá význam.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "d5e62137fe",
+   "created": "2026-09-21T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2",
+     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
+     "summary": "Google has updated the AI Max search terms report view to \"Search terms and ad combinations\" , previously known as \"Search terms and landing pages from AI Max.\" This change appears on the Google Ads help page and affects how advertisers refer to the AI Max features in training and documentation. This renamed view continues to list search terms alongside headlines, landing pages, campaigns, and ad groups involved in the ad journey. It's crucial for those documenting AI Max reporting to update their resources with this change. Read the official help page here: About reporting in AI Max for Searc",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T05:00:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "ppc",
+   "importance": 47,
+   "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
+   "updated": "2026-09-21T10:05:08.358664+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "2670da1ad2",
+   "created": "2026-09-20T20:56:42+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-shares-guidance-on-effective-promotions-in-the-app/830848",
+     "title": "X shares guidance on effective promotions in the app",
+     "summary": "The refreshed playbooks feature overviews on best ad practices and a look at tapping into on-platform events.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T20:56:42+00:00",
+     "score": 52
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "X vydal aktualizované příručky pro efektivní reklamu na platformě",
+   "updated": "2026-09-21T10:05:08.358664+00:00",
+   "what": "X (bývalý Twitter) zveřejnil aktualizované playbook příručky, které obsahují přehled osvědčených postupů pro reklamu na platformě a návody, jak využívat události probíhající přímo v aplikaci.",
+   "why": "Pro firmy inzerující na X jde o aktualizaci doporučení, jak efektivněji nastavovat kampaně a využívat možnosti platformy. Příručky mohou pomoci lépe cílit a optimalizovat výdaje na tomto kanálu.",
+   "takeaway": "Pokud na X inzerujete nebo zvažujete tento kanál, projděte si aktualizované playbook příručky – můžete najít tipy na zlepšení výkonu kampaní nebo nápady na zapojení do on-platform eventů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "f308ad896d",
    "created": "2026-09-14T14:30:08+00:00",
@@ -4207,36 +4445,6 @@
    "multi_source": true,
    "image": "img/f308ad896d.jpg",
    "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "e251cb75d1",
-   "created": "2026-09-20T12:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks",
-     "title": "“More From Advertiser” Title Tested for Sitelinks",
-     "summary": "Google is testing a new sitelink headline showing advertiser's icon with \"More from Advertiser\" title, potentially affecting ad engagement and visibility. This update was shared by Sachin Patel . The post &#8220;More From Advertiser&#8221; Title Tested for Sitelinks appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T12:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-top-pick-label-sponsored-products",
-     "title": "Bing Tests “Top Pick” Label on Sponsored Products",
-     "summary": "Bing is testing a \"Top Pick\" label on its sponsored result product carousels , highlighting a potential new way for products to stand out in search results. The \"Top Pick\" label is prominently displayed in the product carousel, potentially drawing more eyes to specific listings. This update was shared by Khushal Bherwani . The post Bing Tests &#8220;Top Pick&#8221; Label on Sponsored Products appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T14:00:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 47,
-   "title": "“More From Advertiser” Title Tested for Sitelinks",
-   "updated": "2026-09-20T20:58:44.237137+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "fac219d6b1",
@@ -4910,60 +5118,6 @@
    "multi_source": true,
    "image": "img/6537a84437.jpg",
    "image_from": "semrush.com"
-  },
-  {
-   "id": "2b2d0f0f1d",
-   "created": "2026-09-20T11:52:13+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHp0WEVISERMOFgwTjA2YVdmWF84UmZabXNrTnAyc091aFNXZ2t2dHNLN0o5UlJBemQ4YnR4SzRPaU5pU0FGdkVfVEh1aHRoQ2pKUE00Qk8yNkliVWlBR2ZON2JnWmpqVDF4eXVGemxGZElNdDY2UzNoamlLVnd4SEdHM0pCOF91Z2Z3?oc=5",
-     "title": "Agentic Commerce Updates for Holiday Shopping",
-     "summary": "Agentic Commerce Updates for Holiday Shopping &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T11:52:13+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 57,
-   "title": "Agentic Commerce Updates for Holiday Shopping",
-   "updated": "2026-09-20T20:57:45.224296+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "0ba1f7aeb3",
-   "created": "2026-09-19T14:58:16+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc0hrTm5SVmo4b3M5alRQaDk1Sl9VQ2k5UzFOU1FVVlJVeGR5dUJnMkhpUF9MVWsyc2lDZHBKNkJIUEJJdXdUY0w0cDg1bkdlZ0pZQ1M1UVh6YzNtaEN1UkEyQ1lZbHNOMF9lQWt5WG1IVndQVWhBUTVYa3V2NXRZaUVvaGllMmNkWTBGeA?oc=5",
-     "title": "AI Mode Tests Text Anchor Ads With Descriptions",
-     "summary": "AI Mode Tests Text Anchor Ads With Descriptions &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T08:23:35+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEJTSTM5aHdLdk5RT1l1UFF1eVVvTmNZVWEzTS1UczJZSERqUmNsWmJ1T3pRZEUyWDdYWWJpc0FnUXBTV2I5TW9rYU05ekR0RlZrSnMzbmFPWlh5TmoyMU5OQ0hpc1pwa2NaTHYxbkhDMGE2OUFrU0s1Xy1acFg4RDBreGRseHBVQURmei1fNi0zQQ?oc=5",
-     "title": "\"Descriptions for Ads\" Spotted in Google AI Mode",
-     "summary": "\"Descriptions for Ads\" Spotted in Google AI Mode &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-19T14:58:16+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google testuje reklamy s popisky v AI Mode",
-   "updated": "2026-09-20T20:57:45.224296+00:00",
-   "what": "Google testuje nový formát textových kotevních reklam s rozšířenými popisky v AI Mode – experimentální vyhledávací režim založený na umělé inteligenci.",
-   "why": "Jde o potenciální rozšíření reklamních formátů v AI-poháněném vyhledávání. Pokud se formát uchytí a rozšíří, může ovlivnit způsob, jak uživatelé vnímají a klikají na reklamy ve vyhledávání, a tím i výkonnost PPC kampaní.",
-   "takeaway": "Sledujte vývoj AI Mode a jeho dostupnost v ČR. Pokud Google rozšíří tyto formáty globálně, bude potřeba připravit a otestovat rozšířené popisy reklam pro lepší viditelnost v AI výsledcích.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "f2094c4077",
@@ -8113,32 +8267,6 @@
    "multi_source": true,
    "image": "img/dc36fec3e9.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "0c88c9597d",
-   "created": "2026-09-17T21:30:15+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/blog/wix-cookie-banner-usercentrics",
-     "title": "Wix Cookie Banner Setup With Usercentrics in 6 Steps",
-     "summary": "If you run ads for a Wix site and went looking for Cookiebot , you already hit the first surprise: on Wix you don't install Cookiebot for Wix anymore . It was the case in the past, but now you install Usercentrics for Wix , a separate app built by the same company . Usercentrics states plainly that the two are different products with separate pricing. That is not a licensing quirk. It comes down to how Wix serves your site, and it decides whether your tags actually respect consent or only look like they do. This guide covers why a generic CMP script falls short on Wix, how to install and confi",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-17T21:30:15+00:00",
-     "score": 74
-    }
-   ],
-   "category": "analytika",
-   "importance": 72,
-   "title": "Wix sites vyžadují Usercentrics místo Cookiebot – rozdíl v fungování consent",
-   "updated": "2026-09-17T22:56:15.451345+00:00",
-   "what": "Na platformě Wix již nefunguje běžný Cookiebot, ale samostatná aplikace Usercentrics for Wix od stejné společnosti. Jde o odlišné produkty s vlastním ceníkem. Rozdíl není jen formální – vyplývá z toho, jak Wix technicky servíruje web, a rozhoduje o tom, zda tagy skutečně respektují souhlas uživatele, nebo jen vypadají, že to dělají.",
-   "why": "Pro firmy provozující web na Wixu a platící za reklamu (např. Google Ads, Meta) je kritické, aby jejich tracking a remarketing respektoval consent podle GDPR. Běžný consent management systém na Wixu nemusí fungovat správně – tracking může běžet bez souhlasu, což znamená riziko pokuty i znehodnocení consent banneru.",
-   "takeaway": "Pokud provozujete web nebo e-shop na Wixu a řešíte GDPR consent: nekupujte běžný Cookiebot, ale instalujte Usercentrics for Wix jako samostatnou aplikaci. Ověřte, že vaše tracking skripty (GA4, Sklik, Meta Pixel) skutečně čekají na souhlas uživatele, ne jen zobrazují banner.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/0c88c9597d.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "e1fd00bfd3",
@@ -13178,148 +13306,6 @@
    "what": "Podle Digichef.cz se objevuje trend, kdy značky záměrně vytvářejí méně dokonalý obsah jako reakci na přesycení ultra-estetickými vizuály a AI generovanými příspěvky. Cílem je vypadat autentičtěji a odlišit se od perfektních, ale neosobních contentu.",
    "why": "Pro marketingového manažera jde o signál měnícího se vnímání obsahu – dokonalost může působit nepřirozeně a snižovat důvěru. V době, kdy AI umožňuje hromadnou produkci bezchybného obsahu, může naopak \"lidskost\" a nedokonalost zvyšovat engagement.",
    "takeaway": "Zvažte, zda perfektně vyleštěný obsah stále funguje pro vaše publikum, nebo testujte autentičtější formáty (zákulisí, neupravená videa, reálné zákaznické situace). Sledujte metriky engagement u různých typů obsahu."
-  },
-  {
-   "id": "de710764aa",
-   "created": "2026-08-10T09:52:43+00:00",
-   "articles": [
-    {
-     "url": "https://blog.shoptet.cz/zablokovany-reklamni-facebook-ucet",
-     "title": "Zablokovali vám reklamní účet na Facebooku? Tady je návod, co dělat",
-     "summary": "Ráno se přihlásíte do Ads Manageru a místo kampaní vás přivítá zpráva: váš reklamní účet byl zablokovaný. Pro e-shopaře, který staví většinu akvizice na Facebooku, to může být doslova noční můra. V tomto článku se dozvíte, proč k blokování dochází, co dělat a na koho se obrátit o pomoc. Příspěvek Zablokovali vám reklamní účet na Facebooku? Tady je návod, co dělat pochází z Shoptet Blog",
-     "source": "Shoptet blog",
-     "domain": "blog.shoptet.cz",
-     "published": "2026-08-10T09:52:43+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Návod: Co dělat, když vám Facebook zablokuje reklamní účet",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Shoptet publikoval praktický návod pro e-shopy, co dělat v případě zablokování reklamního účtu na Facebooku. Článek vysvětluje důvody blokování a postup při řešení situace.",
-   "why": "Pro e-shopy závislé na Meta Ads může blokace účtu znamenat okamžitý výpadek příjmů. Znalost postupu, jak situaci řešit a na koho se obrátit, může výrazně zkrátit dobu, po kterou jsou kampaně mimo provoz.",
-   "takeaway": "Připravte si preventivní plán pro případ blokace Meta Ads účtu – zjistěte si postup odvolání a kontakty na podporu. Pokud provozujete e-shop, diverzifikujte akvizici i mimo Meta, abyste nebyli při případné blokaci zcela bez příjmů.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/de710764aa.jpg",
-   "image_from": "blog.shoptet.cz"
-  },
-  {
-   "id": "b12648be0f",
-   "created": "2026-08-05T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa2V6bDlsOWwtMVZjZ1lYXzd0MHlGUG9sRnZoYUFpcFJOWHJxdDR2OU9PVndvQVFyOGM1QnlVdnRjSThxYjZweTFZM1ZSSFZvUUkwblphbmp5cXJCTUZjcmIwT01ORHU1bVZTOXdzNHZKdmpscVRxd1dvVjU5VzBUeHROQ1haazZJeFhCNmhnZTNJV2Q0eW5tSFRmdkt5YVNKWkFiNTR5bjRPSWEwSDZ3aGh5dEpPTlBqNXI0RHM3UG5BMTVjZThyS3J4cFpjWWM3MVdUUXdFR2Z1eUNUckJRYw?oc=5",
-     "title": "E-commerce Insider: Česká e-commerce v prvním pololetí 2026 vzrostla o 5,3 %, táhne ji elektronika do aut a sportovní potřeby",
-     "summary": "E-commerce Insider: Česká e-commerce v prvním pololetí 2026 vzrostla o 5,3 %, táhne ji elektronika do aut a sportovní potřeby &nbsp;&nbsp; heureka.group",
-     "source": "Heureka blog",
-     "domain": "heureka.group",
-     "published": "2026-08-05T07:00:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 68,
-   "title": "Česká e-commerce rostla v 1. pololetí 2026 o 5,3 %, táhne ji elektronika do aut",
-   "updated": "2026-08-17T09:18:22.514189+00:00",
-   "what": "Podle dat Heureky vzrostl český e-commerce trh v prvním pololetí 2026 meziročně o 5,3 %. Největší růst zaznamenala kategorie elektroniky do aut a sportovních potřeb.",
-   "why": "Ukazuje aktuální stav a trendy českého online trhu. Pro marketingové manažery je důležité vědět, které kategorie rostou, protože to ovlivňuje alokaci rozpočtu, výběr produktů k propagaci a strategie kampaní.",
-   "takeaway": "Pokud prodáváte nebo propagujete produkty v automotive elektronice nebo sportovním vybavení, zvažte navýšení marketingového rozpočtu v těchto kategoriích. U ostatních segmentů počítejte s průměrným růstem kolem 5 %.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/b12648be0f.jpg",
-   "image_from": "heureka.group"
-  },
-  {
-   "id": "35f19873c6",
-   "created": "2026-08-17T05:11:58.684324+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/clanky/televize-prima-sport-program-vysilani-srpen-2026",
-     "title": "Prima Sport startuje s reprízami fotbalu, tenisem a maratonem plážového volejbalu",
-     "summary": "Nový sportovní kanál skupiny Prima zahájil v pondělí 17. srpna v 6 hodin pravidelné vysílání. První týden nabídne fotbal, tenis i dlouhé bloky plážového volejbalu, vedle toho nasadí dokumenty a vlastní zpravodajské pořady.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-17T04:00:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://www.mediar.cz/prima-sport-bude-sportovne-lifestylovy-kanal-ukazala-vizual-studia",
-     "title": "Prima Sport bude sportovně-lifestylový kanál. Ukázala vizuál studia",
-     "summary": "Koupě Sporty TV přípravy urychlila, prozradil generální ředitel Primy Lukáš Kubát.",
-     "source": "Médiář",
-     "domain": "mediar.cz",
-     "published": "2026-08-16T22:00:26+00:00",
-     "score": 46
-    },
-    {
-     "url": "https://www.mediaguru.cz/prima-sport-zatim-do-tv-mereni-nevstoupi-reklamu-bude-prodavat-pasmove",
-     "title": "Prima sport zatím do TV měření nevstoupí, reklamu bude prodávat pásmově",
-     "summary": "Nový sportovní kanál Prima sport nebude po svém spuštění součástí elektronického měření televizní sledovanosti. Skupina Prima jej zatím plánuje obchodovat samostatně prostřednictvím pásmového ceníku, přičemž ceny reklamy se budou odvíjet od atraktivity jednotlivých sportovních přenosů.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-17T05:30:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 52,
-   "title": "Prima Sport startuje bez TV měření, reklamu prodává pásmově podle atraktivity",
-   "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Skupina Prima spustila 17. srpna nový sportovní kanál Prima Sport s pravidelným vysíláním fotbalu, tenisu, plážového volejbalu a dokumentů. Kanál zatím nevstoupí do elektronického měření televizní sledovanosti a nebude součástí standardních TV metrik.",
-   "why": "Pro inzerenty a mediální agentury to znamená absenci ověřitelných dat o sledovanosti. Prima Sport bude prodávat reklamu pásmově podle vlastního odhadu atraktivity jednotlivých sportovních přenosů, nikolik na základě naměřených ratingů.",
-   "takeaway": "Pokud zvažujete kampaň na Prima Sport, požadujte jasné podmínky a garantované parametry dodání – bez měření nemáte standardní nástroj k ověření skutečného dosahu. Vyčkejte na vstup kanálu do oficiálního měření, než alokujete větší rozpočty.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "e7c76e9dc8",
-   "created": "2026-08-17T07:31:21.653291+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/spir-vypsal-tendr-na-novy-admonitoring-a-ma-i-noveho-reditele",
-     "title": "SPIR vypsal tendr na nový AdMonitoring a má i nového ředitele",
-     "summary": "Sdružení pro internetový rozvoj (SPIR) vyhlásilo výběrové řízení na novou generaci projektu AdMonitoring, který sleduje online reklamní trh v Česku. Nový systém má lépe zachytit programatickou reklamu, rozšířit pokrytí trhu a nabídnout modernější výstupy pro vydavatele, agentury i zadavatele.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-17T06:00:00+00:00",
-     "score": 72
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 25,
-   "title": "SPIR vypisuje tendr na novou generaci AdMonitoringu",
-   "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Sdružení pro internetový rozvoj (SPIR) vyhlásilo výběrové řízení na nový systém AdMonitoring, který sleduje český online reklamní trh. Nová verze má lépe zachytit programatickou reklamu, rozšířit pokrytí trhu a nabídnout modernější výstupy.",
-   "why": "AdMonitoring poskytuje data o objemu a struktuře online reklamy v ČR, ale pro běžného marketingového manažera jde o oborovou infrastrukturu bez přímého dopadu na denní práci.",
-   "takeaway": "Pro marketingového manažera nemá změna systému přímý dopad – AdMonitoring je analytický projekt sloužící spíše agenturám a vydavatelům k přehledu o trhu. Sledovat není potřeba.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "bc8ba8dda3",
-   "created": "2026-08-17T07:31:21.653291+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/cesi-pri-nakupu-obleceni-davaji-prednost-cene-kde-nakupuji",
-     "title": "Češi při nákupu oblečení dávají přednost ceně. Kde nakupují?",
-     "summary": "Čeští spotřebitelé při nákupu oblečení rozhodují především podle ceny, kvality a vzhledu. Ekologické a etické aspekty výroby zůstávají na okraji jejich zájmu, přestože většina lidí deklaruje podporu odpovědnějšímu přístupu k módě. Vyplývá to z nového výzkumu STEM, podle kterého více než pětina Čechů nakupuje také na platformách s ultra rychlou módou, jako jsou SHEIN nebo Temu.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-08-17T05:50:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Češi při nákupu oblečení prioritizují cenu, pětina nakupuje na SHEIN a Temu",
-   "updated": "2026-08-17T07:31:21.653291+00:00",
-   "what": "Podle nového výzkumu STEM rozhodují čeští spotřebitelé o nákupu oblečení především na základě ceny, kvality a vzhledu. Více než pětina Čechů nakupuje na platformách ultra rychlé módy jako SHEIN nebo Temu. Ekologické a etické aspekty výroby jsou pro většinu okrajovou záležitostí, i když lidé deklarují podporu odpovědnějšímu přístupu k módě.",
-   "why": "Data ukazují reálné nákupní chování českých spotřebitelů v segmentu módy – cenová sensitivita a rostoucí podíl asiatských platforem typu SHEIN/Temu ovlivňujíStrategie e-commerce hráčů a retailových značek na českém trhu. Rozpor mezi deklarovanými hodnotami (udržitelnost) a skutečným chováním (cena) je zásadní pro targeting a komunikaci.",
-   "takeaway": "Pokud prodáváte oblečení nebo inzerujete módní značky v ČR, počítejte s tím, že zákazníci primárně řeší cenu – komunikace ekologie a etiky funguje spíše jako image, ale neovlivňuje většinové nákupní rozhodnutí. Sledujte konkurenci z SHEIN/Temu a jejich cenovou úroveň při nastavování PPC kampaní a cenových strategií.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
