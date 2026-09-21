@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-21T16:32:44.108759+00:00",
+ "last_run": "2026-09-21T22:04:50.416720+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 5
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 12
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 5
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 503, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -281,12 +281,12 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -299,19 +299,19 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -335,7 +335,7 @@
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MeasureSchool",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "new": 7
   },
   {
    "name": "Think with Google",
@@ -389,13 +389,13 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   }
  ],
  "feed_overrides": {
@@ -4173,9 +4173,187 @@
   "https://www.mediar.cz/stepan-kozub-se-spojil-s-evropou-2-vedle-ranni-show-ma-podcast-kozub-pytcho": "2026-09-21T16:32:44.108759+00:00",
   "https://www.semrush.com/blog/ai-citation-outreach": "2026-09-21T16:32:44.108759+00:00",
   "https://www.mediar.cz/katz83-rozsirila-portfolio-klientu-o-trinity-bank": "2026-09-21T16:32:44.108759+00:00",
-  "https://news.google.com/rss/articles/CBMickFVX3lxTE5tckJpdm1YMXQ2RUdja1M1REFtay1XdTlLS0gxa2w3WnhiRHJUNTZyUmtYT1p5N19lX01La1BaYWpFbUFHLXZLdzIydUpmM01vSGpqUDlRbm9vbHBDVkFma2tZOVNUZ245cldVNFlFdnRGQQ?oc=5": "2026-09-21T16:32:44.108759+00:00"
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE5tckJpdm1YMXQ2RUdja1M1REFtay1XdTlLS0gxa2w3WnhiRHJUNTZyUmtYT1p5N19lX01La1BaYWpFbUFHLXZLdzIydUpmM01vSGpqUDlRbm9vbHBDVkFma2tZOVNUZ245cldVNFlFdnRGQQ?oc=5": "2026-09-21T16:32:44.108759+00:00",
+  "https://www.searchenginejournal.com/google-indexing-api-approval-job-sites/590316": "2026-09-21T22:04:50.416720+00:00",
+  "https://blog.hootsuite.com/get-more-instagram-followers": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92Wk1wcG5Vell5SDBsNUs3SGVRM1lQSEtuWlliaDRFcFFOWHN3SG9wTUpTS2Q3UU0tWnpDRHZNdUk0b0lKdXlmZVJ3T2FSdW51R1U3QXUya0E?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IdkxvbHcwUHF2UTFxZHJoYUdKWnEybnpXaTMxSm1naXQ1eTdWSE9fdVp3YnFjeWMyQ0Q1NWQtTVE3T0VOS09GYVlzMjFqSFdpOHBleDhOT1RDTEVKNEc3bnR5TQ?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://www.searchenginejournal.com/international-seo-for-publishers-how-to-succeed-across-borders/589631": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZlExemtHZVRuQm5EaGM2UmtWQmZ4Tk9xOUhrOVBNTFBKLXF3OHpIMUZGN1JRVHVPeVBNYjExUXN4TzZiYXB4ZlVkWDVLZkZSblh1VjItM2tYTjNGYW9aNGtPWkkyNXZYbnFCU3RmWkFxbGRDRUxsNVdlQXo2YnFpSjc2cTdFVldPUHl6OFlVOWx2YnNNYm5TR2IydlQyckNxSVBkOUtiZGRkcmRRN25ZRGlteGFKRExEY3M1cmI3RzZhUDVyUlZqX1dpLVkzaGxwY1N3WGl6SGkwZW9VdnRQMEhZM3pCZGVONWFMT0NCd01PcTl2dURKWjFMQQ?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hZUg4SFBQMzh2NkQxZkJMRndRRC02TnByWlZLbkFQcFRJTkppbV9lS2VYOFkyREY2QXpHUTEwcTdRbWxrSFFIOXR3ak5SWmJHT2dYaEdBRU1kV0pK?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdU1zeW1rQVQ3UGVvVUsxTGJxdHJIWm5hWlpjM0FvSjBaX3NOM21KNFNma1lpUHlmZlRVV0xjV3BoT2dteFdTRmI0RXBxYktLOWxUVk5qUHNXeU9VdGtVbEFTTG1TZXJZQWs1LXhocUwyWFg4YVUtMGZuMHd4T0dvWWNmTVQxTnVES3dKcGpCMy1nLXpnQUpYSWV4NXYtN1UtUXJQaTBMdkViOUliaFNXc2JWV2dvVENTaE5oUGlGSndpQkNWb2NlZFZGN1RSX1JLVTlHWUlHanMwRXB5UmNPb0dza3htcHlkd01xRHhOMWR2djhUalkza0Fkdw?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeGNvSlE1d2pfc0VjT3J3dDlYSFVlOU4xZFZLTzdwZmlTS2Noa3hmeUhGcWRpZnp6dmRjb0E5RUh4emt0R3QzNnFEY2U3S1VicXNaeFdULXJrMzhiMEF5TDZVeEU0LUFIeEREOWtwRFVZUGk3Z0l0RWFvZ3hpX1Flb2JjZGJTTU9LVUVNMkZUY21KRTE3Mk1BVEZWQkdfQ3AwZDBldnpIRENMT1dLNFI2YTI3NUZVVHMzOVA2c2gxNndTdVBNSlZWWU8wSVd1M2hHNjdHWTNuQnJnV0pjZEdaUkd1SmYxMmVBQUhMZ0pIYkZPdjhkTUlwbGhRdw?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUzFsS0puU1ZWZ0FTZ2YybGItTkszalRheWVpX285RzZPdU9PN0VtTjJKMlV3Y0N6QzlvOGFIbEJ5NUQ2RW5kaFNGY3J2aWk2Mkd2ZUhvMkVRTnc1bGx5TXFTYVc3aE95M2hHWW1FRVc1VVhCaEFxRkNqcWpBSWRyVWh6cnI2clF2WDk3QVlYOUNHd3NCOGJqNzBCam1DMlk1Nm81TWJ2RktBQzRubWNIaTlvdjlrVkQ5azhQXzBDbXUwaW1meG9KVE93UHFtRkRzQlBkS2hRYWZlS3k3UHprMk5JdktvTXBoczU3VC1KaGtEd0I2SFJrczBsVQ?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://www.searchenginejournal.com/how-to-find-the-sources-shaping-ai-answers-in-your-industry/589756": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRi1VaHpQOW1DTXZveUlmX2EzM3RRZ1VyOWVEMzduVThMTkFQQWdESkp0VjJMSEl0QzllLXp0aHczaEtsX1QzMHBpSTFVaTVQcWdab1dXMW9GalRjeUdXd2FiXzFyN1VmYzZBTTJRS0Z5UWJkLUpndlJWb2M3eEpyYnR1ZEdlR1pTcG5Z?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://cc.cz/je-to-jeden-z-nejtraskavejsich-byznysovych-rozchodu-a-tohle-je-5-veci-ktere-byste-o-nem-meli-vedet": "2026-09-21T22:04:50.416720+00:00",
+  "https://www.mediar.cz/ritual-pripravila-pro-iveco-prazskou-zastavku-evropske-road-tour": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5VlN4bVVZTmpBSmoyWlRYZmxYMXhyZTBidk11czdMWXF1bnB1UmpEWnZmbTBmTUZiMGJJejhKcm82cU12NW5sbVFzREV0WXFhNExlUzJTY043LURmSHFTTW1n?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzBEQ0pIb3pVdlI0d0s3ZDZVUnd3aDg5amNyQ3ZudWRFQ2Y0NkVhbzBZcE0zbjl6QzV3Q0ZNcGZhb3NVbVpQclFCSW1RR1poSVh2U0U1QjRINGtNcnRXSlFzOTYzb2Mzd1hhbHUydzlIYW03WlRhTkVhOXM5Q3JyRDhTSW5VR1c2Ykc1WmN0ejVyb0p6Rk9uM1Fkaw?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxcTZGdlRNZncwNnBhUmVnZFJaR3NaZVBZMlR2NnNDMU40Um5BWlA3cjRucEptZDl4UVpQOW9BWUNsLTlweGhOUFM1X2NfMURKZEppYTZLU1BiaDluUzlyQnpXUEFlQQ?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc1o5SHF5SlFTcGlPQTMySk9xSHREOURqNUNHVkhqMG1qYU5keko5ZEZzcjljaVMtajNxcXZDa2NPWDc0UzhETEE5ZDdmVVcwX3VkRU9MSExJM1ZRRGoxcEVFeE1nb2dxZ0ZmajRYaTdtdHZpY1RZU0ZxWk1yQU9pZXBCSkVIYU1EaHhRZVlEbTVUaW9CbXpLUDFnS2Z4akg1dzIyV2hPSUNDSnZTek50U0xIdUlCWF9Fb0daT1ZKdWQ?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjlvQ0NrcVVWSHNfYjNWM3ROeF9RS1BicTNwQzZxZmJyVHJfbm5seS1rYUxURER1cGhEZUNCbW9nTlAzWTQxOUx2ak5CU1VSeER6M2t6TnUyeTFHaWZWVUgyWUpaZHBfOWI1ZUpCX3dOZ3BqNWx4cEFJdGhHUnNlbzlWVEZnaHduYU5OZ3NPSVNNM0lUS0Q3NjlVczlRVmVvTGZNVA?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pVTZLTUtaM0hHVjlpSEg5Q1g3T1hMZ3g5dTdMVFh2WV92MWhHRVcxSnJUWFREZWt4NXpfQkZXZUlLMVdhWW1fVWhVSDZsaXgtclFWb3Uwem4zcmdMYk4zSklJSW1aQk1JVndn?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9udTRWTVMwc0VxNy1ndS02STdtdEZoVjJmX3htSWg5cDg3SkN2b2UwdTFNVE5QdE9XNzJtZUN6eEZZdF9sRjNGTUkxaUdXdjQ0ZzZPLVlNRk45eVM3TG94UERrc1RBc3Uz?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkJDS1NyVWtCalRnSkRYeGpkekoxV3ZpVHdLQjF5TVdRMVJELXRJVldhRUtxcjZoMUt5NDBpTmtkd090WWV5UFdiU3FxSEJrcVhhT3R4c0ZFN3d1VGFhX3FxSHRhWEpyTkJLU1VKcFFVWXdMc1V2ZTBVc0txRG05S1hKMGRpX25o?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zbHg4ZTFwSE5RXzJGN3ZxWUY0WTZkV0JvWXdwYXM4WDVnZzdkSExsWHVnRFgzczhON3prZTdIR0pzT1FuTVVFQ3RWX3NjbFZla2tka3laZVkwMkc0OGpxV0QyVHJYNjd5ZjBXTG1OWTF6RE85RHRTcg?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG02VTUtM0Q3akVvQ2l1VDQ5THdEVlUzVmxuc3ZZbzN2ejlqeTZLUjg3TFpraDRrajBhWnN6dy1CaTBXUmpsT0dLVXEtRWREXzFqek5WcE9fWU11ek42RGxnYXVhSGtmMmpUT1o5N1otZmxNZURMYkp2TFFXVVFUYkhGc2pSNzg?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE90U0xhVFNqem4zVXZxaFNhR3hVOGczcVJTVjFURFlIVGtNd2tvMFNBUjgtaG5CdmppY0p5bkNGZ3JUd3BDMGhFRklNby1tbnhYaUhWZmV0dVcwcW95WE9YXzlQNkZhSjNlOVg4Qm9xQU5UZVI5NXVOOUpn?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc2liVS0zYy00dFFqMVFlclZ5S2o2dGNXTGFvakZBcHJIWG1TZlBGWHVOMVhJclY3eW5qbFpjaC02V2hhbUhVazVCdTIyeVRsWGhKTmVtZ2lOZkxZRzhjLTI1RzY4TzllcjF0YW43Z044NTlFaDFsb1pyM015b0hnMlFkUGpVVEpRRnNV?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkZYcWFYZVhpdTFaMEs4RTY1cUFoQkZsTGxsX0UzeXhwZ1Q3UWtuQjR3RlZMX1I1WnoxS0JyLTdaWmpMWEg2cW1UUGVqdmR0TlVUMHJudmdQWU5sMjBHWDNyLW9yLWpWWmowbzQyVWNKcWZtbWlMUEd3eVRuWGRGanFpYTFUWkJRSmItVU1FblZPaVlSUy1JVDRLWmhhSVlDRDJ3NWhtOA?oc=5": "2026-09-21T22:04:50.416720+00:00",
+  "https://www.mediar.cz/galerie-reklamy/opavia-predstavuje-novy-komunikacni-koncept-tematem-jsou-mini-zvyky": "2026-09-21T22:04:50.416720+00:00",
+  "https://www.mediar.cz/galerie-reklamy/garmin-ma-novou-image-kampan-poprve-vznikla-kompletne-v-cesku": "2026-09-21T22:04:50.416720+00:00"
  },
  "events": [
+  {
+   "id": "43d4d6aabd",
+   "created": "2026-09-21T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkJDS1NyVWtCalRnSkRYeGpkekoxV3ZpVHdLQjF5TVdRMVJELXRJVldhRUtxcjZoMUt5NDBpTmtkd090WWV5UFdiU3FxSEJrcVhhT3R4c0ZFN3d1VGFhX3FxSHRhWEpyTkJLU1VKcFFVWXdMc1V2ZTBVc0txRG05S1hKMGRpX25o?oc=5",
+     "title": "Measuring AEO: A 3-layer attribution framework",
+     "summary": "Measuring AEO: A 3-layer attribution framework &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-21T14:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92Wk1wcG5Vell5SDBsNUs3SGVRM1lQSEtuWlliaDRFcFFOWHN3SG9wTUpTS2Q3UU0tWnpDRHZNdUk0b0lKdXlmZVJ3T2FSdW51R1U3QXUya0E?oc=5",
+     "title": "SEO vs. GEO, AEO, LLMO: What marketers need to know",
+     "summary": "SEO vs. GEO, AEO, LLMO: What marketers need to know &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-21T19:25:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 55,
+   "title": "AEO: nový směr SEO pro éru AI asistentů – měření a rozdíly od klasického SEO",
+   "updated": "2026-09-21T22:05:55.071976+00:00",
+   "what": "Search Engine Land publikoval články o Answer Engine Optimization (AEO) – optimalizaci pro AI asistenty a vyhledávače s generativními odpověďmi. První článek popisuje třívrstevný framework pro měření efektivity AEO, druhý vysvětluje rozdíly mezi SEO, AEO, GEO (Generative Engine Optimization) a LLMO (Large Language Model Optimization).",
+   "why": "S nástupem AI přehledů ve vyhledávačích (Google SGE, Bing Chat, ChatGPT Search) se mění způsob, jak uživatelé hledají informace – místo klikání na weby dostávají přímé odpovědi. Pro marketéry to znamená novou disciplínu: jak zajistit, aby AI asistenti citovali jejich obsah, značku nebo produkt. Zatím jde především o conceptual framework – praktické nástroje a metriky pro měření jsou teprve v počátcích.",
+   "takeaway": "Sledujte vývoj AEO/GEO jako doplněk (ne náhradu) klasického SEO. Pokud vaše firma vytváří odborný obsah nebo je v oboru s vysokou mírou informačních dotazů, připravte se na strukturovanější odpovědi (FAQ, jasné definice) a sledujte, zda vás AI nástroje citují. Zatím není nutné měnit strategie, ale je dobré tento trend znát.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "d5e62137fe",
+   "created": "2026-09-21T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2",
+     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
+     "summary": "Google has updated the AI Max search terms report view to \"Search terms and ad combinations\" , previously known as \"Search terms and landing pages from AI Max.\" This change appears on the Google Ads help page and affects how advertisers refer to the AI Max features in training and documentation. This renamed view continues to list search terms alongside headlines, landing pages, campaigns, and ad groups involved in the ad journey. It's crucial for those documenting AI Max reporting to update their resources with this change. Read the official help page here: About reporting in AI Max for Searc",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T05:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/offline-uploads-can-now-fill-missing-user-data",
+     "title": "Offline Uploads Can Now Fill Missing User Data in Tag Conversions",
+     "summary": "In the multi-source conversions beta , Google is now documenting that additional data sources can fill in missing user information like email, phone, and address in conversion events. This update, found in the help page , reveals that offline uploads supplement missing user-provided data, optimizing enhanced conversion matching when the tag records the conversion without complete user information. Among the key updates, real-time conversion values can be adjusted with accurate financial updates from CRMs, such as restatements or finalized cart totals. Advertisers must ensure offline data is up",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T14:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjlvQ0NrcVVWSHNfYjNWM3ROeF9RS1BicTNwQzZxZmJyVHJfbm5seS1rYUxURER1cGhEZUNCbW9nTlAzWTQxOUx2ak5CU1VSeER6M2t6TnUyeTFHaWZWVUgyWUpaZHBfOWI1ZUpCX3dOZ3BqNWx4cEFJdGhHUnNlbzlWVEZnaHduYU5OZ3NPSVNNM0lUS0Q3NjlVczlRVmVvTGZNVA?oc=5",
+     "title": "Google Ads lets offline uploads fill gaps in tag-based conversions",
+     "summary": "Google Ads lets offline uploads fill gaps in tag-based conversions &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-21T15:17:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads: offline data nově doplňují chybějící údaje v konverzích z tagu",
+   "updated": "2026-09-21T22:04:50.416720+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Google v rámci beta programu multi-source conversions umožňuje doplňovat chybějící uživatelská data (e-mail, telefon, adresa) z offline uploadů do konverzí zaznamenaných tagem. Offline data také mohou aktualizovat hodnoty konverzí v reálném čase, například z CRM systému.",
+   "why": "Zlepšuje se tím enhanced conversion matching i v situacích, kdy tag nezachytí kompletní uživatelská data při konverzi. Díky doplnění údajů a aktualizaci hodnot z CRM můžete získat přesnější data pro optimalizaci kampaní.",
+   "takeaway": "Pokud používáte enhanced conversions a máte přístup k offline datům (CRM, e-shop backend), zvažte napojení offline uploadů pro doplnění chybějících kontaktních údajů a zpřesnění hodnot konverzí. Ověřte, zda máte nastavenou konzistentní strukturu dat.",
+   "image": "img/d5e62137fe.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "b7236052b4",
+   "created": "2026-09-21T20:30:43+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/google-indexing-api-approval-job-sites/590316",
+     "title": "Job Boards Say Google Indexing API Requests Get No Response via @sejournal, @MattGSouthern",
+     "summary": "Job site operators report months-long waits for Google Indexing API approval, with no stated review timeframe in Google’s documentation. The post Job Boards Say Google Indexing API Requests Get No Response appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-21T20:30:43+00:00",
+     "score": 57
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Provozovatelé job boardů hlásí měsíční čekání na schválení Google Indexing API",
+   "updated": "2026-09-21T22:04:50.416720+00:00",
+   "what": "Provozovatelé pracovních portálů hlásí, že čekají měsíce na schválení přístupu k Google Indexing API, přičemž Google nikde neuvádí, jak dlouho by schvalovací proces měl trvat.",
+   "why": "Google Indexing API umožňuje rychlejší indexaci obsahu, což je pro pracovní portály klíčové. Nejasný proces schvalování a dlouhé čekací doby komplikují plánování technické implementace pro české job boardy.",
+   "takeaway": "Pokud provozujete pracovní portál a plánujete požádat o přístup k Indexing API, počítejte s měsíčními čekacími lhůtami bez jasného časového rámce. Dokud nemáte přístup schválený, spoléhejte se na standardní způsoby indexace.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "cd77a97e93",
+   "created": "2026-09-21T18:12:21+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/how-to-find-the-sources-shaping-ai-answers-in-your-industry/589756",
+     "title": "How To Find The Sources Shaping AI Answers In Your Industry via @sejournal, @hethr_campbell",
+     "summary": "Trendos' Gintare Rimolaityte explains how to map AI citation sources by industry and engine, identify competitor gaps, and turn an audit into content and outreach priorities. The post How To Find The Sources Shaping AI Answers In Your Industry appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-21T18:12:21+00:00",
+     "score": 62
+    }
+   ],
+   "category": "seo",
+   "importance": 35,
+   "title": "Jak mapovat zdroje citované v AI odpovědích ve vašem oboru",
+   "updated": "2026-09-21T22:04:50.416720+00:00",
+   "what": "Search Engine Journal publikoval návod od Gintare Rimolaityte (Trendos), jak analyzovat, které weby a zdroje AI vyhledávače (ChatGPT, Perplexity, Gemini aj.) citují v odpovědích relevantních pro konkrétní obor. Článek popisuje metodiku mapování citací podle odvětví a AI enginu, identifikaci konkurenčních mezer a převedení auditu do obsahové a outreach strategie.",
+   "why": "Pro marketingové manažery a SEO specialisty je rostoucí význam AI vyhledávačů novou výzvou – tradiční Google organika ztrácí na důležitosti a AI odpovědi čerpají z jiných zdrojů. Porozumění tomu, které weby AI preferuje v daném oboru, může odkrýt nové příležitosti pro budování autority a backlinků.",
+   "takeaway": "Pokud chcete, aby váš web byl citován v AI odpovědích, prozkoumejte, které zdroje AI nástroje ve vašem oboru používají, identifikujte mezery oproti konkurenci a zaměřte obsahovou strategii a PR na získání citací od těchto preferovaných zdrojů. Jde o evergreen návod, nikoli o aktuální změnu nástroje nebo pravidel.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "7a3845b7be",
+   "created": "2026-09-21T11:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkZYcWFYZVhpdTFaMEs4RTY1cUFoQkZsTGxsX0UzeXhwZ1Q3UWtuQjR3RlZMX1I1WnoxS0JyLTdaWmpMWEg2cW1UUGVqdmR0TlVUMHJudmdQWU5sMjBHWDNyLW9yLWpWWmowbzQyVWNKcWZtbWlMUEd3eVRuWGRGanFpYTFUWkJRSmItVU1FblZPaVlSUy1JVDRLWmhhSVlDRDJ3NWhtOA?oc=5",
+     "title": "CPC’s up, conversions down? Orchestrate data to find performance shifts",
+     "summary": "CPC’s up, conversions down? Orchestrate data to find performance shifts &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-21T11:00:00+00:00",
+     "score": 63
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Jak najít příčinu rostoucích CPC a klesajících konverzí",
+   "updated": "2026-09-21T22:04:50.416720+00:00",
+   "what": "Search Engine Land publikoval návod, jak diagnostikovat situaci, kdy rostou náklady na kliknutí (CPC) v PPC kampaních, ale zároveň klesají konverze. Článek doporučuje orchestraci dat z různých zdrojů – propojení metrik z reklamních platforem, analytiky a CRM.",
+   "why": "Jde o běžný problém v PPC kampaních, který přímo ovlivňuje efektivitu rozpočtu. Schopnost rychle identifikovat, kde dochází k problému (změna konkurence, sezónnost, kvalita provozu, technický problém na webu), může ušetřit peníze a zabránit plýtvání rozpočtem.",
+   "takeaway": "Když vidíš rostoucí CPC a klesající konverze, nestačí jen data z Google Ads nebo Skliku – zkontroluj je v kontextu s analytickými daty (GA4) a CRM. Hledej, jestli se změnilo chování návštěvníků na webu, kvalita klíčových slov nebo nastavení kampaní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "4e5615cc16",
    "created": "2026-09-21T09:49:00+00:00",
@@ -4219,41 +4397,6 @@
    "multi_source": true,
    "image": "img/4e5615cc16.jpg",
    "image_from": "semrush.com"
-  },
-  {
-   "id": "d5e62137fe",
-   "created": "2026-09-21T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2",
-     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
-     "summary": "Google has updated the AI Max search terms report view to \"Search terms and ad combinations\" , previously known as \"Search terms and landing pages from AI Max.\" This change appears on the Google Ads help page and affects how advertisers refer to the AI Max features in training and documentation. This renamed view continues to list search terms alongside headlines, landing pages, campaigns, and ad groups involved in the ad journey. It's crucial for those documenting AI Max reporting to update their resources with this change. Read the official help page here: About reporting in AI Max for Searc",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-21T05:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/offline-uploads-can-now-fill-missing-user-data",
-     "title": "Offline Uploads Can Now Fill Missing User Data in Tag Conversions",
-     "summary": "In the multi-source conversions beta , Google is now documenting that additional data sources can fill in missing user information like email, phone, and address in conversion events. This update, found in the help page , reveals that offline uploads supplement missing user-provided data, optimizing enhanced conversion matching when the tag records the conversion without complete user information. Among the key updates, real-time conversion values can be adjusted with accurate financial updates from CRMs, such as restatements or finalized cart totals. Advertisers must ensure offline data is up",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-21T14:00:00+00:00",
-     "score": 72
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads: offline data mohou doplnit chybějící údaje o uživatelích",
-   "updated": "2026-09-21T16:34:32.566727+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "what": "Google v rámci beta verze multi-source conversions umožňuje doplňovat chybějící kontaktní údaje (e-mail, telefon, adresa) z offline uploadů do konverzí zaznamenávaných tagem. Offline data také umožňují zpřesňovat hodnotu konverzí v reálném čase, například z CRM nebo finálních hodnot košíků.",
-   "why": "Pro marketingové manažery je to důležité kvůli lepšímu matchování enhanced conversions – když tag nezachytí kompletní uživatelská data, offline zdroje je mohou doplnit. Zlepšuje se tím kvalita dat pro optimalizaci kampaní a přesnější měření skutečné hodnoty konverzí.",
-   "takeaway": "Pokud používáte enhanced conversions a máte offline data (CRM, e-commerce backend), zkontrolujte nastavení multi-source conversions v Google Ads. Správné propojení může zlepšit matchování konverzí a zpřesnit jejich hodnoty pro optimalizaci kampaní.",
-   "image": "img/d5e62137fe.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "5498f20251",
