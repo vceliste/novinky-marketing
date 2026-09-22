@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-22T15:07:15.972860+00:00",
+ "last_run": "2026-09-22T19:49:07.696463+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 6
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 12
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 8
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -184,8 +184,8 @@
   {
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 503, text/html))",
-   "new": 7
+   "status": "ok",
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fdfb8ed2840>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -225,9 +225,9 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "feed": "https://www.smartemailing.cz/feed/",
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Mailujeme",
@@ -286,14 +286,14 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Meta Newsroom",
@@ -311,7 +311,7 @@
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -323,7 +323,7 @@
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Simo Ahava",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -371,12 +371,12 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "status": "ok",
    "new": 3
   },
   {
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -4291,9 +4291,234 @@
   "https://news.google.com/rss/articles/CBMingFBVV95cUxOVjRnOVVCTzZuWExwVXc3OU1TeTFYTjdCcU80c0hPaU8ybVZocnBVV094SWJUbUNpVV8wcmtoWGdQdjNqQ0RhQnFQWjZkX1YtTDFtbm5aVGxaLXZEdkpFN3hMdklTbjIxWFRvTXBoUlViWXZaUnpoaW1vZWJXd1Z2ZW5nbEJoUkRDRjM3T2NqUHlyamRGbmxXcWJGa0c0Zw?oc=5": "2026-09-22T15:07:15.972860+00:00",
   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVptYUJWNGZUWFFaUEZ3V3poSV9qYlhXem9sQnF1QWRWSVRfSzI3Q216aHdYa1E2Z0lHclNwWEdMTm5lc25OZzhvakFab1UtcnFiZnpXMlMtdVJrXy1IN0k2M3dVZExEM1F0dG9yekxtNTZsRFpNelFyR2NKVV9aZjU4bGxZV0ZtYTljNXZoUk0xa1VvN0lnVkZSMnBNYlQ2b1J2LVBDbGo?oc=5": "2026-09-22T15:07:15.972860+00:00",
   "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUJuLW02eXY2cUN1aTZQYWR6eEl0eGZiaEJjOHVhOEhEems0Y3BTUG5sWjhPbjRFci12a0R2QjQ1TUdjT0JieG95ZzNLRDNYS0JhRXhDLWk0b2NKZS1WSnl1aVhiZmRYd2JZS3BmbU1fdE9DNjB0U0tjSHlZdjF5c1c2VTh0MEVVTldLazlCMFJobWF4OE5UVjJNQ1laSXUyRjRVc0ZMRjVmMU9qc3dNV085V3NJOHVVZHMzQzVZQQ?oc=5": "2026-09-22T15:07:15.972860+00:00",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTXk5M0UwWHhJUXVSR09FLURqVmpjR0lvZFU3d0gydXJCNVhPM0tLV1ZDVmVlcXFjVER0Y0sxcGVzODJEQlE4RkJXcXlqRU9CNmhjY3h3ekloU2l1UEdBandqU1dYbGpOOVNzZ1ZpUGFoRHI3c1htQjBSYk1CaG9HVmpiSXNKOVVwNU9wOG96NA?oc=5": "2026-09-22T15:07:15.972860+00:00"
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTXk5M0UwWHhJUXVSR09FLURqVmpjR0lvZFU3d0gydXJCNVhPM0tLV1ZDVmVlcXFjVER0Y0sxcGVzODJEQlE4RkJXcXlqRU9CNmhjY3h3ekloU2l1UEdBandqU1dYbGpOOVNzZ1ZpUGFoRHI3c1htQjBSYk1CaG9HVmpiSXNKOVVwNU9wOG96NA?oc=5": "2026-09-22T15:07:15.972860+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWXRxS2s2c1ZWTUtFQmwyQ1ZrS19ySmx3NjI0bV8wNU9GcnIwWXBLa3VTSDdsWVRMaVVUYkdYR3UtZGJvZTlTSVllcXJhUFR5Y1BrcjF1RTBjT0xZdHpoYVM4U2xDVnphMDFkN2NfTzdqRDFfbmFhdFFVS0VNY2JLRGlxbVN6bUZxV0I5czd4ck56WDJORDkwbXg2SUhXNVU?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.marketingbrew.com/stories/electric-vehicle-naming-trends": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.searchenginejournal.com/which-data-sources-should-you-care-about-for-ai-search/590086": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14T21uQl9iQWNTX3ptLWgwUDZNOW9vTjN1YVpaVVp3eEFnWEstbFdNb0VvVFVwMEctT1FwTG1tSk8yZ25YSHJpNjM5M1htcThoeFg1T1NGNWdMTzF1ZlE?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://cc.cz/z-traktoru-a-role-serifa-az-na-absolutni-vrchol-byznysu-syn-warrena-buffetta-prevzal-zezlo-v-berkshire": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxOamZuZDMtcmoyVUx6SklLNlQ4UUV0X3JMcFdJQzJ6NEdPR0luNVluVkdfYzJuUWY3blA4VWkwRzBFM1lwSWJFRER3azVwbWpDYUJsa3RJdjhnaGM5cDU3VGlBNWlyR0RrRHM4ZjN1a3hoOTJ0ZGgtZUhtV0RUdzRCckpnd0poeFI1aHdTNlRNLVl1a1p1b3A2UE01NHJjZw?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GY3pIenNxY21IdGhRc1RNdDJydmZ0UXUzWjBJeVB0c2tkYl9FMjFOem5EeGdMZGV3TlVlMzl5Vk4zdUU2TGhUZEEtTHlfa2tOS0V4dXUzZzFCR3F4c25ONFVfUXJRSVR1V2xvRzNfZUdidkJvRUV5SXVqT0Rjdw?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzI4c1JaekpvSUlJSjM0OGZxaXFBT05mYjlrMTFfWU9lNHZMZHh4QkxUSy01QU9NckxQWEtTNFh2WEc1aUp1OXlKSWRJSktjd2xqM1FtSFN3Y2YyMUFESUpLRDlqWmk0SHJGT01qaUxlZDZNZWVwNUtNbXhzWWRCX2d2Y1hYdGZFeXNnMW5xV0ZERnNURjhwbkJBR25RUVA1WFE?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNWg0Z1hfUzF1UzhjNXh5YlBWN0JjQVJfTENWRDZ6UFFNVVNpUERqenNwM3pmS2VqTEpaTEptRFVXdERGS1RHeXUwM2JrS1NQY0IxZHNBbEFhcHF4cWVTWkNwZVIyRXNpdTF5eHBPVEJHb1hXNkhWc3puaGNmUTM4a0Y0WlRBejNXSFFwSUM1czhXZW41UklEV3hrQVB2WlBqMlpBZUNidzN0bGhaZTB3RXp0Z2E5NDhEeUZYaFpRUXc?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxcl8wWlBrU210bUtYVWhtV1lRTEVSTEMzWnRyd3VDOGdEQTUwQlBDMTg4bmt1bEhSRzdqcnpyeFp3cGRodlZ6WFBKS0plVVF3T2lZN3NCcw?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnVwd1luQ2lpY0lsaDRmLTlWMVRSZmhoa0FCYm44dG9KMUpqTVBUdXNxXzVCeUs5RThVUzI1WnRZTGJOcUpwdkZkc3JuN1pFNTFvSDlYSnBWRzI0aFFFWHZSTWt2OWN6Yi1sT1hscFZKb2FER2ZJWTZ5TFNSd2c3TWJyM3U4YlZiX1hZWUl4dERFZE84RU1BdXhFZ3lHeUQ1?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://blog.hubspot.com/marketing/scrunch-vs-peec-ai": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRzJVMzJIdGZiTVBodVhWLW1PM19ULUp0UDh3UEZBalI1Tnk3MkFJblJtX29ab1lJcDF6cE45czRvNFFqZ3RheUpJQWpOVS10bkFuZ1hSeGhTcE1IN19DbEQxWkpYbHpVR3BqYlF4dHJ0eHM5ZmhQb0l4azJ6aE4tYnhVNlBCRlVpY0xHOGxIZ1pPbHREU0R3Yg?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80SG1nTndhY0FRNFNmMFF1N3lzOGFBeG1qNEE4Ti1kVURVU0xRNE54UHpXYVdpSG1OLW01X1NrNjFyTWd0MVZpT1d4eUNSQmNicVRjeHJEQlg0V0JX?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ScHVRUHZZd2hwdlZVeW1ybVFMd3NQUlJzVHV0cDFIbkxDZFdySjZwdmdzczdXT2FqVE9xZk1fS1M5aUFBdnJpLVpBTHFFMDU0SERFTjNRTDlzaTE3MVBhQ2RsdEE?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/ai-max-ui-update-adds-branded-search-control": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.mediar.cz/oneplay-sport-posili-v-hokeji-nabidne-univerzitni-ligu-a-novou-show-kroscek": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.seroundtable.com/google-native-checkout-emails-42140.html": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.lupa.cz/aktuality/cesko-a-korea-v-praze-otevrely-spolecne-centrum-pokrocile-robotiky": "2026-09-22T19:49:07.696463+00:00",
+  "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVVHJxUHR0N19yenMwa1hlLWp0M19iR3ZwVHZfUHpKZmFOaXA4ZENWTnRtM2tjeXVVSGN3a0RTcDF2aVN2RVdzWkhralVGQ2dGVHRQSktob0JhdFpBQ3kwMERucw?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-simplifies-us-social-casino-ad-rules": "2026-09-22T19:49:07.696463+00:00",
+  "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement": "2026-09-22T19:49:07.696463+00:00",
+  "https://martech.org/how-to-build-a-marketing-team-with-ai-coworkers": "2026-09-22T19:49:07.696463+00:00",
+  "https://martech.org/when-flat-marketing-budgets-threaten-growth": "2026-09-22T19:49:07.696463+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRkZxeVVxXzkyUTg2Q0RnVlVzUkpXY3pKZkIxTTN0allUeXB2T2p0ekFScmpKOFViRjBCNFZKamJGZTBpbEVPVEdRckdLYWJpZUJZUm11Z29Mb3NHeGlmbVV5RlZlNTV2LXY2LUh5WkMweDBlVmh2RTB0d3ZVY1JtUENTUkNCOV83aXA2V0xNdEZObUZDYmtHbk9XeG9PVkNKZVMybWxQNHJ6Q3hVdnFLYWc1dGl6MWUxWG10Y3ZrLVpaZEo1UHc?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSWhHeFAzVVNsLUd0SFVTejJoMUxtM3J5SWxZbUNSVi1sS1RuUE5oeTMxQ3VfSFpMZHFkSFFtdGw4U3FSZGowcklaOTZMcmZjdlgxSHBJSzRnNUZjYll5R2lWN0ZrWE80V2NJWHU2M1hVQzFJQXprMzBROU9MRUdvRmdSTGJpZTJBamd6OUV5czEtZVZ5dFBBb3BjVDNocUVIYTZaTnBOWUQzZFpkbExfbVE1aEZMSW5teGZVaTBNeno1U0czSDNF?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT1JwYnBBQmVqblp3UHB3azQ4My05UHhOLW5pQ0l3ck5CWnVjaEN5NG5qMG90WXdsdDBUd0tOV2I0MFZkRnEtbEQ4MHRzaTlURzQ0RGtfazloVEhzY1RTYy1XQWZXWnNRbGUyZEhrWVN5UExfUjl4MVYtMVdZLWdXMHA5SXp4ZjFESTR0N2t6OXVhakRIal9LMl9wLW4tVktuQ2hFUU8xSDdOdUE1X3BOeTJVYlp5SEpUQmNuejIteElTbmhG?oc=5": "2026-09-22T19:49:07.696463+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeDl3Mnc4ME0wVFAwZlpLb2JSLXdJT1FkN2ZmZnRfcHFGdnNLRmZ1OF9BQXhiM1B0RjR6ZGFqeXpnYndIUmRTU1BUNEpvQXdZeURhSzM5OFhWYWU4QXc0djZrVjJUalRvSzZkNkpYNEM3VnAyWm9BMHFYVVMxNW1LMUtpR3pyTTBZWERQTEo3NEVWSks4cmhGTkJtNzV5SG1pNXhB?oc=5": "2026-09-22T19:49:07.696463+00:00"
  },
  "events": [
+  {
+   "id": "0e526d1136",
+   "created": "2026-09-21T07:41:27+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations",
+     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
+     "summary": "Search Terms View Renamed to Search Terms and Ad Combinations &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-22T12:00:00+00:00",
+     "score": 54
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzI4c1JaekpvSUlJSjM0OGZxaXFBT05mYjlrMTFfWU9lNHZMZHh4QkxUSy01QU9NckxQWEtTNFh2WEc1aUp1OXlKSWRJSktjd2xqM1FtSFN3Y2YyMUFESUpLRDlqWmk0SHJGT01qaUxlZDZNZWVwNUtNbXhzWWRCX2d2Y1hYdGZFeXNnMW5xV0ZERnNURjhwbkJBR25RUVA1WFE?oc=5",
+     "title": "Google Ads reframes Smart Bidding learning around 50 conversions",
+     "summary": "Google Ads reframes Smart Bidding learning around 50 conversions &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-22T17:02:00+00:00",
+     "score": 81
+    }
+   ],
+   "category": "ppc",
+   "importance": 81,
+   "title": "Google Ads přejmenoval Search Terms na Search Terms and Ad Combinations",
+   "updated": "2026-09-22T19:51:43.871770+00:00",
+   "what": "Google Ads změnil název pohledu Search Terms (vyhledávací dotazy) na Search Terms and Ad Combinations (vyhledávací dotazy a kombinace reklam). Jde o úpravu v rozhraní reklamní platformy.",
+   "why": "Změna názvu naznačuje, že pohled nyní explicitně zahrnuje i informace o tom, které reklamy byly k jednotlivým vyhledávacím dotazům zobrazeny. Pro PPC specialisty může jít o upřesnění dostupných dat.",
+   "takeaway": "Zkontrolujte v Google Ads, zda pohled Search Terms and Ad Combinations poskytuje nové informace o kombinacích dotazů a reklam – pokud ano, využijte je k optimalizaci párování klíčových slov a textů reklam.",
+   "importance_label": "zásadní",
+   "multi_source": true,
+   "image": "img/0e526d1136.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "a1ba61c567",
+   "created": "2026-09-22T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ask-advisor-can-now-pause-campaigns-change-budgets-and-appeal-ads",
+     "title": "Google Ask Advisor Can Pause Campaigns, Change Budgets and Appeal Ads",
+     "summary": "The Ask Advisor feature in Google Ads has been updated to perform a variety of new actions beyond just providing answers. Advertisers can now use it to pause and rename campaigns , adjust daily budgets and target locations , as well as appeal ads that were disapproved and update final URLs . New enhancements include the ability to save business context , such as remembering preferences for ROAS metrics, and providing market insights like performance against peers and seasonal trends.&nbsp; Other improvements include updated 'Use cases' previously labeled as 'Activities', and troubleshooting pr",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-22T05:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-sponsored-results-sitelinks-titles-42122.html",
+     "title": "Google Sponsored Results Sitelinks Tests More From Advertiser Name Title",
+     "summary": "Google Search is testing placing a title above the sitelinks for the sponsored results, the title says \"more from [advertiser name goes here].\" I think it makes it super clear where these sponsored links go to, but it may be a bit overkill.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-22T11:11:00+00:00",
+     "score": 65
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ask Advisor nyní mění kampaně, rozpočty a odvolává zamítnuté reklamy",
+   "updated": "2026-09-22T19:51:34.063319+00:00",
+   "what": "Google rozšířil funkci Ask Advisor v Google Ads – chatbot už nejen radí, ale může přímo upravovat kampaně. Nově umí pozastavit kampaň, přejmenovat ji, změnit denní rozpočet, upravit cílení nebo odvolat zamítnutou reklamu a upravit finální URL. Ukládá si také kontext (např. preferované ROAS metriky) a poskytuje srovnání výkonu s konkurencí a sezónní trendy.",
+   "why": "Jde o praktický nástroj pro denní správu kampaní přímo v Google Ads bez nutnosti procházet menu. Šetří čas při rutinních úpravách rozpočtů, pozastavení kampaní nebo odvolání reklam. Pro inzerenty v ČR to znamená rychlejší reakci na změny bez nutnosti manuálního hledání v rozhraní.",
+   "takeaway": "Pokud používáte Google Ads, vyzkoušejte Ask Advisor pro rutinní úpravy – může urychlit běžné úkony jako změna rozpočtu nebo odvolání zamítnutých reklam. Sledujte, zda funkce v ČR funguje korektně a zda chatbot správně chápe zadání v češtině.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/a1ba61c567.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "2b2d0f0f1d",
+   "created": "2026-09-20T11:52:13+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHp0WEVISERMOFgwTjA2YVdmWF84UmZabXNrTnAyc091aFNXZ2t2dHNLN0o5UlJBemQ4YnR4SzRPaU5pU0FGdkVfVEh1aHRoQ2pKUE00Qk8yNkliVWlBR2ZON2JnWmpqVDF4eXVGemxGZElNdDY2UzNoamlLVnd4SEdHM0pCOF91Z2Z3?oc=5",
+     "title": "Agentic Commerce Updates for Holiday Shopping",
+     "summary": "Agentic Commerce Updates for Holiday Shopping &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T11:52:13+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks",
+     "title": "“More From Advertiser” Title Tested for Sitelinks",
+     "summary": "Google is testing a new sitelink headline showing advertiser's icon with \"More from Advertiser\" title, potentially affecting ad engagement and visibility. This update was shared by Sachin Patel . The post &#8220;More From Advertiser&#8221; Title Tested for Sitelinks appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T12:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-top-pick-label-sponsored-products",
+     "title": "Bing Tests “Top Pick” Label on Sponsored Products",
+     "summary": "Bing is testing a \"Top Pick\" label on its sponsored result product carousels , highlighting a potential new way for products to stand out in search results. The \"Top Pick\" label is prominently displayed in the product carousel, potentially drawing more eyes to specific listings. This update was shared by Khushal Bherwani . The post Bing Tests &#8220;Top Pick&#8221; Label on Sponsored Products appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-20T14:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.searchenginejournal.com/agentic-commerce-is-not-the-next-voice-shopping-but-it-is-still-unproven/589439",
+     "title": "Agentic Commerce Is Not The Next Voice Shopping, But It Is Still Unproven via @sejournal, @slobodanmanic",
+     "summary": "Visa, Mastercard, PayPal, and Stripe name no live merchant. Google names three. Here is what the agentic commerce documentation still refuses to say. The post Agentic Commerce Is Not The Next Voice Shopping, But It Is Still Unproven appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-21T14:30:37+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2",
+     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
+     "summary": "Google has updated the AI Max search terms report view to \"Search terms and ad combinations\" , previously known as \"Search terms and landing pages from AI Max.\" This change appears on the Google Ads help page and affects how advertisers refer to the AI Max features in training and documentation. This renamed view continues to list search terms alongside headlines, landing pages, campaigns, and ad groups involved in the ad journey. It's crucial for those documenting AI Max reporting to update their resources with this change. Read the official help page here: About reporting in AI Max for Searc",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T05:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/offline-uploads-can-now-fill-missing-user-data",
+     "title": "Offline Uploads Can Now Fill Missing User Data in Tag Conversions",
+     "summary": "In the multi-source conversions beta , Google is now documenting that additional data sources can fill in missing user information like email, phone, and address in conversion events. This update, found in the help page , reveals that offline uploads supplement missing user-provided data, optimizing enhanced conversion matching when the tag records the conversion without complete user information. Among the key updates, real-time conversion values can be adjusted with accurate financial updates from CRMs, such as restatements or finalized cart totals. Advertisers must ensure offline data is up",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-21T14:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjlvQ0NrcVVWSHNfYjNWM3ROeF9RS1BicTNwQzZxZmJyVHJfbm5seS1rYUxURER1cGhEZUNCbW9nTlAzWTQxOUx2ak5CU1VSeER6M2t6TnUyeTFHaWZWVUgyWUpaZHBfOWI1ZUpCX3dOZ3BqNWx4cEFJdGhHUnNlbzlWVEZnaHduYU5OZ3NPSVNNM0lUS0Q3NjlVczlRVmVvTGZNVA?oc=5",
+     "title": "Google Ads lets offline uploads fill gaps in tag-based conversions",
+     "summary": "Google Ads lets offline uploads fill gaps in tag-based conversions &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-21T15:17:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-shares-guidance-on-effective-promotions-in-the-app/830848",
+     "title": "X shares guidance on effective promotions in the app",
+     "summary": "The refreshed playbooks feature overviews on best ad practices and a look at tapping into on-platform events.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T20:56:42+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-ditches-post-enhancement-launches-post-proofreader/830851",
+     "title": "LinkedIn ditches post enhancement, launches Post Proofreader",
+     "summary": "The move signals the platform&rsquo;s evolving approach to artificial intelligence tools and reflects a growing community backlash against AI slop.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T21:34:37+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-tests-network-tab-to-encourage-engagement-among-connections/830853",
+     "title": "LinkedIn tests Network tab to encourage engagement among connections",
+     "summary": "The latest engagement trial offers users an alternative feed made up entirely of direct follows and connections.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-20T21:58:36+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-updates-bid-strategy-learning-period",
+     "title": "Google Updates Bid Strategy Learning Period to Around 50 Conversions",
+     "summary": "Google's help page for bid strategy learning periods has been updated. The learning period now states that calibration can take up to around 50 conversion events or 3 conversion cycles , replacing the previous duration of up to 3 weeks or 1–2 cycles .&nbsp; This volume-based benchmark is crucial for low-volume accounts. Additionally, Performance Max campaigns are now included in the conversion goals best practices documentation. These changes affect how advertisers manage and optimize their campaigns using Smart Bidding strategies. Read the official help pages here: Duration of the learning pe",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-22T07:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://www.searchenginejournal.com/customer-lifecycle-goals-the-good-the-bad-the-ugly/588192",
+     "title": "Customer Lifecycle Goals: The Good, The Bad, The Ugly",
+     "summary": "Decide whether Google Ads Customer Lifecycle Goals fit your business, and avoid settings that inflate ROAS or exclude valuable prospects. The post Customer Lifecycle Goals: The Good, The Bad, The Ugly appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-22T14:30:28+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google Ads: offline upload může doplnit chybějící údaje v tag-konverzích",
+   "updated": "2026-09-22T19:51:24.742322+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Google v rámci beta verze multi-source conversions umožňuje doplňovat chybějící uživatelská data (e-mail, telefon, adresa) v konverzích zaznamenaných tagem pomocí offline uploadů. Jde o rozšíření možností enhanced conversion matching, kdy tag zaznamenává konverzi bez úplných uživatelských údajů. Kromě toho lze offline daty aktualizovat hodnoty konverzí v reálném čase (např. finální hodnoty košíku z CRM).",
+   "why": "Pro inzerenty využívající enhanced conversions a pracující s CRM systémy jde o důležité vylepšení měření – umožňuje přesnější tracking konverzí i u neúplných dat z webu a zpřesnění jejich hodnot. To může vést k lepší optimalizaci kampaní a přesnějšímu přiřazování konverzí.",
+   "takeaway": "Pokud používáte enhanced conversions a máte přístup k zákaznickým datům v CRM, ověřte, zda máte přístup k beta verzi multi-source conversions. Nastavte offline upload tak, aby doplňoval chybějící údaje z webových konverzí a aktualizoval jejich finální hodnoty. Zajistíte tím přesnější měření a lepší podklady pro optimalizaci kampaní.",
+   "image": "img/d5e62137fe.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
   {
    "id": "8c544f799a",
    "created": "2026-09-21T11:47:17+00:00",
@@ -4315,19 +4540,330 @@
      "domain": "seroundtable.com",
      "published": "2026-09-22T11:51:00+00:00",
      "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GY3pIenNxY21IdGhRc1RNdDJydmZ0UXUzWjBJeVB0c2tkYl9FMjFOem5EeGdMZGV3TlVlMzl5Vk4zdUU2TGhUZEEtTHlfa2tOS0V4dXUzZzFCR3F4c25ONFVfUXJRSVR1V2xvRzNfZUdidkJvRUV5SXVqT0Rjdw?oc=5",
+     "title": "Google AI Overviews now appear in 39% of U.S. desktop searches",
+     "summary": "Google AI Overviews now appear in 39% of U.S. desktop searches &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-22T17:13:00+00:00",
+     "score": 75
     }
    ],
    "category": "seo",
    "importance": 72,
-   "title": "Google AI Mode snižuje návštěvnost webů a nabízí horší UX, ukazuje výzkum",
-   "updated": "2026-09-22T15:11:11.529192+00:00",
-   "what": "Nový výzkum ukazuje, že Google AI Mode (rozšířený režim AI Overviews) generuje méně kliknutí na weby než běžné vyhledávání a poskytuje uživatelům horší zkušenost. Současně Google v AI Overviews umísťuje odkazy, které místo na webové stránky vedují uživatele právě do AI Mode – tyto odkazy vypadají jako běžné webové linky, ale při kliknutí spustí další AI konverzaci.",
-   "why": "Pro weby závislé na organické návštěvnosti z Googlu to znamená potenciální pokles trafficu. Pokud se AI Mode rozšíří (zatím je dostupný omezeně), může to výrazně změnit chování uživatelů a snížit CTR z vyhledávání. Zároveň to ukazuje, že Google posouvá uživatele od klasických webů k vlastnímu AI rozhraní.",
-   "takeaway": "Sledujte vývoj AI Overviews a AI Mode ve vašich Analytics – pokud zaznamenáte pokles organického trafficu z Googlu bez propadu pozic, může to souviset právě s tímto trendem. Zatím jde o funkci v testování, ale připravte se na možný dlouhodobý pokles CTR z SERP a zvažte diverzifikaci zdrojů návštěvnosti (přímý provoz, e-mailing, sociální sítě).",
+   "title": "Google AI Overviews zobrazují se u 39 % vyhledávání v USA, snižují proklik",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Google AI Overviews (AI přehledy) se nyní zobrazují u 39 % desktopových vyhledávání v USA. Nový výzkum však ukazuje, že AI Mode (režim umělé inteligence) generuje méně prokliků na weby a poskytuje horší uživatelskou zkušenost. Google navíc umísťuje do AI Overviews odkazy, které místo na webové stránky vedou uživatele do AI Mode.",
+   "why": "Pro firmy v ČR je toto signál, že AI Overviews postupně mění chování uživatelů vyhledávače. I když jde zatím o data z USA, trend ukazuje, že část návštěvnosti z organického vyhledávání může v budoucnu klesat, protože Google uživatele zadržuje ve vlastním AI rozhraní místo jejich odeslání na weby.",
+   "takeaway": "Sledujte změny v organické návštěvnosti v Google Analytics 4 a porovnávejte prokliky z vyhledávání v Google Search Console. Připravte se na to, že organická návštěvnost může postupně klesat, jak Google rozšiřuje AI Overviews do Evropy. Zvažte diverzifikaci marketingových kanálů a menší závislost pouze na SEO.",
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/8c544f799a.jpg",
    "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "b90801f879",
+   "created": "2026-09-17T12:04:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/why-you-need-to-know-the-nones-of-your-business",
+     "title": "Why you need to know the ‘nones’ of your business",
+     "summary": "As unattributed customers pile up, marketers need to stop treating them as noise and start figuring out what brought them there. The post Why you need to know the &#8216;nones&#8217; of your business appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-17T12:04:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-analytics-include-hostname-filters/590336",
+     "title": "Google Analytics Adds Include Filters For Hostnames via @sejournal, @MattGSouthern",
+     "summary": "Google Analytics supports Include data filters for hostnames, so a property can keep event data from approved domains instead of excluding spam one by one. The post Google Analytics Adds Include Filters For Hostnames appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-22T08:06:17+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnVwd1luQ2lpY0lsaDRmLTlWMVRSZmhoa0FCYm44dG9KMUpqTVBUdXNxXzVCeUs5RThVUzI1WnRZTGJOcUpwdkZkc3JuN1pFNTFvSDlYSnBWRzI0aFFFWHZSTWt2OWN6Yi1sT1hscFZKb2FER2ZJWTZ5TFNSd2c3TWJyM3U4YlZiX1hZWUl4dERFZE84RU1BdXhFZ3lHeUQ1?oc=5",
+     "title": "Google Analytics adds hostname allowlists to fight spam traffic",
+     "summary": "Google Analytics adds hostname allowlists to fight spam traffic &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-22T16:38:00+00:00",
+     "score": 71
+    }
+   ],
+   "category": "analytika",
+   "importance": 72,
+   "title": "Google Analytics zavádí whitelist hostnames proti spam návštěvnosti",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Google Analytics přidal možnost vytvářet include filtry pro hostnames (názvy domén). Místo ručního blokování jednotlivých spam domén lze nyní nastavit seznam povolených domén – property pak uchovává data událostí pouze z těchto schválených zdrojů.",
+   "why": "Dosud marketéři museli spam domény (referrer spam, bot traffic) vyřazovat jednu po druhé pomocí exclude filtrů, což bylo neefektivní. Whitelist přístup šetří čas a výrazně čistí data Analytics od nechtěné návštěvnosti, která zkresluje reporty a rozhodování.",
+   "takeaway": "Zkontroluj v GA4 nastavení Data Filters, přidej include filtr pro své reálné domény (web, subdomény, lokální verze) a ověř, že reporty zobrazují jen legitimní návštěvnost. Tím zpřesníš metriky pro rozhodování o kampraních a rozpočtech.",
+   "image": "img/c6c4777e01.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "ebe455cf4b",
+   "created": "2026-09-22T12:57:02+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement",
+     "title": "IAB sets new standards for agentic buying and measurement",
+     "summary": "IAB sets new standards for agentic buying and measurement &nbsp;&nbsp; MarTech",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-22T12:54:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "IAB vydává standardy pro autonomní nákup reklamy pomocí AI agentů",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Americká asociace IAB (Interactive Advertising Bureau) publikovala nové standardy pro tzv. agentic buying – automatizovaný nákup reklamního prostoru pomocí AI agentů – a jejich měření. Jde o pokus standardizovat emerging oblast, kde umělá inteligence sama vyhodnocuje data a nakupuje reklamu s minimální lidskou supervizí.",
+   "why": "Pro manažery PPC a programmatického nákupu jde o signál, kam se odvětví ubírá. Standardy IAB typicky předcházejí změnám v platformách a nástrojích (včetně těch dostupných v ČR). Zatím jde o americký vývoj, ale pokud se agentic buying prosadí, ovlivní to budoucí způsob práce s reklamními rozpočty i u nás.",
+   "takeaway": "Sledujte, zda a kdy se agentic buying objeví v nástrojích, které používáte (Google Ads, Meta, DSP platformy). Nyní není potřeba měnit nic, ale do budoucna to může znamenat posun od manuálních kampaní k ještě větší automatizaci řízené AI agenty.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "7a602bd952",
+   "created": "2026-09-15T16:49:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDFWT25ROHRqS3RCb2FZakkycGhnSzhkQTQwRzF2S3hrYjIySVpzaFFvOUFOdkxCZm9YY3J5dzI5RmYtekpVV0pQa0RGRUNVOXJLTlBRZkc2ejdIRmpxUkRqTVJLUkdpYlRsanVmakxpcGpPSkdKLXl4RVRnVGtQSnE5U3BFMjBfSmhCNGxKQ3ZnUi05aG5OSmJrRExTZUJV?oc=5",
+     "title": "Google Chrome launches new metrics to measure ad-heavy websites",
+     "summary": "Google Chrome launches new metrics to measure ad-heavy websites &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-15T17:26:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ad-metrics-crux-42093.html",
+     "title": "Google Chrome User Experience Report (CrUX) With Ad Metrics",
+     "summary": "Google announced new ad metrics that are being tested within the Chrome User Experience Report (CrUX). These metrics include Ad Count, Ad Density, Ad Weight (Network) and Ad Weight (CPU).",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-15T16:49:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-adds-new-ad-experience-metrics-to-crux-report/589569",
+     "title": "Google Adds New Ad Experience Metrics To CrUX Report via @sejournal, @martinibuster",
+     "summary": "Google is turning publisher advertising into user experience metric that adds four more numbers that publishers need to track. The post Google Adds New Ad Experience Metrics To CrUX Report appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T21:46:09+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559",
+     "title": "Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot via @sejournal, @MattGSouthern",
+     "summary": "Cloudflare's Disallow AI Training keeps mixed-use crawlers available for search. Google and Apple honor training opt-outs; Bing robots.txt support is pending. The post Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-15T21:29:41+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262",
+     "title": "Cloudflare Will Write Your Robots.txt, And It Has A Point via @sejournal, @slobodanmanic",
+     "summary": "Bot Preference Sync sets AI crawler policy per category, not per crawler. Allow GPTBot and block Bytespider, and no setting describes what you do. The post Cloudflare Will Write Your Robots.txt, And It Has A Point appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T14:30:00+00:00",
+     "score": 60
+    },
+    {
+     "url": "https://www.semrush.com/blog/cloudfare-blocks-ai-training",
+     "title": "Cloudflare's AI training block now spares Googlebot",
+     "summary": "Cloudflare‘s Disallow AI Training setting blocks AI training crawlers but not Googlebot. Bing won‘t honor it until early 2027.",
+     "source": "Semrush blog",
+     "domain": "semrush.com",
+     "published": "2026-09-18T14:04:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284",
+     "title": "Checking A Page Is Part Of A Retrieval Pipeline For AI via @sejournal, @chrisgreenseo",
+     "summary": "No GSC for ChatGPT? Paste a distinctive snippet into a chatbot and ask for exact matches. If your URL comes back, retrieval isn't your problem. The post Checking A Page Is Part Of A Retrieval Pipeline For AI appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T19:00:53+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.seroundtable.com/google-blocking-scrapers-and-tracking-tools-42118.html",
+     "title": "Google May Be More Successful In Blocking Scrapers & Tracking Tools",
+     "summary": "Google may be more successful in blocking AI scrapers, search scrapers and third-party tracking tools since around September 13th or so. This coincides with the September 4th and September 12th reversals we reported, and it also aligns with the methods Google has been using to block non-human behavior in its search results recently.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T11:55:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636",
+     "title": "Google’s AI Payment Pilot Vs. Cloudflare & Microsoft Models via @sejournal, @MattGSouthern",
+     "summary": "Google, Cloudflare, and Microsoft are testing different models for paying publishers when AI systems access or use their content. The post Google&#8217;s AI Payment Pilot Vs. Cloudflare &#038; Microsoft Models appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-18T12:00:41+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/video-09-18-2026-42112.html",
+     "title": "Search News Buzz Video Recap: Unusual Google Search Ranking Volatility, Ad Tech Monopoly Remedies, AI Contribution Publisher Payouts & More",
+     "summary": "This week we covered the first week or so of Google's unusual ranking volatility only to see things spike up in a big way this week as well - something is up. Google's remedies are out for its ad tech monopoly ruling. Google has an AI contribution pilot for paying publishers...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-18T12:01:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-updates-mediapartners-google-crawler-guidance-less-about-adsense/589821",
+     "title": "Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense via @sejournal, @martinibuster",
+     "summary": "Google expanded their Mediapartners-Google guidance to make it about more than just AdSense. The post Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-17T20:51:57+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWXRxS2s2c1ZWTUtFQmwyQ1ZrS19ySmx3NjI0bV8wNU9GcnIwWXBLa3VTSDdsWVRMaVVUYkdYR3UtZGJvZTlTSVllcXJhUFR5Y1BrcjF1RTBjT0xZdHpoYVM4U2xDVnphMDFkN2NfTzdqRDFfbmFhdFFVS0VNY2JLRGlxbVN6bUZxV0I5czd4ck56WDJORDkwbXg2SUhXNVU?oc=5",
+     "title": "CrUX ad metrics added to the page experience SEO documentation",
+     "summary": "CrUX ad metrics added to the page experience SEO documentation &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-22T19:30:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Chrome přidává do CrUX metriky pro měření reklam na webu",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Google Chrome testuje čtyři nové metriky v rámci Chrome User Experience Report (CrUX): Ad Count (počet reklam), Ad Density (hustota reklam), Ad Weight (Network) a Ad Weight (CPU). Měří zatížení webu reklamami z pohledu uživatelské zkušenosti.",
+   "why": "Provozovatelé webů dostanou další čísla, která budou muset sledovat – tentokrát přímo počet a dopad reklam na výkon stránky. Pokud se z těchto metrik stanou signály pro Core Web Vitals nebo SEO, může to ovlivnit způsob práce s reklamními sítěmi a umístěním reklam na webu.",
+   "takeaway": "Sledujte, zda a jak se tyto metriky objeví v CrUX reportu pro vaše weby. Pokud prodáváte nebo zobrazujete display reklamu, připravte se na měření jejího dopadu na rychlost a UX – může to časem ovlivnit SEO výkon.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/7a602bd952.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "a16248cd1c",
+   "created": "2026-09-22T19:00:31+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/which-data-sources-should-you-care-about-for-ai-search/590086",
+     "title": "Which Data Sources Should You Care About For AI Search? via @sejournal, @chrisgreenseo",
+     "summary": "AI search pulls from more sources than most SEOs track. Here's a tiered view of which data sources deserve your attention first. The post Which Data Sources Should You Care About For AI Search? appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-22T19:00:31+00:00",
+     "score": 72
+    }
+   ],
+   "category": "seo",
+   "importance": 45,
+   "title": "Které datové zdroje sledovat pro AI vyhledávání? Průvodce pro SEO",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Search Engine Journal publikoval návod, jaké datové zdroje jsou důležité pro optimalizaci obsahu pro AI vyhledávání (ChatGPT, Perplexity aj.). AI vyhledávače čerpají z širšího spektra zdrojů, než běžně sledují SEO specialisté, článek nabízí jejich rozdělení podle priority.",
+   "why": "Pro SEO specialisty v ČR je relevantní pochopit, odkud AI vyhledávače získávají data, protože to ovlivňuje, jak strukturovat a publikovat obsah. Jde o kontext vývoje vyhledávání, který postupně doplňuje klasické Google výsledky.",
+   "takeaway": "Pokud se zabýváte SEO, stojí za to se s článkem seznámit – AI vyhledávání roste a pochopení jejich zdrojů pomůže přizpůsobit long-term strategii. Nejde však o okamžitou změnu rutinní práce v ČR.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "ea80eef6be",
+   "created": "2026-09-22T15:20:00+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOamZuZDMtcmoyVUx6SklLNlQ4UUV0X3JMcFdJQzJ6NEdPR0luNVluVkdfYzJuUWY3blA4VWkwRzBFM1lwSWJFRER3azVwbWpDYUJsa3RJdjhnaGM5cDU3VGlBNWlyR0RrRHM4ZjN1a3hoOTJ0ZGgtZUhtV0RUdzRCckpnd0poeFI1aHdTNlRNLVl1a1p1b3A2UE01NHJjZw?oc=5",
+     "title": "Google opens native AI checkout to eligible Shopify merchants",
+     "summary": "Google opens native AI checkout to eligible Shopify merchants &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-22T17:23:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-native-checkout-emails-42140.html",
+     "title": "Google Merchant Center Auto Enables Native Checkout: Buy On AI Mode & Gemini",
+     "summary": "Google is sending email notifications to Google Merchant Center users if their e-commerce platform supports Universal Commerce Protocol (UCP) and if so, telling them that \"your products are now eligible for native checkout.\" This means that your eligible products are automatically included, so if you don't want people buying directly on Google, and you want them to buy on your site, then you need to turn it off.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-22T15:20:00+00:00",
+     "score": 79
+    }
+   ],
+   "category": "ppc",
+   "importance": 75,
+   "title": "Google automaticky zapíná nativní checkout pro e-shopy s podporou UCP",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Google rozesílá e-maily provozovatelům v Merchant Center, že jejich produkty jsou automaticky zařazeny do nativního checkoutu – zákazníci si mohou koupit produkt přímo v Google (Buy on Google), aniž by přešli na web obchodu. Týká se to e-shopů na platformách s podporou Universal Commerce Protocol (UCP), konkrétně se zmiňují oprávnění Shopify obchodníci. Funkce funguje v AI Mode a Gemini.",
+   "why": "Jde o automatickou změnu, která mění místo nákupu – transakce probíhá u Googlu, ne na webu obchodu. To může ovlivnit vztah se zákazníkem, remarketing, vlastní data o nákupu i to, jak Google vyhodnocuje konverze. Pro e-shopy, které chtějí zákazníky na svém webu (kvůli datům, cross-sellu, remarketingu), je to riziko.",
+   "takeaway": "Zkontrolujte Merchant Center – pokud dostanete oznámení o native checkout, rozhodněte, zda ho chcete ponechat aktivní. Pokud preferujete nákupy na svém webu (kvůli remarketingu a vlastním datům o zákazníkovi), funkci vypněte. Sledujte, jak se změní míra konverzí a hodnota transakcí z Google kanálů.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/ea80eef6be.jpg",
+   "image_from": "searchengineland.com"
+  },
+  {
+   "id": "6239d4e9f6",
+   "created": "2026-09-22T16:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/ai-max-ui-update-adds-branded-search-control",
+     "title": "AI Max UI Update Adds Branded Search Control",
+     "summary": "A new AI Max UI update has been spotted in Google Ads, providing clearer control options for branded searches. Advertisers can now choose between showing ads on all relevant searches, controlling branded searches using brand inclusions and exclusions, or displaying ads only on unbranded searches. This update was shared by Bia Camargo . The post AI Max UI Update Adds Branded Search Control appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-22T16:00:00+00:00",
+     "score": 74
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads: nové ovládání brandových vyhledávání v Performance Max",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "V rozhraní Google Ads se objevila aktualizace pro Performance Max kampaně, která umožňuje podrobnější kontrolu nad zobrazováním reklam na brandová vyhledávání. Inzerenti nyní mohou vybrat ze tří možností: zobrazovat reklamy na všech relevantních vyhledáváních, kontrolovat brandová vyhledávání pomocí inkluzí a exkluzí značky, nebo zobrazovat reklamy pouze na nebrandových vyhledáváních.",
+   "why": "Performance Max kampaně dosud poskytovaly omezenou kontrolu nad tím, kdy se reklamy zobrazují na vyhledávání vlastní značky versus konkurenčních značek. Tato změna dává inzerentům lepší nástroj pro řízení strategie a rozpočtu – mohou se cíleně vyhnout kanibalizaci organických výsledků na vlastní brand nebo naopak přesněji cílit na konkurenční značky.",
+   "takeaway": "Zkontrolujte nastavení svých Performance Max kampaní a vyhodnoťte, zda má smysl upravit strategii pro brandová vyhledávání – například omezit výdaje na vlastní brand, kde máte silné organické pozice, nebo naopak aktivně cílit na konkurenční značky. Nové ovládací prvky najdete v rozhraní kampaně.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/6239d4e9f6.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "b034d86ae4",
+   "created": "2026-09-22T15:00:58+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml",
+     "title": "Global consumers are using AI, but it hasn’t yet translated to shopping: report",
+     "summary": "While shoppers are using AI tools, AI engines make up less than 3% of the purchase stage, VML found.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-22T15:00:58+00:00",
+     "score": 47
+    }
+   ],
+   "category": "analytika",
+   "importance": 55,
+   "title": "AI zatím neovlivňuje nákupy – tvoří jen 3 % konverzí",
+   "updated": "2026-09-22T19:49:07.696463+00:00",
+   "what": "Podle studie VML spotřebitelé sice AI nástroje používají, ale AI vyhledávače (jako ChatGPT či Perplexity) se podílejí na méně než 3 % nákupních konverzí. Lidé AI využívají k inspiraci nebo informacím, ale samotný nákup stále finalizují přes tradiční kanály.",
+   "why": "Ukazuje to, že obava marketérů z přesunu trafiku a konverzí do AI chatbotů je zatím předčasná. Investice do optimalizace pro AI vyhledávače mají stále nízkou prioritu oproti klasickým kanálům (Google, Meta, e-mailing).",
+   "takeaway": "Sleduj podíl AI zdrojů v Google Analytics, ale nepreferuj je před zavedenými kanály s prokázanou konverzí. Rozpočet zaměř primárně na Search, sociální sítě a e-mail – tam stále probíhá valná většina nákupů.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "cff1d0e6c9",
@@ -4460,183 +4996,6 @@
    "multi_source": false
   },
   {
-   "id": "b90801f879",
-   "created": "2026-09-17T12:04:00+00:00",
-   "articles": [
-    {
-     "url": "https://martech.org/why-you-need-to-know-the-nones-of-your-business",
-     "title": "Why you need to know the ‘nones’ of your business",
-     "summary": "As unattributed customers pile up, marketers need to stop treating them as noise and start figuring out what brought them there. The post Why you need to know the &#8216;nones&#8217; of your business appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-17T12:04:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-analytics-include-hostname-filters/590336",
-     "title": "Google Analytics Adds Include Filters For Hostnames via @sejournal, @MattGSouthern",
-     "summary": "Google Analytics supports Include data filters for hostnames, so a property can keep event data from approved domains instead of excluding spam one by one. The post Google Analytics Adds Include Filters For Hostnames appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-22T08:06:17+00:00",
-     "score": 67
-    }
-   ],
-   "category": "analytika",
-   "importance": 68,
-   "title": "Google Analytics 4 přináší Include filtry pro domény – konec se spamem",
-   "updated": "2026-09-22T15:10:36.854134+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Google Analytics 4 nově podporuje Include filtry pro hostname. Místo vyřazování spamových domén jedna po druhé (Exclude) lze nyní přímo specifikovat, ze kterých schválených domén se mají data sbírat.",
-   "why": "Zjednodušuje ochranu dat před spam traffikem v GA4. Dosud bylo nutné průběžně dohledávat a blokovat parazitní domény – nový Include filtr umožňuje nastavit whitelist a zbytek ignorovat.",
-   "takeaway": "Zkontroluj nastavení datových filtrů v GA4 Admin → Data Settings → Data Filters. Pokud řešíš spam v reportech, nastav Include filtr pouze pro vlastní domény a subdomény – preventivně zablokuje budoucí spam bez nutnosti ručních zásahů.",
-   "image": "img/c6c4777e01.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "2b2d0f0f1d",
-   "created": "2026-09-20T11:52:13+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHp0WEVISERMOFgwTjA2YVdmWF84UmZabXNrTnAyc091aFNXZ2t2dHNLN0o5UlJBemQ4YnR4SzRPaU5pU0FGdkVfVEh1aHRoQ2pKUE00Qk8yNkliVWlBR2ZON2JnWmpqVDF4eXVGemxGZElNdDY2UzNoamlLVnd4SEdHM0pCOF91Z2Z3?oc=5",
-     "title": "Agentic Commerce Updates for Holiday Shopping",
-     "summary": "Agentic Commerce Updates for Holiday Shopping &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T11:52:13+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/more-from-advertiser-title-tested-sitelinks",
-     "title": "“More From Advertiser” Title Tested for Sitelinks",
-     "summary": "Google is testing a new sitelink headline showing advertiser's icon with \"More from Advertiser\" title, potentially affecting ad engagement and visibility. This update was shared by Sachin Patel . The post &#8220;More From Advertiser&#8221; Title Tested for Sitelinks appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T12:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-top-pick-label-sponsored-products",
-     "title": "Bing Tests “Top Pick” Label on Sponsored Products",
-     "summary": "Bing is testing a \"Top Pick\" label on its sponsored result product carousels , highlighting a potential new way for products to stand out in search results. The \"Top Pick\" label is prominently displayed in the product carousel, potentially drawing more eyes to specific listings. This update was shared by Khushal Bherwani . The post Bing Tests &#8220;Top Pick&#8221; Label on Sponsored Products appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-20T14:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.searchenginejournal.com/agentic-commerce-is-not-the-next-voice-shopping-but-it-is-still-unproven/589439",
-     "title": "Agentic Commerce Is Not The Next Voice Shopping, But It Is Still Unproven via @sejournal, @slobodanmanic",
-     "summary": "Visa, Mastercard, PayPal, and Stripe name no live merchant. Google names three. Here is what the agentic commerce documentation still refuses to say. The post Agentic Commerce Is Not The Next Voice Shopping, But It Is Still Unproven appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-21T14:30:37+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/search-terms-view-renamed-to-search-terms-and-ad-combinations-2",
-     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
-     "summary": "Google has updated the AI Max search terms report view to \"Search terms and ad combinations\" , previously known as \"Search terms and landing pages from AI Max.\" This change appears on the Google Ads help page and affects how advertisers refer to the AI Max features in training and documentation. This renamed view continues to list search terms alongside headlines, landing pages, campaigns, and ad groups involved in the ad journey. It's crucial for those documenting AI Max reporting to update their resources with this change. Read the official help page here: About reporting in AI Max for Searc",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-21T05:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/offline-uploads-can-now-fill-missing-user-data",
-     "title": "Offline Uploads Can Now Fill Missing User Data in Tag Conversions",
-     "summary": "In the multi-source conversions beta , Google is now documenting that additional data sources can fill in missing user information like email, phone, and address in conversion events. This update, found in the help page , reveals that offline uploads supplement missing user-provided data, optimizing enhanced conversion matching when the tag records the conversion without complete user information. Among the key updates, real-time conversion values can be adjusted with accurate financial updates from CRMs, such as restatements or finalized cart totals. Advertisers must ensure offline data is up",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-21T14:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjlvQ0NrcVVWSHNfYjNWM3ROeF9RS1BicTNwQzZxZmJyVHJfbm5seS1rYUxURER1cGhEZUNCbW9nTlAzWTQxOUx2ak5CU1VSeER6M2t6TnUyeTFHaWZWVUgyWUpaZHBfOWI1ZUpCX3dOZ3BqNWx4cEFJdGhHUnNlbzlWVEZnaHduYU5OZ3NPSVNNM0lUS0Q3NjlVczlRVmVvTGZNVA?oc=5",
-     "title": "Google Ads lets offline uploads fill gaps in tag-based conversions",
-     "summary": "Google Ads lets offline uploads fill gaps in tag-based conversions &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-21T15:17:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/x-shares-guidance-on-effective-promotions-in-the-app/830848",
-     "title": "X shares guidance on effective promotions in the app",
-     "summary": "The refreshed playbooks feature overviews on best ad practices and a look at tapping into on-platform events.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-20T20:56:42+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-ditches-post-enhancement-launches-post-proofreader/830851",
-     "title": "LinkedIn ditches post enhancement, launches Post Proofreader",
-     "summary": "The move signals the platform&rsquo;s evolving approach to artificial intelligence tools and reflects a growing community backlash against AI slop.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-20T21:34:37+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-tests-network-tab-to-encourage-engagement-among-connections/830853",
-     "title": "LinkedIn tests Network tab to encourage engagement among connections",
-     "summary": "The latest engagement trial offers users an alternative feed made up entirely of direct follows and connections.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-20T21:58:36+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-updates-bid-strategy-learning-period",
-     "title": "Google Updates Bid Strategy Learning Period to Around 50 Conversions",
-     "summary": "Google's help page for bid strategy learning periods has been updated. The learning period now states that calibration can take up to around 50 conversion events or 3 conversion cycles , replacing the previous duration of up to 3 weeks or 1–2 cycles .&nbsp; This volume-based benchmark is crucial for low-volume accounts. Additionally, Performance Max campaigns are now included in the conversion goals best practices documentation. These changes affect how advertisers manage and optimize their campaigns using Smart Bidding strategies. Read the official help pages here: Duration of the learning pe",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-22T07:00:00+00:00",
-     "score": 77
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads: offline data mohou doplnit chybějící údaje u konverzí",
-   "updated": "2026-09-22T15:10:28.961324+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Google testuje v rámci beta programu multi-source conversions možnost doplnit chybějící uživatelská data (e-mail, telefon, adresa) u konverzí zaznamenaných tagem prostřednictvím offline uploadů. Offline data mohou také upravit hodnoty konverzí v reálném čase na základě finálních údajů z CRM systémů.",
-   "why": "Zlepšuje to enhanced conversion matching v případech, kdy tag nezaznamená kompletní uživatelská data. Pro inzerenty pracující s CRM systémy to znamená přesnější měření skutečné hodnoty konverzí a lepší optimalizaci kampaní.",
-   "takeaway": "Pokud pracujete s enhanced conversions a máte CRM systém, sledujte dostupnost této funkce pro váš účet. Připravte se na propojení offline dat s Google Ads pro přesnější měření konverzí a jejich reálné hodnoty.",
-   "image": "img/d5e62137fe.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "a1ba61c567",
-   "created": "2026-09-22T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ask-advisor-can-now-pause-campaigns-change-budgets-and-appeal-ads",
-     "title": "Google Ask Advisor Can Pause Campaigns, Change Budgets and Appeal Ads",
-     "summary": "The Ask Advisor feature in Google Ads has been updated to perform a variety of new actions beyond just providing answers. Advertisers can now use it to pause and rename campaigns , adjust daily budgets and target locations , as well as appeal ads that were disapproved and update final URLs . New enhancements include the ability to save business context , such as remembering preferences for ROAS metrics, and providing market insights like performance against peers and seasonal trends.&nbsp; Other improvements include updated 'Use cases' previously labeled as 'Activities', and troubleshooting pr",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-22T05:00:00+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "Google Ask Advisor nyní mění rozpočty, pozastavuje kampaně a odvolává reklamy",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "what": "Funkce Ask Advisor v Google Ads dostala rozšíření z pouhého poskytování odpovědí na praktické akce. Inzerenti jí mohou nechat pozastavit nebo přejmenovat kampaně, upravit denní rozpočty a cílení lokací, odvolat zamítnuté reklamy nebo změnit finální URL. Nově umí uložit kontext firmy (např. preferenci ROAS metrik) a poskytuje tržní insights jako výkon vůči konkurenci nebo sezónní trendy.",
-   "why": "Pro manažera kampaní to může znamenat rychlejší rutinní úpravy – místo ručního klikání v rozhraní stačí prompt. Uložený kontext šetří čas při opakovaných dotazech, tržní insights pomáhají benchmark výkonu.",
-   "takeaway": "Vyzkoušejte Ask Advisor pro rychlé dávkové úpravy rozpočtů nebo odvolání zamítnutých reklam – může ušetřit čas při správě více kampaní. Sledujte, zda vám uložený kontext skutečně přinese konzistentnější doporučení.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/a1ba61c567.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "9ea0eb2d25",
    "created": "2026-09-21T12:00:00+00:00",
    "articles": [
@@ -4683,32 +5042,6 @@
    "takeaway": "Pokud plánujete display kampaně na Vánoce, sledujte aktuální CPC/CPM metriky a zvažte načasování spuštění kampaní tak, abyste využili případný pokles cen před hlavním náporem soutěže. Pozor ale: zdroj neuvádí konkrétní čísla, geografie ani platforma, takže platnost pro český trh není potvrzená.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "21f8094b52",
-   "created": "2026-09-22T14:30:28+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/customer-lifecycle-goals-the-good-the-bad-the-ugly/588192",
-     "title": "Customer Lifecycle Goals: The Good, The Bad, The Ugly",
-     "summary": "Decide whether Google Ads Customer Lifecycle Goals fit your business, and avoid settings that inflate ROAS or exclude valuable prospects. The post Customer Lifecycle Goals: The Good, The Bad, The Ugly appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-22T14:30:28+00:00",
-     "score": 74
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads Customer Lifecycle Goals: kdy je použít a jaká nastavení vás oklamou",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "what": "Search Engine Journal publikoval analýzu funkce Customer Lifecycle Goals v Google Ads. Upozorňuje na rizika některých nastavení, která mohou uměle nafukovat ROAS nebo vyřazovat hodnotné potenciální zákazníky.",
-   "why": "Funkce Customer Lifecycle Goals je dostupná i českým inzerentům v Google Ads a ovlivňuje algoritmy aukce. Špatné nastavení může vést k falešně pozitivním výsledkům kampaní nebo k vyřazení kvalitních kontaktů, což zkresľuje vyhodnocení efektivity a plýtvá rozpočtem.",
-   "takeaway": "Pokud používáte Customer Lifecycle Goals, zkontrolujte nastavení – zejména segmentaci zákazníků a pravidla vyloučení. Sledujte, zda vám ROAS nevychází nerealisticky vysoko a jestli kampaně nezačaly ignorovat nové potenciální zákazníky.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/21f8094b52.jpg",
-   "image_from": "searchenginejournal.com"
   },
   {
    "id": "3c1f123d6b",
@@ -4783,30 +5116,6 @@
    "multi_source": false
   },
   {
-   "id": "ebe455cf4b",
-   "created": "2026-09-22T12:57:02+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMk9xWGFQWjFHZnhZRzhHaGlIR2R2R1d0Zzg0RjJra0c5eVNrd1pYVk5zWWZwRDVCdjRkQW5NMk9aU0tyZnp3QXdqaUk5S25DLW1VZ2VYWnNJUzUtLXFiOGRYeGlnd3pTUVVUSFVzWGJrMnlGNlVnbDdJVGxLbjdrNlBxWXc?oc=5",
-     "title": "IAB sets new standards for agentic buying and measurement",
-     "summary": "IAB sets new standards for agentic buying and measurement &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-22T12:57:02+00:00",
-     "score": 52
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "IAB vydalo standardy pro AI agenty v nákupu médií a měření",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "what": "Interactive Advertising Bureau (IAB) vydalo nové standardy pro využívání AI agentů při nákupu reklamního prostoru a měření výkonu kampaní. Jde o první formální průmyslová vodítka v této oblasti.",
-   "why": "S rostoucím využíváním AI v programatickém nakupování reklamy a reporting vzniká potřeba jednotných pravidel. Standardy mají zajistit konzistenci, transparentnost a měřitelnost napříč platformami a nástroji, což je klíčové pro efektivní řízení rozpočtů.",
-   "takeaway": "Sledujte, zda platformy a nástroje, které používáte (Google Ads, Meta, DSP), budou tyto standardy implementovat – může to ovlivnit způsob nastavování automatizovaných kampaní a reporting. Pro větší firmy s programatickým nákupem to může znamenat nutnost adjustace procesů a SLA s dodavateli.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "0b2ebb06b8",
    "created": "2026-09-22T12:00:42+00:00",
    "articles": [
@@ -4820,14 +5129,17 @@
      "score": 64
     }
    ],
-   "category": "cesky-marketing",
-   "importance": 64,
-   "title": "3 Steps To Win B2B Brand Consideration, Day Zero Decides The Shortlist via @sejournal, @alexanderkesler",
+   "category": "obsah",
+   "importance": 62,
+   "title": "B2B rozhodnutí padají dříve, než začne aktivní hledání – co s tím",
    "updated": "2026-09-22T15:07:15.972860+00:00",
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/0b2ebb06b8.jpg",
-   "image_from": "searchenginejournal.com"
+   "image_from": "searchenginejournal.com",
+   "what": "Článek z Search Engine Journal upozorňuje, že B2B nákupní týmy přicházejí do fáze aktivního výběru už s předvybraným seznamem dodavatelů. Tato shortlist vzniká měsíce předtím, než začnou aktivně hledat informace. Optimalizace pro vyhledávače (AEO) tak přichází pozdě – nemůže ovlivnit seznam, který už je hotový.",
+   "why": "Pro B2B marketéry to znamená zásadní posun v přístupu: nestačí být viditelný ve chvíli, kdy zákazník aktivně hledá, ale je nutné budovat povědomí a důvěru mnohem dříve. Klasická SEO/PPC strategie zaměřená na okamžik aktivního vyhledávání může přijít pozdě.",
+   "takeaway": "Pokud cílíte na B2B, neinvestujte jen do výkonu při aktivním vyhledávání. Soustřeďte se na long-term brand building a budování povědomí v oboru (obsahový marketing, LinkedIn, odborné události, PR) – měsíce až roky předtím, než váš potenciální klient začne aktivně řešit nákup. Kontrolujte, zda vaše strategie pokrývá i tuto ranou fázi 'day zero', nikoliv jen moment decision-making."
   },
   {
    "id": "06f00c69a7",
@@ -4875,29 +5187,6 @@
    "updated": "2026-09-22T15:07:15.972860+00:00",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "329b1f3609",
-   "created": "2026-09-22T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-sponsored-results-sitelinks-titles-42122.html",
-     "title": "Google Sponsored Results Sitelinks Tests More From Advertiser Name Title",
-     "summary": "Google Search is testing placing a title above the sitelinks for the sponsored results, the title says \"more from [advertiser name goes here].\" I think it makes it super clear where these sponsored links go to, but it may be a bit overkill.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-22T11:11:00+00:00",
-     "score": 65
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Sponsored Results Sitelinks Tests More From Advertiser Name Title",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/329b1f3609.jpg",
-   "image_from": "seroundtable.com"
   },
   {
    "id": "6803782412",
@@ -4968,30 +5257,6 @@
    "what": "Microsoft Advertising zahájil testování funkce Copilot Audience Generation pro vytváření publika v reklamních kampaních. Jde o AI nástroj, který má automatizovat přípravu cílových skupin v rámci platformy Microsoft Advertising.",
    "why": "Pro firmy inzerující v Microsoft Ads (Bing) může jít o zjednodušení nastavení publika a potenciální úsporu času při tvorbě kampaní. Zatím jde o test, reálný dopad na dostupnost a kvalitu cílení v ČR není znám.",
    "takeaway": "Pokud aktivně inzerujete přes Microsoft Advertising, sledujte rollout této funkce – až bude dostupná, vyzkoušejte ji na menší kampani a porovnejte výsledky s manuálně nastaveným publikem. Pro většinu českých firem zatím jde o okrajovou novinku.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "0e526d1136",
-   "created": "2026-09-21T07:41:27+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVptYUJWNGZUWFFaUEZ3V3poSV9qYlhXem9sQnF1QWRWSVRfSzI3Q216aHdYa1E2Z0lHclNwWEdMTm5lc25OZzhvakFab1UtcnFiZnpXMlMtdVJrXy1IN0k2M3dVZExEM1F0dG9yekxtNTZsRFpNelFyR2NKVV9aZjU4bGxZV0ZtYTljNXZoUk0xa1VvN0lnVkZSMnBNYlQ2b1J2LVBDbGo?oc=5",
-     "title": "Search Terms View Renamed to Search Terms and Ad Combinations",
-     "summary": "Search Terms View Renamed to Search Terms and Ad Combinations &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-21T07:41:27+00:00",
-     "score": 54
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google Ads přejmenoval Search Terms na Search Terms and Ad Combinations",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "what": "Google Ads změnil název pohledu Search Terms (vyhledávací dotazy) na Search Terms and Ad Combinations (vyhledávací dotazy a kombinace reklam). Jde o úpravu v rozhraní reklamní platformy.",
-   "why": "Změna názvu naznačuje, že pohled nyní explicitně zahrnuje i informace o tom, které reklamy byly k jednotlivým vyhledávacím dotazům zobrazeny. Pro PPC specialisty může jít o upřesnění dostupných dat.",
-   "takeaway": "Zkontrolujte v Google Ads, zda pohled Search Terms and Ad Combinations poskytuje nové informace o kombinacích dotazů a reklam – pokud ano, využijte je k optimalizaci párování klíčových slov a textů reklam.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -6359,11 +6624,14 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 47,
-   "title": "Snapchat report examines the rise of microdramas",
+   "importance": 45,
+   "title": "Snapchat: uživatelé čím dál víc sledují seriálový krátký videocontent",
    "updated": "2026-09-22T09:24:35.073936+00:00",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "multi_source": false,
+   "what": "Snapchat zveřejnil report o rostoucí oblibě tzv. mikrodramat – krátkých seriálových video obsahů. Uživatelé aplikace na tento formát stále častěji reagují a zapojují se do komunit kolem něj.",
+   "why": "Jde o trend, který ukazuje posun od izolovaných krátkých videí k seriálovému vyprávění ve short-form formátu. Pro značky to může být příležitost k hlubšímu zapojení komunity, pokud umí vytvářet navazující obsah místo jednorázových spotů.",
+   "takeaway": "Pokud vaše značka pracuje se Snapchatem nebo short-form videem obecně, zkuste testovat seriálový formát – návazné epizody mohou budovat větší engagement než jednotlivá videa. Sledujte, jestli se tento trend objeví i na českých platformách (TikTok, Instagram Reels)."
   },
   {
    "id": "7a3845b7be",
@@ -9768,122 +10036,6 @@
    "takeaway": "Při plánování influencer kampaní na Instagramu preferujte formát, kdy tvůrce publikuje příspěvek ze svého účtu (creator-led collab), nikoliv z vašeho brandového profilu. Požadujte od influencerů prokázání výkonnosti jejich příspěvků oproti brandovým postům.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "7a602bd952",
-   "created": "2026-09-15T16:49:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDFWT25ROHRqS3RCb2FZakkycGhnSzhkQTQwRzF2S3hrYjIySVpzaFFvOUFOdkxCZm9YY3J5dzI5RmYtekpVV0pQa0RGRUNVOXJLTlBRZkc2ejdIRmpxUkRqTVJLUkdpYlRsanVmakxpcGpPSkdKLXl4RVRnVGtQSnE5U3BFMjBfSmhCNGxKQ3ZnUi05aG5OSmJrRExTZUJV?oc=5",
-     "title": "Google Chrome launches new metrics to measure ad-heavy websites",
-     "summary": "Google Chrome launches new metrics to measure ad-heavy websites &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-15T17:26:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ad-metrics-crux-42093.html",
-     "title": "Google Chrome User Experience Report (CrUX) With Ad Metrics",
-     "summary": "Google announced new ad metrics that are being tested within the Chrome User Experience Report (CrUX). These metrics include Ad Count, Ad Density, Ad Weight (Network) and Ad Weight (CPU).",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-15T16:49:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-adds-new-ad-experience-metrics-to-crux-report/589569",
-     "title": "Google Adds New Ad Experience Metrics To CrUX Report via @sejournal, @martinibuster",
-     "summary": "Google is turning publisher advertising into user experience metric that adds four more numbers that publishers need to track. The post Google Adds New Ad Experience Metrics To CrUX Report appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T21:46:09+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559",
-     "title": "Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot via @sejournal, @MattGSouthern",
-     "summary": "Cloudflare's Disallow AI Training keeps mixed-use crawlers available for search. Google and Apple honor training opt-outs; Bing robots.txt support is pending. The post Cloudflare Lets Sites Disallow AI Training Without Blocking Googlebot appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-15T21:29:41+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262",
-     "title": "Cloudflare Will Write Your Robots.txt, And It Has A Point via @sejournal, @slobodanmanic",
-     "summary": "Bot Preference Sync sets AI crawler policy per category, not per crawler. Allow GPTBot and block Bytespider, and no setting describes what you do. The post Cloudflare Will Write Your Robots.txt, And It Has A Point appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T14:30:00+00:00",
-     "score": 60
-    },
-    {
-     "url": "https://www.semrush.com/blog/cloudfare-blocks-ai-training",
-     "title": "Cloudflare's AI training block now spares Googlebot",
-     "summary": "Cloudflare‘s Disallow AI Training setting blocks AI training crawlers but not Googlebot. Bing won‘t honor it until early 2027.",
-     "source": "Semrush blog",
-     "domain": "semrush.com",
-     "published": "2026-09-18T14:04:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284",
-     "title": "Checking A Page Is Part Of A Retrieval Pipeline For AI via @sejournal, @chrisgreenseo",
-     "summary": "No GSC for ChatGPT? Paste a distinctive snippet into a chatbot and ask for exact matches. If your URL comes back, retrieval isn't your problem. The post Checking A Page Is Part Of A Retrieval Pipeline For AI appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T19:00:53+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.seroundtable.com/google-blocking-scrapers-and-tracking-tools-42118.html",
-     "title": "Google May Be More Successful In Blocking Scrapers & Tracking Tools",
-     "summary": "Google may be more successful in blocking AI scrapers, search scrapers and third-party tracking tools since around September 13th or so. This coincides with the September 4th and September 12th reversals we reported, and it also aligns with the methods Google has been using to block non-human behavior in its search results recently.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T11:55:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636",
-     "title": "Google’s AI Payment Pilot Vs. Cloudflare & Microsoft Models via @sejournal, @MattGSouthern",
-     "summary": "Google, Cloudflare, and Microsoft are testing different models for paying publishers when AI systems access or use their content. The post Google&#8217;s AI Payment Pilot Vs. Cloudflare &#038; Microsoft Models appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-18T12:00:41+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/video-09-18-2026-42112.html",
-     "title": "Search News Buzz Video Recap: Unusual Google Search Ranking Volatility, Ad Tech Monopoly Remedies, AI Contribution Publisher Payouts & More",
-     "summary": "This week we covered the first week or so of Google's unusual ranking volatility only to see things spike up in a big way this week as well - something is up. Google's remedies are out for its ad tech monopoly ruling. Google has an AI contribution pilot for paying publishers...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-18T12:01:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-updates-mediapartners-google-crawler-guidance-less-about-adsense/589821",
-     "title": "Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense via @sejournal, @martinibuster",
-     "summary": "Google expanded their Mediapartners-Google guidance to make it about more than just AdSense. The post Google Updates Mediapartners-Google Crawler Guidance: Less About AdSense appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-17T20:51:57+00:00",
-     "score": 57
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "Chrome CrUX přidává metriky hustoty a zátěže reklam na webech",
-   "updated": "2026-09-19T13:59:26.341781+00:00",
-   "what": "Google testuje v Chrome User Experience Report (CrUX) nové metriky zaměřené na reklamy: Ad Count (počet reklam), Ad Density (hustota), Ad Weight Network (síťová zátěž) a Ad Weight CPU (procesorová zátěž). Jde o měření uživatelského zážitku na webech s reklamou.",
-   "why": "CrUX data Google dlouhodobě využívá k hodnocení kvality webu a mohou ovlivnit SEO. Nové metriky dávají vydavatelům i inzerentům další čísla ke sledování – pokud váš web nebo mediální partner přehání s reklamou, může to mít dopad na měřitelný UX a potenciálně na organické pozice.",
-   "takeaway": "Sledujte, zda a jak se nové reklamní metriky objeví ve vašich CrUX datech (PageSpeed Insights, BigQuery). Pokud provozujete web s obsahem a displayem, připravte se na možnost, že hustota a zátěž reklam se stanou faktorem hodnocení rychlosti a UX stránky.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7a602bd952.jpg",
-   "image_from": "searchengineland.com"
   },
   {
    "id": "4edd87b20d",
@@ -13846,32 +13998,6 @@
    "takeaway": "Sledujte vývoj případu – radikální změny v pravidlech Meta platformy by mohly ovlivnit cílení kampaní a dostupnost některých formátů. Prozatím není třeba měnit nastavení, ale připravte se na možné budoucí úpravy reklamních politik.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "5f36a5e81c",
-   "created": "2026-08-18T16:57:59+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/ceska-obchodni-inspekce-udelila-e-shopum-dalsi-milionove-pokuty",
-     "title": "Česká obchodní inspekce udělila e-shopům další milionové pokuty",
-     "summary": "Česká obchodní inspekce (ČOI) pokračovala v kontrolách internetových obchodů, u nichž existuje podezření na neplnění právních povinností.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-08-18T16:57:59+00:00",
-     "score": 62
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 65,
-   "title": "ČOI udělila e-shopům další milionové pokuty za porušení povinností",
-   "updated": "2026-08-18T19:05:07.286964+00:00",
-   "what": "Česká obchodní inspekce pokračuje v kontrolách internetových obchodů a udělila další milionové pokuty za neplnění právních povinností. Konkrétní zjištění ani jména postižených e-shopů však zdroj neuvádí.",
-   "why": "Pro marketingové manažery provozující nebo propagující e-shopy jde o signál pokračující kontrolní aktivity ČOI. Porušení povinností (např. u cen, reklamací, informování spotřebitelů) může vést k vysokým pokutám.",
-   "takeaway": "Zkontrolujte, zda váš e-shop nebo e-shopy klientů splňují všechny zákonné povinnosti – zejména správné zobrazování cen, informování o reklamacích a smluvní podmínky. Sledujte aktuální sankce ČOI pro identifikaci častých chyb.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/5f36a5e81c.jpg",
-   "image_from": "lupa.cz"
   }
  ],
  "persona_rescore_v2": true,
