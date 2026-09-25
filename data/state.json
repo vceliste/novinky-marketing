@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-25T20:05:17.088615+00:00",
+ "last_run": "2026-09-25T23:22:45.233504+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 5
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -281,12 +281,12 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -4696,120 +4696,43 @@
   "https://www.seroundtable.com/recap-09-25-2026-42166.html": "2026-09-25T20:05:17.088615+00:00",
   "https://blog.hootsuite.com/predictive-media-intelligence": "2026-09-25T20:05:17.088615+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1A0eklzaHRvY1dZb005R1I0djFzVWJDTFJxWC1wY0otVC0xNXNTZVU2dkVLVlFqaEhWYkRtMU8yN0l2bEpkSU5Xd1lVSTR3UVA5WUZuTlo5eWlmcTRtVVBfbzZ3M1lmaHdKaURfcGgwNWprQWNDTzV6S2xEWGVmWFdGM00yVHg1V2NQRmFMUUszNmMybmlzUVQ3djJqalQ2dXRmZzNPYU1OdFFmZDlnamc3eUJ4V0tSRjFSRW16S2Y?oc=5": "2026-09-25T20:05:17.088615+00:00",
-  "https://news.google.com/rss/articles/CBMickFVX3lxTE9YbGpvNVRTUkhFcmt4cG1qVzZKX1N5b29hb3VFVHE1LWlWOG5rZUpPOHR3U2ZwYnlMNDRGOGo1U3M5TXotM2lSV0IzNVNlSjhfMXdBMG1hMHZXN2xLM200b180dDhwN3dfaXdySHlmMXExZw?oc=5": "2026-09-25T20:05:17.088615+00:00"
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE9YbGpvNVRTUkhFcmt4cG1qVzZKX1N5b29hb3VFVHE1LWlWOG5rZUpPOHR3U2ZwYnlMNDRGOGo1U3M5TXotM2lSV0IzNVNlSjhfMXdBMG1hMHZXN2xLM200b180dDhwN3dfaXdySHlmMXExZw?oc=5": "2026-09-25T20:05:17.088615+00:00",
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aeHlZcmszeTRpay1wdVRMa0FwMTlJb28tdE56VXAyMEliRWx5RHNUQnRSbFp0eFRoODVLNjJIRWw3eXlDU3hqUVRwWlQxMUZnaVF3azVKYVpfOF9pQlpCUU5SY3Zqd241V0N2aQ?oc=5": "2026-09-25T23:22:45.233504+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ObXhUSm94dVJGTllLNWptUF9BVkowSmpUaGltT2NSbGtlZ0txN0FOUFFXLXowUVhGODdVUVVyd29IQmE4WDIxcTFvZHd5WGQ1QzBHVElGQktnd3hW?oc=5": "2026-09-25T23:22:45.233504+00:00"
  },
  "events": [
   {
-   "id": "a47fb08c28",
-   "created": "2026-09-25T16:46:00+00:00",
+   "id": "9bf61ee984",
+   "created": "2026-09-24T14:00:35+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOERrNVhscGV0S3BrTGVRdG5aZWZXdkRGNzhzQVRRUFI4WmpIZ3hueU5OSS1RWmtrcER6aG5iTjBEek9rODdKa203WXpuRVF4aGhVQTFWM0VFdG9xT1cwb0t5Tmxxb1lQY1FSNXZXdUh6bk1MMXMzdkdpbnJEdUVYcUhHWEYtc3VTdUJNMHJMQ1hsX3VUamtjQk0wclBFMDE3M01KUzJn?oc=5",
-     "title": "Google Ads adds IP address and timestamp matching to Customer Match",
-     "summary": "Google Ads adds IP address and timestamp matching to Customer Match &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-25T16:46:00+00:00",
-     "score": 78
+     "url": "https://sproutsocial.com/insights/holiday-shopping-trends",
+     "title": "2026 holiday shopping trends: Tariffs, trust and timing",
+     "summary": "As the poem goes: “Consumers scour social media with care, knowing that the holidays will soon be here.” Or something like that. The most Read more... The post 2026 holiday shopping trends: Tariffs, trust and timing appeared first on Sprout Social .",
+     "source": "Sprout Social",
+     "domain": "sproutsocial.com",
+     "published": "2026-09-24T14:00:35+00:00",
+     "score": 45
     },
     {
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kaGJBQzR6VGNaQnNMNXpYcU1CQ3pXaW1OWlFEeW9mX19FeFF1YjByYzZqRG5CcXFhaE43cHRWeTBiVGFBM0tBRmZzcjA3dnhqTm95Smw2a1NrcnE4aHdSTkNRUDRiUXlaaGdiMzJWZFA3YXJoZThtUUZXNEhGbk0?oc=5",
-     "title": "Google tests bigger Local Services Ads",
-     "summary": "Google tests bigger Local Services Ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-25T17:18:00+00:00",
-     "score": 58
+     "url": "https://www.socialmediatoday.com/news/linkedin-shares-insights-into-key-b2b-buying-behaviors/831324",
+     "title": "LinkedIn shares insights into key B2B buying behaviors",
+     "summary": "The data suggests that marketers should enact promotions with longer lead-in promotions to tap into early discovery.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-24T19:59:43+00:00",
+     "score": 52
     }
    ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads přidává IP adresy a časové značky do Customer Match",
-   "updated": "2026-09-25T20:06:41.819931+00:00",
-   "what": "Google Ads rozšířil Customer Match o možnost párování uživatelů na základě IP adres a časových značek návštěv. Doposud Customer Match pracoval primárně s e-maily, telefonními čísly a adresami.",
-   "why": "Pro inzerenty v ČR to znamená nové možnosti targetování zákazníků na základě technických dat z webové analytiky nebo CRM systémů. Jde o další datový bod pro přesnější remarketing a lookalike publikum.",
-   "takeaway": "Zkontrolujte, jestli vaše analytické nástroje a CRM umí exportovat IP adresy a časové značky konverzí ve formátu kompatibilním s Google Ads. Vyhodnoťte, zda tato data nemají compliance omezení podle GDPR pro váš případ.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/a47fb08c28.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "0666f09723",
-   "created": "2026-09-25T17:26:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1pBcXJFazhwVEVENERqTE15d2d6UVhCMXN2aTJfVUdwdF9xS05scm9Cc2I4bWlTXzV0VklVZWVPLWxGN2VuS2dibDdCb2hsMVhwamtKX2QzWldWTW43VjE3TU5YenhfeUUwaFNabDlybVAyRVgyVllNazZuR29TSHF6aHFOd3dhcUc3enJfa2FpSHNJVy1MLXdjNTNyWUdBdm5TLQ?oc=5",
-     "title": "Google Ads API v25.2 adds competitive benchmarks and PMax upgrades",
-     "summary": "Google Ads API v25.2 adds competitive benchmarks and PMax upgrades &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-25T17:26:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUhWeU9Yb2tTOE55eHNrWVRYc3BHWWFKZzNvQktVaW15Um9BRnBWamMwMnc4MGdMTVJrclhVY2tGNUxiRFhpeWFHMlg0eFpBNS1DcEcweEhXaUZpZkZKNEVROE04VEhEbkFGX3NSYmUtZkhqem0tVkN2d0h2clRscWJWcVdOZWs2TmFDQUEwVGEzb1BBdFBHdTl2R3JDMlpPd0tlN3pVOGY?oc=5",
-     "title": "Microsoft Ads API adds deeper search reporting and more PMax controls",
-     "summary": "Microsoft Ads API adds deeper search reporting and more PMax controls &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-25T17:37:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "ppc",
+   "category": "socialni-site",
    "importance": 55,
-   "title": "Google Ads API v25.2 a Microsoft Ads API rozšiřují funkce PMax a reportingu",
-   "updated": "2026-09-25T20:06:35.263277+00:00",
-   "what": "Google vydal API v25.2 s novými konkurenčními benchmarky a vylepšeními Performance Max kampaní. Microsoft současně aktualizoval své API o hlubší reporting vyhledávání a lepší kontrolu nad PMax kampaněmi.",
-   "why": "Obě platformy posilují možnosti řízení a měření Performance Max kampaní, které jsou pro PPC manažery stále důležitější. Nové API funkce umožňují lepší optimalizaci a benchmarking výkonu vůči konkurenci.",
-   "takeaway": "Pokud používáte Google Ads nebo Microsoft Ads API (nebo nástroje na nich postavené), sledujte aktualizace vašich nástrojů – nové funkce mohou přinést lepší data pro optimalizaci PMax kampaní a srovnání s konkurencí.",
+   "title": "LinkedIn: B2B kupující začínají hledat dřív, než marketéři myslí",
+   "updated": "2026-09-25T23:23:32.406011+00:00",
+   "what": "LinkedIn zveřejnil data o chování B2B kupujících, která ukazují, že nákupní cyklus začíná výrazně dříve, než si firmy běžně uvědomují. Rozhodování probíhá v ranných fázích, kdy potenciální zákazníci aktivně hledají informace a inspiraci.",
+   "why": "Pro B2B marketéry to znamená nutnost přehodnotit timing kampaní. Pokud začnou komunikovat až v momentě, kdy kupující aktivně srovnává nabídky, přicházejí pozdě – rozhodnutí už může být de facto učiněné v dřívější fázi.",
+   "takeaway": "Plánuj B2B kampaně s delším předstihem a zaměř se na early-stage obsah (vzdělávací, inspirativní), ne jen na přímé nabídky. Sleduj metriky v horní části funnelu (reach, engagement) a měř, jak brzká aktivita ovlivňuje konverze.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "7ec9ad0379",
-   "created": "2026-09-25T11:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-target-roas-promotion-mode-42150.html",
-     "title": "Google Ads Disables Editing Target ROAS While Promotion Mode Is Active",
-     "summary": "Did you know that you cannot edit your Target ROAS while promotion mode is active in Google Ads? Google will display a notification that reads, \"You can't edit your Target ROAS while promotion mode is active\" and then gives you the option to edit the ROAS tolerance instead.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-25T11:21:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://www.seroundtable.com/google-lsa-phone-number-42160.html",
-     "title": "Google LSAs Showing Google Business Profile Number, Not Google Ads Number",
-     "summary": "Google seems to have made a change in which phone number they use for tracking calls, even when you tell Google to use the Google Ads number, it is still using the Google Business Profiles phone number. I am told this is a confirmed change and Google still has not changed it back, and it is unclear if Google will change it back.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-25T11:41:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-url-breadcrumbs-for-sitelinks-in-ads",
-     "title": "Google Tests URL Breadcrumbs for Sitelinks in Ads",
-     "summary": "Google is testing the use of URL breadcrumbs for sitelinks displayed in sponsored search ads. The inclusion of URL breadcrumbs aims to give users a better understanding of where they will be landed when they click on these sitelinks, enhancing navigation transparency.&nbsp; This update was shared by Sachin Patel . The post Google Tests URL Breadcrumbs for Sitelinks in Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-25T12:00:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads blokuje úpravu Target ROAS při aktivním režimu propagace",
-   "updated": "2026-09-25T20:06:26.324853+00:00",
-   "what": "Google Ads nyní neumožňuje editovat Target ROAS (cílový návratnosti investic), pokud je aktivní promotion mode (režim propagace). Systém zobrazí oznámení, že úprava Target ROAS není možná, a nabídne místo toho úpravu tolerance ROAS.",
-   "why": "Pro firmy používající automatické nabídkové strategie a zároveň propagační kampaně to znamená omezení flexibility při řízení výkonu. Nemožnost upravit Target ROAS v průběhu akce může vést k neoptimálním výsledkům, zejména když se během propagace mění marže nebo konverzní poměry.",
-   "takeaway": "Pokud plánujete propagační kampaně s promotion mode a používáte Target ROAS, nastavte správnou hodnotu předem. Během aktivní akce budete moci upravit pouze toleranci ROAS, ne samotný cíl. Zvažte, zda pro propagační období nepřepnout na jinou nabídkovou strategii, pokud potřebujete větší kontrolu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/7ec9ad0379.jpg",
-   "image_from": "seroundtable.com"
+   "multi_source": true
   },
   {
    "id": "f308ad896d",
@@ -4904,24 +4827,7 @@
      "domain": "martech.org",
      "published": "2026-09-25T12:17:00+00:00",
      "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 68,
-   "title": "Google Ads AI vyžaduje kontrolu, ne slepou důvěru",
-   "updated": "2026-09-25T20:06:16.875871+00:00",
-   "what": "Odborníci varují před nekritickým nasazením AI v PPC kampaních. Mike Ryan (Search Engine Land) zdůrazňuje potřebu nastavit AI v Google Ads jasné mantinely místo automatického důvěřování. Články upozorňují, že AI v marketingu přináší skryté náklady na údržbu a opravy, podobně jako dříve programatická reklama.",
-   "why": "Marketingoví manažeři nasazují AI nástroje s očekáváním úspory času a nákladů, ale realita může být jiná. Bez správné kontroly a nastavení můžete plýtvat rozpočtem na neefektivní automatizaci a místo úspor generovat dodatečnou práci.",
-   "takeaway": "Nenastavujte AI kampaně v Google Ads nebo jiných nástrojích na autopilot. Definujte od začátku jasná omezení (rozpočtová pravidla, vyloučení, cílové metriky) a pravidelně kontrolujte výkonnost. Počítejte s časem na údržbu a korekce – automatizace neznamená vyřešený problém.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f308ad896d.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "e1fd00bfd3",
-   "created": "2026-09-17T14:30:32+00:00",
-   "articles": [
+    },
     {
      "url": "https://www.searchenginejournal.com/ask-an-seo-does-product-page-copy-matter-since-agents-read-feeds/585090",
      "title": "Does My Product Page Copy Still Matter If Agents Read Feeds And Schema? – Ask An SEO via @sejournal, @rollerblader",
@@ -5157,16 +5063,226 @@
      "score": 72
     }
    ],
-   "category": "ppc",
+   "category": "ai",
    "importance": 68,
-   "title": "Google Ads spouští režimy Holistic a Growth pro optimalizaci rozpočtů",
-   "updated": "2026-09-25T20:06:08.665565+00:00",
-   "what": "Google Ads rozšířil funkci Recommended Investment Strategy o dva nové režimy alokace rozpočtu. Režim Holistic přesouvá peníze z neúspěšných kampaní do výkonnějších a přidává týdenní spend. Režim Growth naopak přidává rozpočet jen na omezené kampaně bez přesunu stávajících peněz.",
-   "why": "Jde o nový nástroj pro správu rozpočtu napříč kampaněmi s AI predikci výkonu na 7 dní dopředu. Pro manažera s více kampaněmi to může znamenat efektivnější distribuci prostředků, méně manuální práce a lepší ROI.",
-   "takeaway": "Pokud máte v Google Ads více kampaní, zkontrolujte dostupnost této funkce ve vašem účtu. Otestujte režim Growth (bezpečnější varianta) a sledujte 7denní predikci. Holistic režim používejte až s opatrností – přesouvá peníze mezi kampaněmi.",
+   "title": "AI v marketingu slibuje efektivitu, ale opakuje chyby programatiku",
+   "updated": "2026-09-25T23:23:22.737329+00:00",
+   "what": "Experti varují, že AI nástroje v marketingu zatím nedodávají slibovanou efektivitu – místo úspory času přinášejí skryté náklady na údržbu, kontrolu a opravu chyb. Situace připomíná programmatic reklamu, která také slibovala automatizaci, ale nakonec vyžadovala lidskou kontrolu a strategii.",
+   "why": "Marketingoví manažeři investují do AI nástrojů s očekáváním úspor, ale realita je jiná – kromě licence platí čas na kontrolu výstupů, přepracování a nastavení guardrailů. Pokud tyto skryté náklady nezapočítáte do ROI, můžete podcenit rozpočet a zanedbat dlouhodobou strategii.",
+   "takeaway": "Před rozšiřováním AI nástrojů v týmu spočítejte reálné náklady včetně času na kontrolu a údržbu. U Google Ads AI nastavte jasné limity (guardraily) místo slepé důvěry v automatizaci. Sledujte, kolik času vám AI skutečně šetří versus kolik jej spotřebuje na opravu.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/cff1d0e6c9.jpg",
+   "image": "img/f308ad896d.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "b034d86ae4",
+   "created": "2026-09-22T15:00:58+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml",
+     "title": "Global consumers are using AI, but it hasn’t yet translated to shopping: report",
+     "summary": "While shoppers are using AI tools, AI engines make up less than 3% of the purchase stage, VML found.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-22T15:00:58+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/umelou-inteligenci-ma-jako-radce-polovina-nakupujicich-spocitala-asociace-pro-elektronickou-komerci",
+     "title": "Umělou inteligenci má jako rádce polovina nakupujících, spočítala Asociace pro elektronickou komerci",
+     "summary": "Celkem 50 % Čechů, kteří nakupují on-line, využilo už nějakým způsobem pro výběr zboží nebo e-shopu umělou inteligenci. Nejčastěji ve formě rádce. Ukazují to data leto&#353;ního výzkumu E-commerce Study Asociace pro elektronickou komerci (APEK).",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-25T13:23:24+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGsyQlpGM1k1WS1hWGFaSUlkTk9fZ1hqUWtrMWM5em5Bb0hHcEIxbjRCT0o2cS1aUV9fXzZfcGFjTHQzUWtjaWgxd25lRGFGM2x3MWNISHh5TjhQcnN2UHFSWnd2bkp6MVlpU2NQNUdRa2d1SklRLVRjNHRmRjd3NlpR?oc=5",
+     "title": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů - Asociace pro elektronickou komerci – APEK",
+     "summary": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů &nbsp;&nbsp; Asociace pro elektronickou komerci – APEK",
+     "source": "APEK",
+     "domain": "apek.cz",
+     "published": "2026-09-24T17:09:25+00:00",
+     "score": 55
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 55,
+   "title": "Polovina Čechů používá AI při online nákupech, jen část však aktivně nakupuje",
+   "updated": "2026-09-25T23:23:12.074181+00:00",
+   "what": "Podle letošního výzkumu E-commerce Study APEK využilo 50 % českých online nakupujících nějakým způsobem umělou inteligenci pro výběr zboží nebo e-shopu, nejčastěji ve formě rádce. Globální data VML ukazují, že zatímco zákazníci AI nástroje používají, AI enginy tvoří méně než 3 % nákupního procesu.",
+   "why": "Data ukazují diskrepanci mezi používáním AI a skutečným vlivem na nákupní rozhodnutí – lidé AI konzultují, ale většina transakcí se stále odehrává na tradičních kanálech. Pro e-shopy je důležité rozumět, kde a jak AI v customer journey skutečně funguje.",
+   "takeaway": "Sledujte, zda zákazníci používají AI asistenty (ChatGPT, Gemini) před návštěvou vašeho webu, ale nespoléhejte na AI jako primární prodejní kanál. Zaměřte se na optimalizaci vlastních AI rádců (chatboty, produktová doporučení) přímo na webu a v mobile apce, kde můžete vliv na konverzi přímo měřit.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/1f468b7a4a.jpg",
+   "image_from": "apek.cz"
+  },
+  {
+   "id": "d12c456383",
+   "created": "2026-09-23T09:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/inter-milan-social-strategy",
+     "title": "Inter Milan grew followers, impressions, and views—while posting less",
+     "summary": "The Serie A club decreased its posting by about a third in the past year but nonetheless surpassed 100 million followers, its brand and marketing director told us.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-23T09:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326",
+     "title": "Instagram chief shares algorithm insights and posting tips",
+     "summary": "In a new series of videos, chief Adam Mosseri addresses concerns about algorithmic influence and suggests how creators can improve their results.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-24T20:05:28+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-expands-verifications/831212",
+     "title": "LinkedIn expands verifications",
+     "summary": "The company is prompting users&rsquo; colleagues to confirm their work history and allowing companies to remove people who falsely claim to be employed.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-23T21:41:47+00:00",
+     "score": 50
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "LinkedIn rozšiřuje ověřování pracovní historie, firmy mohou mazat falešné profily",
+   "updated": "2026-09-25T23:23:03.510410+00:00",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "what": "LinkedIn spouští rozšířené funkce ověřování, které umožňují kolegům potvrzovat pracovní historii uživatelů a firmám odstraňovat profily lidí, kteří falešně uvádějí zaměstnání v jejich společnosti.",
+   "why": "Pro firmy jde o nástroj ochrany značky – mohou aktivně čistit LinkedIn od fake profilů zneužívajících jejich jméno. Pro marketéry a HR pomůže lepší důvěryhodnost B2B kampaní a employer brandingu.",
+   "takeaway": "Zkontrolujte, zda na LinkedInu někdo neoprávněně neuvádí vaši firmu jako zaměstnavatele. Využijte nové nástroje k ochraně firemní značky. Pro B2B kampaně může vyšší kvalita profilů znamenat přesnější targeting."
+  },
+  {
+   "id": "90cb255ba2",
+   "created": "2026-09-25T14:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/recap-09-25-2026-42166.html",
+     "title": "Daily Search Forum Recap: September 25, 2026",
+     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google has released a new algorithm update, not a core update, but a spam update and this spam update will take two weeks...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-25T14:00:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0N5SlB6VWVGY3dkcXFUTDF6cDVWbGxja2hhQW5oSkE0dXZMZTFuUmUxWXZkcEtJVkFDVUVubUlpSGZtVDltRkhnVFZVUmRoR2RqNUVfQ09IOFhxZ29YYUd0U09lNi1QY2ZqX2xUTFE4NTMyNzdGTjdVUzFSdkJVbTNKRGNsaGhMVTh4NWctSWJTS3Q2MmdqYw?oc=5",
+     "title": "Your AI content watermark isn’t what Google is looking for",
+     "summary": "Your AI content watermark isn’t what Google is looking for &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-25T14:00:00+00:00",
+     "score": 63
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google spustil spam update, potrvá dva týdny. AI watermarky vyhledávání neřeší",
+   "updated": "2026-09-25T23:22:55.242439+00:00",
+   "what": "Google zahájil nový algoritmus update zaměřený na spam (nikoliv core update). Aktualizace bude probíhat po dobu dvou týdnů. Zároveň Google upřesnil, že při hodnocení AI obsahu nehledá watermarky (vodoznaky označující AI obsah).",
+   "why": "Spam update může ovlivnit pozice webu ve vyhledávání, pokud má problematický obsah. Informace o AI watermarkách upřesňuje, že Google posuzuje kvalitu obsahu samotného, ne způsob jeho vytvoření nebo označení.",
+   "takeaway": "Sledujte výkonnost svého webu v Search Console během příštích dvou týdnů. Pokud máte na webu AI generovaný obsah, nespoléhejte na jeho označování watermarky – Google hodnotí primárně kvalitu a užitečnost obsahu, ne jeho původ.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/90cb255ba2.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "9bb0be2250",
+   "created": "2026-09-25T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/favicons-spotted-in-bing-shopping-ad-results",
+     "title": "Favicons Spotted in Bing Shopping Ad Results",
+     "summary": "Bing is testing the inclusion of favicons in Shopping ad results. This change, if rolled out widely, would mark an aesthetic update to the shopping ad interface, providing users with an additional visual cue about the retailer behind each ad. Incorporating favicons could potentially enhance brand recognition directly within the search results page, influencing user interaction and click-through rates. The exact scope and duration of this test remain unconfirmed. This update was shared by Sachin Patel . The post Favicons Spotted in Bing Shopping Ad Results appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-25T07:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-target-roas-promotion-mode-42150.html",
+     "title": "Google Ads Disables Editing Target ROAS While Promotion Mode Is Active",
+     "summary": "Did you know that you cannot edit your Target ROAS while promotion mode is active in Google Ads? Google will display a notification that reads, \"You can't edit your Target ROAS while promotion mode is active\" and then gives you the option to edit the ROAS tolerance instead.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-25T11:21:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://www.seroundtable.com/google-lsa-phone-number-42160.html",
+     "title": "Google LSAs Showing Google Business Profile Number, Not Google Ads Number",
+     "summary": "Google seems to have made a change in which phone number they use for tracking calls, even when you tell Google to use the Google Ads number, it is still using the Google Business Profiles phone number. I am told this is a confirmed change and Google still has not changed it back, and it is unclear if Google will change it back.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-25T11:41:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-tests-url-breadcrumbs-for-sitelinks-in-ads",
+     "title": "Google Tests URL Breadcrumbs for Sitelinks in Ads",
+     "summary": "Google is testing the use of URL breadcrumbs for sitelinks displayed in sponsored search ads. The inclusion of URL breadcrumbs aims to give users a better understanding of where they will be landed when they click on these sitelinks, enhancing navigation transparency.&nbsp; This update was shared by Sachin Patel . The post Google Tests URL Breadcrumbs for Sitelinks in Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-25T12:00:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOERrNVhscGV0S3BrTGVRdG5aZWZXdkRGNzhzQVRRUFI4WmpIZ3hueU5OSS1RWmtrcER6aG5iTjBEek9rODdKa203WXpuRVF4aGhVQTFWM0VFdG9xT1cwb0t5Tmxxb1lQY1FSNXZXdUh6bk1MMXMzdkdpbnJEdUVYcUhHWEYtc3VTdUJNMHJMQ1hsX3VUamtjQk0wclBFMDE3M01KUzJn?oc=5",
+     "title": "Google Ads adds IP address and timestamp matching to Customer Match",
+     "summary": "Google Ads adds IP address and timestamp matching to Customer Match &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-25T16:46:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kaGJBQzR6VGNaQnNMNXpYcU1CQ3pXaW1OWlFEeW9mX19FeFF1YjByYzZqRG5CcXFhaE43cHRWeTBiVGFBM0tBRmZzcjA3dnhqTm95Smw2a1NrcnE4aHdSTkNRUDRiUXlaaGdiMzJWZFA3YXJoZThtUUZXNEhGbk0?oc=5",
+     "title": "Google tests bigger Local Services Ads",
+     "summary": "Google tests bigger Local Services Ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-25T17:18:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1pBcXJFazhwVEVENERqTE15d2d6UVhCMXN2aTJfVUdwdF9xS05scm9Cc2I4bWlTXzV0VklVZWVPLWxGN2VuS2dibDdCb2hsMVhwamtKX2QzWldWTW43VjE3TU5YenhfeUUwaFNabDlybVAyRVgyVllNazZuR29TSHF6aHFOd3dhcUc3enJfa2FpSHNJVy1MLXdjNTNyWUdBdm5TLQ?oc=5",
+     "title": "Google Ads API v25.2 adds competitive benchmarks and PMax upgrades",
+     "summary": "Google Ads API v25.2 adds competitive benchmarks and PMax upgrades &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-25T17:26:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUhWeU9Yb2tTOE55eHNrWVRYc3BHWWFKZzNvQktVaW15Um9BRnBWamMwMnc4MGdMTVJrclhVY2tGNUxiRFhpeWFHMlg0eFpBNS1DcEcweEhXaUZpZkZKNEVROE04VEhEbkFGX3NSYmUtZkhqem0tVkN2d0h2clRscWJWcVdOZWs2TmFDQUEwVGEzb1BBdFBHdTl2R3JDMlpPd0tlN3pVOGY?oc=5",
+     "title": "Microsoft Ads API adds deeper search reporting and more PMax controls",
+     "summary": "Microsoft Ads API adds deeper search reporting and more PMax controls &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-25T17:37:00+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google Ads zablokoval úpravy Target ROAS v režimu promocí",
+   "updated": "2026-09-25T23:22:47.891437+00:00",
+   "what": "Google Ads znemožnil úpravu cílového ROAS (Return on Ad Spend), pokud je aktivní režim promocí. Namísto toho nabízí jen možnost upravit toleranci ROAS.",
+   "why": "Omezení může překvapit marketéry během Black Friday nebo jiných sezónních kampaní, kdy potřebují rychle upravit cílovou rentabilitu a zároveň mají zapnuté propagace.",
+   "takeaway": "Pokud plánujete sezónní kampaně s promo režimem, upravte Target ROAS předem nebo počítejte s tím, že během akce budete moci měnit jen toleranci, nikoli samotný cíl.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/7ec9ad0379.jpg",
    "image_from": "seroundtable.com"
   },
   {
@@ -5446,122 +5562,6 @@
    "multi_source": true,
    "image": "img/8c544f799a.jpg",
    "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "90cb255ba2",
-   "created": "2026-09-25T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/recap-09-25-2026-42166.html",
-     "title": "Daily Search Forum Recap: September 25, 2026",
-     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google has released a new algorithm update, not a core update, but a spam update and this spam update will take two weeks...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-25T14:00:00+00:00",
-     "score": 63
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google spustil spam update – probíhá dva týdny",
-   "updated": "2026-09-25T20:05:17.088615+00:00",
-   "what": "Google oznámil nový algoritmus update zaměřený na spam. Nejedná se o core update, ale specifickou aktualizaci proti spamu, která bude probíhat dva týdny.",
-   "why": "Spam updaty mohou ovlivnit viditelnost webů ve vyhledávání, zejména pokud obsahují problematické prvky nebo techniky. Pro správce webů je důležité sledovat případné poklesy v organickém trafficu během nasazování updatu.",
-   "takeaway": "Během následujících dvou týdnů sledujte pozice a traffic ve vyhledávání (Search Console, GA4). Pokud zaznamenáte výrazný pokles, zkontrolujte kvalitu obsahu, backlinky a compliance s Google Webmaster Guidelines.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/90cb255ba2.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "d12c456383",
-   "created": "2026-09-23T09:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.marketingbrew.com/stories/inter-milan-social-strategy",
-     "title": "Inter Milan grew followers, impressions, and views—while posting less",
-     "summary": "The Serie A club decreased its posting by about a third in the past year but nonetheless surpassed 100 million followers, its brand and marketing director told us.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-23T09:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326",
-     "title": "Instagram chief shares algorithm insights and posting tips",
-     "summary": "In a new series of videos, chief Adam Mosseri addresses concerns about algorithmic influence and suggests how creators can improve their results.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-24T20:05:28+00:00",
-     "score": 57
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "Šéf Instagramu radí: méně postů, lepší výsledky. Potvrzuje to i Inter Milán",
-   "updated": "2026-09-25T15:25:15.325346+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "what": "Adam Mosseri, šéf Instagramu, zveřejnil sérii videí s tipy pro tvůrce obsahu a vysvětlením fungování algoritmu. Současně klub Inter Milán reportuje, že při poklesu frekvence postování o třetinu zvýšil počet followerů na přes 100 milionů a zlepšil reach a zhlédnutí.",
-   "why": "Potvrzuje to změnu paradigmatu sociálních sítí: důraz na kvalitu a engagement místo kvantity příspěvků. Pro firmy to znamená přehodnotit content strategie – méně, ale cílenějšího obsahu může přinést lepší výsledky než vysoká frekvence postování.",
-   "takeaway": "Zkontrolujte svou content strategii na Instagramu: experimentujte s nižší frekvencí postování, ale vyšší kvalitou a relevantnějším obsahem pro vaše publikum. Sledujte engagement metriky, ne jen počet postů."
-  },
-  {
-   "id": "b034d86ae4",
-   "created": "2026-09-22T15:00:58+00:00",
-   "articles": [
-    {
-     "url": "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml",
-     "title": "Global consumers are using AI, but it hasn’t yet translated to shopping: report",
-     "summary": "While shoppers are using AI tools, AI engines make up less than 3% of the purchase stage, VML found.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-22T15:00:58+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.lupa.cz/aktuality/umelou-inteligenci-ma-jako-radce-polovina-nakupujicich-spocitala-asociace-pro-elektronickou-komerci",
-     "title": "Umělou inteligenci má jako rádce polovina nakupujících, spočítala Asociace pro elektronickou komerci",
-     "summary": "Celkem 50 % Čechů, kteří nakupují on-line, využilo už nějakým způsobem pro výběr zboží nebo e-shopu umělou inteligenci. Nejčastěji ve formě rádce. Ukazují to data leto&#353;ního výzkumu E-commerce Study Asociace pro elektronickou komerci (APEK).",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-25T13:23:24+00:00",
-     "score": 65
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Polovina českých online nakupujících už zkusila AI, ale k nákupu ji téměř nepoužívají",
-   "updated": "2026-09-25T15:22:50.384734+00:00",
-   "what": "Podle letošního výzkumu APEK využilo 50 % českých online nakupujících umělou inteligenci při výběru zboží nebo e-shopu, nejčastěji jako rádce. Globální studie VML však ukazuje, že AI nástroje tvoří méně než 3 % nákupní fáze – lidé AI používají na inspiraci, ale nenakupují přes ni.",
-   "why": "Ukazuje to propast mezi experimentováním s AI a skutečným nákupním chováním. Pro e-shopy to znamená, že investice do AI asistentů zatím nepřinášejí konverze, ale mohou ovlivňovat brand awareness a počáteční fázi rozhodování.",
-   "takeaway": "Pokud zvažujete AI chatbota nebo produktového asistenta na e-shopu, počítejte s tím, že zákazníci ho využijí spíš k hledání informací než k dokončení nákupu. Soustřeďte se na integraci AI do early-stage contentu (rady, srovnání) a sledujte, jak se chování vyvíjí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "a857505537",
-   "created": "2026-09-25T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0N5SlB6VWVGY3dkcXFUTDF6cDVWbGxja2hhQW5oSkE0dXZMZTFuUmUxWXZkcEtJVkFDVUVubUlpSGZtVDltRkhnVFZVUmRoR2RqNUVfQ09IOFhxZ29YYUd0U09lNi1QY2ZqX2xUTFE4NTMyNzdGTjdVUzFSdkJVbTNKRGNsaGhMVTh4NWctSWJTS3Q2MmdqYw?oc=5",
-     "title": "Your AI content watermark isn’t what Google is looking for",
-     "summary": "Your AI content watermark isn’t what Google is looking for &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-25T14:00:00+00:00",
-     "score": 63
-    }
-   ],
-   "category": "seo",
-   "importance": 45,
-   "title": "Google: AI watermarky v obsahu jsou irelevantní pro ranking",
-   "updated": "2026-09-25T15:22:50.384734+00:00",
-   "what": "Google oficiálně potvrdil, že přítomnost AI watermarků (vodoznaků) v obsahu není faktorem, který by ovlivňoval pozice ve vyhledávání. Vodoznaky v AI generovaném textu tedy nemají žádný přímý vliv na SEO.",
-   "why": "Některé nástroje a platformy začínají přidávat do AI obsahu digitální vodoznaky jako způsob označení strojově vytvořeného textu. Google ale jasně komunikuje, že tyto značky nesleduje ani nezohledňuje při hodnocení kvality obsahu.",
-   "takeaway": "Pokud řešíte, zda AI obsah na webu označovat vodoznaky kvůli SEO – nemusíte. Google posuzuje kvalitu obsahu podle užitečnosti pro uživatele, ne podle toho, jak vznikl. Zaměřte se raději na kvalitu a relevanci textu než na technické označování AI původu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "65533e4262",
@@ -6007,30 +6007,6 @@
    "image_from": "searchenginejournal.com"
   },
   {
-   "id": "9bb0be2250",
-   "created": "2026-09-25T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/favicons-spotted-in-bing-shopping-ad-results",
-     "title": "Favicons Spotted in Bing Shopping Ad Results",
-     "summary": "Bing is testing the inclusion of favicons in Shopping ad results. This change, if rolled out widely, would mark an aesthetic update to the shopping ad interface, providing users with an additional visual cue about the retailer behind each ad. Incorporating favicons could potentially enhance brand recognition directly within the search results page, influencing user interaction and click-through rates. The exact scope and duration of this test remain unconfirmed. This update was shared by Sachin Patel . The post Favicons Spotted in Bing Shopping Ad Results appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-25T07:00:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Bing testuje favicony u nákupních reklam",
-   "updated": "2026-09-25T09:46:04.588940+00:00",
-   "what": "Bing testuje zobrazování faviconů (ikon webu) přímo u Shopping reklam ve výsledcích vyhledávání. Jde o vizuální změnu rozhraní, která uživatelům poskytuje další vodítko o prodejci za každou reklamou.",
-   "why": "Favicony mohou posílit rozpoznatelnost značky přímo ve výsledcích vyhledávání a potenciálně ovlivnit míru prokliku (CTR). Pro inzerenty to znamená, že jejich vizuální identita získá větší prostor už v rámci reklamy samotné.",
-   "takeaway": "Sledujte, zda se změna rozšíří i do ČR a jak ovlivní výkon vašich Shopping kampaní na Bingu. Ujistěte se, že máte nastavenou kvalitní a rozpoznatelnou favicon – může se stát součástí vaší reklamy.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "3377e082c0",
    "created": "2026-09-25T04:16:38+00:00",
    "articles": [
@@ -6051,30 +6027,6 @@
    "what": "Meta spustila AI agenta, který podle investorů mění pohled na její masivní investice do umělé inteligence. Aplikace získala v USA značný počet uživatelů a zvýšila tržní hodnotu společnosti o 200 miliard dolarů. Zatím ale není jasné, jak z ní Meta bude konkrétně vydělávat.",
    "why": "Ukazuje, jak Meta plánuje zpeněžit své AI investice. Pro marketéry to může v budoucnu znamenat nové reklamní formáty nebo nástroje na Facebooku a Instagramu – až Meta najde způsob monetizace.",
    "takeaway": "Zatím jde o signál směru, kterým se Meta ubírá. Sledujte, zda a jak Meta začne AI agenta propojovat s reklamními nástroji – může to přinést nové možnosti targetingu nebo formátů na Facebooku/Instagramu.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "fb9fb27138",
-   "created": "2026-09-24T19:59:43+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-shares-insights-into-key-b2b-buying-behaviors/831324",
-     "title": "LinkedIn shares insights into key B2B buying behaviors",
-     "summary": "The data suggests that marketers should enact promotions with longer lead-in promotions to tap into early discovery.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-24T19:59:43+00:00",
-     "score": 52
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 55,
-   "title": "LinkedIn: B2B zákazníci začínají hledat řešení 9+ měsíců před nákupem",
-   "updated": "2026-09-25T09:46:04.588940+00:00",
-   "what": "LinkedIn zveřejnil analýzu B2B nákupního chování, která ukazuje, že firmy začínají s vyhledáváním řešení výrazně dříve, než se dosud předpokládalo. Data poukazují na to, že fáze objevování (discovery) začíná mnohem dříve v nákupním procesu.",
-   "why": "Pro B2B marketéry to znamená potřebu upravit timing kampaní a obsahu. Pokud firma vstupuje do povědomí klienta až v momentě aktivního nákupu, může být již pozdě – rozhodování probíhá v dřívějších fázích.",
-   "takeaway": "Pokud děláte B2B marketing, plánujte kampaně s delším předstihem a zaměřte se na vzdělávací obsah v raných fázích zákaznické cesty. Nečekejte, až bude klient aktivně poptávat – objevování začíná 9+ měsíců před rozhodnutím.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   },
@@ -6103,30 +6055,6 @@
    "multi_source": false,
    "image": "img/d6e766e5b4.jpg",
    "image_from": "mam.cz"
-  },
-  {
-   "id": "9bf61ee984",
-   "created": "2026-09-24T14:00:35+00:00",
-   "articles": [
-    {
-     "url": "https://sproutsocial.com/insights/holiday-shopping-trends",
-     "title": "2026 holiday shopping trends: Tariffs, trust and timing",
-     "summary": "As the poem goes: “Consumers scour social media with care, knowing that the holidays will soon be here.” Or something like that. The most Read more... The post 2026 holiday shopping trends: Tariffs, trust and timing appeared first on Sprout Social .",
-     "source": "Sprout Social",
-     "domain": "sproutsocial.com",
-     "published": "2026-09-24T14:00:35+00:00",
-     "score": 45
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 25,
-   "title": "Sprout Social: trendy nákupů o svátcích 2026 – cla, důvěra a časování",
-   "updated": "2026-09-25T09:46:04.588940+00:00",
-   "what": "Sprout Social publikoval přehled trendů týkajících se nákupního chování spotřebitelů během svátečního období 2026. Zmíněny jsou faktory jako cla (tariffs), důvěra (trust) a správné časování marketingových aktivit. Spotřebitelé podle textu aktivně vyhledávají informace na sociálních sítích.",
-   "why": "Pro marketingového manažera jde o předběžný výhled na faktory ovlivňující vánoční kampaně – v USA. Téma cel naznačuje možný dopad na ceny a dostupnost zboží, důvěra odkazuje na relevanci autentické komunikace a časování na plánování kampaní. Konkrétní data nebo doporučení však v poskytnutém úryvku chybí.",
-   "takeaway": "Dokument zatím neposkytuje konkrétní čísla ani pokyny použitelné v ČR. Sledujte úplné znění případové studie, pokud plánujete vánoční kampaně 2026 a zajímá vás vliv cel nebo sociálních sítí na nákupní chování – relevance pro český trh ale není potvrzená.",
-   "importance_label": "kontext",
-   "multi_source": false
   },
   {
    "id": "46034e9ef3",
@@ -6175,32 +6103,6 @@
    "takeaway": "Pokud propagujete doplňky stravy (nebo jiné produkty pro zdraví), zaměřte komunikaci na složení, čistotu a účinnost – cena je až sekundární. V PPC a contentu zdůrazňujte transparentnost a důkazy kvality.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "1f468b7a4a",
-   "created": "2026-09-24T17:09:25+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGsyQlpGM1k1WS1hWGFaSUlkTk9fZ1hqUWtrMWM5em5Bb0hHcEIxbjRCT0o2cS1aUV9fXzZfcGFjTHQzUWtjaWgxd25lRGFGM2x3MWNISHh5TjhQcnN2UHFSWnd2bkp6MVlpU2NQNUdRa2d1SklRLVRjNHRmRjd3NlpR?oc=5",
-     "title": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů - Asociace pro elektronickou komerci – APEK",
-     "summary": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů &nbsp;&nbsp; Asociace pro elektronickou komerci – APEK",
-     "source": "APEK",
-     "domain": "apek.cz",
-     "published": "2026-09-24T17:09:25+00:00",
-     "score": 55
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 68,
-   "title": "APEK: Češi skeptičtí k AI a influencerům, výdejní boxy bez většího dopadu",
-   "updated": "2026-09-24T20:07:07.476054+00:00",
-   "what": "Asociace pro elektronickou komerci (APEK) zveřejnila průzkum mapující reálné chování českých zákazníků při online nákupech. Podle výsledků Češi při nákupech v praxi příliš nereagují na AI doporučení, influencery ani na dodání do výdejních boxů – trendy, o kterých se hodně mluví, ale jejich dopad na nákupní chování je podle dat omezený.",
-   "why": "Průzkum ukazuje, že část marketingových trendů, do kterých firmy investují (AI personalizace, influencer marketing, výdejní boxy), nemusí mít v českém prostředí tak silný efekt, jak se často prezentuje. Pro marketingového manažera jde o důležitý signál k přehodnocení priorit a kanálů, kam směřovat rozpočet.",
-   "takeaway": "Zkontrolujte efektivitu investic do AI doporučovacích systémů, influencer kampaní a boxových dodacích služeb – průzkum APEK naznačuje, že český zákazník na tyto prvky reaguje méně, než by se dalo očekávat. Zaměřte se raději na osvědčené faktory (cena, dostupnost, recenze).",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/1f468b7a4a.jpg",
-   "image_from": "apek.cz"
   },
   {
    "id": "539f5f895e",
@@ -6694,30 +6596,6 @@
    "multi_source": false,
    "image": "img/155fb1fa1c.jpg",
    "image_from": "mediaguru.cz"
-  },
-  {
-   "id": "b10024f969",
-   "created": "2026-09-23T21:41:47+00:00",
-   "articles": [
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-expands-verifications/831212",
-     "title": "LinkedIn expands verifications",
-     "summary": "The company is prompting users&rsquo; colleagues to confirm their work history and allowing companies to remove people who falsely claim to be employed.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-23T21:41:47+00:00",
-     "score": 50
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 45,
-   "title": "LinkedIn rozšiřuje ověřování pracovní historie přes kolegy a zaměstnavatele",
-   "updated": "2026-09-24T09:25:48.493317+00:00",
-   "what": "LinkedIn zavádí nové nástroje pro ověřování pracovních pozic. Uživatelé mohou požádat kolegy o potvrzení jejich pracovní historie a firmy získávají možnost odebrat osoby, které se na LinkedIn nepravdivě uvádějí jako jejich zaměstnanci.",
-   "why": "Pro HR a employer branding managery to znamená větší kontrolu nad tím, kdo vystupuje jménem firmy na LinkedIn. Může to zlepšit důvěryhodnost profilu firmy i jejích skutečných zaměstnanců, což je relevantní pro B2B marketing a nábor.",
-   "takeaway": "Pokud vaše firma aktivně buduje employer brand nebo používá LinkedIn pro B2B, měli byste sledovat, zda se ve vašem jménu neuvádějí neoprávněné osoby, a případně využít nové možnosti ověřování. Pro osobní profily vašich obchodníků nebo vedení zvažte potvrzení pracovní historie pro vyšší důvěryhodnost.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "373c0d996b",
