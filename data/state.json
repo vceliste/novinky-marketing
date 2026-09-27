@@ -1,11 +1,11 @@
 {
- "last_run": "2026-09-27T10:06:22.165708+00:00",
+ "last_run": "2026-09-27T15:16:52.637151+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Médiář",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd578457bf0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)')))",
    "new": 0
   },
   {
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -4739,7 +4739,11 @@
   "https://ppcnewsfeed.com/ppc-news/2026-09/ai-max-expands-new-reporting-language-options": "2026-09-27T10:06:22.165708+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-sets-january-12-2027-end-date-for-maxcpc-in-the-api": "2026-09-27T10:06:22.165708+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOai1XOU9LX3FjMFdfZXVHRjRqeXl3QUxMeUhhdUNwZk4xV2JWZGJibE9QR1dxWGt2Qlg2dDJ6SHpiYnVFOWk1RXk2dnRRNGhtenVtWHM0X3hpZmtuTHhnNXpXMENGUnItRXBlMHVPVjc4bi15Z29nY3BzdTdOeHVma2h6aTl5V3gzUVN2bWNJYzQzb2pxY2tWeXZIRkVPRHVmVW9ocWhydGRLUnlpTC1tbmdJZy1EMmp2cHdVZGM1TWg?oc=5": "2026-09-27T10:06:22.165708+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/google-to-pilot-gun-accessories-ads-in-us": "2026-09-27T10:06:22.165708+00:00"
+  "https://ppcnewsfeed.com/ppc-news/2026-09/google-to-pilot-gun-accessories-ads-in-us": "2026-09-27T10:06:22.165708+00:00",
+  "https://cc.cz/utekl-z-pr-a-stvoril-raj-pro-fanousky-pokemonu-nas-konicek-nici-prekupnici-jde-na-ne-ale-vyzrat-rika": "2026-09-27T15:16:52.637151+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/update-to-legal-requirements-policy": "2026-09-27T15:16:52.637151+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-09/lsa-now-lets-users-message-up-6-businesses": "2026-09-27T15:16:52.637151+00:00",
+  "https://cc.cz/zpivat-zacala-diky-calinovi-pak-prisla-o2-arena-sama-bych-na-to-nemela-dost-sebevedomi-rika-juli-koli": "2026-09-27T15:16:52.637151+00:00"
  },
  "events": [
   {
