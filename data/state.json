@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-27T15:16:52.637151+00:00",
+ "last_run": "2026-09-27T19:50:01.989178+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7fd578457bf0>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)')))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
    "new": 0
   },
   {
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -376,7 +376,7 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -4743,7 +4743,11 @@
   "https://cc.cz/utekl-z-pr-a-stvoril-raj-pro-fanousky-pokemonu-nas-konicek-nici-prekupnici-jde-na-ne-ale-vyzrat-rika": "2026-09-27T15:16:52.637151+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-09/update-to-legal-requirements-policy": "2026-09-27T15:16:52.637151+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-09/lsa-now-lets-users-message-up-6-businesses": "2026-09-27T15:16:52.637151+00:00",
-  "https://cc.cz/zpivat-zacala-diky-calinovi-pak-prisla-o2-arena-sama-bych-na-to-nemela-dost-sebevedomi-rika-juli-koli": "2026-09-27T15:16:52.637151+00:00"
+  "https://cc.cz/zpivat-zacala-diky-calinovi-pak-prisla-o2-arena-sama-bych-na-to-nemela-dost-sebevedomi-rika-juli-koli": "2026-09-27T15:16:52.637151+00:00",
+  "https://www.mediar.cz/festival-serial-killer-vyhral-polsky-proud-z-ceskych-serialu-zvitezil-kamarad": "2026-09-27T19:50:01.989178+00:00",
+  "https://cc.cz/pokemoni-v-lidlu-dum-co-vypada-jako-skrin-a-navrharka-ktera-neumela-sit": "2026-09-27T19:50:01.989178+00:00",
+  "https://www.lupa.cz/clanky/jeste-presnejsi-kvantove-hodiny-lepsi-kvantova-fourierova-transformace-faktorizace-cisla-rsa-896": "2026-09-27T19:50:01.989178+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGQ5Rmx5cVFxYVpTZFVHSXNPcEpfRnVxR01Bb2VHSWo0cFFFNlpyUWZ6MFdqMVRBb2hmOXFjTUZwYmN1TFQ1a3ZqTVMzQlJReTd1cGc3WnRxeUU1MG5ud3ZLdndiZndHYkZyZ3VvMWdkNkNJR0dCMVRBVmViUUlNZU84Y1hpcDVQWldsMFh6UWlFT3BzYm9YZC1ab3V6MWROcHdxSGYwNHNTTXZQbjFRYjNOSFE2LVYxTUxnazY4OXA?oc=5": "2026-09-27T19:50:01.989178+00:00"
  },
  "events": [
   {
@@ -10266,13 +10270,16 @@
     }
    ],
    "category": "seo",
-   "importance": 65,
+   "importance": 20,
    "title": "SEO Restart 2026: GEO je pořád SEO",
    "updated": "2026-09-26T23:02:21.165055+00:00",
-   "importance_label": "důležité",
+   "importance_label": "kontext",
    "multi_source": false,
    "image": "img/406561da58.jpg",
-   "image_from": "jirkont.cz"
+   "image_from": "jirkont.cz",
+   "what": "Článek s názvem 'SEO Restart 2026: GEO je pořád SEO' byl publikován na webu Jirkont.cz. Konkrétní obsah článku není z dodaných zdrojů znám, k dispozici je pouze titulek.",
+   "why": "Bez přístupu k samotnému textu nelze určit konkrétní relevanci pro cílovou skupinu. Titulek naznačuje možné téma vztahu mezi generative engine optimization (GEO) a tradičním SEO v kontextu roku 2026.",
+   "takeaway": "Pro posouzení relevance a konkrétních doporučení je nutné přečíst celý článek na Jirkont.cz. Bez znalosti obsahu není možné stanovit akční kroky."
   },
   {
    "id": "f308ad896d",
