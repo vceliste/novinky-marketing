@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-27T19:50:01.989178+00:00",
+ "last_run": "2026-09-27T23:14:45.427040+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -70,7 +70,7 @@
   {
    "name": "Marketing & Media",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -88,13 +88,13 @@
   {
    "name": "APEK",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
+   "status": "chyba: empty feed (HTTP 403, text/html)",
    "new": 0
   },
   {
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -178,7 +178,7 @@
   {
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "status": "chyba: empty feed (HTTP 200, application/rss+xml)",
    "new": 0
   },
   {
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f5487af6d50>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -262,14 +262,14 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "status": "chyba: empty feed (HTTP 404, text/html)",
    "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -316,7 +316,7 @@
   {
    "name": "LinkedIn Marketing blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -4747,9 +4747,405 @@
   "https://www.mediar.cz/festival-serial-killer-vyhral-polsky-proud-z-ceskych-serialu-zvitezil-kamarad": "2026-09-27T19:50:01.989178+00:00",
   "https://cc.cz/pokemoni-v-lidlu-dum-co-vypada-jako-skrin-a-navrharka-ktera-neumela-sit": "2026-09-27T19:50:01.989178+00:00",
   "https://www.lupa.cz/clanky/jeste-presnejsi-kvantove-hodiny-lepsi-kvantova-fourierova-transformace-faktorizace-cisla-rsa-896": "2026-09-27T19:50:01.989178+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGQ5Rmx5cVFxYVpTZFVHSXNPcEpfRnVxR01Bb2VHSWo0cFFFNlpyUWZ6MFdqMVRBb2hmOXFjTUZwYmN1TFQ1a3ZqTVMzQlJReTd1cGc3WnRxeUU1MG5ud3ZLdndiZndHYkZyZ3VvMWdkNkNJR0dCMVRBVmViUUlNZU84Y1hpcDVQWldsMFh6UWlFT3BzYm9YZC1ab3V6MWROcHdxSGYwNHNTTXZQbjFRYjNOSFE2LVYxTUxnazY4OXA?oc=5": "2026-09-27T19:50:01.989178+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGQ5Rmx5cVFxYVpTZFVHSXNPcEpfRnVxR01Bb2VHSWo0cFFFNlpyUWZ6MFdqMVRBb2hmOXFjTUZwYmN1TFQ1a3ZqTVMzQlJReTd1cGc3WnRxeUU1MG5ud3ZLdndiZndHYkZyZ3VvMWdkNkNJR0dCMVRBVmViUUlNZU84Y1hpcDVQWldsMFh6UWlFT3BzYm9YZC1ab3V6MWROcHdxSGYwNHNTTXZQbjFRYjNOSFE2LVYxTUxnazY4OXA?oc=5": "2026-09-27T19:50:01.989178+00:00",
+  "https://www.socialmediatoday.com/news/can-meta-be-trusted-with-user-data-to-power-its-ai-agents/831446": "2026-09-27T23:14:45.427040+00:00",
+  "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445": "2026-09-27T23:14:45.427040+00:00",
+  "https://www.socialmediatoday.com/news/x-launches-grok-bot-rewards-program-to-showcase-ai-utility/831444": "2026-09-27T23:14:45.427040+00:00",
+  "https://www.socialmediatoday.com/news/how-can-instagram-creators-use-muse-ai-agents/831443": "2026-09-27T23:14:45.427040+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-agrees-to-teen-usage-restrictions-in-alabama/831442": "2026-09-27T23:14:45.427040+00:00"
  },
  "events": [
+  {
+   "id": "f10297c108",
+   "created": "2026-09-22T05:10:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/rok-od-zavedeni-eaa-jak-jsou-na-tom-ceske-weby-s-pristupnosti",
+     "title": "Rok od zavedení EAA: Jak jsou na tom české weby s přístupností?",
+     "summary": "Rok po zavedení evropského aktu o přístupnosti EAA nesplňuje většina testovaných českých webů všechny klíčové požadavky. Průzkum společnosti A-WebSys na více než 125 webech ukázal průměrné skóre přístupnosti 88 %, přičemž nejhůře si vedly zpravodajské servery s průměrem 80 %.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-22T05:10:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/ministerstvo-spravedlnosti-omylem-zpristupnilo-rodna-cisla-v-ramci-testovaci-verzi-obchodniho-rejstriku",
+     "title": "Ministerstvo spravedlnosti omylem zpřístupnilo rodná čísla v rámci testovací verze obchodního rejstříku",
+     "summary": "Ministerstvo spravedlnosti odstavilo testovací verzi nového obchodního rejstříku poté, co se ukázalo, že přes ni mohla unikat rodná čísla lidí zapsaných u českých firem a organizací. Potenciálně mohlo jít o údaje až dvou milionů lidí &#8211; tolik unikátních osob je v otevřených datech rejstříku zapsáno u jednotlivých společností a spolků jako jednatelé, členové představenstev nebo předsedové, uvádí server iRozhlas.cz.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-22T13:33:58+00:00",
+     "score": 55
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 65,
+   "title": "Rok po EAA: české weby na testování přístupnosti v průměru 88 %",
+   "updated": "2026-09-27T23:15:59.610503+00:00",
+   "what": "Rok od zavedení evropského aktu o přístupnosti (EAA) průzkum společnosti A-WebSys na více než 125 českých webech ukázal průměrné skóre přístupnosti 88 %. Nejhorší výsledky zaznamenaly zpravodajské servery s průměrem 80 %.",
+   "why": "EAA ukládá povinnosti zajistit přístupnost webů pro osoby se zdravotním postižením. Nesplnění požadavků může vést k sankcím nebo nutnosti investovat do úprav webu. Výsledky ukazují, že většina českých webů ještě nemá přístupnost plně v pořádku.",
+   "takeaway": "Zkontrolujte, zda váš web splňuje požadavky EAA, zejména pokud provozujete e-shop nebo zpravodajský server. Nechte si udělat audit přístupnosti a plánujte případné úpravy před tím, než začne kontrola a sankce.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/f10297c108.jpg",
+   "image_from": "mediaguru.cz"
+  },
+  {
+   "id": "deedc664a8",
+   "created": "2026-09-23T05:20:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/podcastova-reklama-nefunguje-jako-radio-jak-k-ni-pristupovat",
+     "title": "Podcastová reklama nefunguje jako rádio. Jak k ní přistupovat?",
+     "summary": "Úspěch podcastové reklamy závisí nejen na správném výběru pořadu, ale i na odlišném přístupu ke kreativitě, plánování a práci s publikem, zaznělo na odborném setkání pořádaném Czech News Center.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-23T05:20:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.mediaguru.cz/omnivision-jak-pozorni-jsou-cesti-divaci-pri-sledovani-televizni-a-online-reklamy",
+     "title": "OmniVision: Jak pozorní jsou čeští diváci při sledování televizní reklamy?",
+     "summary": "Omnicom Media představila na středeční konferenci OmniVision první výsledky měření skutečné pozornosti věnované televizní reklamě. Data z 300 českých domácností ukazují rozdíly v pozornosti podle prostředí, cílových skupin i délky spotu a mají být základem pro další rozvoj plánování total videa napříč televizí, CTV a online videem.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-24T11:40:00+00:00",
+     "score": 52
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 65,
+   "title": "Omnicom poprvé měří reálnou pozornost u TV reklam v Česku",
+   "updated": "2026-09-27T23:15:51.914721+00:00",
+   "what": "Omnicom Media Group představila v Česku výsledky měření skutečné pozornosti diváků při sledování televizní reklamy. Data z 300 českých domácností ukazují rozdíly v pozornosti podle prostředí (lineární TV vs. CTV), cílových skupin a délky spotů.",
+   "why": "Jde o první data svého druhu v ČR. Dosud se plánování TV reklam opírá o dosah a sledovanost, ne o to, kolik lidí reklamu skutečně vnímá. Měření pozornosti může změnit způsob plánování a hodnocení efektivity TV a video kampaní.",
+   "takeaway": "Pokud plánujete TV nebo video kampaně, sledujte další výsledky tohoto měření – mohou ovlivnit budoucí benchmarky a doporučení médií. V případě spolupráce s Omnicom Media můžete začít diskutovat o plánování na základě attention metrik.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/60fbcf7565.jpg",
+   "image_from": "mediaguru.cz"
+  },
+  {
+   "id": "b034d86ae4",
+   "created": "2026-09-22T15:00:58+00:00",
+   "articles": [
+    {
+     "url": "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml",
+     "title": "Global consumers are using AI, but it hasn’t yet translated to shopping: report",
+     "summary": "While shoppers are using AI tools, AI engines make up less than 3% of the purchase stage, VML found.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-22T15:00:58+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.lupa.cz/aktuality/umelou-inteligenci-ma-jako-radce-polovina-nakupujicich-spocitala-asociace-pro-elektronickou-komerci",
+     "title": "Umělou inteligenci má jako rádce polovina nakupujících, spočítala Asociace pro elektronickou komerci",
+     "summary": "Celkem 50 % Čechů, kteří nakupují on-line, využilo už nějakým způsobem pro výběr zboží nebo e-shopu umělou inteligenci. Nejčastěji ve formě rádce. Ukazují to data leto&#353;ního výzkumu E-commerce Study Asociace pro elektronickou komerci (APEK).",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-25T13:23:24+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGsyQlpGM1k1WS1hWGFaSUlkTk9fZ1hqUWtrMWM5em5Bb0hHcEIxbjRCT0o2cS1aUV9fXzZfcGFjTHQzUWtjaWgxd25lRGFGM2x3MWNISHh5TjhQcnN2UHFSWnd2bkp6MVlpU2NQNUdRa2d1SklRLVRjNHRmRjd3NlpR?oc=5",
+     "title": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů - Asociace pro elektronickou komerci – APEK",
+     "summary": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů &nbsp;&nbsp; Asociace pro elektronickou komerci – APEK",
+     "source": "APEK",
+     "domain": "apek.cz",
+     "published": "2026-09-24T17:09:25+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-company-lists-job-seniority-exit-beta",
+     "title": "Microsoft Company Lists and Job Seniority Exit Beta",
+     "summary": "Microsoft's LinkedIn-profile targeting features have completed their rollout. The beta note indicating that not everyone had access to these features has been removed. This update enables B2B advertisers to utilize the Audience planner for sizing a company-list or seniority audience before launching campaigns. The Audience planner help page now includes two new targeting dimensions: \"Company List: Companies from bulk-uploaded lists\" and \"Job seniority: Seniority levels according to their LinkedIn profiles.\" The limit remains at up to 10,000 companies per list, with ad groups able to target a m",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-26T07:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-excluded-content-terms-available",
+     "title": "Microsoft Excluded Content Terms Now Available to Everyone",
+     "summary": "Microsoft has removed the limited release restriction for Excluded content terms within its Microsoft Advertising platform. Advertisers can now block ads from appearing alongside unwanted page titles by specifying up to 1,000 terms at account or campaign level. Campaign-level terms apply across all campaigns in the account. Previously, the Excluded content terms feature was not widely available. A banner on the Brand safety help page indicated its limited availability, which has now been removed, confirming wider access. Read the official help page here: About content suitability . This update",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-26T05:00:00+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.mediaguru.cz/e-shopy-ceka-silna-vanocni-sezona-naklady-na-reklamu-ale-rostou",
+     "title": "E-shopy čeká silná vánoční sezona, náklady na reklamu ale rostou",
+     "summary": "Česká e-commerce může podle Upgates letos v předvánoční sezoně zvýšit tržby o pět až deset procent. Zároveň rostou průměrné hodnoty objednávek i náklady na získání zákazníků, což zvyšuje tlak na marže. Obchodníci proto vedle slev více využijí věrnostní programy, balíčky nebo vlastní zákaznické databáze.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-24T05:30:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.mediaguru.cz/dve-tretiny-cechu-uprednostnuji-u-doplnku-stravy-kvalitu-pred-cenou",
+     "title": "Dvě třetiny Čechů upřednostňují u doplňků stravy kvalitu před cenou",
+     "summary": "Doplňky stravy užívá podle průzkumu Ipsosu pro Pilulku 84 % Čechů ve věku 18 až 55 let. Dvě třetiny uživatelů a nakupujících považují při výběru za důležitější kvalitu než cenu. Za její hlavní znaky označují především množství účinné látky, čistotu složení a vstřebatelnost.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-24T19:50:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 55,
+   "title": "Polovina českých online nakupujících už využila AI, ale k nákupu ji nepoužívají",
+   "updated": "2026-09-27T23:15:41.099162+00:00",
+   "what": "Podle letošního průzkumu Asociace pro elektronickou komerci (APEK) využilo 50 % českých online nakupujících AI při výběru zboží nebo e-shopu, nejčastěji jako rádce. Globální studie VML však ukazuje, že AI nástroje tvoří méně než 3 % ve fázi samotného nákupu.",
+   "why": "I když spotřebitelé AI využívají, zatím se to nepromítá do skutečných konverzí. Pro marketingové manažery to znamená, že AI může hrát roli v discovery a poradenství, ale nákupní rozhodnutí stále závisí na jiných faktorech.",
+   "takeaway": "Sledujte, jak zákazníci AI používají (např. pro vyhledávání informací), ale nespoléhejte na to, že AI vyhledávače přímo nahradí tradiční nákupní cesty. Zaměřte se na optimalizaci pro klasické kanály a na kvalitu obsahu, který AI nástroje mohou zákazníkům doporučit.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/1f468b7a4a.jpg",
+   "image_from": "apek.cz"
+  },
+  {
+   "id": "146159cea6",
+   "created": "2026-09-22T05:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.lupa.cz/aktuality/cesi-influenceri-propaguji-nelegalni-hazard-ministerstvo-je-varuje-pred-milionovymi-pokutami",
+     "title": "Češí influenceři propagují nelegální hazard. Ministerstvo je varuje před milionovými pokutami",
+     "summary": "Ministerstvo financí varovalo influencery před propagací nelegálních hazardních her. Podle úřadu se v posledních letech zásadně změnil způsob, jakým se hazard propaguje. Tradiční reklamu nahrazují právě influenceři na sociálních sítích. Ti mají mít schopnost oslovit velké množství mladých lidí, včetně nezletilých.",
+     "source": "Lupa.cz",
+     "domain": "lupa.cz",
+     "published": "2026-09-22T05:00:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.mediaguru.cz/ugc-neni-levnejsim-influencer-marketingem-pomaha-vykonnostni-kreative",
+     "title": "UGC není levnějším influencer marketingem, pomáhá výkonnostní kreativě",
+     "summary": "Unilever a Triad Prague vyhodnotily pilotní program spolupráce s UGC tvůrci, který měl ověřit přínos komunitního přístupu k tvorbě obsahu pro sociální sítě. Výsledky podle firem ukázaly, že branded UGC může sloužit jako výkonnostní doplněk integrované marketingové komunikace a přispět k vyšší efektivitě kampaní.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-22T05:15:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/environmental-marketing-regulations-climate-week-nyc",
+     "title": "Environmental marketing regulations are contradictory. How do advertisers comply?",
+     "summary": "A Climate Week NYC event tackled the legal patchwork that regulates ads and marketing claims.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-23T15:41:47+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.mediar.cz/zablokovane-ucty-na-facebooku-ci-instagramu-cesko-se-ozvalo-proti-praktikam-mety",
+     "title": "Zablokované účty na Facebooku či Instagramu: Česko se ozvalo proti praktikám Mety",
+     "summary": "Podle telekomunikačního úřadu Meta porušuje evropské nařízení o digitálních službách.",
+     "source": "Médiář",
+     "domain": "mediar.cz",
+     "published": "2026-09-25T03:55:56+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkZNTkRGVjROaXRyMEEtbEwtM3lDUGlWdnJUeEs3T2dQRnRQQ2N1dUxVQW02bkNnQlgyZGFxTHB2UDIxMGFPRlBodXVMRnRFV01kM2FPM3Q4LWlia0J5SkpnZTFFZVQwVFkxMklfYVFPcmVQc05lNHlERHRKZlRIWmxfYWN3eGhkUHUxaTZHb2JTLTZSOUJfNVBzVXZxbWZ6R0pvaXFHOVNwZW9WdEZGbExUako?oc=5",
+     "title": "Our eighth transparency report on the EU Code of Conduct on Disinformation",
+     "summary": "Our eighth transparency report on the EU Code of Conduct on Disinformation &nbsp;&nbsp; Newsroom | TikTok",
+     "source": "TikTok Newsroom",
+     "domain": "newsroom.tiktok.com",
+     "published": "2026-09-24T13:10:46+00:00",
+     "score": 59
+    },
+    {
+     "url": "https://www.mediaguru.cz/deti-ovlivnuji-rodinne-nakupy-diky-socialnim-sitim-ukazuje-pruzkum",
+     "title": "Děti ovlivňují rodinné nákupy díky sociálním sítím, ukazuje průzkum",
+     "summary": "Sociální sítě ovlivňují nákupní rozhodování rodin. Podle průzkumu MNForce si 70,8 % rodičů všimlo, že jejich dítě chtělo produkt nebo značku poté, co je vidělo na sociálních sítích. Přestože 65 % rodičů dětskou reklamu vnímá negativně, 88 % z nich podobnému přání alespoň jednou vyhovělo.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-09-27T07:45:00+00:00",
+     "score": 64
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 75,
+   "title": "Ministerstvo financí varuje influencery před pokutami za propagaci nelegálního hazardu",
+   "updated": "2026-09-27T23:15:29.895629+00:00",
+   "what": "Ministerstvo financí ČR vydalo varování influencerům, kteří propagují nelegální hazardní hry na sociálních sítích. Podle úřadu se v posledních letech způsob propagace hazardu zásadně změnil – tradiční reklamu nahrazují influenceři, kteří dokáží oslovit velké množství mladých lidí včetně nezletilých.",
+   "why": "Jde o přímou hrozbu pokut v řádu milionů korun pro influencery i firmy, které s nimi spolupracují. Pro marketingové manažery to znamená nutnost důkladně prověřovat, zda influenceři v kampaních dodržují české zákony o hazardu a nekomunikují produkty bez příslušných licencí.",
+   "takeaway": "Pokud plánujete influencer kampaně v ČR, ověřte si licenční status všech propagovaných produktů a služeb, zejména v oblasti hazardu a sázek. Zajistěte si od influencerů potvrzení o dodržování regulace a zvažte konzultaci s právníky před spuštěním kampaní v rizikových kategoriích.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/146159cea6.jpg",
+   "image_from": "lupa.cz"
+  },
+  {
+   "id": "c4b54a5f81",
+   "created": "2026-09-22T11:31:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-business-profiles-permanently-closed-42121.html",
+     "title": "Google Business Profiles Permanently Closed Option Gone?",
+     "summary": "In Google Business Profiles, businesses can go in and mark their business as \"Permanently closed.\" But it seems that option went missing a few days ago. I no longer see it as an option, along with the option to select \"temporarily closed\" and some others.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-22T11:31:00+00:00",
+     "score": 51
+    },
+    {
+     "url": "https://www.seroundtable.com/google-business-profiles-4-days-42139.html",
+     "title": "Google Business Profiles Gives You Four Days To Reject User Edits",
+     "summary": "Google updated its help document to clarify that you have four days to reject a user suggested edit to your Google Business Profile. If you do not reject the edit within four days, Google may apply that edit to your Google local listing.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-23T11:21:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/inter-milan-social-strategy",
+     "title": "Inter Milan grew followers, impressions, and views—while posting less",
+     "summary": "The Serie A club decreased its posting by about a third in the past year but nonetheless surpassed 100 million followers, its brand and marketing director told us.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-23T09:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326",
+     "title": "Instagram chief shares algorithm insights and posting tips",
+     "summary": "In a new series of videos, chief Adam Mosseri addresses concerns about algorithmic influence and suggests how creators can improve their results.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-24T20:05:28+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/linkedin-expands-verifications/831212",
+     "title": "LinkedIn expands verifications",
+     "summary": "The company is prompting users&rsquo; colleagues to confirm their work history and allowing companies to remove people who falsely claim to be employed.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-23T21:41:47+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://www.seroundtable.com/unverified-contact-information-google-posts-42159.html",
+     "title": "Google Posts Cracks Down On Unverified Contact Information",
+     "summary": "Google updated two of its Google Posts help documents to allow phone numbers in Google Posts only if they are verified contact information, but if it is unverified, it is not allowed.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-25T11:11:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTR0alRTLUlITWVfc0ZESDhOa25JOTctb0FQZk5wMzZRTU1vMTJqLVppYjE2VlhfR3FVdXRSZm5qT3otTnRpMjhOb2JMMGxEM1l4RE56X2ZVYjNqWE45X0QtdnRaWFdDdVl1SVhHYXNxYy1ydEpKR013aGtxNG95anFaZ0k1cDZBQk1HUzVldFlzN01zSktIY2FYY1Bwd0NUaFl0XzQtRnVTZFlhR283ckpCWnZZLTFPYjdyaHV5STNRd3F4?oc=5",
+     "title": "Google nově ukazuje, jak zákazníci hledají produkty a služby pomocí obrázků",
+     "summary": "Google nově ukazuje, jak zákazníci hledají produkty a služby pomocí obrázků &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-09-24T16:42:43+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-google-spam-update-image-search-data/590882",
+     "title": "Google Spam Update, Image Search Data In GSC – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "Google's September spam update may take up to two weeks, Search Console adds image-based search data, reports look at traffic from Search and AI Mode. The post Google Spam Update, Image Search Data In GSC – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-26T12:00:46+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Kc0FVem94U24xUngySGk0bWltT2ppanFkbEZBci1jZmc4ZGJqTEpudXB6UmI5MllZVF9hcDVBS194blotX2NZWGkwTGpZcW5LNWc?oc=5",
+     "title": "SEO Restart 2026: GEO je pořád SEO",
+     "summary": "SEO Restart 2026: GEO je pořád SEO &nbsp;&nbsp; JIRKONT.cz",
+     "source": "Jirkont",
+     "domain": "jirkont.cz",
+     "published": "2026-09-25T06:58:26+00:00",
+     "score": 65
+    }
+   ],
+   "category": "seo",
+   "importance": 68,
+   "title": "Google Search Console nově zobrazuje data z vyhledávání přes obrázky",
+   "updated": "2026-09-27T23:15:21.018482+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Google Search Console přidal nová data ukazující, jak uživatelé hledají produkty a služby pomocí vyhledávání obrázků (Image Search). Tato data jsou nově dostupná v reportech vedle standardních dat z textového vyhledávání.",
+   "why": "Pro firmy s produkty nebo službami, které lidé vyhledávají vizuálně (e-shopy, služby, nemovitosti), jde o nový zdroj informací o chování zákazníků. Umožňuje identifikovat, které produkty/služby mají potenciál v obrázkové vyhledávání a optimalizovat pro tento kanál.",
+   "takeaway": "Zkontrolujte v Google Search Console nová data z Image Search a porovnejte je s klasickým vyhledáváním. Pokud zjistíte relevantní objem dotazů přes obrázky, investujte do kvality produktových fotek, alt textů a strukturovaných dat pro lepší viditelnost v tomto kanálu.",
+   "image": "img/c4b54a5f81.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "2adbf9c1ef",
+   "created": "2026-09-27T22:34:24+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445",
+     "title": "YouTube previews AI-powered Conversational Editing",
+     "summary": "Conversational Editing will make it easier for creators to build and refine their projects using plain language guidance.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-27T22:34:24+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 55,
+   "title": "YouTube testuje AI asistenta pro editaci videí přes chat",
+   "updated": "2026-09-27T23:14:45.427040+00:00",
+   "what": "YouTube představil funkci Conversational Editing – AI nástroj, který umožní tvůrcům upravovat videa pomocí textových příkazů v přirozeném jazyce. Zatím jde o preview verzi.",
+   "why": "Pro firmy tvořící video obsah na YouTube to může výrazně zjednodušit a zrychlit přípravu videí, potenciálně snížit náklady na editaci a zpřístupnit tvorbu video obsahu i méně zkušeným členům týmu.",
+   "takeaway": "Sledujte dostupnost této funkce – pokud se rozšíří do ČR, může zefektivnit vaši video produkci pro YouTube. Zatím jde o experimentální nástroj, reálný dopad ukáže až širší nasazení.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "829979cd1b",
+   "created": "2026-09-27T22:30:04+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-grok-bot-rewards-program-to-showcase-ai-utility/831444",
+     "title": "X launches Grok Bot rewards program to showcase AI utility",
+     "summary": "The new trend in AI development is enabling users to deploy AI-powered bots that can be tasked with online roles on their behalf.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-27T22:30:04+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ai",
+   "importance": 35,
+   "title": "X spustil program odměn pro Grok Boty – AI agenti za vás online",
+   "updated": "2026-09-27T23:14:45.427040+00:00",
+   "what": "Platforma X (dříve Twitter) představila program odměn pro Grok Boty. Jde o AI agenty, které mohou uživatelé nasadit k zastupování online rolí jejich jménem. Program má demonstrovat praktické využití AI.",
+   "why": "Reflektuje nový trend v AI vývoji – nasazení autonomních botů, kteří jednají za uživatele. Pro marketéry může jít o nový typ interakce na sociálních sítích, zatím ale bez potvrzeného dopadu na českou praxi.",
+   "takeaway": "Sledujte vývoj Grok Botů na X – pokud se funkce rozšíří globálně, může ovlivnit způsob komunikace značek a automatizace engagement. Prozatím jde o pilotní program bez jasného využití pro běžnou marketingovou praxi v ČR.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
+  {
+   "id": "b2d3f1a0ae",
+   "created": "2026-09-27T22:21:25+00:00",
+   "articles": [
+    {
+     "url": "https://www.socialmediatoday.com/news/tiktok-agrees-to-teen-usage-restrictions-in-alabama/831442",
+     "title": "TikTok agrees to teen usage restrictions in Alabama",
+     "summary": "The measures are very similar to the provisions that Meta agreed to implement as part of its recent settlement deal in California.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-27T22:21:25+00:00",
+     "score": 47
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 45,
+   "title": "TikTok zavádí omezení pro teenagery v Alabamě po vzoru Meta",
+   "updated": "2026-09-27T23:14:45.427040+00:00",
+   "what": "TikTok uzavřel dohodu s americkým státem Alabama o zavedení omezení pro teenagery. Opatření jsou velmi podobná těm, ke kterým se Meta zavázala v nedávné dohodě v Kalifornii.",
+   "why": "Jde o pokračující trend regulace sociálních sítí v USA zaměřený na ochranu mladistvých uživatelů. Ukazuje směr, kterým se může ubírat regulace i v EU a který může ovlivnit dostupnost funkcí a cílení reklamy.",
+   "takeaway": "Sledujte vývoj regulací ochrany mladistvých na sociálních sítích – podobná omezení mohou dorazit do EU a ovlivnit vaše možnosti cílení kampaní na mladší publikum na TikToku a dalších platformách.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
   {
    "id": "f2094c4077",
    "created": "2026-08-14T09:18:56.681311+00:00",
@@ -8358,95 +8754,6 @@
    "image_from": "blog.seznam.cz"
   },
   {
-   "id": "c4b54a5f81",
-   "created": "2026-09-22T11:31:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-business-profiles-permanently-closed-42121.html",
-     "title": "Google Business Profiles Permanently Closed Option Gone?",
-     "summary": "In Google Business Profiles, businesses can go in and mark their business as \"Permanently closed.\" But it seems that option went missing a few days ago. I no longer see it as an option, along with the option to select \"temporarily closed\" and some others.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-22T11:31:00+00:00",
-     "score": 51
-    },
-    {
-     "url": "https://www.seroundtable.com/google-business-profiles-4-days-42139.html",
-     "title": "Google Business Profiles Gives You Four Days To Reject User Edits",
-     "summary": "Google updated its help document to clarify that you have four days to reject a user suggested edit to your Google Business Profile. If you do not reject the edit within four days, Google may apply that edit to your Google local listing.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-23T11:21:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/inter-milan-social-strategy",
-     "title": "Inter Milan grew followers, impressions, and views—while posting less",
-     "summary": "The Serie A club decreased its posting by about a third in the past year but nonetheless surpassed 100 million followers, its brand and marketing director told us.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-23T09:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326",
-     "title": "Instagram chief shares algorithm insights and posting tips",
-     "summary": "In a new series of videos, chief Adam Mosseri addresses concerns about algorithmic influence and suggests how creators can improve their results.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-24T20:05:28+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/linkedin-expands-verifications/831212",
-     "title": "LinkedIn expands verifications",
-     "summary": "The company is prompting users&rsquo; colleagues to confirm their work history and allowing companies to remove people who falsely claim to be employed.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-23T21:41:47+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://www.seroundtable.com/unverified-contact-information-google-posts-42159.html",
-     "title": "Google Posts Cracks Down On Unverified Contact Information",
-     "summary": "Google updated two of its Google Posts help documents to allow phone numbers in Google Posts only if they are verified contact information, but if it is unverified, it is not allowed.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-25T11:11:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTR0alRTLUlITWVfc0ZESDhOa25JOTctb0FQZk5wMzZRTU1vMTJqLVppYjE2VlhfR3FVdXRSZm5qT3otTnRpMjhOb2JMMGxEM1l4RE56X2ZVYjNqWE45X0QtdnRaWFdDdVl1SVhHYXNxYy1ydEpKR013aGtxNG95anFaZ0k1cDZBQk1HUzVldFlzN01zSktIY2FYY1Bwd0NUaFl0XzQtRnVTZFlhR283ckpCWnZZLTFPYjdyaHV5STNRd3F4?oc=5",
-     "title": "Google nově ukazuje, jak zákazníci hledají produkty a služby pomocí obrázků",
-     "summary": "Google nově ukazuje, jak zákazníci hledají produkty a služby pomocí obrázků &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-24T16:42:43+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-google-spam-update-image-search-data/590882",
-     "title": "Google Spam Update, Image Search Data In GSC – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "Google's September spam update may take up to two weeks, Search Console adds image-based search data, reports look at traffic from Search and AI Mode. The post Google Spam Update, Image Search Data In GSC – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-26T12:00:46+00:00",
-     "score": 77
-    }
-   ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Google Search Console nově zobrazuje data z vyhledávání pomocí obrázků",
-   "updated": "2026-09-27T10:07:26.733472+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Google Search Console přidal nová data o tom, jak uživatelé hledají produkty a služby pomocí obrázků (image search). Tato data jsou nyní dostupná v reportech o výkonu webu.",
-   "why": "Marketingoví manažeři mohou poprvé vidět, kolik návštěvnosti přichází přes vizuální vyhledávání Google, což pomůže lépe vyhodnotit efektivitu optimalizace obrázků na webu a odhalit nové příležitosti v SEO.",
-   "takeaway": "Zkontrolujte si nová data v Google Search Console – u produktových e-shopů může vizuální vyhledávání přinášet významný podíl návštěvnosti. Vyhodnoťte, zda máte obrázky správně optimalizované (alt texty, strukturovaná data, kvalita).",
-   "image": "img/c4b54a5f81.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "fac219d6b1",
    "created": "2026-09-15T05:00:00+00:00",
    "articles": [
@@ -10179,30 +10486,6 @@
    "multi_source": true
   },
   {
-   "id": "f42ef8b9ba",
-   "created": "2026-09-27T07:45:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/deti-ovlivnuji-rodinne-nakupy-diky-socialnim-sitim-ukazuje-pruzkum",
-     "title": "Děti ovlivňují rodinné nákupy díky sociálním sítím, ukazuje průzkum",
-     "summary": "Sociální sítě ovlivňují nákupní rozhodování rodin. Podle průzkumu MNForce si 70,8 % rodičů všimlo, že jejich dítě chtělo produkt nebo značku poté, co je vidělo na sociálních sítích. Přestože 65 % rodičů dětskou reklamu vnímá negativně, 88 % z nich podobnému přání alespoň jednou vyhovělo.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-27T07:45:00+00:00",
-     "score": 64
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 52,
-   "title": "Děti tlačí rodiče k nákupům skrz sociální sítě, 88 % rodičů aspoň jednou ustoupilo",
-   "updated": "2026-09-27T10:06:22.165708+00:00",
-   "what": "Průzkum MNForce ukazuje, že 70,8 % rodičů zaregistrovalo, že jejich dítě požadovalo produkt nebo značku po zhlédnutí na sociálních sítích. 88 % rodičů takovému přání alespoň jednou vyhovělo, přestože 65 % z nich vnímá dětskou reklamu negativně.",
-   "why": "Data potvrzují reálný vliv sociálních sítí na rodinné nákupní chování v Česku. Pro marketéry produktů cílených na děti nebo rodiny to znamená, že obsah na sociálních sítích má prokazatelnou konverzní sílu – i přes negativní vnímání reklamy rodiči.",
-   "takeaway": "Pokud cílíte na rodiny s dětmi, vyplatí se investovat do obsahu na sociálních sítích zaměřeného na dětské publikum. Zároveň je třeba dbát na etickou citlivost – negativní vnímání dětské reklamy rodičů může ovlivnit dlouhodobou důvěru ve značku.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "0b2ebb06b8",
    "created": "2026-09-22T12:00:42+00:00",
    "articles": [
@@ -10254,32 +10537,6 @@
    "what": "Analýzy LinkedIn a dalších zdrojů ukazují, že B2B nákupní týmy si vytváří seznam preferovaných dodavatelů měsíce před zahájením oficiálního výběrového řízení. Klasické AEO (Answer Engine Optimization) a běžné obsahové marketingové aktivity pak už na tuto předem vytvořenou shortlist nedokážou efektivně zapůsobit.",
    "why": "Pro B2B marketéry to znamená zásadní změnu strategie – musí budovat povědomí a důvěru dlouhodobě před tím, než potenciální zákazník vůbec začne aktivně hledat řešení. Pozdější SEO nebo PPC kampaně v okamžiku výběru dodavatele už mohou být neúčinné.",
    "takeaway": "Pokud prodáváte B2B, zaměřte rozpočet na dlouhodobé budování značky (brand awareness) a thought leadership minimálně 6–12 měsíců před typickým nákupním cyklem ve vašem oboru. Doplňte ho o autentické video od reálných expertů, které pomůže odlišit se od AI generovaného obsahu a zvýšit důvěryhodnost v AI vyhledávání."
-  },
-  {
-   "id": "406561da58",
-   "created": "2026-09-25T06:58:26+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Kc0FVem94U24xUngySGk0bWltT2ppanFkbEZBci1jZmc4ZGJqTEpudXB6UmI5MllZVF9hcDVBS194blotX2NZWGkwTGpZcW5LNWc?oc=5",
-     "title": "SEO Restart 2026: GEO je pořád SEO",
-     "summary": "SEO Restart 2026: GEO je pořád SEO &nbsp;&nbsp; JIRKONT.cz",
-     "source": "Jirkont",
-     "domain": "jirkont.cz",
-     "published": "2026-09-25T06:58:26+00:00",
-     "score": 65
-    }
-   ],
-   "category": "seo",
-   "importance": 20,
-   "title": "SEO Restart 2026: GEO je pořád SEO",
-   "updated": "2026-09-26T23:02:21.165055+00:00",
-   "importance_label": "kontext",
-   "multi_source": false,
-   "image": "img/406561da58.jpg",
-   "image_from": "jirkont.cz",
-   "what": "Článek s názvem 'SEO Restart 2026: GEO je pořád SEO' byl publikován na webu Jirkont.cz. Konkrétní obsah článku není z dodaných zdrojů znám, k dispozici je pouze titulek.",
-   "why": "Bez přístupu k samotnému textu nelze určit konkrétní relevanci pro cílovou skupinu. Titulek naznačuje možné téma vztahu mezi generative engine optimization (GEO) a tradičním SEO v kontextu roku 2026.",
-   "takeaway": "Pro posouzení relevance a konkrétních doporučení je nutné přečíst celý článek na Jirkont.cz. Bez znalosti obsahu není možné stanovit akční kroky."
   },
   {
    "id": "f308ad896d",
@@ -10662,154 +10919,6 @@
    "multi_source": false
   },
   {
-   "id": "146159cea6",
-   "created": "2026-09-22T05:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/cesi-influenceri-propaguji-nelegalni-hazard-ministerstvo-je-varuje-pred-milionovymi-pokutami",
-     "title": "Češí influenceři propagují nelegální hazard. Ministerstvo je varuje před milionovými pokutami",
-     "summary": "Ministerstvo financí varovalo influencery před propagací nelegálních hazardních her. Podle úřadu se v posledních letech zásadně změnil způsob, jakým se hazard propaguje. Tradiční reklamu nahrazují právě influenceři na sociálních sítích. Ti mají mít schopnost oslovit velké množství mladých lidí, včetně nezletilých.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-22T05:00:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.mediaguru.cz/ugc-neni-levnejsim-influencer-marketingem-pomaha-vykonnostni-kreative",
-     "title": "UGC není levnějším influencer marketingem, pomáhá výkonnostní kreativě",
-     "summary": "Unilever a Triad Prague vyhodnotily pilotní program spolupráce s UGC tvůrci, který měl ověřit přínos komunitního přístupu k tvorbě obsahu pro sociální sítě. Výsledky podle firem ukázaly, že branded UGC může sloužit jako výkonnostní doplněk integrované marketingové komunikace a přispět k vyšší efektivitě kampaní.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-22T05:15:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/environmental-marketing-regulations-climate-week-nyc",
-     "title": "Environmental marketing regulations are contradictory. How do advertisers comply?",
-     "summary": "A Climate Week NYC event tackled the legal patchwork that regulates ads and marketing claims.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-23T15:41:47+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.mediar.cz/zablokovane-ucty-na-facebooku-ci-instagramu-cesko-se-ozvalo-proti-praktikam-mety",
-     "title": "Zablokované účty na Facebooku či Instagramu: Česko se ozvalo proti praktikám Mety",
-     "summary": "Podle telekomunikačního úřadu Meta porušuje evropské nařízení o digitálních službách.",
-     "source": "Médiář",
-     "domain": "mediar.cz",
-     "published": "2026-09-25T03:55:56+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkZNTkRGVjROaXRyMEEtbEwtM3lDUGlWdnJUeEs3T2dQRnRQQ2N1dUxVQW02bkNnQlgyZGFxTHB2UDIxMGFPRlBodXVMRnRFV01kM2FPM3Q4LWlia0J5SkpnZTFFZVQwVFkxMklfYVFPcmVQc05lNHlERHRKZlRIWmxfYWN3eGhkUHUxaTZHb2JTLTZSOUJfNVBzVXZxbWZ6R0pvaXFHOVNwZW9WdEZGbExUako?oc=5",
-     "title": "Our eighth transparency report on the EU Code of Conduct on Disinformation",
-     "summary": "Our eighth transparency report on the EU Code of Conduct on Disinformation &nbsp;&nbsp; Newsroom | TikTok",
-     "source": "TikTok Newsroom",
-     "domain": "newsroom.tiktok.com",
-     "published": "2026-09-24T13:10:46+00:00",
-     "score": 59
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 68,
-   "title": "Ministerstvo financí varuje influencery: hrozí pokuty za propagaci nelegálního hazardu",
-   "updated": "2026-09-26T14:37:33.777759+00:00",
-   "what": "Ministerstvo financí ČR vydalo varování pro influencery, kteří na sociálních sítích propagují nelegální hazardní hry. Úřad upozorňuje, že tradiční reklamu na hazard nahrazují právě influenceři, kteří dokáží oslovit velké množství mladých lidí včetně nezletilých. Za porušení zákona hrozí milionové pokuty.",
-   "why": "Pro firmy spolupracující s influencery vzniká riziko nepřímé odpovědnosti. Pokud brand spolupracuje s tvůrcem obsahu, který propaguje nelegální hazard, může to poškodit reputaci značky a v některých případech vést i k právním komplikacím. Jde o signál zpřísnění dohledu nad obsahem na sociálních sítích v ČR.",
-   "takeaway": "Pokud spolupracujete s influencery, ověřte si jejich portfolio a obsah – zejména zda nepropagují nelegální služby. Zahrňte do smluv s tvůrci obsahu závazek dodržování českých zákonů včetně hazardní legislativy. U influencer kampaní na rizikovější produkty zvažte právní konzultaci.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/146159cea6.jpg",
-   "image_from": "lupa.cz"
-  },
-  {
-   "id": "b034d86ae4",
-   "created": "2026-09-22T15:00:58+00:00",
-   "articles": [
-    {
-     "url": "https://www.marketingbrew.com/stories/global-consumers-ai-use-shopping-habits-vml",
-     "title": "Global consumers are using AI, but it hasn’t yet translated to shopping: report",
-     "summary": "While shoppers are using AI tools, AI engines make up less than 3% of the purchase stage, VML found.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-22T15:00:58+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.lupa.cz/aktuality/umelou-inteligenci-ma-jako-radce-polovina-nakupujicich-spocitala-asociace-pro-elektronickou-komerci",
-     "title": "Umělou inteligenci má jako rádce polovina nakupujících, spočítala Asociace pro elektronickou komerci",
-     "summary": "Celkem 50 % Čechů, kteří nakupují on-line, využilo už nějakým způsobem pro výběr zboží nebo e-shopu umělou inteligenci. Nejčastěji ve formě rádce. Ukazují to data leto&#353;ního výzkumu E-commerce Study Asociace pro elektronickou komerci (APEK).",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-25T13:23:24+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGsyQlpGM1k1WS1hWGFaSUlkTk9fZ1hqUWtrMWM5em5Bb0hHcEIxbjRCT0o2cS1aUV9fXzZfcGFjTHQzUWtjaWgxd25lRGFGM2x3MWNISHh5TjhQcnN2UHFSWnd2bkp6MVlpU2NQNUdRa2d1SklRLVRjNHRmRjd3NlpR?oc=5",
-     "title": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů - Asociace pro elektronickou komerci – APEK",
-     "summary": "Průzkum APEK uvádí trendy na pravou míru: jak Češi ve skutečnosti při online nákupech (ne)reagují na AI, influencery a dodání do boxů &nbsp;&nbsp; Asociace pro elektronickou komerci – APEK",
-     "source": "APEK",
-     "domain": "apek.cz",
-     "published": "2026-09-24T17:09:25+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-company-lists-job-seniority-exit-beta",
-     "title": "Microsoft Company Lists and Job Seniority Exit Beta",
-     "summary": "Microsoft's LinkedIn-profile targeting features have completed their rollout. The beta note indicating that not everyone had access to these features has been removed. This update enables B2B advertisers to utilize the Audience planner for sizing a company-list or seniority audience before launching campaigns. The Audience planner help page now includes two new targeting dimensions: \"Company List: Companies from bulk-uploaded lists\" and \"Job seniority: Seniority levels according to their LinkedIn profiles.\" The limit remains at up to 10,000 companies per list, with ad groups able to target a m",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-26T07:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-excluded-content-terms-available",
-     "title": "Microsoft Excluded Content Terms Now Available to Everyone",
-     "summary": "Microsoft has removed the limited release restriction for Excluded content terms within its Microsoft Advertising platform. Advertisers can now block ads from appearing alongside unwanted page titles by specifying up to 1,000 terms at account or campaign level. Campaign-level terms apply across all campaigns in the account. Previously, the Excluded content terms feature was not widely available. A banner on the Brand safety help page indicated its limited availability, which has now been removed, confirming wider access. Read the official help page here: About content suitability . This update",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-26T05:00:00+00:00",
-     "score": 64
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 68,
-   "title": "Polovina Čechů zkouší AI při nákupech, ale nákupy přes AI zatím téměř nefungují",
-   "updated": "2026-09-26T14:36:51.965398+00:00",
-   "what": "Výzkum APEK ukazuje, že 50 % českých online nakupujících už vyzkoušelo AI při výběru zboží nebo e-shopu, nejčastěji jako rádce. Globálně však studie VML potvrzuje, že AI nástroje (ChatGPT, Gemini apod.) tvoří méně než 3 % nákupní fáze – lidé AI používají na inspiraci a rady, ale nenakupují přes ni.",
-   "why": "Ukazuje se propast mezi experimentováním s AI a skutečným nákupním chováním. Pro e-shopy to znamená, že AI chatboti a asistenti jsou zatím spíš doplňkem, ne prodejním kanálem. Zároveň polovina zákazníků AI už vyzkoušela, takže ignorovat ji nelze.",
-   "takeaway": "Nespoléhejte na AI jako na nový prodejní kanál, ale investujte do AI nástrojů jako rádců (doporučovače produktů, chatboti na webu). Sledujte, jak zákazníci AI používají před nákupem, a optimalizujte obsah tak, aby byl AI nástroji dobře zpracovatelný (strukturovaná data, jasné popisy).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/1f468b7a4a.jpg",
-   "image_from": "apek.cz"
-  },
-  {
-   "id": "ea5bf307c4",
-   "created": "2026-09-24T19:50:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/dve-tretiny-cechu-uprednostnuji-u-doplnku-stravy-kvalitu-pred-cenou",
-     "title": "Dvě třetiny Čechů upřednostňují u doplňků stravy kvalitu před cenou",
-     "summary": "Doplňky stravy užívá podle průzkumu Ipsosu pro Pilulku 84 % Čechů ve věku 18 až 55 let. Dvě třetiny uživatelů a nakupujících považují při výběru za důležitější kvalitu než cenu. Za její hlavní znaky označují především množství účinné látky, čistotu složení a vstřebatelnost.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-24T19:50:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 48,
-   "title": "84 % Čechů užívá doplňky stravy, kvalita vítězí nad cenou",
-   "updated": "2026-09-24T20:07:07.476054+00:00",
-   "what": "Podle průzkumu Ipsosu pro Pilulku užívá doplňky stravy 84 % Čechů ve věku 18–55 let. Dvě třetiny z nich při výběru upřednostňují kvalitu před cenou – za její hlavní znaky považují množství účinné látky, čistotu složení a vstřebatelnost.",
-   "why": "Ukazuje to preference spotřebitelů v kategorii, kde se silně uplatňuje obsahový marketing a důvěra. Pro brand management a komunikaci je klíčové zdůrazňovat kvalitativní parametry, nikoli jen cenu.",
-   "takeaway": "Pokud propagujete doplňky stravy (nebo jiné produkty pro zdraví), zaměřte komunikaci na složení, čistotu a účinnost – cena je až sekundární. V PPC a contentu zdůrazňujte transparentnost a důkazy kvality.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "7a3845b7be",
    "created": "2026-09-21T11:00:00+00:00",
    "articles": [
@@ -10843,58 +10952,6 @@
    "multi_source": true,
    "image": "img/7a3845b7be.jpg",
    "image_from": "searchengineland.com"
-  },
-  {
-   "id": "60fbcf7565",
-   "created": "2026-09-24T11:40:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/omnivision-jak-pozorni-jsou-cesti-divaci-pri-sledovani-televizni-a-online-reklamy",
-     "title": "OmniVision: Jak pozorní jsou čeští diváci při sledování televizní reklamy?",
-     "summary": "Omnicom Media představila na středeční konferenci OmniVision první výsledky měření skutečné pozornosti věnované televizní reklamě. Data z 300 českých domácností ukazují rozdíly v pozornosti podle prostředí, cílových skupin i délky spotu a mají být základem pro další rozvoj plánování total videa napříč televizí, CTV a online videem.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-24T11:40:00+00:00",
-     "score": 52
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 68,
-   "title": "Omnicom změřil skutečnou pozornost k TV reklamě v 300 českých domácnostech",
-   "updated": "2026-09-24T15:17:13.449147+00:00",
-   "what": "Omnicom Media Group představila první výsledky studie OmniVision měřící reálnou pozornost diváků při sledování televizní reklamy v Česku. Data z 300 domácností odhalují rozdíly v pozornosti podle kontextu sledování, cílových skupin a délky reklamního spotu.",
-   "why": "Jde o první lokální data o skutečné pozornosti (attention metrics) namísto pouhého zásahu či dosahu. Pro marketingové manažery to znamená možnost lépe plánovat a nakupovat TV a video reklamu na základě toho, jak moc ji lidé skutečně sledují.",
-   "takeaway": "Pokud plánujete TV kampaně nebo CTV a online video, sledujte další výstupy této studie – může to změnit způsob, jak vyhodnocujete efektivitu a plánujete rozpočet mezi klasickou TV a digitálem. Zvažte konzultaci s médií agenturou ohledně attention-based plánování.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/60fbcf7565.jpg",
-   "image_from": "mediaguru.cz"
-  },
-  {
-   "id": "155fb1fa1c",
-   "created": "2026-09-24T05:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/e-shopy-ceka-silna-vanocni-sezona-naklady-na-reklamu-ale-rostou",
-     "title": "E-shopy čeká silná vánoční sezona, náklady na reklamu ale rostou",
-     "summary": "Česká e-commerce může podle Upgates letos v předvánoční sezoně zvýšit tržby o pět až deset procent. Zároveň rostou průměrné hodnoty objednávek i náklady na získání zákazníků, což zvyšuje tlak na marže. Obchodníci proto vedle slev více využijí věrnostní programy, balíčky nebo vlastní zákaznické databáze.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-24T05:30:00+00:00",
-     "score": 70
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 65,
-   "title": "E-shopy čekají růst tržeb o 5–10 %, ale dražší reklama tlačí na marže",
-   "updated": "2026-09-24T09:25:48.493317+00:00",
-   "what": "Česká e-commerce může podle Upgates v předvánoční sezoně 2024 zvýšit tržby o 5–10 %. Zároveň rostou průměrné hodnoty objednávek i náklady na získání zákazníků (CAC), což snižuje marže.",
-   "why": "Růst nákladů na reklamu nutí e-shopy hledat efektivnější cesty k zákazníkům. Klasické slevové kampaně přestávají stačit – obchodníci musí více investovat do věrnostních programů, produktových balíčků a práce s vlastní zákaznickou databází.",
-   "takeaway": "Zkontrolujte si aktuální CAC a připravte si alternativy ke slevám – věrnostní nabídky, balíčky nebo remarketing na vlastní databázi. Růst AOV je šance kompenzovat vyšší náklady, pokud udržíte konverze.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/155fb1fa1c.jpg",
-   "image_from": "mediaguru.cz"
   },
   {
    "id": "424ce4ea5a",
@@ -11013,30 +11070,6 @@
    "multi_source": true
   },
   {
-   "id": "deedc664a8",
-   "created": "2026-09-23T05:20:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/podcastova-reklama-nefunguje-jako-radio-jak-k-ni-pristupovat",
-     "title": "Podcastová reklama nefunguje jako rádio. Jak k ní přistupovat?",
-     "summary": "Úspěch podcastové reklamy závisí nejen na správném výběru pořadu, ale i na odlišném přístupu ke kreativitě, plánování a práci s publikem, zaznělo na odborném setkání pořádaném Czech News Center.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-23T05:20:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 45,
-   "title": "Podcastová reklama vyžaduje jiný přístup než rádiové spoty",
-   "updated": "2026-09-23T09:27:13.197336+00:00",
-   "what": "Na odborném setkání pořádaném Czech News Center zaznělo, že podcastová reklama vyžaduje specifický přístup odlišný od klasické rádiové reklamy – jiný způsob výběru pořadů, tvorby kreativy, plánování kampaní a práce s publikem.",
-   "why": "Pro marketingové manažery, kteří zvažují nebo už investují do audio reklamy, je klíčové pochopit, že podcasty nelze řídit stejnými pravidly jako rádio. Nesprávný přístup může vést k plýtvání rozpočtem a neefektivním kampaním.",
-   "takeaway": "Pokud plánujete investici do podcastové reklamy, nepřenášejte automaticky know-how z rádiových kampaní. Zaměřte se na specifika podcastového publika, vhodnost kontextu pořadu a adaptujte kreativní zpracování spotů pro tento formát.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
    "id": "5a0c1952cc",
    "created": "2026-09-22T14:46:00+00:00",
    "articles": [
@@ -11058,30 +11091,6 @@
    "why": "Pro marketingové manažery může jít o dočasnou příležitost získat levnější prostor pro display kampaně těsně před nebo během vánočního shoppingu. Časování nákupu mediálního prostoru může ovlivnit efektivitu rozpočtu.",
    "takeaway": "Pokud plánujete display kampaně na Vánoce, sledujte aktuální CPC/CPM metriky a zvažte načasování spuštění kampaní tak, abyste využili případný pokles cen před hlavním náporem soutěže. Pozor ale: zdroj neuvádí konkrétní čísla, geografie ani platforma, takže platnost pro český trh není potvrzená.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "00890e4d98",
-   "created": "2026-09-22T13:33:58+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/ministerstvo-spravedlnosti-omylem-zpristupnilo-rodna-cisla-v-ramci-testovaci-verzi-obchodniho-rejstriku",
-     "title": "Ministerstvo spravedlnosti omylem zpřístupnilo rodná čísla v rámci testovací verze obchodního rejstříku",
-     "summary": "Ministerstvo spravedlnosti odstavilo testovací verzi nového obchodního rejstříku poté, co se ukázalo, že přes ni mohla unikat rodná čísla lidí zapsaných u českých firem a organizací. Potenciálně mohlo jít o údaje až dvou milionů lidí &#8211; tolik unikátních osob je v otevřených datech rejstříku zapsáno u jednotlivých společností a spolků jako jednatelé, členové představenstev nebo předsedové, uvádí server iRozhlas.cz.",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-22T13:33:58+00:00",
-     "score": 55
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 35,
-   "title": "Ministerstvo spravedlnosti omylem zveřejnilo rodná čísla z obchodního rejstříku",
-   "updated": "2026-09-22T15:07:15.972860+00:00",
-   "what": "Ministerstvo spravedlnosti odstavilo testovací verzi nového obchodního rejstříku poté, co přes ni mohla unikat rodná čísla lidí zapsaných u firem – jednatelů, členů představenstev či předsedů. Potenciálně mohlo jít o údaje až dvou milionů osob.",
-   "why": "Únik rodných čísel představuje závažné porušení GDPR a bezpečnostní riziko pro dotčené osoby. Pro firmy to znamená reputační riziko a možné regulatorní důsledky, pokud byla jejich data součástí úniku.",
-   "takeaway": "Incident připomíná nutnost bezpečného nakládání s osobními údaji i při vývoji a testování systémů. Firmy by měly zkontrolovat, zda jejich statutární zástupci mohli být dotčeni, a sledovat případná doporučení ministerstva nebo ÚOOÚ.",
-   "importance_label": "kontext",
    "multi_source": false
   },
   {
@@ -11107,32 +11116,6 @@
    "takeaway": "Pro běžnou praxi marketingového manažera nemá stáž přímý dopad. Kdo řeší nábor juniorů se znalostí českých nástrojů, může sledovat program SSK jako zdroj talentů.",
    "importance_label": "kontext",
    "multi_source": false
-  },
-  {
-   "id": "f10297c108",
-   "created": "2026-09-22T05:10:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/rok-od-zavedeni-eaa-jak-jsou-na-tom-ceske-weby-s-pristupnosti",
-     "title": "Rok od zavedení EAA: Jak jsou na tom české weby s přístupností?",
-     "summary": "Rok po zavedení evropského aktu o přístupnosti EAA nesplňuje většina testovaných českých webů všechny klíčové požadavky. Průzkum společnosti A-WebSys na více než 125 webech ukázal průměrné skóre přístupnosti 88 %, přičemž nejhůře si vedly zpravodajské servery s průměrem 80 %.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-22T05:10:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 72,
-   "title": "Rok po EAA: české weby mají průměrnou přístupnost 88 %, zpravodajství jen 80 %",
-   "updated": "2026-09-22T09:24:35.073936+00:00",
-   "what": "Rok po zavedení evropského aktu o přístupnosti (EAA) ukázal průzkum společnosti A-WebSys na více než 125 českých webech, že většina nesplňuje všechny klíčové požadavky. Průměrné skóre přístupnosti dosáhlo 88 %, nejhůře si vedly zpravodajské servery s průměrem 80 %.",
-   "why": "EAA je právně závazná regulace. Nesplnění může znamenat sankce a hlavně ztrátu části publika – weby musí být přístupné lidem s hendikepem. Pro marketingového manažera jde o kombinaci compliance rizika a potenciálně nevyužité cílové skupiny.",
-   "takeaway": "Nech si auditovat přístupnost svého webu a e-shopu – pokud jsi pod 100 %, hrozí ti sankce i ztráta uživatelů. Prioritizuj nápravu hlavních bariér (kontrast, navigace klávesnicí, alternativní texty).",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/f10297c108.jpg",
-   "image_from": "mediaguru.cz"
   },
   {
    "id": "d522c5708f",
