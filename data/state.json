@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-02T22:25:09.684373+00:00",
+ "last_run": "2026-10-03T09:57:44.634242+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 4
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Lupa.cz",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Seznam blog",
@@ -89,19 +89,19 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 4
+   "new": 7
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f4989ee7230>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Social Media Today",
@@ -5248,9 +5248,653 @@
   "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WbkUwYlVqOXk4dnI0OFRZRVBZSnprVEVOX0dEQlFuaG9UTDExOTJnS01jR1BVcUpZeW1TcDhfNTV6eDZhanowVjFIblBjeGJSZjFjRGZuMEJtTkZ5Y1hj?oc=5": "2026-10-02T22:25:09.684373+00:00",
   "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tOE9md2pPQjRGRTU5VzBKTUdNdUR6QWNQWE5Ob0NvdHNjVHFMZG4zcl9lZzhZcmljaEY3VWxaWlFTNWtHdTRZVHl1dTlZVEdMS2U4eDR6MUhPeTgyUXdR?oc=5": "2026-10-02T22:25:09.684373+00:00",
   "https://cc.cz/cesi-nejvic-bazi-po-horciku-pilulka-na-tom-stavi-byznys-s-vlastni-znackou-doplnku-a-umelou-inteligenci": "2026-10-02T22:25:09.684373+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdyeHBWbzJqSlRhVnpPVGVFdVJMM09Xa1ladm9PdHFxblR0VmhlQ3RqNVJ2RHZuZkxKc0VnaWhGTkhkdFF5NGRaTG9tcV9MTTVqTkdXMF85U1pzbndWU2dOM3N2bzVUWG9qWVl5YWJtRksyX2ZiQ0d1VmNqeVdEVnphckRueTlsSnA4dVY3Zy1RQVRpVWxGM2hzNWxZX3VkeUp1UE1CWTFBRlNkRjFSMEstT1Q2bTlzWEk3NWlqM2s?oc=5": "2026-10-02T22:25:09.684373+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdyeHBWbzJqSlRhVnpPVGVFdVJMM09Xa1ladm9PdHFxblR0VmhlQ3RqNVJ2RHZuZkxKc0VnaWhGTkhkdFF5NGRaTG9tcV9MTTVqTkdXMF85U1pzbndWU2dOM3N2bzVUWG9qWVl5YWJtRksyX2ZiQ0d1VmNqeVdEVnphckRueTlsSnA4dVY3Zy1RQVRpVWxGM2hzNWxZX3VkeUp1UE1CWTFBRlNkRjFSMEstT1Q2bTlzWEk3NWlqM2s?oc=5": "2026-10-02T22:25:09.684373+00:00",
+  "https://cc.cz/kouzli-s-hlasem-maji-blizko-k-cesku-a-behem-ctyr-let-zvedli-cenu-firmy-2-400x-ted-stoji-473-miliard": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediaguru.cz/ctv-uz-tvori-vetsinu-premiove-videoreklamy-v-evrope-programatik-dal-roste": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediaguru.cz/patecni-vecer-pro-vsechnoparty-pote-cesky-film": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediaguru.cz/nomivans-meni-znacku-a-rozsiruje-digitalni-sluzby-pro-karavaning": "2026-10-03T09:57:44.634242+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/consumer-review-extensions-spotted-in-bing-ads": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wdjZ3Qmw1c3BqcGtoUkV2QUlfb3F0NmkycVI1X0hMNXROZmR2ODdZWGV4b1Z6eU80WGVTTVlYWmhuME1SQzlZcTBsNVVSNTlGcmJiLQ?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediar.cz/pretahovana-o-ceske-nahace-z-naked-attraction-na-slovensku-je-misto-joj-play-ukaze-voyo": "2026-10-03T09:57:44.634242+00:00",
+  "https://cc.cz/korporatni-svet-se-otrasa-zacnou-v-nemeckych-fabrikach-pracovat-40-hodin-misto-35-a-bude-to-stacit": "2026-10-03T09:57:44.634242+00:00",
+  "https://cc.cz/adam-matuska-chysta-svuj-vysneny-bar-vznika-v-lucerne-a-k-pivu-si-v-nem-pustite-vinyl-nebo-zazpivate": "2026-10-03T09:57:44.634242+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-two-dotted-menus-search-ads": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediar.cz/zive-hovory-z-lan-a-tobogan-s-dagmar-rozhlas-finisuje-oslavy-vyroci-vaclava-havla": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediar.cz/internet-objevil-mapu-chile-a-je-z-toho-podareny-trend": "2026-10-03T09:57:44.634242+00:00",
+  "https://www.mediar.cz/galerie-reklamy/certi-lejno-arabela-klepeta-v-nove-reklame-uni-hobby-mluvi-s-kutily-i-policie": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WZXVqX2s4OFNWT0lGVDhldjBQTkIteU9EV0xSNVkycWN5Y0hrcXBNVnhmWUp3bGV6dWV4WUkzMUpPemZJNWN6bWl4MWdFSmF0d0Y0bXpMb1V6djFx?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaSjNUVXhqUlJBdHdHM0RuQWJnb2phZHhPWFkxd2lGQWU5NFVPUlV1dzlNNlhxc290eUdKRUlBZnZHRHpXWUFMcGEyN2ktWEdKRmNEQVFnV2pvbHEzeGhSZmRDeFZ5Tk80ZkVvTENiWXRISzNi?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wRHdBU3MtUHQ1V1NvTTFWVEl2aWpOYVdPaVNYOEd6OGk1OVVZQnFPNEVxcFlsV09kNWtmLXhRbGJIWi1mSFBUZXZxVDVKT2F2M2gzdTlR?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS3YxcFFnbURySHlUUS1wWVBTUmxoM0QzVHlBOExiYVZSOEpSbmhwb2hCbWNkM1VPcTJMZmJiNTZtcW1teFhWQ2VRLTBoZDZHdTFOZnppdklyTXVqWHdYR29pRlYyUGR6ZVg1MnRQbjgxSVhzVGFTaHZWTHhSaWlmbjlNNkNYOVVEcmdPTjNKSnFLTm54SXR0Q1pGUnJHOGdaUm15RjQ3WHZIYXNPREZpOXVjNzZMc2tU?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEZBTE01LXBOQmZXTTl4Q2pLdG1HVFdTS1JfZmhyR1QwSXZtczB4TzF1YUdHMjhIeG0yUmFWTjlQdE9hdl9KazRSMENiT2tPRXJOejREU2p4WHFORzEzV3RPeFIwODZXMHVWUVA2cmtQMFB6OWZsc2xQajdSR29DQXhYbTREaVI3VHBLM3pIS0Z6b0hsaEkyVjVubHBkbkNLbTFYQ3lLNWVKYUE?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcWt1UHhiTDZQSjBHR1M4cmJ4U1R6NjlyVHM2aGc0RG9aZFpsWVlPQnFTeGFMTHpVV2RHSFZLR0ljNzNDdEtxWEJCb1JLeFdDSHQxRnh5TS1HWkN5Uk1WZzUxX0tQV01OOC00NF9SOTJmVzNnak1RVTRoZDlDZDV6eG9xd0ZYVFFDZ2RLVGo5YjdpWjUyT0E?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpyZ1ozbjBwQzZZcm1Pd3p2bklUSGVRNFFWVnN1bDlvMlprQmxDcmVVUUgwQTFyN1BqZ2plcHRMVThqS1FzalVSNFNMMlRFanIxaDJUZllwbTRCbFhGX3RlZElrV1gySlN4YWpkRDhDZm81bHRlRkF1bkpmQmFFV2h0VXV0ZURTNjNyWTRjWVB1X3IxMGx2MGdHRWZNaTlIZHVJQTlwbFhERy1aTi1XdVNIazJNTmM?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSkZTYUg5ZW13d04wS29FYVpxcTVtaDUtU1Y0ZEd1UjBucjkyMTRqQkpMVm9QSkowLVRIcThiMWNSWlg4bmZKSWZnSThOOVhvcjBtUmVQdG9MTWN4Zm5MSmJTdm5YbGprWVZEd0tGY3FkdzBMLUpiMWpiLWJtampJRXdHMXE0c3ZBSnNMV2JpbFBfOHhJQjU1N3dES2JWQ1ZzNElfUjllR1dfOExEZHprZ1h5OGU3dEdzN3h3MEQzdDZYWktCbVUw?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUm9xa2E2dVQ3VWRhS3czeTh3alM0R3ZPajNvUmZFcVNscUg3Zy1ObUVsek5ETk1ZaThMS3JQVEh2S1hSeDc4YzZ2MDY0QU5INk1FYlNkd0EtY0FqN3VsS2xKWUVsdDFBRTNkN19NczU4S0ZxdWhRUnhrNWtsUkJIdHd5TVFZbWlRUG1GVUZycHlzZVdBa1ZOWnFIdklFM2xVRGhiRk1EQjYyR2pTZmxNRHZn?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yYWpMN0NIcVBBSDFUMUFGT1NvZTZCMjQ3dXA4RlRXclBHNFJYQkpoWllFUndXbWJ6UWhrUGxLNjRGTWlQaGpzZjVvMUJVMFdEVF9JZg?oc=5": "2026-10-03T09:57:44.634242+00:00",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDBvV0lRWGU5WUZJQjIxMGFNaWdaYWtfanE0YzExamtsb1A0X201cWUzVFl0bTBOaEVBdVYzMzltT21BaDNDcnE3NkllclNiZmtna3pvalJxN0lRQ1FVZXJPRXp3TFgxeFVzM0dqYlpTMUhOQW1UU2tuRzhPR2RFY2NxQWZRX2NfUlBoNTB3MVViTDRiWU9HVHcwR1ZQcnp1UFptZjA2bUo5dy1r?oc=5": "2026-10-03T09:57:44.634242+00:00"
  },
  "events": [
+  {
+   "id": "af4525bfce",
+   "created": "2026-09-30T01:17:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-analytics-fix-42187.html",
+     "title": "Google Working To Restore Google Analytics",
+     "summary": "Google has confirmed there are issues with Google Analytics loading the platform. Google updated its status report to say that it has \"restored for some users\" and Google expects \"a resolution for all users in the near future.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T01:17:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-analytics-app-conversions-cross-channel-reports/591558",
+     "title": "Google Analytics Adds App Conversions To Cross-Channel Reports via @sejournal, @MattGSouthern",
+     "summary": "Google Analytics now supports app conversions in its performance and attribution reports. The post Google Analytics Adds App Conversions To Cross-Channel Reports appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-30T14:23:27+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMW45b1RzbEdxQnRqYjVqTndfUGJYNDFxeGN2WUN4VnBKeVUxdEViRWVBb0czN3BuaHJPWlJldnh1b2tvT25KTXVVSGQ1M0d0SE5hMXVXS053TVFyNFVYZGFDT3hmMzBpSFBRNFpsS3FFZkxsS2RFN3NlRXRiam1wRTNteHBtX0hSYVdnbktsUVpHMlpCa0cyUFJKWkVYcWNDWGtXYg?oc=5",
+     "title": "Google expands cross-channel conversion reporting to app campaigns",
+     "summary": "Google expands cross-channel conversion reporting to app campaigns &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-30T15:47:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.searchenginejournal.com/the-ai-search-metrics-i-use-to-track-client-pipelines/589123",
+     "title": "The AI Search Metrics I Use To Track Client Pipelines",
+     "summary": "See whether AI search reaches buyers and creates qualified opportunities with five measures covering brand presence, answer accuracy, and attribution. The post The AI Search Metrics I Use To Track Client Pipelines appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-30T12:00:13+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://martech.org/b2b-marketing-attribution-is-messy-can-it-be-fixed",
+     "title": "B2B marketing attribution is messy. Can it be fixed?",
+     "summary": "Tracking B2B revenue shouldn’t feel like chasing moving targets. Integrate's Mehul Nagrani breaks down attribution reality and future of B2B demand gen. The post B2B marketing attribution is messy. Can it be fixed? appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-30T12:13:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iaktDRDFBTDBUNF9GQl9CTGtlRDBxOUFzMmxYbndLRG9wdUQ3dTRqV250S3pOcHM0d0VBaHEtTklSblNsSkdaNl9XX3BGQnVIWFJyNDNoUExUaHpPOFdLV0N5OWYxdmM?oc=5",
+     "title": "The collapse of attribution",
+     "summary": "The collapse of attribution &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-30T15:00:00+00:00",
+     "score": 81
+    },
+    {
+     "url": "https://blog.seznam.cz/2026/10/vyuzijte-sem-naplno-s-detailnejsimi-prehledy",
+     "title": "Využijte SEM naplno s detailnějšími přehledy",
+     "summary": "Seznam Event Measurement (SEM) vám umožňuje měřit více konverzních událostí a získat tak přesnější přehled o výkonu kampaní. Nově můžete jednotlivé konverze a jejich metriky sledovat v rozhraní Skliku ještě detailněji. Snadno tak zjistíte, jak se daří konverzím, které jsou pro vás nejdůležitější. Nové metriky a doplněné grafy Ve volitelných sloupcích si nyní můžete zobrazit &#8230; Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-10-02T07:00:00+00:00",
+     "score": 76
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Sklik přidal detailnější metriky pro Seznam Event Measurement",
+   "updated": "2026-10-03T09:59:47.048377+00:00",
+   "what": "Sklik rozšířil reportování pro Seznam Event Measurement (SEM). Uživatelé mohou nově sledovat jednotlivé konverze a jejich metriky detailněji přímo v rozhraní Skliku – k dispozici jsou nové volitelné sloupce a doplněné grafy pro konkrétní konverzní události.",
+   "why": "Jde o vylepšení měření, které umožňuje přesnější vyhodnocení výkonu kampaní na Skliku. Marketéři mohou lépe identifikovat, které konverze skutečně fungují, a optimalizovat rozpočet podle prioritních cílů.",
+   "takeaway": "Pokud používáte SEM v kampaních na Skliku, přidejte si nové sloupce do reportů a zkontrolujte, zda sledujete ty konverze, které jsou pro váš byznys nejdůležitější. Pomůže vám to lépe řídit výkon kampaní.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/af4525bfce.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "ecad0eab72",
+   "created": "2026-10-01T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-more-products-test-42191.html",
+     "title": "Google Search Tests 3 Products In Grid That Expands To More",
+     "summary": "Google is testing showing three products in the more products grid within Google Search. In some tests, the grid can expand to show four or five or so products across or downsize to only show three.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T11:11:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-new-product-grid-layout-shopping-ads",
+     "title": "Google Tests New Product Grid Layout in Shopping Ads",
+     "summary": "Google is testing a new layout for sponsored products in search results, making them appear like the organic product grid.&nbsp; This update was shared by Brodie Clark &nbsp;and Barry Schwartz . The post Google Tests New Product Grid Layout in Shopping Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-02T07:00:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-recommended-by-products-section-42193.html",
+     "title": "Bing Product Results With Recommended By Section",
+     "summary": "Microsoft Bing is testing a new'ish section labeled \"Recommended by\" followed by the company making the recommendations. The weird thing is, the specific product thumbnails link to various retailers and not the place that recommended it.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:31:00+00:00",
+     "score": 48
+    }
+   ],
+   "category": "ppc",
+   "importance": 55,
+   "title": "Google testuje nové rozložení produktových mřížek v reklamách i organických výsledcích",
+   "updated": "2026-10-03T09:59:36.695262+00:00",
+   "what": "Google experimentuje s novým formátem zobrazení produktů ve vyhledávání. V některých testech se mřížka zobrazuje se třemi produkty napříč, v jiných se může rozšířit na čtyři až pět produktů nebo se naopak zmenšit. Zároveň Google testuje, aby placené produktové reklamy vypadaly podobně jako organická produktová mřížka.",
+   "why": "Změna může ovlivnit viditelnost produktů v organických i placených výsledcích a potenciálně i CTR produktových kampaní. Pokud se placeným reklamám změní vzhled a přiblíží se organickým výsledkům, může to změnit chování uživatelů i efektivitu reklamních výdajů.",
+   "takeaway": "Sledujte v nadcházejících týdnech výkonnost produktových kampaní v Google Ads a CTR produktových výsledků. Pokud zaznamenáte změny v metrikách bez zásahu do nastavení, může to být důsledek těchto testů. Zatím není jasné, kdy a zda se změny zavedou plošně.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/ecad0eab72.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "f7cb91d833",
+   "created": "2026-10-02T11:05:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-ads-business-name-policy-42214.html",
+     "title": "Google Ads To Allow Some Advertisers To Use Different Business Names",
+     "summary": "Google Ads will update its business name policy to allow some advertisers to use a business name that differs from the ad's destination domain. This is limited to certain cases, specifically three cases and it also excludes advertisers who are not the direct verified brand.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:05:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOU1fSmtYcFhiNlR1LTcycThEbEFrUDRJYnN5YXJJZmk3Mml1ZUFRRGVRcUU0MHd0R0lWZ2RlbkJ3ajdrNkM4VElRM25MbGdNTkpST2txVzJ3TW5ESDl2ZnVEdzhwMGwxT0Y4THF5bUNwZUFZSmR3ZS16cU5rX0stWTdhWTNnT0VUaG40QVZhMGRLM2hmcnMwcG53cw?oc=5",
+     "title": "Google Ads loosens business name rules for some advertisers",
+     "summary": "Google Ads loosens business name rules for some advertisers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T16:09:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-sitelinks-ai-mode-42206.html",
+     "title": "Google Ads Sitelinks Format In AI Mode",
+     "summary": "Google Ads show up a lot within AI Mode these days and with that, Google is testing various ad formats to see which formats get the highest click-through rate (unlike links in AI Mode). Here is a screenshot of what may be the Google Ads Sitelinks within AI Mode.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:11:00+00:00",
+     "score": 61
+    },
+    {
+     "url": "https://www.seroundtable.com/google-loyalty-customer-match-expands-42216.html",
+     "title": "Google Loyalty Customer Match Expands To AI Mode & More Regions",
+     "summary": "Google made several changes to the about merchant loyalty program within the Google Merchant Center help documentation. The key changes are that Loyalty Customer Match expanded to AI Mode and Gemini and to more regions, but there are even more changes noted in the help documentation.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:51:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFBCdC1hUWNqWEtsUXhIWk9NMWxWVjJfR01aX3hLYWZ2T0ladEZybHdZZ01jQXQ4OXd3WTdDQmh4QlB4TE84alAtMWstUEZCUVE5YmxyX3FNd016N21LUTJSekFQVENTcVNCTjdUT0JxVW1EN0UxMFhabE1wM2RsYXh0V0ZNN29wYjJ1bzRCdENVazBfWERDNVhCa1ZxZGtncHphUzh2aERodmpiUXhMdFlB?oc=5",
+     "title": "Google Ads adds AI-powered campaign localization for international expansion",
+     "summary": "Google Ads adds AI-powered campaign localization for international expansion &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:39:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdG8xaGZDRmtidkd0RFNLZW41WXo5SVJKQ0o0dDNpYTg4em1ORjJPODVTOUtVOHQ0SzRyRGhCbG5MMmwtZVBTWFAyYVFCZ3BwVldvV04wc19odXJIN1EyYS1EUlRSenRFOWJmNzVxY2pLM1AwWUFaRFEzaFlzT0wzWnVKUUJPLW9lRG02YktzNUhuclMzSFlYWDNmRUtMdw?oc=5",
+     "title": "Google Ads brings A/B testing to Performance Max asset groups",
+     "summary": "Google Ads brings A/B testing to Performance Max asset groups &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:55:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-sponsored-products-results-missing-images-42213.html",
+     "title": "Google Ads Sponsored Products Results Missing Images",
+     "summary": "Google Ads may have a bug or maybe it is testing, not showing images on sponsored product results. You can see from the screenshot below, the images that are generally shown above the ad titles and descriptions are missing from the Sponsored products carousel in Google Search.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:21:00+00:00",
+     "score": 55
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google Ads testuje A/B testing skupin assetů v Performance Max",
+   "updated": "2026-10-03T09:59:28.765168+00:00",
+   "what": "Google Ads umožnil A/B testování na úrovni asset groups v Performance Max kampaních. Inzerenti tak mohou systematicky testovat různé kombinace kreativ, nadpisů a dalších assetů a porovnávat jejich výkonnost.",
+   "why": "Performance Max byl dosud černou skříňkou s omezenými možnostmi optimalizace. Možnost A/B testování dává inzerentům konkrétní nástroj k vyhodnocení, které assety skutečně fungují, a tím lepší kontrolu nad výkonem kampaní.",
+   "takeaway": "Pokud používáte Performance Max, naplánujte si testování různých variant assetů – zvlášť produktových fotek, nadpisů nebo popisů. Výsledky vám ukážou, kam směřovat kreativní úsilí a rozpočet.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/f7cb91d833.jpg",
+   "image_from": "seroundtable.com"
+  },
+  {
+   "id": "2b43204a1e",
+   "created": "2026-09-27T14:32:26+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGJtOG9TRHRXM2VTU0NDTk1qeC1pQ2E1YTU4clJES3ozYWVxU0Mtek9aNDFpOXdZLVdidXhGS0U4RFJ6YTMwUWw5WUN6T1g1RHFkbkFlNXBhb0thLWFibWNkNmhhQWNzZ1ZoNFNtRFc3U2NWQzdCaVlGX041YnZsRU5tQQ?oc=5",
+     "title": "Update to Legal Requirements Policy",
+     "summary": "Update to Legal Requirements Policy &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-27T14:32:26+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObmtyQmtJbzczODR1XzBicU9QWXJvSGI3alVvRWRqTFhaQkR1SEtMNjFPNkg5QWtCVkdjSEFKeVhPV1hMR3ZfM3BfVFFpejVMSmZXVjhfOFJ5OXVZa3VEbWFIME1wNmxlV0lzaGxOZGJtRTBzWDVNaU1RTHZKNVZvbEdjNUpJZFFybWtLSg?oc=5",
+     "title": "LSA Now Lets Users Message Up to 6 Businesses",
+     "summary": "LSA Now Lets Users Message Up to 6 Businesses &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-27T15:00:40+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-consumer-review-ads-42183.html",
+     "title": "Bing Sponsored Ads With One-Line Consumer Review Extension",
+     "summary": "Microsoft Advertising now shows \"consumer review\" ad extensions in the Bing search results sponsored results section. These are one-line snippets of text, added under the sponsored result, that come a \"from consumer review.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T11:11:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-product-features-labels-42161.html",
+     "title": "Bing Tests Product Features Labels On Product Listings",
+     "summary": "Microsoft Bing is testing adding product feature labels to product listings in the search results. This can add labels like \"great for...,\" \"effective,\" \"performs well,\" \"lightweight\", and so on.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T11:21:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445",
+     "title": "YouTube previews AI-powered Conversational Editing",
+     "summary": "Conversational Editing will make it easier for creators to build and refine their projects using plain language guidance.&nbsp;",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-27T22:34:24+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.socialmediatoday.com/spons/how-agencies-can-turn-holiday-intent-into-action/831221",
+     "title": "How agencies can turn holiday intent into action",
+     "summary": "Explore how holiday shoppers move from discovery to purchase on TikTok.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-28T09:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations",
+     "title": "Braze expands AI from content creation to campaign operations",
+     "summary": "New tools give marketers easier access to AI decisioning, automate campaign checks, and connect Braze with external LLMs such as Claude. The post Braze expands AI from content creation to campaign operations appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-09-29T13:42:52+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.socialmediaexaminer.com/youtube-ctr-instagram-reels-structure-and-industry-news",
+     "title": "YouTube CTR, Instagram Reels Structure, and Industry News",
+     "summary": "Here’s a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today’s edition: YouTube packaging formula Instagram reels content creation 🗞️ Industry news from LinkedIn, Meta, YouTube,&#160;and more YouTube Packaging Formula to Improve CTR Publishing [&#8230;] The post YouTube CTR, Instagram Reels Structure, and Industry News appeared first on Social Media Examiner .",
+     "source": "Social Media Examiner",
+     "domain": "socialmediaexaminer.com",
+     "published": "2026-09-29T09:30:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/instagram-adds-option-to-boost-livestreams/831842",
+     "title": "Instagram adds option to boost livestreams",
+     "summary": "The app already allows promotional boosts of posts, Stories and Reels, and now creators can use an in-app feature to increase engagement of their live videos.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-09-30T22:05:28+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://www.seroundtable.com/google-local-service-ads-bug-42208.html",
+     "title": "Google Local Service Ads Bug Serving Wrong Locations",
+     "summary": "There seems to be a bug with Google Local Service Ads showing ads from advertisers who are not targeting specific locations. With Local Service Ads, an advertiser can say they serve a specific city or location, but Google seems to be showing ads from advertisers who do not serve in those locations.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T12:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.seroundtable.com/google-local-service-ads-hides-phone-number-42207.html",
+     "title": "Google Local Service Ads Hiding Phone Number By Default",
+     "summary": "Google Local Service Ads seems to hide the phone number until you hover your mouse over the ad. I am not sure if this is new or not, but there is a big button that says \"Get phone number\" which is not needed because the phone number does show up as soon as you move your mouse near the ad.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:41:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-gemini-adds-utm-parameters-for-referral-attribution/591754",
+     "title": "Google Gemini Adds UTM Parameters For Referral Attribution via @sejournal, @martinibuster",
+     "summary": "Gemini's new UTM parameters give site owners clearer attribution for traffic coming from Google's AI platform. The post Google Gemini Adds UTM Parameters For Referral Attribution appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-01T12:15:03+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overview-link-tracking-parameters-42219.html",
+     "title": "Google Tests URL Tracking Parameters To AI Overviews & AI Mode",
+     "summary": "Google seems to be testing adding tracking parameters to the link URLs within AI Overviews. If this rolls out fully, this will help you decipher when you get a click from an AI Overview in Google Search or just a click from the main Google Search web results.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:46:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://yoast.com/yoast-seo-for-shopify-oct-1-2026",
+     "title": "Introducing Yoast SEO AI+ for Shopify",
+     "summary": "Yoast SEO AI+ for Shopify is live today. The new plan combines Yoast SEO for Shopify with Yoast AI Brand Insights, giving you visibility into how AI systems like ChatGPT, Gemini, Claude, and Perplexity describe your brand, alongside everything you already rely on for search. Why now More shoppers are starting their search with AI [&#8230;] The post Introducing Yoast SEO AI+ for Shopify appeared first on Yoast .",
+     "source": "Yoast",
+     "domain": "yoast.com",
+     "published": "2026-10-01T12:30:58+00:00",
+     "score": 55
+    }
+   ],
+   "category": "ppc",
+   "importance": 72,
+   "title": "Google LSA umožňuje uživatelům kontaktovat až 6 firem najednou",
+   "updated": "2026-10-03T09:59:21.260905+00:00",
+   "what": "Google rozšířil funkci Local Services Ads (LSA) – uživatelé nyní mohou poslat zprávu až 6 podnikům současně místo dosavadního limitu. Zároveň Google aktualizoval svou Legal Requirements Policy.",
+   "why": "Změna zvyšuje konkurenci mezi poskytovateli služeb v LSA a může vést k vyššímu počtu poptávek na jednu reklamu, což může snížit konverzní poměr a zvýšit náklady na získání zákazníka. Pro firmy využívající LSA je důležité reagovat rychleji a kvalitněji než konkurence.",
+   "takeaway": "Pokud využíváte Local Services Ads, připravte se na větší konkurenci v odpovědích na poptávky – zkraťte reakční dobu a zlepšete kvalitu první odpovědi. Sledujte konverzní metriky a náklady na lead v následujících týdnech.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/5cb03028a7.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "a9be011c9c",
+   "created": "2026-09-25T14:33:01+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUdfYXk1UEJXQUhEMVRFcVhuTF9DQ2tJVzR5ZUNBSTNGaktSN3Q2OTNuSEMxbHVTUkxLN05rWHhHeV9FRHItQ0JPMGNQZWYzTkwwMzM3c09Xdm81VWFNdkZmVkUzRFRlWkNXWVN0bW4wUUFBQ2hNXzlSeHJMWGRGYWJlVEZDS2xfazBTb0VCZDl2a0xJemNGa3lmVWNTTEctMnlmdi1n?oc=5",
+     "title": "Google CSS Product Pages Get Rating and Review Count Attributes",
+     "summary": "Google CSS Product Pages Get Rating and Review Count Attributes &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-25T14:33:01+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.seroundtable.com/google-test-more-sitelinks-designs-42172.html",
+     "title": "Google Tests More Sitelinks Designs",
+     "summary": "Google continues to test variations of designs and user experiences for Sitelinks within its search results. The new design spotted has the Sitelinks listed line by line, with a horizontal line across the left side of the mobile search result snippet.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-28T09:45:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQalpYZUs5VS1LTnAxV1NHa2VsX0RzamVwcmR1OFlFOEJHR2FaeHhldzdJNHFWN2ZIY3V3NjdGLU1kVzNSMHVYc25MSkROM2ZIVURwNWFJbjI2TWdITVcyT3BSYXp4Y3F6c2FpTXM5bVhIWjU5Y2RidmhQazFsYzVGaU1zUlk4UkhETzBr?oc=5",
+     "title": "Google tests a new look for mobile ad sitelinks",
+     "summary": "Google tests a new look for mobile ad sitelinks &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-28T17:17:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overviews-loading-button-42170.html",
+     "title": "Google Tests Replacing Show More Button On AI Overviews With Loading...",
+     "summary": "Google is testing replacing the \"Show more\" button under the AI Overviews with a \"Loading...\" button. Also, earlier this year, Google tested \"Enter AI Mode\" for the button text but that obviously did not stick.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-28T11:21:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.seroundtable.com/google-local-panel-two-rows-of-buttons-42176.html",
+     "title": "Google Local Panel With Two Rows Of Buttons On Mobile",
+     "summary": "Google is testing showing two rows of action buttons of the local panels within mobile search. Google has been testing showing a more + sign to load more or a scrollable carousel of buttons and now here it is with two rows.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-29T11:41:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-testing-new-sitelinks-designs",
+     "title": "Google Testing New Sitelinks Designs",
+     "summary": "Google is testing a new design for sitelinks, aiming to enhance their appearance in search results. Sitelinks , which provide additional navigation links under search ads, are receiving attention to improve user engagement and visibility. The current test involves variations in both design and layout compared to the standard sitelinks presentation. This update was shared by Barry Schwartz . The post Google Testing New Sitelinks Designs appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-30T07:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-sitelinks-expandable-descriptions",
+     "title": "Bing Tests Sitelinks With Expandable Descriptions",
+     "summary": "Bing is testing a new variation of expandable sitelinks within its search results. This version reveals descriptions under the sitelinks when users hover over them. The test appears to enhance user interaction by providing more contextual information for each sitenk. This update was shared by Sachin Patel and also reported by Barry Schwartz . The post Bing Tests Sitelinks With Expandable Descriptions appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-30T12:00:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/target-roas-edits-blocked-in-promotion-mode",
+     "title": "Target ROAS Edits Blocked in Promotion Mode",
+     "summary": "Google Ads users have discovered that while promotion mode is active, editing the Target ROAS &nbsp;is restricted.&nbsp; When promotion mode is on, a blue information banner appears, indicating that the Target ROAS cannot be changed. A confirmation message confirms the use of the Target ROAS bid strategy in its current state. This update was shared by Arpan Banerjee and&nbsp; Adriaan Dekker . The post Target ROAS Edits Blocked in Promotion Mode appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-28T12:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-adds-conversion-value-forecasts-budget-changes",
+     "title": "Google Ads Adds Conversion Value Forecasts to Budget Changes",
+     "summary": "Google Ads is now displaying a new \"Budget Change Alert + Forecast\" feature within campaign budget settings.&nbsp; This feature alerts advertisers to potential conversion value decreases when reducing their daily budget for campaigns, highlighting them as \"limited by budget.\" The alert includes a forecast of projected weekly conversion value declines and suggests an increase in daily budget to achieve higher conversion goals. An alert icon appears beside the budget settings to emphasize the guidance. This update was spotted by Thomas Eccel . The post Google Ads Adds Conversion Value Forecasts ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-28T14:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjhNZEtGS003TGRldlJldmRlcFh5dzBma0VSUlAySDNjbFlkc2gwdlRuYTZTWFpoMWFOZllHNkFHMUFKQnozZERQMFVVZEVVOFZHMlFWcjRsN1VMbVF0aUFzemtDN0VTcUEwaVpMV3hNOWd1RlF4RFJNa0t3OUltZXJlbTBTdE80XzIybXhaVzdkcmtybVRDb2RrSlU3SUZPaXowb21WRkJSVVg0dzhmV19R?oc=5",
+     "title": "The August 17th Post-Mortem: What Google’s Smart Bidding update really changed",
+     "summary": "The August 17th Post-Mortem: What Google’s Smart Bidding update really changed &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-28T17:32:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-expands-promotion-mode-new-controls",
+     "title": "Google Ads Expands Promotion Mode With New Controls",
+     "summary": "Google Ads has added new abilities to Promotion Mode . This feature leverages Smart Bidding Exploration to help advertisers enhance their reach during promotional periods. Advertisers can now set specific start and end dates for promotions, adjust the Target ROAS tolerance, and assign an optional extra daily budget to capture additional traffic. Once the promotion period ends, campaigns automatically revert to their original Target ROAS and budget settings. This feature is currently in Beta and might not be available across all accounts yet. This update was shared by Vivek Gupta . The post Goo",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-30T14:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EbUFuTHAybFRCRVJjd3I5Tjl5ZHplcU1LT25sbzV6eWV6eW1VUGJrXzNnRExNME1pQlFqU3pOSnl2VWVkdVdKSGtjR0VsNS1qajN3UTN5Z0s5S2VJRFNrbXhfUzJaSlZYUGRwbHRDRGY?oc=5",
+     "title": "Is your Google Ads account ready for Q4?",
+     "summary": "Is your Google Ads account ready for Q4? &nbsp;&nbsp; searchengineland.com",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-29T14:00:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/meta-ad-creative-diversification-best-practices-advertiser-approach",
+     "title": "How advertisers are adjusting to Meta’s ad creative diversification best practices",
+     "summary": "To get ads to rank highly, advertisers are getting guidance to switch up hooks, looks, and messaging.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-28T09:00:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-asset-groupinvalid-final-url-42204.html",
+     "title": "Google Ads: Have At Least One Asset Group To Avoid Invalid Final URL Error",
+     "summary": "Google Ads updated its destination not working policy document to \"provide additional examples for destination issues for advertisers,\" the company said. But Google also added a new line that says \"Make sure your campaign has at least one asset group configured. If an asset group is missing, you may receive an \"invalid final URL\" error during setup even if your destination URL is working correctly.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T11:05:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEZBTE01LXBOQmZXTTl4Q2pLdG1HVFdTS1JfZmhyR1QwSXZtczB4TzF1YUdHMjhIeG0yUmFWTjlQdE9hdl9KazRSMENiT2tPRXJOejREU2p4WHFORzEzV3RPeFIwODZXMHVWUVA2cmtQMFB6OWZsc2xQajdSR29DQXhYbTREaVI3VHBLM3pIS0Z6b0hsaEkyVjVubHBkbkNLbTFYQ3lLNWVKYUE?oc=5",
+     "title": "Google Ads will automatically pull promotions from advertisers’ websites",
+     "summary": "Google Ads will automatically pull promotions from advertisers’ websites &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:45:59+00:00",
+     "score": 73
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google blokuje úpravy Target ROAS během propagačního režimu v Google Ads",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "what": "Google Ads nově zabraňuje uživatelům měnit cílovou návratnost investic (Target ROAS) ve chvíli, kdy je aktivní propagační režim (promotion mode). Po aktivaci se zobrazí modrý informační banner s upozorněním, že Target ROAS nelze změnit, a potvrzovací zpráva říká, že se použije strategie automatického přihazování v aktuálním nastavení.",
+   "why": "Omezení zasahuje do flexibility řízení kampaní v době, kdy firmy často potřebují přizpůsobit cíle (např. při slevových akcích nebo Black Friday). Pokud nemůžete upravit Target ROAS během propagace, může to vést k neoptimální účasti v aukcích nebo k vyššímu promarněnému rozpočtu.",
+   "takeaway": "Plánujete-li sezónní kampaně nebo akce, nastavte Target ROAS předem, než zapnete propagační režim. Během běhu akce už cíl neupravíte. Počítejte s tím při alokaci rozpočtu a sledujte, zda vám automatická strategie skutečně odpovídá vašim obchodním cílům.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/6bc68e9c54.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "2103c6d79d",
+   "created": "2026-10-03T07:25:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.mediaguru.cz/ctv-uz-tvori-vetsinu-premiove-videoreklamy-v-evrope-programatik-dal-roste",
+     "title": "CTV už tvoří většinu prémiové videoreklamy v Evropě, programatik dál roste",
+     "summary": "Připojené televizory (CTV) se v první polovině letošního roku podílely na 53 % zhlédnutí prémiové videoreklamy v Evropě. Vyplývá to z nové studie společnosti FreeWheel. Výrazně rostl také programatický nákup videoreklamy a posilovalo živé vysílání, které těžilo především ze sportovních přenosů.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-10-03T07:25:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "CTV má v Evropě většinu prémiové videoreklamy, programatik roste",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "what": "Podle studie FreeWheel tvořily připojené televizory (CTV) v první polovině roku 2025 již 53 % zhlédnutí prémiové videoreklamy v Evropě. Zároveň výrazně roste programatický nákup videoreklamy a posiluje živé vysílání, zejména díky sportovním přenosům.",
+   "why": "Posun k CTV a programatickému nákupu videoreklamy mění strukturu investic do video kampaní. Pro marketingové manažery to znamená nutnost znovu vyhodnotit mix kanálů a způsob nákupu videoreklamy.",
+   "takeaway": "Zvažte posílení investic do CTV a programatického nákupu videoreklamy, pokud cílíte na prémiové videoformáty. Sledujte možnosti live streamingu, zejména kolem sportovních událostí.",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/2103c6d79d.jpg",
+   "image_from": "mediaguru.cz"
+  },
+  {
+   "id": "bb9907f568",
+   "created": "2026-10-03T07:00:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/consumer-review-extensions-spotted-in-bing-ads",
+     "title": "“Consumer Review” Extensions Spotted in Bing Ads",
+     "summary": "Microsoft Advertising now includes a \"consumer review\" extension in Bing's sponsored results section.&nbsp; These are one-line snippets from sources like Trustpilot, visible under sponsored ads. This resembles Google's third-party endorsement ads. This update was spotted by Khushal Bherwani &nbsp;and Barry Schwartz . The post &#8220;Consumer Review&#8221; Extensions Spotted in Bing Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-03T07:00:00+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "“Consumer Review” Extensions Spotted in Bing Ads",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "importance_label": "důležité",
+   "multi_source": false,
+   "image": "img/bb9907f568.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "0f6646bcee",
+   "created": "2026-10-03T05:10:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-two-dotted-menus-search-ads",
+     "title": "Google Tests Two Dotted Menus in Search Ads",
+     "summary": "Google is testing a new feature in sponsored search results, incorporating two distinct dotted menus. One appears by the URL and another by the ad headline.&nbsp; When clicked, these lines either direct the user to the landing page or display a ' Why this ad ' pop-up offering additional information about the ad. This update was shared by Khushal Bherwani . The post Google Tests Two Dotted Menus in Search Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-03T05:10:00+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google testuje dvě tečkované menu v placených výsledcích vyhledávání",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "what": "Google zkouší nový design reklam ve vyhledávání – přidává dvě tečkovaná menu (tři tečky). Jedno se zobrazuje u URL, druhé u nadpisu reklamy. Po kliknutí buď vedou na cílovou stránku, nebo otevřou pop-up 'Proč tato reklama' s doplňujícími informacemi o reklamě.",
+   "why": "Jde o UI test, který může změnit, jak uživatelé vnímají a klikají na placené výsledky. Může ovlivnit CTR reklam a způsob, jakým uživatelé interagují s reklamními formáty – zatím ale není jasné, zda a kdy se test rozšíří do ČR.",
+   "takeaway": "Sledujte, zda se nový formát objeví i v českých výsledcích Google Ads. Pokud ano, může to ovlivnit výkonnostní metriky kampaní – průběžně kontrolujte CTR a chování uživatelů po kliknutí na reklamu.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "e60b6dd163",
+   "created": "2026-10-02T15:32:07+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcWt1UHhiTDZQSjBHR1M4cmJ4U1R6NjlyVHM2aGc0RG9aZFpsWVlPQnFTeGFMTHpVV2RHSFZLR0ljNzNDdEtxWEJCb1JLeFdDSHQxRnh5TS1HWkN5Uk1WZzUxX0tQV01OOC00NF9SOTJmVzNnak1RVTRoZDlDZDV6eG9xd0ZYVFFDZ2RLVGo5YjdpWjUyT0E?oc=5",
+     "title": "ChatGPT adds virtual try-on for clothes and accessories",
+     "summary": "ChatGPT adds virtual try-on for clothes and accessories &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:32:07+00:00",
+     "score": 48
+    }
+   ],
+   "category": "ai",
+   "importance": 45,
+   "title": "ChatGPT spustil virtuální zkoušení oblečení a doplňků",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "what": "ChatGPT nově umožňuje virtuální zkoušení oblečení a doplňků. Funkce rozšiřuje možnosti AI asistenta do oblasti vizuálního nákupního zážitku.",
+   "why": "Pro marketingové manažery v e-commerce jde o signál dalšího posunu směrem k AI-poháněným nákupním asistentům, kteří mohou změnit způsob, jak zákazníci hledají a vybírají produkty online. Může to ovlivnit roli klasických produktových stránek a PPC kampaní.",
+   "takeaway": "Sledujte, jak se vyvíjí AI nástroje v nákupním procesu – pokud ChatGPT začne významně kanibalizovat tradiční vyhledávání a produktové stránky, bude nutné přehodnotit strategii obsahového marketingu a PPC. Zatím jde o globální funkci bez potvrzeného dopadu na český trh.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
+  },
+  {
+   "id": "70cabbb3aa",
+   "created": "2026-10-02T08:48:23+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlpyZ1ozbjBwQzZZcm1Pd3p2bklUSGVRNFFWVnN1bDlvMlprQmxDcmVVUUgwQTFyN1BqZ2plcHRMVThqS1FzalVSNFNMMlRFanIxaDJUZllwbTRCbFhGX3RlZElrV1gySlN4YWpkRDhDZm81bHRlRkF1bkpmQmFFV2h0VXV0ZURTNjNyWTRjWVB1X3IxMGx2MGdHRWZNaTlIZHVJQTlwbFhERy1aTi1XdVNIazJNTmM?oc=5",
+     "title": "Adform navazuje na další platformy a zpřístupňuje se AI skrz MCP",
+     "summary": "Adform navazuje na další platformy a zpřístupňuje se AI skrz MCP &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-10-02T08:48:23+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 35,
+   "title": "Adform zpřístupnil svá data AI nástrojům přes protokol MCP",
+   "updated": "2026-10-03T09:57:44.634242+00:00",
+   "what": "Reklamní platforma Adform oznámila integraci s dalšími platformami a zpřístupnění svých dat umělé inteligenci prostřednictvím protokolu MCP (Model Context Protocol). Konkrétní detaily o rozsahu integrace a dostupnosti v ČR nejsou z dostupného zdroje zřejmé.",
+   "why": "Pro české firmy používající Adform může jít o novou možnost propojení dat nebo využití AI nástrojů při práci s kampaněmi. Praktický dopad však nelze vyhodnotit bez bližších informací o funkčnosti a dostupnosti.",
+   "takeaway": "Pokud vaše firma používá Adform, sledujte oficiální komunikaci platformy ohledně nových integračních možností a AI funkcí – mohou zefektivnit práci s daty nebo reporting.",
+   "importance_label": "kontext",
+   "multi_source": false
+  },
   {
    "id": "0e2b8ca96c",
    "created": "2026-09-29T08:16:29+00:00",
@@ -5395,77 +6039,6 @@
    "image_from": "seroundtable.com"
   },
   {
-   "id": "af4525bfce",
-   "created": "2026-09-30T01:17:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-analytics-fix-42187.html",
-     "title": "Google Working To Restore Google Analytics",
-     "summary": "Google has confirmed there are issues with Google Analytics loading the platform. Google updated its status report to say that it has \"restored for some users\" and Google expects \"a resolution for all users in the near future.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T01:17:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-analytics-app-conversions-cross-channel-reports/591558",
-     "title": "Google Analytics Adds App Conversions To Cross-Channel Reports via @sejournal, @MattGSouthern",
-     "summary": "Google Analytics now supports app conversions in its performance and attribution reports. The post Google Analytics Adds App Conversions To Cross-Channel Reports appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-30T14:23:27+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMW45b1RzbEdxQnRqYjVqTndfUGJYNDFxeGN2WUN4VnBKeVUxdEViRWVBb0czN3BuaHJPWlJldnh1b2tvT25KTXVVSGQ1M0d0SE5hMXVXS053TVFyNFVYZGFDT3hmMzBpSFBRNFpsS3FFZkxsS2RFN3NlRXRiam1wRTNteHBtX0hSYVdnbktsUVpHMlpCa0cyUFJKWkVYcWNDWGtXYg?oc=5",
-     "title": "Google expands cross-channel conversion reporting to app campaigns",
-     "summary": "Google expands cross-channel conversion reporting to app campaigns &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-30T15:47:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.searchenginejournal.com/the-ai-search-metrics-i-use-to-track-client-pipelines/589123",
-     "title": "The AI Search Metrics I Use To Track Client Pipelines",
-     "summary": "See whether AI search reaches buyers and creates qualified opportunities with five measures covering brand presence, answer accuracy, and attribution. The post The AI Search Metrics I Use To Track Client Pipelines appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-30T12:00:13+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://martech.org/b2b-marketing-attribution-is-messy-can-it-be-fixed",
-     "title": "B2B marketing attribution is messy. Can it be fixed?",
-     "summary": "Tracking B2B revenue shouldn’t feel like chasing moving targets. Integrate's Mehul Nagrani breaks down attribution reality and future of B2B demand gen. The post B2B marketing attribution is messy. Can it be fixed? appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-30T12:13:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iaktDRDFBTDBUNF9GQl9CTGtlRDBxOUFzMmxYbndLRG9wdUQ3dTRqV250S3pOcHM0d0VBaHEtTklSblNsSkdaNl9XX3BGQnVIWFJyNDNoUExUaHpPOFdLV0N5OWYxdmM?oc=5",
-     "title": "The collapse of attribution",
-     "summary": "The collapse of attribution &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-30T15:00:00+00:00",
-     "score": 81
-    }
-   ],
-   "category": "analytika",
-   "importance": 55,
-   "title": "Google Analytics rozšiřuje cross-channel reporty o app konverze",
-   "updated": "2026-10-02T22:26:46.932756+00:00",
-   "what": "Google Analytics přidal podporu konverzí z mobilních aplikací do cross-channel performance a atribučních reportů. Marketéři tak mohou sledovat konverze z aplikací společně s webovými daty v jednom pohledu.",
-   "why": "Pro firmy s mobilní aplikací jde o zlepšení přehledu o customer journey napříč kanály. Dosud bylo měření výkonu app kampaní oddělené od webových dat, což ztěžovalo celkové vyhodnocení marketingových investic a atribuci konverzí.",
-   "takeaway": "Pokud provozujete mobilní aplikaci a měříte její konverze, zkontrolujte nastavení Google Analytics a zapněte sledování app konverzí v cross-channel reportech. Získáte tak komplexnější pohled na cestu zákazníka a přesnější data pro optimalizaci rozpočtu mezi web a app kampaně.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/af4525bfce.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "53bc11cb61",
    "created": "2026-09-30T09:00:00+00:00",
    "articles": [
@@ -5497,235 +6070,6 @@
    "takeaway": "Zkontrolujte, zda vaše aktuální rozložení rozpočtu odpovídá skutečné výkonnosti kanálů, a sledujte výsledky průzkumu Kantar Media Reactions pro hlubší pochopení preferencí spotřebitelů. Nejistota v oboru může být vaší konkurenční výhodou, pokud budete měřit a testovat důsledněji než ostatní.",
    "importance_label": "stojí za pozornost",
    "multi_source": true
-  },
-  {
-   "id": "5cb03028a7",
-   "created": "2026-10-01T12:15:03+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/google-gemini-adds-utm-parameters-for-referral-attribution/591754",
-     "title": "Google Gemini Adds UTM Parameters For Referral Attribution via @sejournal, @martinibuster",
-     "summary": "Gemini's new UTM parameters give site owners clearer attribution for traffic coming from Google's AI platform. The post Google Gemini Adds UTM Parameters For Referral Attribution appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-01T12:15:03+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-overview-link-tracking-parameters-42219.html",
-     "title": "Google Tests URL Tracking Parameters To AI Overviews & AI Mode",
-     "summary": "Google seems to be testing adding tracking parameters to the link URLs within AI Overviews. If this rolls out fully, this will help you decipher when you get a click from an AI Overview in Google Search or just a click from the main Google Search web results.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:46:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://yoast.com/yoast-seo-for-shopify-oct-1-2026",
-     "title": "Introducing Yoast SEO AI+ for Shopify",
-     "summary": "Yoast SEO AI+ for Shopify is live today. The new plan combines Yoast SEO for Shopify with Yoast AI Brand Insights, giving you visibility into how AI systems like ChatGPT, Gemini, Claude, and Perplexity describe your brand, alongside everything you already rely on for search. Why now More shoppers are starting their search with AI [&#8230;] The post Introducing Yoast SEO AI+ for Shopify appeared first on Yoast .",
-     "source": "Yoast",
-     "domain": "yoast.com",
-     "published": "2026-10-01T12:30:58+00:00",
-     "score": 55
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "Google testuje UTM parametry pro AI Overviews a Gemini",
-   "updated": "2026-10-02T22:26:30.142369+00:00",
-   "what": "Google začíná přidávat UTM parametry k odkazům v AI Overviews (přehledy v AI režimu vyhledávání) a v Gemini. Díky tomu budou majitelé webů moci v analytice přesně rozlišit, zda návštěvník přišel z klasických výsledků vyhledávání, nebo z AI odpovědí.",
-   "why": "Pro marketingové manažery a SEO specialisty to znamená konečně možnost měřit skutečný dopad AI funkcí Google na návštěvnost a hodnotit ROI optimalizace pro AI.",
-   "takeaway": "Sledujte, kdy se parametry objeví i v českém Google, a připravte se přizpůsobit GA4 reporty – budete moci konečně vyhodnotit, zda vám AI Overviews berou nebo přivádějí návštěvníky a jak kvalitní tento provoz je.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/5cb03028a7.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "2b43204a1e",
-   "created": "2026-09-27T14:32:26+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGJtOG9TRHRXM2VTU0NDTk1qeC1pQ2E1YTU4clJES3ozYWVxU0Mtek9aNDFpOXdZLVdidXhGS0U4RFJ6YTMwUWw5WUN6T1g1RHFkbkFlNXBhb0thLWFibWNkNmhhQWNzZ1ZoNFNtRFc3U2NWQzdCaVlGX041YnZsRU5tQQ?oc=5",
-     "title": "Update to Legal Requirements Policy",
-     "summary": "Update to Legal Requirements Policy &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-27T14:32:26+00:00",
-     "score": 80
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObmtyQmtJbzczODR1XzBicU9QWXJvSGI3alVvRWRqTFhaQkR1SEtMNjFPNkg5QWtCVkdjSEFKeVhPV1hMR3ZfM3BfVFFpejVMSmZXVjhfOFJ5OXVZa3VEbWFIME1wNmxlV0lzaGxOZGJtRTBzWDVNaU1RTHZKNVZvbEdjNUpJZFFybWtLSg?oc=5",
-     "title": "LSA Now Lets Users Message Up to 6 Businesses",
-     "summary": "LSA Now Lets Users Message Up to 6 Businesses &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-27T15:00:40+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-consumer-review-ads-42183.html",
-     "title": "Bing Sponsored Ads With One-Line Consumer Review Extension",
-     "summary": "Microsoft Advertising now shows \"consumer review\" ad extensions in the Bing search results sponsored results section. These are one-line snippets of text, added under the sponsored result, that come a \"from consumer review.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T11:11:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-product-features-labels-42161.html",
-     "title": "Bing Tests Product Features Labels On Product Listings",
-     "summary": "Microsoft Bing is testing adding product feature labels to product listings in the search results. This can add labels like \"great for...,\" \"effective,\" \"performs well,\" \"lightweight\", and so on.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T11:21:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445",
-     "title": "YouTube previews AI-powered Conversational Editing",
-     "summary": "Conversational Editing will make it easier for creators to build and refine their projects using plain language guidance.&nbsp;",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-27T22:34:24+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.socialmediatoday.com/spons/how-agencies-can-turn-holiday-intent-into-action/831221",
-     "title": "How agencies can turn holiday intent into action",
-     "summary": "Explore how holiday shoppers move from discovery to purchase on TikTok.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-28T09:00:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations",
-     "title": "Braze expands AI from content creation to campaign operations",
-     "summary": "New tools give marketers easier access to AI decisioning, automate campaign checks, and connect Braze with external LLMs such as Claude. The post Braze expands AI from content creation to campaign operations appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-29T13:42:52+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediaexaminer.com/youtube-ctr-instagram-reels-structure-and-industry-news",
-     "title": "YouTube CTR, Instagram Reels Structure, and Industry News",
-     "summary": "Here’s a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today’s edition: YouTube packaging formula Instagram reels content creation 🗞️ Industry news from LinkedIn, Meta, YouTube,&#160;and more YouTube Packaging Formula to Improve CTR Publishing [&#8230;] The post YouTube CTR, Instagram Reels Structure, and Industry News appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-09-29T09:30:00+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/instagram-adds-option-to-boost-livestreams/831842",
-     "title": "Instagram adds option to boost livestreams",
-     "summary": "The app already allows promotional boosts of posts, Stories and Reels, and now creators can use an in-app feature to increase engagement of their live videos.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-30T22:05:28+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.seroundtable.com/google-local-service-ads-bug-42208.html",
-     "title": "Google Local Service Ads Bug Serving Wrong Locations",
-     "summary": "There seems to be a bug with Google Local Service Ads showing ads from advertisers who are not targeting specific locations. With Local Service Ads, an advertiser can say they serve a specific city or location, but Google seems to be showing ads from advertisers who do not serve in those locations.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T12:00:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.seroundtable.com/google-local-service-ads-hides-phone-number-42207.html",
-     "title": "Google Local Service Ads Hiding Phone Number By Default",
-     "summary": "Google Local Service Ads seems to hide the phone number until you hover your mouse over the ad. I am not sure if this is new or not, but there is a big button that says \"Get phone number\" which is not needed because the phone number does show up as soon as you move your mouse near the ad.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:41:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google LSA umožňuje uživatelům kontaktovat až 6 firem najednou",
-   "updated": "2026-10-02T22:26:21.241759+00:00",
-   "what": "Google rozšířil funkci Local Services Ads (LSA) – uživatelé nyní mohou poslat zprávu až 6 podnikům současně místo dosavadního limitu. Zároveň Google aktualizoval svou Legal Requirements Policy.",
-   "why": "Změna zvyšuje konkurenci mezi poskytovateli služeb v LSA a může vést k vyššímu počtu poptávek na jednu reklamu, což může snížit konverzní poměr a zvýšit náklady na získání zákazníka. Pro firmy využívající LSA je důležité reagovat rychleji a kvalitněji než konkurence.",
-   "takeaway": "Pokud využíváte Local Services Ads, připravte se na větší konkurenci v odpovědích na poptávky – zkraťte reakční dobu a zlepšete kvalitu první odpovědi. Sledujte konverzní metriky a náklady na lead v následujících týdnech.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "f7cb91d833",
-   "created": "2026-10-02T11:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-business-name-policy-42214.html",
-     "title": "Google Ads To Allow Some Advertisers To Use Different Business Names",
-     "summary": "Google Ads will update its business name policy to allow some advertisers to use a business name that differs from the ad's destination domain. This is limited to certain cases, specifically three cases and it also excludes advertisers who are not the direct verified brand.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:05:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOU1fSmtYcFhiNlR1LTcycThEbEFrUDRJYnN5YXJJZmk3Mml1ZUFRRGVRcUU0MHd0R0lWZ2RlbkJ3ajdrNkM4VElRM25MbGdNTkpST2txVzJ3TW5ESDl2ZnVEdzhwMGwxT0Y4THF5bUNwZUFZSmR3ZS16cU5rX0stWTdhWTNnT0VUaG40QVZhMGRLM2hmcnMwcG53cw?oc=5",
-     "title": "Google Ads loosens business name rules for some advertisers",
-     "summary": "Google Ads loosens business name rules for some advertisers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T16:09:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-sitelinks-ai-mode-42206.html",
-     "title": "Google Ads Sitelinks Format In AI Mode",
-     "summary": "Google Ads show up a lot within AI Mode these days and with that, Google is testing various ad formats to see which formats get the highest click-through rate (unlike links in AI Mode). Here is a screenshot of what may be the Google Ads Sitelinks within AI Mode.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:11:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://www.seroundtable.com/google-loyalty-customer-match-expands-42216.html",
-     "title": "Google Loyalty Customer Match Expands To AI Mode & More Regions",
-     "summary": "Google made several changes to the about merchant loyalty program within the Google Merchant Center help documentation. The key changes are that Loyalty Customer Match expanded to AI Mode and Gemini and to more regions, but there are even more changes noted in the help documentation.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:51:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFBCdC1hUWNqWEtsUXhIWk9NMWxWVjJfR01aX3hLYWZ2T0ladEZybHdZZ01jQXQ4OXd3WTdDQmh4QlB4TE84alAtMWstUEZCUVE5YmxyX3FNd016N21LUTJSekFQVENTcVNCTjdUT0JxVW1EN0UxMFhabE1wM2RsYXh0V0ZNN29wYjJ1bzRCdENVazBfWERDNVhCa1ZxZGtncHphUzh2aERodmpiUXhMdFlB?oc=5",
-     "title": "Google Ads adds AI-powered campaign localization for international expansion",
-     "summary": "Google Ads adds AI-powered campaign localization for international expansion &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T15:39:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdG8xaGZDRmtidkd0RFNLZW41WXo5SVJKQ0o0dDNpYTg4em1ORjJPODVTOUtVOHQ0SzRyRGhCbG5MMmwtZVBTWFAyYVFCZ3BwVldvV04wc19odXJIN1EyYS1EUlRSenRFOWJmNzVxY2pLM1AwWUFaRFEzaFlzT0wzWnVKUUJPLW9lRG02YktzNUhuclMzSFlYWDNmRUtMdw?oc=5",
-     "title": "Google Ads brings A/B testing to Performance Max asset groups",
-     "summary": "Google Ads brings A/B testing to Performance Max asset groups &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T15:55:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads uvolňuje pravidla pro název firmy v reklamách",
-   "updated": "2026-10-02T22:26:13.513895+00:00",
-   "what": "Google Ads mění pravidla ohledně zobrazení názvu firmy v reklamách. Nově umožní některým inzerentům používat obchodní název, který se liší od domény cílové stránky, a to ve třech specifických případech. Změna se netýká inzerentů, kteří nejsou přímými ověřenými držiteli značky.",
-   "why": "Dosud Google striktně vyžadoval shodu mezi názvem firmy v reklamě a doménou. Uvolnění může pomoci firmám s komplexnější strukturou, franšízám nebo podnikům působícím pod více značkami, ale detaily omezení zatím nejsou známé.",
-   "takeaway": "Sledujte oficiální komunikaci Googlu s upřesněním podmínek. Pokud ve firmě řešíte nesoulad mezi názvem značky a doménou, může se otevřít prostor pro úpravu kampaní, ale čekejte na konkrétní dokumentaci pravidel.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/f7cb91d833.jpg",
-   "image_from": "seroundtable.com"
   },
   {
    "id": "1252af2c0c",
@@ -6236,53 +6580,6 @@
    "multi_source": false
   },
   {
-   "id": "55a503e51d",
-   "created": "2026-10-02T11:31:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/bing-recommended-by-products-section-42193.html",
-     "title": "Bing Product Results With Recommended By Section",
-     "summary": "Microsoft Bing is testing a new'ish section labeled \"Recommended by\" followed by the company making the recommendations. The weird thing is, the specific product thumbnails link to various retailers and not the place that recommended it.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:31:00+00:00",
-     "score": 48
-    }
-   ],
-   "category": "seo",
-   "importance": 48,
-   "title": "Bing Product Results With Recommended By Section",
-   "updated": "2026-10-02T17:57:01.707723+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "b8f1e0c12a",
-   "created": "2026-10-02T11:21:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-sponsored-products-results-missing-images-42213.html",
-     "title": "Google Ads Sponsored Products Results Missing Images",
-     "summary": "Google Ads may have a bug or maybe it is testing, not showing images on sponsored product results. You can see from the screenshot below, the images that are generally shown above the ad titles and descriptions are missing from the Sponsored products carousel in Google Search.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:21:00+00:00",
-     "score": 55
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads možná testuje zobrazení Sponzorovaných produktů bez obrázků",
-   "updated": "2026-10-02T17:57:01.707723+00:00",
-   "what": "V Google Ads se u některých uživatelů nezobrazují obrázky ve výsledcích sponzorovaných produktů (Sponsored Products carousel) v Google vyhledávání. Není jasné, zda jde o chybu nebo záměrný test ze strany Googlu.",
-   "why": "Pokud jde o trvalou změnu nebo dlouhodobý test, může to výrazně ovlivnit výkon produktových kampaní – obrázky jsou klíčové pro CTR a konverze v e-commerce reklamě.",
-   "takeaway": "Sledujte metriky (CTR, konverze) u produktových kampaní v Google Ads. Pokud zaznamenáte propad výkonu bez jiné změny, může být chyba nebo test na straně Googlu. Zatím žádné oficiální potvrzení.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/b8f1e0c12a.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
    "id": "0f7f6c0bde",
    "created": "2026-10-01T00:00:00+00:00",
    "articles": [
@@ -6309,67 +6606,6 @@
    "image_from": "business.google.com"
   },
   {
-   "id": "ecad0eab72",
-   "created": "2026-10-01T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-more-products-test-42191.html",
-     "title": "Google Search Tests 3 Products In Grid That Expands To More",
-     "summary": "Google is testing showing three products in the more products grid within Google Search. In some tests, the grid can expand to show four or five or so products across or downsize to only show three.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T11:11:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-new-product-grid-layout-shopping-ads",
-     "title": "Google Tests New Product Grid Layout in Shopping Ads",
-     "summary": "Google is testing a new layout for sponsored products in search results, making them appear like the organic product grid.&nbsp; This update was shared by Brodie Clark &nbsp;and Barry Schwartz . The post Google Tests New Product Grid Layout in Shopping Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-02T07:00:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google testuje nový grid layout pro produktové reklamy ve výsledcích vyhledávání",
-   "updated": "2026-10-02T10:36:45.234259+00:00",
-   "what": "Google testuje nové zobrazení produktových reklam ve výsledcích vyhledávání, kde se sponzorované produkty vizuálně podobají organickému produktovému gridu. Zároveň testuje varianty s třemi, čtyřmi nebo pěti produkty vedle sebe v gridu.",
-   "why": "Změna může ovlivnit viditelnost a výkon produktových kampaní (Google Shopping) – pokud budou placené reklamy vypadat jako organické výsledky, může to změnit CTR i CPK. Pro manažery je klíčové sledovat metriky kampaní během testu.",
-   "takeaway": "Pokud spravujete Google Shopping kampaně, sledujte výkon a CTR v následujících týdnech – nový layout může ovlivnit klikatelnost i CPC. Připravte se na možnou úpravu strategie bidování, pokud Google změnu nasadí trvale.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/ecad0eab72.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "116c276f8a",
-   "created": "2026-10-02T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://blog.seznam.cz/2026/10/vyuzijte-sem-naplno-s-detailnejsimi-prehledy",
-     "title": "Využijte SEM naplno s detailnějšími přehledy",
-     "summary": "Seznam Event Measurement (SEM) vám umožňuje měřit více konverzních událostí a získat tak přesnější přehled o výkonu kampaní. Nově můžete jednotlivé konverze a jejich metriky sledovat v rozhraní Skliku ještě detailněji. Snadno tak zjistíte, jak se daří konverzím, které jsou pro vás nejdůležitější. Nové metriky a doplněné grafy Ve volitelných sloupcích si nyní můžete zobrazit &#8230; Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-10-02T07:00:00+00:00",
-     "score": 76
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Sklik rozšířil reporty SEM o nové metriky a grafy jednotlivých konverzí",
-   "updated": "2026-10-02T10:36:45.234259+00:00",
-   "what": "Sklik doplnil rozhraní pro Seznam Event Measurement (SEM) o detailnější metriky a grafy. Uživatelé si nyní mohou ve volitelných sloupcích zobrazit data k jednotlivým konverzním událostem a sledovat jejich výkon odděleně.",
-   "why": "Umožňuje lépe vyhodnocovat různé typy konverzí (např. nákup vs. lead) a optimalizovat kampaně podle skutečně důležitých cílů, místo práce jen s celkovým počtem konverzí.",
-   "takeaway": "Zkontrolujte nastavení SEM ve Skliku a využijte nové volitelné sloupce k oddělené analýze klíčových konverzních událostí. Pomoże to lépe alokovat rozpočet mezi kampaně podle skutečného dopadu na byznys cíle.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/116c276f8a.jpg",
-   "image_from": "blog.seznam.cz"
-  },
-  {
    "id": "580bf5b667",
    "created": "2026-10-02T05:55:00+00:00",
    "articles": [
@@ -6394,149 +6630,6 @@
    "multi_source": false,
    "image": "img/580bf5b667.jpg",
    "image_from": "mediaguru.cz"
-  },
-  {
-   "id": "a9be011c9c",
-   "created": "2026-09-25T14:33:01+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUdfYXk1UEJXQUhEMVRFcVhuTF9DQ2tJVzR5ZUNBSTNGaktSN3Q2OTNuSEMxbHVTUkxLN05rWHhHeV9FRHItQ0JPMGNQZWYzTkwwMzM3c09Xdm81VWFNdkZmVkUzRFRlWkNXWVN0bW4wUUFBQ2hNXzlSeHJMWGRGYWJlVEZDS2xfazBTb0VCZDl2a0xJemNGa3lmVWNTTEctMnlmdi1n?oc=5",
-     "title": "Google CSS Product Pages Get Rating and Review Count Attributes",
-     "summary": "Google CSS Product Pages Get Rating and Review Count Attributes &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-25T14:33:01+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.seroundtable.com/google-test-more-sitelinks-designs-42172.html",
-     "title": "Google Tests More Sitelinks Designs",
-     "summary": "Google continues to test variations of designs and user experiences for Sitelinks within its search results. The new design spotted has the Sitelinks listed line by line, with a horizontal line across the left side of the mobile search result snippet.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-28T09:45:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQalpYZUs5VS1LTnAxV1NHa2VsX0RzamVwcmR1OFlFOEJHR2FaeHhldzdJNHFWN2ZIY3V3NjdGLU1kVzNSMHVYc25MSkROM2ZIVURwNWFJbjI2TWdITVcyT3BSYXp4Y3F6c2FpTXM5bVhIWjU5Y2RidmhQazFsYzVGaU1zUlk4UkhETzBr?oc=5",
-     "title": "Google tests a new look for mobile ad sitelinks",
-     "summary": "Google tests a new look for mobile ad sitelinks &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-28T17:17:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-overviews-loading-button-42170.html",
-     "title": "Google Tests Replacing Show More Button On AI Overviews With Loading...",
-     "summary": "Google is testing replacing the \"Show more\" button under the AI Overviews with a \"Loading...\" button. Also, earlier this year, Google tested \"Enter AI Mode\" for the button text but that obviously did not stick.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-28T11:21:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.seroundtable.com/google-local-panel-two-rows-of-buttons-42176.html",
-     "title": "Google Local Panel With Two Rows Of Buttons On Mobile",
-     "summary": "Google is testing showing two rows of action buttons of the local panels within mobile search. Google has been testing showing a more + sign to load more or a scrollable carousel of buttons and now here it is with two rows.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-29T11:41:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-testing-new-sitelinks-designs",
-     "title": "Google Testing New Sitelinks Designs",
-     "summary": "Google is testing a new design for sitelinks, aiming to enhance their appearance in search results. Sitelinks , which provide additional navigation links under search ads, are receiving attention to improve user engagement and visibility. The current test involves variations in both design and layout compared to the standard sitelinks presentation. This update was shared by Barry Schwartz . The post Google Testing New Sitelinks Designs appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-30T07:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-tests-sitelinks-expandable-descriptions",
-     "title": "Bing Tests Sitelinks With Expandable Descriptions",
-     "summary": "Bing is testing a new variation of expandable sitelinks within its search results. This version reveals descriptions under the sitelinks when users hover over them. The test appears to enhance user interaction by providing more contextual information for each sitenk. This update was shared by Sachin Patel and also reported by Barry Schwartz . The post Bing Tests Sitelinks With Expandable Descriptions appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-30T12:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/target-roas-edits-blocked-in-promotion-mode",
-     "title": "Target ROAS Edits Blocked in Promotion Mode",
-     "summary": "Google Ads users have discovered that while promotion mode is active, editing the Target ROAS &nbsp;is restricted.&nbsp; When promotion mode is on, a blue information banner appears, indicating that the Target ROAS cannot be changed. A confirmation message confirms the use of the Target ROAS bid strategy in its current state. This update was shared by Arpan Banerjee and&nbsp; Adriaan Dekker . The post Target ROAS Edits Blocked in Promotion Mode appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-28T12:00:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-adds-conversion-value-forecasts-budget-changes",
-     "title": "Google Ads Adds Conversion Value Forecasts to Budget Changes",
-     "summary": "Google Ads is now displaying a new \"Budget Change Alert + Forecast\" feature within campaign budget settings.&nbsp; This feature alerts advertisers to potential conversion value decreases when reducing their daily budget for campaigns, highlighting them as \"limited by budget.\" The alert includes a forecast of projected weekly conversion value declines and suggests an increase in daily budget to achieve higher conversion goals. An alert icon appears beside the budget settings to emphasize the guidance. This update was spotted by Thomas Eccel . The post Google Ads Adds Conversion Value Forecasts ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-28T14:00:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjhNZEtGS003TGRldlJldmRlcFh5dzBma0VSUlAySDNjbFlkc2gwdlRuYTZTWFpoMWFOZllHNkFHMUFKQnozZERQMFVVZEVVOFZHMlFWcjRsN1VMbVF0aUFzemtDN0VTcUEwaVpMV3hNOWd1RlF4RFJNa0t3OUltZXJlbTBTdE80XzIybXhaVzdkcmtybVRDb2RrSlU3SUZPaXowb21WRkJSVVg0dzhmV19R?oc=5",
-     "title": "The August 17th Post-Mortem: What Google’s Smart Bidding update really changed",
-     "summary": "The August 17th Post-Mortem: What Google’s Smart Bidding update really changed &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-28T17:32:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-expands-promotion-mode-new-controls",
-     "title": "Google Ads Expands Promotion Mode With New Controls",
-     "summary": "Google Ads has added new abilities to Promotion Mode . This feature leverages Smart Bidding Exploration to help advertisers enhance their reach during promotional periods. Advertisers can now set specific start and end dates for promotions, adjust the Target ROAS tolerance, and assign an optional extra daily budget to capture additional traffic. Once the promotion period ends, campaigns automatically revert to their original Target ROAS and budget settings. This feature is currently in Beta and might not be available across all accounts yet. This update was shared by Vivek Gupta . The post Goo",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-30T14:00:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EbUFuTHAybFRCRVJjd3I5Tjl5ZHplcU1LT25sbzV6eWV6eW1VUGJrXzNnRExNME1pQlFqU3pOSnl2VWVkdVdKSGtjR0VsNS1qajN3UTN5Z0s5S2VJRFNrbXhfUzJaSlZYUGRwbHRDRGY?oc=5",
-     "title": "Is your Google Ads account ready for Q4?",
-     "summary": "Is your Google Ads account ready for Q4? &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-29T14:00:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://www.marketingbrew.com/stories/meta-ad-creative-diversification-best-practices-advertiser-approach",
-     "title": "How advertisers are adjusting to Meta’s ad creative diversification best practices",
-     "summary": "To get ads to rank highly, advertisers are getting guidance to switch up hooks, looks, and messaging.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-28T09:00:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-asset-groupinvalid-final-url-42204.html",
-     "title": "Google Ads: Have At Least One Asset Group To Avoid Invalid Final URL Error",
-     "summary": "Google Ads updated its destination not working policy document to \"provide additional examples for destination issues for advertisers,\" the company said. But Google also added a new line that says \"Make sure your campaign has at least one asset group configured. If an asset group is missing, you may receive an \"invalid final URL\" error during setup even if your destination URL is working correctly.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T11:05:00+00:00",
-     "score": 63
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google blokuje úpravy Target ROAS při aktivním režimu promocí",
-   "updated": "2026-10-02T00:00:36.373682+00:00",
-   "what": "Google Ads nově znemožňuje změnu cílové návratnosti investic (Target ROAS) v kampaních, kde je aktivní režim propagace (promotion mode). Při pokusu o úpravu se zobrazí modrý informační banner a uživatel může pokračovat pouze s aktuálním nastavením Target ROAS.",
-   "why": "Omezení ovlivňuje flexibilitu řízení smart bidding strategií během kampaní s propagacemi. Pro marketéry to znamená, že musí Target ROAS nastavit správně předem, nebo režim propagí dočasně deaktivovat pro úpravu bidding strategie.",
-   "takeaway": "Pokud plánujete kampaně s promotion mode, nastavte Target ROAS předem na správnou hodnotu. Během aktivní propagace nebude možné bidding strategii upravit bez vypnutí režimu promocí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/6bc68e9c54.jpg",
-   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "4c6b386040",
