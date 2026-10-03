@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-03T19:19:48.948082+00:00",
+ "last_run": "2026-10-03T23:11:27.210957+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -5289,9 +5289,18 @@
  },
  "events": [
   {
-   "id": "e32340b45b",
-   "created": "2026-10-02T12:15:00+00:00",
+   "id": "0f7f6c0bde",
+   "created": "2026-10-01T00:00:00+00:00",
    "articles": [
+    {
+     "url": "https://business.google.com/us/think/ai-excellence/holiday-shopping-ai-product-discovery",
+     "title": "Holiday shoppers use AI to brainstorm. Will it name your brand?",
+     "summary": "Google’s Official Digital Marketing Publication. Discover how to win holiday shoppers as AI is reshaping product discovery for today's consumers.",
+     "source": "Think with Google",
+     "domain": "business.google.com",
+     "published": "2026-10-01T00:00:00+00:00",
+     "score": 45
+    },
     {
      "url": "https://martech.org/ai-is-making-customers-expect-more-and-tolerate-less",
      "title": "AI is making customers expect more and tolerate less",
@@ -5313,13 +5322,193 @@
    ],
    "category": "ai",
    "importance": 55,
-   "title": "ChatGPT přidává virtuální zkoušení oblečení, AI zároveň zvyšuje nároky zákazníků",
-   "updated": "2026-10-03T19:21:34.644545+00:00",
-   "what": "ChatGPT spustil funkci virtuálního vyzkoušení oblečení a doplňků. Zároveň studie ukazuje, že AI zákazníky vede k vyšším očekáváním rychlosti a méně tolerují nevyřešené problémy nebo nedostupnost lidské obsluhy.",
-   "why": "Pro české e-shopy a zákaznický servis jde o dvojí signál: AI nástroje sice zvyšují rychlost služeb, ale zákazníci budou zároveň přísnější, pokud rychlá odpověď nepomůže nebo není cesta k člověku.",
-   "takeaway": "Pokud zavádíte AI chatboty nebo automatizaci v zákaznickém servisu, zajistěte jasnou a rychlou eskalaci na živého operátora. Rychlost sama o sobě nestačí – zákazníci čekají skutečné řešení problému.",
+   "title": "ChatGPT spustil virtuální zkoušení oblečení a doplňků",
+   "updated": "2026-10-03T23:12:33.561422+00:00",
+   "what": "ChatGPT přidal funkci virtuální zkoušky oblečení a doplňků. Jde o rozšíření AI asistenta o vizuální produktovou interakci přímo v chatu.",
+   "why": "Ukazuje posun AI z textové odpovědi na vizuální product discovery – zákazníci budou očekávat podobné nástroje i v e-shopech a kampaních. Posiluje roli AI v nákupním procesu, kterou zmiňuje i Google: lidé začínají nákupní brainstorming s AI, ne s vyhledávačem.",
+   "takeaway": "Sledujte, jak zákazníci používají AI k hledání produktů – může to změnit, kde a jak inzerovat. Zvažte, zda váš e-shop nebo kampaně nabízejí vizuální pomůcky (AR, size guide), které AI zatím neumí nahradit.",
    "importance_label": "stojí za pozornost",
-   "multi_source": true
+   "multi_source": true,
+   "image": "img/0f7f6c0bde.jpg",
+   "image_from": "business.google.com"
+  },
+  {
+   "id": "cd6a67a724",
+   "created": "2026-10-02T12:00:09+00:00",
+   "articles": [
+    {
+     "url": "https://www.searchenginejournal.com/when-a-search-query-becomes-a-standing-instruction/591690",
+     "title": "When A Search Query Becomes A Standing Instruction via @sejournal, @MattGSouthern",
+     "summary": "Google's AI Mode monitoring and OpenAI's dots keep requests active, with different tasks, sources, controls, and questions about site visibility. The post When A Search Query Becomes A Standing Instruction appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-02T12:00:09+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://digichef.cz/seo-restart-2026",
+     "title": "SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web",
+     "summary": "24. září 2026 proběhl 12. ročník největší české konference věnované SEO. A jestli se dá letošní SEO Restart shrnout jednou větou, pak asi takhle: AI mění způsoby vyhledávání, ale kvalitně postavené SEO základy pořád zůstávají. Letošní SEO Restart byl pro mě speciální i tím, že jsem ho poprvé sledoval z pohledu spoluorganizátora. Programem v pražském... The post SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-10-02T14:08:19+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787",
+     "title": "Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "Google adds fact-checking to its AI content guidance, Gemini links show UTM tags, desktop CTR fell in Q2, and a judge dismisses two AI suits. The post Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-03T12:00:26+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWhndzA2MTdabjVzb3dTT0x1S2tRcEhyNlMzcWZZV192QU92WTdWR3RNQ2VBZTByZklDR3hVWTlYbndZNzFaMEJQUXd3Rlh1cllXZFdQclFUR2ZlVWI5VmZsWk1ETC1meEJlZngzRVlJTm5yUHJDeXliRGZzMVNvMUkwNllwVlFMNjlWRUV5cVk5aHBOTXZnQzM4bnZ6bHVVRldSMkkyYWhkZnljdEljc3pOM2ZkTFpUOUpLRUVwdkZaZw?oc=5",
+     "title": "Google says main content is critical and describes how search quality raters evaluate it",
+     "summary": "Google says main content is critical and describes how search quality raters evaluate it &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T12:33:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "seo",
+   "importance": 72,
+   "title": "Google vyžaduje fact-checking AI obsahu, hlavní obsah stránky je kritický",
+   "updated": "2026-10-03T23:12:24.705513+00:00",
+   "what": "Google aktualizoval své pokyny k AI obsahu – nyní výslovně požaduje, aby AI generovaný obsah byl fact-checkovaný. Zároveň Google znovu zdůraznil, že hlavní obsah stránky je kritický faktor hodnocení kvality a popsal, jak ho hodnotí Search Quality Raters.",
+   "why": "Pro weby v ČR to znamená dvě důležité věci: pokud používáte AI na tvorbu obsahu, nestačí ho jen publikovat – musíte ho fakticky ověřit. A hlavní obsah stránky (MC = Main Content) je klíčový pro hodnocení kvality ze strany Googlu, proto mu musíte věnovat největší pozornost.",
+   "takeaway": "Pokud na webu publikujete AI obsah, zavedte povinnou faktickou kontrolu před zveřejněním. Zkontrolujte, zda je hlavní obsah vašich stránek kvalitní, fakticky správný a jasně oddělený od reklam a navigace – právě to hodnotí Google raters.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/cd6a67a724.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "ecad0eab72",
+   "created": "2026-10-01T11:11:00+00:00",
+   "articles": [
+    {
+     "url": "https://www.seroundtable.com/google-search-more-products-test-42191.html",
+     "title": "Google Search Tests 3 Products In Grid That Expands To More",
+     "summary": "Google is testing showing three products in the more products grid within Google Search. In some tests, the grid can expand to show four or five or so products across or downsize to only show three.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T11:11:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-new-product-grid-layout-shopping-ads",
+     "title": "Google Tests New Product Grid Layout in Shopping Ads",
+     "summary": "Google is testing a new layout for sponsored products in search results, making them appear like the organic product grid.&nbsp; This update was shared by Brodie Clark &nbsp;and Barry Schwartz . The post Google Tests New Product Grid Layout in Shopping Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-02T07:00:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/bing-recommended-by-products-section-42193.html",
+     "title": "Bing Product Results With Recommended By Section",
+     "summary": "Microsoft Bing is testing a new'ish section labeled \"Recommended by\" followed by the company making the recommendations. The weird thing is, the specific product thumbnails link to various retailers and not the place that recommended it.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:31:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-two-dotted-menus-search-ads",
+     "title": "Google Tests Two Dotted Menus in Search Ads",
+     "summary": "Google is testing a new feature in sponsored search results, incorporating two distinct dotted menus. One appears by the URL and another by the ad headline.&nbsp; When clicked, these lines either direct the user to the landing page or display a ' Why this ad ' pop-up offering additional information about the ad. This update was shared by Khushal Bherwani . The post Google Tests Two Dotted Menus in Search Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-03T05:10:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-business-name-policy-42214.html",
+     "title": "Google Ads To Allow Some Advertisers To Use Different Business Names",
+     "summary": "Google Ads will update its business name policy to allow some advertisers to use a business name that differs from the ad's destination domain. This is limited to certain cases, specifically three cases and it also excludes advertisers who are not the direct verified brand.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:05:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOU1fSmtYcFhiNlR1LTcycThEbEFrUDRJYnN5YXJJZmk3Mml1ZUFRRGVRcUU0MHd0R0lWZ2RlbkJ3ajdrNkM4VElRM25MbGdNTkpST2txVzJ3TW5ESDl2ZnVEdzhwMGwxT0Y4THF5bUNwZUFZSmR3ZS16cU5rX0stWTdhWTNnT0VUaG40QVZhMGRLM2hmcnMwcG53cw?oc=5",
+     "title": "Google Ads loosens business name rules for some advertisers",
+     "summary": "Google Ads loosens business name rules for some advertisers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T16:09:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-sitelinks-ai-mode-42206.html",
+     "title": "Google Ads Sitelinks Format In AI Mode",
+     "summary": "Google Ads show up a lot within AI Mode these days and with that, Google is testing various ad formats to see which formats get the highest click-through rate (unlike links in AI Mode). Here is a screenshot of what may be the Google Ads Sitelinks within AI Mode.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:11:00+00:00",
+     "score": 61
+    },
+    {
+     "url": "https://www.seroundtable.com/google-loyalty-customer-match-expands-42216.html",
+     "title": "Google Loyalty Customer Match Expands To AI Mode & More Regions",
+     "summary": "Google made several changes to the about merchant loyalty program within the Google Merchant Center help documentation. The key changes are that Loyalty Customer Match expanded to AI Mode and Gemini and to more regions, but there are even more changes noted in the help documentation.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:51:00+00:00",
+     "score": 63
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFBCdC1hUWNqWEtsUXhIWk9NMWxWVjJfR01aX3hLYWZ2T0ladEZybHdZZ01jQXQ4OXd3WTdDQmh4QlB4TE84alAtMWstUEZCUVE5YmxyX3FNd016N21LUTJSekFQVENTcVNCTjdUT0JxVW1EN0UxMFhabE1wM2RsYXh0V0ZNN29wYjJ1bzRCdENVazBfWERDNVhCa1ZxZGtncHphUzh2aERodmpiUXhMdFlB?oc=5",
+     "title": "Google Ads adds AI-powered campaign localization for international expansion",
+     "summary": "Google Ads adds AI-powered campaign localization for international expansion &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:39:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdG8xaGZDRmtidkd0RFNLZW41WXo5SVJKQ0o0dDNpYTg4em1ORjJPODVTOUtVOHQ0SzRyRGhCbG5MMmwtZVBTWFAyYVFCZ3BwVldvV04wc19odXJIN1EyYS1EUlRSenRFOWJmNzVxY2pLM1AwWUFaRFEzaFlzT0wzWnVKUUJPLW9lRG02YktzNUhuclMzSFlYWDNmRUtMdw?oc=5",
+     "title": "Google Ads brings A/B testing to Performance Max asset groups",
+     "summary": "Google Ads brings A/B testing to Performance Max asset groups &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T15:55:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-sponsored-products-results-missing-images-42213.html",
+     "title": "Google Ads Sponsored Products Results Missing Images",
+     "summary": "Google Ads may have a bug or maybe it is testing, not showing images on sponsored product results. You can see from the screenshot below, the images that are generally shown above the ad titles and descriptions are missing from the Sponsored products carousel in Google Search.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-02T11:21:00+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-updates-editorial-policy-for-business-names",
+     "title": "Google Updates Editorial Policy for Business Names",
+     "summary": "Google will update its Business name requirements policy in October 2026, allowing differences between a business name and destination domain in select cases.&nbsp; This policy change applies if the business name accurately represents the recognized brand of the advertiser, there is a verified direct relationship with the domain owner, and the products or services are directly offered on the destination domain.&nbsp; However, third-party resellers and similar intermediaries are not eligible to use the standalone brand name as their business name. Read the official announcement here: Update to ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-03T14:00:00+00:00",
+     "score": 67
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Google Ads povolí některým inzerentům používat odlišný název firmy",
+   "updated": "2026-10-03T23:12:13.392837+00:00",
+   "what": "Google Ads aktualizuje pravidla pro zobrazování názvu firmy v reklamách. Vybraní inzerenti budou moci používat název firmy, který se liší od domény cílové stránky – v určitých konkrétních případech (Google uvádí tři specifické situace). Změna se netýká inzerentů, kteří nejsou přímými ověřenými držiteli značky.",
+   "why": "Dosud bylo pravidlem, že název v reklamě musí odpovídat doméně webu. Uvolnění tohoto pravidla dává větším či holdingovým strukturám flexibilitu v kampraních (např. pokud kampaň běží pod jinou doménou než je hlavní brand). Pro většinu běžných inzerentů se přímý dopad neprojeví, ale kdo má složitější firemní strukturu, měl by změnu pravidel sledovat.",
+   "takeaway": "Pokud inzerujete přes Google Ads pod více doménami nebo brandovými strukturami, zkontrolujte novou politiku business name – může vám umožnit flexibilnější nastavení kampaní. Pokud jste standardní inzerent s jednou značkou a doménou, tato změna vás neovlivní.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true,
+   "image": "img/ecad0eab72.jpg",
+   "image_from": "seroundtable.com"
   },
   {
    "id": "e02b9e375e",
@@ -5400,50 +5589,6 @@
    "multi_source": true,
    "image": "img/17e4a7548c.jpg",
    "image_from": "ahrefs.com"
-  },
-  {
-   "id": "cd6a67a724",
-   "created": "2026-10-02T12:00:09+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/when-a-search-query-becomes-a-standing-instruction/591690",
-     "title": "When A Search Query Becomes A Standing Instruction via @sejournal, @MattGSouthern",
-     "summary": "Google's AI Mode monitoring and OpenAI's dots keep requests active, with different tasks, sources, controls, and questions about site visibility. The post When A Search Query Becomes A Standing Instruction appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-02T12:00:09+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://digichef.cz/seo-restart-2026",
-     "title": "SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web",
-     "summary": "24. září 2026 proběhl 12. ročník největší české konference věnované SEO. A jestli se dá letošní SEO Restart shrnout jednou větou, pak asi takhle: AI mění způsoby vyhledávání, ale kvalitně postavené SEO základy pořád zůstávají. Letošní SEO Restart byl pro mě speciální i tím, že jsem ho poprvé sledoval z pohledu spoluorganizátora. Programem v pražském... The post SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-10-02T14:08:19+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787",
-     "title": "Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "Google adds fact-checking to its AI content guidance, Gemini links show UTM tags, desktop CTR fell in Q2, and a judge dismisses two AI suits. The post Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-03T12:00:26+00:00",
-     "score": 57
-    }
-   ],
-   "category": "seo",
-   "importance": 68,
-   "title": "Google doporučuje fact-checking AI obsahu, Gemini přidává UTM tagy",
-   "updated": "2026-10-03T19:21:09.597826+00:00",
-   "what": "Google aktualizoval své pokyny pro AI obsah – nově výslovně doporučuje fact-checking. Současně Gemini začal automaticky přidávat UTM tagy do odkazů, což umožňuje sledovat návštěvnost z AI vyhledávání. Desktop CTR u Googlu kleslo v Q2 2025.",
-   "why": "Pokud vytváříte obsah s pomocí AI, Google po vás nově explicitně vyžaduje ověřování faktů. UTM tagy v Gemini znamenají, že můžete poprvé měřit provoz z AI odpovědí – což je klíčové pro vyhodnocení dopadu AI vyhledávání na váš web. Klesající CTR na desktopu naznačuje pokračující posun k mobilu a AI odpovědím.",
-   "takeaway": "Pokud používáte AI pro tvorbu obsahu, zabudujte fact-checking do workflow. V Google Analytics 4 začněte sledovat UTM parametr z Gemini, abyste viděli, kolik návštěv vám AI vyhledávání přináší. Sledujte trendy CTR napříč zařízeními.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/cd6a67a724.jpg",
-   "image_from": "searchenginejournal.com"
   },
   {
    "id": "af4525bfce",
@@ -5551,146 +5696,6 @@
    "multi_source": true,
    "image": "img/af4525bfce.jpg",
    "image_from": "seroundtable.com"
-  },
-  {
-   "id": "ecad0eab72",
-   "created": "2026-10-01T11:11:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-search-more-products-test-42191.html",
-     "title": "Google Search Tests 3 Products In Grid That Expands To More",
-     "summary": "Google is testing showing three products in the more products grid within Google Search. In some tests, the grid can expand to show four or five or so products across or downsize to only show three.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T11:11:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-new-product-grid-layout-shopping-ads",
-     "title": "Google Tests New Product Grid Layout in Shopping Ads",
-     "summary": "Google is testing a new layout for sponsored products in search results, making them appear like the organic product grid.&nbsp; This update was shared by Brodie Clark &nbsp;and Barry Schwartz . The post Google Tests New Product Grid Layout in Shopping Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-02T07:00:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-recommended-by-products-section-42193.html",
-     "title": "Bing Product Results With Recommended By Section",
-     "summary": "Microsoft Bing is testing a new'ish section labeled \"Recommended by\" followed by the company making the recommendations. The weird thing is, the specific product thumbnails link to various retailers and not the place that recommended it.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:31:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-tests-two-dotted-menus-search-ads",
-     "title": "Google Tests Two Dotted Menus in Search Ads",
-     "summary": "Google is testing a new feature in sponsored search results, incorporating two distinct dotted menus. One appears by the URL and another by the ad headline.&nbsp; When clicked, these lines either direct the user to the landing page or display a ' Why this ad ' pop-up offering additional information about the ad. This update was shared by Khushal Bherwani . The post Google Tests Two Dotted Menus in Search Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-03T05:10:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-business-name-policy-42214.html",
-     "title": "Google Ads To Allow Some Advertisers To Use Different Business Names",
-     "summary": "Google Ads will update its business name policy to allow some advertisers to use a business name that differs from the ad's destination domain. This is limited to certain cases, specifically three cases and it also excludes advertisers who are not the direct verified brand.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:05:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOU1fSmtYcFhiNlR1LTcycThEbEFrUDRJYnN5YXJJZmk3Mml1ZUFRRGVRcUU0MHd0R0lWZ2RlbkJ3ajdrNkM4VElRM25MbGdNTkpST2txVzJ3TW5ESDl2ZnVEdzhwMGwxT0Y4THF5bUNwZUFZSmR3ZS16cU5rX0stWTdhWTNnT0VUaG40QVZhMGRLM2hmcnMwcG53cw?oc=5",
-     "title": "Google Ads loosens business name rules for some advertisers",
-     "summary": "Google Ads loosens business name rules for some advertisers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T16:09:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-sitelinks-ai-mode-42206.html",
-     "title": "Google Ads Sitelinks Format In AI Mode",
-     "summary": "Google Ads show up a lot within AI Mode these days and with that, Google is testing various ad formats to see which formats get the highest click-through rate (unlike links in AI Mode). Here is a screenshot of what may be the Google Ads Sitelinks within AI Mode.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:11:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://www.seroundtable.com/google-loyalty-customer-match-expands-42216.html",
-     "title": "Google Loyalty Customer Match Expands To AI Mode & More Regions",
-     "summary": "Google made several changes to the about merchant loyalty program within the Google Merchant Center help documentation. The key changes are that Loyalty Customer Match expanded to AI Mode and Gemini and to more regions, but there are even more changes noted in the help documentation.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:51:00+00:00",
-     "score": 63
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFBCdC1hUWNqWEtsUXhIWk9NMWxWVjJfR01aX3hLYWZ2T0ladEZybHdZZ01jQXQ4OXd3WTdDQmh4QlB4TE84alAtMWstUEZCUVE5YmxyX3FNd016N21LUTJSekFQVENTcVNCTjdUT0JxVW1EN0UxMFhabE1wM2RsYXh0V0ZNN29wYjJ1bzRCdENVazBfWERDNVhCa1ZxZGtncHphUzh2aERodmpiUXhMdFlB?oc=5",
-     "title": "Google Ads adds AI-powered campaign localization for international expansion",
-     "summary": "Google Ads adds AI-powered campaign localization for international expansion &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T15:39:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdG8xaGZDRmtidkd0RFNLZW41WXo5SVJKQ0o0dDNpYTg4em1ORjJPODVTOUtVOHQ0SzRyRGhCbG5MMmwtZVBTWFAyYVFCZ3BwVldvV04wc19odXJIN1EyYS1EUlRSenRFOWJmNzVxY2pLM1AwWUFaRFEzaFlzT0wzWnVKUUJPLW9lRG02YktzNUhuclMzSFlYWDNmRUtMdw?oc=5",
-     "title": "Google Ads brings A/B testing to Performance Max asset groups",
-     "summary": "Google Ads brings A/B testing to Performance Max asset groups &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T15:55:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/google-sponsored-products-results-missing-images-42213.html",
-     "title": "Google Ads Sponsored Products Results Missing Images",
-     "summary": "Google Ads may have a bug or maybe it is testing, not showing images on sponsored product results. You can see from the screenshot below, the images that are generally shown above the ad titles and descriptions are missing from the Sponsored products carousel in Google Search.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-02T11:21:00+00:00",
-     "score": 55
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads testuje nové formáty: mřížky produktů, dvě tečkovaná menu, jiné firemní názvy",
-   "updated": "2026-10-03T19:20:44.044802+00:00",
-   "what": "Google testuje hned několik změn v zobrazování reklam ve vyhledávání. Zkoušejí nový grid layout u sponzorovaných produktů (podobný organickému zobrazení), dvě tečkovaná menu u textových reklam (jedno u URL, druhé u titulku s funkcí 'Why this ad') a rozšiřují či zmenšují počet produktů v mřížce (3–5 položek). Dále Google uvolňuje pravidla pro firemní názvy v reklamách – v určitých případech bude možné použít jiný název, než je doména cílové stránky (týká se tří specifických případů, netýká se přímých vlastníků značek). Zároveň Google rozšiřuje Loyalty Customer Match na AI Mode, Gemini a další regiony.",
-   "why": "Pro PPC specialisty a e-shopy jde o potenciální změny v tom, jak jejich reklamy vypadají a fungují – nové formáty mohou ovlivnit CTR i uživatelskou zkušenost. Pravidlo firemních názvů může umožnit flexibilnější branding v kampaních, ale jen ve specifických situacích. Rozšíření Loyalty Customer Match může otevřít nové možnosti cílení u věrnostních programů, i když není zatím jasné, zda a kdy dorazí do ČR.",
-   "takeaway": "Sledujte, zda se vám ve výsledcích kampaní objeví tyto nové formáty – můžou dočasně ovlivnit metriky (CTR, konverze). Pokud používáte Google Merchant Center a máte věrnostní program, sledujte dostupnost Loyalty Customer Match v ČR. Změna pravidel pro firemní názvy se vás pravděpodobně netýká, pokud nejste v jedné ze tří specifických kategorií (detaily Google zatím nepublikoval).",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true,
-   "image": "img/ecad0eab72.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "a734640b82",
-   "created": "2026-10-03T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-updates-editorial-policy-for-business-names",
-     "title": "Google Updates Editorial Policy for Business Names",
-     "summary": "Google will update its Business name requirements policy in October 2026, allowing differences between a business name and destination domain in select cases.&nbsp; This policy change applies if the business name accurately represents the recognized brand of the advertiser, there is a verified direct relationship with the domain owner, and the products or services are directly offered on the destination domain.&nbsp; However, third-party resellers and similar intermediaries are not eligible to use the standalone brand name as their business name. Read the official announcement here: Update to ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-03T14:00:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 45,
-   "title": "Google povolí od října 2026 obchodní jména neshodující se s doménou",
-   "updated": "2026-10-03T14:47:47.230640+00:00",
-   "what": "Google aktualizuje pravidla pro obchodní jména v reklamách. Od října 2026 povolí v určitých případech rozdíl mezi obchodním jménem a cílovou doménou. Změna se týká situací, kdy obchodní jméno přesně reprezentuje uznávanou značku inzerenta, existuje ověřený přímý vztah s majitelem domény a produkty či služby jsou skutečně nabízeny přímo na cílové doméně.",
-   "why": "Jde o uvolnění stávajících pravidel, které dosud vyžadovalo shodu názvu firmy a domény v reklamách. Pro firmy s autorizovanými partnery nebo specifickými vztahy ke značkám to může zjednodušit správu kampaní. Třetí strany a resellery na tuto výjimku nárok nemají.",
-   "takeaway": "Pokud inzerujete produkty uznávané značky, s kterou máte ověřený partnerský vztah, ale na jiné doméně, můžete od října 2026 používat název této značky v reklamách. Ověřte si podmínky u Google a připravte si případně dokumentaci prokazující tento vztah. Pro běžné resellery se pravidla nemění.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "fa81b5cbed",
@@ -6610,56 +6615,6 @@
    "multi_source": true,
    "image": "img/8b73012736.jpg",
    "image_from": "about.fb.com"
-  },
-  {
-   "id": "5d896403ec",
-   "created": "2026-10-02T12:33:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWhndzA2MTdabjVzb3dTT0x1S2tRcEhyNlMzcWZZV192QU92WTdWR3RNQ2VBZTByZklDR3hVWTlYbndZNzFaMEJQUXd3Rlh1cllXZFdQclFUR2ZlVWI5VmZsWk1ETC1meEJlZngzRVlJTm5yUHJDeXliRGZzMVNvMUkwNllwVlFMNjlWRUV5cVk5aHBOTXZnQzM4bnZ6bHVVRldSMkkyYWhkZnljdEljc3pOM2ZkTFpUOUpLRUVwdkZaZw?oc=5",
-     "title": "Google says main content is critical and describes how search quality raters evaluate it",
-     "summary": "Google says main content is critical and describes how search quality raters evaluate it &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T12:33:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "seo",
-   "importance": 55,
-   "title": "Google upřesnil, jak hodnotí hlavní obsah stránky pro vyhledávání",
-   "updated": "2026-10-02T17:57:01.707723+00:00",
-   "what": "Google zveřejnil podrobnější informace o tom, jak jeho quality rateři (hodnotitelé kvality) vyhodnocují hlavní obsah (main content) webových stránek. Zdůraznil, že právě hlavní obsah je kritický faktor pro hodnocení kvality stránky ve vyhledávání.",
-   "why": "Pro SEO specialisty i obsahové tvůrce je důležité pochopit, co Google považuje za hlavní obsah a podle jakých kritérií ho hodnotí. Tato informace přímo ovlivňuje, jak optimalizovat stránky pro lepší umístění ve vyhledávání.",
-   "takeaway": "Při tvorbě a optimalizaci obsahu se zaměřte na to, aby byl hlavní obsah stránky jasně oddělitelný od reklam a doplňkových prvků a plnil primární účel stránky. Projděte si Googlovo oficiální vysvětlení, abyste lépe rozuměli tomu, jak rateři vaše stránky hodnotí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "0f7f6c0bde",
-   "created": "2026-10-01T00:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://business.google.com/us/think/ai-excellence/holiday-shopping-ai-product-discovery",
-     "title": "Holiday shoppers use AI to brainstorm. Will it name your brand?",
-     "summary": "Google’s Official Digital Marketing Publication. Discover how to win holiday shoppers as AI is reshaping product discovery for today's consumers.",
-     "source": "Think with Google",
-     "domain": "business.google.com",
-     "published": "2026-10-01T00:00:00+00:00",
-     "score": 45
-    }
-   ],
-   "category": "ai",
-   "importance": 65,
-   "title": "Google: 40 % amerických spotřebitelů používá AI při vánočním nakupování",
-   "updated": "2026-10-02T17:57:01.707723+00:00",
-   "what": "Google zveřejnil studii o tom, jak AI mění chování spotřebitelů během vánoční sezóny. Ukazuje, že lidé používají AI nástroje (jako ChatGPT, Gemini) k brainstormingu nápadů na dárky, nikoliv jen k vyhledávání konkrétních produktů.",
-   "why": "Jde o posun ve způsobu, jak lidé začínají hledat produkty – místo zadání konkrétní značky nebo produktu do Google žádají AI o návrhy. Pro značky to znamená, že musí zajistit, aby jejich produkty AI doporučovala, ne jen aby byly viditelné ve vyhledávání.",
-   "takeaway": "Sledujte, jak AI nástroje mluví o vaší kategorii produktů – zda vás zmíní. Začněte uvažovat o optimalizaci pro AI doporučení (strukturovaná data, kvalitní popisy), i když dopad v ČR zatím není kvantifikovaný. Trend z USA pravděpodobně dorazí i k nám.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/0f7f6c0bde.jpg",
-   "image_from": "business.google.com"
   },
   {
    "id": "580bf5b667",
