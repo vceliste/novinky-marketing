@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-04T10:40:48.918489+00:00",
+ "last_run": "2026-10-04T16:55:43.405420+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 4
   },
   {
    "name": "Lupa.cz",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://ppcnewsfeed.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -5295,160 +5295,108 @@
   "https://cc.cz/netflix-zavrel-lidi-do-vezeni-jako-slavny-vedec-chce-zjistit-jestli-moc-skutecne-kazi-charakter": "2026-10-04T10:40:48.918489+00:00",
   "https://cc.cz/v-19-letech-postavili-uspesny-travel-portal-uci-cechy-cestovat-za-pulku-po-evrope-i-zbytku-sveta": "2026-10-04T10:40:48.918489+00:00",
   "https://www.mediar.cz/zebricek-medialnich-znacek-google-vede-u-spotrebitelu-marketeri-nejvic-veri-youtube": "2026-10-04T10:40:48.918489+00:00",
-  "https://www.mediar.cz/galerie-reklamy/lukas-pavlasek-jako-trener-pocitacovych-hracu-datart-se-zameril-na-gaming": "2026-10-04T10:40:48.918489+00:00"
+  "https://www.mediar.cz/galerie-reklamy/lukas-pavlasek-jako-trener-pocitacovych-hracu-datart-se-zameril-na-gaming": "2026-10-04T10:40:48.918489+00:00",
+  "https://cc.cz/zarici-vrazedkyne-nejlepsi-prasan-v-japonsku-a-tata-a-syn-kteri-expanduji-s-hotely": "2026-10-04T16:55:43.405420+00:00",
+  "https://cc.cz/svaty-gral-je-ve-tretim-patre-bez-vytahu-pruvodce-prazskymi-podniky-kde-si-neco-dobreho-date-i-zahrajete": "2026-10-04T16:55:43.405420+00:00",
+  "https://cc.cz/kdybych-byla-muz-byznysove-schuzky-by-vypadaly-jinak-monika-stepanova-o-plavani-discipline-i-startupu": "2026-10-04T16:55:43.405420+00:00",
+  "https://cc.cz/z-kostela-loftove-bydleni-na-ustecku-je-na-prodej-pamatka-ktera-prezila-tezbu-i-krach-farnosti": "2026-10-04T16:55:43.405420+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbXVUYnIxOVZQbkN5N3hWbEtPTEdQNkdmNG53SVF5QlNDY2VhalR5ZTRyOElXTXZHZGlSTUZMbUN5d3VuOG0ydFJ0dWxWV1hiODlhQlQ5SEwwaEg0NTZaMkhZLTRoejdQb2tIeXFId2pIcGtaUlRXSGEtdlJYODVDWDVKNjZ0SVRkcVNacUdYQmpCT1cxV3YzR0JB?oc=5": "2026-10-04T16:55:43.405420+00:00"
  },
  "events": [
   {
-   "id": "0e2b8ca96c",
-   "created": "2026-09-29T08:16:29+00:00",
+   "id": "53bc11cb61",
+   "created": "2026-09-30T09:00:00+00:00",
    "articles": [
     {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUTk0ZFVvU0txQThVODBpTjk3TEsxLTduQ3FrVHVTcHgyYWdIVXlRSllhWW5XZFdmWER4djFta0FudnR4bHRidnJnSTVuX2ZESXBCM1o1bl9Ba2g5ajlkZ3RSaFdGUHkyQ2FtZENKa25lbzVuaXZLMDZBczI1NEt4eHUya0kwcTFxZk0zY2dxMG04SXNETVE?oc=5",
-     "title": "Zaplatíte si PR výstup. Uvidí ho ale i AI?",
-     "summary": "Zaplatíte si PR výstup. Uvidí ho ale i AI? &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-29T08:16:29+00:00",
-     "score": 52
+     "url": "https://www.marketingbrew.com/stories/the-state-of-the-cmo",
+     "title": "The State of the CMO",
+     "summary": "The age of AI is making marketing more important than ever—but more expectations and responsibilities, combined with largely flat budgets, are putting pressure on top practitioners.",
+     "source": "Marketing Brew",
+     "domain": "marketingbrew.com",
+     "published": "2026-09-30T09:00:00+00:00",
+     "score": 47
     },
     {
-     "url": "https://www.seroundtable.com/google-ai-overviews-citations-cards-bottom-42177.html",
-     "title": "Google AI Overviews Testing Citations Cards At Bottom (Not Right Side) Again",
-     "summary": "Google is testing showing citation cards at the bottom of AI Overview responses on desktop, instead of on the right side. Google tested variations of this at least twice before, once in March of 2026 and before that in September 2025.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-29T11:31:00+00:00",
-     "score": 65
+     "url": "https://www.mediar.cz/reklamy-uz-lidem-vadi-min-marketeri-ale-tapou-kam-smerovat-rozpocty",
+     "title": "Reklamy už lidem vadí míň. Marketéři ale tápou, kam směřovat rozpočty",
+     "summary": "Agentura Kantar v průzkumu Media Reactions oslovila 23.000 spotřebitelů a 800 marketérů.",
+     "source": "Médiář",
+     "domain": "mediar.cz",
+     "published": "2026-10-02T03:55:20+00:00",
+     "score": 47
     },
     {
-     "url": "https://www.searchenginejournal.com/how-are-enterprise-seo-pros-measuring-ai-overviews-llms-webinar/590971",
-     "title": "How Are Enterprise SEO Pros Measuring AI Overviews & LLMs? [Webinar] via @sejournal, @lorenbaker",
-     "summary": "Tom Capper of STAT walks through the biggest AI search measurement challenges and a tactical solution for each one: October 14 at 2 p.m. ET. The post How Are Enterprise SEO Pros Measuring AI Overviews &#038; LLMs? [Webinar] appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-30T07:45:08+00:00",
-     "score": 64
+     "url": "https://www.mediar.cz/zebricek-medialnich-znacek-google-vede-u-spotrebitelu-marketeri-nejvic-veri-youtube",
+     "title": "Žebříček mediálních značek: Google vede u spotřebitelů, marketéři nejvíc věří YouTube",
+     "summary": "Navýšit rozpočty plánují marketéři nejvíc na TikTok, zjistil Kantar v letošním průzkumu.",
+     "source": "Médiář",
+     "domain": "mediar.cz",
+     "published": "2026-10-04T03:55:39+00:00",
+     "score": 67
     },
     {
-     "url": "https://www.seroundtable.com/google-ai-overviews-large-brand-names-42195.html",
-     "title": "Google AI Overviews Return For Many Large Brand Names",
-     "summary": "Google seems to be showing more and more AI Overviews these days and even for many large brand names. It don't have a ton of data but Google does seems to be showing more and AI Overviews for almost every large brand name except for Google's own name and news publications.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T16:12:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-contribution-pilot-01-percent-42188.html",
-     "title": "Google Paying ~100 Publishers 0.1% Of Ad Revenue In AI Contribution Pilot",
-     "summary": "As you know, Google has a small pilot named the AI contribution pilot, where they are paying some publishers for using their content in AI features like AI Overviews, AI Mode and Gemini. Well, according to The Information, it is about 100 publishers and those publishers are getting about \"one-tenth of 1% of their advertising revenue.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T11:41:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.seroundtable.com/recap-09-30-2026-42189.html",
-     "title": "Daily Search Forum Recap: September 30, 2026",
-     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is only paying about 100 publishers in the AI contribution pilot...",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-30T14:00:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNem51dFExWl9fSVRxYmhteDhXRlJ1SUN5bWpZeTQ1UHNOenFFRnBfdnpyeHphbGpzQVRzeGtIb1R4b3VHTUR0TEpmZzVQU0hfcHZOWlhzcUZXZnhJV2F3ZTJSalp6Q29xeTZ6cWFZRzFJeWM3bXZSODNCUEZSV2E2Z1RqdjY0Y3l2M2MwRzhzb1JLNE1mVHNIdlh1NTJiWjFERTVXWEswak1GNmppMW83MA?oc=5",
-     "title": "Google AI contribution pilot earns publishers one-tenth of 1% of ad revenues",
-     "summary": "Google AI contribution pilot earns publishers one-tenth of 1% of ad revenues &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-30T15:50:00+00:00",
-     "score": 48
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUUcxdmh3NzRPRkFQT0xnLXVGYTFnb3JvMUhkX2hleWh0TUlGOGNOdjloeFR6WDZSc3duUWNmeFJERk54dkNiWGNySW9GUkFJRnM4UUY5UEc1YXpfWFZXVXdjR0ZLOGJFMHNIMXhfNDN1dVJsdGpnVjdlOFBBNFk?oc=5",
-     "title": "What 9 million AI answers reveal about search visibility",
-     "summary": "What 9 million AI answers reveal about search visibility &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-30T14:00:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/where-to-find-the-exact-phrases-that-get-your-content-cited-in-ai-search/591562",
-     "title": "Where to Find the Exact Phrases That Get Your Content Cited in AI Search via @sejournal, @hethr_campbell",
-     "summary": "Join CTM on October 13 to learn how first-party customer data can earn AI citations, improve FAQ content, and reveal which clicks become leads. The post Where to Find the Exact Phrases That Get Your Content Cited in AI Search appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-01T10:15:00+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.searchenginejournal.com/google-ai-pilot-pays-some-sites-under-0-1-of-ad-revenue/591717",
-     "title": "Google AI Pilot Pays Some Sites Under 0.1% Of Ad Revenue via @sejournal, @MattGSouthern",
-     "summary": "A new report says Google's AI contribution pilot pays publishers widely different amounts, and some participants still can't tell how payouts are calculated. The post Google AI Pilot Pays Some Sites Under 0.1% Of Ad Revenue appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-01T07:00:15+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzdpZ1RqalJsRFlHZWZ6VnFSWXdGbDVIR0w1U3FEOXBCaV9lWHB3WWN3LU9IM1JHTTNrNmMtVXZTb3lscE9sU0lrNHNVMUhWdkdDalRReW93bFppUnBHeHJBSkFmY2xJc3QzdlF5X0ozLTRrdmtNeUJGMm8yaVRuQ2h3TVNzcmo1eEsyeGg1ck1XV0MtbWRz?oc=5",
-     "title": "ChatGPT and Google AI favor large retailers in shopping answers",
-     "summary": "ChatGPT and Google AI favor large retailers in shopping answers &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-30T15:44:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ltM3IzUnoxR2RYMkpoYXl3S05pWjYzajJXd0hFcXptY1l6OGdHQS1udWRhWXgxOC1mdTE4S0JHM2hidG11cGZ2dkZCZHNGVy04ZTRtdTV5d3hTcjJtWXYwNEZ6MnVGUDgtT2Q2Q1JUMEJNNXN2UWRUWWY4VjdaN3dQUy1mMU1DQndSMmEwaw?oc=5",
-     "title": "Google AI Overviews jump from 26% to 80% of branded queries",
-     "summary": "Google AI Overviews jump from 26% to 80% of branded queries &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-01T16:17:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-overviews-team-rosters-42202.html",
-     "title": "Google AI Overviews Invade Team Rosters",
-     "summary": "Google seems to be going after team rosters with the latest Google AI Overview to overtake website content for its own AI-generated version of that content. If you search for certain team rosters, Google will generate an AI answer, an AI Overview, with the answer.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T11:41:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ahrefs.com/blog/marketers-ai-content-creation",
-     "title": "69% of Marketers Are Publishing More AI Content Than Last Year (New Research Report)",
-     "summary": "301 respondents shared what they’re using AI for, how it affects their productivity, their favorite tools, and more. AI use in content creation is almost ubiquitous, with 93% of respondents saying they utilize it Claude is the most-used model for &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-30T15:56:21+00:00",
-     "score": 55
-    },
-    {
-     "url": "https://www.mediaguru.cz/laska-ke-znacce-k-rustu-nevede-dulezitejsi-je-vybavitelnost-a-dostupnost",
-     "title": "Láska ke značce k růstu nevede, důležitější je vybavitelnost a dostupnost",
-     "summary": "Láska ke značce je mezi spotřebiteli spíše výjimkou a sama o sobě nevede k vyššímu nákupnímu chování. Na konferenci Brand Management to uvedla Rachel Kennedy z Ehrenberg-Bass Institute for Marketing Science. Podle prezentovaných dat jsou pro růst značek důležitější mentální dostupnost a silné distinktivní prvky.",
+     "url": "https://www.mediaguru.cz/vztah-klientu-a-agentur-se-v-ere-ai-meni-jak-to-ovlivni-cenu-prace",
+     "title": "Vztah klientů a agentur se v éře AI mění. Jak to ovlivní cenu práce?",
+     "summary": "Zadavatelé považují AI nástroje za dostupné a největší přínos vidí v jejich využití pro konkrétní marketingové úkoly. Výzkum AKA a ResSolution Group ale zároveň ukazuje, že s rostoucí automatizací se znovu otevírá otázka hodnoty agenturní práce, zaznělo na prvním dni konference Brand Management.",
      "source": "MediaGuru",
      "domain": "mediaguru.cz",
-     "published": "2026-10-02T05:55:00+00:00",
-     "score": 50
+     "published": "2026-10-01T10:35:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://blog.seznam.cz/2026/10/novinky-v-seznam-nakupech-prehlednejsi-statistiky-elektronicke-doruceni-a-chytrejsi-parametry",
+     "title": "Novinky v Seznam Nákupech: Přehlednější statistiky, elektronické doručení a chytřejší parametry",
+     "summary": "Nově najdete výkon své inzerce včetně meziročního srovnání jen ve svém rozhraní Skliku. Do Centra prodejce jsme přidali nový způsob doručení pro digitální sortiment, parametry nabídek rozdělili podle důležitosti a u objednávek ukazujeme, jestli se podařilo získat e-mail zákazníka. Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-10-01T07:22:00+00:00",
+     "score": 86
     }
    ],
-   "category": "seo",
-   "importance": 65,
-   "title": "Google AI Overviews se zobrazují častěji, i pro velké brandové dotazy",
-   "updated": "2026-10-04T10:42:31.694835+00:00",
-   "what": "Google rozšiřuje zobrazování AI Overviews i na dotazy obsahující jména velkých značek (výjimkou je Google samotný a některé zpravodajské weby). Současně testuje různé varianty umístění citačních karet – nyní opět na dně odpovědi místo na pravé straně. Podle dat z 9 milionů AI odpovědí roste celkově frekvence zobrazování této funkce.",
-   "why": "AI Overviews mění návštěvnost organických výsledků – pokud Google zobrazí AI odpověď, kliknutelnost běžných výsledků klesá. Dosud se AI Overviews méně objevovaly u brandových dotazů, což se ale mění. Pro SEO specialisty i manažery znamená rostoucí pokrytí AI odpovědí nutnost sledovat, zda a jak se jejich obsah v AI Overviews objevuje.",
-   "takeaway": "Sledujte, zda se váš web objevuje jako zdroj v AI Overviews u klíčových dotazů (zejména brandových). Měřte dopad AI odpovědí na organickou návštěvnost a kliknutelnost. Zvažte nástroje pro tracking AI výsledků (např. STAT a další enterprise SEO platformy).",
+   "category": "cesky-marketing",
+   "importance": 72,
+   "title": "Seznam Nákupy: nové statistiky, elektronické doručení a kategorizace parametrů",
+   "updated": "2026-10-04T16:56:56.670430+00:00",
+   "what": "Seznam aktualizoval prostředí Seznam Nákupů. Výkon inzerce včetně meziročního srovnání se nově zobrazuje pouze ve Skliku (už ne v Centru prodejce). Přibylo doručení pro digitální produkty, parametry nabídek jsou rozdělené podle důležitosti a u objednávek se zobrazuje, zda e-shop získal e-mail zákazníka.",
+   "why": "Změny ovlivňují denní práci s jednou z klíčových českých nákupních platforem. Přesun statistik do Skliku mění místo, kde prodejci kontrolují výkon, nový typ doručení otevírá možnost prodávat digitální zboží a kategorizace parametrů pomáhá rychleji optimalizovat feedová data.",
+   "takeaway": "Pokud pracujete se Seznam Nákupy, zkontrolujte, že máte správně nastavený přístup do Skliku pro sledování výkonu. Pokud prodáváte digitální produkty (e-booky, kurzy, software), můžete nyní využít elektronické doručení. U feedů se zaměřte na parametry označené jako důležité – mají prioritu pro viditelnost.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/de630407ef.jpg",
-   "image_from": "seroundtable.com"
+   "image": "img/21e0f8efb0.jpg",
+   "image_from": "blog.seznam.cz"
+  },
+  {
+   "id": "07e953a1bf",
+   "created": "2026-10-01T13:30:00+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/bing-tests-blurred-separator-sponsored-results",
+     "title": "Bing Tests Blurred Separator for Sponsored Results",
+     "summary": "Bing is testing a new feature in its sponsored results by adding a slight blurred horizontal line . This change aims to subtly differentiate ads from organic results on the search page. Here's another example with an ad showing in search results promoting an app. It indicates Bing's ongoing efforts to refine the user interface and ad visibility.&nbsp; This update was shared by Khushal Bherwani . The post Bing Tests Blurred Separator for Sponsored Results appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-01T13:30:00+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/bing-tests-new-ad-design-shopping-search-results",
+     "title": "Bing Tests New Ad Design in Shopping Search Results",
+     "summary": "Bing is currently testing a new ad design within its shopping search results. The test showcases a redesigned layout, using blue background, for sponsored ads, potentially altering the placement and presentation of ads in SERPs. This update was shared by Sachin Patel . The post Bing Tests New Ad Design in Shopping Search Results appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-04T07:00:00+00:00",
+     "score": 57
+    }
+   ],
+   "category": "ppc",
+   "importance": 45,
+   "title": "Bing testuje nové vizuální oddělení a design reklamních pozic",
+   "updated": "2026-10-04T16:56:31.078141+00:00",
+   "what": "Bing testuje dvě nové úpravy zobrazení reklam ve výsledcích vyhledávání: rozmazanou horizontální čáru pro oddělení sponzorovaných výsledků od organických a nový design reklam v nákupním vyhledávání s modrým pozadím. Jde o testy změn v uživatelském rozhraní a prezentaci reklam.",
+   "why": "Změny vizuálního oddělení reklam mohou ovlivnit jejich viditelnost a CTR. Výraznější oddělení může snížit prokliknutelnost reklam, pokud uživatelé budou lépe rozlišovat placené výsledky. Naopak nový design v shopping výsledcích může reklamy zvýraznit.",
+   "takeaway": "Pokud inzerujete na Bingu, sledujte metriky CTR a konverzí v následujících týdnech – výraznější oddělení reklam může ovlivnit výkon kampaní. Zatím jde o test, ne globální změnu, takže není potřeba okamžitá akce.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": false
   },
   {
    "id": "2b43204a1e",
@@ -5588,12 +5536,21 @@
      "domain": "ppcnewsfeed.com",
      "published": "2026-10-03T07:00:00+00:00",
      "score": 62
+    },
+    {
+     "url": "https://www.mediaguru.cz/ctv-uz-tvori-vetsinu-premiove-videoreklamy-v-evrope-programatik-dal-roste",
+     "title": "CTV už tvoří většinu prémiové videoreklamy v Evropě, programatik dál roste",
+     "summary": "Připojené televizory (CTV) se v první polovině letošního roku podílely na 53 % zhlédnutí prémiové videoreklamy v Evropě. Vyplývá to z nové studie společnosti FreeWheel. Výrazně rostl také programatický nákup videoreklamy a posilovalo živé vysílání, které těžilo především ze sportovních přenosů.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-10-03T07:25:00+00:00",
+     "score": 67
     }
    ],
    "category": "ppc",
    "importance": 72,
    "title": "Google LSA umožňuje uživatelům kontaktovat až 6 firem najednou",
-   "updated": "2026-10-04T10:42:22.085226+00:00",
+   "updated": "2026-10-04T16:56:22.061901+00:00",
    "what": "Google rozšířil funkci Local Services Ads (LSA) – uživatelé nyní mohou poslat zprávu až 6 podnikům současně místo dosavadního limitu. Zároveň Google aktualizoval svou Legal Requirements Policy.",
    "why": "Změna zvyšuje konkurenci mezi poskytovateli služeb v LSA a může vést k vyššímu počtu poptávek na jednu reklamu, což může snížit konverzní poměr a zvýšit náklady na získání zákazníka. Pro firmy využívající LSA je důležité reagovat rychleji a kvalitněji než konkurence.",
    "takeaway": "Pokud využíváte Local Services Ads, připravte se na větší konkurenci v odpovědích na poptávky – zkraťte reakční dobu a zlepšete kvalitu první odpovědi. Sledujte konverzní metriky a náklady na lead v následujících týdnech.",
@@ -5601,6 +5558,257 @@
    "multi_source": true,
    "image": "img/5cb03028a7.jpg",
    "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "0e2b8ca96c",
+   "created": "2026-09-29T08:16:29+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUTk0ZFVvU0txQThVODBpTjk3TEsxLTduQ3FrVHVTcHgyYWdIVXlRSllhWW5XZFdmWER4djFta0FudnR4bHRidnJnSTVuX2ZESXBCM1o1bl9Ba2g5ajlkZ3RSaFdGUHkyQ2FtZENKa25lbzVuaXZLMDZBczI1NEt4eHUya0kwcTFxZk0zY2dxMG04SXNETVE?oc=5",
+     "title": "Zaplatíte si PR výstup. Uvidí ho ale i AI?",
+     "summary": "Zaplatíte si PR výstup. Uvidí ho ale i AI? &nbsp;&nbsp; mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-09-29T08:16:29+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overviews-citations-cards-bottom-42177.html",
+     "title": "Google AI Overviews Testing Citations Cards At Bottom (Not Right Side) Again",
+     "summary": "Google is testing showing citation cards at the bottom of AI Overview responses on desktop, instead of on the right side. Google tested variations of this at least twice before, once in March of 2026 and before that in September 2025.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-29T11:31:00+00:00",
+     "score": 65
+    },
+    {
+     "url": "https://www.searchenginejournal.com/how-are-enterprise-seo-pros-measuring-ai-overviews-llms-webinar/590971",
+     "title": "How Are Enterprise SEO Pros Measuring AI Overviews & LLMs? [Webinar] via @sejournal, @lorenbaker",
+     "summary": "Tom Capper of STAT walks through the biggest AI search measurement challenges and a tactical solution for each one: October 14 at 2 p.m. ET. The post How Are Enterprise SEO Pros Measuring AI Overviews &#038; LLMs? [Webinar] appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-30T07:45:08+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overviews-large-brand-names-42195.html",
+     "title": "Google AI Overviews Return For Many Large Brand Names",
+     "summary": "Google seems to be showing more and more AI Overviews these days and even for many large brand names. It don't have a ton of data but Google does seems to be showing more and AI Overviews for almost every large brand name except for Google's own name and news publications.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T16:12:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-contribution-pilot-01-percent-42188.html",
+     "title": "Google Paying ~100 Publishers 0.1% Of Ad Revenue In AI Contribution Pilot",
+     "summary": "As you know, Google has a small pilot named the AI contribution pilot, where they are paying some publishers for using their content in AI features like AI Overviews, AI Mode and Gemini. Well, according to The Information, it is about 100 publishers and those publishers are getting about \"one-tenth of 1% of their advertising revenue.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T11:41:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.seroundtable.com/recap-09-30-2026-42189.html",
+     "title": "Daily Search Forum Recap: September 30, 2026",
+     "summary": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is only paying about 100 publishers in the AI contribution pilot...",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-30T14:00:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNem51dFExWl9fSVRxYmhteDhXRlJ1SUN5bWpZeTQ1UHNOenFFRnBfdnpyeHphbGpzQVRzeGtIb1R4b3VHTUR0TEpmZzVQU0hfcHZOWlhzcUZXZnhJV2F3ZTJSalp6Q29xeTZ6cWFZRzFJeWM3bXZSODNCUEZSV2E2Z1RqdjY0Y3l2M2MwRzhzb1JLNE1mVHNIdlh1NTJiWjFERTVXWEswak1GNmppMW83MA?oc=5",
+     "title": "Google AI contribution pilot earns publishers one-tenth of 1% of ad revenues",
+     "summary": "Google AI contribution pilot earns publishers one-tenth of 1% of ad revenues &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-30T15:50:00+00:00",
+     "score": 48
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUUcxdmh3NzRPRkFQT0xnLXVGYTFnb3JvMUhkX2hleWh0TUlGOGNOdjloeFR6WDZSc3duUWNmeFJERk54dkNiWGNySW9GUkFJRnM4UUY5UEc1YXpfWFZXVXdjR0ZLOGJFMHNIMXhfNDN1dVJsdGpnVjdlOFBBNFk?oc=5",
+     "title": "What 9 million AI answers reveal about search visibility",
+     "summary": "What 9 million AI answers reveal about search visibility &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-30T14:00:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/where-to-find-the-exact-phrases-that-get-your-content-cited-in-ai-search/591562",
+     "title": "Where to Find the Exact Phrases That Get Your Content Cited in AI Search via @sejournal, @hethr_campbell",
+     "summary": "Join CTM on October 13 to learn how first-party customer data can earn AI citations, improve FAQ content, and reveal which clicks become leads. The post Where to Find the Exact Phrases That Get Your Content Cited in AI Search appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-01T10:15:00+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.searchenginejournal.com/google-ai-pilot-pays-some-sites-under-0-1-of-ad-revenue/591717",
+     "title": "Google AI Pilot Pays Some Sites Under 0.1% Of Ad Revenue via @sejournal, @MattGSouthern",
+     "summary": "A new report says Google's AI contribution pilot pays publishers widely different amounts, and some participants still can't tell how payouts are calculated. The post Google AI Pilot Pays Some Sites Under 0.1% Of Ad Revenue appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-01T07:00:15+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzdpZ1RqalJsRFlHZWZ6VnFSWXdGbDVIR0w1U3FEOXBCaV9lWHB3WWN3LU9IM1JHTTNrNmMtVXZTb3lscE9sU0lrNHNVMUhWdkdDalRReW93bFppUnBHeHJBSkFmY2xJc3QzdlF5X0ozLTRrdmtNeUJGMm8yaVRuQ2h3TVNzcmo1eEsyeGg1ck1XV0MtbWRz?oc=5",
+     "title": "ChatGPT and Google AI favor large retailers in shopping answers",
+     "summary": "ChatGPT and Google AI favor large retailers in shopping answers &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-09-30T15:44:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ltM3IzUnoxR2RYMkpoYXl3S05pWjYzajJXd0hFcXptY1l6OGdHQS1udWRhWXgxOC1mdTE4S0JHM2hidG11cGZ2dkZCZHNGVy04ZTRtdTV5d3hTcjJtWXYwNEZ6MnVGUDgtT2Q2Q1JUMEJNNXN2UWRUWWY4VjdaN3dQUy1mMU1DQndSMmEwaw?oc=5",
+     "title": "Google AI Overviews jump from 26% to 80% of branded queries",
+     "summary": "Google AI Overviews jump from 26% to 80% of branded queries &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-01T16:17:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overviews-team-rosters-42202.html",
+     "title": "Google AI Overviews Invade Team Rosters",
+     "summary": "Google seems to be going after team rosters with the latest Google AI Overview to overtake website content for its own AI-generated version of that content. If you search for certain team rosters, Google will generate an AI answer, an AI Overview, with the answer.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T11:41:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ahrefs.com/blog/marketers-ai-content-creation",
+     "title": "69% of Marketers Are Publishing More AI Content Than Last Year (New Research Report)",
+     "summary": "301 respondents shared what they’re using AI for, how it affects their productivity, their favorite tools, and more. AI use in content creation is almost ubiquitous, with 93% of respondents saying they utilize it Claude is the most-used model for &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-09-30T15:56:21+00:00",
+     "score": 55
+    },
+    {
+     "url": "https://www.mediaguru.cz/laska-ke-znacce-k-rustu-nevede-dulezitejsi-je-vybavitelnost-a-dostupnost",
+     "title": "Láska ke značce k růstu nevede, důležitější je vybavitelnost a dostupnost",
+     "summary": "Láska ke značce je mezi spotřebiteli spíše výjimkou a sama o sobě nevede k vyššímu nákupnímu chování. Na konferenci Brand Management to uvedla Rachel Kennedy z Ehrenberg-Bass Institute for Marketing Science. Podle prezentovaných dat jsou pro růst značek důležitější mentální dostupnost a silné distinktivní prvky.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-10-02T05:55:00+00:00",
+     "score": 50
+    },
+    {
+     "url": "https://contentmarketinginstitute.com/content-creation-distribution/ai-kpi-marketers-tracking",
+     "title": "What’s the AI KPI That Most Marketers Aren’t Tracking Yet?",
+     "summary": "Has your brand recalculated its dashboard for the AI search world? Learn which number should be dismissed, which numbers should get primary positions, and one number that belongs that many marketers haven’t even thought of.",
+     "source": "Content Marketing Institute",
+     "domain": "contentmarketinginstitute.com",
+     "published": "2026-10-01T10:00:00+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://martech.org/7-ai-search-myths-busted-by-data",
+     "title": "7 AI search myths busted by data",
+     "summary": "AI is changing search, but some of the loudest claims about traffic, content, measurement, and SEO jobs don’t hold up when you check the numbers. The post 7 AI search myths busted by data appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-10-01T14:35:32+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT0dOQ2VBcm9WTHhuVXpJTTVnSEhycDdXQUxPU0JNanRYaTYxdi1rN3YxNldRY1Jaamg1MnNjeWR6akZZUmctbmJ1a0F3YVV0UDhxek11UjVBQ3lMcGN2YlhBRGRHYUg1blhveUlHd05pTFhrYUZaRnVyZ2tmZTNqOWpaaklJTXRXRUtJT0tDNkd0TWpscWc?oc=5",
+     "title": "Penske Media lawsuit over Google AI Overviews dismissed",
+     "summary": "Penske Media lawsuit over Google AI Overviews dismissed &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-01T16:54:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ai-overview-lawsuit-dismissed-42211.html",
+     "title": "Google AI Overview Lawsuit Dismissed Over No Agreement With Publishers",
+     "summary": "About a year ago, Penske, which operates and owns Rolling Stone, The Hollywood Reporter, Billboard, Variety, and others, sued Google over its AI Overviews. Well, that case was dismissed because Penske failed to prove that Google entered into any formal agreement with Penske to sell its content in exchange for any amount of traffic.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-01T15:31:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjJQTXp0NF85Q3doUnMtd2RZbV9jNVB1M0toTXBzaUxyUnBnTlllRTNlQXpzRlQ3QW9YWWdXSGRNWFNXeDlDdFFGeTh2bWE4V0NHSV9ZaUxKUE1MZHBXa0k0U1hLLW11aGZ3bFZDWmRIX3dibFYwb0M5c3o5OWJQV3ZNUzJlQ2gxc2FPdVNoNUpyMGMyY2RCZUk2X2ROeFd3ZWV1N0dXaWk?oc=5",
+     "title": "Publishers’ Google ad-tech antitrust claims clear a major legal hurdle",
+     "summary": "Publishers’ Google ad-tech antitrust claims clear a major legal hurdle &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-01T18:04:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ahrefs.com/blog/ai-overviews-on-branded-searches",
+     "title": "AI Overviews Currently Appear for 83% of Branded Searches",
+     "summary": "That prompted us to investigate AI Overviews for branded searches on a larger scale. We found that AI Overviews now appear for 83% of branded queries, potentially reducing clicks to brands’ own websites and giving third-party sources like Wikipedia, YouTube &#8230; Read more &#8250;",
+     "source": "Ahrefs blog",
+     "domain": "ahrefs.com",
+     "published": "2026-10-02T11:33:46+00:00",
+     "score": 80
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVRadkRseFFkcmozbmZqRnI1S2FBNGswREZDSTZQR2ctbXlkZ2NDei1JQ3BLaDFUQ0RIOWJ3MFRydkE0M0RfeW5IeWRTQmItZGVQeDNmWW5XenNHMEV4X1RmZzcyRDUtZ0lqc0JObjFjc1JZZ2NUWE8zZ3l3dzBIXzhB?oc=5",
+     "title": "Your AI search visibility keeps changing: Here’s what to do about it",
+     "summary": "Your AI search visibility keeps changing: Here’s what to do about it &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T12:00:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/when-a-search-query-becomes-a-standing-instruction/591690",
+     "title": "When A Search Query Becomes A Standing Instruction via @sejournal, @MattGSouthern",
+     "summary": "Google's AI Mode monitoring and OpenAI's dots keep requests active, with different tasks, sources, controls, and questions about site visibility. The post When A Search Query Becomes A Standing Instruction appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-02T12:00:09+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://digichef.cz/seo-restart-2026",
+     "title": "SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web",
+     "summary": "24. září 2026 proběhl 12. ročník největší české konference věnované SEO. A jestli se dá letošní SEO Restart shrnout jednou větou, pak asi takhle: AI mění způsoby vyhledávání, ale kvalitně postavené SEO základy pořád zůstávají. Letošní SEO Restart byl pro mě speciální i tím, že jsem ho poprvé sledoval z pohledu spoluorganizátora. Programem v pražském... The post SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web appeared first on Digichef .",
+     "source": "Digichef",
+     "domain": "digichef.cz",
+     "published": "2026-10-02T14:08:19+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787",
+     "title": "Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse via @sejournal, @MattGSouthern",
+     "summary": "Google adds fact-checking to its AI content guidance, Gemini links show UTM tags, desktop CTR fell in Q2, and a judge dismisses two AI suits. The post Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-03T12:00:26+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWhndzA2MTdabjVzb3dTT0x1S2tRcEhyNlMzcWZZV192QU92WTdWR3RNQ2VBZTByZklDR3hVWTlYbndZNzFaMEJQUXd3Rlh1cllXZFdQclFUR2ZlVWI5VmZsWk1ETC1meEJlZngzRVlJTm5yUHJDeXliRGZzMVNvMUkwNllwVlFMNjlWRUV5cVk5aHBOTXZnQzM4bnZ6bHVVRldSMkkyYWhkZnljdEljc3pOM2ZkTFpUOUpLRUVwdkZaZw?oc=5",
+     "title": "Google says main content is critical and describes how search quality raters evaluate it",
+     "summary": "Google says main content is critical and describes how search quality raters evaluate it &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-02T12:33:00+00:00",
+     "score": 73
+    }
+   ],
+   "category": "seo",
+   "importance": 65,
+   "title": "Google AI Overviews se zobrazují i pro brandové dotazy a mění umístění citací",
+   "updated": "2026-10-04T16:56:09.163334+00:00",
+   "what": "Google rozšiřuje zobrazování AI Overviews i na vyhledávání názvů velkých značek (s výjimkou jména Google a zpravodajských médií). Zároveň testuje přesun karet s citacemi zdrojů z pravé strany na spodní část AI odpovědí na desktopu. Podle pilotního programu Google platí přibližně 100 vydavatelům za využití jejich obsahu v AI funkcích zhruba 0,1 % jejich příjmů z reklamy.",
+   "why": "Rozšíření AI Overviews na brandové dotazy znamená, že uživatelé mohou získat shrnutí informací o značce přímo v AI odpovědi, aniž by klikli na web. To může snížit organickou návštěvnost i pro zavedené značky. Změna umístění citací ovlivňuje viditelnost zdrojů a může měnit CTR na citované weby.",
+   "takeaway": "Sledujte výkonnost brandových klíčových slov ve vašich analytických nástrojích – pokud klesá CTR a pozice zůstává, může za to být AI Overview. Pokud publikujete obsah, optimalizujte jej pro citace v AI odpovědích, ale nespoléhejte na zaplacení od Googlu – pilotní částky (0,1 % ad revenue) jsou zanedbatelné.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/de630407ef.jpg",
+   "image_from": "seroundtable.com"
   },
   {
    "id": "ecad0eab72",
@@ -5735,170 +5943,6 @@
    "multi_source": true,
    "image": "img/ecad0eab72.jpg",
    "image_from": "seroundtable.com"
-  },
-  {
-   "id": "e02b9e375e",
-   "created": "2026-10-01T10:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://contentmarketinginstitute.com/content-creation-distribution/ai-kpi-marketers-tracking",
-     "title": "What’s the AI KPI That Most Marketers Aren’t Tracking Yet?",
-     "summary": "Has your brand recalculated its dashboard for the AI search world? Learn which number should be dismissed, which numbers should get primary positions, and one number that belongs that many marketers haven’t even thought of.",
-     "source": "Content Marketing Institute",
-     "domain": "contentmarketinginstitute.com",
-     "published": "2026-10-01T10:00:00+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://martech.org/7-ai-search-myths-busted-by-data",
-     "title": "7 AI search myths busted by data",
-     "summary": "AI is changing search, but some of the loudest claims about traffic, content, measurement, and SEO jobs don’t hold up when you check the numbers. The post 7 AI search myths busted by data appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-10-01T14:35:32+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT0dOQ2VBcm9WTHhuVXpJTTVnSEhycDdXQUxPU0JNanRYaTYxdi1rN3YxNldRY1Jaamg1MnNjeWR6akZZUmctbmJ1a0F3YVV0UDhxek11UjVBQ3lMcGN2YlhBRGRHYUg1blhveUlHd05pTFhrYUZaRnVyZ2tmZTNqOWpaaklJTXRXRUtJT0tDNkd0TWpscWc?oc=5",
-     "title": "Penske Media lawsuit over Google AI Overviews dismissed",
-     "summary": "Penske Media lawsuit over Google AI Overviews dismissed &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-01T16:54:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ai-overview-lawsuit-dismissed-42211.html",
-     "title": "Google AI Overview Lawsuit Dismissed Over No Agreement With Publishers",
-     "summary": "About a year ago, Penske, which operates and owns Rolling Stone, The Hollywood Reporter, Billboard, Variety, and others, sued Google over its AI Overviews. Well, that case was dismissed because Penske failed to prove that Google entered into any formal agreement with Penske to sell its content in exchange for any amount of traffic.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-01T15:31:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjJQTXp0NF85Q3doUnMtd2RZbV9jNVB1M0toTXBzaUxyUnBnTlllRTNlQXpzRlQ3QW9YWWdXSGRNWFNXeDlDdFFGeTh2bWE4V0NHSV9ZaUxKUE1MZHBXa0k0U1hLLW11aGZ3bFZDWmRIX3dibFYwb0M5c3o5OWJQV3ZNUzJlQ2gxc2FPdVNoNUpyMGMyY2RCZUk2X2ROeFd3ZWV1N0dXaWk?oc=5",
-     "title": "Publishers’ Google ad-tech antitrust claims clear a major legal hurdle",
-     "summary": "Publishers’ Google ad-tech antitrust claims clear a major legal hurdle &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-01T18:04:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ahrefs.com/blog/ai-overviews-on-branded-searches",
-     "title": "AI Overviews Currently Appear for 83% of Branded Searches",
-     "summary": "That prompted us to investigate AI Overviews for branded searches on a larger scale. We found that AI Overviews now appear for 83% of branded queries, potentially reducing clicks to brands’ own websites and giving third-party sources like Wikipedia, YouTube &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-10-02T11:33:46+00:00",
-     "score": 80
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVRadkRseFFkcmozbmZqRnI1S2FBNGswREZDSTZQR2ctbXlkZ2NDei1JQ3BLaDFUQ0RIOWJ3MFRydkE0M0RfeW5IeWRTQmItZGVQeDNmWW5XenNHMEV4X1RmZzcyRDUtZ0lqc0JObjFjc1JZZ2NUWE8zZ3l3dzBIXzhB?oc=5",
-     "title": "Your AI search visibility keeps changing: Here’s what to do about it",
-     "summary": "Your AI search visibility keeps changing: Here’s what to do about it &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T12:00:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/when-a-search-query-becomes-a-standing-instruction/591690",
-     "title": "When A Search Query Becomes A Standing Instruction via @sejournal, @MattGSouthern",
-     "summary": "Google's AI Mode monitoring and OpenAI's dots keep requests active, with different tasks, sources, controls, and questions about site visibility. The post When A Search Query Becomes A Standing Instruction appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-02T12:00:09+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://digichef.cz/seo-restart-2026",
-     "title": "SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web",
-     "summary": "24. září 2026 proběhl 12. ročník největší české konference věnované SEO. A jestli se dá letošní SEO Restart shrnout jednou větou, pak asi takhle: AI mění způsoby vyhledávání, ale kvalitně postavené SEO základy pořád zůstávají. Letošní SEO Restart byl pro mě speciální i tím, že jsem ho poprvé sledoval z pohledu spoluorganizátora. Programem v pražském... The post SEO Restart 2026: Koho doporučuje AI a proč o tom nerozhoduje jen váš web appeared first on Digichef .",
-     "source": "Digichef",
-     "domain": "digichef.cz",
-     "published": "2026-10-02T14:08:19+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787",
-     "title": "Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse via @sejournal, @MattGSouthern",
-     "summary": "Google adds fact-checking to its AI content guidance, Gemini links show UTM tags, desktop CTR fell in Q2, and a judge dismisses two AI suits. The post Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-03T12:00:26+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWhndzA2MTdabjVzb3dTT0x1S2tRcEhyNlMzcWZZV192QU92WTdWR3RNQ2VBZTByZklDR3hVWTlYbndZNzFaMEJQUXd3Rlh1cllXZFdQclFUR2ZlVWI5VmZsWk1ETC1meEJlZngzRVlJTm5yUHJDeXliRGZzMVNvMUkwNllwVlFMNjlWRUV5cVk5aHBOTXZnQzM4bnZ6bHVVRldSMkkyYWhkZnljdEljc3pOM2ZkTFpUOUpLRUVwdkZaZw?oc=5",
-     "title": "Google says main content is critical and describes how search quality raters evaluate it",
-     "summary": "Google says main content is critical and describes how search quality raters evaluate it &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-02T12:33:00+00:00",
-     "score": 73
-    }
-   ],
-   "category": "seo",
-   "importance": 72,
-   "title": "AI Overviews se zobrazují u 83 % brandových dotazů, Google čelí žalobám",
-   "updated": "2026-10-04T10:41:56.890902+00:00",
-   "what": "Studie Ahrefs ukázala, že AI Overviews (AI souhrny ve výsledcích vyhledávání) se nyní objevují u 83 % brandových vyhledávání. Znamená to, že uživatel může dostat odpověď přímo ve výsledcích od třetích stran (např. Wikipedia, YouTube), aniž by klikl na web dané značky. Paralelně byla zamítnuta žaloba vydavatelství Penske Media proti Googlu kvůli AI Overviews – soud konstatoval, že Google neměl s vydavateli žádnou smlouvu garantující provoz za návštěvnost.",
-   "why": "Pro české firmy to znamená potenciální pokles přímých kliknutí na vlastní web i u dotazů s názvem značky. Uživatelé mohou získat informace o produktu, firmě nebo službě přímo z AI Overviews, aniž by navštívili oficiální stránky. Zároveň je jasné, že vydavatelé a brandoví vlastníci nemají právní nárok na kompenzaci za ztracený provoz z AI shrnů, pokud neexistuje explicitní dohoda s Googlem.",
-   "takeaway": "Pravidelně kontrolujte, zda se AI Overviews zobrazují u vašich brandových klíčových slov (název firmy, produkty, značky) a jaké informace tam Google zobrazuje. Ověřte, zda jsou citovány vaše stránky, nebo zda Google čerpá především z Wikipedie či jiných zdrojů. Pokud se obáváte ztráty návštěvnosti, vyhodnoťte dopad na konverze a zvažte optimalizaci obsahu tak, aby byl váš web citován v AI shrnech (strukturovaná data, jasné odpovědi na časté otázky).",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/17e4a7548c.jpg",
-   "image_from": "ahrefs.com"
-  },
-  {
-   "id": "f63540c15c",
-   "created": "2026-10-04T07:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/bing-tests-new-ad-design-shopping-search-results",
-     "title": "Bing Tests New Ad Design in Shopping Search Results",
-     "summary": "Bing is currently testing a new ad design within its shopping search results. The test showcases a redesigned layout, using blue background, for sponsored ads, potentially altering the placement and presentation of ads in SERPs. This update was shared by Sachin Patel . The post Bing Tests New Ad Design in Shopping Search Results appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-04T07:00:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Bing testuje nový design reklam ve výsledcích pro nákupy",
-   "updated": "2026-10-04T10:40:48.918489+00:00",
-   "what": "Bing aktuálně testuje redesign sponzorovaných reklam ve výsledcích vyhledávání pro nákupy (shopping search). Nové rozvržení používá modré pozadí a může měnit umístění a zobrazení reklam v SERPu.",
-   "why": "Pro firmy inzerující na Bingu (ačkoli v ČR má minoritní podíl) může změna designu ovlivnit viditelnost a CTR jejich produktových kampaní. Modré zvýraznění může zlepšit nebo zhoršit výkon podle toho, jak uživatelé reagují na jasnější odlišení reklam od organických výsledků.",
-   "takeaway": "Pokud využíváte Microsoft Ads pro produktové kampaně, sledujte metriky (CTR, CPC) v nadcházejících týdnech – při výrazném výkyvu může jít o dopad nového designu. Zatím jde pouze o test, není jasné, zda a kdy se změní plošně.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "eb751bbdb4",
-   "created": "2026-10-04T03:55:39+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediar.cz/zebricek-medialnich-znacek-google-vede-u-spotrebitelu-marketeri-nejvic-veri-youtube",
-     "title": "Žebříček mediálních značek: Google vede u spotřebitelů, marketéři nejvíc věří YouTube",
-     "summary": "Navýšit rozpočty plánují marketéři nejvíc na TikTok, zjistil Kantar v letošním průzkumu.",
-     "source": "Médiář",
-     "domain": "mediar.cz",
-     "published": "2026-10-04T03:55:39+00:00",
-     "score": 67
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Kantar: Marketéři v ČR nejvíc věří YouTube, rozpočty rostou na TikTok",
-   "updated": "2026-10-04T10:40:48.918489+00:00",
-   "what": "Kantar zveřejnil letošní žebříček mediálních značek. Google vede mezi spotřebiteli, YouTube má nejvyšší důvěru u marketérů. Největší navýšení rozpočtů plánují marketéři na TikTok.",
-   "why": "Ukazuje, kam směřují investice českých firem do placené reklamy a jaké platformy marketéři považují za nejspolehlivější pro dosažení cílů.",
-   "takeaway": "Pokud ještě netestujete TikTok, zvažte pilotní kampaň – konkurence tam navyšuje rozpočty. YouTube zůstává bezpečná volba pro široké publikum.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "0f7f6c0bde",
@@ -6204,32 +6248,6 @@
    "image_from": "ppcnewsfeed.com"
   },
   {
-   "id": "2103c6d79d",
-   "created": "2026-10-03T07:25:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/ctv-uz-tvori-vetsinu-premiove-videoreklamy-v-evrope-programatik-dal-roste",
-     "title": "CTV už tvoří většinu prémiové videoreklamy v Evropě, programatik dál roste",
-     "summary": "Připojené televizory (CTV) se v první polovině letošního roku podílely na 53 % zhlédnutí prémiové videoreklamy v Evropě. Vyplývá to z nové studie společnosti FreeWheel. Výrazně rostl také programatický nákup videoreklamy a posilovalo živé vysílání, které těžilo především ze sportovních přenosů.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-10-03T07:25:00+00:00",
-     "score": 67
-    }
-   ],
-   "category": "ppc",
-   "importance": 62,
-   "title": "CTV má v Evropě většinu prémiové videoreklamy, programatik roste",
-   "updated": "2026-10-03T09:57:44.634242+00:00",
-   "what": "Podle studie FreeWheel tvořily připojené televizory (CTV) v první polovině roku 2025 již 53 % zhlédnutí prémiové videoreklamy v Evropě. Zároveň výrazně roste programatický nákup videoreklamy a posiluje živé vysílání, zejména díky sportovním přenosům.",
-   "why": "Posun k CTV a programatickému nákupu videoreklamy mění strukturu investic do video kampaní. Pro marketingové manažery to znamená nutnost znovu vyhodnotit mix kanálů a způsob nákupu videoreklamy.",
-   "takeaway": "Zvažte posílení investic do CTV a programatického nákupu videoreklamy, pokud cílíte na prémiové videoformáty. Sledujte možnosti live streamingu, zejména kolem sportovních událostí.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/2103c6d79d.jpg",
-   "image_from": "mediaguru.cz"
-  },
-  {
    "id": "70cabbb3aa",
    "created": "2026-10-02T08:48:23+00:00",
    "articles": [
@@ -6252,39 +6270,6 @@
    "takeaway": "Pokud vaše firma používá Adform, sledujte oficiální komunikaci platformy ohledně nových integračních možností a AI funkcí – mohou zefektivnit práci s daty nebo reporting.",
    "importance_label": "kontext",
    "multi_source": false
-  },
-  {
-   "id": "53bc11cb61",
-   "created": "2026-09-30T09:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.marketingbrew.com/stories/the-state-of-the-cmo",
-     "title": "The State of the CMO",
-     "summary": "The age of AI is making marketing more important than ever—but more expectations and responsibilities, combined with largely flat budgets, are putting pressure on top practitioners.",
-     "source": "Marketing Brew",
-     "domain": "marketingbrew.com",
-     "published": "2026-09-30T09:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.mediar.cz/reklamy-uz-lidem-vadi-min-marketeri-ale-tapou-kam-smerovat-rozpocty",
-     "title": "Reklamy už lidem vadí míň. Marketéři ale tápou, kam směřovat rozpočty",
-     "summary": "Agentura Kantar v průzkumu Media Reactions oslovila 23.000 spotřebitelů a 800 marketérů.",
-     "source": "Médiář",
-     "domain": "mediar.cz",
-     "published": "2026-10-02T03:55:20+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Kantar: Reklamy vadí méně, marketéři ale tápu s rozpočty",
-   "updated": "2026-10-02T22:26:38.162074+00:00",
-   "what": "Agentura Kantar v průzkumu Media Reactions oslovila 23 000 spotřebitelů a 800 marketérů. Zjistila, že reklamy lidem vadí méně než dříve, ale marketéři si nejsou jisti, kam směřovat své rozpočty.",
-   "why": "Pro marketingové manažery v ČR jde o důležitý signál: rostoucí tolerance vůči reklamě nabízí příležitost, ale nejistota kolegů z oboru ohledně alokace rozpočtů naznačuje, že efektivní mix kanálů není zřejmý ani globálně.",
-   "takeaway": "Zkontrolujte, zda vaše aktuální rozložení rozpočtu odpovídá skutečné výkonnosti kanálů, a sledujte výsledky průzkumu Kantar Media Reactions pro hlubší pochopení preferencí spotřebitelů. Nejistota v oboru může být vaší konkurenční výhodou, pokud budete měřit a testovat důsledněji než ostatní.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
   },
   {
    "id": "01ac3a6d35",
@@ -7688,30 +7673,6 @@
    "multi_source": false
   },
   {
-   "id": "07e953a1bf",
-   "created": "2026-10-01T13:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/bing-tests-blurred-separator-sponsored-results",
-     "title": "Bing Tests Blurred Separator for Sponsored Results",
-     "summary": "Bing is testing a new feature in its sponsored results by adding a slight blurred horizontal line . This change aims to subtly differentiate ads from organic results on the search page. Here's another example with an ad showing in search results promoting an app. It indicates Bing's ongoing efforts to refine the user interface and ad visibility.&nbsp; This update was shared by Khushal Bherwani . The post Bing Tests Blurred Separator for Sponsored Results appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-01T13:30:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "ppc",
-   "importance": 25,
-   "title": "Bing testuje rozmazanou čáru nad reklamami ve výsledcích vyhledávání",
-   "updated": "2026-10-01T18:31:21.666049+00:00",
-   "what": "Bing testuje nový vizuální prvek – lehce rozmazanou horizontální čáru nad sponzorovanými výsledky. Jde o další pokus vylepšit rozhraní a způsob, jak oddělovat reklamy od organických výsledků.",
-   "why": "Pro většinu českých firem je Bing okrajový reklamní kanál s minimálním podílem na trhu. Jde o drobnou UI změnu bez dopadu na nastavení kampaní, rozpočty ani výkon.",
-   "takeaway": "Pokud máte běžící kampaně na Microsoft Ads (Bing), není nutné nic měnit. Sledujte, zda změna ovlivní CTR, ale očekávaný dopad je minimální.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
    "id": "4d812a5a02",
    "created": "2026-10-01T12:00:54+00:00",
    "articles": [
@@ -7755,56 +7716,6 @@
    "updated": "2026-10-01T18:31:21.666049+00:00",
    "importance_label": "stojí za pozornost",
    "multi_source": false
-  },
-  {
-   "id": "85ce49efd5",
-   "created": "2026-10-01T10:35:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/vztah-klientu-a-agentur-se-v-ere-ai-meni-jak-to-ovlivni-cenu-prace",
-     "title": "Vztah klientů a agentur se v éře AI mění. Jak to ovlivní cenu práce?",
-     "summary": "Zadavatelé považují AI nástroje za dostupné a největší přínos vidí v jejich využití pro konkrétní marketingové úkoly. Výzkum AKA a ResSolution Group ale zároveň ukazuje, že s rostoucí automatizací se znovu otevírá otázka hodnoty agenturní práce, zaznělo na prvním dni konference Brand Management.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-10-01T10:35:00+00:00",
-     "score": 74
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 45,
-   "title": "AI nástroje mění vnímání hodnoty agenturní práce, ukazuje výzkum AKA",
-   "updated": "2026-10-01T11:04:01.974530+00:00",
-   "what": "Výzkum AKA a ResSolution Group prezentovaný na konferenci Brand Management ukázal, že zadavatelé vnímají AI nástroje jako snadno dostupné a vidí jejich přínos především pro konkrétní marketingové úkoly. Zároveň rostoucí automatizace znovu otevírá otázku, jak oceňovat agenturní práci.",
-   "why": "Marketingoví manažeři budou muset nově vyjednávat cenu služeb s agenturami – dostupnost AI nástrojů může vést k tlaku na snížení cen za práci, kterou lze částečně automatizovat. Zároveň se může měnit i náplň spolupráce s agenturami.",
-   "takeaway": "Připravte se na diskusi o ceně agenturních služeb v kontextu AI – zjistěte, které úkoly lze díky AI nástrojům řešit interně levněji, a u kterých dává smysl udržet agenturní podporu. Zvažte revizi smluv a cenových modelů s agenturami.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "21e0f8efb0",
-   "created": "2026-10-01T07:22:00+00:00",
-   "articles": [
-    {
-     "url": "https://blog.seznam.cz/2026/10/novinky-v-seznam-nakupech-prehlednejsi-statistiky-elektronicke-doruceni-a-chytrejsi-parametry",
-     "title": "Novinky v Seznam Nákupech: Přehlednější statistiky, elektronické doručení a chytřejší parametry",
-     "summary": "Nově najdete výkon své inzerce včetně meziročního srovnání jen ve svém rozhraní Skliku. Do Centra prodejce jsme přidali nový způsob doručení pro digitální sortiment, parametry nabídek rozdělili podle důležitosti a u objednávek ukazujeme, jestli se podařilo získat e-mail zákazníka. Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-10-01T07:22:00+00:00",
-     "score": 86
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 72,
-   "title": "Seznam Nákupy: statistiky jen ve Skliku, nové doručení pro digitál",
-   "updated": "2026-10-01T11:04:01.974530+00:00",
-   "what": "Seznam přesunul statistiky výkonu inzerce v Seznam Nákupech výhradně do rozhraní Skliku, kde jsou nyní doplněné o meziroční srovnání. V Centru prodejce přibyl nový způsob doručení pro digitální produkty, parametry nabídek jsou nově rozdělené podle důležitosti a u objednávek se zobrazuje, zda se podařilo získat e-mail zákazníka.",
-   "why": "Změna ovlivňuje rutinní práci s nákupovou inzercí na Seznamu – statistiky už nenajdete přímo v Centru prodejce, musíte je sledovat ve Skliku. Nové funkce (digitální doručení, třídění parametrů, info o e-mailu) zjednodušují správu feedu a vyhodnocování objednávek.",
-   "takeaway": "Pokud pracujete se Seznam Nákupy, přesuňte sledování výkonu inzerce do Skliku a využijte meziroční srovnání pro lepší reporting. U digitálního sortimentu nastavte nový způsob doručení. Zkontrolujte prioritu parametrů ve feedu podle nového třídění a sledujte získávání e-mailů zákazníků pro remarketing.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/21e0f8efb0.jpg",
-   "image_from": "blog.seznam.cz"
   },
   {
    "id": "f8c4ea7e44",
