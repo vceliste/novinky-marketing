@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-09T18:29:45.570166+00:00",
+ "last_run": "2026-10-10T00:07:36.693992+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -29,19 +29,19 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 9
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7efcd5b72b40>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -257,13 +257,13 @@
    "name": "GetResponse blog",
    "feed": "https://www.getresponse.com/blog/feed",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -275,18 +275,18 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -377,13 +377,13 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing Brew",
@@ -5863,182 +5863,452 @@
   "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wUlhlYTlWbDlKcDllLWJsY2dFMkFWRDBTQlB4bTVjek1QTDZ2UEdXOWlQUW5Kdk1nb0I0V0lxdjBxNlBxRkgzMjVVclBIbzJzbE12elRFeUtma2hGaHZoUFNR?oc=5": "2026-10-09T18:29:45.570166+00:00",
   "https://news.google.com/rss/articles/CBMiekFVX3lxTE81MDdwVGtWME9DYW1fWmJJTmk2c1NpRHY5QXNndG5wbFpUV1BpMWliQzdWQmFjLXhkN01kYkR1NDRCaVhOdkRFdG9HdEtVazdEbTUwc1kxclduX3UxbzJaTE83UDhBZHg3akt6TDJ0TV82Z1VFTUNKSWZn?oc=5": "2026-10-09T18:29:45.570166+00:00",
   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tLXJSR0g3NG44UnF2Y1YweU1NRUU5a3hsa29sS0d5NGpCWF9GaFVlbDhucmtnSWdMTF9JU0RIbXB0R3dUTk1EMUtJZEZpT3huUWRpWm91OExiUzlr?oc=5": "2026-10-09T18:29:45.570166+00:00",
-  "https://business.google.com/us/think/measurement/first-party-data-customer-lifetime-value": "2026-10-09T18:29:45.570166+00:00"
+  "https://business.google.com/us/think/measurement/first-party-data-customer-lifetime-value": "2026-10-09T18:29:45.570166+00:00",
+  "https://www.searchenginejournal.com/google-explains-how-to-use-html-sitemaps-for-seo/592508": "2026-10-10T00:07:36.693992+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zMHlCdkF6NGtzRzF3bmc0c3hrUjZ2YlhtMW5jejJXVWtmVDZ4TTZaZ2d5eWNPYkYxUDVXOE5OeXFQekdYY2FCODJMOTlCdE1fZThoQVdQa0FUZw?oc=5": "2026-10-10T00:07:36.693992+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR0puQlhkMFBMZi1vdHVfdDR0RUQ2Q3pjU0gtUEl2Ui1DcjdOdTN3NTBmcHV2RWhsRTZmaFpMbUNHM3VNWWpxcC1GeTNXTHk2cmZBNndWRWdSMWNTYW02WEc2OG1PQTJTNVFXUmVFU0NHTW4xOGxkb0o4bDlPOWxpRWNEVm9odTg3amxJQXRDX1JTNTlQOEFwZktZNllYVno4?oc=5": "2026-10-10T00:07:36.693992+00:00",
+  "https://sproutsocial.com/insights/link-in-bio-tools": "2026-10-10T00:07:36.693992+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUpMVVA4bGFmcHdTY1lFWFhfRVBNRGhxOUs1WDJpRzl0a3p5NjJXVkFiYjVFeWFnZzN5NkdwcHc4ajIySlFaMGNpZmdNVW9Gd1k3bVZEb1NfdUJnTjZkNzdvYUkyNkx5emxsVDFqUXpCcFB5TnZGYmxJemtMUy1zSVJPWTZHUUs5eG1ZNDVLa0VmeXE4aVpaemxlcmlGb19XcURYdmJkUmRPQW1NSTFyYUNvYV9kcTV1OGoxVnltUWU?oc=5": "2026-10-10T00:07:36.693992+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanB1a2tRanNVZVZDYzEwM1RtOGFQY252Uk9ySmhzdkxPeS0yYTFvb3VPbXpTTGw5QlNNWE1KaVpXS2lDSkQ2NGE5VkFLaGhyWWtiTkYtTDRTNGpDaHBzdUFRNDF1TGJZS2l5TTA1ZWVjLWVZZE5VNi1qNExlbGFQUktQYndFWXdpMHg0?oc=5": "2026-10-10T00:07:36.693992+00:00"
  },
  "events": [
   {
-   "id": "8353b38a48",
-   "created": "2026-10-08T03:52:04+00:00",
+   "id": "0b8fa75af9",
+   "created": "2026-10-07T06:36:19+00:00",
    "articles": [
     {
-     "url": "https://ppcnewsfeed.com/blog/bdos-ai-for-google-ads-specialists",
-     "title": "BDOS.ai in Real Client Work: Why AI Agents Raise the Bar for Google Ads Specialists",
-     "summary": "Buying access to a powerful AI agent does not give anyone an edge on its own; its true value depends on how it is used. The real edge comes from the ability to handle a client's business context, a well-thought-out strategy and market instinct earned through years of practice. AI cannot turn a messy setup into an orderly one; it only makes the mess grow faster. BDOS.ai was designed with this in mind: it is not a shortcut that lets you switch your brain off, but a test of how mature your way of working really is. Who built BDOS.ai and what it does BDOS.ai comes from two Google Ads practitioners",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-08T03:52:04+00:00",
-     "score": 57
+     "url": "https://www.seroundtable.com/google-ads-conversion-lift-measurement-self-service-42250.html",
+     "title": "Google Ads Self-Services Conversion Lift Measurement",
+     "summary": "Google Ads now lets advertisers set up Conversion Lift measurement themselves. Google updated its help documentation to say that you no longer need a Google Ads representative to set up Conversion Lift measurement; you just need at least 1,000 observed conversions and a $5,000 budget.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-08T11:11:00+00:00",
+     "score": 85
     },
     {
-     "url": "https://www.searchenginejournal.com/ai-in-regulated-paid-media-the-default-settings-that-put-compliance-at-risk/589188",
-     "title": "AI In Regulated Paid Media: The Default Settings That Put Compliance At Risk via @sejournal, @timothyjjensen",
-     "summary": "Understand how to address both ad platform and organizational AI concerns for paid media advertisers in regulated industries The post AI In Regulated Paid Media: The Default Settings That Put Compliance At Risk appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-08T19:00:44+00:00",
-     "score": 52
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ3pYMl9CRlYwbk1WczA4c1hPSjR1MDlKSHY2bU4zZ1JQZUpwYnVSTmdFN0VQV2pEdGVxVm5VVm44RVh5Wlg3ZGR6bjBFWlZJWWxGOVhjLVlRNV9HMVcyX0ktYU83Ti15ZGVNYkhyak9YdGV2SjVsaW5xYklvN0Niaw?oc=5",
+     "title": "Conversion Lift Opens to Search and PMax With 1,000-Conversion Minimum",
+     "summary": "Conversion Lift Opens to Search and PMax With 1,000-Conversion Minimum &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-07T06:36:19+00:00",
+     "score": 81
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTThiaUtJU0ZMR09QemozdElKZmxXaDdtVlhvalNsNlVrOXBDcHppeTVHSk81aHg0UXFoV0xfdXJ1OTlhUHJ0RHZqWFM5MlFBZ01oaFpfenY1TEgwb2JhWS1ja0xBcklYRUg3dDEyQl8ybGdJeC1RTUZNQnVCSWZiUUdfeHZlRUpqSndUdDhteU9TUHBzVlJFNS1ndUpHdnhBdXc?oc=5",
+     "title": "Google Ads introduces commerce audience sharing for retail media",
+     "summary": "Google Ads introduces commerce audience sharing for retail media &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-08T16:35:54+00:00",
+     "score": 75
     }
    ],
    "category": "ppc",
-   "importance": 62,
-   "title": "AI nástroje pro PPC: BDOS.ai ukazuje, že automatizace sama nestačí",
-   "updated": "2026-10-09T18:33:36.264499+00:00",
-   "what": "BDOS.ai, nástroj pro správu Google Ads vyvinutý PPC praktiky, upozorňuje, že samotný přístup k AI agentovi nedává nikomu automatickou výhodu. Jeho skutečná hodnota závisí na tom, jak je použit – AI nemůže změnit nepořádek v kampani v pořádek, jen ho zrychlí. Paralelně Search Engine Journal varuje před výchozími AI nastaveními v reklamních platformách, která mohou v regulovaných odvětvích porušovat compliance pravidla.",
-   "why": "Pro marketingové manažery je to připomínka, že AI nástroje (včetně Google Ads automatizace) nejsou zkratkou k lepším výsledkům, ale zesilovačem existující kvality práce. Bez solidní strategie, znalosti byznysu klienta a disciplinovaných procesů AI jen zrychlí špatná rozhodnutí. V regulovaných oborech (finance, zdraví, farmacie) navíc mohou výchozí AI nastavení platforem vést k problémům s compliance.",
-   "takeaway": "Pokud plánujete zavést nebo už používáte AI nástroje pro správu PPC (Smart Bidding, Performance Max, AI agenty), nejprve zkontrolujte, zda máte jasnou strategii, čistou strukturu kampaní a procesy pro kontrolu výstupů. V regulovaných odvětvích ručně překontrolujte výchozí AI nastavení platforem a upravte je tak, aby odpovídala compliance požadavkům vaší firmy nebo klienta.",
+   "importance": 65,
+   "title": "Google Ads zpřístupnil měření Conversion Lift všem inzerentům",
+   "updated": "2026-10-10T00:09:06.013105+00:00",
+   "what": "Google Ads umožnil inzerentům nastavit měření Conversion Lift (dopadu kampaní na konverze) samostatně bez nutnosti kontaktovat zástupce Googlu. Pro aktivaci je třeba minimálně 1 000 zaznamenaných konverzí a rozpočet 5 000 USD. Funkce je dostupná i pro Search a Performance Max kampaně.",
+   "why": "Conversion Lift pomáhá měřit skutečný přírůstkový efekt kampaní – kolik konverzí by bez reklamy nevzniklo. Dosud to bylo dostupné jen přes Google reprezentanty, což omezovalo menší inzerenty. Samoobslužné nastavení otevírá pokročilou metriku širšímu okruhu firem.",
+   "takeaway": "Pokud máte v Google Ads alespoň 1 000 konverzí a měsíční rozpočet minimálně 120 000 Kč, můžete si nyní v rozhraní sami aktivovat Conversion Lift a získat přesnější data o skutečném dopadu kampaní. Využijte to pro optimalizaci rozpočtu mezi kanály.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/9ea78d1cfc.jpg",
-   "image_from": "searchenginejournal.com"
+   "image": "img/0b8fa75af9.jpg",
+   "image_from": "seroundtable.com"
   },
   {
-   "id": "578ae0dc21",
-   "created": "2026-10-07T13:52:00+00:00",
+   "id": "a211c12a2d",
+   "created": "2026-10-07T11:00:00+00:00",
    "articles": [
     {
-     "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next",
-     "title": "Classic marketing automation is dead: What’s next?",
-     "summary": "Rule-based automation is giving way to truly autonomous marketing. Discover how human-in-the-loop design frees your team to focus on real business outcomes. The post Classic marketing automation is dead: What’s next? appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-10-07T13:52:00+00:00",
-     "score": 52
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-warns-fast-changing-products-may-be-disapproved",
+     "title": "Google Warns Fast Changing Products May Be Disapproved",
+     "summary": "Google has updated its guidance on Merchant Center automations for frequently changing product information . The automations feature now states that items with price or availability changes more than once per day may lead to disapproval rather than automatic updates. On September 27, 2026, the help page was revised to indicate that products might be disapproved if the total detected mismatches become too large.&nbsp; This change is crucial for stores with fast-changing prices as relying solely on automatic updates might not suffice. Read the official update here: Allow Merchant Center to updat",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-07T11:00:00+00:00",
+     "score": 72
     },
     {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWtGVXpueS1Mbl9BNGxJYmNtRjhydURJOWlIeDVBU2RIVjF0OFZTUmZNNEZ3T05rTVRMcjdGT2xjUWRNb0RXdzZRaWpSSnZaOVBtMGpjNy1QMTJiSUlBa2o0aWk4dHBZaGxJdlRtY1FkN3dfWUx0b044RFE5Q2tPZEI5SFZVYnRqdTNHb25CZ1dCUUhmR0E2dGNCZ18yQWRUWWNxM3R3QVoxOEItQlpncE5oR3BNTi0tZV93ODRPOVFGUQ?oc=5",
-     "title": "Nakupovat s AI? Ano. Platit? Ne. Zatím",
-     "summary": "Nakupovat s AI? Ano. Platit? Ne. Zatím &nbsp;&nbsp; www.mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-10-09T08:34:38+00:00",
-     "score": 52
+     "url": "https://www.seroundtable.com/google-merchant-center-disapprove-products-chnage-fast-42251.html",
+     "title": "Google Merchant Center May Disapprove Products That Change Frequently",
+     "summary": "Google updated its help document in Merchant Center to say that if a product changes more than once per day, it may be \"disapproved instead of updated if we detect a mismatch.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-08T11:31:00+00:00",
+     "score": 78
     },
     {
-     "url": "https://cc.cz/tretina-cechu-nakupuje-s-ai-nektere-e-shopy-ale-zaspaly-konference-reshoper-ukaze-jak-na-trendu-vydelat",
-     "title": "Třetina Čechů nakupuje s AI, některé e-shopy ale zaspaly. Veletrh Reshoper ukáže, jak na trendu vydělat",
-     "summary": "Osmý ročník tradiční akce Reshoper proběhne 15. října na pražském Výstavišti. Zaměří se na využití AI v e-commerce nebo růst marží před Vánoci. Článek Třetina Čechů nakupuje s AI, některé e-shopy ale zaspaly. Veletrh Reshoper ukáže, jak na trendu vydělat se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-10-09T08:13:39+00:00",
-     "score": 62
-    }
-   ],
-   "category": "ai",
-   "importance": 68,
-   "title": "Třetina Čechů už nakupuje s pomocí AI, e-shopy musí reagovat",
-   "updated": "2026-10-09T18:33:28.716501+00:00",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "what": "Podle dat prezentovaných na nadcházejícím veletrhu Reshoper (15. října, Praha) již třetina českých spotřebitelů využívá AI při nákupech online. Někteří provozovatelé e-shopů zatím na tento trend nereagují dostatečně.",
-   "why": "Pokud zákazníci masově začínají nakupovat s AI asistenty (např. chatboty, doporučovací systémy), e-shopy bez těchto funkcí riskují ztrátu konverzí a konkurenceschopnosti. Jde o změnu chování zákazníků, kterou nelze ignorovat.",
-   "takeaway": "Zkontrolujte, zda váš e-shop podporuje AI asistované nákupy (chatboty, inteligentní vyhledávání, personalizovaná doporučení). Pokud ne, naplánujte pilotní implementaci ještě před vánoční sezonou – nebo alespoň zjistěte, jak konkurence reaguje. Reshoper může být příležitost získat konkrétní tipy.",
-   "image": "img/5eaaba43f7.jpg",
-   "image_from": "mam.cz"
-  },
-  {
-   "id": "d3f0787e9c",
-   "created": "2026-10-08T08:06:31+00:00",
-   "articles": [
-    {
-     "url": "https://blog.seznam.cz/2026/10/sberatelska-edice-pokemon-tcg-30th-celebration-budi-na-zbozi-cz-enormni-zajem",
-     "title": "Sběratelská edice Pokémon TCG: 30th Celebration budí na Zboží.cz enormní zájem",
-     "summary": "V polovině září se na českém trhu rozběhl naplno prodej nové sběratelské edice věnované třem dekádám světa Pokémonů &#8211; Pokémon TCG: 30th Celebration. Zájem o ni je na nákupním rádci Zboží.cz enormní. „Zájem o sběratelské karty Pokémon na nákupním rádci Zboží.cz v období od 16. 9. – 3. 10. 2026 je ve srovnání se stejně &#8230; Zdroj",
-     "source": "Seznam blog",
-     "domain": "blog.seznam.cz",
-     "published": "2026-10-08T08:06:31+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.mediaguru.cz/mattoni-a-granini-rozsiruji-product-placement-v-poradu-zradci-i-do-gastra",
-     "title": "Mattoni a Granini rozšiřují product placement v pořadu Zrádci i do gastra",
-     "summary": "Perlivá Mattoni, džusy Granini a televizní show Zrádci propojují letos společné aktivity napříč vysíláním, digitálním obsahem, eventy i gastronomií. Součástí partnerství se stal také speciální nealkoholický koktejl, který se objevil přímo v ději pořadu a během podzimu zamíří do vybraných podniků po celé republice.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-10-09T10:00:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 45,
-   "title": "Zboží.cz hlásí enormní zájem o sběratelskou edici Pokémon TCG: 30th Celebration",
-   "updated": "2026-10-09T18:33:20.236507+00:00",
-   "what": "V polovině září 2026 se na českém trhu začala prodávat sběratelská edice Pokémon TCG: 30th Celebration věnovaná třem dekádám světa Pokémonů. Podle dat z nákupního rádce Zboží.cz je o ni v období 16. 9. – 3. 10. 2026 enormní zájem ve srovnání se stejným obdobím předchozích let.",
-   "why": "Ukazuje aktuální chování zákazníků na českém trhu s kolekcionářskými produkty a potvrzuje, že sezónní/limitované edice známých značek dokážou generovat výrazný nárůst poptávky a trafiku na e-shopech.",
-   "takeaway": "Pokud prodáváte hračky, sběratelské předměty nebo licencované produkty, sledujte data ze Zboží.cz – podobné skoky poptávky naznačují prostor pro cílené PPC kampaně a rychlou optimalizaci nabídky v období lansování populárních edic.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "1de4980f6c",
-   "created": "2026-10-06T11:30:28+00:00",
-   "articles": [
-    {
-     "url": "https://www.jonloomer.com/meta-sequenced-events",
-     "title": "Meta Sequenced Events: Optimize for Qualified Website Leads",
-     "summary": "Learn how Meta Sequenced Events let advertisers optimize for qualified website leads based on two events completed in order. The post Meta Sequenced Events: Optimize for Qualified Website Leads appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-10-06T11:30:28+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-introduces-new-ai-powered-tools-at-ad-week-2026/832288",
-     "title": "Meta introduces new AI-powered tools at Ad Week 2026",
-     "summary": "The company is testing importing and creative insight features, as well as improved conversational guidance for its artificial intelligence elements.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-06T18:37:34+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/reddit-launches-updated-lead-gen-ads-options/832296",
-     "title": "Reddit launches updated lead gen ads options",
-     "summary": "The platform also launched a test of in-market audiences and added new HubSpot integration as it expands its partnerships.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-06T18:59:10+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/meta-introduces-new-ai-powered-tools-at-advertising-week/832288",
-     "title": "Meta introduces new AI-powered tools at Advertising Week",
-     "summary": "The company is testing importing and creative insight features, as well as improved conversational guidance for its artificial intelligence elements.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-06T18:37:34+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.searchenginejournal.com/the-business-case-for-seo-is-changing-budget-justifications-should-too/590358",
-     "title": "The Business Case For SEO Is Changing; Budget Justifications Should Too via @sejournal, @cshel",
-     "summary": "Learn how to justify SEO budgets in the AI era by aligning investments with revenue generation, risk reduction, infrastructure, and business value. The post The Business Case For SEO Is Changing; Budget Justifications Should Too appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-07T12:00:32+00:00",
-     "score": 67
+     "url": "https://www.seroundtable.com/google-local-service-ads-how-leads-work-42259.html",
+     "title": "Google Local Service Ads Expands How Leads Work Information",
+     "summary": "Google has updated the how leads work help documentation within Local Service Ads with a lot more detail. The changes are meaningful, including what counts as a billable phone lead and how Google handles lead quality/credits.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-08T11:41:00+00:00",
+     "score": 71
     }
    ],
    "category": "ppc",
    "importance": 72,
-   "title": "Meta spouští Sequenced Events – optimalizace na dvě události v pořadí",
-   "updated": "2026-10-09T18:33:11.203026+00:00",
-   "what": "Meta představila funkci Sequenced Events, která umožňuje optimalizovat kampaně na základě dvou událostí dokončených v určitém pořadí (např. nejprve ViewContent, pak AddToCart). Inzerenti tak mohou cílit na kvalifikovanější leady z webu místo optimalizace jen na jednu izolovanou akci.",
-   "why": "Klasická optimalizace na jednu událost (např. Lead nebo Purchase) nezohledňuje cestu uživatele. Sequenced Events umožňují přesnější kvalifikaci návštěvníků podle jejich chování – reagují jen na ty, kdo prošli stanoveným sledem kroků. To může zlepšit kvalitu leadů a snížit plýtvání rozpočtem na nekvalitní kontakty.",
-   "takeaway": "Pokud řešíte nekvalitní leady z Meta kampaní, otestujte Sequenced Events – nastavte dvě po sobě jdoucí události (např. PageView → FormSubmit nebo ViewContent → InitiateCheckout) a optimalizujte na jejich sled. Sledujte, zda se zlepší konverzní poměr a kvalita získaných kontaktů.",
+   "title": "Google může zamítnout produkty v Merchant Centru při rychlých změnách cen",
+   "updated": "2026-10-10T00:08:57.321039+00:00",
+   "what": "Google aktualizoval pravidla pro automatické updaty v Merchant Centru. Produkty, u kterých se mění cena nebo dostupnost častěji než jednou denně, mohou být místo automatické aktualizace rovnou zamítnuty, pokud systém detekuje neshodu mezi feedem a stránkou. Změna v nápovědě proběhla 27. září 2026.",
+   "why": "Týká se e-shopů s dynamickým ceněním (flash výprodeje, denní akce, real-time ceny podle konkurence). Spoléhání se pouze na automatickou synchronizaci Google už nemusí stačit – hrozí zablokování produktů místo jejich aktualizace.",
+   "takeaway": "Zkontrolujte, jak často se vám mění ceny v produktovém feedu. Pokud máte flash výprodeje nebo dynamické ceny, zajistěte okamžitou aktualizaci feedu (ne jen na webu), jinak riskujete zmizení produktů z Google nákupů v klíčových okamžicích.",
    "importance_label": "důležité",
    "multi_source": true,
-   "image": "img/1de4980f6c.jpg",
-   "image_from": "jonloomer.com"
+   "image": "img/a211c12a2d.jpg",
+   "image_from": "ppcnewsfeed.com"
+  },
+  {
+   "id": "76ad1cdf94",
+   "created": "2026-09-26T12:03:38+00:00",
+   "articles": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNDJGTGNUQU9yZktGbkhULVM2bGJKSkRPSmR0WG1ZTXFaeVNTYXltTWpreEN2NXlFYTVreGE5dDl1dlFTb2hNcVdmQ2dqeWR0X1BaclNZdEI5eWVwTFU5V3AyUENYZ0NkQV9DMlFtanA0T0tUY3ZQbVdjVnZoYTlfVm1iLS1ZeS1FZ18zZ2dQVi0?oc=5",
+     "title": "Demand Gen FAQ Moves Display Inventory to CPM",
+     "summary": "Demand Gen FAQ Moves Display Inventory to CPM &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-26T12:03:38+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnVUS2pZd1JacjU3ZEtZdDVlUFRaNzE0bmV2NDBZMk4zT0Vqd05uZGpPb3h4TlVKenpiZGRhbWp1ZHBRWmtqTG5uWnRWaTQyYjMyQ1VRS0Vsb0MxWFNON0pYR1g2eUExMEg1Nk85cldneVJUeWtPOHBhVmlGdFJET0htTXZJOHVGbGFXRy1n?oc=5",
+     "title": "Google Unveils September Demand Gen Updates",
+     "summary": "Google Unveils September Demand Gen Updates &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-28T07:12:16+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSVFMWkdQMGI3Y0NSdE5veVVhNDV4UG1yS25yNDdNbFY3UGI4REczM0hvcjZ2clE0by04MllESjBnaXFXbzVMZ0dJamE0OGpKcVJWSFpKTFlJcnJuNTRQRnV3emJRdjhXUTV4TVBqTkxHYVJsUnhDVmdLeHk0bDN1YU1oLWZXSXdKWE1mQVZOdFc?oc=5",
+     "title": "AI Max Expands With New Reporting and Language Options",
+     "summary": "AI Max Expands With New Reporting and Language Options &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-27T08:31:36+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://blog.google/products/marketingplatform/360/vertical-video-unification",
+     "title": "Introducing Vertical Video Unification with Display & Video 360.",
+     "summary": "Unify vertical video buys with Google Display & Video 360. See how Unilever boosted reach by 24% using Gemini-powered measurement. Get the details.",
+     "source": "Google Marketing Platform blog",
+     "domain": "blog.google",
+     "published": "2026-09-28T13:00:00+00:00",
+     "score": 69
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/native-checkout-enabled-by-default-google-merchant-center",
+     "title": "Native Checkout Enabled by Default in Merchant Center",
+     "summary": "Native Checkout Enabled by Default in Merchant Center &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-09-28T05:00:00+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-policy-docs-updates-42167.html",
+     "title": "Several Google Merchant Center Policy Documents Updated",
+     "summary": "Google has updated several Google Merchant Center policy documents late last week. The documents include Products that enable dishonest behavior, Dangerous products, Counterfeit products, Sexual content, Editorial & professional requirements, the overarching Shopping ads policies overview and probably more.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-28T11:31:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-api-help-doc-update-42137.html",
+     "title": "Google Merchant Center API Help Document Vastly Updated",
+     "summary": "Google has completely revamped the Google Merchant Center API help document page. It was previously named \"API access to Merchant Center\" and was renamed to \"Google Merchant Center API.\" Plus, the content on the page has been completely rewritten and expanded.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-09-28T11:11:00+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://www.searchenginejournal.com/openai-engineer-users-wont-click-links-court-filing/591303",
+     "title": "Court Filing Quotes OpenAI Engineer: Users “Won’t Click” Links via @sejournal, @MattGSouthern",
+     "summary": "A court brief quotes an OpenAI engineer saying users \"won't click\" links and cites Microsoft data on lower CTRs in Bing Chat than in search. The post Court Filing Quotes OpenAI Engineer: Users &#8220;Won&#8217;t Click&#8221; Links appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-09-28T20:23:46+00:00",
+     "score": 47
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVN6SUV5aV9wTmpIS25ieVpXSXVWRWM0c1JRRWZtMzFhaGdKVG9rWFJESm9ZSHF0dnBKemVNa1JDNmhvNjVqTHVOeDlaWGQ2cHYxZmszWUxTSHJVZDBoWEVwRVE0SGNuXzJTcWRpWnZKLURnUGUwd0d2VXhaOUVHeENtV3NaOHNjQlpFY0QzMTBMdHJ5Q1FnaVVZODJTNVdCUm1UOTRnXzZ1dTI1Y1ZZRQ?oc=5",
+     "title": "Google changes view-through conversion reporting for Demand Gen Display ads",
+     "summary": "Google changes view-through conversion reporting for Demand Gen Display ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-05T16:19:30+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW92OGdTZkYxVGNhd3FqS29GVktPYzJ6UVlfUmxuLVlfZHlDaVliTTdBNExmMGdmR0ZvTnNFYS1RVm96S2hQYmt2U0FtSEUyUXZHa2d4S2I0dVBoSkd5S29adzF4SUxVMnR2RHlMcGZSWGVfbl9zNkpQenNNak5QbkoySzVyekxSNWlpQU44blRfVnBCV0lMdUdJWkkzS3BG?oc=5",
+     "title": "Google rolls out Merchant Center UCP integration hub in the U.S.",
+     "summary": "Google rolls out Merchant Center UCP integration hub in the U.S. &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-06T17:35:03+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/merchant-center-ucp-integration-hub-rolls-out-in-the-us-first",
+     "title": "Merchant Center UCP Integration Hub Rolls Out in the US First",
+     "summary": "The Merchant Center UCP integration hub is now gradually rolling out in the United States, offering merchants new capabilities. This update reflects a name change on the help page and a shift in rollout timing, with Australia and Canada following next year. Merchants using this hub can now choose UCP capabilities such as cart transfer to merchant site, native checkout on Google, and identity linking. The previous FAQ regarding UCP-powered checkout for select US merchants was removed, aligning with these updates. Read the official help page here: How to onboard to the UCP integration hub in Mer",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-06T14:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVDlReVBTLU5tRjIzaE5fZVNqVFVxMm44ZjhJYUxieUdOek12S2ZsUEltNVJGeDJOSWFpa3dpS3JGWlktMS1kcm1FamphSm5iOTZ5Slp4R24zSUJqSmhJLVBRdTJ3Z3NBcVVkV3ExTy1oMTcxa0w1d1BRM3kyRHV3dGVDWm03UU9jZVFQajVtclBCdDR3NWNIWDloc00?oc=5",
+     "title": "Google Ads can now calculate Target ROAS from profit margins",
+     "summary": "Google Ads can now calculate Target ROAS from profit margins &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-06T14:45:35+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmhraTNLQUdXQ24tTzViM2dLNE5YMzJjcmQtWWtQaU5ObXVZRGFsajQyRGNfYzJuQjBlZTdHMGNnZ0pEUGJQRDlnSEJoYUVhb3Q3MDJlQ3ZabVBySGVPbHRIS045c1QtZHR2TWg2LXJTRFJDdmRhb1J0UFNkUDliNGdWaEpnajk1QlpBNGF3SHI1bFU?oc=5",
+     "title": "Google Display migration to Demand Gen: How to protect your ad budget",
+     "summary": "Google Display migration to Demand Gen: How to protect your ad budget &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-07T12:00:00+00:00",
+     "score": 73
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-new-vtc-counting-method-unveiled",
+     "title": "Demand Gen’s New VTC Counting Method Unveiled",
+     "summary": "Google Ads has introduced a novel approach to counting view-through conversions (VTC) for Display ads in Demand Gen campaigns. The attribution model shifts from the traditional \"Active View\" to a new standard termed \"rendered ad impression\". Under this new method, a view is considered valid when at least one pixel of the ad is on-screen, irrespective of the duration. This adjustment, specific to Demand Gen campaigns, will automatically roll out, leaving advertisers without any need for manual intervention. This update was shared by Arpan Banerjee . The post Demand Gen&#8217;s New VTC Counting ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-07T07:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/phone-number-appears-hover-local-ads",
+     "title": "Phone Number Appears on Hover in Local Ads",
+     "summary": "Google appears to be testing a change to Local Ads that hides the advertiser’s phone number by default.&nbsp; When a user moves their mouse over the ad, the phone number automatically appears without requiring a click. This update was shared by&nbsp; Barry Schwartz . The post Phone Number Appears on Hover in Local Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-05T05:00:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/mcc-accounts-can-create-google-ads-accounts-without",
+     "title": "MCC Accounts Can Create Google Ads Accounts Without a Campaign",
+     "summary": "Google Ads manager accounts can now create new accounts without the necessity of setting up a campaign immediately. This change is available to accounts that have spent more than $1,000 USD and are compliant with Google Ads policies. The new flow allows managers to enter account details such as name, type, country, time zone, and currency, along with business information like name and URL for better recommendations. Newly created accounts, however, no longer support URLs in the account name.&nbsp; There’s also an option to link accounts like YouTube, Business Profile, or Merchant Center during",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-05T07:00:00+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/ai-campaign-localization-tool-in-beta",
+     "title": "AI Campaign Localization Tool for Search Campaigns",
+     "summary": "AI Campaign Localization Tool for Search Campaigns &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-05T12:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-ai-campaign-localization-tool-42221.html",
+     "title": "Google Ads AI Campaign Localization Tool (Beta)",
+     "summary": "Google Ads has a new AI campaign localization tool for Search campaigns (beta), at least according to a new help document I found late last week. \"You can use the AI campaign localization tool to quickly localize entire Search campaigns for new languages and regions using generative AI,\" Google wrote in the help document.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-05T11:11:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-automated-promotions-october-12-42223.html",
+     "title": "Google Ads To Automated Promotions For Search & PMax Campaigns Soon",
+     "summary": "Google Ads sent an email notifying some advertisers that it will automatically identify and extract high-quality promotions from your website and apply them directly to your campaigns starting on October 12, 2026. This is called automated promotions and only applies to Search and Performance Max campaigns with linked location assets.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-05T11:41:00+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVR0b1AtM2duTEdyLWMyNmVQVkx4VHExb3E2aUQ5THp5QV92OE14Z1c4T2Q0OFlDbTdxMms5TUJzZUtfV1hiVy1GdnluUWh0SlpKNlRiM0JQZG1rRUhxbVRnNTAzTzNBaUM5SHl0b19wZmRyOU14YUR2Q2dicmUwQw?oc=5",
+     "title": "Why Google is pushing advertisers toward demand-led budgeting",
+     "summary": "Why Google is pushing advertisers toward demand-led budgeting &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-05T12:00:00+00:00",
+     "score": 78
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/loyalty-customer-match-expands-ai-mode-more-regions",
+     "title": "Loyalty Customer Match Expands to AI Mode and More Regions",
+     "summary": "Loyalty Customer Match Expands to AI Mode and More Regions &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-05T14:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmRzVC1KWHFwSGdvN0d2YUp1ZGtiakY4YTdQdlczS3VEa1FZN09lVG4ydWdSNU9EdHBUNnI5S1FhdHRueDB0UmdDa0w0V1piaHR1azRzV0JFaXBld0R1WTZsbWlBUGpiVFJnc01HSjJOQzV0czJOU1JXdExzb1RFVzFMUlEzb0F3Q2dGcmg4Wm1wVnhxUzBXWWRhN2xaUlRZRWtJS0g4LXdZQnZNd1VxUlpWcw?oc=5",
+     "title": "Google Ads tests Video Campaign Groups for cross-campaign reach and frequency",
+     "summary": "Google Ads tests Video Campaign Groups for cross-campaign reach and frequency &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-06T18:02:28+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/sitelinks-in-ai-mode-being-tested-by-google",
+     "title": "Sitelinks in AI Mode Being Tested by Google",
+     "summary": "Google is experimenting with sitelinks in the AI Mode of its ad platform to determine which ad formats drive the highest click-through rates.&nbsp; This discovery was shared by Anthony Higman and&nbsp; Barry Schwartz . The post Sitelinks in AI Mode Being Tested by Google appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-06T07:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.seroundtable.com/product-labels-on-chatgpt-results-42237.html",
+     "title": "OpenAI Tests New Product Labels On ChatGPT Results",
+     "summary": "OpenAI is testing new labels appended to the ChatGPT product results. These labels can add information about the product it is displaying, such as \"best all-rounder,\" \"best for beginners,\" \"best cushioning,\" and so on.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-06T10:02:00+00:00",
+     "score": 53
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/x-launches-ai-powered-ad-creation-option/832276",
+     "title": "X launches AI-powered ad creation option",
+     "summary": "The company launched X Lift at Advertising Week New York and said the new system can automatically convert a business URL to a promotional campaign.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-10-06T17:42:25+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.seroundtable.com/google-merchant-center-ucp-integration-hub-42243.html",
+     "title": "Google Merchant Center New UCP Integration Hub",
+     "summary": "Google Merchant Center is rolling out the UCP integration hub in the United States. The UCP integration hub allows you to onboard to UCP program from your Merchant Center account.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-07T11:21:00+00:00",
+     "score": 58
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/new-overlay-on-videos-option-in-demand-gen",
+     "title": "“Overlay on Videos” Asset Optimization for Demand Gen",
+     "summary": "Google Ads is now showing a new \"Overlay on videos\" setting in the asset optimization options of Demand Gen video ads .&nbsp; It is marked as \"new\" and described as \"Add key messaging with text assets on videos\". It sits in the Video section next to the existing \"Shorter videos\" and \"Resized videos\" options. With the setting on, Google adds a text overlay with key messaging from your text assets on top of the video.&nbsp; The option appears to be turned on by default , so check your Demand Gen campaigns if you don't want Google adding text over your videos.&nbsp; You can switch it off individu",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-09T07:00:00+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-overview-adds-video-impressions",
+     "title": "Overview Page Enhanced by Video Impressions and Performance by Stage",
+     "summary": "A recent update to the Google Ads Overview page now includes video impressions in conversion paths, helping advertisers understand their impact earlier in the customer journey. This marks a significant addition, as previously only views were considered. Video impressions are marked with an eye icon. Another new feature is the \"Performance by stage\" card, which categorizes key metrics under awareness, consideration, and action stages. This card incorporates metrics such as impressions, CPM, frequency, views, video completion rate , and conversion insights . It's designed to enhance the tracking",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-08T04:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-experiments-get-ai-powered-insights",
+     "title": "Google Ads Experiments Get AI-Powered Insights",
+     "summary": "Google Ads now includes an AI-generated summary panel in experiment reporting. This new feature, highlighted in the Monitor Your Experiments help page, provides advertisers with a quick overview of experiment goals and top insights, accompanied by actionable recommendations. This update introduces an AI insights panel under the \"Summary\" tab of experiments, showcasing goals, key takeaways, and recommended actions.&nbsp; Additionally, Performance Max experiment pages specify outcomes when experiments are applied: migration experiments shift traffic fully to Performance Max, optimization experim",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-08T07:00:00+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNXB3eEFULVdRdkdEZ1BHZjRTYnE2blMyTWNhVC1URmNqWTBTSlBNY3lQX3U4YTNJLXZ3akJBZTVRVFoyeV9yaU1fdHkweU5zV24yQ0JIeTY0QlMySGxDWkpFZWxxVXRHUDRBMDl1d2lxcmRFQkw4SXhWVS1TajBkYXRxLXY1dFdPUm95aFRzd0RzNlpQaWdQRklqRnFnOW1sYzdEYW5wQjNiMUE?oc=5",
+     "title": "Google Ads adds video impressions and funnel reporting to Overview page",
+     "summary": "Google Ads adds video impressions and funnel reporting to Overview page &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-08T16:05:23+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDQ5c0p3dmtuREk1OG5hTms0S2ptNHF4MVFzUDl1ZWxSMU04b1laX0p5QTVRVUtZRkh2SkI0RVVicWJBYVlPMkN2QmJrbWZKbDducW9uMWNCaFZGYVdvVjdYZkZFMDJ6MFp5aHBpRTM5TzBFejQtS1E0TnZKVzNnVUhubmxZbmdwWkdZM01Rd21zUGVJTWxoOUpfTjRuWng4cDR1NlBya3l4UEJkdUd6TG9Hcw?oc=5",
+     "title": "Google Ads lets advertisers preview AI Max-generated ad copy before opting in",
+     "summary": "Google Ads lets advertisers preview AI Max-generated ad copy before opting in &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-08T16:58:18+00:00",
+     "score": 75
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd0hsaFoyaWdyY0xIMTh3TFpMZjRqU3gzdVlhcm1FNmlZakpsTl9JM2I3VEFYdXJTYlNhcHl0bnM3bkN2ZmpabGRyZXNtRTdvOUxoYjB4ZXc2NWlVZ0dGdUQ2WnVFVWpZYzYwb0hWMXdvZTNnTzZzLUxPdUt5bjRSY0JjQl83ZFEza2c?oc=5",
+     "title": "AI Max Text Customization Adds Asset Previews Before Opt-In",
+     "summary": "AI Max Text Customization Adds Asset Previews Before Opt-In &nbsp;&nbsp; PPC News Feed",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-08T15:44:31+00:00",
+     "score": 74
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0tVMy1JcG9SS2lpX09Vd2hjaU9jdTZoLTRReVlMYTBWNG5oamQ1SWM0QTQtUXVYeHNqS0Nva3RqTzB3RGxxWmlHY2dyd3ZCNEJScU9uNkFjUmxYWEVmM3FZWDFXdEU0dEUzX2pNM1VBUmdzUWNDaDY2S0pNYjZGU1ZoekZfd05Ja3dqblRfYnhtTElVdldwREp6OA?oc=5",
+     "title": "Google Ads adds AI-powered insights to experiment reporting",
+     "summary": "Google Ads adds AI-powered insights to experiment reporting &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-08T16:17:40+00:00",
+     "score": 68
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-documents-commerce-audience-sharing",
+     "title": "Google Documents Commerce Audience Sharing for Retail Media",
+     "summary": "Google Ads has introduced a new feature called commerce audience sharing that allows retailers and marketplaces to share their first-party data segments with advertising partners like brands and sellers. This enhancement is part of Google's retail media strategy. The new help page titled \"About commerce audience sharing through Google Ads\" outlines how commerce partners can securely share audience segments with eligible campaigns by linking their Google Ads account to the commerce partner's Google Merchant Center and data sharing account. Both accounts must meet standard eligibility requiremen",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-08T11:00:00+00:00",
+     "score": 72
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-new-ai-max-columns-42256.html",
+     "title": "Google Ads AI Max Columns: Brand Inclusion, Commission, Locations Of Interest & Optimized Targeting",
+     "summary": "Google Ads is adding new AI Max related columns to the Google Ads reporting console. The columns include brand inclusions, locations of interest, commission and optimized targeting.",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-08T11:21:00+00:00",
+     "score": 71
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/asset-studio-now-powered-by-ai-in-google-ads",
+     "title": "Asset Studio Now Powered by AI in Google Ads",
+     "summary": "Google Ads has introduced a new AI-powered Asset Studio, leveraging Gemini to enhance content creation. This feature allows advertisers to generate text, images, and videos by inputting campaign and brand specifics such as final URLs , objectives, audience demographics, and brand guidelines. The system utilizes these inputs to automatically generate assets tailored for specific campaigns. Users can modify and customize these inputs to improve AI-generated outputs. The workflow encourages using campaign data and brand guidelines to refine the asset generation process. This update was shared by ",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-09T02:00:00+00:00",
+     "score": 77
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR0puQlhkMFBMZi1vdHVfdDR0RUQ2Q3pjU0gtUEl2Ui1DcjdOdTN3NTBmcHV2RWhsRTZmaFpMbUNHM3VNWWpxcC1GeTNXTHk2cmZBNndWRWdSMWNTYW02WEc2OG1PQTJTNVFXUmVFU0NHTW4xOGxkb0o4bDlPOWxpRWNEVm9odTg3amxJQXRDX1JTNTlQOEFwZktZNllYVno4?oc=5",
+     "title": "Google Ads adds automatic text overlays to Demand Gen video ads",
+     "summary": "Google Ads adds automatic text overlays to Demand Gen video ads &nbsp;&nbsp; Search Engine Land",
+     "source": "Search Engine Land",
+     "domain": "searchengineland.com",
+     "published": "2026-10-09T18:47:30+00:00",
+     "score": 68
+    }
+   ],
+   "category": "ppc",
+   "importance": 65,
+   "title": "Google mění Demand Gen kampaně: displayová inventura nově na CPM model",
+   "updated": "2026-10-10T00:08:49.545271+00:00",
+   "what": "Google upravil svoje Demand Gen kampaně – displayová inventura se přesouvá z dosavadního modelu na cenu za tisíc impresí (CPM). Změna se objevila v aktualizovaném FAQ dokumentu. Zároveň Google oznámil další zářijové updaty pro Demand Gen.",
+   "why": "Pro manažery řídící reklamní rozpočty v Google Ads to může znamenat změnu v cenách a způsobu účtování u displayových kampaní v Demand Gen. Je třeba revidovat nastavení kampaní a očekávanou efektivitu, pokud tyto kampaně využíváte.",
+   "takeaway": "Zkontrolujte, jestli máte aktivní Demand Gen kampaně s displayovou inventurou a sledujte změny v ceně a výkonu po přechodu na CPM model. Připravte se případně upravit rozpočty nebo bidovací strategie.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/76ad1cdf94.jpg",
+   "image_from": "ppcnewsfeed.com"
   },
   {
    "id": "6537a84437",
@@ -6925,12 +7195,21 @@
      "domain": "searchengineland.com",
      "published": "2026-10-09T13:00:00+00:00",
      "score": 75
+    },
+    {
+     "url": "https://www.seroundtable.com/google-ads-text-customization-asset-previews-42264.html",
+     "title": "Google Ads Enables Text Customization Asset Previews",
+     "summary": "Google Ads now lets you preview the assets generated by Google AI for your Google Ads AI Max campaigns. Google added these details to the About text customization in Search campaigns help page under a new section named \"Text customization asset previews.\"",
+     "source": "Search Engine Roundtable",
+     "domain": "seroundtable.com",
+     "published": "2026-10-09T11:51:00+00:00",
+     "score": 68
     }
    ],
    "category": "ppc",
    "importance": 68,
    "title": "OpenAI potvrdil spuštění konverzních reklam v ChatGPT",
-   "updated": "2026-10-09T18:33:01.080793+00:00",
+   "updated": "2026-10-10T00:08:38.067525+00:00",
    "what": "OpenAI oficiálně potvrdil, že do ChatGPT přidává konverzně zaměřené reklamy. Někteří inzerenti už vidí novou funkci Text Customization, která automaticky generuje a překládá varianty nadpisů a popisků reklam pomocí AI (je zapnutá defaultně).",
    "why": "65 % amerických uživatelů AI chatbotů už jimi nahradilo část vyhledávání produktů na Googlu, ale 57,5 % z nich chatboty od nákupu spíše odradily a 4 z 10 nemají rádi chatbotové reklamy. Přesto experti doporučují ChatGPT reklamy zařadit do mediaplánů na rok 2027 – jde o nový reklamní kanál s vlastní logikou.",
    "takeaway": "Sledujte dostupnost ChatGPT reklam v EU a zvažte pilotní testy, až budou dostupné. Zároveň připravte obsah a produktová data tak, aby chatboty uživatele od nákupu neodradily (jasné benefity, srovnání, důvěryhodnost). Nový kanál vyžaduje jiný copywriting než Google Ads.",
@@ -6938,6 +7217,189 @@
    "multi_source": true,
    "image": "img/6537a84437.jpg",
    "image_from": "semrush.com"
+  },
+  {
+   "id": "1de4980f6c",
+   "created": "2026-10-06T11:30:28+00:00",
+   "articles": [
+    {
+     "url": "https://www.jonloomer.com/meta-sequenced-events",
+     "title": "Meta Sequenced Events: Optimize for Qualified Website Leads",
+     "summary": "Learn how Meta Sequenced Events let advertisers optimize for qualified website leads based on two events completed in order. The post Meta Sequenced Events: Optimize for Qualified Website Leads appeared first on Jon Loomer Digital .",
+     "source": "Jon Loomer",
+     "domain": "jonloomer.com",
+     "published": "2026-10-06T11:30:28+00:00",
+     "score": 70
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-introduces-new-ai-powered-tools-at-ad-week-2026/832288",
+     "title": "Meta introduces new AI-powered tools at Ad Week 2026",
+     "summary": "The company is testing importing and creative insight features, as well as improved conversational guidance for its artificial intelligence elements.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-10-06T18:37:34+00:00",
+     "score": 64
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/reddit-launches-updated-lead-gen-ads-options/832296",
+     "title": "Reddit launches updated lead gen ads options",
+     "summary": "The platform also launched a test of in-market audiences and added new HubSpot integration as it expands its partnerships.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-10-06T18:59:10+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://www.socialmediatoday.com/news/meta-introduces-new-ai-powered-tools-at-advertising-week/832288",
+     "title": "Meta introduces new AI-powered tools at Advertising Week",
+     "summary": "The company is testing importing and creative insight features, as well as improved conversational guidance for its artificial intelligence elements.",
+     "source": "Social Media Today",
+     "domain": "socialmediatoday.com",
+     "published": "2026-10-06T18:37:34+00:00",
+     "score": 62
+    },
+    {
+     "url": "https://www.searchenginejournal.com/the-business-case-for-seo-is-changing-budget-justifications-should-too/590358",
+     "title": "The Business Case For SEO Is Changing; Budget Justifications Should Too via @sejournal, @cshel",
+     "summary": "Learn how to justify SEO budgets in the AI era by aligning investments with revenue generation, risk reduction, infrastructure, and business value. The post The Business Case For SEO Is Changing; Budget Justifications Should Too appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-07T12:00:32+00:00",
+     "score": 67
+    },
+    {
+     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/ai-max-columns-now-available-in-google-ads",
+     "title": "AI Max Columns Now Available in Google Ads",
+     "summary": "Advertisers now have access to new AI Max-related columns in Google Ads. These columns include Locations of interest , Optimized targeting , and Brand inclusions , providing enhanced visibility into campaign performance. This update helps advertisers better understand how specific settings impact their AI Max campaigns, though it's still rolling out and may not be available in all accounts yet. This update was shared by Vivek Gupta. The post AI Max Columns Now Available in Google Ads appeared on PPC News Feed .",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-09T14:00:00+00:00",
+     "score": 72
+    }
+   ],
+   "category": "socialni-site",
+   "importance": 70,
+   "title": "Meta spustila Sequenced Events – optimalizace pro kvalifikované leads",
+   "updated": "2026-10-10T00:08:28.563811+00:00",
+   "what": "Meta uvedla novou funkci Sequenced Events, která umožňuje inzerentům optimalizovat kampaně na kvalifikované návštěvníky webu na základě dvou událostí dokončených v určitém pořadí. Paralelně Meta na Advertising Weeku představila nové AI nástroje včetně funkcí pro import a creative insights a vylepšenou konverzační asistenci v AI prvcích.",
+   "why": "Sequenced Events umožňují přesnější cílení na uživatele, kteří provedli sekvenci akcí (např. návštěva produktu následovaná přidáním do košíku), což může zvýšit kvalitu leadů a snížit náklady na konverzi oproti klasické optimalizaci na jednu událost.",
+   "takeaway": "Pokud využíváte Meta Ads a cílíte na leady s vyšším záměrem nákupu, otestujte Sequenced Events pro optimalizaci na dvoustupňové konverze. Nové AI nástroje zatím Meta pouze testuje – sledujte jejich dostupnost pro vaše účty.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/1de4980f6c.jpg",
+   "image_from": "jonloomer.com"
+  },
+  {
+   "id": "8353b38a48",
+   "created": "2026-10-08T03:52:04+00:00",
+   "articles": [
+    {
+     "url": "https://ppcnewsfeed.com/blog/bdos-ai-for-google-ads-specialists",
+     "title": "BDOS.ai in Real Client Work: Why AI Agents Raise the Bar for Google Ads Specialists",
+     "summary": "Buying access to a powerful AI agent does not give anyone an edge on its own; its true value depends on how it is used. The real edge comes from the ability to handle a client's business context, a well-thought-out strategy and market instinct earned through years of practice. AI cannot turn a messy setup into an orderly one; it only makes the mess grow faster. BDOS.ai was designed with this in mind: it is not a shortcut that lets you switch your brain off, but a test of how mature your way of working really is. Who built BDOS.ai and what it does BDOS.ai comes from two Google Ads practitioners",
+     "source": "PPC Newsfeed",
+     "domain": "ppcnewsfeed.com",
+     "published": "2026-10-08T03:52:04+00:00",
+     "score": 57
+    },
+    {
+     "url": "https://www.searchenginejournal.com/ai-in-regulated-paid-media-the-default-settings-that-put-compliance-at-risk/589188",
+     "title": "AI In Regulated Paid Media: The Default Settings That Put Compliance At Risk via @sejournal, @timothyjjensen",
+     "summary": "Understand how to address both ad platform and organizational AI concerns for paid media advertisers in regulated industries The post AI In Regulated Paid Media: The Default Settings That Put Compliance At Risk appeared first on Search Engine Journal .",
+     "source": "Search Engine Journal",
+     "domain": "searchenginejournal.com",
+     "published": "2026-10-08T19:00:44+00:00",
+     "score": 52
+    }
+   ],
+   "category": "ppc",
+   "importance": 62,
+   "title": "AI nástroje pro PPC: BDOS.ai ukazuje, že automatizace sama nestačí",
+   "updated": "2026-10-09T18:33:36.264499+00:00",
+   "what": "BDOS.ai, nástroj pro správu Google Ads vyvinutý PPC praktiky, upozorňuje, že samotný přístup k AI agentovi nedává nikomu automatickou výhodu. Jeho skutečná hodnota závisí na tom, jak je použit – AI nemůže změnit nepořádek v kampani v pořádek, jen ho zrychlí. Paralelně Search Engine Journal varuje před výchozími AI nastaveními v reklamních platformách, která mohou v regulovaných odvětvích porušovat compliance pravidla.",
+   "why": "Pro marketingové manažery je to připomínka, že AI nástroje (včetně Google Ads automatizace) nejsou zkratkou k lepším výsledkům, ale zesilovačem existující kvality práce. Bez solidní strategie, znalosti byznysu klienta a disciplinovaných procesů AI jen zrychlí špatná rozhodnutí. V regulovaných oborech (finance, zdraví, farmacie) navíc mohou výchozí AI nastavení platforem vést k problémům s compliance.",
+   "takeaway": "Pokud plánujete zavést nebo už používáte AI nástroje pro správu PPC (Smart Bidding, Performance Max, AI agenty), nejprve zkontrolujte, zda máte jasnou strategii, čistou strukturu kampaní a procesy pro kontrolu výstupů. V regulovaných odvětvích ručně překontrolujte výchozí AI nastavení platforem a upravte je tak, aby odpovídala compliance požadavkům vaší firmy nebo klienta.",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "image": "img/9ea78d1cfc.jpg",
+   "image_from": "searchenginejournal.com"
+  },
+  {
+   "id": "578ae0dc21",
+   "created": "2026-10-07T13:52:00+00:00",
+   "articles": [
+    {
+     "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next",
+     "title": "Classic marketing automation is dead: What’s next?",
+     "summary": "Rule-based automation is giving way to truly autonomous marketing. Discover how human-in-the-loop design frees your team to focus on real business outcomes. The post Classic marketing automation is dead: What’s next? appeared first on MarTech .",
+     "source": "MarTech",
+     "domain": "martech.org",
+     "published": "2026-10-07T13:52:00+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWtGVXpueS1Mbl9BNGxJYmNtRjhydURJOWlIeDVBU2RIVjF0OFZTUmZNNEZ3T05rTVRMcjdGT2xjUWRNb0RXdzZRaWpSSnZaOVBtMGpjNy1QMTJiSUlBa2o0aWk4dHBZaGxJdlRtY1FkN3dfWUx0b044RFE5Q2tPZEI5SFZVYnRqdTNHb25CZ1dCUUhmR0E2dGNCZ18yQWRUWWNxM3R3QVoxOEItQlpncE5oR3BNTi0tZV93ODRPOVFGUQ?oc=5",
+     "title": "Nakupovat s AI? Ano. Platit? Ne. Zatím",
+     "summary": "Nakupovat s AI? Ano. Platit? Ne. Zatím &nbsp;&nbsp; www.mam.cz",
+     "source": "Marketing & Media",
+     "domain": "mam.cz",
+     "published": "2026-10-09T08:34:38+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://cc.cz/tretina-cechu-nakupuje-s-ai-nektere-e-shopy-ale-zaspaly-konference-reshoper-ukaze-jak-na-trendu-vydelat",
+     "title": "Třetina Čechů nakupuje s AI, některé e-shopy ale zaspaly. Veletrh Reshoper ukáže, jak na trendu vydělat",
+     "summary": "Osmý ročník tradiční akce Reshoper proběhne 15. října na pražském Výstavišti. Zaměří se na využití AI v e-commerce nebo růst marží před Vánoci. Článek Třetina Čechů nakupuje s AI, některé e-shopy ale zaspaly. Veletrh Reshoper ukáže, jak na trendu vydělat se nejdříve objevil na CzechCrunch .",
+     "source": "CzechCrunch",
+     "domain": "cc.cz",
+     "published": "2026-10-09T08:13:39+00:00",
+     "score": 62
+    }
+   ],
+   "category": "ai",
+   "importance": 68,
+   "title": "Třetina Čechů už nakupuje s pomocí AI, e-shopy musí reagovat",
+   "updated": "2026-10-09T18:33:28.716501+00:00",
+   "importance_label": "důležité",
+   "multi_source": true,
+   "what": "Podle dat prezentovaných na nadcházejícím veletrhu Reshoper (15. října, Praha) již třetina českých spotřebitelů využívá AI při nákupech online. Někteří provozovatelé e-shopů zatím na tento trend nereagují dostatečně.",
+   "why": "Pokud zákazníci masově začínají nakupovat s AI asistenty (např. chatboty, doporučovací systémy), e-shopy bez těchto funkcí riskují ztrátu konverzí a konkurenceschopnosti. Jde o změnu chování zákazníků, kterou nelze ignorovat.",
+   "takeaway": "Zkontrolujte, zda váš e-shop podporuje AI asistované nákupy (chatboty, inteligentní vyhledávání, personalizovaná doporučení). Pokud ne, naplánujte pilotní implementaci ještě před vánoční sezonou – nebo alespoň zjistěte, jak konkurence reaguje. Reshoper může být příležitost získat konkrétní tipy.",
+   "image": "img/5eaaba43f7.jpg",
+   "image_from": "mam.cz"
+  },
+  {
+   "id": "d3f0787e9c",
+   "created": "2026-10-08T08:06:31+00:00",
+   "articles": [
+    {
+     "url": "https://blog.seznam.cz/2026/10/sberatelska-edice-pokemon-tcg-30th-celebration-budi-na-zbozi-cz-enormni-zajem",
+     "title": "Sběratelská edice Pokémon TCG: 30th Celebration budí na Zboží.cz enormní zájem",
+     "summary": "V polovině září se na českém trhu rozběhl naplno prodej nové sběratelské edice věnované třem dekádám světa Pokémonů &#8211; Pokémon TCG: 30th Celebration. Zájem o ni je na nákupním rádci Zboží.cz enormní. „Zájem o sběratelské karty Pokémon na nákupním rádci Zboží.cz v období od 16. 9. – 3. 10. 2026 je ve srovnání se stejně &#8230; Zdroj",
+     "source": "Seznam blog",
+     "domain": "blog.seznam.cz",
+     "published": "2026-10-08T08:06:31+00:00",
+     "score": 52
+    },
+    {
+     "url": "https://www.mediaguru.cz/mattoni-a-granini-rozsiruji-product-placement-v-poradu-zradci-i-do-gastra",
+     "title": "Mattoni a Granini rozšiřují product placement v pořadu Zrádci i do gastra",
+     "summary": "Perlivá Mattoni, džusy Granini a televizní show Zrádci propojují letos společné aktivity napříč vysíláním, digitálním obsahem, eventy i gastronomií. Součástí partnerství se stal také speciální nealkoholický koktejl, který se objevil přímo v ději pořadu a během podzimu zamíří do vybraných podniků po celé republice.",
+     "source": "MediaGuru",
+     "domain": "mediaguru.cz",
+     "published": "2026-10-09T10:00:00+00:00",
+     "score": 47
+    }
+   ],
+   "category": "cesky-marketing",
+   "importance": 45,
+   "title": "Zboží.cz hlásí enormní zájem o sběratelskou edici Pokémon TCG: 30th Celebration",
+   "updated": "2026-10-09T18:33:20.236507+00:00",
+   "what": "V polovině září 2026 se na českém trhu začala prodávat sběratelská edice Pokémon TCG: 30th Celebration věnovaná třem dekádám světa Pokémonů. Podle dat z nákupního rádce Zboží.cz je o ni v období 16. 9. – 3. 10. 2026 enormní zájem ve srovnání se stejným obdobím předchozích let.",
+   "why": "Ukazuje aktuální chování zákazníků na českém trhu s kolekcionářskými produkty a potvrzuje, že sezónní/limitované edice známých značek dokážou generovat výrazný nárůst poptávky a trafiku na e-shopech.",
+   "takeaway": "Pokud prodáváte hračky, sběratelské předměty nebo licencované produkty, sledujte data ze Zboží.cz – podobné skoky poptávky naznačují prostor pro cílené PPC kampaně a rychlou optimalizaci nabídky v období lansování populárních edic.",
+   "importance_label": "stojí za pozornost",
+   "multi_source": true
   },
   {
    "id": "959990d3f1",
@@ -6972,11 +7434,14 @@
     }
    ],
    "category": "socialni-site",
-   "importance": 55,
-   "title": "X adds liveness check to counter bots",
+   "importance": 52,
+   "title": "X nasazuje kontrolu živosti proti botům a rozšiřuje analytické schopnosti Groku",
    "updated": "2026-10-09T18:32:46.413670+00:00",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
+   "multi_source": false,
+   "what": "X (dříve Twitter) představil dvě novinky: nástroj na detekci botů pomocí kontroly živosti uživatelů (liveness check) a nové analytické schopnosti pro chatbota Grok, který nyní umí vyhledávat příspěvky a zmínky značek a poskytovat informace o trendech.",
+   "why": "Pro firmy využívající X pro marketing jde o dvojí změnu: detekce botů může vyčistit metriky engagement od nereálných interakcí, zatímco analytické funkce Groku nabízejí nový způsob, jak rychle získat přehled o tom, jak se o značce mluví a jaké trendy ve zmínkách existují.",
+   "takeaway": "Sledujte, jak se čištění od botů promítne do vašich metrik engagement na X – může dojít k poklesu nereálných interakcí. Pokud máte přístup k Groku (Premium+), otestujte jeho analytické funkce pro monitoring značky a trendů jako doplněk ke stávajícím nástrojům."
   },
   {
    "id": "a9be011c9c",
@@ -7146,347 +7611,6 @@
    "importance_label": "důležité",
    "multi_source": true,
    "image": "img/6bc68e9c54.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
-   "id": "76ad1cdf94",
-   "created": "2026-09-26T12:03:38+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNDJGTGNUQU9yZktGbkhULVM2bGJKSkRPSmR0WG1ZTXFaeVNTYXltTWpreEN2NXlFYTVreGE5dDl1dlFTb2hNcVdmQ2dqeWR0X1BaclNZdEI5eWVwTFU5V3AyUENYZ0NkQV9DMlFtanA0T0tUY3ZQbVdjVnZoYTlfVm1iLS1ZeS1FZ18zZ2dQVi0?oc=5",
-     "title": "Demand Gen FAQ Moves Display Inventory to CPM",
-     "summary": "Demand Gen FAQ Moves Display Inventory to CPM &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-26T12:03:38+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnVUS2pZd1JacjU3ZEtZdDVlUFRaNzE0bmV2NDBZMk4zT0Vqd05uZGpPb3h4TlVKenpiZGRhbWp1ZHBRWmtqTG5uWnRWaTQyYjMyQ1VRS0Vsb0MxWFNON0pYR1g2eUExMEg1Nk85cldneVJUeWtPOHBhVmlGdFJET0htTXZJOHVGbGFXRy1n?oc=5",
-     "title": "Google Unveils September Demand Gen Updates",
-     "summary": "Google Unveils September Demand Gen Updates &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-28T07:12:16+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSVFMWkdQMGI3Y0NSdE5veVVhNDV4UG1yS25yNDdNbFY3UGI4REczM0hvcjZ2clE0by04MllESjBnaXFXbzVMZ0dJamE0OGpKcVJWSFpKTFlJcnJuNTRQRnV3emJRdjhXUTV4TVBqTkxHYVJsUnhDVmdLeHk0bDN1YU1oLWZXSXdKWE1mQVZOdFc?oc=5",
-     "title": "AI Max Expands With New Reporting and Language Options",
-     "summary": "AI Max Expands With New Reporting and Language Options &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-27T08:31:36+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://blog.google/products/marketingplatform/360/vertical-video-unification",
-     "title": "Introducing Vertical Video Unification with Display & Video 360.",
-     "summary": "Unify vertical video buys with Google Display & Video 360. See how Unilever boosted reach by 24% using Gemini-powered measurement. Get the details.",
-     "source": "Google Marketing Platform blog",
-     "domain": "blog.google",
-     "published": "2026-09-28T13:00:00+00:00",
-     "score": 69
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/native-checkout-enabled-by-default-google-merchant-center",
-     "title": "Native Checkout Enabled by Default in Merchant Center",
-     "summary": "Native Checkout Enabled by Default in Merchant Center &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-28T05:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-policy-docs-updates-42167.html",
-     "title": "Several Google Merchant Center Policy Documents Updated",
-     "summary": "Google has updated several Google Merchant Center policy documents late last week. The documents include Products that enable dishonest behavior, Dangerous products, Counterfeit products, Sexual content, Editorial & professional requirements, the overarching Shopping ads policies overview and probably more.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-28T11:31:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-api-help-doc-update-42137.html",
-     "title": "Google Merchant Center API Help Document Vastly Updated",
-     "summary": "Google has completely revamped the Google Merchant Center API help document page. It was previously named \"API access to Merchant Center\" and was renamed to \"Google Merchant Center API.\" Plus, the content on the page has been completely rewritten and expanded.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-28T11:11:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://www.searchenginejournal.com/openai-engineer-users-wont-click-links-court-filing/591303",
-     "title": "Court Filing Quotes OpenAI Engineer: Users “Won’t Click” Links via @sejournal, @MattGSouthern",
-     "summary": "A court brief quotes an OpenAI engineer saying users \"won't click\" links and cites Microsoft data on lower CTRs in Bing Chat than in search. The post Court Filing Quotes OpenAI Engineer: Users &#8220;Won&#8217;t Click&#8221; Links appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-28T20:23:46+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVN6SUV5aV9wTmpIS25ieVpXSXVWRWM0c1JRRWZtMzFhaGdKVG9rWFJESm9ZSHF0dnBKemVNa1JDNmhvNjVqTHVOeDlaWGQ2cHYxZmszWUxTSHJVZDBoWEVwRVE0SGNuXzJTcWRpWnZKLURnUGUwd0d2VXhaOUVHeENtV3NaOHNjQlpFY0QzMTBMdHJ5Q1FnaVVZODJTNVdCUm1UOTRnXzZ1dTI1Y1ZZRQ?oc=5",
-     "title": "Google changes view-through conversion reporting for Demand Gen Display ads",
-     "summary": "Google changes view-through conversion reporting for Demand Gen Display ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-05T16:19:30+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW92OGdTZkYxVGNhd3FqS29GVktPYzJ6UVlfUmxuLVlfZHlDaVliTTdBNExmMGdmR0ZvTnNFYS1RVm96S2hQYmt2U0FtSEUyUXZHa2d4S2I0dVBoSkd5S29adzF4SUxVMnR2RHlMcGZSWGVfbl9zNkpQenNNak5QbkoySzVyekxSNWlpQU44blRfVnBCV0lMdUdJWkkzS3BG?oc=5",
-     "title": "Google rolls out Merchant Center UCP integration hub in the U.S.",
-     "summary": "Google rolls out Merchant Center UCP integration hub in the U.S. &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-06T17:35:03+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/merchant-center-ucp-integration-hub-rolls-out-in-the-us-first",
-     "title": "Merchant Center UCP Integration Hub Rolls Out in the US First",
-     "summary": "The Merchant Center UCP integration hub is now gradually rolling out in the United States, offering merchants new capabilities. This update reflects a name change on the help page and a shift in rollout timing, with Australia and Canada following next year. Merchants using this hub can now choose UCP capabilities such as cart transfer to merchant site, native checkout on Google, and identity linking. The previous FAQ regarding UCP-powered checkout for select US merchants was removed, aligning with these updates. Read the official help page here: How to onboard to the UCP integration hub in Mer",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-06T14:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVDlReVBTLU5tRjIzaE5fZVNqVFVxMm44ZjhJYUxieUdOek12S2ZsUEltNVJGeDJOSWFpa3dpS3JGWlktMS1kcm1FamphSm5iOTZ5Slp4R24zSUJqSmhJLVBRdTJ3Z3NBcVVkV3ExTy1oMTcxa0w1d1BRM3kyRHV3dGVDWm03UU9jZVFQajVtclBCdDR3NWNIWDloc00?oc=5",
-     "title": "Google Ads can now calculate Target ROAS from profit margins",
-     "summary": "Google Ads can now calculate Target ROAS from profit margins &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-06T14:45:35+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmhraTNLQUdXQ24tTzViM2dLNE5YMzJjcmQtWWtQaU5ObXVZRGFsajQyRGNfYzJuQjBlZTdHMGNnZ0pEUGJQRDlnSEJoYUVhb3Q3MDJlQ3ZabVBySGVPbHRIS045c1QtZHR2TWg2LXJTRFJDdmRhb1J0UFNkUDliNGdWaEpnajk1QlpBNGF3SHI1bFU?oc=5",
-     "title": "Google Display migration to Demand Gen: How to protect your ad budget",
-     "summary": "Google Display migration to Demand Gen: How to protect your ad budget &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-07T12:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-new-vtc-counting-method-unveiled",
-     "title": "Demand Gen’s New VTC Counting Method Unveiled",
-     "summary": "Google Ads has introduced a novel approach to counting view-through conversions (VTC) for Display ads in Demand Gen campaigns. The attribution model shifts from the traditional \"Active View\" to a new standard termed \"rendered ad impression\". Under this new method, a view is considered valid when at least one pixel of the ad is on-screen, irrespective of the duration. This adjustment, specific to Demand Gen campaigns, will automatically roll out, leaving advertisers without any need for manual intervention. This update was shared by Arpan Banerjee . The post Demand Gen&#8217;s New VTC Counting ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-07T07:00:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/phone-number-appears-hover-local-ads",
-     "title": "Phone Number Appears on Hover in Local Ads",
-     "summary": "Google appears to be testing a change to Local Ads that hides the advertiser’s phone number by default.&nbsp; When a user moves their mouse over the ad, the phone number automatically appears without requiring a click. This update was shared by&nbsp; Barry Schwartz . The post Phone Number Appears on Hover in Local Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-05T05:00:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/mcc-accounts-can-create-google-ads-accounts-without",
-     "title": "MCC Accounts Can Create Google Ads Accounts Without a Campaign",
-     "summary": "Google Ads manager accounts can now create new accounts without the necessity of setting up a campaign immediately. This change is available to accounts that have spent more than $1,000 USD and are compliant with Google Ads policies. The new flow allows managers to enter account details such as name, type, country, time zone, and currency, along with business information like name and URL for better recommendations. Newly created accounts, however, no longer support URLs in the account name.&nbsp; There’s also an option to link accounts like YouTube, Business Profile, or Merchant Center during",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-05T07:00:00+00:00",
-     "score": 64
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/ai-campaign-localization-tool-in-beta",
-     "title": "AI Campaign Localization Tool for Search Campaigns",
-     "summary": "AI Campaign Localization Tool for Search Campaigns &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-05T12:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-ai-campaign-localization-tool-42221.html",
-     "title": "Google Ads AI Campaign Localization Tool (Beta)",
-     "summary": "Google Ads has a new AI campaign localization tool for Search campaigns (beta), at least according to a new help document I found late last week. \"You can use the AI campaign localization tool to quickly localize entire Search campaigns for new languages and regions using generative AI,\" Google wrote in the help document.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-05T11:11:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-automated-promotions-october-12-42223.html",
-     "title": "Google Ads To Automated Promotions For Search & PMax Campaigns Soon",
-     "summary": "Google Ads sent an email notifying some advertisers that it will automatically identify and extract high-quality promotions from your website and apply them directly to your campaigns starting on October 12, 2026. This is called automated promotions and only applies to Search and Performance Max campaigns with linked location assets.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-05T11:41:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVR0b1AtM2duTEdyLWMyNmVQVkx4VHExb3E2aUQ5THp5QV92OE14Z1c4T2Q0OFlDbTdxMms5TUJzZUtfV1hiVy1GdnluUWh0SlpKNlRiM0JQZG1rRUhxbVRnNTAzTzNBaUM5SHl0b19wZmRyOU14YUR2Q2dicmUwQw?oc=5",
-     "title": "Why Google is pushing advertisers toward demand-led budgeting",
-     "summary": "Why Google is pushing advertisers toward demand-led budgeting &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-05T12:00:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/loyalty-customer-match-expands-ai-mode-more-regions",
-     "title": "Loyalty Customer Match Expands to AI Mode and More Regions",
-     "summary": "Loyalty Customer Match Expands to AI Mode and More Regions &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-05T14:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmRzVC1KWHFwSGdvN0d2YUp1ZGtiakY4YTdQdlczS3VEa1FZN09lVG4ydWdSNU9EdHBUNnI5S1FhdHRueDB0UmdDa0w0V1piaHR1azRzV0JFaXBld0R1WTZsbWlBUGpiVFJnc01HSjJOQzV0czJOU1JXdExzb1RFVzFMUlEzb0F3Q2dGcmg4Wm1wVnhxUzBXWWRhN2xaUlRZRWtJS0g4LXdZQnZNd1VxUlpWcw?oc=5",
-     "title": "Google Ads tests Video Campaign Groups for cross-campaign reach and frequency",
-     "summary": "Google Ads tests Video Campaign Groups for cross-campaign reach and frequency &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-06T18:02:28+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/sitelinks-in-ai-mode-being-tested-by-google",
-     "title": "Sitelinks in AI Mode Being Tested by Google",
-     "summary": "Google is experimenting with sitelinks in the AI Mode of its ad platform to determine which ad formats drive the highest click-through rates.&nbsp; This discovery was shared by Anthony Higman and&nbsp; Barry Schwartz . The post Sitelinks in AI Mode Being Tested by Google appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-06T07:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.seroundtable.com/product-labels-on-chatgpt-results-42237.html",
-     "title": "OpenAI Tests New Product Labels On ChatGPT Results",
-     "summary": "OpenAI is testing new labels appended to the ChatGPT product results. These labels can add information about the product it is displaying, such as \"best all-rounder,\" \"best for beginners,\" \"best cushioning,\" and so on.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-06T10:02:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/x-launches-ai-powered-ad-creation-option/832276",
-     "title": "X launches AI-powered ad creation option",
-     "summary": "The company launched X Lift at Advertising Week New York and said the new system can automatically convert a business URL to a promotional campaign.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-06T17:42:25+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-ucp-integration-hub-42243.html",
-     "title": "Google Merchant Center New UCP Integration Hub",
-     "summary": "Google Merchant Center is rolling out the UCP integration hub in the United States. The UCP integration hub allows you to onboard to UCP program from your Merchant Center account.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-07T11:21:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/new-overlay-on-videos-option-in-demand-gen",
-     "title": "“Overlay on Videos” Asset Optimization for Demand Gen",
-     "summary": "Google Ads is now showing a new \"Overlay on videos\" setting in the asset optimization options of Demand Gen video ads .&nbsp; It is marked as \"new\" and described as \"Add key messaging with text assets on videos\". It sits in the Video section next to the existing \"Shorter videos\" and \"Resized videos\" options. With the setting on, Google adds a text overlay with key messaging from your text assets on top of the video.&nbsp; The option appears to be turned on by default , so check your Demand Gen campaigns if you don't want Google adding text over your videos.&nbsp; You can switch it off individu",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-09T07:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-overview-adds-video-impressions",
-     "title": "Overview Page Enhanced by Video Impressions and Performance by Stage",
-     "summary": "A recent update to the Google Ads Overview page now includes video impressions in conversion paths, helping advertisers understand their impact earlier in the customer journey. This marks a significant addition, as previously only views were considered. Video impressions are marked with an eye icon. Another new feature is the \"Performance by stage\" card, which categorizes key metrics under awareness, consideration, and action stages. This card incorporates metrics such as impressions, CPM, frequency, views, video completion rate , and conversion insights . It's designed to enhance the tracking",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-08T04:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-experiments-get-ai-powered-insights",
-     "title": "Google Ads Experiments Get AI-Powered Insights",
-     "summary": "Google Ads now includes an AI-generated summary panel in experiment reporting. This new feature, highlighted in the Monitor Your Experiments help page, provides advertisers with a quick overview of experiment goals and top insights, accompanied by actionable recommendations. This update introduces an AI insights panel under the \"Summary\" tab of experiments, showcasing goals, key takeaways, and recommended actions.&nbsp; Additionally, Performance Max experiment pages specify outcomes when experiments are applied: migration experiments shift traffic fully to Performance Max, optimization experim",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-08T07:00:00+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNXB3eEFULVdRdkdEZ1BHZjRTYnE2blMyTWNhVC1URmNqWTBTSlBNY3lQX3U4YTNJLXZ3akJBZTVRVFoyeV9yaU1fdHkweU5zV24yQ0JIeTY0QlMySGxDWkpFZWxxVXRHUDRBMDl1d2lxcmRFQkw4SXhWVS1TajBkYXRxLXY1dFdPUm95aFRzd0RzNlpQaWdQRklqRnFnOW1sYzdEYW5wQjNiMUE?oc=5",
-     "title": "Google Ads adds video impressions and funnel reporting to Overview page",
-     "summary": "Google Ads adds video impressions and funnel reporting to Overview page &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-08T16:05:23+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDQ5c0p3dmtuREk1OG5hTms0S2ptNHF4MVFzUDl1ZWxSMU04b1laX0p5QTVRVUtZRkh2SkI0RVVicWJBYVlPMkN2QmJrbWZKbDducW9uMWNCaFZGYVdvVjdYZkZFMDJ6MFp5aHBpRTM5TzBFejQtS1E0TnZKVzNnVUhubmxZbmdwWkdZM01Rd21zUGVJTWxoOUpfTjRuWng4cDR1NlBya3l4UEJkdUd6TG9Hcw?oc=5",
-     "title": "Google Ads lets advertisers preview AI Max-generated ad copy before opting in",
-     "summary": "Google Ads lets advertisers preview AI Max-generated ad copy before opting in &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-08T16:58:18+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd0hsaFoyaWdyY0xIMTh3TFpMZjRqU3gzdVlhcm1FNmlZakpsTl9JM2I3VEFYdXJTYlNhcHl0bnM3bkN2ZmpabGRyZXNtRTdvOUxoYjB4ZXc2NWlVZ0dGdUQ2WnVFVWpZYzYwb0hWMXdvZTNnTzZzLUxPdUt5bjRSY0JjQl83ZFEza2c?oc=5",
-     "title": "AI Max Text Customization Adds Asset Previews Before Opt-In",
-     "summary": "AI Max Text Customization Adds Asset Previews Before Opt-In &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-08T15:44:31+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0tVMy1JcG9SS2lpX09Vd2hjaU9jdTZoLTRReVlMYTBWNG5oamQ1SWM0QTQtUXVYeHNqS0Nva3RqTzB3RGxxWmlHY2dyd3ZCNEJScU9uNkFjUmxYWEVmM3FZWDFXdEU0dEUzX2pNM1VBUmdzUWNDaDY2S0pNYjZGU1ZoekZfd05Ja3dqblRfYnhtTElVdldwREp6OA?oc=5",
-     "title": "Google Ads adds AI-powered insights to experiment reporting",
-     "summary": "Google Ads adds AI-powered insights to experiment reporting &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-08T16:17:40+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-ads-documents-commerce-audience-sharing",
-     "title": "Google Documents Commerce Audience Sharing for Retail Media",
-     "summary": "Google Ads has introduced a new feature called commerce audience sharing that allows retailers and marketplaces to share their first-party data segments with advertising partners like brands and sellers. This enhancement is part of Google's retail media strategy. The new help page titled \"About commerce audience sharing through Google Ads\" outlines how commerce partners can securely share audience segments with eligible campaigns by linking their Google Ads account to the commerce partner's Google Merchant Center and data sharing account. Both accounts must meet standard eligibility requiremen",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-08T11:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-new-ai-max-columns-42256.html",
-     "title": "Google Ads AI Max Columns: Brand Inclusion, Commission, Locations Of Interest & Optimized Targeting",
-     "summary": "Google Ads is adding new AI Max related columns to the Google Ads reporting console. The columns include brand inclusions, locations of interest, commission and optimized targeting.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-08T11:21:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/asset-studio-now-powered-by-ai-in-google-ads",
-     "title": "Asset Studio Now Powered by AI in Google Ads",
-     "summary": "Google Ads has introduced a new AI-powered Asset Studio, leveraging Gemini to enhance content creation. This feature allows advertisers to generate text, images, and videos by inputting campaign and brand specifics such as final URLs , objectives, audience demographics, and brand guidelines. The system utilizes these inputs to automatically generate assets tailored for specific campaigns. Users can modify and customize these inputs to improve AI-generated outputs. The workflow encourages using campaign data and brand guidelines to refine the asset generation process. This update was shared by ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-09T02:00:00+00:00",
-     "score": 77
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Demand Gen kampaně přechází na CPM model pro display inventář",
-   "updated": "2026-10-09T18:32:26.918228+00:00",
-   "what": "Google aktualizoval FAQ dokumentaci k Demand Gen kampaním, kde oznámil změnu modelu fakturace pro display inventář – z CPC na CPM (cost per mille, cena za tisíc zobrazení). Zároveň Google představil další zářijové updaty pro Demand Gen a rozšířil reporting a jazykové možnosti pro Performance Max kampaně.",
-   "why": "Změna z CPC na CPM mění způsob, jakým inzerenti platí za display reklamy v Demand Gen kampaních. To může ovlivnit jak strategie nabídek, tak celkové náklady na kampaně – zejména u kampaní s nižší CTR může být CPM model dražší. Pro české inzerenty používající Demand Gen kampaně to znamená nutnost přehodnotit dosavadní přístup k nabídkám a rozpočtům.",
-   "takeaway": "Zkontrolujte své aktivní Demand Gen kampaně a vyhodnoťte dopad CPM modelu na vaše náklady – zejména pokud měly vaše display kampaně nízkou CTR. Upravte bidding strategie a sledujte změny v CPM metrikách. U Performance Max kampaní můžete využít nově rozšířený reporting pro lepší přehled o výkonu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/76ad1cdf94.jpg",
    "image_from": "ppcnewsfeed.com"
   },
   {
@@ -8612,32 +8736,6 @@
    "multi_source": false
   },
   {
-   "id": "087c9ef615",
-   "created": "2026-10-09T14:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/ai-max-columns-now-available-in-google-ads",
-     "title": "AI Max Columns Now Available in Google Ads",
-     "summary": "Advertisers now have access to new AI Max-related columns in Google Ads. These columns include Locations of interest , Optimized targeting , and Brand inclusions , providing enhanced visibility into campaign performance. This update helps advertisers better understand how specific settings impact their AI Max campaigns, though it's still rolling out and may not be available in all accounts yet. This update was shared by Vivek Gupta. The post AI Max Columns Now Available in Google Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-09T14:00:00+00:00",
-     "score": 72
-    }
-   ],
-   "category": "ppc",
-   "importance": 65,
-   "title": "Google Ads přidává nové sloupce pro kampaně Performance Max",
-   "updated": "2026-10-09T18:29:45.570166+00:00",
-   "what": "Google Ads zpřístupňuje nové sloupce pro reporting kampaní Performance Max: Locations of interest, Optimized targeting a Brand inclusions. Tyto sloupce poskytují detailnější přehled o výkonu kampaní. Funkce se zatím zavádí postupně a nemusí být dostupná ve všech účtech.",
-   "why": "Nové sloupce umožňují inzerentům lépe pochopit, jak konkrétní nastavení ovlivňují výkon Performance Max kampaní. To je důležité vzhledem k tomu, že Performance Max funguje jako black box s omezenou viditelností do toho, jak algoritmus pracuje.",
-   "takeaway": "Zkontrolujte, zda máte nové sloupce dostupné ve svém Google Ads účtu. Pokud ano, přidejte si je do reportů Performance Max kampaní – získáte lepší přehled o tom, jak funguje optimalizované cílení a jaké lokace a brandy kampaň zahrnuje.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/087c9ef615.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "77ad933425",
    "created": "2026-10-09T12:24:00+00:00",
    "articles": [
@@ -8712,30 +8810,6 @@
    "multi_source": false,
    "image": "img/0a63d68c1a.jpg",
    "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "9c24ac9ede",
-   "created": "2026-10-09T11:51:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-text-customization-asset-previews-42264.html",
-     "title": "Google Ads Enables Text Customization Asset Previews",
-     "summary": "Google Ads now lets you preview the assets generated by Google AI for your Google Ads AI Max campaigns. Google added these details to the About text customization in Search campaigns help page under a new section named \"Text customization asset previews.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-09T11:51:00+00:00",
-     "score": 68
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads umožňuje náhled AI generovaných textových assetů",
-   "updated": "2026-10-09T18:29:45.570166+00:00",
-   "what": "Google Ads spustil funkci náhledu assetů generovaných umělou inteligencí pro kampaně. Novinku přidal do nápovědy v sekci \"Text customization asset previews\" v rámci Search kampaní.",
-   "why": "Umožňuje inzerentům lépe kontrolovat, jak AI upravuje jejich reklamní texty před jejich nasazením do kampaní, což zvyšuje předvídatelnost výsledků a snižuje riziko nevhodných variant.",
-   "takeaway": "Pokud využíváte AI funkce v Google Ads kampaních, využijte novou funkci náhledu k ověření generovaných textů před spuštěním. Snížíte tak riziko neočekávaných variant a lépe zkontrolujete, jak AI pracuje s vašimi vstupy.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   },
   {
    "id": "e8c1a32979",
@@ -9146,65 +9220,6 @@
    "multi_source": false
   },
   {
-   "id": "be308e781c",
-   "created": "2026-10-08T16:35:54+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTThiaUtJU0ZMR09QemozdElKZmxXaDdtVlhvalNsNlVrOXBDcHppeTVHSk81aHg0UXFoV0xfdXJ1OTlhUHJ0RHZqWFM5MlFBZ01oaFpfenY1TEgwb2JhWS1ja0xBcklYRUg3dDEyQl8ybGdJeC1RTUZNQnVCSWZiUUdfeHZlRUpqSndUdDhteU9TUHBzVlJFNS1ndUpHdnhBdXc?oc=5",
-     "title": "Google Ads introduces commerce audience sharing for retail media",
-     "summary": "Google Ads introduces commerce audience sharing for retail media &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-10-08T16:35:54+00:00",
-     "score": 75
-    }
-   ],
-   "category": "ppc",
-   "importance": 55,
-   "title": "Google Ads umožňuje sdílení commerce audiences pro retail media",
-   "updated": "2026-10-09T11:28:43.481363+00:00",
-   "what": "Google Ads zavedl funkci commerce audience sharing, která umožňuje sdílet nákupní publika s partnery v rámci retail media.",
-   "why": "Novinka rozšiřuje možnosti cílení a spolupráce s retailovými partnery pro e-shopy a značky. Může zlepšit přesnost kampaní a ROI pro firmy prodávající přes retail media sítě.",
-   "takeaway": "Pokud prodáváte přes retailové platformy nebo retail media, zjistěte, zda a jak lze tuto funkci využít pro lepší cílení kampaní na Google Ads. Sledujte dostupnost v ČR a EU.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "a211c12a2d",
-   "created": "2026-10-07T11:00:00+00:00",
-   "articles": [
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-10/google-warns-fast-changing-products-may-be-disapproved",
-     "title": "Google Warns Fast Changing Products May Be Disapproved",
-     "summary": "Google has updated its guidance on Merchant Center automations for frequently changing product information . The automations feature now states that items with price or availability changes more than once per day may lead to disapproval rather than automatic updates. On September 27, 2026, the help page was revised to indicate that products might be disapproved if the total detected mismatches become too large.&nbsp; This change is crucial for stores with fast-changing prices as relying solely on automatic updates might not suffice. Read the official update here: Allow Merchant Center to updat",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-07T11:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-disapprove-products-chnage-fast-42251.html",
-     "title": "Google Merchant Center May Disapprove Products That Change Frequently",
-     "summary": "Google updated its help document in Merchant Center to say that if a product changes more than once per day, it may be \"disapproved instead of updated if we detect a mismatch.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-08T11:31:00+00:00",
-     "score": 78
-    }
-   ],
-   "category": "ppc",
-   "importance": 75,
-   "title": "Google Merchant Center může zastavit produkty s častými změnami cen",
-   "updated": "2026-10-08T18:59:54.019010+00:00",
-   "what": "Google aktualizoval 27. září 2026 pravidla automatických aktualizací v Merchant Centeru. Produkty, u kterých se mění cena nebo dostupnost vícekrát denně, nyní mohou být odmítnuty místo automaticky aktualizovány. Platí to v případě, kdy celkový počet detekovaných nesrovnalostí přesáhne určitou hranici.",
-   "why": "Změna se dotýká e-shopů s dynamickými cenami (např. podle konkurence, skladu nebo denní doby). Spoléhání se jen na automatické aktualizace v Merchant Centeru může vést k vyřazení produktů z Google nákupů a ztrátě viditelnosti.",
-   "takeaway": "Pokud používáte dynamické ceny nebo často měníte dostupnost zboží, zkontrolujte, jak často feedujete data do Merchant Centeru. Zvažte pravidelný feed (ideálně několikrát denně) nebo Content API pro okamžité aktualizace místo spoléhání se na Google automatiku.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/a211c12a2d.jpg",
-   "image_from": "ppcnewsfeed.com"
-  },
-  {
    "id": "e777520cbe",
    "created": "2026-10-08T17:23:27+00:00",
    "articles": [
@@ -9325,65 +9340,6 @@
    "importance_label": "důležité",
    "multi_source": false,
    "image": "img/ff3239085d.jpg",
-   "image_from": "seroundtable.com"
-  },
-  {
-   "id": "9330cad848",
-   "created": "2026-10-08T11:41:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-local-service-ads-how-leads-work-42259.html",
-     "title": "Google Local Service Ads Expands How Leads Work Information",
-     "summary": "Google has updated the how leads work help documentation within Local Service Ads with a lot more detail. The changes are meaningful, including what counts as a billable phone lead and how Google handles lead quality/credits.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-08T11:41:00+00:00",
-     "score": 71
-    }
-   ],
-   "category": "ppc",
-   "importance": 35,
-   "title": "Google Local Service Ads upřesnil pravidla zpoplatnění a kvality leadů",
-   "updated": "2026-10-08T18:59:54.019010+00:00",
-   "what": "Google aktualizoval dokumentaci k Local Service Ads a přidal detailní informace o tom, co se počítá jako zpoplatněný telefonický lead a jak Google hodnotí kvalitu leadů a poskytuje kredity.",
-   "why": "Pro české firmy využívající Local Service Ads (pokud je mají k dispozici) je důležité přesně rozumět, za co platí a jak mohou v případě nekvalitních leadů získat kredit zpět.",
-   "takeaway": "Pokud využíváte Local Service Ads, prostudujte aktualizovanou dokumentaci – pomoże vám to optimalizovat rozpočet a případně reklamovat nekvalitní leady.",
-   "importance_label": "kontext",
-   "multi_source": false
-  },
-  {
-   "id": "0b8fa75af9",
-   "created": "2026-10-07T06:36:19+00:00",
-   "articles": [
-    {
-     "url": "https://www.seroundtable.com/google-ads-conversion-lift-measurement-self-service-42250.html",
-     "title": "Google Ads Self-Services Conversion Lift Measurement",
-     "summary": "Google Ads now lets advertisers set up Conversion Lift measurement themselves. Google updated its help documentation to say that you no longer need a Google Ads representative to set up Conversion Lift measurement; you just need at least 1,000 observed conversions and a $5,000 budget.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-10-08T11:11:00+00:00",
-     "score": 85
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ3pYMl9CRlYwbk1WczA4c1hPSjR1MDlKSHY2bU4zZ1JQZUpwYnVSTmdFN0VQV2pEdGVxVm5VVm44RVh5Wlg3ZGR6bjBFWlZJWWxGOVhjLVlRNV9HMVcyX0ktYU83Ti15ZGVNYkhyak9YdGV2SjVsaW5xYklvN0Niaw?oc=5",
-     "title": "Conversion Lift Opens to Search and PMax With 1,000-Conversion Minimum",
-     "summary": "Conversion Lift Opens to Search and PMax With 1,000-Conversion Minimum &nbsp;&nbsp; PPC News Feed",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-10-07T06:36:19+00:00",
-     "score": 81
-    }
-   ],
-   "category": "ppc",
-   "importance": 72,
-   "title": "Google Ads zpřístupnil Conversion Lift všem inzerentům – bez zástupce Google",
-   "updated": "2026-10-08T18:59:54.019010+00:00",
-   "what": "Google otevřel možnost nastavit Conversion Lift measurement přímo v Google Ads bez nutnosti kontaktovat Google zástupce. Nově stačí mít minimálně 1 000 zaznamenaných konverzí a rozpočet alespoň 5 000 USD. Funkce je dostupná pro Search a Performance Max kampaně.",
-   "why": "Conversion Lift umožňuje změřit skutečný přírůstkový efekt kampaní (kolik konverzí vzniklo díky reklamě, ne navzdory ní). Dosud byl přístup omezen na větší účty s přímou podporou Google. Otevření pro širší okruh inzerentů znamená, že firmy s dostatečným objemem konverzí mohou poprvé samy testovat skutečnou efektivitu svých PPC investic a případně optimalizovat rozpočty.",
-   "takeaway": "Pokud v Google Ads dosahujete 1 000+ konverzí měsíčně a máte rozpočet nad 5 000 USD, můžete nyní nastavit Conversion Lift vlastními silami a zjistit, kolik konverzí vaše kampaně reálně přidávají. To může odhalit přeceňované nebo podceňované kampaně a pomoci s alokací rozpočtu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/0b8fa75af9.jpg",
    "image_from": "seroundtable.com"
   },
   {
