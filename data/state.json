@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-15T19:58:21.542178+00:00",
+ "last_run": "2026-10-15T23:09:11.666985+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -39,9 +39,9 @@
   },
   {
    "name": "Lupa.cz",
-   "feed": "https://www.lupa.cz/rss/clanky/",
-   "status": "ok",
-   "new": 0
+   "feed": "https://www.lupa.cz/rss/clanky-samostatne/",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.lupa.cz', port=443): Read timed out. (read timeout=15))",
+   "new": 50
   },
   {
    "name": "Collabim blog",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 6
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -275,13 +275,13 @@
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Síť v malíčku",
@@ -323,7 +323,7 @@
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Simo Ahava",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 5
+   "status": "ok",
+   "new": 2
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing AI Institute",
@@ -411,7 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObm9TbU0tT0Z6RWhqT09HYVgwZ0k1SU54S21JV0dSR1FvOVVnTkd6NGE2M2NsUjhaSkt4dWZZNmdDTGlyZ3ZTeGdOdHhYbmlRSHR4Q0czSWE0X1BtZFB5TzJNX0puQkJIUkg5YnNKaTQ3RWNCdE1tYlA0NFpMZlVxMHpodjRHaHJnY3B5Tko1cXBoRUQ0SUJpUU9pUXFVMVg5ekstVDBxSkxFOG1MQlNiUXBwbVJKZ0tiSU00bV9OT1U?oc=5": "2026-08-16T20:45:48.974581+00:00",
   "https://cc.cz/skvela-reklama-pro-cesko-kvuli-svetozname-hre-se-ke-kutne-hore-sjely-tisice-lidi-az-z-filipin-a-australie": "2026-08-17T05:11:58.684324+00:00",
   "https://www.lupa.cz/clanky/v-utrobach-prusa-research-podivejte-se-jak-funguje-firma-ktera-odmita-prenechat-3d-tisk-cine": "2026-08-17T05:11:58.684324+00:00",
   "https://cc.cz/meli-druhy-nejlepsi-rok-v-historii-presto-propousteli-nesvadime-to-na-ai-rika-sef-miliardoveho-trezoru": "2026-08-17T05:11:58.684324+00:00",
@@ -6054,7 +6053,65 @@
   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYU1WNGFNcDVua3VBTUNVZU1KaFV0Y25RS21HQjBRX2Vydk5PM1FQMWxIWm9BQTdISFc4RTJUUFVyUlFLUUl1R0otRUVPbGhOYmNSS3VwX2JDQ0JiRFExVGxKeHBYTzlZMGNyMjJGLWRJcDIwc3RPMHJzX0l4UWdfVDV6eHFhOVhOWkdRUlgyUHA2YlRza25Db1hzbk45TU4zMmkxaFNwZnFLQQ?oc=5": "2026-10-15T19:58:21.542178+00:00",
   "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSEplaFlqR0dmLVN4UlJSV2xtYmlQd0tEQ3FuSnhzVU1obG02SnlJZlJ2NXU0MGt1aGcyODVvcS1OeWpNUmJpWW9pVGRwUkZhWXVXRXFHSTFGME0tR3BhTVYwWW9XZGl4VG0yZ0lZTDVyWjd4Y2hrWWsxTndNYXU0SjZoeTNvamNvUm9Jb0EtZEhoQlpUQ1RpREs2RHp5bjdmcWh2blFiaVZPeGF0emloSUJob2UwdXFzRWxlNzhReDl2TlZOZDNaN2NR?oc=5": "2026-10-15T19:58:21.542178+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLXNmY0ZudVFGUnNreHA3cmpHWXJKek52SVVYTC1wUG5lNFZqMExLUkFubGVDaTNqSzV1UzRYTW5VTDJYaXlMWVAxTVZTSHpJUFdFSjgwT25kTjBINmZiT19LSV9jYzdjSnBSbUM4M1licUp5WkY3R1pLWmxUUS1qakc0VUhSdTdjZmJYWmlXdndlOFN3a0pWZW9QZkdvcURvZEdkdkFRWnZZWnRKRlZqdUM0MDdwX1MwazRzcmdqaS0?oc=5": "2026-10-15T19:58:21.542178+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZVVEbVpsXzZHeklWSnREaTh1cDJ4YUpvODhLMmF1NkNrQTF4VDJXdE9iNDZkWmpScDR3Q3BEcXRYZG12TEpOWUE0UlBsTmV5ZU9iWWZCUWVEOThPWWd4eGNlWXJGYmtub19yZFFCaVY5bTdJZ1FoTnVtOFFNOWJfc2JsR0RjV0hJaWdNTUtvRFd6bGhXUXRmdUxDNF9vejlYUDVyTGY3eUNlV0dnbkhxek1pUFZHQ3RZRW5VRUM5TXQ?oc=5": "2026-10-15T19:58:21.542178+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZVVEbVpsXzZHeklWSnREaTh1cDJ4YUpvODhLMmF1NkNrQTF4VDJXdE9iNDZkWmpScDR3Q3BEcXRYZG12TEpOWUE0UlBsTmV5ZU9iWWZCUWVEOThPWWd4eGNlWXJGYmtub19yZFFCaVY5bTdJZ1FoTnVtOFFNOWJfc2JsR0RjV0hJaWdNTUtvRFd6bGhXUXRmdUxDNF9vejlYUDVyTGY3eUNlV0dnbkhxek1pUFZHQ3RZRW5VRUM5TXQ?oc=5": "2026-10-15T19:58:21.542178+00:00",
+  "https://www.mediar.cz/pro-ct-natocil-oktopus-i-volhu-ted-pro-oneplay-chysta-thriller-z-devadesatek": "2026-10-15T23:09:11.666985+00:00",
+  "https://cc.cz/porsche-ukazalo-jak-budou-vypadat-jeho-auta-chysta-supersport-se-stredovym-motorem-nad-modelem-911": "2026-10-15T23:09:11.666985+00:00",
+  "https://www.searchenginejournal.com/chatgpt-traffic-drop-appears-to-be-a-tracking-problem/593157": "2026-10-15T23:09:11.666985+00:00",
+  "https://www.searchenginejournal.com/google-universal-cart-store-handoff/593145": "2026-10-15T23:09:11.666985+00:00",
+  "https://blog.hootsuite.com/instagram-plus": "2026-10-15T23:09:11.666985+00:00",
+  "https://sproutsocial.com/insights/social-media-image-sizes-guide": "2026-10-15T23:09:11.666985+00:00",
+  "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows": "2026-10-15T23:09:11.666985+00:00",
+  "https://martech.org/the-latest-ai-powered-martech-news-and-releases": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVFrNm0wdDNGUVNrNlpIQTlGSWVoYjhYUDdXbVBsMXpDaEdZQlFkYnFtbDNMaTdGZmJyd1Y1TDBvbWxqRE9DeTIxcGkxSk01X1ROZlJ6R0FGTmozMUlGb2JmLXZRbTFfYmdEMi1jYTlYYm5UVU1iSnFJWXRwdTd1cVgtUjluZ01Cc3V0VDlodXpmbllIeDJ4dllqd1RsOXZMMmkyazliTFZHRWU2NWYtQloydmhUcTI5ZnhmSXNTemFRVHBuRVVWbG5OYVhNZFJxRkNR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZHFaNUdRQ3FkUU9RYndKei02cWVoMjg2VjhkUXZfNzdsZGp3OWE2eTdlZ0drYlJLTWNVRl8zUDNiM1RLeEZzdVZpS2tydVNUUzdick9HNjlmN0JBTEozdTdTRG02SXBjNHVQNVFTRC11UVBranBGS2xLMEFLVUJUWGdQSm1zdUtVandnLW9YVHl5UElBOUZHNERaMk9GV210YzE4ZFZOYjJmTWYzMU14ZnBlVTRveU45d3ROU1VkSVRoZw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTjBEbVhsR0xRT2ZyazA5SmgwOVZiRnY5bFNsMUM5QjZKMEU1clBZa2I5M1V2U3kyd3Bac1ZUWkVmd3hTTC1zLU9FM2VyeGxzYTZCcF9sZGFYVXUwakNFdk5uVnlkTk9hOTBiYl8xUk9yeFNXODlVX0xZcUpnMTEtRE1McXloX2pQbWZCS21UZHBCSW1nS0J3cVcxYWhlUkdDczdfaG5Ra01oUmN5NWIyTXZJY0pRM0pzekY1SU9XLWZjX3d3bUd2Z1JEaw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNW1vTWg0dlN4T1BidXV3Uk1hUmJzbTM3aWdtSG4xdzBTRE5yc3IyNk9PYmM1Yy10OFRoUE8wOU9KblBBNGdZVVlCS1EwX0NmTzg5Nm5IdVBxZTh2REcxZENxSC1KNG1pN2hMUnRPMVp2cnpXTHZKVFl4VVFIbGV4VVhWRUNPVmc?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU1qZGdicHBRbzRrY28xZVRsSjRSRXUwaGVxTHR1Wm1LcFhHSk9GTnhtekZxWUFMOXJoLW9HN2pyUV9FOUgxVEJxQi05UHlUNDhGanpLN0d4SzZITVRRX1d4NUphbTZLa3lwS2xCa0pLTWwzQTRvUnQwSkpMQ2JqSTdFenI5RmR6TGx3eGJoMXdBYjd0eW5wM3FqX0R1ZEtwdnpLai0wTU9rNkRndDRXbG41bG55bmhxTHViVVRtTW5JbTY4MU94STZR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMlJNalJnMjRiODhLVkpnYl8xQ2RjcndvQkNDRmxIR2VqWVFXaUVOV1lpMDlEWlczT214QTdRX3VFX0ZSbzFhMm1fZTI4YmY1QlZGUld4aGZvUlNYV0tWbFhKTnFJSXBJV0h1MkRpMFF6Yng2TldZN2ZsN005SmRnb2hWcG80cVdTNnlwcmc3NmdhNHl2ekZ4VzI5MmtMeFFjSmYtdXlFNzJ6ZHNRMFNCX19nemRUSHNw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWVN3a04zbFU4SHJ4UGxyUHlldHhxZUM5X1dGVFpkdjR0TXk0WUZOOGFjalM5dGpLRERITTVZTmJpeFFpRkozbGZyVHBBemR5Yjl3dnFRcmM4ZnkzaC1QcFRVa3llb0M3cFJ5XzFkSHNPeUdGZGV2Z2R6RUhzeXBlTkdKblVwWkxEZndSVmtUdUtSNFAzeG1zZWxPdTlEbWkxNkJQTEZEcnB3M2RuS3BjSWtOaFhzUk9PckJyOE5mLUJMUQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYnJ3T20zSVFYVWFwWFlkbmdrWVlweGI1cHV6YjdVUTk0VmNPUENsRVpkSnZId3ppeDhqMC1zU05PWFlXTjh1VzVxVm12dTRjcWVKTzJTSUpFdEl2NE1YdzN0YkNyYWRoNXU3N3o2cDllREp0YVNjNDdOMmRHbGdERjV2UmNqSFVUZVdjNFNWXzh4am5SeElQbmw3ZlpBelQwSkk3d3dUeVFrUlRJNlduT0J1bU50N2FhV2dCdzN1ektmRFcyeWdBbFBDa2pPdW5mVEJEejdlbXVTX0ZHSE1rN1BB?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM19vdlFyc3RESGx2ejRVN3V1VUpXckRxWGNiYWpaQ1Ewc0F6WHF5RGhMS3cwRTE5aFY5ZXU4VnR2ZGNlZW94Uk5YZm1RT184dFQ2TG5iOXU5RTFiVFpBd01JcDAzMER5X2wwNU90SFc0ekxUY0ppSmVocHhNSVI1TlZpMkdNeFI3Zl9wU2t2M3liRWNyWkliQ2lqWEo?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92SXRMOTlTVmFFSnhoTTYwdS1fN3VYTm1hWU1hN0dtaHljcEs0ME5IdU9TQ29oUGZEN01CNDZreW15TzJhTW1sejVrYV96c1NZc2E4alNuNzc?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX205VktIMm40bkJTeWNvXzVQeXFqcnRmNDFQWlVfd1AtRkc5M1ppbXZaazQxdVI5dTNLOGhGZEgyVmpsLU5HMTBIV3RpVV9TVFR3Y0lNb2MwR01qLUkyRDBQelJyaW5wb2s0a2laUkYtZ2pTV1FJeVk1SnlZbHB5THJpbXM3ODJiczQ4U3ZlOEV5V3BzZHZPTEtkVnM4ZFhjMU05YWxZdkNVRDZ4aG9ZdlBocWhUbGxPSW9Wc3A3NXZMUUFQWnJtT3ktU0N1T0I4WFhNaTZ0WXg?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDRfOWhnSV9aVWVfQUVHVkU5NkRNTkVXREIzOEQ1d3hkVWIwWUlrcHU0REdMbnc1YUhxTGtIWDRkME9fclJWYWNoeHEzQWJOeHlEY1J5Xzk0TnRmdTFBdExnd2h3TkRib3ZvVnVMWTlDWk1RNmtudGRMdTYyempxNW1jUWVLcjkySmE2WWpsVnNDR0U?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMTNJbWFwcU1feFc2Z2R4WHlraEdjR2xjd2sxRXdVRXZYWHNFNEJETEswbDVnaWdudkNDSVBuZlY1TjhXd2xzU29UMk5ZRlZ3U1paNllvNE1PMXJXNmdzelFUVnVZVXU0TzI0SThEd2N1ZFFyUkR0eEE3bGtILWJsQ0JER1hwSGpZcHZTcUtLY3RLQnN3bmc5UTBPQzJtWWNIdDItQ0VrQUZLbWY3M0lPaThKTGI?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUm5YTWVfaGpRQXVPek1rTlV4VUxrNXl2elVhYTlLOGtZM2o4ei00WjRiaTdRemhUZ1R3cWUzTUk2RkhaSzhKTEY3TFZieWMxQ2ZWVFJBSzBzcVFoYk1vdUduYWVaaWZEMFJ4cnFxV2tHR3liSG9sYm5zWVlENFVKd1hsQlhRMlFxSFJqbk9HekU4UzEzOHZjWnVrM2dfdThRZWswYllaUTNHbWxJMTQzag?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkxkY0RwXzJWX2d1bGFuc1N0LUsxTkdUVEF0Y2tXRmZmQm5lc3Q1ZEZfVUs3aElyVVltbmFBYmZza1hLVXZCOG9Oa3NzUVZyZ1ZBdHVEWkVvQl9xZERhOFJsMXNXVDBvUjdKcWg1LTNXQ3FpbjlQbndUbjBlSVdJbFoyc1Y3T0hINlpuLXQ3ZDMxT29vVG51ZE9SUlg3RnZhT056QUZsVQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnJIdUJBaHRoLXR4a0pJNkVNMjdIdTVORTV3VlNNVEdLMGRtcWxxcDlpdnJDZFZoMjZ1VW1CSy05R1pXdnM1d2dVSHlCUnhSYzJXci1nX3hlalhkdmtFdWV4TVNJakJnNUJJYXBXeFdVU2pSSVNRQmJBOGl6UHJFMFhBRG9HMFE3eHBCbUI2by11eWpwVk5xYmhmbjhjRVFRc1I4c3I1QVJuS0k?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYUQ0aVNFam5Kc3Q1UmVpaEt6VGRhdDVFQVNxNjY2ZzA1c1hhUnV5Ym9SekVBeTJsOW5iUXoyeHRSd0tGa0ZDaXBEOENxYkJUdjluUEN2YkF2NW15X01wM2xVZ3hNMjhLb1ZFZGZMeHJnWFpIWVNHWkpyZWdyQXVsdy1qSXJkaUtyMng4WlFoTVVLOVdNdVlwQzExWmZRNUVDS2lUZ2ZTOUYtR2Qzb29BMWFWSFUzODJYc0RPQ3JPcVI0cC0wZlYxUWVwZHFvSjRDandDbQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUTBkS0dWakh5ZTNBZ1ZMbzhqcG1Ed29uZm8xNG9qcUY4Z2Q0dW9iQWJJRkV0MlMzeHJVNFRmT251clUyaWFQMldtajFmSmVWX2RaMVN4QnIwVDY2MGZuV0p4ckZkSzM3NkJhT1ZKenM0YWxNa19qTUNIb1VBZkdBaVBPT3pRdm03MDd4bUJyTFdjSklGVXRMZ2tBeF9VcUlIUU1LUGJhaVRiZWh6M0NVRmNVVEZlUTRLSkF5VTBIX2pyOG03a2F2U2hXTEFUYU4wZEZ1bUxfWksydw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTNLRW0zdko2TVRQWFRma2hFbVJ3MHlyQzZKc29oTHVGNjIzMnpOQkFsd2luclpueUl6ZjlnOFV5M1oyMWR6MFJDejR0NEhRdnR0RktTbXYwbEI4SldIRFV2ZE1hQWNOMDlXZ0R4NmxDZjJRQ2luZUo0WmNlMTRWb0w5N2NyODR6MVJ2Q1NvMl9fQ3FLUU9VcmFMQTUzU1dNVnhwRHo4RUVGRkpzXzQ4MkdR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdDhkSVJVcjVUQ3NVazJHcnRkcUF2ZXM2djJaOVlFbC1rbnhVNjB3ZjhhekhQRG1OZGlXYk5ZYzgzMnhBckZ6OTJ6eWRaQUFhVWNINHJuSDZOX1o4S0F4dW9xTUJBTml1Rnp5NUxzZjU1VzBENFlTbjFzNTlaQlB4TTR2UXVWTERpVFFDZmh6Ql8zeEpPRkRMWHpjSXJKa3BKb01aRTEwQk8?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ2syTmM5RWU0bnFwNm54VC13dUpVLWtyZFdhVmcxQWdBcU1RSzYyZ2ZkZDQyQjdlZTEzay1LS2N0dmZmY05kbUVsVEs1TEtjVVpBWXBhYzl0NkEwSVdvUUVjYlFVdmJqd3FIRXlkUmVBNkJacDNTWW93VGNPaVBKcF9jMFFnbTluclJ4STZ6N3ZJX2lRc3oxeHhHY3NFMGpEVVRKaldDZU9sc3c1NFNEUmU1REkyLUNVSE5KUGtDT2oyVHhkZEF4elFlUlhXalU4Ni1QWF8yemZUTndzSFdNUzhpQmpSWHpGbWc?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlBydmwyYlQ1VkM5aGpoSGFVNHZEVHM5d3dJX1JTOWVDa3BEYXQzYzV0UVl3eUpmU2d4bTBRdW9taENJdWU4ODNNMjJUWGxvY0FWMGdmYkIzTTFVZ05DOG5JQndsTGxrUTBaWjRUMjdBaXJ1Q1Jrakt2Mkd1R0Vody1QaUlxSndtYVBRNTVHdkNQdkVkNjk1V1E3X1FfUVEzZnp5WHlUNzJRb3FFeWNvTzlR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcTl6eDZ3Ui1Dc3p2M3p6ZHotcEVXUXJya0tFSm4tWWZSUDdCSEwtbGxlTnhaTlRkNVZ3ODdxRk1TNW1oR0d5dVZpZ3hXcEgzZlU0RVd6MVpqQ0ZKdDBSSlZmTFo0cThweERPT2V0VkM1YWswZ1hqdHVHaWNnLWR6a1FyYnpySlYyLWh1V216YW1aRldyX0NIWUZ4UUNmT2tzVlg4SnZnOFV4VExOcVpCcEJwUzY1d19wd3RhaWhCdGFmWldidGM0YlljQ21LNF9iSk5veWR1V1Znc0UtckhWMw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUUhoZC13TFE1RS1TUXV4Tk9RZm1ORmxZdUNqWFhKUlVpdnN2Z2wyUHpJVWhQVVhiWC00YkpQcUZlcVRTMll1ZTcyUTNOMk1EaWFGLWVfQXdVdklMSFlKSzZKYnJWMmotZVExdXNVZXlnd2EwOG9rc3BZbjZ1YjJ2UWxuWjA0RC1aYm9UVXRiUTlXcXE4blRpSGtwT3QyTkM5aVR4TF9tMmY?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2cxU1UtTklHNHdvTVFZMmM2ZmZjOW1taTNUdkZwSkZrNWRmYlhjTGE3ZzJ1YS05blRZZHpUMEVwc1JHVkdwYVFxeEtUZDRCaFkwRWhfdXVYMVRDYWpiZHNLRGZJcHpzaTAzVVpscWQ3OGtHVFNacDFzOUtsQ2JQZHdQbm9RU3VpSGgwLVhnalNQNHpNLTRqU2tETlE4R0lWdkdMZXdudkEyRjhhR2Q5MXY2bGFaenNzQUNfeFNWWmpLSFhJWHVVbUkxUQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX2pSU1NnNXlqQ2wydjFuWnBWLXhBa19IT2JMR2ZtOU9mYWNWZWVlR3haSmdtNUdPNlFRaEVwdVNJM2sxUjNfaVV0THRNMF9RWmFpeHYyZUo4MFJkMWRIZThJUG56M2xGclhkamo5SElsRjRfbzFmMGlQYndBallZbndPaTJHSjM1S0JPcDZ3SVNDYlZnU0ppRVpXWnY4N0tScDViNGhyYldtYU5J?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYW05TGo3VWdncVdBLWtha3RTMjZiRGhBbnF1UmUxQ1dXLTZuc1I0THBSYjk3YkVpZjd6ZFViNVpHRmlqc3R5eDRQd2hpYUROd1c4dUlJNjBJcEJoLUlGT0NTTUNqRDVtWEw2UThlejdaOE5jdlg0SUt0YkNNQU55NElYblMxd25XVGpDdWJLQ3ktcXBBM1RBbm4yZjFGLTBWT1lNWEtjVzczV00yZ2VETUhOdERkTEZjendQOA?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb2hQMzhpZWxYSXV3c3BGMUlEYWRSUEh4N0hCb2c4bXZLYVdpcUtEV3VnbHI3cncyUzR2NzdVZXZNVzJQbHRkYUQ4ZGZBVTJLZVBXbkwycGNHYlE1aEs2U1FfaXBlSUtDeV9WWFlneV8yS3BzdWZ0bnh2eXVtdkNKLU9nNEYwYmVKMUpZQms2N2xsdHBtX0V3ZDZwdWZFV0RPZEZ1THV6X2x4Yno3MXdDZHpXdFdLUTg2UlduR1g5eVNPY1BYUWJZRmVYenowTV9f?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUjFnaVBGWnk0ZkRRXzFwVXZ0ZEQ5dXNydVhlTjl4NmxBNHA2LXppenJRcml5UU11dTFPQk83Q3ZaSkpydEN5LTVNOGs1cjg5TXlLSTVOcFlWTi1ZT1ZTZlRDeEpWcnlPS0MzOURCMm9MaE85QzhKUGdDb0dYaXFVakVKbVE4dWtJZVVsNGdHTDdwTDh2bHFjNklkNF9PU0UxczdYaC1seTZlRDJSeFpndlhHSHVlU1JKRndBc0tfZjdzUGtqVGxlY204eWJGekRhbGZ3dlFzV3U4cFJHUHFsSg?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOak03cm10RUxEZGFOaFJNSWtXTExLaDhzTG5pQWVXZlNlZnJ1MjZGbU1iRUJoQmRWUFNhS0I2SUd3UVZhbE9oQzNRTnB5MGgxZjFYbDJVbWgya25SQVk1RUQ2UXZYYlExdnp1SVhlUlhNcnJ4VGJBd0Z3NUtsMkJ4OXlaQlctYU5DbmxkTjYtcGVXZVRYX0ZBVWNTT3lLR0VSNjhF?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnNaR1ZxVGhva3ZnQm1SeHpLMGpuTVQtc1hxWkxfRVJpcjJIdzc2VGh3N0NJWFlnYkx4WGl1ckFMOGdiRWd4WHM2WkdleTRmT2FPa0FFSUQxbWtDLUxaU0w2UzM2RlB2cUJIUmZ1NGN0Rm1HTF83WGtocFItVWpKQTJHeUtBLVVyWXExVTh0RmhlUVlST1VkdG0yazhwX3l6aWZoVzlCTndUclA3c05KRURFXzVVUk5NLTVhcVZwY3BseEpvak9HZlBB?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ1p0VlZTMGpGb0hvR095a0NxMk0tQ1hobjVUUmJWMTdXeC1kSmlyeE10bDd5ejJKSndrUlJSZ1hud1BSTU9Ga0NjZU04YmZYSS1VWWlsUjRwZkZLU05oaGEwc1R5TEJTVDd2YVJPdWV2UGsybzFDVm9mLVp4OHpOQXVHOUFIMWhMTjRtSHhEQU5aNnhyZURGOXFWQzJqU09CYjNLcXkyWHRlODVZdU5GU0lISG81ZXhRWGRBaWc5UGFpMkhRdmZ6M0drM3VlbmRIaGYzak5Daw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX0l4X1JYcXN5ZGNaWnNlVldlNmE0NUo4UlVvdTd0WkptejBqWi0zWGJ1aThxQnY4eHdVeWNSYmVyU0xsRS1kcnJpVGVtNnM5RE5XM1VHYnhRM0F6OWRtSTFZODFHTjZ5XzJQMDN2d1BtN3hfbWFPcF9LenN0MUdMRVpEUnhBaHJQaDdBc3RwdnQxYlZyQXVNejZ3?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQnZuR0xOZGxxN0tIN2tHYkRqX2x3TjNnc0lBbms1N3ctUWtQN2ZjblVtb3ZaaDlUb0VaVnk1djRyUFZZUHpZVENDYXI0XzRNbTZyR1NBT1E4c1FwNEtpSUI0UlRLd0pLa19ZWjJGMTJXMUtna1VZT2NfN1k3cWh0VVdRWkdLLUtkV1EwQWJWbnB0RXVkOExSWVFTN2QySlVKaTJkTGxsQlFMTkc1SWV6M2xFMEc2M1dISWhuZFZR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMUdBSktWVmk4S25TaWRvd3F2cUNsdXJ0b09USzdVZ2NSV0J4aDBDQnF6cTFyOUtKaXJjNHZwd0VoZ0dvX0RQUnRFNTZ0eWdSMm5JYlppZDFUczRMaC01cUZfc2YydU91UDY0WVRpb1lzb29Xa0R4TmdnM0pUVk1BWUl0ZlZPX2ZELUNjeVBlUU14LXZoVDVfU0ozZFZXRGtnLWRIcnlialM4UzFOU0NUb3hpdS1QSHZVTGVKNWVMdkF4UQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdVlqaXhHVXQzdHBfSzRMM20zU1p6SEdkaG1OTVN1dDBXUmxuX1NHTXZ5eldjc3RBOVpNX0ZJbEN3QWZnWHBjMFowbzN1VTd3dXZteGRVTUVuMkF1ekNKVko5YUVQYU1GN0tRT205ZmZqT3lxbGU4NU4xSXdMNjBOb0dpYUI1b1dIYl9CUG54TTZrbDczU0NxUDZNc2xkd292aVNZcjczMkhRT3NyUzRYS3JGZXJZZjA1WFJ4QldR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNjVBWjYtLXJUcHpZR1QxTVBGaGNncm80eFJnTm1RRUkyc2c1TDlKNnVXNE40aHYwMVl6SVU3TFlJcTlxTEk3dXRTeVFwTy1MMkNqdDh4VTdlbE1GMmtXQ1RwNGNaajRyVWlHSDFhdWxrX3dYRTZhUmNUa2cwQ1Q1TkY4cDlMZWNiZS1ESTJOVDZlV3pwVS1HaF8wVHN0SmhIV3NOUy04QVk5NkFpNTgtOERZb0w?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQclFZalBtTGFybGRNc3J3UDlCUURlSzV3Z203dzB2dGR2S2JEcXJNZ2trWlhoSnpZQ1FsZ0JxQ2pyaVI4QXNPd2wtWXNtTDZ0ZDIwdDZ1TnZKcTQwY051WGcwdzZFcENCaXBqTG5tdUp3dTRVUXVoVUNYZVlCTFV6X3d1cUIwMFc4eGhiRFp0REdRSk1IS0lNd3pSUENsZW5WWVNwYmt6b08wcmtfdzVOZXlfdw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaEl0aVNaUlE2TGtoVldCRW1lZkdzT2t2R3Q5bmFsb0lXX2N4MmwtVU9vanJBQjRVMnZtQkc0MUJ6bzhkc2dWckphdmFMWjhIV2xldVVqMXBId1g2dTk4QXRBN0tScWJobmx4LXVoQmpob09hRWY3bU1YcS1ZUVNKRUhwQ2MyRWZQbGwxT1pmYXE4aE5PejVpd1MxM2JTXzhRTTJZNkxYNjdXUktlbkdZLUNOUEw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lVUg3OFZieHR3WTVBQ3F3eng5RzNBUFFpQ1JVSHdGRm5QaG03djRwc01ELWpjeWM5OXZsN2xubWZPMjhTN3ZwOERGTGtVVldpSnBEVl9EelRmbG5BbkR4bmd1c25sbHJGcEE?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM0t6ODJFVlRsNVJiUTYwcDVDX2h3ZWE5emRlYTRBTmhIaTFSdGstaVMycWRQcmVBdnNpU2xSb3RweWllMEY0NE5wU2duRTR4dTVkVnpqRXptZ1RueUkwS0dTbzdQSEVpQWhsTDcwWmVIYXV0UW1NRVJ2Wi1NZUJ5WnY3S1BoUlEtcEpuUDZqV3pDZGJualpFQ1dYck5XMUlqNDRmZHhZTVd4b1VKbnJDN25vZ2c4R09UbkdJdWJoOW41Ni1aR1JMMw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV1lZbWFHRnlJcmxqTE9QU0NfVDRDdTlVSU42WHBWNm5sajd5bXZXb1lDU2Q5NHh3RUc4cXduNG1nUDNOeG54ek5Rb0VaQ2ZSMVpERkRkZU5LYWJSUFoyU1A2X0RqaFdQYVR1ZWQweWg3eEgtYjUtaTJwX2Nrc2k3TFg0UG02Xy0wZkJUMmtMcTU5d1hUU2NvaVdTalg1Um5DaXNaREFpTDlid3FUU2p1MWgyZXhhaU9H?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHBBYy1fbjFuODhLb3VxVVBHeXNPVXlDTWVJRW5NaVh1Q1V1VEJ4LVZfTndnOWJZeVdxSUlKOGdueU51N0R0ejVIbk84anQtLUpBdHdCY0dkTENyZ1hyN2pURkU4blhOVWZHM290TTZJQzA4ZHNfcmhUdUgzS0ZVamxHR0xLUnItZ2JEV25uUGRFbXVFaHo4dXkwdjE1dmhlNUFtN1RGZGRuRHoxUjFYZWg4azZ4TG96MjZVU2N3RkU?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkoxN0NSWWhMWnhhMzVLUW5GbVRGUmlxN2dPUmF6NnZQR21jd200NFJMWVlubjA3bTY2RUllbXhLVTM1am03aHE4NV84TWFyMVR1c3l1R0ozLW1XOVpHVFBOU0RTd1pWem9raVVVYlVDamViREZXZlhJczhHSkRna1U1aFhBWGFQSGJjdVBMWDRzUnVSYXlzbUtFRFVKaGN6Wm9VbWVMczh6ZE1OcktJaHhfTmZtbkxCWGxhNFBWbw?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaW5MX1VQbVBXT2trUXljaWJyWGFOUUVFVVJVSk5CUlZLNzUtdDNtdlQyMWdCZTdSdnNjRnZRME9fb0dWZHhxMUNkb251dUNRNHpxTUdLdk4wcmVrYlU2OE42RFc4Q0pBVUhzWERXTUZWOFhXZ01VYktlYnlBWmF6NVdCN09pMXp4cUhQVk5KczY?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWxfWEJ0WkZENU15MnFHYzU1MTlaTEhaYXNxLUFRa3p0WkttVGFFdzh5Um1Gckc2Mm1jQ3p4WWc4b2t0ajhZZGhheHM3MkRJYlBlTXM1Wk9TaHl4SFF2S0N0WkRwU0plbUd1Nk50SnF3MzZBYlRfNWxrNGgxb1NXaEN5UUs5bFBoVDdTVlZtMm9fdGZhcVgzZ1hUdkdERzZNNDlZSENoaXpqaGc5dEdUMkVR?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVE9BV21sd0psYTFSXzdMM0tYTkJtN1pUdmJEekg1VzQ3ckU2Uk1yanlsdmhZcTYwNTQ2SDYzd2J1NVVBMHpqZ0pyUjlZS1c4R0NKYnV3TkRma01xckZmalNTT0VrdlZvQkV6eDI0aXNVQmh0YUdfcjBjUm9RUEplbHhLem93cXh5bWdGaVpQMElZdUFNNDRzVllnS2kwMExkU2NQdUJrMTBSUXNUZXNYS2JpN2liNDJ1Zy15MkZ4SnZ1LURUX1F3?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVdUaVRjVTR6ejRQdEFFb0MzbE9famJIbGk5amFhdGVXcW0xZU5YWHYzMVI0VEJCa3RoYi1EaHdkRktBYXpWZkMxNVlhRUdDeGpRRHZ5S0hNWlRpZVZEUnhPZm9IT0QtRnhMcVUwSmRiQ05wcEM0T1J3clBfLUlJTHZXY2VkeTdjNjhHckQzUFNrVXFhUE5XTGN1b0JkMHB6cXB3OGo5VQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWkxDSDBNSVlOV0dFcUtlSmxDcVF1Mm1yMGZmWXB4TlZITFBzNGRYTm41N0dOelpKVmdOdU84dEpOZlduMUlwM0FRRTFCYzFuNzdDWUt6MXJOSE52TG1qUS1MRlZBQmt5dVZmN0h3VlVJTE5wN21qQTZEMFlCVUFjUkZ3b3JEMEtoaVhEdVJ6YlRfelVRTDF6bV9oZXRUVk0?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNOWFhbU40V0x4QUQ0LTdFLUxELWowVDRRQVdJc0tyTEV6Z2NBd0RPMzdrZzg0NWMxYWtSc3VqQlFlUVRkSUhPbDZTWnB0STVSOWx6QUlpUzlpREJ5TmhFT1g4SVl2MW5Bc1cxclptNW5udzM4b2p4c2pWdC1fem1VbnZ2WGl6cnZ2MFR0bnp5MXNqdWIyQW1GVFpsNHI4QQ?oc=5": "2026-10-15T23:09:11.666985+00:00"
  },
  "events": [
   {
@@ -19619,56 +19676,6 @@
    "what": "Nadace O2 a NMS Market Research zveřejnily výzkum mezi 1700 dětmi v ČR, který ukázal, že 60 % dětí ve věku 12–15 let aktivně používá umělou inteligenci a 76 % z nich informacím od AI věří. O2 na zjištění reaguje kampaní Tvoje máma vs. AI máma upozorňující na rostoucí roli AI v životě dětí.",
    "why": "Data z výzkumu poskytují marketérům konkrétní čísla o penetraci AI nástrojů mezi mladou cílovou skupinou v ČR – klíčový insight pro komunikační strategie zaměřené na generaci Z a jejich rodiny.",
    "takeaway": "Pokud cílíte na teenagery nebo jejich rodiče, počítejte s tím, že AI je už pro více než polovinu této skupiny běžný zdroj informací – promyslete, jak v komunikaci oslovit generaci, která AI aktivně využívá a důvěřuje jí podobně jako autoritám.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "27b782b8f6",
-   "created": "2026-09-10T19:05:00+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUnduQVJnLUp4Qk82bTd6RkJ1aUNhRzRZWlFlNVpsbkwzZVFtRUxramdzSVQxVFFwUm5qdC1meGd2a0EzNThoMmVIVWhiTTlPNmhlb1VaRjBsREhYSENlYzVuRF9xcEp4d2c5d1JuRnIwVzNvazh1SFZidkl2dGs?oc=5",
-     "title": "Content marketing success falls to 12-year low: Survey",
-     "summary": "Content marketing success falls to 12-year low: Survey &nbsp;&nbsp; searchengineland.com",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-10T19:05:00+00:00",
-     "score": 53
-    }
-   ],
-   "category": "obsah",
-   "importance": 65,
-   "title": "Úspěšnost content marketingu klesla na 12leté minimum",
-   "updated": "2026-09-10T22:41:45.617939+00:00",
-   "what": "Podle nového průzkumu se úspěšnost content marketingu propadla na nejnižší hodnotu za posledních 12 let. Konkrétní čísla ani detaily příčin poklesu nejsou ve zdroji dostupné.",
-   "why": "Signalizuje systémový problém v oboru – buď se mění očekávání, klesá kvalita obsahu, nebo se výrazně mění způsob, jak publikum obsah konzumuje a vnímá. Pro marketingové manažery jde o varování, že dosavadní přístup k tvorbě obsahu nemusí fungovat.",
-   "takeaway": "Přehodnoťte efektivitu svého obsahového marketingu – zaměřte se na měření konkrétních obchodních výsledků místo metriky typu dosah. Zvažte, zda investice do obsahu nepřesunout do kanálů s prokazatelnějším ROI, nebo změnit formát a distribuci stávajícího obsahu.",
-   "importance_label": "důležité",
-   "multi_source": false,
-   "image": "img/27b782b8f6.jpg",
-   "image_from": "searchengineland.com"
-  },
-  {
-   "id": "eb624568dc",
-   "created": "2026-09-10T09:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/do-mereni-tisku-se-zapoji-chytre-bryle-prvni-data-ukazuji-ze-ctenari-prectou-dve-tretiny-titulu",
-     "title": "Do měření tisku se zapojí chytré brýle. První data ukazují, že čtenáři přečtou dvě třetiny titulu",
-     "summary": "Od roku 2027 se má Media projekt rozšířit o nový modul, který přinese data o kvalitativním čtení tištěných médií. Pilotní projekt, který pro Unii vydavatelů realizuje společnost Median, využívá kamerové a eye-trackingové brýle ke zjišťování, jak čtenáři s tiskem skutečně pracují, které stránky a jak dlouho čtou nebo jakou pozornost věnují inzerci.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-10T09:30:00+00:00",
-     "score": 62
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Media projekt přidá od 2027 eye-tracking dat o čtení tisku",
-   "updated": "2026-09-10T22:41:45.617939+00:00",
-   "what": "Unie vydavatelů a Median připravují nový modul do Media projektu, který od roku 2027 bude měřit kvalitativní čtení tištěných médií pomocí eye-trackingových brýlí. Pilotní testy ukazují, že čtenáři přečtou dvě třetiny titulu a data budou zahrnovat i sledování pozornosti věnované inzerci.",
-   "why": "Pro inzerenty a media plannery jde o první strukturovaná data o tom, jak čtenáři reálně pracují s tiskovými médii – které stránky čtou, jak dlouho a jakou pozornost věnují reklamním plochám. To může ovlivnit rozhodování o tiskovém mediamixu a alokaci rozpočtů mezi tisk a digitál.",
-   "takeaway": "Pokud plánujete tiskovou inzerci, od roku 2027 budete mít k dispozici přesnější data o reálném dosahu a pozornosti. Do té doby sledujte výstupy z pilotního projektu – mohou ukázat, zda tisk stojí za větší nebo menší část rozpočtu než dosud.",
    "importance_label": "stojí za pozornost",
    "multi_source": false
   }
