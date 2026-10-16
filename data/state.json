@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-15T23:09:11.666985+00:00",
+ "last_run": "2026-10-16T09:08:11.877562+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 4
   },
   {
    "name": "Lupa.cz",
-   "feed": "https://www.lupa.cz/rss/clanky-samostatne/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.lupa.cz', port=443): Read timed out. (read timeout=15))",
-   "new": 50
+   "feed": "https://www.lupa.cz/rss/clanky/",
+   "status": "ok",
+   "new": 5
   },
   {
    "name": "Collabim blog",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -101,13 +101,13 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -154,8 +154,8 @@
   {
    "name": "Rank Math",
    "feed": "https://rankmath.com/feed/",
-   "status": "chyba: empty feed (HTTP 404, text/html)",
-   "new": 0
+   "status": "ok",
+   "new": 1
   },
   {
    "name": "Linki.cz",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -226,7 +226,7 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
    "new": 0
   },
   {
@@ -263,30 +263,30 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 2
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -411,38 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://cc.cz/skvela-reklama-pro-cesko-kvuli-svetozname-hre-se-ke-kutne-hore-sjely-tisice-lidi-az-z-filipin-a-australie": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.lupa.cz/clanky/v-utrobach-prusa-research-podivejte-se-jak-funguje-firma-ktera-odmita-prenechat-3d-tisk-cine": "2026-08-17T05:11:58.684324+00:00",
-  "https://cc.cz/meli-druhy-nejlepsi-rok-v-historii-presto-propousteli-nesvadime-to-na-ai-rika-sef-miliardoveho-trezoru": "2026-08-17T05:11:58.684324+00:00",
-  "https://cc.cz/jak-se-telocvikar-dostal-do-karlina-a-otevrel-tam-posilovnu-plnou-der-zelezna-koule-ma-treti-pobocku": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.lupa.cz/clanky/televize-prima-sport-program-vysilani-srpen-2026": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/pns-pod-novym-sefem-kalikem-koupila-zavedenou-predplatitelskou-firmu-send": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/do-allwynu-jako-group-media-director-prichazi-xenia-olajosova": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/atmt-obhajila-form-factory-a-ziskala-toyotu-obchod-posilil-schreiber": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/prima-sport-bude-sportovne-lifestylovy-kanal-ukazala-vizual-studia": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/adison-pracuje-pro-deemko-zastiti-pr-i-media-relations": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/interni-marketingovy-tym-nebo-agentura-co-se-firmam-skutecne-vyplati": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediar.cz/kreativu-a-obsah-v-taste-povede-katerina-fisarova": "2026-08-17T05:11:58.684324+00:00",
-  "https://www.mediaguru.cz/nedelni-jednickou-zustava-policie-modrava-nasleduje-docent": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.mediaguru.cz/spir-vypsal-tendr-na-novy-admonitoring-a-ma-i-noveho-reditele": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.mediaguru.cz/cesi-pri-nakupu-obleceni-davaji-prednost-cene-kde-nakupuji": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.mediaguru.cz/prima-sport-zatim-do-tv-mereni-nevstoupi-reklamu-bude-prodavat-pasmove": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.mediaguru.cz/prima-sport-zahajila-vysilani-prvni-den-nabidne-fotbal-plazovy-volejbal-i-zpravy": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.mediaguru.cz/revolut-planuje-sit-letistnich-salonku-prvni-otevre-v-kodani": "2026-08-17T07:31:21.653291+00:00",
-  "https://blog.seznam.cz/2026/08/ceny-garazi-mezirocne-vzrostly-o-12-jako-levna-investice-postupne-ztraceji-svuj-status": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.socialmediatoday.com/news/x-adds-video-overlays/827979": "2026-08-17T07:31:21.653291+00:00",
-  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9seFdIakk3OTVRUFNkeWcxNTZuY0x3S20tTElGYkkySHFLa215VkwzdlJhLURaOUJRTlBKVnFTUmNXZ1AyaFh0eC0zRzM3WHdUdVV6ME9qak9tb1FibDZyWWRGSmx0dw?oc=5": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.socialmediatoday.com/news/tiktok-announces-2026-music-on-stage-competition/827983": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.socialmediatoday.com/news/linkedin-playbook-offers-tips-on-effective-ad-campaigns/827982": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.socialmediatoday.com/news/teen-social-media-bans-face-barriers-to-success/827981": "2026-08-17T07:31:21.653291+00:00",
-  "https://www.socialmediatoday.com/news/google-lowers-search-profile-requirements/827980": "2026-08-17T07:31:21.653291+00:00",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6YmxrY2NkREVFV0FMUncxY0YyaXlHazF2LUxINVJnbFBWNHNOQmVKRlBYTU1obzF4SEtNVUxvS25obFB1SDRIZnc1cE9INHl4WWtYY0tFQQ?oc=5": "2026-08-17T07:31:21.653291+00:00",
-  "https://cc.cz/koupit-supersport-neni-snadne-najit-lidi-se-kterymi-ho-chcete-ridit-je-jeste-tezsi-rikaji-dva-podnikatele": "2026-08-17T08:28:39.081527+00:00",
-  "https://www.mediaguru.cz/livesport-nasadi-ai-avatarku-ailu-vyuzije-ji-pro-videa-oznameni-i-vlastni-porady": "2026-08-17T08:28:39.081527+00:00",
-  "https://blog.seznam.cz/2026/08/startuje-druha-rtb-vyzva-roku-2026-nove-videoformaty-silnejsi-vysledky": "2026-08-17T08:28:39.081527+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/merchant-center-agencies-now-supports-1-000-accounts": "2026-08-17T08:28:39.081527+00:00",
-  "https://digichef.cz/co-stoji-za-funkcni-gamifikaci-v-digitalnim-prostredi": "2026-08-17T08:28:39.081527+00:00",
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb1pYS0pnMDMxMXhtLWFBUHV3UVNVcDljX2txYTNzaWh3bEdzMGppekVyNTJPNzE5cGphLUhqZEI3cENOMnJuVzkwQ1VkZ0taSFd5MzNiZTFSRE9aQWxUaU1MRzlHTm1NTVQ1REZtbGpvU19fREUzeTQyaURpM1R5MGVPSDVPSlZsSFgyZ3pSY1RWSDlEcnVB?oc=5": "2026-08-17T08:28:39.081527+00:00",
   "https://www.socialmediatoday.com/spons/new-research-reveals-75-of-linkedin-ai-citations-come-from-individual-prof/827232": "2026-08-17T09:18:22.514189+00:00",
   "https://rankmath.com/blog/google-search-console-plugins-for-wordpress": "2026-08-17T09:18:22.514189+00:00",
   "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb09nSFlCQ3NrMzJwSjN4cXVCSzNRNElHanpwdG5Rck5Sbm9pNW1kcDZ6R3RJODRheU12dExRWEYxemJkX3lBUWhGZG5hWU9aOW81WHRDRExjN1ZRcWNfdlhqM0U1UFRHYmx5N1piMXBBSnlQX3FZMThJNW9JTTdDeGlCU3VKZzZFS1B0MjA0ZDhDdGoxWm5UVVM2SkY0a3NwRFd2ZnlNQ0FjVW9JSlBBYTlCdkNmSG9wdVZiRWlpUVVaYTZPNG5hQWNpQ0pHc2d6WU5UbU80VllpUQ?oc=5": "2026-08-17T09:18:22.514189+00:00",
@@ -6111,7 +6079,38 @@
   "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVE9BV21sd0psYTFSXzdMM0tYTkJtN1pUdmJEekg1VzQ3ckU2Uk1yanlsdmhZcTYwNTQ2SDYzd2J1NVVBMHpqZ0pyUjlZS1c4R0NKYnV3TkRma01xckZmalNTT0VrdlZvQkV6eDI0aXNVQmh0YUdfcjBjUm9RUEplbHhLem93cXh5bWdGaVpQMElZdUFNNDRzVllnS2kwMExkU2NQdUJrMTBSUXNUZXNYS2JpN2liNDJ1Zy15MkZ4SnZ1LURUX1F3?oc=5": "2026-10-15T23:09:11.666985+00:00",
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVdUaVRjVTR6ejRQdEFFb0MzbE9famJIbGk5amFhdGVXcW0xZU5YWHYzMVI0VEJCa3RoYi1EaHdkRktBYXpWZkMxNVlhRUdDeGpRRHZ5S0hNWlRpZVZEUnhPZm9IT0QtRnhMcVUwSmRiQ05wcEM0T1J3clBfLUlJTHZXY2VkeTdjNjhHckQzUFNrVXFhUE5XTGN1b0JkMHB6cXB3OGo5VQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWkxDSDBNSVlOV0dFcUtlSmxDcVF1Mm1yMGZmWXB4TlZITFBzNGRYTm41N0dOelpKVmdOdU84dEpOZlduMUlwM0FRRTFCYzFuNzdDWUt6MXJOSE52TG1qUS1MRlZBQmt5dVZmN0h3VlVJTE5wN21qQTZEMFlCVUFjUkZ3b3JEMEtoaVhEdVJ6YlRfelVRTDF6bV9oZXRUVk0?oc=5": "2026-10-15T23:09:11.666985+00:00",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxNOWFhbU40V0x4QUQ0LTdFLUxELWowVDRRQVdJc0tyTEV6Z2NBd0RPMzdrZzg0NWMxYWtSc3VqQlFlUVRkSUhPbDZTWnB0STVSOWx6QUlpUzlpREJ5TmhFT1g4SVl2MW5Bc1cxclptNW5udzM4b2p4c2pWdC1fem1VbnZ2WGl6cnZ2MFR0bnp5MXNqdWIyQW1GVFpsNHI4QQ?oc=5": "2026-10-15T23:09:11.666985+00:00"
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNOWFhbU40V0x4QUQ0LTdFLUxELWowVDRRQVdJc0tyTEV6Z2NBd0RPMzdrZzg0NWMxYWtSc3VqQlFlUVRkSUhPbDZTWnB0STVSOWx6QUlpUzlpREJ5TmhFT1g4SVl2MW5Bc1cxclptNW5udzM4b2p4c2pWdC1fem1VbnZ2WGl6cnZ2MFR0bnp5MXNqdWIyQW1GVFpsNHI4QQ?oc=5": "2026-10-15T23:09:11.666985+00:00",
+  "https://www.lupa.cz/aktuality/miliarda-jim-trvala-tri-roky-druha-jen-pet-mesicu-ceskou-ai-nadeji-uz-pouzivaji-meta-xiaomi-nebo-nvidia": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediar.cz/masterchef-odhalil-uplne-novou-porotu-dva-michelinsti-sefkuchari-a-prazsky-reznik": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.lupa.cz/aktuality/nejvetsi-ceska-sluzba-pro-online-danove-priznani-meni-majitele-umozni-nahrat-vypisy-z-investicnich-aplikaci": "2026-10-16T09:08:11.877562+00:00",
+  "https://rankmath.com/blog/ai-visibility-framework": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediaguru.cz/masterchef-kompletne-vymeni-porotu-tvori-ji-knedla-pindur-a-absolon": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediaguru.cz/nova-propojuje-serial-kutnohorska-kauza-s-osvetou-proti-manipulaci": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.lupa.cz/aktuality/oneplay-nataci-serii-veritel-s-martinem-hofmannem": "2026-10-16T09:08:11.877562+00:00",
+  "https://blog.seznam.cz/2026/10/jak-dynamicky-banner-snizil-pno-o-34": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediaguru.cz/polabi-ve-ctvrtek-vitezi-bozi-plan-boduje-u-mladsich": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.lupa.cz/aktuality/pirati-hledaji-kandidata-do-vysilaci-rady-prihlasky-prijimaji-do-25-rijna": "2026-10-16T09:08:11.877562+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/merchant-center-adds-warranty-attribute": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediaguru.cz/barrandov-televizni-studio-presunula-sidlo-do-radotina": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediaguru.cz/youtube-je-nejblizsi-znackou-cechu-rostou-foodora-o2-a-bageterie-boulevard": "2026-10-16T09:08:11.877562+00:00",
+  "https://cc.cz/tesla-ukazala-novy-sportak-roadster-s-tryskami-od-spacex-skace-pres-auta-vyrabet-se-ma-v-roce-2028": "2026-10-16T09:08:11.877562+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-gets-campaign-type-attribution-in-beta": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.lupa.cz/clanky/cetin-zalozil-dalsi-firmu-a-jeste-vice-zesili-byvaly-sef-statniho-it-pomaha-nove-pojistovne-novinky-applu": "2026-10-16T09:08:11.877562+00:00",
+  "https://cc.cz/cnb-ma-v-americkych-akciich-pres-400-miliard-korun-a-tezi-z-jejich-rustu-nejvetsi-jsou-nvidia-a-apple": "2026-10-16T09:08:11.877562+00:00",
+  "https://cc.cz/kupuji-trosky-stareho-internetu-a-delaji-z-nich-stroj-na-penize-sazi-na-ne-i-buffettuv-investicni-obr": "2026-10-16T09:08:11.877562+00:00",
+  "https://cc.cz/znate-ho-jako-skejtaka-nebo-diky-receptum-na-sitich-ted-dan-rahman-rozjel-aplikaci-pro-planovani-svateb": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.mediar.cz/reklama-na-oneplay-na-spadnuti-nova-avizuje-formaty-premium-reach-a-premium-cross": "2026-10-16T09:08:11.877562+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/microsoft-builds-pmax-draft-from-business-snapshot": "2026-10-16T09:08:11.877562+00:00",
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ROFRTanpxMGhleGlsR0NaNS12T2ZZVUVSS0Zxbzdma1JsZFluaUlRTFdjTFI5bmJSOTcyYUREZkFMdzA5QkZwRG11RWY?oc=5": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.seroundtable.com/google-dataset-search-broken-42315.html": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/trump-cancels-livestream-execution-of-hasan/833194": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/meta-adds-audio-links-and-reference-reels-to-edits/833192": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-shares-holiday-sales-data/833191": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/x-partners-with-genius-sports-on-nfl-data/833190": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-adds-new-creator-monetization-options/833179": "2026-10-16T09:08:11.877562+00:00",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE43SkMyc1VWcFZYZ3UtVTZmQkNNazZXVzlFUFRsWkpnazNnZGlLR29abjZheWJGZzlkRUJ4OEd3UUl5bXNqNVNEVWllb0FyWHJ2Ym9mdHYzZjB6R0xYS3VyM0dIU0t4c3h5YW1R?oc=5": "2026-10-16T09:08:11.877562+00:00",
+  "https://www.socialmediatoday.com/news/meta-offers-enhanced-ad-campaign-exposure/833171": "2026-10-16T09:08:11.877562+00:00",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCR0RfaHhMUEtXTU51VVhPajBjb3RvN1VjQUlrdWtUU0FxM0FQZkdxZXVTQ05XUkxMVmFtZ2NtZ29WZ2RRX3RWa0QzNHo1OEw4OHVBckJ6VkVkZw?oc=5": "2026-10-16T09:08:11.877562+00:00"
  },
  "events": [
   {
@@ -19654,30 +19653,6 @@
    "multi_source": true,
    "image": "img/3c032953fd.jpg",
    "image_from": "socialmediatoday.com"
-  },
-  {
-   "id": "a9f0b9572b",
-   "created": "2026-09-11T05:40:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/o2-stavi-kampan-na-souboji-mamy-s-ai-vyzkum-odhalil-rezervy-v-komunikaci",
-     "title": "O2 staví kampaň na souboji mámy s AI, výzkum odhalil rezervy v komunikaci",
-     "summary": "O2 v kampani Tvoje máma vs. AI máma upozorňuje na rostoucí roli umělé inteligence v životě dětí. Výzkum Nadace O2 a NMS mezi 1700 dětmi ukázal, že 60 % dětí ve věku 12 až 15 let AI používá a 76 % z nich informacím od ní věří.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-11T05:40:00+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 52,
-   "title": "60 % českých dětí 12–15 let používá AI, 76 % jí věří – ukázal výzkum O2",
-   "updated": "2026-09-11T09:00:35.381499+00:00",
-   "what": "Nadace O2 a NMS Market Research zveřejnily výzkum mezi 1700 dětmi v ČR, který ukázal, že 60 % dětí ve věku 12–15 let aktivně používá umělou inteligenci a 76 % z nich informacím od AI věří. O2 na zjištění reaguje kampaní Tvoje máma vs. AI máma upozorňující na rostoucí roli AI v životě dětí.",
-   "why": "Data z výzkumu poskytují marketérům konkrétní čísla o penetraci AI nástrojů mezi mladou cílovou skupinou v ČR – klíčový insight pro komunikační strategie zaměřené na generaci Z a jejich rodiny.",
-   "takeaway": "Pokud cílíte na teenagery nebo jejich rodiče, počítejte s tím, že AI je už pro více než polovinu této skupiny běžný zdroj informací – promyslete, jak v komunikaci oslovit generaci, která AI aktivně využívá a důvěřuje jí podobně jako autoritám.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
