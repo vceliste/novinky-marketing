@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-16T19:37:53.628666+00:00",
+ "last_run": "2026-10-16T22:58:27.295774+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -89,13 +89,13 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 7
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -130,8 +130,8 @@
   {
    "name": "Backlinko",
    "feed": "https://backlinko.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='backlinko.com', port=443): Read timed out. (read timeout=15))",
-   "new": 3
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Yoast",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -179,7 +179,7 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Newsfeed",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7ff37a231310>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Síť v malíčku",
@@ -310,8 +310,8 @@
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -335,7 +335,7 @@
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MeasureSchool",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -411,9 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166": "2026-08-17T20:55:34.075563+00:00",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEZmYlhJZ2pIQ084bndqdkdGVkNCWF92NGtkTHcxYzBickxxLUVlbzk3Y0U2QU8yVVVHYWhyczZva25oeGFjUDVBaGhVVHdfY2ZzS1hnWmtfYjVZemhKSzVGV3FFb3Zoc0dHSEpObzlLcFl2dEVheVhCRngxV2F0Sjc5aU1GUnJmQUpXc3BTeTZpQUtTNElYZlRNYzJhSDRUWFcwRWh1YlRFaWJFcUE?oc=5": "2026-08-17T20:55:34.075563+00:00",
-  "https://news.google.com/rss/articles/CBMibEFVX3lxTE84WWs0UTdZU1JJbTdwdTRyaUZIRExmUjRfcmNEazhtRHNQdm9pck5IeEpmaXJmZ0VLZHg0MFQ4elhndWtHcjM4WHVLMkFSa3pXMHo2TG9EVGg2dWVCbTRKczBfbzNReG8tLThtVw?oc=5": "2026-08-17T20:55:34.075563+00:00",
   "https://cc.cz/pad-influencerskeho-napoje-prime-prodeje-jsou-na-dne-firma-se-topi-v-dluzich-a-mazou-ho-i-ceske-obchody": "2026-08-18T05:02:51.666377+00:00",
   "https://www.lupa.cz/clanky/stat-se-uci-zadavat-it-zakazky-jinak-nejdriv-vlastni-kompetence-potom-dodavatele": "2026-08-18T05:02:51.666377+00:00",
   "https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale": "2026-08-18T05:02:51.666377+00:00",
@@ -5669,7 +5666,10 @@
   "https://news.google.com/rss/articles/CBMixgFBVV95cUxQanA5eFlYUVZLdVFmRU9QVFNqa2NEaHY0N0pDUzU0Q2xSQ1pGYUVaWm1UaW9oVDF6NnlOT0tkYTNGd0trYTVhbG82cGtzcXgyT3Mta3hEZjRiS1hfQUxkTHZROVBnQzNoZzZqZlc5Y1M0X2xwR0NzWHJSd3RzZ1JGUW5ON0M2ZHNNbWJyV1RDTXJiN1U2RWpYSGlMakxjMm5ESlV3Y1RNcU1lbmJ1OXhJdy1OcmowdkFEYXBNbmRpdnh2U19RU1E?oc=5": "2026-10-16T19:37:53.628666+00:00",
   "https://news.google.com/rss/articles/CBMi6gRBVV95cUxPVmRpRU9NWEtHdTVQTDB6S0V0YURDSWd2LWRnZWRGYWVUV1daa0VDVXE3enlsNXBoMmdfakZEaXRBenpUTnJhTDBjWmxvUDMzMWpGZS1NQzV6Z2FyYkJNU3BqcWdhRW1QLUZjM3pZWXlleHZGQ0xleFJqOE5MNGRlQTVvWTR4TjlFd0dsUGxFZ1RhNi1WU0x5SWgyVmJhRWhQb2twcFVOY1l0enpMVlJBSHJab3AwdGdtdmhkbFZXRVlJRnhFVWt5Z3hmTmNaM2Q4Yml2VHctTTY3cU1zQ0h0WXJhNUg4OF9mYjd0N3lKMm9xZWw0ZnRaNEdpZjJRTkVJZFE5WXFvcmZUM0d2d1o3UmhHakRVYlQ3MDlMXzBBTzYyY2dEdU1Tcy1HTG40Vy1IV1BFcHRmd0xkSm42MUhDdE1mdE04S2ptR0VtZmdxc0NWY051VGZMM09YNWZ6Wk81eHhxNTRrdGJRVEp5d0JUUWFqcktKTUVvZWN5UzE2cnNUYnBuSEVub1oxQXRrMC1LbTR0eFR4ZDUycFF5ZTBtdGpzTWp2dUV2ZXd2b0lNdlVwYzJ6Umo1VzhHZWdjZ1dkcy1kZUFZNGxLaTMzb01pSjAyY1hUR3hkRTBuNjcxSmNQMk0xdlNzM0hKZk9Oc1VuaDRBUDNMenpTM1VfSHFBbGYxZ3UwbmF5VTAxa0VsRnVmZmVVWUIyNE9IVm56TnZPOFJCbTlNWV9jOWtMYXZ4bUs0TVNHTHFMTlpucnNGNmxPNUZXbXJJS1dYVVBKVldUOWVlOUZmbTBLNFJEd2JNdFBJU2hBUVRyM3c?oc=5": "2026-10-16T19:37:53.628666+00:00",
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmJZamVtVVlFZ1lPdWoxcEtzbTRRSC1paDRPSHluSWZBZHVqU2FRMmZkVVFZbkJEV0dibGc4RFFNaF9JRmZpVUItOGF6YlFWbXZ1X21yTHhTLVZLdFpsT2M5Vm4zWU1zbGZLcHBNRUVSVFprcUxtcUg2RDhQWjhIYndWYmhyZWN2M0s5RnJ4VnFIOE56OS10VW5DV2M5TmloYk1OOTNVeUlxUU9DX3VwNXh1VGlIdVlYb1NuT3lmOTY?oc=5": "2026-10-16T19:37:53.628666+00:00",
-  "https://blog.seznam.cz/2026/10/seznam-se-s-medii-o-novinarine-mimo-hlavni-mesto": "2026-10-16T19:37:53.628666+00:00"
+  "https://blog.seznam.cz/2026/10/seznam-se-s-medii-o-novinarine-mimo-hlavni-mesto": "2026-10-16T19:37:53.628666+00:00",
+  "https://www.searchenginejournal.com/metas-new-terms-expand-crawling-rights-beyond-advertisers/593217": "2026-10-16T22:58:27.295774+00:00",
+  "https://blog.hootsuite.com/how-many-followers-on-instagram-to-get-paid": "2026-10-16T22:58:27.295774+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxRG9DNFNOR1pxcVY4aUExREVZaWNwUU1JYm1FU0FqREc1NUk2RjA0SktwUll3ME10NnBpX21BQ08zVDBSOU1WOGN3RGNGXzVwa01vRFFqX1pWaHdDTGZPaVBiclM2U1FQWHhPejk4UGFsUExUTGVB?oc=5": "2026-10-16T22:58:27.295774+00:00"
  },
  "events": [
   {
