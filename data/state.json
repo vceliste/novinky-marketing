@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-20T23:15:41.348446+00:00",
+ "last_run": "2026-10-21T09:27:55.754962+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -35,19 +35,19 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Týinternety",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Seznam blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
@@ -107,7 +107,7 @@
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Google Search Central Blog",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -226,8 +226,8 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "new": 2
   },
   {
    "name": "Mailujeme",
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Sprout Social",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "chyba: empty feed (HTTP 500, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
    "new": 0
   },
   {
@@ -411,18 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://www.mediaguru.cz/ceskomoravska-nemovitostni-meni-po-deseti-letech-vizualni-identitu": "2026-08-22T07:09:49.012401+00:00",
-  "https://cc.cz/kdysi-navrhla-olympijskou-kolekci-ted-promenuje-ceske-remeslo-v-luxus-inspiraci-bere-v-japonsku": "2026-08-22T07:09:49.012401+00:00",
-  "https://cc.cz/unika-jedno-video-za-druhym-vyvojari-ocekavaneho-gta-vi-zatim-marne-hledaji-hackera-co-jim-kazi-plany": "2026-08-22T07:09:49.012401+00:00",
-  "https://cc.cz/bude-mu-90-let-a-dokola-hejti-matcha-latte-mladi-ho-za-to-miluji-sleduji-jej-stovky-tisic-lidi": "2026-08-22T08:55:39.683917+00:00",
-  "https://www.mediar.cz/radni-proberou-komercni-spoluprace-moderatoru-ceskeho-rozhlasu": "2026-08-22T08:55:39.683917+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/offline-conversion-uploads-7-day-upload-gate": "2026-08-22T08:55:39.683917+00:00",
-  "https://www.mediaguru.cz/poradem-pripominkoveho-patecniho-vecera-byly-pelisky": "2026-08-22T08:55:39.683917+00:00",
-  "https://www.mediaguru.cz/cnn-slavi-prekvapivy-uspech-se-svym-kanalem-fast": "2026-08-22T08:55:39.683917+00:00",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2eGtiUFNnanU0M0pGN2l6T1c2TjU0eFlUWFEzX2dEaDZycVotdFQ2R1N3UkJNaC0xeTdyS3BOMGtjS0ROU1Q1SExFcXJhMlNDUTZRNjJZQQ?oc=5": "2026-08-22T08:55:39.683917+00:00",
-  "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3NE9rWVJMelh5Sjl2OTVlR3VuNUFFbHZFcG1kQVhrVmp2MTFreXRQdWJyTGQyWFRFaXUyZmtKeFpDV0lUUHFaTTlyZTVwR1VzRFdyNnF3NC1lZnRuOUNzcUhybw?oc=5": "2026-08-22T08:55:39.683917+00:00",
-  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5scHQ4SG4tQ3NHdUR2VTV1eHJndHJMQWxudVN6aEN4SnNtMG9JeFo5TS1kcXVsOWJTN3VZOXhnV0lEUmxiaXNlaUxhRW01WW1zekJQVkRzb0k?oc=5": "2026-08-22T08:55:39.683917+00:00",
-  "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6TGNPSjBITktBSXUxWWxjUWdiVHBYeWFadElvMkphcTR2VlozMVM2Yk1xekJFa2lRRERmalpsNWxtWDZ4UGFHeHc1bmltUQ?oc=5": "2026-08-22T08:55:39.683917+00:00",
   "https://www.mediar.cz/prima-sport-mnoho-povyku-pro-hodne-malo": "2026-08-22T10:47:06.617560+00:00",
   "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHNnQ1VlJFRVluZlZIZGthbjRtUklKZkp0ZGF0M3NnNTNsVm4zTXhGeF81c1hBUTFnd2pIcTJnTDBjV0s0WkdBMV9zc1VOSkhJSEd1UHJpSVVOY0drRVcxRXVB?oc=5": "2026-08-22T10:47:06.617560+00:00",
   "https://cc.cz/tohle-obri-elektricke-suv-z-ciny-si-veri-i-na-nemeckou-klasiku-brada-vam-spadne-z-nabijeni-a-parkovani": "2026-08-22T13:08:07.093308+00:00",
@@ -5485,7 +5473,43 @@
   "https://www.mediar.cz/moderoval-podcast-s-okamurou-ted-poslanci-zvolili-jiru-do-rady-ceskeho-rozhlasu": "2026-10-20T23:15:41.348446+00:00",
   "https://www.seroundtable.com/openai-chatgpt-ads-enabling-creative-enhancements-42344.html": "2026-10-20T23:15:41.348446+00:00",
   "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbldEcFJJSndaQWNlMW9zb2dVTnZpanN1MFFCcjhOb0Y0ancwckFEY243bERpRzFtUThJNlg5ZDdaT1cyZzFFRjVneHZZMTdsRWRGbnVudnNsS1FsLWs2RjhFYzJ4ZWstMnQ4RGpONjlaMkYtOHh4ODBYZ19IODZoR3JuNTdkbnNxTDRRMnZaUmNpajJCNVhoQkxPdlk2TVhHWHp2T2Y0dkJnWGFYT2ZGTWRB?oc=5": "2026-10-20T23:15:41.348446+00:00",
-  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YY3pLd21seUtXRUhaSUFCQzVoWnRqOG5OWjNSMkFuN0phQ0NpcFlBaFVKQ1hvTUxwUUxZNmR2czY5N2t0WHZkaGsyMm5vQjZkNTR3RzJNUFgtb0xnOEVVRjdaempTT2VIU0F5N3Rn?oc=5": "2026-10-20T23:15:41.348446+00:00"
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YY3pLd21seUtXRUhaSUFCQzVoWnRqOG5OWjNSMkFuN0phQ0NpcFlBaFVKQ1hvTUxwUUxZNmR2czY5N2t0WHZkaGsyMm5vQjZkNTR3RzJNUFgtb0xnOEVVRjdaempTT2VIU0F5N3Rn?oc=5": "2026-10-20T23:15:41.348446+00:00",
+  "https://cc.cz/umela-inteligence-za-nas-umi-i-nakoupit-proc-ji-ale-cesi-zatim-nechteji-sverit-platebni-kartu": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/aktuality/restauracni-restart-podruhe-znamy-gastrostartup-sveruje-provozy-umele-inteligenci": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediaguru.cz/eurosport-a-tnt-sports-ziskaly-prava-na-tour-de-france-a-vueltu-do-roku-2032": "2026-10-21T09:27:55.754962+00:00",
+  "https://cc.cz/umela-inteligence-zprznila-milovane-ceske-dilo-nechutna-drzost-komentuji-ai-slop-tvurci-znamych-her": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/aktuality/do-rady-ceskeho-rozhlasu-poslanci-zvolili-influencera-jakuba-jiru": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediaguru.cz/ct-v-pristim-roce-vyrobi-vic-poradu-nez-puvodne-planovala": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediaguru.cz/polabi-zustava-v-utery-na-cele-bozi-plan-u-mladsich": "2026-10-21T09:27:55.754962+00:00",
+  "https://cc.cz/kdysi-si-v-amsterdamske-red-light-district-vydelaval-hranim-dnes-uz-diky-ai-uci-na-piano-stovky-tisic-lidi": "2026-10-21T09:27:55.754962+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/performance-max-sourced-videos-become-opt-out": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/aktuality/jak-zvladnout-novy-zakon-o-kyberbezpecnosti-stat-ukazal-jak-spravne-nastavit-rizeni-rizik": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOC1FeWh0TDBiNmljcFh0SHRYMWVTdFhpajN4dm5wQjI2Q2tQd1JRN0VlaUl2Q2VyTGZaMFJicmp0czFQMnNEelk5RU5ZVi02Tmszcnk4NEpFd2J4UDF3V0FRSUd4WUNmc0lhbENsd3ZDMW5lWW5RdjJfbHh3SFJuT2NpQWdSWnAzYXhTemp0QlRmV3FPZmpWQW1XTDhReXhZeWJiaEhYeFpVQVQtTGRRYVhIMjN6UjJFaTlmNC15bnZaOTZOWkhUa201ZEluTGRocHkwMzNQdWVMRE1OVWo3bFo0TEtWR1dTTDA2eVg0RDBFLXMxWlhGN3FwcW91Zw?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/aktuality/skoda-spojila-sily-s-prusou-prislusenstvi-do-aut-si-lze-vytisknout-zdarma-cesi-to-nabizi-jako-prvni-na-svete": "2026-10-21T09:27:55.754962+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/bing-tests-cta-button-in-copilot-ads": "2026-10-21T09:27:55.754962+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/seasonality-adjustments-available-demand-gen": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/aktuality/cuprova-nova-ai-firma-se-dostala-do-elitniho-programu-microsoftu-z-programatoru-prestanou-byt-programatori-veri-podnikatel": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediaguru.cz/klient-nepotrebuje-dalsi-dashboard-potrebuje-vedet-co-udelat": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediaguru.cz/nova-usporadala-pro-fanousky-serialu-bozi-plan-specialni-tramvajovou-jizdu": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.lupa.cz/clanky/falesny-jiri-grygar-kazal-na-youtube-o-bohu-a-mimozemstanech-co-delat-kdyz-vasi-tvar-nekdo-zneuzije-v-deepfake-videu": "2026-10-21T09:27:55.754962+00:00",
+  "https://cc.cz/architekti-promenili-podkrovi-na-vinohradech-za-kominem-ukryli-terasu-pokoje-lze-ruzne-usporadat": "2026-10-21T09:27:55.754962+00:00",
+  "https://cc.cz/jak-se-stavi-ai-datacentra-pozemky-ocenujeme-podle-elektriny-ne-podle-hektaru-rika-damir-spoljaric": "2026-10-21T09:27:55.754962+00:00",
+  "https://cc.cz/zaril-v-naganu-ted-chce-nakopnout-hokejovy-litvinov-radi-u-nas-privitame-miliardare-rika-jiri-slegr": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediar.cz/naha-seznamka-naked-attraction-zahajila-druhou-sezonu-s-mene-divaky-jsou-ale-mladsi": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediar.cz/cnn-zmenila-vlastnika-christiane-amanpourova-po-43-letech-skonci": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNUY1VGYtQXFPU2hkeTdtdVhCU2t5bV9yZ0NfTWFVUWhBOWdUTWNvV3otdXhEUmZSZi1BVTRVQWVXRHN2d21Gemg3dGgta2lKcXNwemgtQS1makhwWF9vdUsycUlNYWNDQm1hdUgzTVZEUEhaWnR6eHdDaGhzdE15dmtYa1NNMkowSUdYNS1PZXhHRl9vLWhsSHJxel92Z1BpUHFUWldmc3JDZWNEMXBkVjdhVzctMlhBMDl1V2NXUE4?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.mediar.cz/atmedia-zastupuje-tri-dalsi-kanaly-filmbox-ma-uz-22-merenych-stanic": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-shares-black-friday-cyber-monday-promotion-tips/833546": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/australia-prepares-to-sue-social-platforms-over-age-violations/833545": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/instagram-announces-next-phase-of-rings-creative-talent-awards/833543": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/snap-taps-robert-downey-jr-to-promote-specs/833539": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE45ZTR3SEx4TjhRbEpEcFlXMzhac0xPU1EyNjd3dWY0ZUFFZk5ROUpmcFpFTVlPVmN4SE9fbjhGLXpMZ0tCNV9keUdQaFpSU2NfaW5EdDdGblZnZW53ZmZnOWpKU1JSUXBhbFhRNA?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://www.socialmediatoday.com/news/reddit-adds-ai-powered-ad-guidance-tools/833532": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XbTZyMWdhbmdacDk0eHM2ZzJvLThUNU1QRFFBSF9vM1BUM1lMUFl0QTJEdk1iSHVUUm1qZGFBQXJ0WUhSZTRvdHNYZUV0OUFOMjVjRlBWdXY1NDRWN2p2VklTeXJKZTNw?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vSzlSYm14ZVhfWHB6NmNrcm9SN0hrc1EtM3JNcEVoZFYzWmEyRndTRGxZM0FGM1A1RUtNVTAtQlNaMUR4WnZBaTZUbTZjemNXMFRPTjQtT2laUUlRd1Jv?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSzJlT2tHNEgzTVp4aTdISllhN2hyb1F2d0o1aTV4c1ZscUZ0RXM4MURRV0g1Qk5rekZIRjBqdTd5MF8tdm5aWVE1TGVpNHd0Qy1NalhRdnJqUmVQTlYtN3lBQzNqcmJvSWpCYW9MWEFjVExKc3Voa3QxZVM5emtxNmhtUkh0ZUtITkpQNHoyOVJLbjBEZW5HbTBiRFNtWllqSXBRUVRlWS1lRFhLckRlbkZpd3lwX0N0Qmticy1yU3d4TnQyQU5nUkRucUlXd1ZvZzIzT2x0bThvSzY3WENVTi1BVmNEcWNBM18tRlQ4Yw?oc=5": "2026-10-21T09:27:55.754962+00:00",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcTVXa0gzbVdVeDRUXy1YY25reEhKVm9iOFRnOHEzTVZnd1dPT1hTUEZqaGF1NFF3ak5KN1F1ZU9ybFQ1bXVLUzZNZllZWm1wODdBYTJnbFF1NVEzZEpDWHcxXzZTMUNpX2QzbzUwU2tYN3U3LUQ4VFdzVWE5OF9STFRUTzd2YVNHVlVmNzFkV1plbktIRTJaaVFpWG1vbGpWUnk3M0t2MXpaN3FrWkdtRjJnQkFWUUw3cmgxNFdVcHpCV3Z6SUh6OEdvNkJyZkRTOEc0?oc=5": "2026-10-21T09:27:55.754962+00:00"
  },
  "events": [
   {
@@ -16487,30 +16511,6 @@
    "multi_source": true,
    "image": "img/854d797d5e.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "3a657babe6",
-   "created": "2026-09-16T05:30:00+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/od-zabavy-ke-globalnimu-prumyslu-znacky-si-v-gamingu-musi-najit-vlastni-misto",
-     "title": "Od zábavy ke globálnímu průmyslu. Značky si v gamingu musí najít vlastní místo",
-     "summary": "Gaming se z okrajové zábavy proměnil v masový fenomén, který oslovuje miliardy lidí po celém světě a stále výrazněji vstupuje i do marketingové komunikace značek. O tom, jak se mění herní komunity, proč už hráče nelze vnímat jako jednu cílovou skupinu, jaké příležitosti nabízí gaming pro inzerenty a jakou roli v budoucnu sehraje umělá inteligence, mluví Matúš Gajdoš z Fuse.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-16T05:30:00+00:00",
-     "score": 57
-    }
-   ],
-   "category": "obsah",
-   "importance": 45,
-   "title": "Gaming už není niche – značky hledají cestu, jak v něm komunikovat",
-   "updated": "2026-09-16T09:27:46.308278+00:00",
-   "what": "Gaming se z okrajové zábavy stal masovým fenoménem oslovujícím miliardy lidí globálně a stále častěji vstupuje do marketingové komunikace značek. Matúš Gajdoš z Fuse upozorňuje, že hráče už nelze vnímat jako jednu cílovou skupinu – herní komunity se výrazně liší.",
-   "why": "Pro marketingové manažery je důležité pochopit, že gaming není homogenní publikum. Různé herní žánry a platformy přitahují odlišné segmenty. Vstup značek do gamingu vyžaduje specifickou strategii a pochopení kontextu – nejde jen o umístění reklamy, ale o nalezení vlastního místa v tomto prostředí.",
-   "takeaway": "Pokud zvažujete gaming jako marketingový kanál, nespoléhejte na univerzální přístup. Segmentujte publikum podle žánrů a platforem a zapojte specialisty, kteří rozumí herním komunitám. Sledujte, jak se v tomto prostoru pohybují konkurenti a jak do něj vstupuje umělá inteligence.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
