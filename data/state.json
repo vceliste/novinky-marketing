@@ -1,29 +1,29 @@
 {
- "last_run": "2026-10-22T09:30:52.536763+00:00",
+ "last_run": "2026-10-22T15:24:03.254342+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 10
+   "new": 2
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 7
+   "new": 1
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "eVisions blog",
    "feed": "https://www.evisions.cz/feed/",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "new": 1
   },
   {
    "name": "Shoptet blog",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 8
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 5
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 8
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Backlinko",
@@ -215,7 +215,7 @@
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Ecomail blog",
@@ -233,7 +233,7 @@
    "name": "Mailujeme",
    "feed": "https://mailujeme.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Litmus",
@@ -257,7 +257,7 @@
    "name": "GetResponse blog",
    "feed": "https://www.getresponse.com/blog/feed",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "ActiveCampaign blog",
@@ -286,14 +286,14 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Meta Newsroom",
@@ -334,7 +334,7 @@
   {
    "name": "Analytics Mania",
    "feed": "https://www.analyticsmania.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/html))",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 500, text/xml))",
    "new": 0
   },
   {
@@ -353,13 +353,13 @@
    "name": "Google Marketing Platform blog",
    "feed": "https://blog.google/products/marketingplatform/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Copyblogger",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -411,14 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://cc.cz/mate-vetsi-svaly-sirsi-kostru-a-jednoduse-se-budite-rano-muzou-za-to-vasi-predci-neandrtalci": "2026-08-23T10:48:20.780701+00:00",
-  "https://cc.cz/platit-si-vic-streamovacich-sluzeb-naklady-muzou-jit-do-desitek-tisic-korun-nove-zdrazil-youtube": "2026-08-23T13:13:47.652671+00:00",
-  "https://ppcnewsfeed.com/blog/disable-auto-generated-videos-demand-gen": "2026-08-23T13:13:47.652671+00:00",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMVpsaGlsU3dDYk9ZeldIMEd4ODNhaUJaeVQ3N3BBM1Iwa0t0MHRlbTVpYmpCcHpwNXZvMnp3WVhfVXo0TjY4WWlEOWx6MG42NXhreG1pSEY5akJFMDh1eEQ4Q1p6b05zTFNXQnE1TFBMZjNWMk1UVmVaLVZoX1pxekt6NkVWWTlwejlySTRMc0hsMDF1d2NON1NwY1pjZG1yd1J3U2E3bWE4VlRyYTNrZjRyUnFfWFVobkY3ZDYtdw?oc=5": "2026-08-23T13:13:47.652671+00:00",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazg0bTc1ajRCWkxMd1lqRTRoT0NwU2FRZTE5cW9GelM4ZFpGT0NTVkY4eDBseHBnNzNkWDNBLXM0UE4zZGVEdkx1SjV5RU1OS2ExX0dFY1RIN0daT1g0cDBUTTIwaVhRYzlhUDBvV2J6RUlSLWJOUHBtTi1DanRmVXpqZ2cyZw?oc=5": "2026-08-23T13:13:47.652671+00:00",
-  "https://cc.cz/mafianske-praktiky-milovane-mafie-pokracovani-kultovni-ceske-hry-vyvolava-v-hracich-horkost": "2026-08-23T14:47:42.066927+00:00",
-  "https://cc.cz/zdedil-vilu-po-rukavickari-a-pustil-se-do-jeji-promeny-pomohl-mu-cerstvy-absolvent-architektury": "2026-08-23T14:47:42.066927+00:00",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGpvNWgtQ1FycGtFNUt2WDdYSEVWNmpkWlJUdkdRQ2dKRFhhSE9QeDVkSXB1ZmlFTXF5ZWNBdWJva0l5NDJFVHpEZWc1SWF5V1ZLWUxTa2hSbldzUWE3U19mcHhJOExocFVqLURSbzBDZUZSM1F4cG9yd2NQTWpob0cydV9hdjNaMzU0TkIwcw?oc=5": "2026-08-23T14:47:42.066927+00:00",
   "https://cc.cz/stamilionova-vila-v-pruhonicich-uvadajici-influencersky-drink-a-miliardove-povleceni-proti-slevam": "2026-08-23T18:55:40.448032+00:00",
   "https://www.lupa.cz/clanky/prvni-supravodivy-tepelny-stroj-modularni-kryogenni-bunky-realistictejsi-hodnoceni-kvantove-vyhody": "2026-08-23T18:55:40.448032+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-08/google-redesigns-asset-optimization-panel": "2026-08-23T18:55:40.448032+00:00",
@@ -5612,7 +5604,53 @@
   "https://www.lupa.cz/aktuality/multiplex-24-rozsiril-pokryti-z-cerne-hory-lepsi-prijem-slibuje-i-ve-strednich-cechach": "2026-10-22T09:30:52.536763+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-10/commerce-media-partner-directory-published-google": "2026-10-22T09:30:52.536763+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-10/channel-prioritization-budget-caps-live-google-ads": "2026-10-22T09:30:52.536763+00:00",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMmxDaGd6ZVVBNGJ0cE1uT2hVWHFfclJjVi1tODcxVXRlU3JWTTBtbzIwSFE3aHB0YXVFdXBRblhZVmxRMXpIU0FqNXVrQnVFS01ISnFNaVV4bjh5TF91WTdaZFVua0dJbVhEMXV6bFh0dEFE?oc=5": "2026-10-22T09:30:52.536763+00:00"
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RMmxDaGd6ZVVBNGJ0cE1uT2hVWHFfclJjVi1tODcxVXRlU3JWTTBtbzIwSFE3aHB0YXVFdXBRblhZVmxRMXpIU0FqNXVrQnVFS01ISnFNaVV4bjh5TF91WTdaZFVua0dJbVhEMXV6bFh0dEFE?oc=5": "2026-10-22T09:30:52.536763+00:00",
+  "https://www.mediar.cz/mia-korab-se-po-15-letech-v-londyne-vraci-v-symbiu-ridi-rozvoj-klientu": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR29zWXh2VHM1dVVFRnV6QlBIT3lka1ptVTdzZkNtLXh2TnViaHJBN0dvTU0zVDhzQ1pfb3JoSWpTUnJiUXpRMzdUT1ZsVVNTdmw2cjR1b1pDMHJnOHQ4RmVVUEJ5bFV6QWVpZ0o0cld4SDFnemN5QXhNdGoxMkJvTW9R?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.getresponse.com/blog/best-sms-marketing-apps-for-shopify": "2026-10-22T15:24:03.254342+00:00",
+  "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic": "2026-10-22T15:24:03.254342+00:00",
+  "https://digichef.cz/dokaze-ai-napodobit-autentickou-tvorbu": "2026-10-22T15:24:03.254342+00:00",
+  "https://cc.cz/nakupovani-online-potichu-zdrazuje-e-shopy-zvysuji-ceny-dopravy-vyvazuje-to-ale-zrejme-jeden-trend": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-business-home-42363.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.searchenginejournal.com/getting-indexed-no-longer-means-getting-visited/593412": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hMXlZcnYyR3A5YkpKYklyTTZhNV91aEJGR2xhQUc3QlNTdTQxRk5UUWo3UmpBUjQ4cmFxTUZzYU5VVHh3Vnk5NkxhX1RVVGZfOUpBT1BFM0NUaWlHazVxU2NiMkFyZEluV1Nr?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/recap-10-22-2026-42360.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-campaigns-now-accept-html5-ads-display-network": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.marketingbrew.com/stories/retailers-flock-cameras-brand-reputation-risks": "2026-10-22T15:24:03.254342+00:00",
+  "https://cc.cz/ted-uz-zadnou-hranolku-z-mcdonalds-nevyhodite-navstivili-jsme-jeho-prisne-kontrolovany-bramborovy-raj": "2026-10-22T15:24:03.254342+00:00",
+  "https://ppcnewsfeed.com/blog/ads-in-ai-overviews": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.lupa.cz/aktuality/firma-ceskych-radiokomunikaci-ziskala-licence-pro-vsechny-tri-stanice-barrandova": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnZRUkVqZXRCX1hndS0xamVkZmY2S3F0RENpcWpIT0VnY1hYby11dVpaUXY1elZyNk1YeXZvQk1VNElOc0RKdGhEalZyT1JuUDBoRTVxTEotbFFFUzV2ck5Bc3JaRUhacXdmWk1kNlUxX2lmdTVFdi1JUXJjR3ItaDlUNjVKcUloU19PbHhUY2NnYTlBelpvVkNn?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-october": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.mediaguru.cz/vanocni-vysilani-ct-prinese-novou-pohadku-krakonos-a-basnik-na-novy-rok-film-neporazitelni": "2026-10-22T15:24:03.254342+00:00",
+  "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents": "2026-10-22T15:24:03.254342+00:00",
+  "https://martech.org/creator-content-shapes-ai-product-recommendations": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS0ZSeGNlaXYwLThDWURpMThyekZEeUNBaGhtUkswRWtHVkY5eEJ2OXJnYWhZR0VaU01IYjBOcktsVlAyWUs5MG5SU3JLeUh4bGc2aERwZVZZR1Q5Q1Z4czNPejRJa0RheklkN2dmNjM1blZ2LUNKLTc2QXhUc01nSk1DQk9vWjlCNm5kTTJKNmo4bGdJZlFGaWMzMmF5RWs?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://cc.cz/uveze-tatru-nebo-70-vojaku-vojensky-pasovy-obojzivelnik-i-dalsi-ceske-obranne-inovace-miri-do-sveta": "2026-10-22T15:24:03.254342+00:00",
+  "https://blog.seznam.cz/2026/10/seznam-zpravy-spustily-obsahovou-sekci-sz-investice": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.searchenginejournal.com/why-reddit-belongs-in-your-pr-strategy/593602": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdVp6RF8tSFpObG00QTl6UExXbmwyQmxXRmxsME5uVW9zaFNxY0ZCZF9rd2w5bkcxejhkT3dJNUIzSWFja252VUpuVUlZaGdYN1N4TDhMTjNNRWdESjNacmRGUW85N3pHakkwNmlVdHI0czZvUzBoNi0zNWU0WWtmTQ?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/online-gambling-ads-allowed-two-more-nigerian-states": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-local-panel-layout-42356.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-ads-translation-tool-42351.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-ads-customer-lifecycle-goals-update-42358.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/ai-search-studies-42359.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-ads-product-attributes-42354.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://cc.cz/za-kazdy-prodej-da-konzervu-kockam-v-utulku-kreativec-od-prusi-nenasel-hru-jakou-chtel-tak-ji-vytvoril": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.seroundtable.com/google-ads-russia-ukraine-42357.html": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.mediaguru.cz/eurosport-a-hbo-max-predstavily-zimni-program-biatlon-v-novem-meste-i-svetove-sampionaty": "2026-10-22T15:24:03.254342+00:00",
+  "https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey": "2026-10-22T15:24:03.254342+00:00",
+  "https://cc.cz/dlouha-leta-chodil-kolem-stare-pily-pak-ji-zachranil-pred-demolici-a-ted-tu-postavi-pres-sto-bytu": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.semrush.com/blog/seo-at-scale": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.socialmediaexaminer.com/the-secrets-of-human-behavior-applied-to-social-ads": "2026-10-22T15:24:03.254342+00:00",
+  "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZEpXQ3E4SlowSjFJdVA0OGFab0l2YVNHTDdLUHVPclhlb0Q4aV9FZThUTzVWSVVqY1lzOUliTG9uendldkhZQXVRajR0eE9xNGpHc3lNclVSTm4zU2hzVldoVzJtT0JuWWM4ay1Sc2dfcmJwQ01FVHVZRnpJdmlxbkFGQldxNVNmWVJqekwyMV9CSmlBRVNwdF85dndmNFNXT18zSEExVEN0NE1LaUlhV3A0c1A2N25TZGM3dEZCTEY?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://www.socialmediaexaminer.com/task-automation-tips-ai-build-landing-pages-and-industry-news": "2026-10-22T15:24:03.254342+00:00",
+  "https://ahrefs.com/blog/headless-content-marketing": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTFpsNlQ2dGQ1TUgzUXhWNWpwbWUyMHZYUzI4RDc1LUFXSmp3aVB6enAyVERhRmkweUdHNUg4MWV2WDFfLWZtU0tJQldSSElFZjI2RkhoNHRWUE9oY3E0SFF2bzVfcFVVQ0MxWHBEQVRCWS1LY0JEVmdWRUxNcmFPS0tVM2NoUGlCUnB0dVEyQ0o0bGdqNFdMTzU5cVd3dW1QWDhFV2U1ZXBYTmFkX1NmUTZRTHYwVGhPekR6c0pvcw?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcllsOGs2R1hZRG4tSTNxcUdFeGdmTDd4aERreGpSZkJuN3dGWS1HNjdTQUVXNUdDNllwMTdhWDhQNHdjcnZPcVpjWFpUaWxxZFFkSjVuZS04bjdsT0lpNGpSLXNKSWN6eUJNckR0WGtwWG5SUkdpTzlnVUJOTTlmSU8yRlNiTUkxUW8wcUNMNkpXdHphQlBuemNNWkVHa0t0cTZITnE2WnNaRWRJU0EtbTFvZXhrWHMtRVlvTnpIcjYtMmg4YTFKd0xTbjVZcVRneWhPbHZ4RzJoV1kwcDY1bXhBZUxkeTVu?oc=5": "2026-10-22T15:24:03.254342+00:00",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iYUQtWUMtSDdCNi1YQXNucjJmMVE2R1Jua0lFN2JKc2N5ajR6bU43OEJKbmNyOEt3eFVvc2RYb2xlMHo5TE1aSnlrdHAzUkFSREk4cHNqZE5tc3lPQ2F4ZmF5OHVHX2VJSWJyTEhxQ190N3NYeGc?oc=5": "2026-10-22T15:24:03.254342+00:00"
  },
  "events": [
   {
@@ -16513,63 +16551,6 @@
    "multi_source": true,
    "image": "img/dc36fec3e9.jpg",
    "image_from": "lupa.cz"
-  },
-  {
-   "id": "71e6f0b905",
-   "created": "2026-09-17T13:46:02+00:00",
-   "articles": [
-    {
-     "url": "https://www.mediaguru.cz/stream-cz-se-od-kvetna-2027-otevre-vsem-tvurcum-seznam-nevylucuje-navrat-kancelare-blanik",
-     "title": "Stream.cz se od května 2027 otevře všem tvůrcům. Seznam nevylučuje návrat Kanceláře Blaník",
-     "summary": "Seznam připravuje na květen 2027 zásadní redesign portálu Stream.cz. Platforma se otevře všem tvůrcům videa, přinese vertikální feed krátkých videí ve stylu TikToku a nové možnosti monetizace včetně paywallu.",
-     "source": "MediaGuru",
-     "domain": "mediaguru.cz",
-     "published": "2026-09-17T13:48:00+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.mediar.cz/seznam-cz-chysta-novy-stream-bude-konkurovat-herohero-a-forendors",
-     "title": "Seznam.cz chystá nový Stream, bude konkurovat HeroHero a Forendors",
-     "summary": "Nová podoba tuzemského videowebu přijde v květnu 2027. Stream.cz si připomene 20 let.",
-     "source": "Médiář",
-     "domain": "mediar.cz",
-     "published": "2026-09-17T13:46:02+00:00",
-     "score": 52
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Stream.cz se v květnu 2027 otevře všem tvůrcům, přidá TikTok feed a paywall",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "Seznam chystá na květen 2027 zásadní redesign Stream.cz. Platforma se otevře všem tvůrcům videa, přinese vertikální feed krátkých videí ve stylu TikToku a nové možnosti monetizace včetně paywallu.",
-   "why": "Jde o vstup Seznamu do soutěže s platformami jako HeroHero, Forendors nebo TikTok – vzniká nový český kanál pro video obsah a influencer marketing s potenciálně velkým dosahem v ČR.",
-   "takeaway": "Sledujte vývoj Stream.cz jako potenciální placený kanál pro video reklamu a spolupráce s tvůrci. Změna přichází za 2 roky – čas na testování a vyhodnocení, až platforma spustí.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": true
-  },
-  {
-   "id": "f1f3d0f5e5",
-   "created": "2026-09-17T09:56:26+00:00",
-   "articles": [
-    {
-     "url": "https://cc.cz/koupili-firmu-hned-nato-jim-plany-dvakrat-zkazily-zmeny-v-googlu-stagnujici-byznys-i-tak-nakopli",
-     "title": "Koupili firmu, hned nato jim plány dvakrát zkazily změny v Googlu. Stagnující byznys i tak nakopli",
-     "summary": "Zavedený nástroj pro experty narazil na své limity. Noví majitelé vypnuli placené kampaně, otevřeli se širší cílové skupině a vsadili na AI. Článek Koupili firmu, hned nato jim plány dvakrát zkazily změny v Googlu. Stagnující byznys i tak nakopli se nejdříve objevil na CzechCrunch .",
-     "source": "CzechCrunch",
-     "domain": "cc.cz",
-     "published": "2026-09-17T09:56:26+00:00",
-     "score": 58
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 55,
-   "title": "Česká firma ukázala, jak se vzpamatovat po změnách v Googlu",
-   "updated": "2026-09-17T15:08:09.438340+00:00",
-   "what": "CzechCrunch popsal případ české firmy, kterou noví majitelé koupili a vzápětí čelili dvěma změnám v Googlu, jež jim narušily plány. Stagnující byznys nakonec oživili tím, že vypnuli placené kampaně, rozšířili cílovou skupinu a nasadili AI.",
-   "why": "Jde o konkrétní ukázku, jak reagovat na nepředvídatelné změny algoritmů Googlu – častý problém pro české firmy závislé na PPC a SEO. Příběh ilustruje možné alternativní strategie (organický růst, rozšíření publika, AI nástroje), když placené kanály přestanou fungovat.",
-   "takeaway": "Pokud vás změny v Googlu zasáhly a PPC kampaně nepřinášejí výsledky, zvažte jejich pozastavení a investici do organického růstu, rozšíření cílové skupiny nebo AI řešení. Sledujte příklad z článku pro inspiraci.",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
