@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-24T08:58:12.183053+00:00",
+ "last_run": "2026-10-24T14:04:42.452146+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -41,7 +41,7 @@
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -95,13 +95,13 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 4
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -225,8 +225,8 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "feed": "https://www.smartemailing.cz/blog/feed/",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -316,7 +316,7 @@
   {
    "name": "LinkedIn Marketing blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "status": "feed nenalezen",
    "new": 0
   },
   {
@@ -411,44 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://www.mediaguru.cz/deloitte-jmenoval-do-cela-komunikace-katerinu-dudasovou": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediaguru.cz/vodafone-od-zari-zdrazi-mobilni-tarify-zmena-dopadne-i-na-balicky-sluzeb": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediaguru.cz/polsky-retezec-xtreme-fitness-gyms-vstoupi-do-ceska": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediar.cz/mereni-sledovanosti-televizi-se-vraci-do-ceskych-rukou-ato-kupuje-nielsen-admosphere": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediaguru.cz/televizni-mereni-prechazi-do-ceskych-rukou-prebiraji-ho-ato-a-admosphere-collective": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.searchenginejournal.com/google-local-services-ads-performance-max-webinar/586879": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediar.cz/komunikaci-deloitte-nove-vede-katerina-dudasova": "2026-08-25T09:06:49.976731+00:00",
-  "https://www.mediaguru.cz/pondelni-vecer-stale-pro-serial-misto-zlocinu-ostrava": "2026-08-25T09:06:49.976731+00:00",
-  "https://cc.cz/pratelsky-kolektiv-nestaci-jak-vytvorit-firemni-kulturu-kde-se-lide-neboji-mluvit-prijdte-na-people": "2026-08-25T11:01:26.370733+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/demand-gen-multiple-conversion-goals": "2026-08-25T11:01:26.370733+00:00",
-  "https://www.searchenginejournal.com/cloudflare-says-emdash-version-1-0-is-releasing-soon/586951": "2026-08-25T11:01:26.370733+00:00",
-  "https://www.socialmediaexaminer.com/how-to-build-ai-employees-to-get-work-off-your-plate": "2026-08-25T11:01:26.370733+00:00",
-  "https://contentmarketinginstitute.com/strategy-planning/marketing-ai-cleanup": "2026-08-25T11:01:26.370733+00:00",
-  "https://www.searchenginejournal.com/webflows-new-openai-codex-integration-simplifies-site-management/586931": "2026-08-25T11:01:26.370733+00:00",
-  "https://cc.cz/dva-kamaradi-vraceji-starym-nemovitostem-dusi-jejich-aplikace-ted-pohlida-i-rekonstrukci-vaseho-bytu": "2026-08-25T11:01:26.370733+00:00",
-  "https://www.lupa.cz/aktuality/nielsen-odchazi-z-ceskeho-mereni-sledovanosti-vetsinu-admosphere-ziska-domaci-tym": "2026-08-25T11:01:26.370733+00:00",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RM3VROEhlbUQ0XzJGVlNhRGJUdEZ4UzhnUWtTWkgwUG9CRVNMSlR1dlhpQmtib0RGbE96U1dpZVVsalhwWXUxeDRpWHVHbUlRc0RYSFVVb05pUWk4VTZKaGVZaFI3c1FRMnBF?oc=5": "2026-08-25T11:01:26.370733+00:00",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWlZ3WVBPN1Bkc3U4el9LUFF3QWRFenR1WGhEVjNMOUJ6WmhRNTdNRFVVQ1d0RXdPMTBfZWdqVGd5ay1RTnhRaU94S2NmdmRDS0NOR3R4Tm9HN0pmTmFlQUVJdTFiRnlRUDFpalU3Y09uTWxUSGlDTndUM01zclNMOQ?oc=5": "2026-08-25T11:01:26.370733+00:00",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTy1RYlVVQUMxSXJZMTlvME5MeUx4YTVjTDZORDRkaHctMjV1S1VqSXRXRndQRllDU25EWlVRbFMwVmJxN1ZPVk9Sa1hOM1ZfVVlaX2RTblIyaFpWdXphZ0tPbkQtXzhoQ2ZGejR1dG1XNFhHc3ZaZ3IwQnhjVC1JMjIydXgzdnhfQU9kQUdRVXQtQlJTaUdVTzQtZ1BaT1NDMERCS0ZEc3h4ZDc1MHlpag?oc=5": "2026-08-25T11:01:26.370733+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE54SDZzZlUyc2ZuaEREbVJYRVJ1dzZ3blROVk1YZFNaNVFiTXVRT2lfR3VMVlN2SW56bDBhM2d5X1JhUWQzb28wakhyOHYyd0Z1cTUwdXF6RmowdjZHbmVaU1VEX09yWmQtX3B6RWJkcWQxMmM?oc=5": "2026-08-25T11:01:26.370733+00:00",
-  "https://cc.cz/skvele-ipo-a-rust-o-600-procent-pak-ale-roboti-zakopli-hvezda-cinske-burzy-se-rychle-propadla-o-pulku": "2026-08-25T13:19:31.058124+00:00",
-  "https://about.fb.com/news/2026/08/new-account-security-features-for-whatsapp": "2026-08-25T13:19:31.058124+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/tune-in-to-rethink-2026": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.searchenginejournal.com/promo-code-search-affiliate-revenue-leak/586554": "2026-08-25T13:19:31.058124+00:00",
-  "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented": "2026-08-25T13:19:31.058124+00:00",
-  "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore": "2026-08-25T13:19:31.058124+00:00",
-  "https://cc.cz/zacinali-s-jednim-sapito-dnes-jejich-festival-vozi-do-prahy-nejvetsi-zahranicni-jmena-noveho-cirkusu": "2026-08-25T13:19:31.058124+00:00",
-  "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tS2M4SEk2YnEwcmtwVUpRTS1DbWlnRzNkdldnSFVNRG5GSmdrUTJjTVJadXo2QTVLU28xRTc4emN3U0hkVVpKR3ZnQXpPc3hBQU41WHBhNXdWY1VhZlltWElxWldnVS02aEg0Mg?oc=5": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-lsa-missed-subsequent-calls-41940.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-ai-overviews-stock-price-queries-41934.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/customer-lifecycle-optimization-feature-live-google-ads": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-ads-loading-gemini-41937.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-generative-ai-search-responses-todo-41916.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.jonloomer.com/reply-to-keywords-meta-ads-feature": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-crawlers-dont-parse-json-41936.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.searchenginejournal.com/reports-indicate-googles-spam-update-focused-on-seo-ai-content/586978": "2026-08-25T13:19:31.058124+00:00",
-  "https://www.seroundtable.com/google-copyable-emojis-ai-overviews-41929.html": "2026-08-25T13:19:31.058124+00:00",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JQzVrRmhRaU5kc3RxS182VUdBZEpNMndwWWFHV2FzYXhRclpCQktlLVVJT3FSLWlhNTZfX3BZVVJkYkE1X3RmOHpoUmtyQWh4bjNHdTQ4azhwS3ctREVLblhfRWoxVHhSV0hDODBCUVFweXlo?oc=5": "2026-08-25T13:19:31.058124+00:00",
   "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yMFB5RG5ZRXRicVZrV0dGZXN1WUE3NERPbHkxUmQ5YjFPelhpa0dCaXRhampjT2Fwa1RLRUNWa0ZSYk5rSEpxN1d5NHZnbUVjNW5SYnEyRWttZXkySlk4cWFkM2JWOFU4ZWhyRjVyUmFGMEk?oc=5": "2026-08-25T15:13:34.746281+00:00",
   "https://www.mediaguru.cz/prima-loni-zvysila-cisty-zisk-na-vice-nez-pul-miliardy-trzby-ale-spise-stagnovaly": "2026-08-25T15:13:34.746281+00:00",
   "https://www.searchenginejournal.com/why-international-seo-needs-machine-recognizable-e-e-a-t/583439": "2026-08-25T15:13:34.746281+00:00",
@@ -5677,7 +5639,17 @@
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTW1NNWpXNnlTU2tLOVpFVnZHbTVpbFZBUUN6SGVySkFVSU5uSERzX2JHUFVGb0dIVEFsY3dJUVR0a001c2ducHRWdTFkenZ6emFwNzB2cmhia0JOQ1hPM1FKVUNzcnBEcWU1cHkzSmxHYUxNTFhJV2N6V0tYbS1PZmhqWlM2WXp4RzBEVFBvbkNJaHUzdVFBbHBmM09xRWJxMWZSV1IxV193TXBnMnc?oc=5": "2026-10-24T08:58:12.183053+00:00",
   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfLXpRT2ZUSmNxbkF2dXdESjYwZXo3blN1akdqczRaNzhxWXVfa2lnc19mVEhqem13enlialFFRVYtWGRKeXF1NVF3WTRsVmVzdHhtN25NYmk2bjlKb1M1OWFPaGVtNW8?oc=5": "2026-10-24T08:58:12.183053+00:00",
   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRldjSV9OUXdLUWFEcnVoM2pCZE9HMTRGNUoteS1FbFZzaWlYblNpREg1ZUhCSlNuUUlpR3llaFpwWHdEMll1N1NQU2ZxVlRNa05kTm05YV9vQkhUdUR5NkxQMUU1bmVWVjd4cmJ5UWNtLWRvaE1qXzJRR3pmaUVtTU9RMVBzdlczUnJV?oc=5": "2026-10-24T08:58:12.183053+00:00",
-  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hWnpBcllxV0ZJX3RYYVFpMHFnNTBmcHc2clk0N2MzLVU3b0I5TzZVdndQNUo5OG5FVzh3ZWt1T1FZRmVLWVNZM2sxMjd5bmN2aU5JcDNMQ21TcXRLOUJNQUJwRloxMTRS?oc=5": "2026-10-24T08:58:12.183053+00:00"
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hWnpBcllxV0ZJX3RYYVFpMHFnNTBmcHc2clk0N2MzLVU3b0I5TzZVdndQNUo5OG5FVzh3ZWt1T1FZRmVLWVNZM2sxMjd5bmN2aU5JcDNMQ21TcXRLOUJNQUJwRloxMTRS?oc=5": "2026-10-24T08:58:12.183053+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/google-pauses-ads-for-russian-advertisers-and-users": "2026-10-24T14:04:42.452146+00:00",
+  "https://www.lupa.cz/aktuality/vyzkouseli-jsme-muskuv-internet-starlink-zdarma-v-letadle-je-to-jako-doma-na-gauci": "2026-10-24T14:04:42.452146+00:00",
+  "https://www.lupa.cz/aktuality/signal-na-ceske-zeleznici-konecne-bez-vypadku-operator-hlasi-posun-na-dulezitych-tratich": "2026-10-24T14:04:42.452146+00:00",
+  "https://cc.cz/stary-byt-v-karline-prosel-rekonstrukci-jeho-obytnou-cast-ted-rozdeluje-ocelova-knihovna": "2026-10-24T14:04:42.452146+00:00",
+  "https://www.searchenginejournal.com/seo-pulse-google-explains-503s-robots-txt-limits-bracket-urls/594085": "2026-10-24T14:04:42.452146+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/financial-services-verification-expands-us-canada": "2026-10-24T14:04:42.452146+00:00",
+  "https://cc.cz/z-jogy-udelali-modni-byznys-jejich-leginy-nosi-taylor-swift-i-kendall-jenner-a-oba-jsou-miliardari": "2026-10-24T14:04:42.452146+00:00",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeEhhUHNEQjE2QnlYNFBYakdUd1huUnRod1dXcW04MlBEMDVCN0dqT0o4WG9mZ0ZYS1pyMzBtYmRYb1ZPSTUwSEg4RG1ia1ZmN0E0TTQxbXNPQkxiNHZlaUVwSHVBNWNNRTBoUDRQSFNXbi11aUNlc3lhV3MxLXc3ZmpLcVloRGtRVE1waEdtV3R0U2R6d0trWXBuNTV5LTNHb1F5YmMyZ2pwTHhYMUtoTEdHa2NBSVVHY2MxekJqUlBmd0tQdnZnTC1xckRGQ3BqanZaWGtGY1c?oc=5": "2026-10-24T14:04:42.452146+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZEEtd3dMTVY5OFVaV2pVS0xOY2RWMWE0dEVJWkVzR2pmZU1GdVJvZzBQd1ZDYlRfc0NMUE1KVlFQTkREbzRNVkZXeXdYOWpMZW1wOF92U19jMDZmTi0xWUdBU1RrYm1Xel9mNUpHUGJSTDRPOFRoeHlMcVhDeFBZSWlSUnZmOUlpLTB4Vw?oc=5": "2026-10-24T14:04:42.452146+00:00",
+  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Kc2dsV3N4dmRDOHU1dXNjc0JNRGo4ZGRzcFZEbmtBNTBFTVdmcWhoMTY1Y2d1cDNndlV2SXR1cmI1a0NRNlFpTThiSEZxSXRib0RudTQxaDdYZFhtbGNVQQ?oc=5": "2026-10-24T14:04:42.452146+00:00"
  },
  "events": [
   {
