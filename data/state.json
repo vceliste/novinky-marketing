@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-25T09:18:07.167797+00:00",
+ "last_run": "2026-10-25T14:28:46.558748+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -47,7 +47,7 @@
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Týinternety",
@@ -82,8 +82,8 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "status": "feed nenalezen",
+   "new": 0
   },
   {
    "name": "APEK",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f3a44e96a50>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -262,8 +262,8 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "status": "chyba: empty feed (HTTP 404, text/html)",
+   "new": 0
   },
   {
    "name": "Social Media Today",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -411,43 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://www.mediaguru.cz/lifestylovy-kanal-dog-and-cat-tv-startuje-v-cesku-1-zari": "2026-08-26T11:02:10.402706+00:00",
-  "https://cc.cz/miliardar-bill-gates-bije-na-poplach-kvuli-ai-potrebujeme-danit-tokeny-a-zavest-rezervace-pro-lidi": "2026-08-26T11:02:10.402706+00:00",
-  "https://www.mediaguru.cz/anker-concept-store-vyuziva-technologii-pro-retailovou-analytiku": "2026-08-26T11:02:10.402706+00:00",
-  "https://contentmarketinginstitute.com/content-marketing-strategy/audience-data-content-gold": "2026-08-26T11:02:10.402706+00:00",
-  "https://www.lupa.cz/aktuality/cesi-vyvinou-novou-generaci-systemu-pro-kvantovou-komunikaci-uspeli-v-mezinarodni-soutezi": "2026-08-26T11:02:10.402706+00:00",
-  "https://www.searchenginejournal.com/wix-introduces-symphony-an-easy-way-for-local-businesses-to-use-ai-agents/587093": "2026-08-26T11:02:10.402706+00:00",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeGM2eERXb2JVUktkMVRVRTd0Zko0UzE3ODZ0Sm1qRW4xV0hRR1dqamt1dkV3Vzlabjc5VXRJd0NobzRjemxWR0RqS3pjbFB6NGlJZ3dNZFBoSzR6YUJiOVFRZ0lWdmFoYUYybkU4ZjkwMnFGd3J1SFNkV1RuR1J0dUJBcUVSaGh6ZHM0TFRzT3J6RkZqQnpPNVNRMXNGLThGblhEVnBBcXRlUQ?oc=5": "2026-08-26T11:02:10.402706+00:00",
-  "https://sproutsocial.com/insights/ai-social-media-assistant": "2026-08-26T11:02:10.402706+00:00",
-  "https://sproutsocial.com/insights/how-to-manage-social-media-as-a-one-person-team": "2026-08-26T11:02:10.402706+00:00",
-  "https://www.lupa.cz/aktuality/dog-cat-tv-bude-od-zari-u-vodafone-tv-a-sledovanitv": "2026-08-26T13:30:55.322483+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-pilots-audience-ads-cryptocurrency-exchanges": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.mediar.cz/ct-kvuli-usporam-pozastavila-modernizaci-budovy-zpravodajstvi": "2026-08-26T13:30:55.322483+00:00",
-  "https://cc.cz/cesi-pracuji-na-navratu-legendy-milovana-hra-naseho-mladi-se-ale-promenila-k-nepoznani": "2026-08-26T13:30:55.322483+00:00",
-  "https://martech.org/the-ai-governance-test-most-marketers-are-missing": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.mediar.cz/mnau-tv-dostane-konkurenci-do-ceska-prichazi-televize-dog-cat-tv": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.lupa.cz/aktuality/ceska-televize-kvuli-nejistemu-vyhledu-pozastavila-modernizaci-zpravodajstvi": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.lupa.cz/aktuality/vlckuv-ai-startup-aisle-ma-dalsi-zarez-muze-pridelovat-cve-mezinarodni-cisla-zranitelnosti-softwaru-a-hardwaru": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTzE1cXYyeE9nYU1sU2t4aDNIUkxHajNiai1CdVFnTkp3Z3lIakg5M3VVeXVBaDVLaTJPQ1VJQnpxamFHRkxqbHF1OHZEMjNvYWpraXRhWWZzWEJIcFFxQllVamoyVlZfeC1YYlJwUVJTVzF4MHhhMVByZkswR0cxdHZZNFRaWU5DZnV6UkhVa1hQTmpZekR2RVFXSmhaTVhLRk5Zb0x3T3V3czJqaG1QMjJiaVpHTFl0cmZSOFA1OA?oc=5": "2026-08-26T13:30:55.322483+00:00",
-  "https://martech.org/lost-in-translation-why-content-and-data-teams-cant-speak-the-same-language": "2026-08-26T13:30:55.322483+00:00",
-  "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.lupa.cz/aktuality/nova-softwarova-firma-z-nizozemska-bude-z-cr-ridit-expanzi-v-regionu-najala-sefa-z-revolutu-ci-woltu": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.searchenginejournal.com/how-to-advertise-in-google-ai-mode-for-ecommerce/582810": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMickFVX3lxTFBfN1p4RERZVzhXNDN1OWhZNDB1YlczR0FES0JtV2x2SDgzRGp6T0xtMVpUeDVhWG5pVllWTk1HX1pqM0xtQ1RjNmlBcXFMWV9rc0JxRTF4Rjd3azllUEt1d3U3MVlnQXFpcGpsTmQ3ZGxfQQ?oc=5": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-search-ranking-volatility-continues-41952.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-lsa-expands-booking-partners-41945.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-ai-mode-link-carousels-41947.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.lupa.cz/aktuality/chysta-se-predelavka-kultovnich-heroes-of-might-and-magic-3-trailer-vytvorili-cesi-podivejte-se": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-ads-customer-lifecycle-optimization-conversion-goals-41941.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://cc.cz/banku-postavili-rychleji-nez-svou-centralu-az-ted-ziskali-povoleni-brzdili-nas-skodici-rikaji": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/bing-shorts-video-tab-41892.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-ads-product-titles-report-41948.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.seroundtable.com/google-ads-channel-settings-prioritization-slider-41949.html": "2026-08-26T13:30:55.322483+00:00",
-  "https://www.mediar.cz/galerie-reklamy/csob-v-reklame-otvira-temata-dospelosti-zasazuje-je-do-terapeutovny": "2026-08-26T13:30:55.322483+00:00",
-  "https://blog.hubspot.com/marketing/marketo-alternatives": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPajBjcFR1aHV6TXJWaUc3cUNxZG9vdGxNaVNDOWdoamU3dXh5THhkV2lxTmVnZHc2Tk4xTFpvTEd1SEdkRlJLVTQ2US1OUEhScUJxZTBKWDM3SXdya0RsNHA0S3cxY1ZOMHV2a095ZEg2WDdrTDJpc2R2dzE4U1pRWXo4cWFNLWV4cC1j?oc=5": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Y1E1dnhSUFltUjJQdmloM0JscHE4bHVRMG5tbVFBUVd1d1RXa3dTdnpJNm9Vemk5Y3hPc2dWMEVtc2U0SUc5d1lsaTRVa2tTY1p6VW1CMUx0VklxaFNVUHl3b0JoX3Yw?oc=5": "2026-08-26T13:30:55.322483+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LYXU3RWwycmw0VTdnRHAwSzFOVmdyQnp6ZlBlSDF3MThEUGVQbTVjTVlnaTJ3cXhLckN5Z2FtLWdBSl9JMkNJamhETlBBdUxNXzZvSGJfZTljNm9OTGdDVmphR3l4SGJxcXhQWWNJbXAxQXM?oc=5": "2026-08-26T13:30:55.322483+00:00",
   "https://about.ads.microsoft.com/en/blog/post/august-2026/all-in-on-ai-series-the-transformation-shift": "2026-08-26T16:03:44.293455+00:00",
   "https://blog.hootsuite.com/facebook-ad-targeting": "2026-08-26T16:03:44.293455+00:00",
   "https://www.marketingbrew.com/stories/astral-tequila-practical-magic-2-microdrama-brand-intetgration": "2026-08-26T16:03:44.293455+00:00",
@@ -5653,7 +5616,13 @@
   "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-cost-adjustment-timeframe-updated": "2026-10-25T09:18:07.167797+00:00",
   "https://www.mediar.cz/tragedie-liblice-kaderka-ptaci-polsky-hasic-prix-bohemia-radio-zna-nejlepsi-audia-roku": "2026-10-25T09:18:07.167797+00:00",
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0NsanRWN0VWaG01SXhQOWRKcUN1X0ZLaHgzdWlleklRMTZaWmp6c2QwQ0NGR3NJQy1VMUwtcHNfRlBUSy1GOU53b0R5YzhSR0RISWl5MG9QU2U3Vk1tOFJWUmxPWk1ydVNvVEpiTU9ZLVhyc0M5VXc1eTBZQ0RVVGRsOVNfQnFJNHlxaXJfTmZ2SHhPd2RtZlo0NVBINVZucHAtY0ozbGRkem8xMWxhZEYxLUM?oc=5": "2026-10-25T09:18:07.167797+00:00",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54aG9MLTR2elBSSHE5WUJDaDJyalZ4d1gtemlRY0FjV2dLR1N6ZWRGS2x0WHFyaEY0TkNRZ0ctcVhLeFFtOXRPSHRWdlJFU3g5R1VKQmJGYw?oc=5": "2026-10-25T09:18:07.167797+00:00"
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54aG9MLTR2elBSSHE5WUJDaDJyalZ4d1gtemlRY0FjV2dLR1N6ZWRGS2x0WHFyaEY0TkNRZ0ctcVhLeFFtOXRPSHRWdlJFU3g5R1VKQmJGYw?oc=5": "2026-10-25T09:18:07.167797+00:00",
+  "https://cc.cz/foti-svatby-aby-splatil-fotak-patnactilety-fotograf-prirody-boduje-na-instagramu": "2026-10-25T14:28:46.558748+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/child-safety-policy-redesign-begins-january-2027": "2026-10-25T14:28:46.558748+00:00",
+  "https://cc.cz/papirnictvi-musela-zavrit-pak-ho-s-partnerem-obnovila-dnes-prodavaji-inkousty-i-pera-za-desitky-tisic": "2026-10-25T14:28:46.558748+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/passkey-requirement-enforced-google-merchant-center": "2026-10-25T14:28:46.558748+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wVy1qUThkTUN0ZzVtYm91NkN0ZVRqNXVHUDYxOWU3MDljWEFmeWx4Ymt2c2tsREl5djhoQzBGb2YzenJjUUVmZ3NtRmJmQkhMSGEzREYwWXo?oc=5": "2026-10-25T14:28:46.558748+00:00",
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yUFZIVFNxa2tSaXdHVnMyMGlOZUhHRFpsWEJ0aUt1MlZ1TjRuRG1JZHFUU3dqamZNb2V5a1p6MmQ0MVZsRTE2VVU3LW04NjI3bGI4dVV3VkxjVEkxYk4zWk4ya09obnpT?oc=5": "2026-10-25T14:28:46.558748+00:00"
  },
  "events": [
   {
