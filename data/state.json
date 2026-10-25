@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-24T20:59:57.048410+00:00",
+ "last_run": "2026-10-25T09:18:07.167797+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 2
+   "new": 4
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Lupa.cz",
@@ -82,8 +82,8 @@
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 1
   },
   {
    "name": "APEK",
@@ -95,7 +95,7 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f3a44e96a50>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -263,7 +263,7 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 1
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -411,47 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://www.mediaguru.cz/effie-stage-se-zameri-na-to-co-stoji-za-komunikaci-ktera-funguje": "2026-08-26T05:04:39.754298+00:00",
-  "https://cc.cz/podcenili-start-investovali-miliony-zdvojnasobili-naklady-cesti-vyvojari-zariskovali-a-ted-miri-do-finise": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.lupa.cz/clanky/ekonomiku-postavenou-na-ai-agentech-ovladne-ten-od-koho-nepujde-odejit-zacina-snaha-aby-to-nebylo-par-gigantu": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTUZ4bDhtdk1lZTNmQjE0eEo3VmxXS2o1Zi03R1phZFVITkNkVTU3LUVVMmZ4dnN6UWpZZnhrYXk0dTN5dEx5cXU1bG1aRlQwd240Uk4wRWpRWjFJRmkwVVkybEtsdHlSbmk0WXA5MWxqWUpEQTF1ODZob0VHc3pId3ZibUtSanRyMlBHMk1xbzBwSVhiMWduU3hQVGk0WlowcjZvTDB2QkpmajVPWjU4aXgtVTdpbjFFLUlFWkNHZy0?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGF1dUdYQTVWNkZoazFOeXJlUXJSNUhLN0ZzWndQbGtacVBkVUhNc3RndUdFLWwzcFJMeEtaT3pfY3I4NFotSXppcXhXYVdvSUNXOTByQmJ0WlM5Vi1YcGVfNXhWNVlKS1R2amJwWGNHTVowQ3poYWRtbVpoUmgtc1FQVEUwOHRiZUwtLXFDZFFzbVU?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/meta-tests-auto-dm-response-for-instagram-ad-comments/828791": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/youtube-enables-users-to-create-multiple-custom-feeds/828790": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/instagram-launches-first-draft-for-reels/828789": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/whatsapp-adds-new-passkey-and-two-step-verification-options/828788": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.searchenginejournal.com/org-sites-are-34-likelier-to-generate-ecommerce-revenue-than-com/587082": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.seroundtable.com/google-search-fewer-pdf-files-41946.html": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.socialmediatoday.com/news/pinterest-hobbies-report-highlights-diy-and-vintage/828786": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3NGdl9XVVk3X0J6TWU3M2o0WDF4TDY3cDc0c3Y1MTUwb05lang3TmFRVXQxVnJqMkNqMGpkSHVsa0NvMmVJcklCdWRmTlVfdnhJdGpRd2FBNFZ4VkFDdTRFZEZxV1JMVERwdC01R09ZbVd3dTAwenctUHc4bUV5V3NhSG8xREIwRmhrNGdJcGVIVjFpdFYxUGJOLTc2aUdiMjhr?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHJNVjVhQXdOMXhWMjVoMnNCZ1JHSDBHdF9uR25oLUNPTjRTVW5VaWpEa2ExcFFOdHI1QXFXWmNDdHVDTGFDNEJtXzN5YVNyT3pjd1Z5TDVJTFIwLVVGVFNQV2Z3Qnk4aG4zbUtENUhLRzdtaEJLWm5JN3Jac1M5cnFUbFM0SlMxTEtLWG9oeHZ1OVBOejl0bFhSR3dGZw?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOOEdtZEw2YzE4aVpRTTh0dG1SY244NHlmcEJjMnlvY3kwQlVRSXFrczJMODlKOTNwRFE1em81SjlBWmxPNXpNU25FVE54Q1R3b3FxcWFMSjJuN1g4WDdZZlg5WUdnZTZSR2hoN0lCOGI4b1k?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWE5ajBNellaNG4xZmtLTTFDaFdhUzg2UWNUTU9TRVh0Mkc4R3R4U3plVzE2Xy1KYjJtbTk3Mk45LWs4WDdNV2MtaU56dWxGeDlDU0l2MGdlcDhWbG5LRUhLOWcwTm1vYUZ3eHFnX3lWYl9JVkREY19BcjZwdGpJbDI1Nng?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFI0VkhZS1B4ZzlxWVhkR1QtOGZ4YlRuZ21zdkxiWnFycVlKUmh6bXk2d0EzS2gxVk51UnVkUW80Zi1JbWY0R21IRl9iblBUNUJsV2VGWTNORFJYNXM5SkMwS2pkaGQtb1AzQjVrUHA4NDFRV2F0RmQ0QjZNdEUzYjluVHlkd0VSUFhqdTZpNE9GVkdDVW01cA?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDNGMkpLNXZUY0REenVRaUlwWHN1Njk3aWhDN05icjgwOUxhdk90bkt6WDZnd0otMGVFTGNsb3BUUmNGc3ItSE9vQnhxLXIxQjdjelMwRFp0YnI3OWJabzVIeVBJbGNzcE81U1VWcG14dERJa253cTBCZlpFVmZzR1RacE5yTEJfc3pHRA?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOU83cmdrZ0FpcWZPU3U0UmxGVzUwTE55eVNRX3JRRGlHSjJTSXd0c3NGVnp4dGI1NHJGQ01hZUdyRFNxX2RWemFaZFNEWFRsNHNPdkJWVjVIQ0dNemZVdk41SEFYS0ZzRFRKcGl6R0owb252a1RYaDVWYnAxZ2hoaldVSXh1NFhZR2RlMDdiaGcyQjFTMVV4SzhB?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQclExdFcyWjY2VWZuMGNGdGN2S014VEIxSnEtc3k2UmJQRFZjX1BBUi02NVFiY2NYLS1yckVsWmZOdTdZdXZoc3luU0hFWEM3RzVkM0x0Y1Bjd2RFeDVZZ0lYSllqSHlmWFVwRHEzZ3ZpaHJIQlBtX0lsdksyZWxfVlJDZk1DN3ZYS240?oc=5": "2026-08-26T05:04:39.754298+00:00",
-  "https://www.mediar.cz/krausova-a-vaclavek-zakladaji-shiftrs-trh-nepotrebuje-dalsi-agenturu-mini": "2026-08-26T07:16:22.015576+00:00",
-  "https://blog.seznam.cz/2026/08/z-maleho-e-shopu-k-obratu-temer-50-milionu-kc": "2026-08-26T07:16:22.015576+00:00",
-  "https://www.mediar.cz/cesi-zavrsi-boj-o-konferencni-ligu-na-tv-tipsport-prima-sport-da-opet-polaky": "2026-08-26T07:16:22.015576+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/google-adds-draft-option-video-uploads": "2026-08-26T07:16:22.015576+00:00",
-  "https://www.mediaguru.cz/kaufland-meni-vernostni-program-na-card-xtra-desetkrat-zrychli-sber-bodu": "2026-08-26T07:16:22.015576+00:00",
-  "https://cc.cz/turbiny-vrty-i-baterie-jrd-postavi-za-ctvrt-miliardy-drevostavbu-ktera-si-cast-provozu-pokryje-sama": "2026-08-26T07:16:22.015576+00:00",
-  "https://www.mediar.cz/nielsen-admosphere-jsme-koupili-peoplemetry-ale-ridit-nebudeme-popisuje-sef-ato": "2026-08-26T07:16:22.015576+00:00",
-  "https://www.mediaguru.cz/nechteli-jsme-aby-televizni-mereni-ovladly-zajmove-skupiny": "2026-08-26T07:16:22.015576+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/local-customer-optimization-pmax-store-goals": "2026-08-26T07:16:22.015576+00:00",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbnRncndUaUZOQUdNU01Ma0xYNE9UTG5SWmJ2UGYwb2hxaUd3VURKSTJpWXpuTU9ZUmlQU3VmZ0VFQ1k1WTM1ODAwOHllb2pBRlNwVXAxc09ncllMdWFCZ2F2SHhrYUNvWktvVkJWWUNLNHMzQ2otWFFzSXRnWHBfbGktV2p6VGppUkZMcXNyb00?oc=5": "2026-08-26T07:16:22.015576+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-08/microsoft-advertising-rewrites-government-services-policy": "2026-08-26T07:16:22.015576+00:00",
-  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zdnktOHptaGxlY1RFWklyY3RVZXZrYTh1eThDVW5YWGtGeVBKamh3RXlBZEJfQnRTZnNrdFhzNTAzZjRod3VGMTdkTVZmUXlQY0syc2VSNm4?oc=5": "2026-08-26T07:16:22.015576+00:00",
-  "https://cc.cz/cekate-az-bude-v-imaxu-misto-na-odysseu-listky-zdrazuji-nektere-skupuji-prekupnici-i-pomoci-ai": "2026-08-26T09:09:57.007808+00:00",
-  "https://www.lupa.cz/aktuality/nemecka-televize-vysilala-cernou-obrazovku-a-ticho-varovala-pred-plany-afd": "2026-08-26T09:09:57.007808+00:00",
-  "https://www.lupa.cz/aktuality/o2-ma-zaplatit-pokutu-262-milionu-za-nelegalni-kartel-s-firmou-sherlog": "2026-08-26T09:09:57.007808+00:00",
-  "https://cc.cz/tim-cook-predstavil-posledni-produkt-v-roli-sefa-applu-nabuseny-mac-pro-eru-ai-vyjde-na-540-tisic-korun": "2026-08-26T09:09:57.007808+00:00",
-  "https://www.mediar.cz/polaci-planuji-zabrat-ceske-uzemi-hlasil-falesny-web-lrozhlas-cz-rozhlas-ho-nechal-vypnout": "2026-08-26T09:09:57.007808+00:00",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNnJUYU1XM2t3aU5tdndwS0FJYzhERnN6am82TTdIM0hKY202am5xZk9mRjRyb3EyaTF5SXVWSzEtSzQ2aTdVdnQweUpFamFoVWJLbWZ5OEtHYXhBMTJzUmlCWFZ1ZGtmMExHREt4TW5yRGVJenpkYUVteFRpYjFjR0hMMnVLWEZOUkZ2Ui1tb20xOFktZlF5RExubXNwdDZsZncyMkc0Tnc1ek83NFJHWXcyWVpaSEdLdV9RM2k4QkJzQQ?oc=5": "2026-08-26T09:09:57.007808+00:00",
-  "https://www.mediaguru.cz/pripady-mimoradne-marty-udrzely-prvenstvi-i-pres-navrat-polabi": "2026-08-26T09:09:57.007808+00:00",
-  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RSkg4b0JjMldwU3oxVXBpdlNiMVR4cW1hUkIxSXpIaEFfRVgxZVc4Qk80QmcwN0IwT1NmOVBIRjVIWGVwVVZkS0txTnRQYUZyU3B3?oc=5": "2026-08-26T09:09:57.007808+00:00",
   "https://www.mediaguru.cz/lifestylovy-kanal-dog-and-cat-tv-startuje-v-cesku-1-zari": "2026-08-26T11:02:10.402706+00:00",
   "https://cc.cz/miliardar-bill-gates-bije-na-poplach-kvuli-ai-potrebujeme-danit-tokeny-a-zavest-rezervace-pro-lidi": "2026-08-26T11:02:10.402706+00:00",
   "https://www.mediaguru.cz/anker-concept-store-vyuziva-technologii-pro-retailovou-analytiku": "2026-08-26T11:02:10.402706+00:00",
@@ -5682,7 +5641,19 @@
   "https://cc.cz/co-kdyby-se-dve-oblibene-hry-spojily-v-jednu-hraci-to-zkouseji-pomoci-umele-inteligence": "2026-10-24T20:59:57.048410+00:00",
   "https://www.mediaguru.cz/pravnici-ustavni-stiznost-kvuli-schvalovani-poplatku-ma-argumenty-pro-i-proti": "2026-10-24T20:59:57.048410+00:00",
   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcFZfNXJnS3l3WEFEdXBISjM5ckRYeVZNVVZXakdsaG9rUGh5NnBxbDJmbHRROWJOa21yN3RtSGJvNFNDNmZmV1ZreklBSENKQ1lnOER5c2FwOU9salA2VkpRSDFtNWxWdFVTSF9GM05FR29ZVzhhYXRCLWxSWDBoaE1iWS1uUG5zZlpqVVhzZVpIeFB1?oc=5": "2026-10-24T20:59:57.048410+00:00",
-  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aQzRsanV5NzJBRlQxXzBpdm0wT1FHMUVxRGFwM1RTWk8zLXNYSVlDNEx2cFRsTnZCNWJZdFljVlRQU1U5Y0FPR1NOWTlDdnhlTDdTTUM0OE1kSDA?oc=5": "2026-10-24T20:59:57.048410+00:00"
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aQzRsanV5NzJBRlQxXzBpdm0wT1FHMUVxRGFwM1RTWk8zLXNYSVlDNEx2cFRsTnZCNWJZdFljVlRQU1U5Y0FPR1NOWTlDdnhlTDdTTUM0OE1kSDA?oc=5": "2026-10-24T20:59:57.048410+00:00",
+  "https://www.mediaguru.cz/stardance-je-i-po-druhem-odvysilani-jasnym-sobotnim-vitezem": "2026-10-25T09:18:07.167797+00:00",
+  "https://cc.cz/smeje-se-uprostred-vety-a-mluvi-jako-clovek-jack-dorsey-ukazal-hlasovou-ai-ktera-se-ucila-jen-poslouchanim": "2026-10-25T09:18:07.167797+00:00",
+  "https://www.mediaguru.cz/generalni-reditele-ct-a-cro-znovu-varuji-pred-poklesem-financovani": "2026-10-25T09:18:07.167797+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-creative-guidelines-enhance-engagement": "2026-10-25T09:18:07.167797+00:00",
+  "https://www.mediaguru.cz/slovenska-media-posun-dab-a-zmena-v-deniku-pravda": "2026-10-25T09:18:07.167797+00:00",
+  "https://www.mediaguru.cz/znacka-kempinski-otevre-v-lednu-prazsky-hotel-augustine": "2026-10-25T09:18:07.167797+00:00",
+  "https://cc.cz/vybudoval-stamilionovy-byznys-a-k-tomu-delal-pilota-musel-jsem-skoncit-kvuli-casu-i-nudne-rutine-rika": "2026-10-25T09:18:07.167797+00:00",
+  "https://www.mediar.cz/po-18-letech-z-reflexu-odchazi-katerina-kadlecova-jeho-nejdele-pisici-redaktorka": "2026-10-25T09:18:07.167797+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/demand-gen-cost-adjustment-timeframe-updated": "2026-10-25T09:18:07.167797+00:00",
+  "https://www.mediar.cz/tragedie-liblice-kaderka-ptaci-polsky-hasic-prix-bohemia-radio-zna-nejlepsi-audia-roku": "2026-10-25T09:18:07.167797+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0NsanRWN0VWaG01SXhQOWRKcUN1X0ZLaHgzdWlleklRMTZaWmp6c2QwQ0NGR3NJQy1VMUwtcHNfRlBUSy1GOU53b0R5YzhSR0RISWl5MG9QU2U3Vk1tOFJWUmxPWk1ydVNvVEpiTU9ZLVhyc0M5VXc1eTBZQ0RVVGRsOVNfQnFJNHlxaXJfTmZ2SHhPd2RtZlo0NVBINVZucHAtY0ozbGRkem8xMWxhZEYxLUM?oc=5": "2026-10-25T09:18:07.167797+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54aG9MLTR2elBSSHE5WUJDaDJyalZ4d1gtemlRY0FjV2dLR1N6ZWRGS2x0WHFyaEY0TkNRZ0ctcVhLeFFtOXRPSHRWdlJFU3g5R1VKQmJGYw?oc=5": "2026-10-25T09:18:07.167797+00:00"
  },
  "events": [
   {
