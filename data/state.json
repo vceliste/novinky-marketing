@@ -1,11 +1,11 @@
 {
- "last_run": "2026-10-25T22:40:56.721653+00:00",
+ "last_run": "2026-10-26T10:18:11.552462+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 8
   },
   {
    "name": "Médiář",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 4
   },
   {
    "name": "Collabim blog",
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Seznam blog",
@@ -89,7 +89,7 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Search Engine Land",
@@ -101,7 +101,7 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Roundtable",
@@ -179,13 +179,13 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Hana Kobzová",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Sprout Social",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 401, text/html)",
    "new": 0
   },
   {
@@ -376,8 +376,8 @@
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 1
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -411,14 +411,6 @@
   "Lumar": "https://www.lumar.io/blog/feed/"
  },
  "seen": {
-  "https://ppcnewsfeed.com/ppc-news/2026-08/google-ads-api-developer-assistant-v4": "2026-08-26T23:51:14.855344+00:00",
-  "https://www.searchenginejournal.com/judge-in-penske-vs-google-says-ai-situation-seems-really-unfair/587216": "2026-08-26T23:51:14.855344+00:00",
-  "https://www.searchenginejournal.com/ai-tools-recommend-brands-but-cite-other-sites-data-shows/587160": "2026-08-26T23:51:14.855344+00:00",
-  "https://www.seroundtable.com/google-search-goto-tracking-41957.html": "2026-08-26T23:51:14.855344+00:00",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3RaRmhTNHVFdXFEeFFPQVd4amhtbjF1Zmo2SkZYQTFydGtDLWgxY2NkaVdlVHNad3RxRFpMRVpsNTdIa21hdU5BM1liUDNGdGRTZG14NzZmYm1KZUdtME5BTi03TFA3MmhXQWNHejJzZm5jX2RxeXNZY3VoMEJMU1BURFloQW01M0ZpZWszdw?oc=5": "2026-08-26T23:51:14.855344+00:00",
-  "https://sproutsocial.com/insights/breaking-ground-q3-2026-product-updates": "2026-08-26T23:51:14.855344+00:00",
-  "https://sproutsocial.com/insights/social-media-tasks": "2026-08-26T23:51:14.855344+00:00",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFBXUm44WlI2ZkVlY295a2FCMWlScU1Bdjg0SEdDUkZWMUxkVHB1Q0duMkVBYWg3OXVQT1ZGLU5QZ2g1S3J1T05qamprTEMwMVpITGlNaU96ZmJXQTZLWXEwSkNWZHduRlpHR3I3bGVERGxqOTJKRWRDN29UVUpmTHFCRThnTkstTkxTSDA1X1ZGZ21SeG05cA?oc=5": "2026-08-26T23:51:14.855344+00:00",
   "https://www.searchenginejournal.com/chatgpt-adds-webmcp-support/587237": "2026-08-27T15:27:06.330046+00:00",
   "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PS1pGVlIzY1RnVVhXM3c3cUlyRkVfTC00YnRHMTFaWEZVUmRpY3VGemwzX0wyZGF1SWVCb0VLN3ctemRoWUNZeHRWVG51cHVFTUhrR1FLMWJuekw4Zml0emgxMHh4eEJUU2ZOV2pCaW14d2hVaUt3?oc=5": "2026-08-27T15:27:06.330046+00:00",
   "https://www.searchenginejournal.com/vendor-to-strategic-partner-client-lifetime-value/585254": "2026-08-27T15:27:06.330046+00:00",
@@ -5551,7 +5543,36 @@
   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM1M2VDRTdUt1SzdsSFJKcW9oOW1McDQzNnJjU1dUUzNrMUZkM2FzUlBJY05UUXNrQy1oekRKbkZyWnNlLW9Zcm5pbjZIdTNRaEVwcDRIbjY4T1A0Rlc2R1Q0VmtNNGFOOFZGS0hQWXNYX1I1VHQtZW92MEo0NmtpX0ZfM3JZTGs4bzl2VWNhTGlBOVZrRDFveVVLN3JUbkZVY3ZZb2lxVVp1MzFsaWIwNFhXQlg5aGpkRFdoM25wR1o?oc=5": "2026-10-25T19:08:50.744747+00:00",
   "https://www.mediaguru.cz/tisice-lidi-zaplnily-staromestske-namesti-na-demonstraci-na-podporu-ct-a-cro": "2026-10-25T22:40:56.721653+00:00",
   "https://www.mediar.cz/galerie-reklamy/ceske-drahy-upekly-vanocni-kampan-bez-ai-pouzila-model-vlaku-i-30-kilo-cukru": "2026-10-25T22:40:56.721653+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb2dtbFZYclJjbmRiak5xZUFmc3NTUUxmUzI1a3pDd19Ob2hjenFEOEhPRm52RUx2TUIxNGdIWTc5ZlJNTTBsQ2MxaGYwMTVadG5NNG9kZWRhZ2p2cGpsU2JBdGRHbThQeU1IZlBIUGU0SzJvUTY1Rnk1Q3FReHRJT0VDekljb0M1LXJoR29YTm4wdTd0RlVZa3J3?oc=5": "2026-10-25T22:40:56.721653+00:00"
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb2dtbFZYclJjbmRiak5xZUFmc3NTUUxmUzI1a3pDd19Ob2hjenFEOEhPRm52RUx2TUIxNGdIWTc5ZlJNTTBsQ2MxaGYwMTVadG5NNG9kZWRhZ2p2cGpsU2JBdGRHbThQeU1IZlBIUGU0SzJvUTY1Rnk1Q3FReHRJT0VDekljb0M1LXJoR29YTm4wdTd0RlVZa3J3?oc=5": "2026-10-25T22:40:56.721653+00:00",
+  "https://www.lupa.cz/aktuality/pro-leky-muzete-do-vydejnich-boxu-alza-spustila-asistovany-vydej-na-predpis": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/globalni-medialni-rozpocet-znacky-lavazza-ziskala-omnicom-media": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/zahajila-kampan-na-rozhybani-ceska-kazdy-pohyb-se-pocita": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/hec-odstartoval-s-vice-nez-milionem-jako-vitez-nedelniho-vecera": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.lupa.cz/aktuality/hlasovani-v-ankete-kristalova-lupa-se-blizi-zaveru-vyberte-sve-favority-do-31-rijna": "2026-10-26T10:18:11.552462+00:00",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmdLWFUzV182Q1BXeGQwSXZXRlJNTlBYcDJDVVhDU3hqWWtvMTJkaWlsN2h4Qy1wV2VrbUpKQjhNbGhOUndfYk1MMnptUV9MREZFaTBKcGV1TDd3emlEeS1ycEJuYlgzbUM3dThWdkhuMnNwdkN0Yk1LM2xSTlpPckgtcWotaDNP?oc=5": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.searchenginejournal.com/tactical-solutions-for-the-biggest-ai-search-measurement-challenges-recap/593023": "2026-10-26T10:18:11.552462+00:00",
+  "https://cc.cz/kantyny-prodali-za-stamiliony-ted-stavi-chytre-lednice-filip-sajler-a-hopi-k-sobe-pribrali-noveho-investora": "2026-10-26T10:18:11.552462+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/microsoft-advertising-launches-redesigned-website": "2026-10-26T10:18:11.552462+00:00",
+  "https://ppcnewsfeed.com/blog/brand-bidding-ecommerce-ppc-performance": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/babis-chce-ve-druhem-cteni-navrhnout-dobrovolne-placeni-poplatku": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/ai-nam-mela-usetrit-praci-misto-toho-vyrabime-vic-obsahu-ktery-nikdo-necte": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/stock-plzen-bozkov-pokracuje-v-rozsirovani-portfolia-uvadi-bozkov-na-peceni": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/casopis-abc-vydava-special-s-60-legendarnimi-vystrihovankami-pripomina-si-70-let": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.lupa.cz/clanky/evropa-sype-desitky-miliard-do-obrannych-startupu-do-ceska-letos-nesla-ani-koruna": "2026-10-26T10:18:11.552462+00:00",
+  "https://cc.cz/valka-ho-privedla-do-pardubic-v-sestnacti-uz-pracoval-v-it-dnes-mlady-ukrajinec-rozjizdi-startup-v-usa": "2026-10-26T10:18:11.552462+00:00",
+  "https://cc.cz/ceska-ai-nadeje-miri-k-miliardovym-trzbam-a-jeji-sef-rika-gangsteri-neusinaji-na-vavrinech": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.lupa.cz/clanky/jak-hospodarila-ct-v-prvnim-pololeti-stale-pribyvaji-poplatnici": "2026-10-26T10:18:11.552462+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-10/google-universal-cart-goes-live-in-search": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediar.cz/ktere-porady-ct-zrusi-radni-chteji-od-chudarka-prehled-driv-nez-rozpocet": "2026-10-26T10:18:11.552462+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1hHWUZhWURleDJnaW5MSUV1azlEME8tcmh3NEVMWmJvQ1lBRE45WDkzSjJqZzNsS3diTXBTeURRQktPaDVyUkprc1MxaVRPdUN2Rlk0b1l0LU5jVUZfbWRScGlQQWthbmJIaFFMNVE2Qld4a25ReWVQWUxLdDh4YzdyaTZLbVh3YUl0SWJELU4tWFFwUVJnVzZxSV9uYXByS0JhQ1JVTTF3Smk4ZW9aRktNZnFNbzBIYWEwTGxucDE?oc=5": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.socialmediatoday.com/news/edits-comes-to-iphone-duo-and-desktop/833909": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.socialmediatoday.com/news/x-provides-holiday-campaign-tips/833908": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-us-shares-second-quarter-account-enforcement-data/833907": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.socialmediatoday.com/news/meta-says-advertisers-should-let-campaigns-gather-data/833906": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.socialmediatoday.com/news/meta-delays-business-terms-update-over-data-scraping-concerns/833905": "2026-10-26T10:18:11.552462+00:00",
+  "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GcC1nLWdFYmU4X3lpRmgxNnFDRWxhdVJ3UGJsR3d6eWV6ZTZBT2c4eDZ1SVRvTDIweGVITTBodjFiNmpL?oc=5": "2026-10-26T10:18:11.552462+00:00",
+  "https://www.mediaguru.cz/znacka-kempinski-otevre-v-novem-roce-prazsky-hotel-augustine": "2026-10-26T10:18:11.552462+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUVZdktObXNOY3VrX2FFSVhsMG5ybnc2eC1ySUFNWjk1OFFPWmlSb3ZQY1d2eFBMQTlJekdjdVlacGxJTTNnNkYtYllZb2Z5YTlKZjlKQVpvVExrb21uUTlzQ0FOQlN5dVUxX0JiMUMwWlRna2ZfYnBhWTFtMlpVbTZKWWFtRWp0WkhJcXFINXBOWlN4Wm9fdzVnaXZKTlZaRWVCWE9Gbm5scDc3Rmt3WXJ6dmdjcDlUUWFhYzM2UWI?oc=5": "2026-10-26T10:18:11.552462+00:00"
  },
  "events": [
   {
@@ -16181,30 +16202,6 @@
    "why": "Jde o rozšíření funkcí existujícího price srovnávače, které může ovlivnit výkon affiliate kampaní a cashback strategií v českém e-commerce. Pro PPC a affiliate manažery může znamenat nový distribuční kanál slev.",
    "takeaway": "Pokud využíváte Kupi.cz jako affiliate partner nebo provozujete e-shop s kupónovými kampaněmi, sledujte dostupnost nové sekce a podmínky zařazení. Zvažte testování kupónů jako doplňkového kanálu ke stávajícím slevovým akcím.",
    "importance_label": "stojí za pozornost",
-   "multi_source": false
-  },
-  {
-   "id": "d1d55c3ffc",
-   "created": "2026-09-21T06:43:11+00:00",
-   "articles": [
-    {
-     "url": "https://www.lupa.cz/aktuality/ceska-sluzba-mojeid-ma-nove-sifrovani-ma-odolat-utokum-skrze-kvantove-pocitace",
-     "title": "Česká služba MojeID má nové šifrování, má odolat útokům přes kvantové počítače",
-     "summary": "Služba digitální identity MojeID od CZ.NIC nasadila postkvantovou kryptografii (PQC), díky čemuž by měla být odolná vůči případným budoucím útokům skrze výpočetní sílů kvantových počítačů. PQC už se ře&#353;í nějakou dobu a vznikly první standardy NIST. Tento způsob &#353;ifrování doporučuje také Národní úřad pro kybernetickou a informační bezpečnost (NÚKIB).",
-     "source": "Lupa.cz",
-     "domain": "lupa.cz",
-     "published": "2026-09-21T06:43:11+00:00",
-     "score": 50
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 15,
-   "title": "MojeID nasadilo postkvantové šifrování pro ochranu před budoucími útoky",
-   "updated": "2026-09-21T10:05:08.358664+00:00",
-   "what": "Služba digitální identity MojeID od CZ.NIC implementovala postkvantovou kryptografii (PQC) podle standardů NIST. Jde o šifrování odolné vůči potenciálním útokům pomocí kvantových počítačů. Nasazení doporučuje i Národní úřad pro kybernetickou a informační bezpečnost (NÚKIB).",
-   "why": "Pro marketingové manažery jde o oborové technické zákulisí bez přímého dopadu na jejich práci. MojeID se používá spíše pro přihlašování k veřejným službám, nikoli jako běžný marketingový nástroj. Kvantové hrozby jsou navíc zatím budoucí téma.",
-   "takeaway": "Pokud vaše firma používá MojeID pro autentizaci zákazníků nebo zaměstnanců, aktualizace proběhla automaticky a nic nemusíte měnit. Jinak to pro běžnou marketingovou praxi nemá význam.",
-   "importance_label": "kontext",
    "multi_source": false
   }
  ],
