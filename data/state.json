@@ -1,5 +1,5 @@
 {
- "last_run": "2026-10-26T16:51:25.777309+00:00",
+ "last_run": "2026-10-26T22:48:03.174670+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
@@ -11,7 +11,7 @@
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Digichef",
@@ -29,19 +29,19 @@
    "name": "Shoptet blog",
    "feed": "https://blog.shoptet.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 5
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 5
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -64,20 +64,20 @@
   {
    "name": "Markething",
    "feed": "https://www.markething.cz/feed/",
-   "status": "ok",
+   "status": "chyba: empty feed (HTTP 503, text/html)",
    "new": 0
   },
   {
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 7
+   "new": 8
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 5
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 6
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -226,8 +226,8 @@
   {
    "name": "SmartEmailing blog",
    "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
-   "new": 0
+   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='www.smartemailing.cz', port=443): Read timed out. (read timeout=15))",
+   "new": 3
   },
   {
    "name": "Mailujeme",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Sprout Social",
@@ -281,12 +281,12 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -311,7 +311,7 @@
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -323,7 +323,7 @@
    "name": "YouTube Official Blog",
    "feed": "https://blog.youtube/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Simo Ahava",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "new": 4
   },
   {
    "name": "Think with Google",
@@ -389,7 +389,7 @@
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Marketing AI Institute",
@@ -5557,7 +5557,38 @@
   "https://www.lupa.cz/aktuality/novy-model-poplatku-omezi-primy-vliv-politiku-rika-babis-sef-rozhlasu-pry-odmita-jednat-zavoral-to-popira": "2026-10-26T16:51:25.777309+00:00",
   "https://cc.cz/alza-pokracuje-v-dobyvani-lekarenskeho-byznysu-spousti-asistovany-vydej-leku-na-predpis": "2026-10-26T16:51:25.777309+00:00",
   "https://www.mediaguru.cz/radio-blanik-spustilo-hudebni-promo-az-o-100-tisic-korun": "2026-10-26T16:51:25.777309+00:00",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUjhwRk5XOFhCT2pmX0o2YXZZX18wNXlvLThrU1pWSWlDZlNwWE9BOFg2eVVEbml4MXRlX1RjbWRrNktoUy14d01QQlJrbno0ZmIzWk1pUy1KY0NJMHZHQjlzazRkb3hZU00zNnlhanV1YU4xT3lDekhPTzFKVm9YRm1zSHMzQ3JiaTF2QXdSSmM0UFlOUnlhQTBtNHl5Q04wVmFFd2hpZDRRSVRSZWwyYWI5cnZuVkRMUGZIUjV1VQ?oc=5": "2026-10-26T16:51:25.777309+00:00"
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUjhwRk5XOFhCT2pmX0o2YXZZX18wNXlvLThrU1pWSWlDZlNwWE9BOFg2eVVEbml4MXRlX1RjbWRrNktoUy14d01QQlJrbno0ZmIzWk1pUy1KY0NJMHZHQjlzazRkb3hZU00zNnlhanV1YU4xT3lDekhPTzFKVm9YRm1zSHMzQ3JiaTF2QXdSSmM0UFlOUnlhQTBtNHl5Q04wVmFFd2hpZDRRSVRSZWwyYWI5cnZuVkRMUGZIUjV1VQ?oc=5": "2026-10-26T16:51:25.777309+00:00",
+  "https://www.mediaguru.cz/empresa-media-je-v-insolvenci-byvali-zamestnanci-chteji-usle-mzdy": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lYjhUTElqT09xZmJydXZZckVpYW5qN2J3cUpwajRGRU05NF91YWxUcGV6dmVLS2V3bW5RTFVXeDJHLTVWRUdnTnd1dFJsWUpLd1NnQklpb2xKTjhYMUk5Wk5PRlNGOHdyTFlONFZ6ODk?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.searchenginejournal.com/google-ads-expands-customer-lifecycle-goals-in-search-and-shopping/594458": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.mediaguru.cz/vera-komarova-konci-jako-marketingova-reditelka-dermacolu": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.searchenginejournal.com/google-indexing-advice-shareable-pages-spam-guide/594451": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.mediaguru.cz/babis-odmitl-vyzvu-reditele-cro-pry-je-aktivisticky-reditel": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.mediar.cz/kdo-on-je-babis-smetl-vyzvu-reditele-rozhlasu-k-verejne-debate-o-poplatcich": "2026-10-26T22:48:03.174670+00:00",
+  "https://blog.hootsuite.com/instagram-reels": "2026-10-26T22:48:03.174670+00:00",
+  "https://blog.hootsuite.com/instagram-features": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10anBIWFhfVnFIRVQ4dVdYVnR0cnhkdjJGUVJGQlZKdG9QamxCMjRYQXVObTdyWXZLd2VqX3JRMk5JN181R2JfSGpoZHBDYW5rRDBMd2RncDNXNmJtODlfZ0N3?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0tDMlV2b1p1SERtMWJ4dUZPWTVuZEZQQ0MyWG5CUGloM3VJenFtSFNtam1SWnFlWFV4VDA1ZTczTllkSk5EUWFuajlCcXljZndhSHZJalN4NjZSUDUyVXF2c29TUWxwSWN4anlOOTRjQmtMQURpSERJZWp3cThUWkM3MmJJSFFjS0F1Z0h0Mk54NGEtcWJqdjI5azMtREwwc2RhVnBn?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.seroundtable.com/google-user-generated-spam-guidance-tools-42378.html": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.searchenginejournal.com/generative-ui-could-turn-google-into-your-booking-com/593414": "2026-10-26T22:48:03.174670+00:00",
+  "https://cc.cz/po-mesicich-dalsi-poplatek-proc-opet-zdrazi-balicky-z-temu-a-spol-a-jak-usetrit-behem-black-friday": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.marketingbrew.com/stories/coworking-with-jonathan-ouellette": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWldfRGZyczExclplYkNpMFdaQ25RcFdTV205cFcxYURaa2ZrZ1hvSmdGQ012RXBVeDdYQTBkUXNtUm1LOUp0cXhIYUdOcmFENEw1LVJiMVUzdWg0OGpDY2gxa3dUNElmaUh1bFM1R1hLU1lrR1V5TGJxOG45TGxKWXZTV3k3NGFYVjF2bkVaWlRXOTFUZkhLVDNOU2hnWldrVUFlZlZvY0hlUQ?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IT2REdUxxS05ELVR3c2luU2lYeDM3aDlicXI2aEVnZWdRWFVTQmVWektQNHBnZ1QwcVRMek1TcU1hSUU1eDlCRXV2V01qZFNwM01XNkt6aGQ3ZkdWMDNaZFFZR0R1ckNtYlE?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQW0tTnp5UkRkYnJ1WXlVZHBhR0JkMEFfbElzQ2JLV2YzRER6Q3g5bEV2bUpYZnJLX01sdUNQOXN6bkl3MVFMcWhRTUZ2LTlaSGl4YVFfazZJUGlsR05LNDhfNHZVT1VqM2NDYndqRWFDd1AzQ0JYTzF3cEhpblI3UE80TFZDNzZ2dVpPT1FTZ2FUMmV5eDZQT09jNA?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nR0JFME9jcDlqT1VxVFZOOUlOZHpRSV9SVTFJcUJjdFVFUnRWNXEwTUtJR2N2VTlwazdHSUtTaW1YcE96OFBwcE9POEs5UmFsdVpyWEhOT2Q2M3hZcXc?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1BS25sREJYMzBYeDVxdGRha0FJYVdTMkIza1dqcGFKYlVDdXQzR0wxZi16ZklFOTRmT0dGVE1ZTDlSSlJQLXBXSGphalMzd2YwVy1aV3ZkMG9jSnhwUWRKZHdKVDE2aGUtTlVKYlhoTnlTWGUteU9jUDhB?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPLXNYV29za2ZUOEhFUkJSX0wzVHBPemtIMmVMWEtQSURXVTVQM2NVZm13M2ZoaEhSNE1WTi1kMFRpTXJSSWpqVS00ak5ULWZCblZWZ1FxRzBrTWNCUGhBblJTWi1rWmFpY2pZN2ZXUTFLc2ZxV1paM3k3SnUteFRrd0xXT1JyT2hqNm0yWTJ1ek5saDdFcFFzaklSRldlWE8xX0RNSnNsVzBiOXNBZTFlOVJJemhUeHI1UUpaYjB3bE1ZX3NhWWg3SVpsdDRmdEF4MkgtUnJicS1sNlRYUmI2dG03NFc3WVBsY255T3oySXI?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.marketingbrew.com/stories/why-belliwellis-co-founder-and-ceo-is-filming-skits-in-walmart-at-night": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMzJVUnViWHhybldwNGM1MzRMeldtYXAwWTR6SnBRc25ZcXZHZnR6WFBNeEVqU3RzTm9ISmZwT0hXU09MTnZ4WVFBRUJ2U0dmLXdnOVFYVWRtRUxQSmxlUXdjaFlMMUFDdk9pdUpaM3hyb0FuS3AzMWJjclFvLWNNNUxZZmZZSjBka1Mw?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFX0pOU1Nia2VGVmFRdlVUb2RNLUlIOWRVZmJMNXdrdHNpU1NFemJ3UXowYXV2T292ajRSZmlJZ2xEbDNpUlJmeW1MQV9tdVdBcXdYc0JQazVUWFZUNndRZFppWUVDWnl3djJTV3l4dDFiVUl5S0xWeHd2bUU?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aZ2hEMDRWTGE5WXpmSG85WVZIdkhnQS1vLW52alJBN0hsVG40OXdUNXhRal83Mm1lcTJpcDgzMFRDUWxmUWMzUWJUNVZGanF0M3A5MDFKTkxyZVl4QnpUcVJoX0RxLWdaQm9TaGYxSG1OVlpBTHZ0S216NA?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE1OdXh1N3JiRGZNNkdEd1dLbDN3enByWUJvS3JQeVZvWE5BUmpWMkhWZHlYeUtqYzU0X3VKN1g0SUVwc3NFc095S2l5U3BEVDgzZXlRQmdzRTBRRUZDWUpGY1Bid3VFV0lzUDhMVXBMcUVPQQ?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTF8tY1Mta3pzVUpjdk85al9fTDVHeE1RWXk2Z3FLeDhwaHNmb3k4M0hwelNGZ0ZSQnBtekxraDJWUTFDMi11YkF5UzkwQWdNaDhoOUlaQ1Jlb041Y09hR0NWYmhnY09GTzZkeDNUNFdWbEVibm14QkVTU05YYURxcTVReW9UbDJOOGx3UHhGdzk1aHQyOTZVY2JINm5YNEhrMzdCMmdvaHgyd3pWRHVvVlBPYUVsN0t5ems1eGZPc2w?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://www.socialmediatoday.com/news/tiktok-us-shares-q2-account-enforcement-data/833907": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQzNCd2dpWmRrTThWSW5uSEFOTGE5aENyRkJtX3Bua3hldFpJOWcxNGlNbUZsYnFqWGJ4VjE2Umx1c04zN1ZuT2NVUHBwZHpZWEtZX3NlLWNMdS01ZmRQWWtmU25MZ1p0QVc4MzdyWXBuUG9vN1lGdlpkMnYzaHZPNXhSZE9pSEctS1UwLVNOR0pQd2ln?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbkk5V3Q3bXZ5QWxreFNqN096cC1XMHBoTVZGV2JuMFlUQlBNQXQ1d2s1QnoyeG05VUdUTzNDZWNuQVZNakVrOWZWbGJjNjdlc1UzZ3NWOVczUFFiWHgtVGVFSmRtNk81Rk13WWdzMmlNdjByUFZOX1hTTnZnUy1JTV9rVDZQSDY5d0VnWVN5dUlZbVZWQXRQb3dPOHRZb0Z6SWp0UlpSdVpMbTluckllS3BkZGRRR0V3a2dJT2NlTHduc0ozUTdVam41UmNJWUFIVU92OWx6d3VmdExyeXpCMHVCNUsyang4TEJWTVZmVlI4NjRfVHpCWnA5ampHdw?oc=5": "2026-10-26T22:48:03.174670+00:00",
+  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ2RpTEFKVFl1dm1rdHkwNW9QYWw3eGFiR1lxbEY2NWU0QS1xZzBIRW9LMmJ1UmZlZTJKUE1rTlM0ZG9qRU5Ic2FqMHU2SVJtRDF2Z0RtNUZ0UUtOaTZlOWlBTHpiaEVud1YtQjAzWmNPaGRtcExWdHZ4ODJyYkNNQ3VtUW0tNGRaWXpYTXhXRlpFVlBvMFFzdTNxVjZwci1KWUhGQ3NLdkpNREd0cjUyV1YwTC13b1hhN0d5bjhuS09kck1HTGN4N3ZpMDVBRldST3hRMGd2aHJuMUI4amhEWjdnazhOOEF0LXEyMHF3MUx3U2VWQmF6eEstTkdkZw?oc=5": "2026-10-26T22:48:03.174670+00:00"
  },
  "events": [
   {
