@@ -1,17 +1,17 @@
 {
- "last_run": "2026-10-31T17:18:05.122143+00:00",
+ "last_run": "2026-10-31T21:47:50.692491+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Lupa.cz",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -179,13 +179,13 @@
    "name": "Sistrix blog",
    "feed": "https://www.sistrix.com/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f364ff8d850>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -304,7 +304,7 @@
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -412,18 +412,6 @@
   "MeasureSchool": "https://measureschool.com/feed"
  },
  "seen": {
-  "https://www.marketingbrew.com/stories/chicago-bulls-easter-egg-schedule-release-video": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.searchenginejournal.com/the-technical-signals-ai-search-uses-that-most-seos-still-arent-optimizing/586381": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.searchenginejournal.com/google-details-who-can-license-its-search-data-in-europe/587995": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.mediar.cz/vznika-radio-q-zamerene-na-komunitu-lgbtq-pripravuje-ho-rene-kekely": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.marketingaiinstitute.com/blog/marketing-ai-month-2026": "2026-09-01T19:28:03.635776+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/business-agent-can-now-be-enabled-from-shopify": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.mediaguru.cz/marketing-skupiny-prima-ridi-pavel-vasek": "2026-09-01T19:28:03.635776+00:00",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGhNZjVyblVwQlZmSy13ZVFZdzVQdWpJQUVJTF9pNTNxdklweFYtM3QyM2lOamdEajlOQ2VkVFpDZ3hHTW41WlJQWEVDeDJ0U09xREVpOEQ1eVN5OWN6NmVxSkw4bjBPaUVLbzliTDdOV2VWV0J0R3FIY3oyQ01BTjQ4dmM2TFVFcENESVdtNUhhN2tZNkVYVnZoQW1qZkhsOWRCVg?oc=5": "2026-09-01T19:28:03.635776+00:00",
-  "https://cc.cz/nataceli-je-v-cesku-a-bude-vam-z-nich-tuhnout-krev-v-zilach-jeden-uvidite-v-kine-druhy-na-streamu": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.mediar.cz/mindsquared-expanduje-na-slovensko-pobocku-povede-radomir-cech": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.seroundtable.com/recap-09-01-2026-41989.html": "2026-09-01T19:28:03.635776+00:00",
-  "https://www.marketingbrew.com/stories/humanity-in-advertising-ai-distrust": "2026-09-01T19:28:03.635776+00:00",
   "https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab": "2026-09-01T22:41:16.407812+00:00",
   "https://www.mediaguru.cz/kfc-zarazuje-do-nabidky-loaded-doritos-inspirovalo-se-trendem": "2026-09-01T22:41:16.407812+00:00",
   "https://www.seroundtable.com/google-local-service-ads-bug-41999.html": "2026-09-01T22:41:16.407812+00:00",
@@ -5669,7 +5657,9 @@
   "https://www.mediaguru.cz/babis-nechce-omezovat-debatu-o-zruseni-poplatku-chysta-se-navrh-dobrovolneho-placeni": "2026-10-31T17:18:05.122143+00:00",
   "https://cc.cz/inspiroval-autora-ceske-hymny-hostil-emu-destinnovou-zamek-u-prahy-je-ted-na-prodej": "2026-10-31T17:18:05.122143+00:00",
   "https://www.searchenginejournal.com/seo-pulse-spam-guide-restaurant-controls-ai-mode-revenue/595031": "2026-10-31T17:18:05.122143+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-10/brand-exclusions-pilot-refined-text-ads-performance-max": "2026-10-31T17:18:05.122143+00:00"
+  "https://ppcnewsfeed.com/ppc-news/2026-10/brand-exclusions-pilot-refined-text-ads-performance-max": "2026-10-31T17:18:05.122143+00:00",
+  "https://www.searchenginejournal.com/debugbear-rum-attack-seo-site-owner-actions/595412": "2026-10-31T21:47:50.692491+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SdWM3XzB1cG1MX3lnUEdnWVNCaVJ1bC1xbG1RbWFXbFI1dXR4SVM4XzNPQzd3WEQzWVZwMk84dy1NVUNRb21BNVFkYV9ZTk1lMFE?oc=5": "2026-10-31T21:47:50.692491+00:00"
  },
  "events": [
   {
@@ -15721,386 +15711,6 @@
    "what": "Analýzy LinkedIn a dalších zdrojů ukazují, že B2B nákupní týmy si vytváří seznam preferovaných dodavatelů měsíce před zahájením oficiálního výběrového řízení. Klasické AEO (Answer Engine Optimization) a běžné obsahové marketingové aktivity pak už na tuto předem vytvořenou shortlist nedokážou efektivně zapůsobit.",
    "why": "Pro B2B marketéry to znamená zásadní změnu strategie – musí budovat povědomí a důvěru dlouhodobě před tím, než potenciální zákazník vůbec začne aktivně hledat řešení. Pozdější SEO nebo PPC kampaně v okamžiku výběru dodavatele už mohou být neúčinné.",
    "takeaway": "Pokud prodáváte B2B, zaměřte rozpočet na dlouhodobé budování značky (brand awareness) a thought leadership minimálně 6–12 měsíců před typickým nákupním cyklem ve vašem oboru. Doplňte ho o autentické video od reálných expertů, které pomůže odlišit se od AI generovaného obsahu a zvýšit důvěryhodnost v AI vyhledávání."
-  },
-  {
-   "id": "f308ad896d",
-   "created": "2026-09-14T14:30:08+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/ai-isnt-delivering-marketing-efficiency-its-repeating-programmatics-broken-promise/588722",
-     "title": "AI Isn’t Delivering Marketing Efficiency, It’s Repeating Programmatic’s Broken Promise via @sejournal, @gregjarboe",
-     "summary": "Count AI marketing's hidden rework and maintenance costs before claiming efficiency gains, or risk repeating programmatic's mistake and starving long-term strategy. The post AI Isn&#8217;t Delivering Marketing Efficiency, It&#8217;s Repeating Programmatic&#8217;s Broken Promise appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-14T14:30:08+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2JKeGZ3c1l4My1RVGI5TmhxcDY0Ny1jajlnZ29KT2FuRWtQcVg3Xzl0ckFGcUNrLUhHUkt3aXk1X1pNakI1M1ZfWHA2VW44b0YzZmo2dUpzbEJzc29yOS11elNSQkY5NXd6bXZrbWUtSXRsTWczTm02QlM1TXU4dzY4S1V5M0dZWFlwWVExSGxHczRpUGtRcUZXaXc2Zw?oc=5",
-     "title": "The AI performance shake-up: What’s really driving results across channels now",
-     "summary": "The AI performance shake-up: What’s really driving results across channels now &nbsp;&nbsp; MarTech",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-14T18:28:03+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMFdudW5ta25GQU1YRVh3WVEzblE0SmJwdTFJSV9OY21HTW5IeUJtaXdjSFY2SmdvNnlyRVlFZ1QyNXdfMVBVM0NxM0pRRTdqMWhVNGVrY0hKQjkyLWVGMFUxbzVJTjQ3S0E3STRaQ25maXk1Z2VtSzJidVhPd0xWVks4ZzI3Y3lIejJKNlVPZklpTERvN1YzdW9JVlB1enREeVFKQ01iQ1N2VjZLcDZma1ZnNDBfTDVYU28w?oc=5",
-     "title": "Matt Van Wagner shares what’s changed, what disappeared and what PPC still gets wrong",
-     "summary": "Matt Van Wagner shares what’s changed, what disappeared and what PPC still gets wrong &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-15T17:52:00+00:00",
-     "score": 58
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlVyU1VtWUh5QlNIMllXVW9GS0pGbXhpdHFrU1ZFTkRhSEVFbHhIcVYzRlc0WUI1ZFppTkpxTnJKQUQ4d0I5MmMzNnhtOU00WkxzN09IOUNYX0tlV3Z1QWF0X0RNVW54UW5udFVQbnkwZnd6NUZtSU5uWFJYVjc3ZHFFWGF6UlVId2NtdVhZb3lmSTRXaWw4M240bw?oc=5",
-     "title": "Google Ads AI needs guardrails, not blind trust ft Mike Ryan",
-     "summary": "Google Ads AI needs guardrails, not blind trust ft Mike Ryan &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-15T17:40:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdnRNWVlEUVd4SU5jeVloLXpFM3p1eW9mZE51WkJKbjB1S2pfSDhnUW5jWEJjZWFLaUxYSExwc3YyeVNZZENWYVQ0cDNXRFFoVEticmRMUmlhTGNPNVc2a1hsQjNSZEpFN2tMaFVIRW84Z21UQTRXWm5UaW4zNmJhVHRJcnV6UQ?oc=5",
-     "title": "Your competitors’ negative reviews could improve your PPC ads",
-     "summary": "Your competitors’ negative reviews could improve your PPC ads &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-16T14:00:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://ahrefs.com/blog/ai-marketing-trends",
-     "title": "8 AI Marketing Trends I’ve Seen Firsthand in 2026 (Backed by Data)",
-     "summary": "The buyer’s journey looks different, because people now research and increasingly buy through AI tools instead of a page of blue links. The tools and processes we use to do marketing work have changed, because so much of it can &#8230; Read more &#8250;",
-     "source": "Ahrefs blog",
-     "domain": "ahrefs.com",
-     "published": "2026-09-16T09:01:04+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.searchenginejournal.com/mit-anthropic-openai-sent-the-same-warning-get-your-evidence-house-in-order-now/589249",
-     "title": "MIT, Anthropic & OpenAI Sent The Same Warning, Get Your Evidence House In Order Now via @sejournal, @gregjarboe",
-     "summary": "Three AI warnings landed in five days. Nicholas Carr described the pattern in 2008, and it changes how you plan next quarter. The post MIT, Anthropic &#038; OpenAI Sent The Same Warning, Get Your Evidence House In Order Now appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-16T14:30:54+00:00",
-     "score": 52
-    },
-    {
-     "url": "https://www.socialmediaexaminer.com/creating-ai-image-libraries-showing-up-in-ai-results-and-industry-news",
-     "title": "Creating AI Image Libraries, Showing Up in AI Results, and Industry News",
-     "summary": "Friday is almost here! Before you unplug, here's one last round of insights and updates. Whether you read them now or save them for later, you won't want to miss these. In today's edition: Develop an AI image library from 1 photo How to Get AI to Recommend Your Business 🗞️ Industry news from Gemini, [&#8230;] The post Creating AI Image Libraries, Showing Up in AI Results, and Industry News appeared first on Social Media Examiner .",
-     "source": "Social Media Examiner",
-     "domain": "socialmediaexaminer.com",
-     "published": "2026-09-17T09:30:00+00:00",
-     "score": 45
-    },
-    {
-     "url": "https://www.searchenginejournal.com/ai-agents-wont-fix-bad-audience-data-theyll-amplify-it/589792",
-     "title": "AI Agents Won’t Fix Bad Audience Data, They’ll Amplify It via @sejournal, @gregjarboe",
-     "summary": "AI models are everywhere. The data you feed them isn't. Mallory Gray of Skydeo explains why audience signals, not mention counts, decide who buys. The post AI Agents Won&#8217;t Fix Bad Audience Data, They&#8217;ll Amplify It appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-25T14:30:43+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents",
-     "title": "GTM teams are losing track of their AI agents",
-     "summary": "AI agents are spreading across the GTM stack, but many teams lack the visibility and ownership needed to keep track of what they do. The post GTM teams are losing track of their AI agents appeared first on MarTech .",
-     "source": "MarTech",
-     "domain": "martech.org",
-     "published": "2026-09-25T12:17:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://www.searchenginejournal.com/ask-an-seo-does-product-page-copy-matter-since-agents-read-feeds/585090",
-     "title": "Does My Product Page Copy Still Matter If Agents Read Feeds And Schema? – Ask An SEO via @sejournal, @rollerblader",
-     "summary": "Product page copy builds shopper trust and fills gaps in AI feeds, giving customers the details they need to buy. The post Does My Product Page Copy Still Matter If Agents Read Feeds And Schema? – Ask An SEO appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-17T14:30:32+00:00",
-     "score": 57
-    },
-    {
-     "url": "https://www.seroundtable.com/google-business-profiles-spike-in-spam-reviews-42123.html",
-     "title": "Google Business Profiles Email: Detected A Spike In Spam Reviews",
-     "summary": "Google is now sending out Google Business Profile email notifications when its spam systems detect a spike in spam reviews on your Business Profile. The email says, \"Protecting your Business Profile from spam reviews,\" and adds, \"Google has detected a spike in spam reviews on your Business Profile and removed them so they do not affect your Google rating.\"",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-22T11:21:00+00:00",
-     "score": 61
-    },
-    {
-     "url": "https://www.seroundtable.com/google-merchant-center-google-store-ratings-42125.html",
-     "title": "Google Merchant Center Updates Requirements For Google Store Ratings",
-     "summary": "Google added a new section to the Google Store ratings: An overview for Merchants within Google Merchant Center detailing the requirements for Google Store ratings. This was added a week or so ago, and it says you need at least 100 reviews, an average star rating of 3.5 to 5, a 24-hour timeframe and the ratings are geo-segmented.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-22T11:41:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/google-css-product-pages-get-rating-review-count-attributes-2",
-     "title": "Google CSS Product Pages Get Rating and Review Count Attributes",
-     "summary": "Google Merchant Center has introduced new attributes for CSS product pages , allowing CSS partners to submit product ratings and review counts. These updates include the Rating [rating] , Minimum rating [minRating] , Maximum rating [maxRating] , and Review count [reviewCount] attributes. All ratings submitted are normalized to a 1-5 scale by Google, enhancing the potential for customized ranking signals in free listings. The Rating [rating] attribute is optional and indicates the average product rating on CSS product pages. It requires minRating , maxRating , and reviewCount attributes, with t",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-25T14:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://www.jonloomer.com/qvt/landing-page-experience-enhancement",
-     "title": "What is the Landing Page Experience Enhancement?",
-     "summary": "If you’ve enabled the option to test new AI generation features in Advertising Settings, you may see a new enhancement. I’ve had these test features enabled for a few years now, but there haven’t been many changes in a while. But of the eleven features that can currently be tested on my account, I&#8217;m seeing... Read more &#187; The post What is the Landing Page Experience Enhancement? appeared first on Jon Loomer Digital .",
-     "source": "Jon Loomer",
-     "domain": "jonloomer.com",
-     "published": "2026-09-21T13:30:56+00:00",
-     "score": 50
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-api-version-25-2-42154.html",
-     "title": "Google Ads API Version 25.2 Now Available",
-     "summary": "Google has released version 25.2 of the Google Ads API, this is a minor release with several of updates. This update includes competitive benchmarks percentile metrics, the ability to generate Performance Max drafts from Smart campaigns, asset group URL options, Search bid adjustment recommendations, and more.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-23T23:42:00+00:00",
-     "score": 71
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/recommended-investment-strategy-adds-holistic-growth-modes-google",
-     "title": "Recommended Investment Strategy Adds Holistic and Growth Modes in Google Ads",
-     "summary": "Google Ads has enhanced its Recommended Investment Strategy by introducing Holistic and Growth modes. This update allows advertisers to strategically allocate budgets across campaigns to optimize performance. The Holistic mode reallocates existing budgets from underperforming campaigns to top performers while adding additional weekly spend. In contrast, Growth mode strictly adds budget to constrained campaigns, maintaining existing budgets. Advertisers can input either an additional weekly spend amount or a targeted weekly increase in conversions. It offers a 7-day performance forecast via an ",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-23T05:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-ai-max-reporting-countries-42144.html",
-     "title": "Google Ads New AI Max Reporting & AI Brief Expands To More Countries",
-     "summary": "Google Ads is expanding access to AI Briefs and also added new AI Max reporting. Google said AI Brief audience targeting works now in Dutch, French, German, Italian, Japanese, Portuguese, and Spanish. Plus, there is a new AI Max reporting feature for looking at the Search Ads journey.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-23T08:30:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features",
-     "title": "We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
-     "summary": "We’re making it easier to create great AI Max campaigns by adding a new reporting feature and bringing AI Brief to more languages.",
-     "source": "Google Ads & Commerce Blog",
-     "domain": "blog.google",
-     "published": "2026-09-23T08:30:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMnZBcDB4Z2dHMW5jOWYwTXVIVDhfSVNDTGFwM2pXbDhGOXBEY2JQXzhoT3RYNk9uZXYyQlItZEhHamZmSExyNnpEWExGR3BIYk5HdVBNcEpGT2pxZjJJM3lVdXJQZ1ZzOVJDUVdXalJodHFMYzFFamZ5cWlRbG16aXI3SnJhMmQ5VDBpaHk1dzB4LXoxTU5v?oc=5",
-     "title": "Google expands AI Brief and adds deeper AI Max reporting",
-     "summary": "Google expands AI Brief and adds deeper AI Max reporting &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-23T14:30:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-competition-tab-adds-search-shopping-filter",
-     "title": "Microsoft Competition Tab Adds Search/Shopping Filter for Performance Max",
-     "summary": "Microsoft Advertising has introduced a new Search/Shopping filter on the Competition tab . This enhancement enables advertisers to view competitive performance metrics specifically for search ads and shopping ads at both the account level and within Performance Max campaigns. This is significant as it provides a distinct view of performance across Search and Shopping ads , allowing advertisers to strategically analyze and optimize their campaigns based on more granular data insights. Prior to this update, such specific differentiation wasn't available through Microsoft Advertising's utility. R",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-23T07:00:00+00:00",
-     "score": 70
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1anpEUHBxdEFxLTBmQjl5ck9OV1FJTk14dnVfcHQ4bENESGhKRHVySmswdmhjMWh5dm5ZempYR2dGLWFIdUtZelpCdUNjckNSQkFfV0QzTWlOTTlNMlhic0R4OFl2Z045UjNjOUZrTktKSkY5UFFCclJB?oc=5",
-     "title": "How much of your Google Ads conversions come from AI Max?",
-     "summary": "How much of your Google Ads conversions come from AI Max? &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-23T15:00:00+00:00",
-     "score": 73
-    },
-    {
-     "url": "https://www.seroundtable.com/bing-shopping-ads-carousel-favicons-42126.html",
-     "title": "Bing Tests Favicons On Shopping Ads Carousel",
-     "summary": "Microsoft is testing placing favicons on the Bing shopping ads, product results, carousel. Normally, this ad unit just shows the site name but Bing is testing adding favicons in front of the site name.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-23T11:41:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-ai-max-vs-dynamic-search-ads-42142.html",
-     "title": "Test Google Ads AI Max Against Dynamic Search Ads",
-     "summary": "Google Ads added new help documentation on how to test AI Max against Dynamic Search Ads (DSAs) by using experiments. Google posted two options within Google Ads experiments including (1) custom experiments and (2) the experiment template.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-23T11:51:00+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/demand-gen-turns-on-vtc-optimization-default",
-     "title": "Demand Gen Turns On VTC Optimization by Default",
-     "summary": "Newly created Demand Gen campaigns in Google Ads will now have view-through conversion (VTC) optimization enabled by default. Previously, VTC optimization was disabled by default and limited to YouTube and Discover Feed . Now, it supports Display inventory as well. This update means advertisers launching new Demand Gen campaigns inherit this optimizer setting without having to manually toggle it on, affecting how campaigns might initially perform. Notably, VTC conversions remain partially biddable and do not appear in the main conversions column. VTC optimization still applies only to video as",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-23T16:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/automated-promotions-added-to-google-ads-assets",
-     "title": "“Automated Promotions” Live in Google Ads",
-     "summary": "Earlier this month ,&nbsp; Google Ads has introduced a new feature called Automated Promotions within account-level automated assets. Now, users are spotting this feature live in their Google Ads accounts.&nbsp; This capability streamlines the process of displaying relevant offers across campaigns, which could particularly benefit eCommerce advertisers running frequent promotions.&nbsp; This update was shared by Vivek Gupta . The post &#8220;Automated Promotions&#8221; Live in Google Ads appeared on PPC News Feed .",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-23T14:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MSkN6dzdlR1hqN2NDV0xRV0toV3k2YTIwbHU1YkZaRWJDZXNrSUZ3NnBnSFU1OHVBUEZzT3RybzZtQk1DZnMzd25HZ1JXR1h1Y21TY2xwVGxoUVlnUzZ6T2dtRzF5MHJURWcydjRJZDR1OVljUjV3SUJPRHU?oc=5",
-     "title": "How to use Google Veo to create video ads for PMax and Demand Gen",
-     "summary": "How to use Google Veo to create video ads for PMax and Demand Gen &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-24T12:00:00+00:00",
-     "score": 68
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-ads-api-adds-search-term-landing-page-report-and-pmax-device-exclusions",
-     "title": "Microsoft Ads API Adds Search Term Landing Page Report and PMax Device Exclusions",
-     "summary": "Microsoft Advertising's recent API update introduces several enhancements, particularly for tool builders and script users.&nbsp; Among the changes, a new Search Term Landing Page Report has been added, providing deeper insights into ad performance.&nbsp; Additionally, the update allows for campaign-level device exclusions in Performance Max campaigns, enabling advertisers to select specific devices to exclude, such as Computers, Smartphones, and Tablets. The update also brings support for LinkedIn segment targeting. Read the official announcement here: Bing Ads API Release Notes - Microsoft A",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-24T12:00:00+00:00",
-     "score": 47
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/customer-match-adds-ip-address-and-timestamp-matching",
-     "title": "Customer Match Adds IP Address and Timestamp Matching",
-     "summary": "Google Ads Customer Match has introduced two new keys for matching customer data: IP Address and Timestamp . Advertisers can now use the IP address captured during user interaction along with a timestamp to improve customer match rates. This data must be uploaded unhashed. Importantly, IP and timestamp matching is not available for end users located in the EEA, UK, or Switzerland , requiring advertisers to exclude these regions from IP sharing and ensure proper data collection disclosures and consent. This update involves changes to the Customer Match data file format, now needing eight column",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-24T05:00:00+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-advertising-optimization-experiments-now-available",
-     "title": "Microsoft’s Optimization Experiments Now Available for Shopping, Audience and Performance Max",
-     "summary": "Microsoft Advertising has expanded Optimization experiments to include Shopping , Audience , and Performance Max campaigns, previously limited to Search campaigns only. This update simplifies the process for advertisers to test and evaluate campaign adjustments. Advertisers can now plan experiments lasting 4 to 8 weeks , allocate traffic using a confidence level selector with options for 80%, 85%, 90%, and 95% confidence, and see scaled treatment metrics for non-50/50 splits. However, campaigns with shared or lifetime budgets, or those with Dynamic Search Ads, are not eligible. Advertisers can",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-24T07:00:00+00:00",
-     "score": 74
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZzl2V2xkOHA0ZjBwbV93ZEFKWlA2WDJBcHJ2SnNFX3M5eGJUY0x5cS16a3dWZXFNMUpHRWtUVk5IcmhIMzhaZWpNVUFWTW1mRm9WdEczVjRVODYxcTFtY0I2cnB3MFJiZzM3b3N3WEwyQlhSc3FXOF9CazBqb214bUp4a3pXNHBXTkFUS3lxZndjOUFuX0VObGUwSklidHQxXy1GbnZpN1VOQmpvWTI0bg?oc=5",
-     "title": "Google Ads launches built-in lead management dashboard - Search Engine Land",
-     "summary": "Google Ads launches built-in lead management dashboard - Search Engine Land &nbsp;&nbsp; Search Engine Land",
-     "source": "Search Engine Land",
-     "domain": "searchengineland.com",
-     "published": "2026-09-24T08:52:18+00:00",
-     "score": 75
-    },
-    {
-     "url": "https://www.seroundtable.com/google-ads-investment-strategy-holistic-growth-modes-42153.html",
-     "title": "Google Ads Investment Strategy New Holistic & Growth Modes",
-     "summary": "Google Ads updated its Recommended Investment Strategy tab on the Recommendations page with Strategic budget allocation using Holistic and Growth modes. Holistic mode reallocates spend from underperforming campaigns to top performers for maximum efficiency, while Growth mode adds fresh budget to top performers without cutting spend anywhere else.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-24T11:05:00+00:00",
-     "score": 78
-    },
-    {
-     "url": "https://www.seroundtable.com/google-local-service-ads-larger-image-highlight-box-42155.html",
-     "title": "Google Tests Local Service Ads With Larger Image & Highlight Box",
-     "summary": "Google is testing a redesigned Local Service Ads design in the search results that have larger images and a highlight box under the listings. It makes the ads really stand out and in your face.",
-     "source": "Search Engine Roundtable",
-     "domain": "seroundtable.com",
-     "published": "2026-09-24T11:15:00+00:00",
-     "score": 53
-    },
-    {
-     "url": "https://blog.google/products/ads-commerce/demand-gen-drop-september-2026",
-     "title": "Turn discovery into action with September’s Demand Gen Drop.",
-     "summary": "Turn discovery into action with new seamless experiences and integrations from YouTube’s September Demand Gen Drop.",
-     "source": "Google Ads & Commerce Blog",
-     "domain": "blog.google",
-     "published": "2026-09-24T16:00:00+00:00",
-     "score": 65
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/google-provides-more-demand-gen-ad-features/831330",
-     "title": "Google provides more Demand Gen ad features",
-     "summary": "Updates like affiliate location extensions in Google Maps and one-click ads on YouTube Shorts are meant to speed up conversions.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-09-24T20:36:26+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://ppcnewsfeed.com/ppc-news/2026-09/ai-mode-displays-sponsored-organic-products",
-     "title": "AI Mode Now Displays Sponsored and Organic Products",
-     "summary": "Google is testing a new AI Mode that presents sponsored ads and organic product listings together in one interface. Advertisers may notice a combination of both paid and unpaid product placements. This update integrates paid promotions alongside regular product offerings, potentially affecting the layout and visibility of items in Google Shopping results. The feature also includes a conversational AI assistant to guide users in refining their queries, based on the activity and preferences they indicate. This update was shared by Sachin Patel . The post AI Mode Now Displays Sponsored and Organi",
-     "source": "PPC Newsfeed",
-     "domain": "ppcnewsfeed.com",
-     "published": "2026-09-25T05:00:00+00:00",
-     "score": 72
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQzFreFY3SHJWUXhrc05MNlR6a0F5LTVDNmxfTGo2RDI5V1NxVm0zbmlRMGFLOWxJU1hTQ0tycS1mUlpsdDJFVVBJUUE2T2w3SFBvaUZuOUlGWWdGUnliTDlVRzd5dWg0WHkyczBIWXpqQlN3VVczMV8xd21hLWZfeS1kSGl1Y3ZMTUlhRUFRdUlHZW9BaWRfdWdaOWRUUlhRQXQtRnhIWkpIUTY0cjREY0Etc05LaTNVcXZULTdaOVVnWU1EczNuT2xxSm4wSGpD?oc=5",
-     "title": "Tvorba automatického e-mailingu za pár sekund. Ecomail spustil autonomního agenta EMA",
-     "summary": "Tvorba automatického e-mailingu za pár sekund. Ecomail spustil autonomního agenta EMA &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-24T17:42:14+00:00",
-     "score": 77
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVNWMG82WThBOC1KRzMtNk9jc3l5MDk1aDdyQm81aEVhMXM3NzV4TnJ0M2R3M1Uzc19fR3hHNi10dmZoX0FyNjBWTlRkV3plNmpBYTNOakhfUXVKR0pETTQtZFdyRVBSeG9fNTYtanpEQWNYbmh3ZWtPclRJWURPaTlCVWFrM0wyUXY3SktMVEk1UURaWTJ5eXp1REVaNE9GWFdCUUpIRWdiUnpkYV94MzNZdnF4dXpzVFI1Tm8teFI1QQ?oc=5",
-     "title": "ZoomSphere otevírá MCP. AI agent zvládne publikovat příspěvky i reporting",
-     "summary": "ZoomSphere otevírá MCP. AI agent zvládne publikovat příspěvky i reporting &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-25T12:56:32+00:00",
-     "score": 57
-    }
-   ],
-   "category": "ai",
-   "importance": 68,
-   "title": "AI v marketingu slibuje efektivitu, ale opakuje chyby programatiku",
-   "updated": "2026-09-26T19:18:42.608293+00:00",
-   "what": "Experti varují, že AI nástroje v marketingu zatím nedodávají slibovanou efektivitu – místo úspory času přinášejí skryté náklady na údržbu, kontrolu a opravu chyb. Situace připomíná programmatic reklamu, která také slibovala automatizaci, ale nakonec vyžadovala lidskou kontrolu a strategii.",
-   "why": "Marketingoví manažeři investují do AI nástrojů s očekáváním úspor, ale realita je jiná – kromě licence platí čas na kontrolu výstupů, přepracování a nastavení guardrailů. Pokud tyto skryté náklady nezapočítáte do ROI, můžete podcenit rozpočet a zanedbat dlouhodobou strategii.",
-   "takeaway": "Před rozšiřováním AI nástrojů v týmu spočítejte reálné náklady včetně času na kontrolu a údržbu. U Google Ads AI nastavte jasné limity (guardraily) místo slepé důvěry v automatizaci. Sledujte, kolik času vám AI skutečně šetří versus kolik jej spotřebuje na opravu.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/f308ad896d.jpg",
-   "image_from": "searchenginejournal.com"
-  },
-  {
-   "id": "59d2a3ea3d",
-   "created": "2026-09-25T10:46:39+00:00",
-   "articles": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWE9IdXo0aEtlNTVwSGd0cUNwbjBzU180dWlneGNmdWNSV1ZKUzNkZXBPY0xDenhiZUlvQ19fa1RqTDV2aVphWlhObXpnOEV6WFNPVWFjeC1XQjhtMDYxX3FORGdpWG5xcWJSZGVIc2N4T2lCbXVFVU96WnRjNkN1MjJEak5NVGlfQmNtWThiQVBUN19PX1h0V3FJeEVfZlFrbjFLeDN2NmF1N1dmQVVSVGVkZjFZTzVzbC00N1JmOUhRNFJUTUZvVFUyOHRfbjlJSG5NVTlBbk1pVTQ?oc=5",
-     "title": "Na generaci Z možná nestačí „hrajte zodpovědně“. Výzkum má zjistit, co na mladé skutečně funguje",
-     "summary": "Na generaci Z možná nestačí „hrajte zodpovědně“. Výzkum má zjistit, co na mladé skutečně funguje &nbsp;&nbsp; mam.cz",
-     "source": "Marketing & Media",
-     "domain": "mam.cz",
-     "published": "2026-09-25T10:46:39+00:00",
-     "score": 47
-    }
-   ],
-   "category": "cesky-marketing",
-   "importance": 47,
-   "title": "Na generaci Z možná nestačí „hrajte zodpovědně“. Výzkum má zjistit, co na mladé skutečně funguje",
-   "updated": "2026-09-26T19:17:47.566512+00:00",
-   "importance_label": "stojí za pozornost",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
