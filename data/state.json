@@ -1,17 +1,17 @@
 {
- "last_run": "2026-11-04T19:55:00.059899+00:00",
+ "last_run": "2026-11-05T01:00:35.725400+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Digichef",
@@ -35,24 +35,24 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 4
+   "new": 0
   },
   {
    "name": "Collabim blog",
    "feed": "https://www.collabim.cz/blog/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tyinternety.cz'. (_ssl.c:1011)\")))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tyinternety.cz'. (_ssl.c:1010)\")))",
    "new": 0
   },
   {
@@ -71,7 +71,7 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Seznam blog",
@@ -89,31 +89,31 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 10
+   "new": 1
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 4
+   "new": 2
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 8
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
    "feed": "https://feeds.feedburner.com/blogspot/amDG",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Ahrefs blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "ok",
+   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f94060f1a30>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
    "new": 0
   },
   {
@@ -209,7 +209,7 @@
    "name": "Microsoft Advertising blog",
    "feed": "https://about.ads.microsoft.com/en/blog/rss/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "PPC Hero",
@@ -263,13 +263,13 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Sprout Social",
@@ -281,7 +281,7 @@
    "name": "Hootsuite blog",
    "feed": "https://blog.hootsuite.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Síť v malíčku",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Jon Loomer",
@@ -371,13 +371,13 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
-   "status": "ok",
-   "new": 3
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
+   "new": 11
   },
   {
    "name": "Think with Google",
@@ -412,18 +412,6 @@
   "MeasureSchool": "https://measureschool.com/feed"
  },
  "seen": {
-  "https://cc.cz/z-evropy-firmu-na-roboty-a-ai-nepostavis-smali-se-mu-ted-nabral-od-investoru-29-miliard-na-roboty-a-ai": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeFZDa1JOR2F6TlpwcU1RNmtrSHpDNFJuVF9SMDU2QTV2ME55Vl9Tckdld1VMUkM4bzNmaWI1OUthNjd6M1Vock9RYVZ2azJvUDluQWpHVkVTTENMVkJoOGsyZ1hVM1VPcFprSk13SjFlak9NN1BKZlhLclNFRUxsN3JPNExYR0ZWZ0NPTjhtcjlrRXVmTlVSOThzTXdXa2tRRTFVZDZneExfay1SUGxCcVY3VGVGTXhzYnNqMVFfODRBSTlucEEybzVpM25OYlRtMG9DRlppRFpXX2g1MW5saWFYTG5BdmxYWGNrbzNHWjVhN1hzTXFkVzJTYw?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRGtOUXllOXVOUGhGMHdlZWJ6b0VqdUJCbDhUdTFNTFQ1NTJKQldDR3ZtbnVYck9GSnBuMUZ3cFZlbFhPaWFWckNXSjFPU2RpLUw1NTladms2ckVjV1czTGNEMkN6S2xQZEx4a1otb3JnYXBFLXFwZ0hyU3pIMmZlS0RJbTVwRnU0cm9HOFRBbnZYODNaNnlMcm90WnI3M0FKdHNhQVdmaVRUXzhOdlJrSndDZzE5S3ZQZkhFcWJoMEdqQ29hT0ItSDRfb01pR3pLRDVHZU9uVzFPMXB3aWhQYVlZcWViMWVrYUdLZ3lGUWR2QkJKVWZHa1NMdw?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZVIwMlZZeXo1c1ZFMmxZQ1JQMVRyeGxLRXJhLTNaWjZHR1huek1YWi03Y1poaU13S29kOGN2M1dPZHBDZjc5VXY4bTRDc09CREpjYTBuZ2dEM2xKTDVQc2RUOHA3ZFhRWGxodmVDb0R6ZnZ3VEJWUUdsYm5PQURsZlJYLVltNUxlYllMSGZ5VFM5SGVIWTl4Vm9KdTYwNXFYdEtHSFFJVzlpWUZvbnVuT1RMNGM5d3hGOWtGRzNuUmZGNE52ZW1sMm54RHF4MlJiNEdic2NFTnU4WExOQ0dBVXNKc1FuRHZzdG1UMTY2bUFUaDhMaUNYdG9hRQ?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjZzWTdyMFRrRkVnak1sMGNnaGNzNldCRG9CUTQtY0RHSjZScjd4TmVTMG9ZRWN6MXllX1lsSnJOOFoxUXo4Y25Xam01SXFaNnpfVFh2clNGYkFqNmhrb2hpaFQ5cVVHSHduNXI2X1ZKOGcwVlBkdndkU2VlbGp4anB3?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFlldUNiQkZrd1l4eXZ2cGVmNUpBcmhfN0RicWY5OF9BVXJfUThRRUZBN3ZqSTh3RmJhOXF4djZaRWpiUF9tWHJmZUJEM2hxQTJBa3R5UTBzb2tvOTNyek1IME03UDRDMjFreHRSNnJXMlFNRTM3VHJMdmtUTGljeQ?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMib0FVX3lxTE01dXZUejgtQ1lNLVBmVF9EQjBYSnFGWmNrR3p6b0pHQ2ZidTI3LUJqTHdKQkJQd1U0bE5ZSXItVnhpUGhfd3FjUnFwMWxwU3RPaGRPWjlHVHZ4amRfZ1g0cXQycWJRanlKa1FFYjVkWQ?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXpvci03SVlLb19Bdjg2ZDBZdU9kNVdJSWMtR3dNMmFHVERIM3Ezd1JQSWk5VWVkeEJGTEw2bXdFdVc2eG8tU3d5ZEpLMlpSa21fU2FXdXk3SWIxMjV6X2FfM2hERXl0NjlQM01EcXdjaW9ic2l2TUxNNVJUeGZnT09PYw?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTE53V2I0dldibThnN2x0SkJpQlVYSzd2RDN4dXBHNlJIY3BweGllMFB1RGs3anEteTdZZS1UcmR0THhBSkFnbnE1d3ZaQklCZG4tREhIcFRZa1hwOU5XUTNSeUd1aUhIcjZVMlJXSzJmdzJfWExNcHRr?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DTTMxWUFTQnppRlRnZkh5eUJIaUQzeGJjb2RkNVZZNmU5M3lqQ2o3dDY4OU1wMVBZUjlEMHFDa2VtaWptZnMzRldacUNUdE5XSXp5SV9sU2lMODVIUWpid3pxQXA4bmZjTFVaWUNLQWNvRlBt?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBra2tjM1Z6R0tQZmxSUHdPTFNsNlczNWdlUjRLVFFMUEtBMHlTSnJxTnJ5dUNPMFNFeXFzdkxDV25pX0l1eWp3bXJSOTZyRzlORm9CaU05S25iMVUzdVMxTHZzeGc5eFNOTDVHRHpxZVkwY09hWEtn?oc=5": "2026-09-05T20:34:07.827268+00:00",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TRlBLcm9EX3FacGdzOEp3OFJKWmthN2VCbXpMVmdYdXZ1OEJaR1JnTThLNXV4LW9iR2hoZWdEQUlFZnZ5SXBBWDVmc1p3MGd2bHl2dXpEd0tENm9TdkROaHI2QUNFNmNwMXdxOXdsY201ZE5sMzZxcm1R?oc=5": "2026-09-05T20:34:07.827268+00:00",
   "https://cc.cz/az-dlouhe-roky-na-ostrove-mu-ukazaly-proc-je-cesko-fajn-rozjel-tam-ale-byznys-ktery-vyuzijete-i-vy": "2026-09-06T08:45:41.854021+00:00",
   "https://www.mediaguru.cz/mikroplatby-od-ai-firem-media-nespasi-monetizaci-musi-hledat-jinde": "2026-09-06T08:45:41.854021+00:00",
   "https://www.mediaguru.cz/serial-chalupari-se-vratil-na-celo-sobotniho-vecera": "2026-09-06T08:45:41.854021+00:00",
@@ -5610,7 +5598,28 @@
   "https://www.seroundtable.com/google-tag-manager-full-ip-address-42453.html": "2026-11-04T19:55:00.059899+00:00",
   "https://www.seroundtable.com/google-twiddlers-42441.html": "2026-11-04T19:55:00.059899+00:00",
   "https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026": "2026-11-04T19:55:00.059899+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObTFWempKVWtsdVZ0enZxRlN6S18zMkNqOVEwUjdETHpESkI1ckFIWVNpNEtsVHZDN1pqTURzWlR4TEFEZ3R5QUh4WE5zbndiZTliLVNsbUVtamUybWRTdlVPZ2hRc05wOHkxVWRKWVhPT1F5SW9UYlkwd2lUekFyemQ3bUU2Qk5uYm1RV0twOHRMdVFaal9uNHozejlkQ2FtNlZvdGdRUkU5UVJrelV6V2pRZkpDT0F3d0l2dS11dDI?oc=5": "2026-11-04T19:55:00.059899+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObTFWempKVWtsdVZ0enZxRlN6S18zMkNqOVEwUjdETHpESkI1ckFIWVNpNEtsVHZDN1pqTURzWlR4TEFEZ3R5QUh4WE5zbndiZTliLVNsbUVtamUybWRTdlVPZ2hRc05wOHkxVWRKWVhPT1F5SW9UYlkwd2lUekFyemQ3bUU2Qk5uYm1RV0twOHRMdVFaal9uNHozejlkQ2FtNlZvdGdRUkU5UVJrelV6V2pRZkpDT0F3d0l2dS11dDI?oc=5": "2026-11-04T19:55:00.059899+00:00",
+  "https://www.seroundtable.com/google-ads-search-terms-match-type-keywords-42463.html": "2026-11-05T01:00:35.725400+00:00",
+  "https://www.seroundtable.com/google-email-site-reputation-policy-eea-42462.html": "2026-11-05T01:00:35.725400+00:00",
+  "https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935": "2026-11-05T01:00:35.725400+00:00",
+  "https://www.searchenginejournal.com/businesses-treat-your-ai-agent-3-different-ways/595483": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbXJRNzRjeVBvOFp2QzRabURhcFJtQmV2RXVsdDNLbUxpa1IzUW1tNWJFTDVXOVRVSEFjN0d3cGlQaGNJSmk5Yk4xOUY4a2hMWnZWRHZBaFdPcFJqOEh3em11b2ZabHF1V2FSWE5RMVlBd3F4YU1fc2l4ZFB6Ri0zb0NvTURMZw?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1JOHRWeWNQbm9fN3I1UTA2ck00UDdGQllNSkV0bHFWRUhKQ0h0V2poaFhKT245bmxQaHMxSm43enFUREE?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ER0dTZm9VT1JqNlI3SUxBcXp4V3pEQlU2Wlh0OEdGYkhEcXp3bElzUkJ6cUVxSk9YTTZLOS1RVDBSTF9qS1N0UGdTLWNFZ09xYzUtOXYySXFab3BZUm1LSVhsbkdCWnRMbG5YOUJfOURkRVgwZkk1b0FzU0k?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGZEFzUXF4TjZaRFBmcEVMd2hvWTR1c3BibEpiTVAxeFZMN0RfdV9FSDZrS2llRnhxYzFHRXh3Rm16cnJEcEx5bklYd0tNZ1VmY2FlRURhWHZBM0w0VUE?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcUZySjM4a0ROVUthcTRZMHYxNkVwdWU4VTNBM1hXcHhmd2lRZG5lcFUtWjlLYjFXaDR3c2dEVEROM1E2Z1VMU1dPOFZPT1ZFTVIxeEh2QzRGSTBad1ItT1Z6ekg1Zi1fYlJWSXpES2dxVXNzelZIbWtQR0JUZ0x4T2lxSkY?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWWNEbE1YaXFRYWJqcXBIdzZtdURsTUVMOUVuVW5wbThadF9RaXVsQzhDbXFOYzFOdHkyOG04bGpZLUNNX01tdkZtVDMzcmxmVlgwZVNhaHRYVWM3QUN0SmJIb0prdHlwczQzclMzdFJsb2l2dVFjamFFVll4QWpjcnVEdmQ5dXc?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5CZXF2UmxLMWVfbS1UZGZ6WElhQWcxRUh3QTZZZVpkMHVobVQ0ZFloVFFlRVh5eEFHaWFvU2puTGREV3BfX0VSYUQzc3ZvUQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://www.socialmediatoday.com/news/linkedin-details-new-creator-insights-options/873675": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNbzYxbkJmb04tQ1lzT3pYZUNxNkVvcHlaa2hIcVQ4anRtVzVOQXA5bnBnTGRKaDFDQXNIN2JQSVNaTVVTUENxa25LTktYUGFIamlpUnVOUE5PR3o0Y29rR0Q4UDRaQWNXM0t1ckRId2tpazVVa09PakkzMW1CQQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUl80Yms1elB1WHFZSnlsVmVRcU5mYkttMVdSeWlBWEVPQTMzc3dDWHFCUjJEQWhjQ0ZJdVhFRDkxMXREeWJ3aDVza05XU0IxQk55Yno1cWR0MzhMVGdnd2VWLWFZcEd2YXdic3QzYzJ6d2tDdko1eGNiMTZ1TUZQLTFsMA?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE8xNGVlQnZhODJCRTZNcXZnVGpyQ042clhWZTJOdmUtZ1Zrbm15dGk1bHE5TGxYZm1tc1ZuNmxiNGR5SHNwdm1HdDBmV1VCdExBVjBVYlZlV2RuQlBPbGZBNlM2Wm5TM2NVb1ZCSWlpRi1JQQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GTlRsZzRVSEZjZFh0Q2Z3Vm9HUzg3aWE3enR0bWpZNm5CaERISG5JZkppd3NuVmpXU2I1cnhaS2xCSFFkdVJCMmRBclBIa0M5cDdZd3oyeWdHTUVtdmdfYS10N3gtUHFJZ041cXBwdXR2SnpzXzR4aWh3?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NVGZlaWtIdDl5M3dmWFk1cklBUldnTTRvVFQ4NDRoZ1pidi1KWWN5UkFoY2VZTFJCTEE1R1Juemp5dWFrTG5yb0s3cktLM3NqZ2Z1bFBQUEx6UFZrN2pZLXM4WmJybTNKeW54VkNB?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55WWxvc3dTXzZObm9fU3lKTnZLYmNqR3pIYUt2NndrbXBLbUFpZHBkMlhlRlVMY01JSXdjWmg5cEtKV3NwMTZTV2hLZEVSZUZvUkE?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE0wdHh6dm5rUlhSX2Q5M1Aybl9IMVZDQzNQUXIzcGUxVk4xMk83NE8xeE5fSk1fSzRWenZVMkNYYmFxZkxUNGxSNHVSYzF3V0xGMG4zNFZUMTlTUjlmMFF2ZzRvOU1oUFlWYVo1ckxTbHZyQQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbldTbkRQaFhfSWF1OVBpdEtfdm9YbEVNMDRfcnB5WExPOUl1UlhhNDFSYzIwbE04RWRsdXNUVUc4SWJPN0M0SlRuVnVBS1VVeXJQb3RaZTNWcXlMMVVoMS1RcnhwMWptYlhSY2wweFZ0VTgzLXphY001UDBCU0pWY2Y2UU1INEticVJJXzByUlh4RnYyTi02aU1EMVhtbFpLTi0zN2FpUQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE41RVlIS2Q2emZqdWpXbmhmeDhzNk52TlkwX29pZHJWZkdNeV9zeUxZWEtqRmlDek9WZWRuS05wdldHTC1EV1ZiYkpCUVAzM1hRc2VUV0Q1cEMyQUI4NEdQMl9lcG5WdkdzMXc?oc=5": "2026-11-05T01:00:35.725400+00:00"
  },
  "events": [
   {
@@ -10275,30 +10284,6 @@
    "what": "Google v některých testech úplně odstraňuje historické tlačítko \"I'm feeling lucky\" z vyhledávacího pole. U části uživatelů tlačítko při psaní dotazu zmizelo úplně, u jiných je nahrazováno tlačítky souvisejícími s AI funkcemi.",
    "why": "Jde o kosmetickou změnu vyhledávacího rozhraní bez dopadu na výsledky vyhledávání nebo SEO. Tlačítko \"Mám štěstí\" má především historický význaj a je fakticky velmi málo používané – nemění práci s Google Search ani výkon webů ve vyhledávání.",
    "takeaway": "Změna nevyžaduje žádnou akci. Funkčnost vyhledávání a pozice webů zůstávají beze změny. Jde o interní test úpravy rozhraní, který nemá vliv na marketingovou praxi."
-  },
-  {
-   "id": "f8c4ea7e44",
-   "created": "2026-09-30T19:00:04+00:00",
-   "articles": [
-    {
-     "url": "https://www.searchenginejournal.com/using-local-ai-compute-to-reduce-reliance-on-frontier-models/591047",
-     "title": "Using Local (AI) Compute To Reduce Reliance On Frontier Models via @sejournal, @chrisgreenseo",
-     "summary": "How much SEO work can you move off the cloud and onto the user's machine? A Chrome extension experiment with Gemini Nano has answers. The post Using Local (AI) Compute To Reduce Reliance On Frontier Models appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-09-30T19:00:04+00:00",
-     "score": 47
-    }
-   ],
-   "category": "seo",
-   "importance": 25,
-   "title": "Experimentální Chrome rozšíření testuje lokální AI model pro SEO práci",
-   "updated": "2026-09-30T22:24:57.127607+00:00",
-   "what": "Search Engine Journal publikoval článek o experimentu s Chrome rozšířením, které využívá Gemini Nano – lokální AI model běžící přímo v prohlížeči uživatele místo cloudových služeb. Jde o test, kolik SEO práce lze přesunout z cloudu na zařízení uživatele.",
-   "why": "Pro SEO specialisty jde zatím jen o technologický experiment bez přímého praktického využití. Článek ukazuje směr vývoje, ale neřeší aktuální potřeby českých firem ani nepřináší hotové nástroje.",
-   "takeaway": "Není třeba nic měnit. Jde o experimentální technologii bez konkrétní aplikace pro běžnou SEO práci. Sledovat lze jen jako zajímavost ohledně budoucího směru vývoje AI nástrojů.",
-   "importance_label": "kontext",
-   "multi_source": false
   }
  ],
  "persona_rescore_v2": true,
