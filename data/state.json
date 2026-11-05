@@ -1,17 +1,17 @@
 {
- "last_run": "2026-11-05T01:00:35.725400+00:00",
+ "last_run": "2026-11-05T12:33:24.325781+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 0
+   "new": 9
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 3
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 7
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky/",
    "status": "ok",
-   "new": 0
+   "new": 6
   },
   {
    "name": "Collabim blog",
@@ -52,7 +52,7 @@
   {
    "name": "Týinternety",
    "feed": "https://tyinternety.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tyinternety.cz'. (_ssl.c:1010)\")))",
+   "status": "chyba: HTTPSConnectionPool(host='tyinternety.cz', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tyinternety.cz'. (_ssl.c:1011)\")))",
    "new": 0
   },
   {
@@ -77,7 +77,7 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Heureka blog",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 4
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Backlinko",
@@ -142,7 +142,7 @@
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f94060f1a30>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
@@ -225,8 +225,8 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "feed": "https://www.smartemailing.cz/blog/rss",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
@@ -263,19 +263,19 @@
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 1
+   "new": 4
   },
   {
    "name": "Sprout Social",
    "feed": "https://sproutsocial.com/insights/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Hootsuite blog",
@@ -286,14 +286,14 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
    "name": "Social Media Examiner",
    "feed": "https://www.socialmediaexaminer.com/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Meta Newsroom",
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Jon Loomer",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Copyblogger",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 429, text/html))",
-   "new": 11
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -412,15 +412,6 @@
   "MeasureSchool": "https://measureschool.com/feed"
  },
  "seen": {
-  "https://cc.cz/az-dlouhe-roky-na-ostrove-mu-ukazaly-proc-je-cesko-fajn-rozjel-tam-ale-byznys-ktery-vyuzijete-i-vy": "2026-09-06T08:45:41.854021+00:00",
-  "https://www.mediaguru.cz/mikroplatby-od-ai-firem-media-nespasi-monetizaci-musi-hledat-jinde": "2026-09-06T08:45:41.854021+00:00",
-  "https://www.mediaguru.cz/serial-chalupari-se-vratil-na-celo-sobotniho-vecera": "2026-09-06T08:45:41.854021+00:00",
-  "https://www.mediaguru.cz/albert-slozeni-potravin-sleduje-88-cechu-vadi-jim-cukr-i-sul": "2026-09-06T08:45:41.854021+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-highlights-2026-holiday-shopping-trends": "2026-09-06T08:45:41.854021+00:00",
-  "https://www.mediar.cz/plne-elektronicke-mereni-poslechovosti-se-zpozdi-rozhlas-se-rozchazi-s-komercnimi-radii": "2026-09-06T08:45:41.854021+00:00",
-  "https://cc.cz/vykon-ceskych-penzijnich-fondu-je-hanba-musi-jit-i-do-startupu-rikaji-investori-kteri-jim-pujcuji": "2026-09-06T08:45:41.854021+00:00",
-  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11VXUtRWRyUFVKOFRyMGM5a2syd1VXcXZPVGoxSEFJZ2pia3B5dmJJSkM4OU5GX29TQjY3X05laHRrNkRfMzZvNDNTMGpJQzg0WDBmc2twUTY4WVRYdi1XdGtR?oc=5": "2026-09-06T08:45:41.854021+00:00",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbGVqMkJtVU0xalJzMFVhUDZGRjBLdGJkaW9VTUY3SUJkUGE3bkxMcjUyblE3X01OVFRXTnUwVjVCVTNScFZpNUFOUVBwM21xTU12eTgtekcxcGV5dXZwQVAwZzVkcUhjNlhTWjlva19VX2FkQmc0WU0wX2pkWFlxMkJVaU16ZHpaTjNBMzlVX1lwLXZDMzhFTjlwd1hWek92czh5MGYybHZpZw?oc=5": "2026-09-06T08:45:41.854021+00:00",
   "https://www.mediar.cz/cesky-canal-sport-ziskal-nejpopularnejsi-klubovy-zensky-fotbal-z-anglie": "2026-09-06T13:45:11.593083+00:00",
   "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-api-v22-set-stop-functioning-october": "2026-09-06T13:45:11.593083+00:00",
   "https://cc.cz/cesko-v-roce-2060-duchodci-zotrocuji-mlade-vladne-nam-ai-vize-znameho-autora-je-neprijemne-uveritelna": "2026-09-06T13:45:11.593083+00:00",
@@ -5619,7 +5610,53 @@
   "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55WWxvc3dTXzZObm9fU3lKTnZLYmNqR3pIYUt2NndrbXBLbUFpZHBkMlhlRlVMY01JSXdjWmg5cEtKV3NwMTZTV2hLZEVSZUZvUkE?oc=5": "2026-11-05T01:00:35.725400+00:00",
   "https://news.google.com/rss/articles/CBMickFVX3lxTE0wdHh6dm5rUlhSX2Q5M1Aybl9IMVZDQzNQUXIzcGUxVk4xMk83NE8xeE5fSk1fSzRWenZVMkNYYmFxZkxUNGxSNHVSYzF3V0xGMG4zNFZUMTlTUjlmMFF2ZzRvOU1oUFlWYVo1ckxTbHZyQQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbldTbkRQaFhfSWF1OVBpdEtfdm9YbEVNMDRfcnB5WExPOUl1UlhhNDFSYzIwbE04RWRsdXNUVUc4SWJPN0M0SlRuVnVBS1VVeXJQb3RaZTNWcXlMMVVoMS1RcnhwMWptYlhSY2wweFZ0VTgzLXphY001UDBCU0pWY2Y2UU1INEticVJJXzByUlh4RnYyTi02aU1EMVhtbFpLTi0zN2FpUQ?oc=5": "2026-11-05T01:00:35.725400+00:00",
-  "https://news.google.com/rss/articles/CBMiakFVX3lxTE41RVlIS2Q2emZqdWpXbmhmeDhzNk52TlkwX29pZHJWZkdNeV9zeUxZWEtqRmlDek9WZWRuS05wdldHTC1EV1ZiYkpCUVAzM1hRc2VUV0Q1cEMyQUI4NEdQMl9lcG5WdkdzMXc?oc=5": "2026-11-05T01:00:35.725400+00:00"
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE41RVlIS2Q2emZqdWpXbmhmeDhzNk52TlkwX29pZHJWZkdNeV9zeUxZWEtqRmlDek9WZWRuS05wdldHTC1EV1ZiYkpCUVAzM1hRc2VUV0Q1cEMyQUI4NEdQMl9lcG5WdkdzMXc?oc=5": "2026-11-05T01:00:35.725400+00:00",
+  "https://www.searchenginejournal.com/google-explains-how-redirects-affect-ranking-signals/595967": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/pavel-koren-nastoupil-do-acomware-rozviji-strategii-a-vyzkum": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.seroundtable.com/google-ads-telemedicine-certification-42460.html": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/aktuality/veteran-ze-spacex-netflixu-i-bottlecapu-prebira-globalni-ai-firmu-ktera-roste-z-prahy": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/az-svaty-martin-dorazi-budte-pripraveni-kam-zajit-na-ta-nejzajimavejsi-husi-jidla-a-co-k-tomu-pit": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.searchenginejournal.com/google-goto-result-links-throttling/595959": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/ct-nakoupila-zahranicni-serialy-1923-sherlock-nebo-vsechny-velke-a-male-bytosti": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediaexaminer.com/4-ways-to-create-passionate-fans-for-your-business": "2026-11-05T12:33:24.325781+00:00",
+  "https://contentmarketinginstitute.com/strategy-planning/silent-buyers-thought-leadership": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.semrush.com/blog/google-keyword-planner": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediaexaminer.com/claude-and-chatgpt-project-tips-training-ai-agents-to-work-without-you-and-industry-news": "2026-11-05T12:33:24.325781+00:00",
+  "https://blog.seznam.cz/2026/11/v-cesku-je-nejvetsi-zajem-o-ojete-terenni-vozy-znacek-jeep-toyota-a-mercedes-benz": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/canal-podporuje-nove-stanice-i-u-puvodnich-zakazniku-skylinku": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/sledovani-televize-pres-internet-v-cesku-dal-roste-vyuziva-ho-89-lidi": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/aktuality/internet-je-hlavnim-zdrojem-televize-a-videi-pro-61-cechu": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/sleduje-ho-temer-milion-lidi-a-byznys-roste-slovensky-youtuber-duklock-prodal-pet-milionu-plechovek-s-vodou": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/aktuality/poslanci-schvalili-zakon-o-digitalni-ekonomice-navrh-na-snizeni-pokut-pro-online-platformy-neprosel": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/na-celo-stredecniho-vecera-se-dostala-superstar": "2026-11-05T12:33:24.325781+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/ask-advisor-feature-appears-google-ads-billing-reports": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/aktuality/poplatky-by-podle-nachera-mohly-skoncit-nejdrive-v-cervenci-2027": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/jiri-smejc-pousti-jt-hloubeji-do-sve-emmy-dalsi-podil-ji-prodal-za-36-miliardy-zdrazil-o-polovinu": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/soud-na-navrh-ato-zahajil-insolvencni-rizeni-s-byvalym-provozovatelem-tv-barrandov": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/muellerova-vila-laka-v-kampani-na-prohlidky-podle-slunce": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/ai-trese-canvou-popularni-graficky-nastroj-ma-za-sebou-nejtezsi-rok-pada-mu-hodnota-a-propousti": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/evropa-2-spousti-novou-kampan-se-svymi-moderatory": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.searchenginejournal.com/ai-visibility-vs-search-rankings-is-your-agency-measuring-the-wrong-thing-for-2027-spa/594163": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediaguru.cz/ceske-televizi-behem-stavky-klesl-podil-na-sledovanosti-o-ctvrtinu": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/clanky/mysleli-ze-tvori-sluzbu-pro-lidi-jenze-firmy-uz-museji-tvorit-pro-ai-s-niz-se-neda-domluvit": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/jemu-ucarovaly-krkonose-ji-lakal-svet-po-letech-je-znovu-svedla-dohromady-davna-laska-i-horska-bouda": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/vyvinout-evropskou-hypersonickou-raketu-jim-trvalo-devet-mesicu-ted-dva-doktorandi-nabrali-25-miliardy": "2026-11-05T12:33:24.325781+00:00",
+  "https://cc.cz/trzby-stouply-dvakrat-a-vydelali-25-miliard-akcie-presto-padaji-ztraci-bajni-ai-slidilove-sve-kouzlo": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.lupa.cz/clanky/seznam-chysta-spolecne-predplatne-prijmy-primy-ze-zradcu-se-blizi-200-milionum": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediar.cz/galerie-reklamy/vanocni-kampan-t-mobilu-vznikla-cela-v-ai-pouzila-skladbu-kterou-loni-melo-o2": "2026-11-05T12:33:24.325781+00:00",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTkx6RFFjSHpvMnlpSjAta2w5dEswZVMxZ19mc1ptMVlMdHdQRTFFRlN5QnV2OGNVZkVWZmFURjY5T1Axbk9LRzFPTkp1TTBHdmxocmFDVGRYWng1MG94RGtraGZJdXNYaDJ5RVhBMU9GZEhIX0tHbWkybDdra3BsNFIwQ1pJWGxnREJ5WDVvZ0tGNlFrbTUyXzg5Zm54blM1anJrOVUxZEg?oc=5": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediar.cz/vanocni-zazrak-katy-okouzlila-pernikova-reklama-ceskych-drah-bez-ai": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediatoday.com/news/snapchat-posts-modest-user-increase-in-q3/873823": "2026-11-05T12:33:24.325781+00:00",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWGFJeHZNbXRkOGpVLVFScGNQQnJYZGVhOGxmeGctX1pfRG1lOFdNRVFyUHotbkstaWo0SEpzYkxTYUNPSkoySlUtR0ZyTkcwMjQ1eElTV01kR2VUMGZqQzV2S0hfVDdZeWxHTmNJOGlsNzI4S0dpd21JVlNqb2V5Xzk1eWpHNkdId2lSXzh3bkh0Q1VY?oc=5": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.mediar.cz/ziskat-zakaznika-nestaci-jak-ho-presvedcit-k-dalsimu-nakupu": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediatoday.com/news/facebook-expands-creator-fast-track-program-to-brazil/873821": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediatoday.com/news/instagram-tries-to-entice-long-form-creators/873820": "2026-11-05T12:33:24.325781+00:00",
+  "https://sproutsocial.com/insights/alt-text-social-media": "2026-11-05T12:33:24.325781+00:00",
+  "https://www.socialmediatoday.com/news/reddit-publishes-2027-marketing-playbook/873789": "2026-11-05T12:33:24.325781+00:00",
+  "https://contentmarketinginstitute.com/press-room/b2b-content-marketing-2027-research-press-announcement": "2026-11-05T12:33:24.325781+00:00",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR1dnLUJFdm9VcGlWQWY5MUNFMkU0dU82b2F0VmJLZ2FxTlItSnFlMnFuQXpiWkNnejhqemU5Z1BPelRseFVqV2l3WGdacHU1WnpXcUFTVEc3ZmJJVF9wZjgzcThyZlNCenpZYlF5MUdBdWk0RVJ5ejk3N3cwS1RZVm5R?oc=5": "2026-11-05T12:33:24.325781+00:00",
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GVFFyY3UyaGRmZ3RkN3dxMm9wV25uZFNlTFF6WVBuSWRYbkdERXVQQlNSSHFWVndZNXhHbjkyVXI3VGhEM0lrTUtjTG9BeGt3VW1oNkVNM1p1ckktZy02eUFEYW9tS00?oc=5": "2026-11-05T12:33:24.325781+00:00"
  },
  "events": [
   {
