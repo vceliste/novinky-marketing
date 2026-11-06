@@ -1,17 +1,17 @@
 {
- "last_run": "2026-11-06T12:20:54.999691+00:00",
+ "last_run": "2026-11-06T19:34:01.166788+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 8
+   "new": 4
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,7 +35,7 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 7
+   "new": 3
   },
   {
    "name": "Lupa.cz",
@@ -64,20 +64,20 @@
   {
    "name": "Markething",
    "feed": "https://www.markething.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.markething.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.markething.cz', port=443) at 0x7f9ebfa0ce30>, 'Connection to www.markething.cz timed out. (connect timeout=15)'))",
+   "status": "ok",
    "new": 0
   },
   {
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 3
+   "new": 4
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -89,25 +89,25 @@
    "name": "APEK",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 3
+   "new": 7
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 0
+   "new": 10
   },
   {
    "name": "Google Search Central Blog",
@@ -136,13 +136,13 @@
   {
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
-   "status": "ok",
+   "status": "ok (Google News; přímý feed: chyba: Exceeded 30 redirects.)",
    "new": 0
   },
   {
    "name": "Pavel Ungr",
    "feed": "https://www.pavelungr.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.pavelungr.cz', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.pavelungr.cz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 3
+   "new": 2
   },
   {
    "name": "Hana Kobzová",
@@ -196,7 +196,7 @@
   {
    "name": "Jirkont",
    "feed": "https://www.jirkont.cz/feed/",
-   "status": "chyba: HTTPSConnectionPool(host='www.jirkont.cz', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jirkont.cz', port=443) at 0x7f9ebfa43e30>, 'Connection to www.jirkont.cz timed out. (connect timeout=15)'))",
+   "status": "chyba: empty feed (HTTP 200, text/html)",
    "new": 0
   },
   {
@@ -214,8 +214,8 @@
   {
    "name": "PPC Hero",
    "feed": "https://www.ppchero.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 2
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "Ecomail blog",
@@ -225,8 +225,8 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
+   "feed": "https://www.smartemailing.cz/blog/feed/",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
    "new": 0
   },
   {
@@ -257,7 +257,7 @@
    "name": "GetResponse blog",
    "feed": "https://www.getresponse.com/blog/feed",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "ActiveCampaign blog",
@@ -269,7 +269,7 @@
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 5
+   "new": 0
   },
   {
    "name": "Sprout Social",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/rss",
-   "status": "chyba: empty feed (HTTP 401, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -299,7 +299,7 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "TikTok Newsroom",
@@ -310,8 +310,8 @@
   {
    "name": "Jon Loomer",
    "feed": "https://www.jonloomer.com/feed/",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 13
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "LinkedIn Marketing blog",
@@ -371,25 +371,25 @@
    "name": "HubSpot Marketing Blog",
    "feed": "https://blog.hubspot.com/marketing/rss.xml",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 0
+   "new": 5
   },
   {
    "name": "Think with Google",
    "feed": "https://www.thinkwithgoogle.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Marketing Brew",
    "feed": "https://www.morningbrew.com/marketing/feed.xml",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Marketing AI Institute",
@@ -412,44 +412,6 @@
   "MeasureSchool": "https://measureschool.com/feed"
  },
  "seen": {
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxPei1LQ2NKczhhYVFoSjJtWHZsdy1kWjZkWlJEQXlaNFFBYWxQMTkwdHUzbGViWHNGS0NKSkNnamtTZ0NRSDgtY0dvUUpyb0Y2YUZqRC1VbXJuUDlZSXRkVzM0bzV4T2J2cDY4anRHTldMVXJCVm5PdGQteVdWc3JUN1F6MUJqSXd1cGthX1dWaXRuQW5CLU5yTUhaZUlVZw?oc=5": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.lupa.cz/aktuality/ceska-televize-rusi-piktogramy-u-poradu-nevhodny-obsah-popise-slovy": "2026-09-07T15:56:54.647485+00:00",
-  "https://blog.shoptet.cz/cdp-e-mail-marketing-ecomail": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.searchenginejournal.com/harvard-found-the-public-has-little-objection-to-ai-taking-search-marketers-jobs/587715": "2026-09-07T15:56:54.647485+00:00",
-  "https://cc.cz/do-ameriky-prijela-s-20-dolary-ted-meni-svet-ai-jeji-novy-model-postavi-z-jedine-fotky-autenticky-3d-svet": "2026-09-07T15:56:54.647485+00:00",
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSHpHdFFDYUZicnZCMzRUVUVrd3pxLWRRNG9KMmhqZjQxeFp5anFYeUQtY09WZ0MwWkxHQkNoUC1Pb0ZDSmNKX1ZfSkFIZ1RrOEl2MzJSc0NYYWFPb210MnlfZEc4SWZkOE9fNmFYczFqekEyUkZmbmktVDBuUUtvM3kzUU5VNmVFZXA3SGtoLUJuQQ?oc=5": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/recap-09-07-2026-42028.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/performance-max-help-documentation-overhauled": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediar.cz/naha-seznamka-se-vraci-ocko-v-druhe-rade-naked-attraction-slibuje-dvakrat-vic-zen": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.jonloomer.com/qvt/turn-off-new-creative-workflow-multimedia-experience": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/kotek-v-nove-kampani-bauhausu-hleda-sunty-ma-ale-koupit-spunty": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.semrush.com/blog/topic-clusters": "2026-09-07T15:56:54.647485+00:00",
-  "https://cc.cz/napad-co-vznikl-u-piva-ceska-rodinna-firma-vymyslela-mobilni-pipu-cepuje-dvacet-hodin-na-jedno-nabiti": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/t-mobile-v-kampani-jak-se-mas-zduraznuje-silu-kontaktu": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-lose-faith-42032.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.lupa.cz/aktuality/ctu-dostane-v-ramci-statniho-rozpoctu-dostat-o-2-5-miliardy-mene-nema-to-ohrozit-jeho-chod": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.lupa.cz/aktuality/prvni-monitor-s-frekvenci-tisic-hz-je-zde-podivejte-se-na-nej-nevyjde-zase-tak-draho": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.searchenginejournal.com/biggest-ai-search-risk-is-conflicting-information/586904": "2026-09-07T15:56:54.647485+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/what-customers-love-summary-now-showing-desktop": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-ads-automated-promotions-42006.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-booking-partner-prices-customized-41935.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediar.cz/galerie-reklamy/t-mobile-zduraznuje-opravdove-chvile-mezi-svymi-spot-natocil-olmo-omerzu": "2026-09-07T15:56:54.647485+00:00",
-  "https://cc.cz/zacinali-s-erotickymi-pomuckami-dnes-cechum-dodavaji-virivky-a-miri-k-obratu-200-milionu-korun": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-merchant-center-ai-prompts-42023.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-shopping-ads-imp-ctr-42021.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/applebot-extended-search-ranking-42025.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/prima-sport-zaradi-prenosy-z-hokejove-maxa-ligy": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.seroundtable.com/google-ai-overviews-character-counter-42026.html": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/marketingovym-reditelem-firmy-remax-je-ondrej-suchy": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/idnes-premium-rusi-reklamy-prekryvajici-obsah-cenu-predplatneho-nemeni": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediaguru.cz/druha-osmicka-soutezicich-v-reality-show-zradci-je-znama": "2026-09-07T15:56:54.647485+00:00",
-  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDV5TWlmWUhzWk5MR0prbFZDYllvMFR0ZGplM2tNeGtJTGt1OFgwbkNmcXdDRFN1b1VhVkJfc2FrRC01dmtJaEVvZlEwMldGeklWdW1LVVRJM1dSMTk5eW93MHFTOHd1RVRsS185UVlsYy1ueDBmNzRtQTdIN2VkRDI1Wl9zM3AzaDNZMllocnNzMDdOVEhJa21SQlQ?oc=5": "2026-09-07T15:56:54.647485+00:00",
-  "https://cc.cz/je-to-trend-ne-vyjimka-pred-lety-meli-hodnotu-pres-170-miliard-ted-jsou-akcie-skoro-bezcenne": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying": "2026-09-07T15:56:54.647485+00:00",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3hvZVFlY0x3bDJNSVFzc2NSd3Axc0pYOTJBc2tWVVlOMUpxU2p1MDBOdTVKZFBTTW9ITlc2cUxURmg1enZDWUtzbks0aUs1eEhub24xbWM0SlRXSUJGSS1md3QzbmJidzFCSktfcGNNSm5XazA2TGJWM2RPM3dmLWNfcWprbzhVc2ZMekpiUGFvYUdrS0pmMTB5Y2hLZ0FP?oc=5": "2026-09-07T15:56:54.647485+00:00",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQWlXY2ZtYzJ5eUhaTUJwZU14SHQ1d2VmWGRCVjFOY2Y3Qm1wVlE3Y3pVMFRpLURjNGR4VWhuZWZxLVlOZllEWGxLWVF5S0JSSEJ3Um9ValZtRDFMQnRGNXhKRXJ5VEVHUXJCX3llZE1RSFJlR3NwNHNJYVMxTjJBcTVGeWVSZzZUeEloRmplckZBR2NiUHpuRDZsZE5QV3JjNi1oTWZWaFJFbmk1NEI0eUo2UHd2Mm9TZmJ5Y2pxNXFTZlJuMXFUQWdSRQ?oc=5": "2026-09-07T15:56:54.647485+00:00",
-  "https://www.mediar.cz/galerie-reklamy/nove-scenky-z-bauhausu-nesikovny-manzel-kotek-neuspesne-zada-sunty": "2026-09-07T15:56:54.647485+00:00",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lLUZxTXY5cnhJRUZVUWVXRkpqbXBrZGFqYXluX3RpT0h5NW5SZVRlbjVyaG1iZlRDc2pGR2pPb3pTWUhNSF9FS3ZYV082ZlhTcmFSUUd3THJYNXBMVS1Xc080dFVlSkRVUnVSN1lFTHFNV1E?oc=5": "2026-09-07T15:56:54.647485+00:00",
   "https://www.lupa.cz/aktuality/cesky-creative-dock-nakupoval-ziskal-sveho-nizozemskeho-konkurenta": "2026-09-07T20:03:09.856250+00:00",
   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yanB2c3Y2ZFdjVHV3b01mVkVERzhDQzB6TklVMTJqRG9KbUJiY25SOS1SWnhJc1RPQnEzOUI3dXJrbzB6Y0VLYmNDN1BySnZjUk9FOGVOQ0NzaGs?oc=5": "2026-09-07T20:03:09.856250+00:00",
   "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aaHFtNHkya0ctRnktdlZsajFuTlI3eDcyX2NGRnFDaU5JdjlvVzV1UXowaTRtWFJvbVh0NjVHclh4S3l0QWNhVDVHQzJUeE5idHlHazZpWUF0UlFsOWFz?oc=5": "2026-09-07T20:03:09.856250+00:00",
@@ -5732,7 +5694,56 @@
   "https://business.google.com/us/think/ai-excellence/drive-conversions-hybrid-intelligence": "2026-11-06T12:20:54.999691+00:00",
   "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94b1o2dk10YlhWZHJfX2xSOHEyRTRacEhwcjhzT2hoeVVRUTcySWNOTy1qeXdxRm83VTFRUWU3a0tQS09xUW1VbkJIUnJJRlFZOXFBZ2FpMzN6YlFMQkHSAWNBVV95cUxNLXJvZC1SZEtsRE1jOG93UVJaalFvM29yU2Z3ekZDYjdCd0E1YkxHVVpXVVJ0LUt3V09uYkJQU3ZPSnJYSGR4NkhXSTI5MWotSGNzMmJoRVlEUW5KcXB6dFhLeVk?oc=5": "2026-11-06T12:20:54.999691+00:00",
   "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XbUVzWldiUmFHSkJ2MWp3M190Z1BhQVAtWkxiNUNfYlVLelVUU1hLN1R3aVhZZ2xSLWNPczE5dkRyc1N0VWtmcTZ6SXVqMEo3OWhPUG1qdU04NVdDU1d0ZXFSV3J0cXVQcy1jZA?oc=5": "2026-11-06T12:20:54.999691+00:00",
-  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81ZWpGS2h6ZEVwd3dGSUxzYjVzVzV2VTZ3cm9aZElZSzZMVE9wSFY5Q2g1ZzF2TFJ5NHZKWkpNZnBhTVhnNGcxSEdqb3J3Zm40VnBVMnVuMlgwZnpWUlozcWg1TXo3SFhF?oc=5": "2026-11-06T12:20:54.999691+00:00"
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81ZWpGS2h6ZEVwd3dGSUxzYjVzVzV2VTZ3cm9aZElZSzZMVE9wSFY5Q2g1ZzF2TFJ5NHZKWkpNZnBhTVhnNGcxSEdqb3J3Zm40VnBVMnVuMlgwZnpWUlozcWg1TXo3SFhF?oc=5": "2026-11-06T12:20:54.999691+00:00",
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRbERXWHFxN0NoaGpWcG85c3BfVFA3di01MDFFQVY3c2FOT2ptLUtMdUJHX2hXS2tVeTY0R0NtWjY0R1MtYXlUeGRoZ3lZVmdQN3ZPLWYtZTIxamw5QWkxaVVMbUNJX0hTQWY4ZXBlWQ?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://cc.cz/kez-by-aspon-takovy-film-vznikl-v-cesku-i-kdyz-je-to-slaby-stredovek-ktery-nanestesti-pripomina-zizku": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.lupa.cz/aktuality/nejvetsi-zahranicni-investice-v-historii-cr-nebude-onsemi-rusi-plany-na-cipovou-tovarnu-v-roznove": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediar.cz/reitler-oddil-b-ma-pres-700-000-divaku-na-dil-prvni-epizoda-pres-milion": "2026-11-06T19:34:01.166788+00:00",
+  "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120": "2026-11-06T19:34:01.166788+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/google-demand-gen-combines-ad-formats-automates-controls": "2026-11-06T19:34:01.166788+00:00",
+  "https://martech.org/beyond-the-opt-in-engineering-consent-for-better-marketing": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.lupa.cz/aktuality/tiktok-vtahuje-uzivatele-do-kralicich-nor-rika-evropska-komise-i-kdyz-sami-reknou-ze-je-obsah-nezajima": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblkxbUFPTjdrTDRLM2xCOV9iYnB6aWJsTmRSWnJwWTZtenZ4THotby1KVWFZYmVhaldYOEJSMHNERU9HWjhyX3NlQnAtbjZYd0RLOEYxZDVOSUZqV1V6ZDE0ZzlGSGkxNmxsUFp6VDU4aW9OUHAwSTVIcDNrNHQ5NGNjN2g3dTdHV2VV?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.lupa.cz/aktuality/protesty-proti-datacentrum-dorazily-do-evropy-v-amsterdamu-demonstranti-pronikli-na-staveniste": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBybEFLMjNwOGU3bkRPVDNBTlNxU29ONXF0RjQxUS1kOFR6S1FwVGxUeWduR2hXaTI2aWNHV2x6Z21sNGhRc0RsS3BjN3UtSE1LVTJOMHF2aUxWbmczYWdGODM4Z014dlZvT2ZGTzMyRHRwY3lsZ0x3?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediaguru.cz/odesel-marketingovy-manazer-kia-czech-jiri-vodicka": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM0x6dm1kMVdQdzg3QnB4Q2hjQWx0TVRTUXFDQkFjMnR5QXZfZTFPTnJneWRHR0EyempheTFrN0xUeUtXSDdfNWNOQTczSjVha3dteUtPQngxZXF5NjlCaHFwczdwTHdWRHJ0TmxjWVBnUDQzaUN5bGZpdnFKZjJwVFNqQWk5RzVIVGJvT0pDalZLX3poTWVpTzF4ZUFHU2xxUXIw?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://blog.hubspot.com/marketing/marketing-automation-challenges": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016": "2026-11-06T19:34:01.166788+00:00",
+  "https://blog.hubspot.com/marketing/scrunch-vs-ahrefs": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/chatgpt-tools-for-business-42476.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.getresponse.com/blog/planning-gifts-with-ai-tools": "2026-11-06T19:34:01.166788+00:00",
+  "https://cc.cz/otresy-v-canve-zavrely-prazskou-pobocku-smutne-ale-spravne-rozhodnuti-rika-muz-ktery-ji-prodal-firmu": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeFJrTndyU0YxbVJDNzFXWFlvVUpBSzVfYXBmd2ZkcEpLRTg0LTk5a2gtcHVnNGR5UTNFMEZVTERvVktXQzl4SlA5NnJyblh2cF8zU0xsdU0tekF5MmlCbkEzT21TVVgxLUgzemVpcERhdmNHY0VYR082QVVaSXdHQkU5SEFnZEJ5SEZsQXlIQTgyNDg?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/recap-11-06-2026-42474.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediaguru.cz/meta-oficialne-na-neurcito-odlozila-sporne-podminky-pouzivani-svych-sluzeb": "2026-11-06T19:34:01.166788+00:00",
+  "https://martech.org/better-prompts-start-before-the-prompt": "2026-11-06T19:34:01.166788+00:00",
+  "https://cc.cz/americke-municni-tovarny-pamatuji-roosevelta-o-jejich-modernizaci-ted-bude-soutezit-i-skupina-csg": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxVGFzY3pSN3liTExJZVZsa1hkOTUyb2RJcWlEblF0MlB6Tm5hMGE2elN3NHI2UFU1SUpUVEwxS2Q5ZzNYQ21qUXdFODZnZHVFaGwtNklwVHNJcW1Nd01kMDNubS1yZ3BuQkkwMUJUNl84VmZ2VGc?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://martech.org/consumers-are-still-buying-theyre-just-harder-to-convince": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediaguru.cz/taste-vede-vykonnostni-kampane-a-socialni-site-vivantis-na-ctyrech-trzich": "2026-11-06T19:34:01.166788+00:00",
+  "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.lupa.cz/aktuality/pipedrive-oznamil-propousteni-a-otevrel-web-kde-nabizi-sve-talenty-novou-praci-ted-hledaji-i-lide-z-ceska": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediaguru.cz/pivovary-zubr-hledaji-pr-agenturu-pro-cesky-a-slovensky-trh": "2026-11-06T19:34:01.166788+00:00",
+  "https://martech.org/is-your-affiliate-program-showing-up-too-late": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/video-11-06-2026-42469.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MSWFKZ3poUmRkLUxnWFBvZGZjYkpNME9QckhkUFhyU1NuQnJUWWRqOWVrVC0yWDlqX1djYjVDRWlEWm8zRUloOVloYm1jM052b2NEd0xUOWhpb0VnbGg5Q0g0N1pkYmNOU3NtUy1WX293ZXJzY3hPY1N1Y1hkWU0?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/new-heading-spotted-above-bing-shopping-ads": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-ai-mode-continue-with-this-search-42475.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-shopping-eu-dma-42456.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-personal-intelligence-popup-42468.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/bing-search-ai-visual-summary-42455.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-confirms-issues-with-merchant-center-42473.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.mediar.cz/bozi-nadeleni-magazin-qult-zamereny-na-lgbtq-vydava-tisteny-almanach": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.seroundtable.com/google-maps-messaging-android-ios-42472.html": "2026-11-06T19:34:01.166788+00:00",
+  "https://www.marketingbrew.com/stories/gm-onstar-ai-pitch-to-consumers-strategy": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3dmQtUGt1UXB2RWxpTlJKU3p5ZElnZ1JEakZ1cEdvajRhZlI4bEpOQXdzRzQtdlJwaVhGMUNpN291cldUUDhORUNCQTVoRjdKTDlQU2s3NA?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU0VPekxkVGY0emhNbV9odmJTOXRoNVRIREh6ZjZCbUF4aDFPM3lOUHNLc0NnQXZEWnJlUmpYYktoaUctOU5rVzBZQjFNeXRmbmNsQXZoR2FNUE95SnZnWE5UY2p2RmZ3ckRxRkh5cUM1UzNXNUhDODhGekdGNWdEVTVfWVRYYkY2M2xGNE9WS2F2UU9sTXJZSHJwdXN0QTFEUC03d1M1OXl2TzhabUQ2STdEbkQ2RUFLRDBDYWFn?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZXJVZlhwU01uYTlQeWhRZmdBdy1zQkFyeXRlNXNoWlJqUkN6cXJucTFvWngxdVVQX3k0aWFRMVNKcDVDanMwOFpsNTFpcE5WckRBRkdhUm9WeGxrWUhQYnJMc21IYmpFSkxFenFEWkVjRXJTOUhJM191SHRLdjBaR2ZKbGJXYXBENmdCRzRNY0FOYUdmb1JiNlVwRDNzQk95X2hxQkNWRjY1d3hNU2ZHakNySVpLUktobTNrV1Q3R1J3N2Z4MVIxR3dSeW5BQQ?oc=5": "2026-11-06T19:34:01.166788+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaGpaQ3laNnh5ay1zYzNJUGRnUDJ5TXhIWkR0R2lENHdnLWxJWG5YdGpmejNsS09lZncyQmIzLUw5eFhHRFlSWF9jTGdWc0xmQ196M3RFWFFtTXdlWUllSEY0WWVfTUZhYkRkSUtNaDJKbVlyZ1dGMDYwNFFoalNuQi0zTFRJdWstTHdEeUFpbmh6SHlON3FPN1l3NFZibDBLMk1Vbm1NNXRacUdNaXlEa2F3?oc=5": "2026-11-06T19:34:01.166788+00:00"
  },
  "events": [
   {
@@ -10296,59 +10307,6 @@
    "takeaway": "Pokud vaše firma používá Adform, sledujte oficiální komunikaci platformy ohledně nových integračních možností a AI funkcí – mohou zefektivnit práci s daty nebo reporting.",
    "importance_label": "kontext",
    "multi_source": false
-  },
-  {
-   "id": "8b73012736",
-   "created": "2026-09-29T16:00:05+00:00",
-   "articles": [
-    {
-     "url": "https://about.fb.com/news/2026/09/find-community-forum-dedicated-app-facebook-groups",
-     "title": "Find Your Community With Forum, a Dedicated App for Facebook Groups",
-     "summary": "Find your community with Forum, an app built for people who want to go deeper in their Facebook groups. The post Find Your Community With Forum, a Dedicated App for Facebook Groups appeared first on Meta Newsroom .",
-     "source": "Meta Newsroom",
-     "domain": "about.fb.com",
-     "published": "2026-09-29T16:00:05+00:00",
-     "score": 54
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/youtube-updates-shorts-algorithm-to-put-more-focus-on-original-content/831976",
-     "title": "YouTube updates Shorts algorithm to put more focus on original content",
-     "summary": "YouTube's updating its recommendation systems to prioritize creator-made videos, which will also reduce the reach of aggregator accounts.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-01T21:13:07+00:00",
-     "score": 67
-    },
-    {
-     "url": "https://www.searchenginejournal.com/youtube-original-shorts-reposted-clips-reach/591774",
-     "title": "YouTube To Cut Reach Of Channels Reposting Barely Changed Clips via @sejournal, @MattGSouthern",
-     "summary": "YouTube is updating recommendations to favor original Shorts and reduce reach for channels that mainly re-upload others' clips without significant changes. The post YouTube To Cut Reach Of Channels Reposting Barely Changed Clips appeared first on Search Engine Journal .",
-     "source": "Search Engine Journal",
-     "domain": "searchenginejournal.com",
-     "published": "2026-10-01T20:44:41+00:00",
-     "score": 62
-    },
-    {
-     "url": "https://www.socialmediatoday.com/news/threads-tests-more-visual-options-for-quote-posts/831975",
-     "title": "Threads tests more visual options for quote posts",
-     "summary": "The feature aligns with similar tools on TikTok and X, and offers users a new way to add context to their posts in the app.",
-     "source": "Social Media Today",
-     "domain": "socialmediatoday.com",
-     "published": "2026-10-01T20:56:38+00:00",
-     "score": 47
-    }
-   ],
-   "category": "socialni-site",
-   "importance": 68,
-   "title": "YouTube mění algoritmus Shorts – upřednostní originální tvorbu před reuploady",
-   "updated": "2026-10-02T18:00:30.156487+00:00",
-   "what": "YouTube aktualizuje doporučovací systém pro Shorts, aby upřednostňoval originální videa od tvůrců a snížil dosah kanálům, které pouze znovu nahrávají cizí klipy bez větších úprav.",
-   "why": "Změna ovlivní organický dosah účtů, které spoléhají na agregaci obsahu. Pro firmy a tvůrce s originálním obsahem může naopak znamenat lepší viditelnost ve Shorts bez nutnosti navyšovat rozpočet na reklamu.",
-   "takeaway": "Pokud vaše značka na YouTube Shorts používá reposty nebo minimálně upravený obsah z jiných zdrojů, počítejte s poklesem dosahu. Investujte do vlastní tvorby nebo spolupráce s originálními tvůrci.",
-   "importance_label": "důležité",
-   "multi_source": true,
-   "image": "img/8b73012736.jpg",
-   "image_from": "about.fb.com"
   }
  ],
  "persona_rescore_v2": true,
