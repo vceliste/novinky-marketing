@@ -1,17 +1,17 @@
 {
- "last_run": "2026-11-15T12:03:16.289233+00:00",
+ "last_run": "2026-11-15T18:59:40.600865+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 0
+   "new": 2
   },
   {
    "name": "Digichef",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 4
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky-samostatne/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Collabim blog",
@@ -101,7 +101,7 @@
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Search Engine Roundtable",
@@ -225,9 +225,9 @@
   },
   {
    "name": "SmartEmailing blog",
-   "feed": "https://www.smartemailing.cz/feed/",
-   "status": "ok",
-   "new": 0
+   "feed": "https://www.smartemailing.cz/blog/feed/",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, application/rss+xml))",
+   "new": 2
   },
   {
    "name": "Mailujeme",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/feed",
-   "status": "chyba: empty feed (HTTP 455, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 2
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -413,53 +413,6 @@
   "Lupa.cz": "https://www.lupa.cz/rss/clanky-samostatne/"
  },
  "seen": {
-  "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-sponsored-results-showing-label-misalignment-bug": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.marketingaiinstitute.com/blog/ai-powered-marketing-maicon-2026": "2026-09-16T15:04:13.639386+00:00",
-  "https://about.fb.com/news/2026/09/threads-expands-podcast-toolkit-for-creators-and-listeners": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/sledovanost-nedelni-debaty-zatim-dosahuje-369-tisic-podobne-jako-loni": "2026-09-16T15:04:13.639386+00:00",
-  "https://ppchero.com/proving-the-value-of-paid-search-with-incrementality-testing": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.searchenginejournal.com/mit-anthropic-openai-sent-the-same-warning-get-your-evidence-house-in-order-now/589249": "2026-09-16T15:04:13.639386+00:00",
-  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQckxuT2Z1eENYTnZWQ1A2VGlhQ0k3RGRUYXBrOTJ2Rm5tdXlzdXh3b1NYS3BYU2ZOYmtiS1MyMnZpbTJyVW9yMDJVUzZOSGJVc1dqTW43al93b21sSWRyQ1dzWnZtWjI5cXV4bUJvUk9PcnV4alNVdlo5cXl1bzRGNW1PU2k3YUhBaDItWUJZLWNjdkdINWxzQnM3cTdDR09ieVRtQXJtcVVfWXdL?oc=5": "2026-09-16T15:04:13.639386+00:00",
-  "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents": "2026-09-16T15:04:13.639386+00:00",
-  "https://cc.cz/nadrazi-holesovice-ceka-velka-promena-na-nevzhlednem-miste-vzniknou-dve-nova-namesti-i-vyskova-budova": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.lupa.cz/aktuality/cesky-deepnote-se-dostal-zkratkou-primo-do-chatgpt-openai-ho-pridalo-mezi-nastroje-sveho-ai-agenta": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.searchenginejournal.com/how-to-detect-affiliate-brand-bidding-and-hidden-revenue-leakage-spa/589274": "2026-09-16T15:04:13.639386+00:00",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdnRNWVlEUVd4SU5jeVloLXpFM3p1eW9mZE51WkJKbjB1S2pfSDhnUW5jWEJjZWFLaUxYSExwc3YyeVNZZENWYVQ0cDNXRFFoVEticmRMUmlhTGNPNVc2a1hsQjNSZEpFN2tMaFVIRW84Z21UQTRXWm5UaW4zNmJhVHRJcnV6UQ?oc=5": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/recap-09-16-2026-42100.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-merchant-center-ai-updates-42095.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping": "2026-09-16T15:04:13.639386+00:00",
-  "https://blog.google/products/ads-commerce/rethink-2026": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.lupa.cz/aktuality/nepiste-svou-recenzi-nam-nadiktujte-vyzyva-zbozi-cz-umela-inteligence-pry-lidi-pochopi": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediar.cz/sparta-a-plzen-vstupuji-do-evropske-ligy-uefa-prenosy-da-nova-sport-5-sport-1-a-2": "2026-09-16T15:04:13.639386+00:00",
-  "https://cc.cz/vytvorili-rekordni-hity-o-spider-manovi-a-ted-krvaveho-wolverina-marvel-nas-v-tom-podporil-rika-reziser": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/hynek-chudarek-dostane-plny-bonus-odmitl-ruseni-detske-tvorby": "2026-09-16T15:04:13.639386+00:00",
-  "https://martech.org/does-anyone-understand-the-cdp-market-anymore": "2026-09-16T15:04:13.639386+00:00",
-  "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask": "2026-09-16T15:04:13.639386+00:00",
-  "https://martech.org/iab-tech-lab-proposes-new-rules-for-programmatic": "2026-09-16T15:04:13.639386+00:00",
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jMGRnaWUtQ3dsaXJDY2F1X3F1R3FxakM2allORjktRHRUU1RJUGl2ekdoMzJsdG82WW5Sbm5vZGlTRElhMlpwUC13STZLZ1UtTURXaWNtNGN6ZmhXeWQyaTdNR000QVJmUnJYcWtIR3hRbGRZb3hpWEF2Yw?oc=5": "2026-09-16T15:04:13.639386+00:00",
-  "https://blog.youtube/creator-and-artist-stories/new-artists-youtube-music-foundry-class-2026": "2026-09-16T15:04:13.639386+00:00",
-  "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.searchenginejournal.com/beyond-content-parity-building-a-validated-content-workflow-for-ai-search/586184": "2026-09-16T15:04:13.639386+00:00",
-  "https://blog.hubspot.com/marketing/creator-economy-ai-reckoning": "2026-09-16T15:04:13.639386+00:00",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE90S3hYdktfeDlhaE52bkctU09mQmFneWZjOG1meEtpTzdydWptaG1qTmVMaU5meDRza2ZHa0hvcGJjSTI3aDdQQ0dYVHNYYTZGNklXVWhrMTFKS3E5TTAyREdiY0I1aUFnWXo5ajZCMURESDZjQ25BNw?oc=5": "2026-09-16T15:04:13.639386+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/microsoft-ads-api-returns-editorial-reasons-for-assets": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-images-suggested-by-al-42096.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-product-listings-direct-merchant-42089.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://cc.cz/heureka-chce-upozornit-na-realne-ceny-nove-ukaze-kolik-zbozi-stoji-u-konkurence-i-co-jsou-slevy-a-akce": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-ads-multi-source-conversions-42080.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/bing-sidebar-shopping-filters-42084.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-ads-spend-benchmarks-report-competitors-42097.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/billa-vraci-do-sve-aplikace-zradce-soutezi-se-i-o-toyotu-yaris": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.seroundtable.com/google-search-console-ai-reporting-change-42099.html": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.searchenginejournal.com/ex-googler-jeff-dean-explains-what-users-should-understand-about-gemini/589593": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/skoda-auto-prodlouzila-partnerstvi-s-narodnim-divadlem-do-roku-2029": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.lupa.cz/aktuality/kijonkova-zainvestovala-americky-startup-ktery-vyviji-chirurgicke-roboty": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/garmin-spousti-image-kampan-poprve-vznikla-kompletne-lokalne": "2026-09-16T15:04:13.639386+00:00",
-  "https://contentmarketinginstitute.com/audience-building/build-direct-audience-relationships": "2026-09-16T15:04:13.639386+00:00",
-  "https://cc.cz/driv-je-lovil-dnes-zasvetil-zivot-jejich-zachrane-vombati-farme-v-australii-pomaha-i-ceska-technologie": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.lupa.cz/aktuality/jak-chranit-deti-pred-online-riziky-ci-jaka-prava-mame-vuci-ai-ctu-spustil-digitalni-majak": "2026-09-16T15:04:13.639386+00:00",
-  "https://www.mediaguru.cz/coccolino-uvedlo-wonder-wash-na-eventu-s-petimetrovou-vezi-z-pracek": "2026-09-16T15:04:13.639386+00:00",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZGJxWEt4Mjd4TGxIRWxhWkFSdkUxN0hTdUVYbDdyR1htUVZfbkQ1aFVnZFQ4WWE2LUNvTkc1U2V5clU1LUcyTko5cGNPQ3Z4S0NHcFVvZXdVX2xnSkRueXhfVzRMMDU2RFNWUGhnMF9fM3EwLXY4Q3Vjc01nTk5yU0h6WUpQbVY4a25ZLU9RYzZsblc2eDhYUGVXRnh6YWZUU1BySklUSGVlcVlRZ3hCNzNid0tOZ3NXeFljY25wamNFb0hCMGhPWXFBNkM?oc=5": "2026-09-16T15:04:13.639386+00:00",
   "https://blog.hootsuite.com/manage-multiple-social-media-accounts": "2026-09-16T19:38:27.396484+00:00",
   "https://cc.cz/tak-velke-finale-reality-show-tu-jeste-nebylo-cesti-zradci-chteji-vyprodat-o2-arenu": "2026-09-16T19:38:27.396484+00:00",
   "https://blog.hootsuite.com/social-media-measurement": "2026-09-16T19:38:27.396484+00:00",
@@ -5737,7 +5690,21 @@
   "https://ppcnewsfeed.com/ppc-news/2026-11/google-documents-how-url-exclusions-work-ai-max": "2026-11-15T12:03:16.289233+00:00",
   "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEJkcG5CMFVhcExFSnNjeXVhVEZVR2p0dUZ6cElJVUxBUHFWaWZObUh2a1ZEeXRPLThTWGk0VVctUlNNcllHQ1E1aHRkX1NGNktTWFBZWkNjc3czTmdfdktzc2djTnBpTEdHTTBKTEVKYllobG5UMm5pS1pqX201cllRTExuSFo4QVBtZFBLZEJNSkFnSlFjMmVibEVQcWVyb3ZmbExlYWJEa2Y1TkZxbWd1dzZ2OXdlMTZRYkl4RXRVUHBTZDZfTHlsMmREMWhUeFZhUGtpZUk?oc=5": "2026-11-15T12:03:16.289233+00:00",
   "https://news.google.com/rss/articles/CBMihgJBVV95cUxPR05iZzRqLUJTNGRjbk1MYjFaTE1HX1phTGZiTmg0cW40RDhLNXlLMUhSUmU4S0w5UF9fWWJ1d0xxWktXVE9YckttT2UzRUt6aXBCaldrZF84UzNnTnRjU1JXeHQ5X1NmUVdGVTRRR3RFNTZpZWs0Y0JJRm03RTAydl9BZWlha3Vuc3RjV3VZRXVocWhfU05tc19abmRxTjJhMzh5M2RNb2xjYVdqSlc5S3pKM0YyLVJYUGxXbDBUR1RKN2RiaWZYX0JucVJGOFhweXJib1o1ZmZOa2gxOXRPWk1RXzAxUHdmX2JoblUwYVgwYXdtYllEc2hURE5BYnQ5NGhfZ1hR?oc=5": "2026-11-15T12:03:16.289233+00:00",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRktNS2pyVVB5SXZXSDRNUTFIUHBwMWVPcUEwNkNRSUlHZ010S2p5QWFCc0pWOFpucE9rZHpVNUxac09pblNBd09hTzExMXh3cjZtYTZJaHVrOURzaUJPb1FuNlBGWlBYdllJOXYwTFZaNUZBbHFKT3dWYzk2a2lhWkRWb1BIUQ?oc=5": "2026-11-15T12:03:16.289233+00:00"
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRktNS2pyVVB5SXZXSDRNUTFIUHBwMWVPcUEwNkNRSUlHZ010S2p5QWFCc0pWOFpucE9rZHpVNUxac09pblNBd09hTzExMXh3cjZtYTZJaHVrOURzaUJPb1FuNlBGWlBYdllJOXYwTFZaNUZBbHFKT3dWYzk2a2lhWkRWb1BIUQ?oc=5": "2026-11-15T12:03:16.289233+00:00",
+  "https://www.lupa.cz/clanky/kvantovy-procesor-s-tisici-qubity-oprava-ai-modelu-bez-pretrenovani-hybridni-qubity": "2026-11-15T18:59:40.600865+00:00",
+  "https://www.mediar.cz/zpravodajstvi-zustava-poslednim-zanrem-ktery-cesi-sleduji-hlavne-pres-antenu": "2026-11-15T18:59:40.600865+00:00",
+  "https://cc.cz/mozna-nemate-nadvahu-jak-vam-dosud-tvrdili-nova-metoda-muze-zmenit-diagnozu-milionum-lidi": "2026-11-15T18:59:40.600865+00:00",
+  "https://www.mediaguru.cz/cap-pripomina-obeti-dopravnich-nehod-pietni-instalaci": "2026-11-15T18:59:40.600865+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/ai-public-figure-impersonation-ban-clarified-google-ads": "2026-11-15T18:59:40.600865+00:00",
+  "https://cc.cz/robot-postavil-poprve-zcela-sam-zarizeni-v-kosmu-je-to-budoucnost-dobyvani-vesmiru-a-expanze-lidstva": "2026-11-15T18:59:40.600865+00:00",
+  "https://cc.cz/hravou-platformu-dostali-na-tri-ctvrtiny-skol-deti-se-s-ni-uci-jak-na-triky-e-shopu-nebo-prvni-vyplatu": "2026-11-15T18:59:40.600865+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/microsoft-upgrades-search-term-reporting-ai-max": "2026-11-15T18:59:40.600865+00:00",
+  "https://cc.cz/nvidia-s-jensenem-huangem-vystoupala-na-vrchol-teprve-ted-se-ale-ukaze-jak-dobra-firma-to-je": "2026-11-15T18:59:40.600865+00:00",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEVvMmNfN01hWnIyWW1FMmszYkp6QUt0aWdFOXNtU3lfZE1WMGtudTJEYTA5cVV2UXFGYU5pSENVcjB5UnlZX1JPXzV3eXdwYUJ2akdqMkxhVlhFRlM1NlZVbjdHZll4a200cWwyY0xCWnJQN1ZTS3VYOTZza0ZGd0hZd0ZyYlZuYndQSHZhaE9QRXpUZFFwOUsyMXZnTEpsb0haTTVVS1BXMV9FcmZjWTJTNTVDVWxNeWdOTDQ1UnBHUmpZN056SG9SZzRtUG5JMkEteQ?oc=5": "2026-11-15T18:59:40.600865+00:00",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbFd6SDE5b1RGZkN3eE42cWtYQWRyYm5Ldk5IZmxTeExtZkRGM2NxS01rX2xXcXJWMXM4Zzh2VmxPQmVnVDZqV2N2a2sxaExiNUNVTHFuaFBFRmtfb3RMRS1OX0x0T2N1cGRxNjZpa3pPbG82ZlBBR1drS2xReGtsd1NibFFNSHNnRjZnN3F5R2k4M3F5V21pTHc5YndsZEx0ek1EVXFWT3dHZjNDWEZrd2kyTEh2ZDRSNTl5b0VUWEw4eFg0UE9rVFJJQ3ptUQ?oc=5": "2026-11-15T18:59:40.600865+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR3NfUEpBNnczQ3QzU0o0OU5IQVRsNmhXUlFuZEJwUVVRN1VQLTlzNEFUVHpqZE5DeEVLT1lPRmlDZzhtZ0pHTUZXR2tfbWNSYlNWWVhjblpEQlp0Z0N2VUk2cGtkVlY0R3R6LUZuLTY2cTA5UGlHeGVRNzlFSXJPUXJnMjFPc24xNjdDdm5hSm5JWnQ4UmNZbG91N1pQSHZoenNSazh2UU5BNlVuNFREM1B3d09aTVJIY000cVgxa2JvMnJ4cE41aXhR?oc=5": "2026-11-15T18:59:40.600865+00:00",
+  "https://www.mediar.cz/dansky-velux-sveril-pr-v-cesku-agenture-konektor": "2026-11-15T18:59:40.600865+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2NISmxNWDhvTGJyMEdhLVdqYndUWjNaa2FiVktjdlJvd2NibUlsVDlyN1dwMUVVQXJRY2VXX3BhVGtrV1RWMEZGSG0yZ2h3ZDBpb05CT2lrZkRwN19RNjhQV2JYdHE2YTVnVkJON0Q4UUJYVVVPUmwxNEJLNjRqM1NhR3VzTXRZYlB3TEdCcWhGTWE2UnVkeVgyQXBsVWUtaU5vbm9vWmRmdldBb0I5clpRcUM1ZlBwTXRBR1Y2eEE?oc=5": "2026-11-15T18:59:40.600865+00:00"
  },
  "events": [],
  "persona_rescore_v2": true,
