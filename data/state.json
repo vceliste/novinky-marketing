@@ -1,23 +1,23 @@
 {
- "last_run": "2026-11-25T14:37:45.120600+00:00",
+ "last_run": "2026-11-26T00:33:00.502071+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 8
+   "new": 3
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 4
+   "new": 1
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 8
+   "new": 3
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky-samostatne/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -77,13 +77,13 @@
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
    "feed": null,
-   "status": "feed nenalezen",
-   "new": 0
+   "status": "ok (Google News; přímý feed: feed nenalezen)",
+   "new": 1
   },
   {
    "name": "APEK",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 7
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 3
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 6
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
@@ -119,7 +119,7 @@
    "name": "Ahrefs blog",
    "feed": "https://ahrefs.com/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Semrush blog",
@@ -137,7 +137,7 @@
    "name": "Yoast",
    "feed": "https://yoast.com/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Pavel Ungr",
@@ -185,7 +185,7 @@
    "name": "PPC Newsfeed",
    "feed": "https://www.ppcnewsfeed.com/rss/",
    "status": "ok",
-   "new": 3
+   "new": 1
   },
   {
    "name": "Hana Kobzová",
@@ -262,14 +262,14 @@
   {
    "name": "ActiveCampaign blog",
    "feed": "https://www.activecampaign.com/blog/feed",
-   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 404, text/html))",
+   "status": "chyba: empty feed (HTTP 404, text/html)",
    "new": 0
   },
   {
    "name": "Social Media Today",
    "feed": "https://www.socialmediatoday.com/feeds/news/",
    "status": "ok",
-   "new": 5
+   "new": 1
   },
   {
    "name": "Sprout Social",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/feed",
-   "status": "chyba: empty feed (HTTP 455, text/html)",
+   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
    "new": 0
   },
   {
@@ -305,7 +305,7 @@
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Jon Loomer",
@@ -359,7 +359,7 @@
    "name": "Content Marketing Institute",
    "feed": "https://contentmarketinginstitute.com/rss.xml",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Copyblogger",
@@ -377,7 +377,7 @@
    "name": "MarTech",
    "feed": "https://martech.org/feed/",
    "status": "ok",
-   "new": 2
+   "new": 0
   },
   {
    "name": "Think with Google",
@@ -395,7 +395,7 @@
    "name": "Marketing AI Institute",
    "feed": "https://www.marketingaiinstitute.com/blog/rss.xml",
    "status": "ok",
-   "new": 2
+   "new": 0
   }
  ],
  "feed_overrides": {
@@ -413,15 +413,6 @@
   "Lupa.cz": "https://www.lupa.cz/rss/clanky-samostatne/"
  },
  "seen": {
-  "https://cc.cz/jak-vypada-luxus-do-zasuvky-treba-jako-tohle-bentley-s-888-konmi-a-cenovkou-pres-pet-milionu": "2026-09-26T19:17:47.566512+00:00",
-  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWE9IdXo0aEtlNTVwSGd0cUNwbjBzU180dWlneGNmdWNSV1ZKUzNkZXBPY0xDenhiZUlvQ19fa1RqTDV2aVphWlhObXpnOEV6WFNPVWFjeC1XQjhtMDYxX3FORGdpWG5xcWJSZGVIc2N4T2lCbXVFVU96WnRjNkN1MjJEak5NVGlfQmNtWThiQVBUN19PX1h0V3FJeEVfZlFrbjFLeDN2NmF1N1dmQVVSVGVkZjFZTzVzbC00N1JmOUhRNFJUTUZvVFUyOHRfbjlJSG5NVTlBbk1pVTQ?oc=5": "2026-09-26T19:17:47.566512+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3pXRGlTTlBTdTh2ZlhBT1JOVEcxck9Jejd6ZE0wemFCZVZidEx5R0tKRWtQd19IRUt5NmgzRHpkeHhVT2wzTFdHYlRXMFJBbVc3UU4tRnJSUWtiLWlITXlMUjVqQ3pvMDBPblJmVllnVmFjTnhEN2FkTXltY2lmSWh5a2JpVkxOUV9fd09NNDc3Rjh1Nm1nWGpfRzE1a1VLSUNhX3M4dFlZSTRQcTJyVWZHM1hlblVaZ2pzRHVRVDE?oc=5": "2026-09-26T19:17:47.566512+00:00",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CZVNDbGtOYkMxQVNQWm8yWEtveGdMVVBxTktPNG1iYTNhWTdTQ1ZpeEFaR3lDUDByYm04M1lEVDFyRjNtbkQxZkUxN09WZncxeXdXdm5OZ2QzOTF6U2tuYWlneGFiUEMzOVRKeHBOYVZad3FLTFE?oc=5": "2026-09-26T23:02:21.165055+00:00",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ON2doWURfUFJ3MVBQZkhkNHJCa3A4YWV6eTBwaGU5TjlRTXUxRXJJVHdFV0VCalZ2RkVvcGdyYnVoeWF6QXdlcHdES0YxcHFOWDBCRC12X0hkTjh6X1ZRLWc5NkxWUTFySnZnZUZxYnN5NHJ2?oc=5": "2026-09-26T23:02:21.165055+00:00",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jY212d2s3YmVXbEg2V0tYTy10bWo2N1lCV2JRc3FlRjRjZGIzMlNUUTRvRzRTRU1XSEluVFI4Z1owcnBwVzVlSW94OUFjai1iZDdPT3o1S0lnYlpHTTlsRF9qMGtKWVY5N0J3?oc=5": "2026-09-26T23:02:21.165055+00:00",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcGtJa0xRbFNJQzlvOXJnMGlKY0hZLUQxTDNVVVA5QnRRZkF5SXdjU3lXRWRiTlZmMmxtREExWXQ1N1FlV01TNXV0bVNZZmdNMFZyNXlZT0t1aWtaZVZRM011ZmVEa0xiN2huYi1OT0I2RVVhbG1hYklqNlp4MlVWQXQ5UXpLdmVoMjV6UVZLcy1uYzZVYVBqellad0RPU0xYWUZvLXZIQ0EyMlJId3JxUlp4NUlrX0RORC0xbzIwSllzeGFXVXlJRQ?oc=5": "2026-09-26T23:02:21.165055+00:00",
-  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOblpTQ3FISFJCRU54OW5CUlgyWVdJclZmUHlZaExRMHVuclRXQUc2X3ZjUlBDLUd0Um5QN2t2cDlRc3FXbmZSekRZQll3YTdEWTJFWFBhVURQd0tlNDdwZ2lpM1IxSXN0RDliUHhiSjloMEpOczFSUXBUUExhSVVtQlB6TzRReWlwNXpZMjZDbGxQeFRGWmsyd0ozNERVMVgtRkh5dTlRNmVVMUhheVc0OVlRd3R1eUJ5R1prS1QzRnk4VFk3VnltMVpMMEJURzU5U3ByRnFhei1CVTZzZVE?oc=5": "2026-09-26T23:02:21.165055+00:00",
-  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Kc0FVem94U24xUngySGk0bWltT2ppanFkbEZBci1jZmc4ZGJqTEpudXB6UmI5MllZVF9hcDVBS194blotX2NZWGkwTGpZcW5LNWc?oc=5": "2026-09-26T23:02:21.165055+00:00",
   "https://cc.cz/cerna-kabina-v-jihoceskem-lese-mela-slouzit-jako-galerie-i-utociste-projekt-nakonec-vznikl-na-sicilii": "2026-09-27T10:06:22.165708+00:00",
   "https://cc.cz/odjel-sam-na-hory-a-premyslel-co-koupit-michal-semotan-popisuje-jak-v-ppf-stavi-portfolio-od-nuly": "2026-09-27T10:06:22.165708+00:00",
   "https://www.mediaguru.cz/sobotnim-vitezem-jsou-zazraky-prirody-u-mladsich-fotbal": "2026-09-27T10:06:22.165708+00:00",
@@ -5626,7 +5617,36 @@
   "https://www.socialmediatoday.com/news/meta-says-festive-shoppers-use-social-media-for-gift-discovery/875523": "2026-11-25T14:37:45.120600+00:00",
   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTWZpWWJzZHBqdDNhU3hQYldJOWw5cS00cFpJeDJGN3AtTzd6VTduajFFVHF1R3NkM25leGFmODZUUU9nM1FGeUJQcWRPMldVZzU2YVhpVlNWdTRRUXBHQ2RPTS14ZDFlNUJZQXZ0LVN6M3hqNzhsXzJpU3JLaW5Femt2MHdYWi1RUVlsbXlZZ1VqejBMYUg3c18yaWo4NmhUbk9MVWVOMjFyR1lVbWdJVV9iRkpFdTlWODFLNTJXaEdZeFU?oc=5": "2026-11-25T14:37:45.120600+00:00",
   "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNEtnaUtJM1FQaXNUWm9Wei0tNjV5dDlDeVJBVmRqdWNNOTN4eFFGdGNFOU9nSHV1elJzUkZvYXNVSUpyRlZONVMtalBiQXlOcV9XakdRTFViclZPVTJDMW5GZzNhajYwR1pvUEUyeTgxSEZwb0U3dkg1eFdCTGoyMTdQT1NlQndaQk1mdmJaSzc0Sk1hTDk0Y1otcW15amNiUG1GQjljTGNBWTE5Tmt3UFhXVTZuaUxJM01RVldwQ2FOcm9KWXFUcFNVQzFpdFNCdTZmVUhKNFRTRGRwWFE?oc=5": "2026-11-25T14:37:45.120600+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWVZXeDV5cnYzOS1NYlVxWnRkMmE4V1hfa1NGNThVX25sZXpVSG9Hdm1sQTVGcmdjLVNhMGQzS0cxcGNMQWlMcUZNbHJnWDgzSWJ3RnllRDRwcG5TbXI5eURfZHJDOU5wb0s1TmlvX3Q2ZGNJUEREZ0stQkx4T0cyNWJDektEZVBMM2lQR1lDRDhnZ2VIWE5KRTE0S1JRTElFZjNETlJsRGNyZzRaU2x4bWJ6MktmWC1LbjJ5MFZveTc?oc=5": "2026-11-25T14:37:45.120600+00:00"
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWVZXeDV5cnYzOS1NYlVxWnRkMmE4V1hfa1NGNThVX25sZXpVSG9Hdm1sQTVGcmdjLVNhMGQzS0cxcGNMQWlMcUZNbHJnWDgzSWJ3RnllRDRwcG5TbXI5eURfZHJDOU5wb0s1TmlvX3Q2ZGNJUEREZ0stQkx4T0cyNWJDektEZVBMM2lQR1lDRDhnZ2VIWE5KRTE0S1JRTElFZjNETlJsRGNyZzRaU2x4bWJ6MktmWC1LbjJ5MFZveTc?oc=5": "2026-11-25T14:37:45.120600+00:00",
+  "https://www.seroundtable.com/chatgpt-ads-updates-42623.html": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.mediar.cz/effie-2026-vysledky-philips-fuse-ohol-si-ptacka": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.mediaguru.cz/effie-nejvic-zlatych-cen-posbirala-kampan-ohol-si-ptacka": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.marketingbrew.com/stories/humor-niche-targeting-marketing-columbia-goodwipes": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.searchenginejournal.com/ai-shopping-agents-bought-a-fake-deal-37-of-the-time-claude-opus-never-did/598682": "2026-11-26T00:33:00.502071+00:00",
+  "https://cc.cz/uz-u-pohovoru-slibuji-ze-lidem-pomuzou-dat-vypoved-z-odchodu-nejlepsich-lidi-pak-firma-sama-bohate-tezi": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbVI5aFZKV29DaG10RTZBRVhfWkJVeklUeHdQLU41bzliTS1kWVhXNTFkdmtpX25hYkRjcmlqWHZtQjFBM2VmNnRqdnVZWUFrMzRMWE5zd3dBcmRDdFdBTDM2V282YjE3SzhuX1N1eEl5ZlRYaGZ4c25KMmdNNzZ0WjhUSEFKVXF1UHVWY21ESWxLd2l5QnNxeEk2cHdRUGhicFVTUGFpNW94SUM4cEpTNzBFOUpSN2dPUF90WjlqQmE?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.searchenginejournal.com/top-publisher-league-tables-for-us-uk/598933": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.mediaguru.cz/europoslanci-schvalili-rezoluci-k-ct-a-cro-chteji-predvidatelne-finance": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmotQ2ZrVmFBQTRoejVsSFNUcUxpcmdmdENCREplcFJTbzZDTzRxdzdCNXhMV3A0aWtFeEZLeG1CNGNHV1Z5S1ZNQ2UwckVEMUlmR3pETExnNTlDcXMzNEZFd3JvUF9XbExIYVBCaldGS1luRURaZjVPbGViYWx3VVZaQUNCZHMwY1N1c1RGbXpBeF9HM2V5eGJ0QjQzS0k?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON3pQOXN6X0s5LUE4dXYyT1RzZl9HM1ZzR2NyZkNlSVprTFdEOE9pdVk3ZTNlcGMzWVJqa3pqb0c2M01MTUtZdzNzbko3ZUJCSEJvOUhYZUJZNUtOeW5OTU56aGxfSnJjWC1pYmo0Z0RjZjZmM0UtaHhSbXI3MExGN19XNWpDbGtZZFN5cDNIZHB1N1V0RjU0NWtKTkRXUmNaWUNQTlI5OF9ud1pxNTcyazdwNUVjQkJqeG5j?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQk4zY01zSndHOTdFQUhlbVpYMllEMlN6ejM4X2dXejByR283aXhMVTRTNDI5N0FyVTM2UmliYTU2ekVwTzllSlJ3QWhOS3FhZlFFWHY2dE50dEU5eEEwRmNMVEZsLVVKSVUzbkUwdjltVXJwQVhKMnZwMjVkbmwxVjZhR1ZjVjRsOGZaU2ZjRHFzNmt0czVQMHhwSlVSTERT?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWEJRV2FuN0F3OHktRnhCb1BNdExVNTJ6cGpSLUZ4OEltTHlNU05MemNvQ01sd2RSb2FCcTBkV0Njazh2QmdsNlRCZkxrY2RjUGFNRC1NLUVCYy1iMWRfdHJyMzVRc0d4M2RjQ3hOMjQzODB0MjJYTHE4VGoxNUJwdnR2d0Rwb0F0Ty1wVGM2V3RCeVg1dms5Z09GMHJJSnZ5ZW1panVMR1hjeVpw?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yYXMzS3ZhYWROdU5YNFE2S3JyTWtLcGpYUzhmak1CMEJOVFZvMm9JeEFfb0RKT2VBZ2JuQ2d0TVFoWC13bjREanhjblRNU0RtbFlPekhadUVyT0luQy1WZURwdjhzVnBYLTVEZHRjMVlxd3k5SFFmU1hzMWtrTXc?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWcEhtZTg5TEQ1ci0wM0g1bDhiM2FRNTl1a0d6ZW9VU3lkaXhxbl9ldHViTE5WZWp0dWRNOFR1R0xkY0hRd05wdU1UMW5WaGktaTlFa3I4Ny1XdzQ2Zkh5WU1mOHRPbWs?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.marketingbrew.com/stories/tech-ad-spend-growth-ai-industry-slowdown": "2026-11-26T00:33:00.502071+00:00",
+  "https://cc.cz/konec-ceske-ery-kiwi-com-letenkovy-vyhledavac-olivera-dlouheho-kupuje-americky-gigant-expedia": "2026-11-26T00:33:00.502071+00:00",
+  "https://cc.cz/stres-stoji-firmy-pres-37-pracovnich-dnu-na-cloveka-rocne-odborna-podpora-se-bohate-vrati-rikaji-v-mavie": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.mediaguru.cz/ct-zajistila-vysilani-zimnich-sportu-na-dalsi-sezony-biatlon-startuje-ve-ctvrtek": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGJDUHppakNRQTZNUjJkdWItc2J3alFRd0hpLU81NnVZcTB6dDBzbjlFTFNRU25XUXQyem5QU29fX1JCX3FSYXJtTWpRNkh3Ukx2bVJPcmlvM1lfWnk4bF92bzRFRnhFVTdIT2VXWFQ1MVl1OFNSMk91cUlFSlVqLXFHWV8?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.seroundtable.com/recap-11-25-2026-42619.html": "2026-11-26T00:33:00.502071+00:00",
+  "https://ppcnewsfeed.com/ppc-news/2026-11/november-demand-gen-drop-enhance-campaign-performance": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.semrush.com/blog/how-to-get-backlinks": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTEydElXMFVXczlVSG41bHpyMWVnTGJpTkVBZzdkNmVJRXZ4dllSWFNDdXFxdzhTLWpseWxZN1NYTl9uTzllSVpZaDYyNXdIT0VDMHlMN3gzUEwwXzd2MVpBbUt2YXFTa2FjRUpZSXgweWVfQU4ySnlOdFRjTElJc2VGVEdJMENKWUE4?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM1NHWW1xVTBMR3NVazNNNVEwbERrLXFrSzkyZ0ROMGRINkJfY0ZiR1RYWU9qZjg1WHBwendtMWZCaFU5WkFGa1ZTaTctcXFZTjA0dXdOVVljeGg3WUVHRkt4VHpRU1ZzY3JUdjFOcVFrZ1l4R3kyc1RNdlRQWDVyT2pGV0swckNOSDF5NlJqazVmdlBHd2JLdnJodHhuN1MzZWRXbVg1djB0M3FQS20yTlVsTl85bFNDUS0taTR0SEdEQ04wZ05fMHR5cGdHdw?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://www.socialmediatoday.com/news/meta-says-social-media-is-key-driver-for-holiday-discovery/875523": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeGNCbzN2MnRJazNCWlVmWGpCV3dGYl9heGtzM3lCQjJKSVlzOG5LcU43UWFyMHpqWVVCb0RYVzBMalo4RHJBN1NSNDBQRjBtN29WcVU5VWtGN29rSXg5QVdwLVU5aFZmUzNaNm83VURxdUJGQ2VwVmktN2hBUldJQkd4Wl9xaVc2alRFaURTeUlDMnZsck5xVG1JN08yTEQ0NkItcWRhNE1COWxvWnJSbzVvbGpiamFLZldYcEJ3Vklpdw?oc=5": "2026-11-26T00:33:00.502071+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxObUNsNUxrQUNZYWxzMnhkWXdRblFmSFQzcC1hWEFhdjN5Zmd1VEZUTllzU0cxSWdkMEthb2ktS0p6Vm92NTJNelNCeG9YMmRKWDA4Qm0zczcxMlZVMjBxWktvYzNJcHVyeVFrTW9DcXFyeHhScWlHbE1vRWh0dDVXdXFhR3Fid2liMDViaThfNDBvYmdUY0hWQkZYSQ?oc=5": "2026-11-26T00:33:00.502071+00:00"
  },
  "events": [],
  "persona_rescore_v2": true,
