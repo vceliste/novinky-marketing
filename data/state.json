@@ -1,23 +1,23 @@
 {
- "last_run": "2026-11-27T14:01:31.829269+00:00",
+ "last_run": "2026-11-27T22:47:37.370759+00:00",
  "source_report": [
   {
    "name": "MediaGuru",
    "feed": "https://www.mediaguru.cz/rss/",
    "status": "ok",
-   "new": 6
+   "new": 1
   },
   {
    "name": "Médiář",
    "feed": "https://www.mediar.cz/feed/",
    "status": "ok",
-   "new": 3
+   "new": 0
   },
   {
    "name": "Digichef",
    "feed": "https://digichef.cz/feed/",
-   "status": "ok (Google News; přímý feed: chyba: HTTPSConnectionPool(host='digichef.cz', port=443): Read timed out. (read timeout=15))",
-   "new": 1
+   "status": "ok",
+   "new": 0
   },
   {
    "name": "eVisions blog",
@@ -35,13 +35,13 @@
    "name": "CzechCrunch",
    "feed": "https://cc.cz/feed/",
    "status": "ok",
-   "new": 9
+   "new": 1
   },
   {
    "name": "Lupa.cz",
    "feed": "https://www.lupa.cz/rss/clanky-samostatne/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Collabim blog",
@@ -71,13 +71,13 @@
    "name": "Marketing & Media",
    "feed": null,
    "status": "ok (Google News; přímý feed: feed nenalezen)",
-   "new": 1
+   "new": 2
   },
   {
    "name": "Seznam blog",
    "feed": "https://blog.seznam.cz/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Heureka blog",
@@ -95,19 +95,19 @@
    "name": "Search Engine Land",
    "feed": "https://searchengineland.com/feed",
    "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 403, text/html))",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Search Engine Journal",
    "feed": "https://www.searchenginejournal.com/feed/",
    "status": "ok",
-   "new": 2
+   "new": 4
   },
   {
    "name": "Search Engine Roundtable",
    "feed": "https://feeds.feedburner.com/SearchEngineRoundtable1",
    "status": "ok",
-   "new": 7
+   "new": 2
   },
   {
    "name": "Google Search Central Blog",
@@ -125,7 +125,7 @@
    "name": "Semrush blog",
    "feed": "https://www.semrush.com/blog/feed/",
    "status": "ok",
-   "new": 0
+   "new": 1
   },
   {
    "name": "Backlinko",
@@ -149,7 +149,7 @@
    "name": "Lumar",
    "feed": "https://www.lumar.io/blog/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "Rank Math",
@@ -286,7 +286,7 @@
   {
    "name": "Síť v malíčku",
    "feed": "https://sitevmalicku.cz/feed",
-   "status": "chyba: HTTPSConnectionPool(host='sitevmalicku.cz', port=443): Read timed out. (read timeout=15)",
+   "status": "chyba: empty feed (HTTP 455, text/html)",
    "new": 0
   },
   {
@@ -299,12 +299,12 @@
    "name": "Meta Newsroom",
    "feed": "https://about.fb.com/news/feed/",
    "status": "ok",
-   "new": 1
+   "new": 0
   },
   {
    "name": "TikTok Newsroom",
    "feed": "https://newsroom.tiktok.com/en-us/rss",
-   "status": "chyba: empty feed (HTTP 200, text/html)",
+   "status": "ok (Google News; přímý feed: chyba: empty feed (HTTP 200, text/html))",
    "new": 0
   },
   {
@@ -413,52 +413,6 @@
   "Lupa.cz": "https://www.lupa.cz/rss/clanky-samostatne/"
  },
  "seen": {
-  "https://blog.hootsuite.com/social-media-tools": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/mit-harvard-data-show-how-seo-and-paid-media-managers-become-directors/590669": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.mediaguru.cz/univerzita-karlova-zkouma-vliv-algoritmu-na-poslech-hudby-hleda-zajemce": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSmEzc1lYWUtOQjAyZnRHOFVMN216YVplMWtHUlFnRGMyY25DY2VqcngxbmhsN2JjN1pJeEtzLTVfdnlFOVprR1BCY2h5ZnI1b1ltcGFkR2hpNlNFbU5SRWZsLTdXUlBBRDRTOFJlZG5mMzRyVDVDb1NkdTJoeGtOVnJzbXA1a1ktZ1ljZjNZdXhqbHRVeU9oMA?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjhNZEtGS003TGRldlJldmRlcFh5dzBma0VSUlAySDNjbFlkc2gwdlRuYTZTWFpoMWFOZllHNkFHMUFKQnozZERQMFVVZEVVOFZHMlFWcjRsN1VMbVF0aUFzemtDN0VTcUEwaVpMV3hNOWd1RlF4RFJNa0t3OUltZXJlbTBTdE80XzIybXhaVzdkcmtybVRDb2RrSlU3SUZPaXowb21WRkJSVVg0dzhmV19R?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQalpYZUs5VS1LTnAxV1NHa2VsX0RzamVwcmR1OFlFOEJHR2FaeHhldzdJNHFWN2ZIY3V3NjdGLU1kVzNSMHVYc25MSkROM2ZIVURwNWFJbjI2TWdITVcyT3BSYXp4Y3F6c2FpTXM5bVhIWjU5Y2RidmhQazFsYzVGaU1zUlk4UkhETzBr?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OYklVdnR6cUNJWTZtTnBzME9weW5SV0tfWGFoVVVFVy1fSUJNZXBUMkpEd2xHOHkzbURpVF90bnJqbTJvMFZzVGlTUS1JR1B5aTdjSkl1TWh5S3ZXRVE?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RTml2dHZEZmNPanh0cnFlNVhyZ3E5R1B3bTFzS1BqbUplb0llRDFkX2F3OW9GMS1EN29sZUNsX2h6SWlUR3BoUVVKUVB6SFRYbXpwMGp5ZlN0M0dFMWhhNHhRZmQyRFdxU1JJ?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://cc.cz/pracovat-od-deviti-do-peti-je-dnes-blbost-tom-krcha-popisuje-jak-ai-agenti-meni-zpusob-jeho-prace": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.semrush.com/blog/llms-txt": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BZURjU3huTHM4MkpmZnVNS2hDcUpvc1RObWE3Y3lFbGk2TE9NbDFnRDZfc3ZZZ1ZDbEQtcFQwNDFuUHVUTTVmSVI2S2dYMkYwWmlWejlHY3ZLZzFrOHVjaQ?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/callrail-makes-chatgpt-ads-measurable-for-smbs-and-marketing-agencies-spn/589843": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jZ24yYzEzb1NveGs0M1VnU3I0LTZOV0NEdzJHb1NHU0hEMWVYUWo3VkRtNmt3OFEzMndCVVhkLVRBMTNZcThsMmZSOEQ4NnQ4R0pVYXpjVHAtcVhNMENJRXBqUDFyLXl5OG00aXB0azgxNklHM0o1eWJJaw?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/the-generative-ai-report-sucks-lets-make-it-brilliant/590679": "2026-09-28T19:45:48.197949+00:00",
-  "https://cc.cz/kyberpunk-jak-ho-nejspis-neznate-neony-prozarena-hra-neslibuje-zadnou-akci-presto-po-ni-touzi-milion-lidi": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wWE5iTUtlODRwSFM2ZXlpeDhJekRMOE5oWHNtS1h2VzNncGJ1bGFzakRBQVhubFRmUVUyX3RuQmZCRDFFb1VvWkgyTGw3NmdRcmZLYXhXbmVYM18ya2hwY3M2V0tfZ21COC01dmNINmdROXV6dnlJTjJCZHFWczg?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/recap-09-28-2026-42173.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/google-ads-adds-conversion-value-forecasts-budget-changes": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/google-plans-to-adopt-ucp-draft-spec-for-ai-mode-hotel-booking/591235": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.marketingaiinstitute.com/blog/rethinking-work-with-ai-maicon-2026": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.jonloomer.com/qvt/meta-ads-local-businesses": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY0IxQ29wSWtOS1g2eVB1ZGo1cUhEd2U4SHh4R0JMRVRyX3Q5Vldkd0FoZ2JIVlRuTHJkckRta1RmbmJhTVl1OVJGVTQySG93WnA3c3dMcGV6cG1LZXVTMFdTdFJPQ2FCVGcyQjU2MkZfNWlUQ25YS0pHM0p3SmJTeWxrRHBZeTFUekVuUEdISDF0VHJ5TTE3aA?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE03ZE9EME10ZDM1WDZTQWJBLVQ0VFVudXpIdkdfb0RtOW9VQm51bXloVzJpRG9Xa1R5SldISk1FdGVBQzkzdkJfRUFUVDQ1MnBaRkdDcnpJRlFzeE9DZ2NHb0hVUlRzQTR3WV9pY2llYVhWQmk2MXM1eg?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://blog.google/products/marketingplatform/360/vertical-video-unification": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.marketingbrew.com/stories/agentic-advertising-trade-group-adcp": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZV9SUHI5MHo2YVAtUUxST0JYQVJ1MHI3MFJSRFNpekdkWDliajJ6ZW9kZUpzbzlTZzEzVUU1dWxHMnN0cEFZbm1yY2RvdXpQb01EeW93WnVpNm94U3dsRWVWZmVzV2M1ZTdNMklXeHlXUVBJVWxWNHNiZmZRRVNEUA?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTE50anBfa2ZGUy1kcXlJem1pY1NMa1Utdnd1eTRsenF5VlJhT3VDLTVVYkVkeHVTUWZuenVBYl9zVUtoUFJVUm8yZThlN1RaajRCMElvckd6elZKWEtEaHJockJaX2R2ZlFBLUJxNkxWbnVDM3FIbWh3?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform": "2026-09-28T19:45:48.197949+00:00",
-  "https://cc.cz/desitky-let-se-tu-sbiral-kov-ted-zde-rostou-haly-podivejte-se-na-promenu-byvaleho-kovosrotu": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/humans-lost-4-of-6-content-types-in-our-localization-benchmark/589294": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMibkFVX3lxTE05YUZzRzEzeDd1b1Q5YVkyWnA0WkNvZHZuTzVKakdTSlk4bGFRdDdxc0ZoV1ZCMkYzTW1nMXc5NjFKRW80VU5OekwybjZOZUZZV2hOT2Q2SjlDelBtQVZjTDViZHFtcERiN0RvY013?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/target-roas-edits-blocked-in-promotion-mode": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVl6MENESDY4cGprd1lPeG54b05uNDl3YW5XbHZRVXUybERPQzgtczdwYldjTVpZZU5lTDJITUhsSjhOY01yb0wzWnVxMGd5aTdJZFg0SVMwM0xSTS1adklpNm9zRUxmZE5VOC1oNFluZl9YZzN5TXl5OXkzalVvbA?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-september-2026-spam-update-weekend-impact-42174.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.searchenginejournal.com/automattic-matt-mullenweg-fail-to-dismiss-wp-engine-antitrust-claims/591210": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-web-search-service-api-documentation-removed-42168.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-merchant-center-policy-docs-updates-42167.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-ai-overviews-loading-button-42170.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://cc.cz/z-trince-pres-korunku-miss-world-k-vlastni-aplikaci-krystyna-pyszkova-uci-teenagery-hospodarit-s-penezi": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-merchant-center-api-help-doc-update-42137.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://www.seroundtable.com/google-search-profiles-follow-button-removed-42169.html": "2026-09-28T19:45:48.197949+00:00",
-  "https://blog.hootsuite.com/millennials-social-media": "2026-09-28T19:45:48.197949+00:00",
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORlk4U1JzazZ3MGx5ZG8tdU9UZTF3R2Jqd1JhZ0hLMWxJbkttRVRWRVFVZW9hVk04aGg5WVhqSmFuQndVQjNvZGNqYXVhX1RPM3o2SXdiU3E4RFRRVkV2OWk5RnB0Nk80cWo2ZmNDN3VJNklpdF9zRzVMMGRpZ0ZVd01POE12VkFkV3pHZnU5ZWdNSTI3bVRfUnY0M1VQMzlKeG90Yzg4MXZjTFRhV3FkVE5pc0FPNUN3ZDlHME8wZHM?oc=5": "2026-09-28T19:45:48.197949+00:00",
-  "https://rankmath.com/blog/free-vs-paid-wordpress-plugins": "2026-09-28T19:45:48.197949+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/google-unveils-september-demand-gen-updates": "2026-09-28T19:45:48.197949+00:00",
-  "https://ppcnewsfeed.com/ppc-news/2026-09/native-checkout-enabled-by-default-google-merchant-center": "2026-09-28T19:45:48.197949+00:00",
   "https://www.searchenginejournal.com/anthropic-claude-opus-5-5-prompting-guidance/591278": "2026-09-29T00:27:04.564189+00:00",
   "https://www.searchenginejournal.com/openai-engineer-users-wont-click-links-court-filing/591303": "2026-09-29T00:27:04.564189+00:00",
   "https://www.socialmediatoday.com/news/snapchat-launches-pitch-for-b2b-ad-spend/831559": "2026-09-29T00:27:04.564189+00:00",
@@ -5690,7 +5644,19 @@
   "https://www.mediar.cz/halina-pawlowska-a-josef-marsalek-spousteji-spolecny-podcast-s-radou-na-konec": "2026-11-27T14:01:31.829269+00:00",
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlI4aDF6YlJFTmpOc2w2SGhDWlB4TEVRQTFDY19VNURwN2MxdUhGclFTMkgyM3ZpelZwZGxfdGE0eG40Y1J6ZW9RenZJVFFrVmF4TlBoc01KbnNzU3pRUkpsck1ZTVVBNXBIVGpRZUJFUTRjM05CSDZEaU5xNXpQMmhkYzFZSE5Ra2g4WGZyVTB3MHVSRVJr?oc=5": "2026-11-27T14:01:31.829269+00:00",
   "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3Bub21NSmZVQWVQcFJDRnhhMFl2MU45NHQ0R2ZSdmV5NlI5UWRVOXRQWFhJaHN6d0hpMHhvS2JJZXdnZDE3RFFIS2JCQkZGeTdxdDNtREYyUE8wcC1ld3ltSElBZkFGZllDUGpZSVJxa014dWQ4anVhTlFyMlV0Y3NtRy14c2R3M2t4c0xPWW5LVWE3ei1RanMzVjhUTkYtNFd5OXA0cEMyYkItZ2tjTm5uT1BhZ1l5NGtmdGo4MGt2Wm56eGFRdHBVdkVMUQ?oc=5": "2026-11-27T14:01:31.829269+00:00",
-  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXZTFEeFRWSWJCaENJZUloTlpWdlBUbU94aWlJWDNzaENrcDllUHNmemVZa2NIdUdEXzBiejdEcFo2NHVPMGRTV0hoUkRiZFdXeHhLLXhJUHV1UmZNNHFSc2RuVlFUc2wzRFY1VnF1a3pMR0Q4aXpDX1dqekM?oc=5": "2026-11-27T14:01:31.829269+00:00"
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXZTFEeFRWSWJCaENJZUloTlpWdlBUbU94aWlJWDNzaENrcDllUHNmemVZa2NIdUdEXzBiejdEcFo2NHVPMGRTV0hoUkRiZFdXeHhLLXhJUHV1UmZNNHFSc2RuVlFUc2wzRFY1VnF1a3pMR0Q4aXpDX1dqekM?oc=5": "2026-11-27T14:01:31.829269+00:00",
+  "https://www.searchenginejournal.com/know-what-to-fix-before-scaling-ai-agents-for-aeo-in-2027/598837": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.searchenginejournal.com/google-404-guide-410-crawl-frequency/599287": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.searchenginejournal.com/google-adds-shopping-campaigns-to-promotion-mode-eligibility/599279": "2026-11-27T22:47:37.370759+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdU9SaE1Fclp5dDNaUHRmUXNZM0tjREJsdEJMbHdqa0ZsTGIzZ2ROU056TnhjLTBoWV9HZkJKRlUwTzhGd3hxeS1OdnBkWmg2dkY3em4wU2xpdGtoY2ZxTFE1U0tQd0ctSERLVjNYMEU4dzJWc25ZMjF6WUxOR0ZHVDFoODhhV0UyNV9wSnI3MjdOUlo4TXBhT0I4bGlPQmh2ekxMTERubm9FRFFuZEM0TDRINHFWRThLUVlJd2wxTnE?oc=5": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.seroundtable.com/google-404-and-sitemaps-docs-42634.html": "2026-11-27T22:47:37.370759+00:00",
+  "https://cc.cz/jako-nejlepsi-detektiv-na-svete-umela-inteligence-prohledala-zapadle-archivy-a-vyresila-200-let-starou-zahadu": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.semrush.com/blog/competitor-analysis-tools": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.mediaguru.cz/hbo-startuje-zazitkovou-aktivaci-ve-westfield-chodov-k-novemu-serialu-harry-potter": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.searchenginejournal.com/paid-search-has-an-ai-blind-spot-iab-blueprint-says-a-claim-is-not-credit/597307": "2026-11-27T22:47:37.370759+00:00",
+  "https://www.seroundtable.com/recap-11-27-2026-42630.html": "2026-11-27T22:47:37.370759+00:00",
+  "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSEduSG5SRzQzaU9PaDVVQmc1SGlvQjlEN0g3dmVfaDZfWnp1cUllZG5oQTBoUUZub3V4N2o4MS0zWTZhR3ZacEpaeUlPaFV4aGZFNXE4VzB5eS0wVDFWM2pRS282djJCYThrcFJjOW1mTnFxUUZGc0dKUkhhNHhlOV9nUFFKZkRkTTlLdm5hc0ZiakEwcms0VHlRdWtmWUlfd1VRTjRneWJoU3I4a1lGUGRLbDRvVFVqMS1rQmJMRGtfMURkQ243YkkwOWlLTG8?oc=5": "2026-11-27T22:47:37.370759+00:00",
+  "https://news.google.com/rss/articles/CBMizwFBVV95cUxONWk5bThwRnZGN3dhdzNRWEdhRXFnbHZGTFdEZklPM3JNVnpYdGNfdUpqVTVMZ3gzVlNEM2pITjJnZ2h2VHg3c1AzQkZFRzlzcjlQZVFWSEgyV2x2VnRXWC1lV2d0OFFIazJubEtzbjJ0dGpXc3hpLUhwd05iNUhsSDlISnJOMVgtT2dNa1JhZkhKMlVqTVgxSmQ0STlCcmlEeThIV0ZJY2RlX01rQXh6VFRRNjFVZDI2WU9LX0lVZFhURXZ3X192cURLLWUwdkk?oc=5": "2026-11-27T22:47:37.370759+00:00"
  },
  "events": [],
  "persona_rescore_v2": true,
